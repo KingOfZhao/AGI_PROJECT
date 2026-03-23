@@ -3728,6 +3728,560 @@ def get_go_pattern(pattern: str) -> Dict:
             "available": {k: v["name"] for k, v in GO_CONCURRENCY.items()}}
 
 
+# ==================== 38. Rust安全模式 (维度36) ====================
+
+RUST_PATTERNS = {
+    "ownership_borrow": {
+        "name": "所有权与借用",
+        "code": '''fn main() {
+    let s1 = String::from("hello");
+    let s2 = &s1; // 不可变借用
+    println!("{}", s2);
+
+    let mut s3 = String::from("hello");
+    let s4 = &mut s3; // 可变借用
+    s4.push_str(", world");
+
+    // 移动语义
+    let s5 = s1; // s1不再有效
+    // println!("{}", s1); // 编译错误!
+}
+
+fn take_ownership(s: String) { println!("{}", s); }
+fn borrow(s: &String) { println!("{}", s); }
+fn borrow_mut(s: &mut String) { s.push_str("!"); }
+''',
+    },
+    "lifetime": {
+        "name": "生命周期标注",
+        "code": '''// 显式生命周期
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+    if x.len() > y.len() { x } else { y }
+}
+
+// 结构体中的生命周期
+struct Important<'a> {
+    content: &'a str,
+}
+
+impl<'a> Important<'a> {
+    fn level(&self) -> usize { self.content.len() }
+}
+
+// 静态生命周期
+let s: &'static str = "I live forever";
+''',
+    },
+    "enum_pattern_match": {
+        "name": "枚举与模式匹配",
+        "code": '''#[derive(Debug)]
+enum Command {
+    Quit,
+    Echo(String),
+    Move { x: i32, y: i32 },
+    Color(u8, u8, u8),
+}
+
+fn process(cmd: Command) {
+    match cmd {
+        Command::Quit => println!("Quitting"),
+        Command::Echo(msg) => println!("{}", msg),
+        Command::Move { x, y } => println!("Moving to ({}, {})", x, y),
+        Command::Color(r, g, b) => println!("#{:02x}{:02x}{:02x}", r, g, b),
+    }
+}
+
+// if let简写
+if let Command::Echo(msg) = cmd {
+    println!("{}", msg);
+}
+''',
+    },
+    "error_handling": {
+        "name": "错误处理(Result/Option)",
+        "code": '''use std::fs;
+use std::io;
+
+#[derive(Debug)]
+enum AppError {
+    Io(io::Error),
+    Parse(std::num::ParseIntError),
+    Custom(String),
+}
+
+impl From<io::Error> for AppError {
+    fn from(e: io::Error) -> Self { AppError::Io(e) }
+}
+
+fn read_config(path: &str) -> Result<String, AppError> {
+    let content = fs::read_to_string(path)?; // ?自动转换
+    Ok(content)
+}
+
+// Option处理
+fn find_user(id: u32) -> Option<String> {
+    if id == 1 { Some("Alice".into()) } else { None }
+}
+let name = find_user(1).unwrap_or("Unknown".into());
+''',
+    },
+    "trait_impl": {
+        "name": "Trait与泛型",
+        "code": '''trait Summary {
+    fn summarize(&self) -> String;
+    fn default_summary(&self) -> String {
+        String::from("(Read more...)")
+    }
+}
+
+struct Article { title: String, content: String }
+
+impl Summary for Article {
+    fn summarize(&self) -> String {
+        format!("{}: {}...", self.title, &self.content[..20])
+    }
+}
+
+// 泛型约束
+fn notify(item: &impl Summary) { println!("{}", item.summarize()); }
+
+// where子句
+fn compare<T>(a: &T, b: &T) -> bool
+where T: PartialEq + std::fmt::Debug {
+    a == b
+}
+''',
+    },
+}
+
+
+def get_rust_pattern(pattern: str) -> Dict:
+    """获取Rust安全模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in RUST_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in RUST_PATTERNS:
+        p = RUST_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in RUST_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in RUST_PATTERNS.items()}}
+
+
+# ==================== 39. C# .NET模式 (维度37) ====================
+
+CSHARP_PATTERNS = {
+    "aspnet_controller": {
+        "name": "ASP.NET Core Controller",
+        "code": '''[ApiController]
+[Route("api/[controller]")]
+public class UsersController : ControllerBase
+{
+    private readonly IUserService _userService;
+
+    public UsersController(IUserService userService)
+    {
+        _userService = userService;
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<User>>> GetAll()
+    {
+        var users = await _userService.GetAllAsync();
+        return Ok(users);
+    }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<User>> GetById(int id)
+    {
+        var user = await _userService.GetByIdAsync(id);
+        if (user == null) return NotFound();
+        return Ok(user);
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<User>> Create([FromBody] CreateUserDto dto)
+    {
+        var user = await _userService.CreateAsync(dto);
+        return CreatedAtAction(nameof(GetById), new { id = user.Id }, user);
+    }
+}
+''',
+    },
+    "ef_core_model": {
+        "name": "EF Core Model + DbContext",
+        "code": '''public class User
+{
+    public int Id { get; set; }
+    [Required, MaxLength(100)]
+    public string Name { get; set; } = string.Empty;
+    [Required, EmailAddress]
+    public string Email { get; set; } = string.Empty;
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public ICollection<Order> Orders { get; set; } = new List<Order>();
+}
+
+public class AppDbContext : DbContext
+{
+    public DbSet<User> Users => Set<User>();
+    public DbSet<Order> Orders => Set<Order>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<User>(e => {
+            e.HasIndex(u => u.Email).IsUnique();
+            e.HasMany(u => u.Orders).WithOne(o => o.User);
+        });
+    }
+}
+''',
+    },
+    "linq_queries": {
+        "name": "LINQ查询",
+        "code": '''// 方法语法
+var adults = users.Where(u => u.Age >= 18)
+                  .OrderBy(u => u.Name)
+                  .Select(u => new { u.Name, u.Email })
+                  .ToList();
+
+// 查询语法
+var query = from u in users
+            where u.Age >= 18
+            orderby u.Name
+            select new { u.Name, u.Email };
+
+// 聚合
+var avgAge = users.Average(u => u.Age);
+var grouped = users.GroupBy(u => u.Department)
+                   .Select(g => new { Dept = g.Key, Count = g.Count() });
+
+// Join
+var joined = from u in users
+             join o in orders on u.Id equals o.UserId
+             select new { u.Name, o.Total };
+''',
+    },
+    "async_pattern": {
+        "name": "异步模式(async/await)",
+        "code": '''public class DataService
+{
+    private readonly HttpClient _httpClient;
+
+    public async Task<List<Item>> FetchAllAsync(CancellationToken ct = default)
+    {
+        var response = await _httpClient.GetAsync("/api/items", ct);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadFromJsonAsync<List<Item>>(ct)
+               ?? new List<Item>();
+    }
+
+    public async Task<Item[]> FetchParallelAsync(int[] ids)
+    {
+        var tasks = ids.Select(id => FetchByIdAsync(id));
+        return await Task.WhenAll(tasks);
+    }
+
+    public async IAsyncEnumerable<Item> StreamAsync(
+        [EnumeratorCancellation] CancellationToken ct = default)
+    {
+        await foreach (var item in _dbContext.Items.AsAsyncEnumerable())
+        {
+            ct.ThrowIfCancellationRequested();
+            yield return item;
+        }
+    }
+}
+''',
+    },
+    "di_service": {
+        "name": "依赖注入配置",
+        "code": '''// Program.cs
+var builder = WebApplication.CreateBuilder(args);
+
+// 注册服务
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddSingleton<ICacheService, RedisCacheService>();
+builder.Services.AddTransient<IEmailService, SmtpEmailService>();
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+
+// 中间件
+var app = builder.Build();
+app.UseAuthentication();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();
+
+// 接口定义
+public interface IUserService
+{
+    Task<User?> GetByIdAsync(int id);
+    Task<User> CreateAsync(CreateUserDto dto);
+}
+''',
+    },
+}
+
+
+def get_csharp_pattern(pattern: str) -> Dict:
+    """获取C# .NET模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in CSHARP_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in CSHARP_PATTERNS:
+        p = CSHARP_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in CSHARP_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in CSHARP_PATTERNS.items()}}
+
+
+# ==================== 40. 移动应用模式 (维度50) ====================
+
+MOBILE_PATTERNS = {
+    "flutter_stateful": {
+        "name": "Flutter StatefulWidget",
+        "platform": "flutter",
+        "code": '''class CounterPage extends StatefulWidget {
+  const CounterPage({super.key});
+
+  @override
+  State<CounterPage> createState() => _CounterPageState();
+}
+
+class _CounterPageState extends State<CounterPage> {
+  int _counter = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Counter')),
+      body: Center(
+        child: Text('$_counter', style: Theme.of(context).textTheme.headlineLarge),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => setState(() => _counter++),
+        child: const Icon(Icons.add),
+      ),
+    );
+  }
+}
+''',
+    },
+    "flutter_provider": {
+        "name": "Flutter Provider状态管理",
+        "platform": "flutter",
+        "code": '''class UserNotifier extends ChangeNotifier {
+  User? _user;
+  bool _loading = false;
+
+  User? get user => _user;
+  bool get loading => _loading;
+
+  Future<void> fetchUser(int id) async {
+    _loading = true;
+    notifyListeners();
+    try {
+      _user = await ApiService.getUser(id);
+    } finally {
+      _loading = false;
+      notifyListeners();
+    }
+  }
+}
+
+// main.dart
+void main() {
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => UserNotifier(),
+      child: const MyApp(),
+    ),
+  );
+}
+
+// 消费
+Consumer<UserNotifier>(
+  builder: (ctx, notifier, _) => notifier.loading
+      ? const CircularProgressIndicator()
+      : Text(notifier.user?.name ?? 'No user'),
+)
+''',
+    },
+    "flutter_http": {
+        "name": "Flutter HTTP请求",
+        "platform": "flutter",
+        "code": '''import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+class ApiService {
+  static const _baseUrl = 'https://api.example.com';
+
+  static Future<List<User>> getUsers() async {
+    final response = await http.get(Uri.parse('$_baseUrl/users'));
+    if (response.statusCode == 200) {
+      final List data = json.decode(response.body);
+      return data.map((e) => User.fromJson(e)).toList();
+    }
+    throw Exception('Failed: ${response.statusCode}');
+  }
+
+  static Future<User> createUser(Map<String, dynamic> body) async {
+    final response = await http.post(
+      Uri.parse('$_baseUrl/users'),
+      headers: {'Content-Type': 'application/json'},
+      body: json.encode(body),
+    );
+    if (response.statusCode == 201) {
+      return User.fromJson(json.decode(response.body));
+    }
+    throw Exception('Failed: ${response.statusCode}');
+  }
+}
+''',
+    },
+    "swiftui_view": {
+        "name": "SwiftUI View",
+        "platform": "ios",
+        "code": '''struct ContentView: View {
+    @State private var count = 0
+    @State private var items: [Item] = []
+    @State private var isLoading = false
+
+    var body: some View {
+        NavigationStack {
+            List(items) { item in
+                NavigationLink(destination: DetailView(item: item)) {
+                    HStack {
+                        Image(systemName: item.icon)
+                        Text(item.title)
+                        Spacer()
+                        Text("\\(item.count)")
+                            .foregroundColor(.secondary)
+                    }
+                }
+            }
+            .navigationTitle("Items (\\(count))")
+            .toolbar {
+                Button(action: { count += 1 }) {
+                    Image(systemName: "plus")
+                }
+            }
+            .task { await loadItems() }
+            .overlay {
+                if isLoading { ProgressView() }
+            }
+        }
+    }
+
+    func loadItems() async {
+        isLoading = true
+        defer { isLoading = false }
+        items = await ApiService.fetchItems()
+    }
+}
+''',
+    },
+    "swiftui_mvvm": {
+        "name": "SwiftUI MVVM模式",
+        "platform": "ios",
+        "code": '''@MainActor
+class UserViewModel: ObservableObject {
+    @Published var users: [User] = []
+    @Published var isLoading = false
+    @Published var errorMessage: String?
+
+    func fetchUsers() async {
+        isLoading = true
+        errorMessage = nil
+        do {
+            users = try await APIClient.shared.get("/users")
+        } catch {
+            errorMessage = error.localizedDescription
+        }
+        isLoading = false
+    }
+}
+
+struct UserListView: View {
+    @StateObject private var viewModel = UserViewModel()
+
+    var body: some View {
+        Group {
+            if viewModel.isLoading {
+                ProgressView()
+            } else if let error = viewModel.errorMessage {
+                Text(error).foregroundColor(.red)
+            } else {
+                List(viewModel.users) { user in
+                    Text(user.name)
+                }
+            }
+        }
+        .task { await viewModel.fetchUsers() }
+    }
+}
+''',
+    },
+}
+
+
+def get_mobile_pattern(pattern: str) -> Dict:
+    """获取移动应用开发模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in MOBILE_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in MOBILE_PATTERNS:
+        p = MOBILE_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "platform": p["platform"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in MOBILE_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in MOBILE_PATTERNS.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -4281,6 +4835,48 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_rust_pattern",
+            "description": "获取Rust安全模式。可用:ownership_borrow/lifetime/enum_pattern_match/error_handling/trait_impl。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_csharp_pattern",
+            "description": "获取C# .NET模式。可用:aspnet_controller/ef_core_model/linq_queries/async_pattern/di_service。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_mobile_pattern",
+            "description": "获取移动应用模式。可用:flutter_stateful/flutter_provider/flutter_http/swiftui_view/swiftui_mvvm。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -4421,4 +5017,7 @@ CODING_HANDLERS = {
     "get_jsts_snippet": lambda args: get_jsts_snippet(args.get("snippet", "")),
     "get_java_pattern": lambda args: get_java_pattern(args.get("pattern", "")),
     "get_go_pattern": lambda args: get_go_pattern(args.get("pattern", "")),
+    "get_rust_pattern": lambda args: get_rust_pattern(args.get("pattern", "")),
+    "get_csharp_pattern": lambda args: get_csharp_pattern(args.get("pattern", "")),
+    "get_mobile_pattern": lambda args: get_mobile_pattern(args.get("pattern", "")),
 }

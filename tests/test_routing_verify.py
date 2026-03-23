@@ -1745,3 +1745,158 @@ class TestRound14_JSTSJavaGo:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 15: Rust/C#/Mobile模式验证 ====================
+class TestRound15_RustCSharpMobile:
+    """第15轮: Rust安全模式/C# .NET模式/移动应用模式验证"""
+
+    def test_rust_ownership(self):
+        """dim36: 所有权与借用"""
+        from coding_enhancer import get_rust_pattern
+        result = get_rust_pattern("ownership_borrow")
+        assert result['success'] is True
+        assert 'String::from' in result['code']
+
+    def test_rust_lifetime(self):
+        """dim36: 生命周期"""
+        from coding_enhancer import get_rust_pattern
+        result = get_rust_pattern("lifetime")
+        assert result['success'] is True
+        assert "'a" in result['code']
+
+    def test_rust_enum_match(self):
+        """dim36: 枚举与模式匹配"""
+        from coding_enhancer import get_rust_pattern
+        result = get_rust_pattern("enum_pattern_match")
+        assert result['success'] is True
+        assert 'match' in result['code']
+
+    def test_rust_error(self):
+        """dim36: 错误处理"""
+        from coding_enhancer import get_rust_pattern
+        result = get_rust_pattern("error_handling")
+        assert result['success'] is True
+        assert 'Result<' in result['code']
+
+    def test_rust_trait(self):
+        """dim36: Trait与泛型"""
+        from coding_enhancer import get_rust_pattern
+        result = get_rust_pattern("trait_impl")
+        assert result['success'] is True
+        assert 'trait Summary' in result['code']
+
+    def test_rust_unknown(self):
+        """dim36: 未知模式返回错误"""
+        from coding_enhancer import get_rust_pattern
+        result = get_rust_pattern("unsafe_code")
+        assert result['success'] is False
+
+    def test_rust_count(self):
+        """dim36: Rust模式>=5个"""
+        from coding_enhancer import RUST_PATTERNS
+        assert len(RUST_PATTERNS) >= 5
+
+    def test_csharp_controller(self):
+        """dim37: ASP.NET Controller"""
+        from coding_enhancer import get_csharp_pattern
+        result = get_csharp_pattern("aspnet_controller")
+        assert result['success'] is True
+        assert '[ApiController]' in result['code']
+
+    def test_csharp_ef_core(self):
+        """dim37: EF Core Model"""
+        from coding_enhancer import get_csharp_pattern
+        result = get_csharp_pattern("ef_core_model")
+        assert result['success'] is True
+        assert 'DbContext' in result['code']
+
+    def test_csharp_linq(self):
+        """dim37: LINQ查询"""
+        from coding_enhancer import get_csharp_pattern
+        result = get_csharp_pattern("linq_queries")
+        assert result['success'] is True
+        assert 'Where' in result['code']
+
+    def test_csharp_async(self):
+        """dim37: 异步模式"""
+        from coding_enhancer import get_csharp_pattern
+        result = get_csharp_pattern("async_pattern")
+        assert result['success'] is True
+        assert 'async Task' in result['code']
+
+    def test_csharp_di(self):
+        """dim37: 依赖注入"""
+        from coding_enhancer import get_csharp_pattern
+        result = get_csharp_pattern("di_service")
+        assert result['success'] is True
+        assert 'AddScoped' in result['code']
+
+    def test_csharp_unknown(self):
+        """dim37: 未知模式返回错误"""
+        from coding_enhancer import get_csharp_pattern
+        result = get_csharp_pattern("blazor_component")
+        assert result['success'] is False
+
+    def test_csharp_count(self):
+        """dim37: C#模式>=5个"""
+        from coding_enhancer import CSHARP_PATTERNS
+        assert len(CSHARP_PATTERNS) >= 5
+
+    def test_mobile_flutter_stateful(self):
+        """dim50: Flutter StatefulWidget"""
+        from coding_enhancer import get_mobile_pattern
+        result = get_mobile_pattern("flutter_stateful")
+        assert result['success'] is True
+        assert 'StatefulWidget' in result['code']
+        assert result['platform'] == 'flutter'
+
+    def test_mobile_flutter_provider(self):
+        """dim50: Flutter Provider"""
+        from coding_enhancer import get_mobile_pattern
+        result = get_mobile_pattern("flutter_provider")
+        assert result['success'] is True
+        assert 'ChangeNotifier' in result['code']
+
+    def test_mobile_flutter_http(self):
+        """dim50: Flutter HTTP"""
+        from coding_enhancer import get_mobile_pattern
+        result = get_mobile_pattern("flutter_http")
+        assert result['success'] is True
+        assert 'http.get' in result['code']
+
+    def test_mobile_swiftui_view(self):
+        """dim50: SwiftUI View"""
+        from coding_enhancer import get_mobile_pattern
+        result = get_mobile_pattern("swiftui_view")
+        assert result['success'] is True
+        assert 'NavigationStack' in result['code']
+        assert result['platform'] == 'ios'
+
+    def test_mobile_swiftui_mvvm(self):
+        """dim50: SwiftUI MVVM"""
+        from coding_enhancer import get_mobile_pattern
+        result = get_mobile_pattern("swiftui_mvvm")
+        assert result['success'] is True
+        assert 'ObservableObject' in result['code']
+
+    def test_mobile_unknown(self):
+        """dim50: 未知模式返回错误"""
+        from coding_enhancer import get_mobile_pattern
+        result = get_mobile_pattern("kotlin_compose")
+        assert result['success'] is False
+
+    def test_mobile_count(self):
+        """dim50: 移动模式>=5个"""
+        from coding_enhancer import MOBILE_PATTERNS
+        assert len(MOBILE_PATTERNS) >= 5
+
+    def test_round15_tools_registered(self):
+        """所有Round15工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['get_rust_pattern', 'get_csharp_pattern', 'get_mobile_pattern']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"
