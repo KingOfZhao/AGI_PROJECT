@@ -958,3 +958,156 @@ class TestRound9_TypeUIStyle:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 10: API索引/可视化/算法模板验证 ====================
+class TestRound10_APIChartAlgo:
+    """第10轮: API索引/数据可视化/算法模板验证"""
+
+    def test_api_lookup_os(self):
+        """dim4: 查询os模块API"""
+        from coding_enhancer import lookup_api
+        result = lookup_api("os")
+        assert result['success'] is True
+        assert result['count'] >= 5
+        assert 'path.join' in result['functions']
+
+    def test_api_lookup_function(self):
+        """dim4: 精确查询函数"""
+        from coding_enhancer import lookup_api
+        result = lookup_api("json", "loads")
+        assert result['success'] is True
+        assert result['found'] is True
+        assert 'loads' in result['apis']
+
+    def test_api_lookup_pandas(self):
+        """dim4: 查询pandas API"""
+        from coding_enhancer import lookup_api
+        result = lookup_api("pandas")
+        assert result['success'] is True
+        assert 'DataFrame' in result['functions']
+
+    def test_api_lookup_unknown(self):
+        """dim4: 未知模块返回错误"""
+        from coding_enhancer import lookup_api
+        result = lookup_api("nonexistent_lib")
+        assert result['success'] is False
+        assert 'available_modules' in result
+
+    def test_api_lookup_empty(self):
+        """dim4: 空模块返回错误"""
+        from coding_enhancer import lookup_api
+        result = lookup_api("")
+        assert result['success'] is False
+
+    def test_api_index_count(self):
+        """dim4: API索引>=18个库"""
+        from coding_enhancer import STDLIB_API_INDEX
+        assert len(STDLIB_API_INDEX) >= 18
+
+    def test_chart_line(self):
+        """dim49: 折线图代码生成"""
+        from coding_enhancer import generate_chart_code
+        result = generate_chart_code("line", title="趋势图")
+        assert result['success'] is True
+        assert 'matplotlib' in result['code']
+        assert '趋势图' in result['code']
+        assert 'plot' in result['code']
+
+    def test_chart_bar(self):
+        """dim49: 柱状图代码生成"""
+        from coding_enhancer import generate_chart_code
+        result = generate_chart_code("bar")
+        assert result['success'] is True
+        assert 'bar' in result['code']
+
+    def test_chart_pie(self):
+        """dim49: 饼图代码生成"""
+        from coding_enhancer import generate_chart_code
+        result = generate_chart_code("pie")
+        assert result['success'] is True
+        assert 'pie' in result['code']
+
+    def test_chart_heatmap(self):
+        """dim49: 热力图代码生成"""
+        from coding_enhancer import generate_chart_code
+        result = generate_chart_code("heatmap")
+        assert result['success'] is True
+        assert 'imshow' in result['code']
+
+    def test_chart_unknown(self):
+        """dim49: 未知图表类型返回错误"""
+        from coding_enhancer import generate_chart_code
+        result = generate_chart_code("radar")
+        assert result['success'] is False
+        assert 'available' in result
+
+    def test_chart_templates_count(self):
+        """dim49: 图表模板>=5种"""
+        from coding_enhancer import CHART_TEMPLATES
+        assert len(CHART_TEMPLATES) >= 5
+
+    def test_algo_binary_search(self):
+        """dim54: 二分查找模板"""
+        from coding_enhancer import get_algorithm_template
+        result = get_algorithm_template("binary_search")
+        assert result['success'] is True
+        assert 'O(log n)' in result['complexity']['time']
+        assert 'def binary_search' in result['code']
+
+    def test_algo_bfs(self):
+        """dim54: BFS模板"""
+        from coding_enhancer import get_algorithm_template
+        result = get_algorithm_template("bfs")
+        assert result['success'] is True
+        assert 'O(V+E)' in result['complexity']['time']
+
+    def test_algo_dijkstra(self):
+        """dim54: Dijkstra模板"""
+        from coding_enhancer import get_algorithm_template
+        result = get_algorithm_template("dijkstra")
+        assert result['success'] is True
+        assert 'heapq' in result['code']
+
+    def test_algo_dp_knapsack(self):
+        """dim54: 背包DP模板"""
+        from coding_enhancer import get_algorithm_template
+        result = get_algorithm_template("dp_knapsack")
+        assert result['success'] is True
+        assert 'dp' in result['code']
+
+    def test_algo_trie(self):
+        """dim54: 字典树模板"""
+        from coding_enhancer import get_algorithm_template
+        result = get_algorithm_template("trie")
+        assert result['success'] is True
+        assert 'class Trie' in result['code']
+
+    def test_algo_union_find(self):
+        """dim54: 并查集模板"""
+        from coding_enhancer import get_algorithm_template
+        result = get_algorithm_template("union_find")
+        assert result['success'] is True
+        assert 'class UnionFind' in result['code']
+
+    def test_algo_unknown(self):
+        """dim54: 未知算法返回错误"""
+        from coding_enhancer import get_algorithm_template
+        result = get_algorithm_template("quantum_sort")
+        assert result['success'] is False
+        assert 'available' in result
+
+    def test_algo_templates_count(self):
+        """dim54: 算法模板>=8种"""
+        from coding_enhancer import ALGORITHM_TEMPLATES
+        assert len(ALGORITHM_TEMPLATES) >= 8
+
+    def test_round10_tools_registered(self):
+        """所有Round10工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['lookup_api', 'generate_chart_code', 'get_algorithm_template']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"

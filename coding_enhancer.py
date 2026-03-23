@@ -1761,6 +1761,389 @@ def learn_code_style(code: str) -> Dict:
     }
 
 
+# ==================== 23. 常用库API索引与补全 (维度4/BigCodeBench) ====================
+
+STDLIB_API_INDEX = {
+    "os": {"path.join": "str", "path.exists": "bool", "listdir": "List[str]", "makedirs": "None", "environ": "dict", "getcwd": "str", "remove": "None"},
+    "json": {"loads": "Any", "dumps": "str", "load": "Any", "dump": "None"},
+    "re": {"findall": "List[str]", "match": "Optional[Match]", "sub": "str", "search": "Optional[Match]", "compile": "Pattern", "split": "List[str]"},
+    "pathlib": {"Path": "Path", "Path.read_text": "str", "Path.write_text": "int", "Path.exists": "bool", "Path.mkdir": "None", "Path.glob": "Generator"},
+    "collections": {"defaultdict": "defaultdict", "Counter": "Counter", "OrderedDict": "OrderedDict", "deque": "deque", "namedtuple": "type"},
+    "itertools": {"chain": "Iterator", "product": "Iterator", "combinations": "Iterator", "permutations": "Iterator", "groupby": "Iterator", "islice": "Iterator"},
+    "functools": {"lru_cache": "Callable", "partial": "partial", "reduce": "Any", "wraps": "Callable", "cached_property": "property"},
+    "typing": {"List": "type", "Dict": "type", "Optional": "type", "Union": "type", "Tuple": "type", "Any": "type", "Callable": "type"},
+    "datetime": {"datetime.now": "datetime", "datetime.strftime": "str", "timedelta": "timedelta", "date.today": "date"},
+    "sqlite3": {"connect": "Connection", "Connection.cursor": "Cursor", "Cursor.execute": "Cursor", "Cursor.fetchall": "List[tuple]"},
+    "subprocess": {"run": "CompletedProcess", "Popen": "Popen", "check_output": "bytes", "PIPE": "int"},
+    "hashlib": {"sha256": "hash", "md5": "hash", "sha1": "hash"},
+    "requests": {"get": "Response", "post": "Response", "put": "Response", "delete": "Response", "Session": "Session"},
+    "flask": {"Flask": "Flask", "jsonify": "Response", "request": "Request", "Blueprint": "Blueprint", "render_template": "str"},
+    "pytest": {"fixture": "decorator", "mark.parametrize": "decorator", "raises": "context_manager", "approx": "ApproxBase"},
+    "pandas": {"DataFrame": "DataFrame", "read_csv": "DataFrame", "read_json": "DataFrame", "Series": "Series", "concat": "DataFrame", "merge": "DataFrame"},
+    "numpy": {"array": "ndarray", "zeros": "ndarray", "ones": "ndarray", "arange": "ndarray", "linspace": "ndarray", "reshape": "ndarray"},
+    "logging": {"getLogger": "Logger", "basicConfig": "None", "debug": "None", "info": "None", "warning": "None", "error": "None", "FileHandler": "FileHandler"},
+}
+
+
+def lookup_api(module: str, function: str = "") -> Dict:
+    """查询常用库API:返回函数签名、返回类型、使用示例"""
+    if not module:
+        return {"success": False, "error": "需要提供模块名", "available_modules": list(STDLIB_API_INDEX.keys())}
+
+    module = module.lower().strip()
+    if module not in STDLIB_API_INDEX:
+        # 模糊匹配
+        matches = [m for m in STDLIB_API_INDEX if module in m]
+        if matches:
+            return {"success": False, "error": f"未找到'{module}', 你是否想查询: {matches}"}
+        return {"success": False, "error": f"未找到模块: {module}", "available_modules": list(STDLIB_API_INDEX.keys())}
+
+    apis = STDLIB_API_INDEX[module]
+
+    if function:
+        function = function.strip()
+        matching = {k: v for k, v in apis.items() if function.lower() in k.lower()}
+        if not matching:
+            return {"success": True, "module": module, "function": function, "found": False,
+                    "available_functions": list(apis.keys())}
+        return {"success": True, "module": module, "function": function, "found": True,
+                "apis": matching, "count": len(matching)}
+
+    return {
+        "success": True,
+        "module": module,
+        "apis": apis,
+        "count": len(apis),
+        "functions": list(apis.keys()),
+    }
+
+
+# ==================== 24. 数据可视化代码生成 (维度49) ====================
+
+CHART_TEMPLATES = {
+    "line": {
+        "description": "折线图 - 趋势变化",
+        "code": '''import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.plot({x_data}, {y_data}, marker='o', linewidth=2, label='{label}')
+ax.set_xlabel('{x_label}')
+ax.set_ylabel('{y_label}')
+ax.set_title('{title}')
+ax.legend()
+ax.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.savefig('{output}')
+plt.show()
+''',
+    },
+    "bar": {
+        "description": "柱状图 - 分类对比",
+        "code": '''import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(10, 6))
+colors = ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6']
+ax.bar({categories}, {values}, color=colors[:len({categories})])
+ax.set_xlabel('{x_label}')
+ax.set_ylabel('{y_label}')
+ax.set_title('{title}')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.savefig('{output}')
+plt.show()
+''',
+    },
+    "pie": {
+        "description": "饼图 - 占比分析",
+        "code": '''import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(8, 8))
+colors = ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899']
+ax.pie({values}, labels={labels}, autopct='%1.1f%%', colors=colors[:len({values})],
+       startangle=90, shadow=True)
+ax.set_title('{title}')
+plt.tight_layout()
+plt.savefig('{output}')
+plt.show()
+''',
+    },
+    "scatter": {
+        "description": "散点图 - 相关性分析",
+        "code": '''import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.scatter({x_data}, {y_data}, alpha=0.6, edgecolors='black', linewidth=0.5)
+ax.set_xlabel('{x_label}')
+ax.set_ylabel('{y_label}')
+ax.set_title('{title}')
+ax.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.savefig('{output}')
+plt.show()
+''',
+    },
+    "heatmap": {
+        "description": "热力图 - 矩阵数据",
+        "code": '''import matplotlib.pyplot as plt
+import numpy as np
+
+data = np.array({data})
+fig, ax = plt.subplots(figsize=(10, 8))
+im = ax.imshow(data, cmap='YlOrRd', aspect='auto')
+fig.colorbar(im)
+ax.set_title('{title}')
+ax.set_xlabel('{x_label}')
+ax.set_ylabel('{y_label}')
+plt.tight_layout()
+plt.savefig('{output}')
+plt.show()
+''',
+    },
+}
+
+
+def generate_chart_code(chart_type: str, **params) -> Dict:
+    """生成数据可视化代码(matplotlib)"""
+    if chart_type not in CHART_TEMPLATES:
+        return {"success": False, "error": f"未知图表类型: {chart_type}",
+                "available": {k: v["description"] for k, v in CHART_TEMPLATES.items()}}
+
+    tpl = CHART_TEMPLATES[chart_type]
+    code = tpl["code"]
+
+    defaults = {"title": "Chart", "x_label": "X", "y_label": "Y", "label": "data",
+                "output": "chart.png", "x_data": "[1,2,3,4,5]", "y_data": "[10,20,15,25,30]",
+                "categories": "['A','B','C','D']", "values": "[25,40,30,55]",
+                "labels": "['A','B','C','D']", "data": "[[1,2],[3,4]]"}
+    merged = {**defaults, **params}
+
+    for key, value in merged.items():
+        code = code.replace('{' + key + '}', str(value))
+
+    return {
+        "success": True,
+        "chart_type": chart_type,
+        "description": tpl["description"],
+        "code": code,
+        "params_used": {k: v for k, v in merged.items() if k in params},
+        "line_count": len(code.split('\n')),
+    }
+
+
+# ==================== 25. 算法模板库与复杂度分析 (维度54) ====================
+
+ALGORITHM_TEMPLATES = {
+    "binary_search": {
+        "name": "二分查找",
+        "complexity": {"time": "O(log n)", "space": "O(1)"},
+        "code": '''def binary_search(arr, target):
+    """二分查找 - O(log n)"""
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+''',
+    },
+    "bfs": {
+        "name": "广度优先搜索",
+        "complexity": {"time": "O(V+E)", "space": "O(V)"},
+        "code": '''from collections import deque
+
+def bfs(graph, start):
+    """BFS - O(V+E)"""
+    visited = set([start])
+    queue = deque([start])
+    result = []
+    while queue:
+        node = queue.popleft()
+        result.append(node)
+        for neighbor in graph.get(node, []):
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)
+    return result
+''',
+    },
+    "dfs": {
+        "name": "深度优先搜索",
+        "complexity": {"time": "O(V+E)", "space": "O(V)"},
+        "code": '''def dfs(graph, start, visited=None):
+    """DFS - O(V+E)"""
+    if visited is None:
+        visited = set()
+    visited.add(start)
+    result = [start]
+    for neighbor in graph.get(start, []):
+        if neighbor not in visited:
+            result.extend(dfs(graph, neighbor, visited))
+    return result
+''',
+    },
+    "dp_knapsack": {
+        "name": "0-1背包",
+        "complexity": {"time": "O(nW)", "space": "O(nW)"},
+        "code": '''def knapsack(weights, values, capacity):
+    """0-1背包 - O(nW)"""
+    n = len(weights)
+    dp = [[0] * (capacity + 1) for _ in range(n + 1)]
+    for i in range(1, n + 1):
+        for w in range(capacity + 1):
+            dp[i][w] = dp[i-1][w]
+            if weights[i-1] <= w:
+                dp[i][w] = max(dp[i][w], dp[i-1][w-weights[i-1]] + values[i-1])
+    return dp[n][capacity]
+''',
+    },
+    "dijkstra": {
+        "name": "Dijkstra最短路径",
+        "complexity": {"time": "O((V+E)logV)", "space": "O(V)"},
+        "code": '''import heapq
+
+def dijkstra(graph, start):
+    """Dijkstra - O((V+E)logV)"""
+    dist = {start: 0}
+    heap = [(0, start)]
+    while heap:
+        d, u = heapq.heappop(heap)
+        if d > dist.get(u, float('inf')):
+            continue
+        for v, w in graph.get(u, []):
+            nd = d + w
+            if nd < dist.get(v, float('inf')):
+                dist[v] = nd
+                heapq.heappush(heap, (nd, v))
+    return dist
+''',
+    },
+    "merge_sort": {
+        "name": "归并排序",
+        "complexity": {"time": "O(n log n)", "space": "O(n)"},
+        "code": '''def merge_sort(arr):
+    """归并排序 - O(n log n)"""
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+''',
+    },
+    "trie": {
+        "name": "字典树/前缀树",
+        "complexity": {"time": "O(L) per op", "space": "O(N*L)"},
+        "code": '''class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.is_end = False
+
+class Trie:
+    """Trie - O(L) per operation"""
+    def __init__(self):
+        self.root = TrieNode()
+
+    def insert(self, word):
+        node = self.root
+        for ch in word:
+            if ch not in node.children:
+                node.children[ch] = TrieNode()
+            node = node.children[ch]
+        node.is_end = True
+
+    def search(self, word):
+        node = self.root
+        for ch in word:
+            if ch not in node.children:
+                return False
+            node = node.children[ch]
+        return node.is_end
+
+    def starts_with(self, prefix):
+        node = self.root
+        for ch in prefix:
+            if ch not in node.children:
+                return False
+            node = node.children[ch]
+        return True
+''',
+    },
+    "union_find": {
+        "name": "并查集",
+        "complexity": {"time": "O(α(n)) ≈ O(1)", "space": "O(n)"},
+        "code": '''class UnionFind:
+    """并查集 - 路径压缩+按秩合并"""
+    def __init__(self, n):
+        self.parent = list(range(n))
+        self.rank = [0] * n
+
+    def find(self, x):
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+
+    def union(self, x, y):
+        px, py = self.find(x), self.find(y)
+        if px == py:
+            return False
+        if self.rank[px] < self.rank[py]:
+            px, py = py, px
+        self.parent[py] = px
+        if self.rank[px] == self.rank[py]:
+            self.rank[px] += 1
+        return True
+''',
+    },
+}
+
+
+def get_algorithm_template(algorithm: str) -> Dict:
+    """获取算法模板:代码+复杂度分析"""
+    if not algorithm:
+        return {"success": False, "error": "需要提供算法名称",
+                "available": {k: v["name"] for k, v in ALGORITHM_TEMPLATES.items()}}
+
+    algorithm = algorithm.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if algorithm in ALGORITHM_TEMPLATES:
+        tpl = ALGORITHM_TEMPLATES[algorithm]
+        return {
+            "success": True,
+            "algorithm": algorithm,
+            "name": tpl["name"],
+            "complexity": tpl["complexity"],
+            "code": tpl["code"],
+            "line_count": len(tpl["code"].split('\n')),
+        }
+
+    # 模糊匹配
+    matches = {k: v["name"] for k, v in ALGORITHM_TEMPLATES.items()
+               if algorithm in k or algorithm in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{algorithm}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到算法: {algorithm}",
+            "available": {k: v["name"] for k, v in ALGORITHM_TEMPLATES.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -2095,6 +2478,52 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "lookup_api",
+            "description": "查询常用Python库API索引(18个库):返回函数名+返回类型。支持模糊匹配。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "module": {"type": "string", "description": "模块名(os/json/re/pandas/numpy等)"},
+                    "function": {"type": "string", "description": "函数名(可选,用于精确查询)"}
+                },
+                "required": ["module"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "generate_chart_code",
+            "description": "生成matplotlib数据可视化代码。图表类型:line/bar/pie/scatter/heatmap。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "chart_type": {"type": "string", "description": "图表类型(line/bar/pie/scatter/heatmap)"},
+                    "title": {"type": "string", "description": "图表标题"},
+                    "x_data": {"type": "string", "description": "X轴数据"},
+                    "y_data": {"type": "string", "description": "Y轴数据"}
+                },
+                "required": ["chart_type"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_algorithm_template",
+            "description": "获取算法模板+复杂度分析。可用:binary_search/bfs/dfs/dp_knapsack/dijkstra/merge_sort/trie/union_find。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "algorithm": {"type": "string", "description": "算法名称"}
+                },
+                "required": ["algorithm"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -2220,4 +2649,7 @@ CODING_HANDLERS = {
     "enforce_type_hints": lambda args: enforce_type_hints(args.get("code", "")),
     "generate_ui_component": lambda args: generate_ui_component(args.get("component_type", ""), **{k: v for k, v in args.items() if k != "component_type"}),
     "learn_code_style": lambda args: learn_code_style(args.get("code", "")),
+    "lookup_api": lambda args: lookup_api(args.get("module", ""), args.get("function", "")),
+    "generate_chart_code": lambda args: generate_chart_code(args.get("chart_type", ""), **{k: v for k, v in args.items() if k != "chart_type"}),
+    "get_algorithm_template": lambda args: get_algorithm_template(args.get("algorithm", "")),
 }
