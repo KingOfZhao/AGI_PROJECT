@@ -4282,6 +4282,446 @@ def get_mobile_pattern(pattern: str) -> Dict:
             "available": {k: v["name"] for k, v in MOBILE_PATTERNS.items()}}
 
 
+# ==================== 41. 桌面应用模式 (维度51) ====================
+
+DESKTOP_PATTERNS = {
+    "electron_main": {
+        "name": "Electron主进程",
+        "platform": "electron",
+        "code": '''const { app, BrowserWindow, ipcMain } = require('electron');
+const path = require('path');
+
+let mainWindow;
+
+function createWindow() {
+  mainWindow = new BrowserWindow({
+    width: 1200, height: 800,
+    webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),
+      contextIsolation: true,
+      nodeIntegration: false,
+    },
+  });
+  mainWindow.loadFile('index.html');
+}
+
+app.whenReady().then(createWindow);
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit();
+});
+
+// IPC通信
+ipcMain.handle('read-file', async (event, filePath) => {
+  const fs = require('fs').promises;
+  return await fs.readFile(filePath, 'utf-8');
+});
+''',
+    },
+    "electron_preload": {
+        "name": "Electron Preload安全桥接",
+        "platform": "electron",
+        "code": '''const { contextBridge, ipcRenderer } = require('electron');
+
+contextBridge.exposeInMainWorld('electronAPI', {
+  readFile: (path) => ipcRenderer.invoke('read-file', path),
+  onUpdateAvailable: (callback) =>
+    ipcRenderer.on('update-available', (_event, info) => callback(info)),
+  platform: process.platform,
+  versions: {
+    node: process.versions.node,
+    chrome: process.versions.chrome,
+    electron: process.versions.electron,
+  },
+});
+''',
+    },
+    "tauri_command": {
+        "name": "Tauri后端命令",
+        "platform": "tauri",
+        "code": '''use tauri::command;
+use std::fs;
+
+#[command]
+fn read_file(path: String) -> Result<String, String> {
+    fs::read_to_string(&path).map_err(|e| e.to_string())
+}
+
+#[command]
+fn greet(name: &str) -> String {
+    format!("Hello, {}! You've been greeted from Rust!", name)
+}
+
+fn main() {
+    tauri::Builder::default()
+        .invoke_handler(tauri::generate_handler![read_file, greet])
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
+}
+''',
+    },
+    "tauri_frontend": {
+        "name": "Tauri前端调用",
+        "platform": "tauri",
+        "code": '''import { invoke } from '@tauri-apps/api/tauri';
+import { open } from '@tauri-apps/api/dialog';
+import { readTextFile } from '@tauri-apps/api/fs';
+
+async function greetUser() {
+  const greeting = await invoke('greet', { name: 'World' });
+  console.log(greeting);
+}
+
+async function openFile() {
+  const selected = await open({
+    multiple: false,
+    filters: [{ name: 'Text', extensions: ['txt', 'md'] }],
+  });
+  if (selected) {
+    const content = await readTextFile(selected as string);
+    console.log(content);
+  }
+}
+''',
+    },
+}
+
+
+def get_desktop_pattern(pattern: str) -> Dict:
+    """获取桌面应用模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in DESKTOP_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in DESKTOP_PATTERNS:
+        p = DESKTOP_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "platform": p["platform"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in DESKTOP_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in DESKTOP_PATTERNS.items()}}
+
+
+# ==================== 42. WebAssembly模式 (维度52) ====================
+
+WASM_PATTERNS = {
+    "rust_wasm_basic": {
+        "name": "Rust→WASM基础",
+        "code": '''use wasm_bindgen::prelude::*;
+
+#[wasm_bindgen]
+pub fn add(a: i32, b: i32) -> i32 {
+    a + b
+}
+
+#[wasm_bindgen]
+pub fn fibonacci(n: u32) -> u32 {
+    match n {
+        0 => 0,
+        1 => 1,
+        _ => fibonacci(n - 1) + fibonacci(n - 2),
+    }
+}
+
+// 构建: wasm-pack build --target web
+''',
+    },
+    "wasm_js_interop": {
+        "name": "WASM-JS互操作",
+        "code": '''use wasm_bindgen::prelude::*;
+
+// 调用JS函数
+#[wasm_bindgen]
+extern "C" {
+    #[wasm_bindgen(js_namespace = console)]
+    fn log(s: &str);
+
+    #[wasm_bindgen(js_namespace = Math)]
+    fn random() -> f64;
+}
+
+// 导出给JS
+#[wasm_bindgen]
+pub struct ImageProcessor {
+    width: u32,
+    height: u32,
+    pixels: Vec<u8>,
+}
+
+#[wasm_bindgen]
+impl ImageProcessor {
+    #[wasm_bindgen(constructor)]
+    pub fn new(width: u32, height: u32) -> Self {
+        Self { width, height, pixels: vec![0; (width * height * 4) as usize] }
+    }
+
+    pub fn grayscale(&mut self) {
+        for chunk in self.pixels.chunks_mut(4) {
+            let avg = (chunk[0] as u16 + chunk[1] as u16 + chunk[2] as u16) / 3;
+            chunk[0] = avg as u8;
+            chunk[1] = avg as u8;
+            chunk[2] = avg as u8;
+        }
+    }
+}
+''',
+    },
+    "wasm_js_load": {
+        "name": "JS加载WASM模块",
+        "code": '''// 方式1: wasm-pack生成的模块
+import init, { add, fibonacci, ImageProcessor } from './pkg/my_wasm.js';
+
+async function main() {
+  await init(); // 初始化WASM模块
+  console.log(add(1, 2)); // 3
+  console.log(fibonacci(10)); // 55
+
+  const processor = new ImageProcessor(800, 600);
+  processor.grayscale();
+}
+main();
+
+// 方式2: 原生WebAssembly API
+const response = await fetch('module.wasm');
+const bytes = await response.arrayBuffer();
+const { instance } = await WebAssembly.instantiate(bytes, {
+  env: { memory: new WebAssembly.Memory({ initial: 256 }) }
+});
+console.log(instance.exports.add(1, 2));
+''',
+    },
+    "wasm_wat_text": {
+        "name": "WAT文本格式",
+        "code": '''(module
+  ;; 导入JS console.log
+  (import "console" "log" (func $log (param i32)))
+
+  ;; 内存
+  (memory (export "memory") 1)
+
+  ;; 加法函数
+  (func $add (export "add") (param $a i32) (param $b i32) (result i32)
+    local.get $a
+    local.get $b
+    i32.add
+  )
+
+  ;; 阶乘
+  (func $factorial (export "factorial") (param $n i32) (result i32)
+    (if (i32.le_s (local.get $n) (i32.const 1))
+      (then (return (i32.const 1)))
+    )
+    (i32.mul
+      (local.get $n)
+      (call $factorial (i32.sub (local.get $n) (i32.const 1)))
+    )
+  )
+)
+''',
+    },
+}
+
+
+def get_wasm_pattern(pattern: str) -> Dict:
+    """获取WebAssembly模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in WASM_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in WASM_PATTERNS:
+        p = WASM_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in WASM_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in WASM_PATTERNS.items()}}
+
+
+# ==================== 43. 游戏引擎模式 (维度53) ====================
+
+GAME_ENGINE_PATTERNS = {
+    "unity_monobehaviour": {
+        "name": "Unity MonoBehaviour",
+        "engine": "unity",
+        "code": '''using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float jumpForce = 10f;
+    private Rigidbody2D rb;
+    private bool isGrounded;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        float moveX = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
+
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isGrounded = false;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+            isGrounded = true;
+    }
+}
+''',
+    },
+    "unity_scriptable_object": {
+        "name": "Unity ScriptableObject",
+        "engine": "unity",
+        "code": '''using UnityEngine;
+
+[CreateAssetMenu(fileName = "NewWeapon", menuName = "Game/Weapon")]
+public class WeaponData : ScriptableObject
+{
+    public string weaponName;
+    public int damage;
+    public float attackSpeed;
+    public Sprite icon;
+    public AudioClip attackSound;
+
+    public float DPS => damage * attackSpeed;
+}
+
+// 使用
+public class WeaponSystem : MonoBehaviour
+{
+    [SerializeField] private WeaponData currentWeapon;
+
+    public void Attack()
+    {
+        Debug.Log($"Attacking with {currentWeapon.weaponName} for {currentWeapon.damage} damage");
+        AudioSource.PlayClipAtPoint(currentWeapon.attackSound, transform.position);
+    }
+}
+''',
+    },
+    "godot_gdscript": {
+        "name": "Godot GDScript",
+        "engine": "godot",
+        "code": '''extends CharacterBody2D
+
+@export var speed: float = 200.0
+@export var jump_velocity: float = -400.0
+
+var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
+
+func _physics_process(delta):
+    if not is_on_floor():
+        velocity.y += gravity * delta
+
+    if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+        velocity.y = jump_velocity
+
+    var direction = Input.get_axis("ui_left", "ui_right")
+    if direction:
+        velocity.x = direction * speed
+    else:
+        velocity.x = move_toward(velocity.x, 0, speed)
+
+    move_and_slide()
+
+func take_damage(amount: int) -> void:
+    $HealthComponent.health -= amount
+    if $HealthComponent.health <= 0:
+        queue_free()
+''',
+    },
+    "godot_signals": {
+        "name": "Godot信号系统",
+        "engine": "godot",
+        "code": '''extends Node
+
+signal health_changed(new_health: int)
+signal player_died
+
+@export var max_health: int = 100
+var current_health: int = max_health
+
+func take_damage(amount: int) -> void:
+    current_health = max(0, current_health - amount)
+    health_changed.emit(current_health)
+    if current_health == 0:
+        player_died.emit()
+
+# 连接信号
+func _ready():
+    health_changed.connect(_on_health_changed)
+    player_died.connect(_on_player_died)
+
+func _on_health_changed(new_health: int) -> void:
+    $HealthBar.value = new_health
+
+func _on_player_died() -> void:
+    get_tree().reload_current_scene()
+''',
+    },
+}
+
+
+def get_game_pattern(pattern: str) -> Dict:
+    """获取游戏引擎模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in GAME_ENGINE_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in GAME_ENGINE_PATTERNS:
+        p = GAME_ENGINE_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "engine": p["engine"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in GAME_ENGINE_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in GAME_ENGINE_PATTERNS.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -4877,6 +5317,48 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_desktop_pattern",
+            "description": "获取桌面应用模式。可用:electron_main/electron_preload/tauri_command/tauri_frontend。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_wasm_pattern",
+            "description": "获取WebAssembly模式。可用:rust_wasm_basic/wasm_js_interop/wasm_js_load/wasm_wat_text。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_game_pattern",
+            "description": "获取游戏引擎模式。可用:unity_monobehaviour/unity_scriptable_object/godot_gdscript/godot_signals。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -5020,4 +5502,7 @@ CODING_HANDLERS = {
     "get_rust_pattern": lambda args: get_rust_pattern(args.get("pattern", "")),
     "get_csharp_pattern": lambda args: get_csharp_pattern(args.get("pattern", "")),
     "get_mobile_pattern": lambda args: get_mobile_pattern(args.get("pattern", "")),
+    "get_desktop_pattern": lambda args: get_desktop_pattern(args.get("pattern", "")),
+    "get_wasm_pattern": lambda args: get_wasm_pattern(args.get("pattern", "")),
+    "get_game_pattern": lambda args: get_game_pattern(args.get("pattern", "")),
 }

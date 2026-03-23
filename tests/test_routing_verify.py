@@ -1900,3 +1900,139 @@ class TestRound15_RustCSharpMobile:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 16: 桌面应用/WebAssembly/游戏引擎验证 ====================
+class TestRound16_DesktopWasmGame:
+    """第16轮: 桌面应用/WebAssembly/游戏引擎模式验证"""
+
+    def test_desktop_electron_main(self):
+        """dim51: Electron主进程"""
+        from coding_enhancer import get_desktop_pattern
+        result = get_desktop_pattern("electron_main")
+        assert result['success'] is True
+        assert 'BrowserWindow' in result['code']
+        assert result['platform'] == 'electron'
+
+    def test_desktop_electron_preload(self):
+        """dim51: Electron Preload"""
+        from coding_enhancer import get_desktop_pattern
+        result = get_desktop_pattern("electron_preload")
+        assert result['success'] is True
+        assert 'contextBridge' in result['code']
+
+    def test_desktop_tauri_command(self):
+        """dim51: Tauri后端命令"""
+        from coding_enhancer import get_desktop_pattern
+        result = get_desktop_pattern("tauri_command")
+        assert result['success'] is True
+        assert '#[command]' in result['code']
+        assert result['platform'] == 'tauri'
+
+    def test_desktop_tauri_frontend(self):
+        """dim51: Tauri前端调用"""
+        from coding_enhancer import get_desktop_pattern
+        result = get_desktop_pattern("tauri_frontend")
+        assert result['success'] is True
+        assert 'invoke' in result['code']
+
+    def test_desktop_unknown(self):
+        """dim51: 未知模式返回错误"""
+        from coding_enhancer import get_desktop_pattern
+        result = get_desktop_pattern("qt_widget")
+        assert result['success'] is False
+
+    def test_desktop_count(self):
+        """dim51: 桌面模式>=4个"""
+        from coding_enhancer import DESKTOP_PATTERNS
+        assert len(DESKTOP_PATTERNS) >= 4
+
+    def test_wasm_rust_basic(self):
+        """dim52: Rust→WASM基础"""
+        from coding_enhancer import get_wasm_pattern
+        result = get_wasm_pattern("rust_wasm_basic")
+        assert result['success'] is True
+        assert 'wasm_bindgen' in result['code']
+
+    def test_wasm_js_interop(self):
+        """dim52: WASM-JS互操作"""
+        from coding_enhancer import get_wasm_pattern
+        result = get_wasm_pattern("wasm_js_interop")
+        assert result['success'] is True
+        assert 'ImageProcessor' in result['code']
+
+    def test_wasm_js_load(self):
+        """dim52: JS加载WASM"""
+        from coding_enhancer import get_wasm_pattern
+        result = get_wasm_pattern("wasm_js_load")
+        assert result['success'] is True
+        assert 'WebAssembly' in result['code']
+
+    def test_wasm_wat(self):
+        """dim52: WAT文本格式"""
+        from coding_enhancer import get_wasm_pattern
+        result = get_wasm_pattern("wasm_wat_text")
+        assert result['success'] is True
+        assert '(module' in result['code']
+
+    def test_wasm_unknown(self):
+        """dim52: 未知模式返回错误"""
+        from coding_enhancer import get_wasm_pattern
+        result = get_wasm_pattern("assemblyscript")
+        assert result['success'] is False
+
+    def test_wasm_count(self):
+        """dim52: WASM模式>=4个"""
+        from coding_enhancer import WASM_PATTERNS
+        assert len(WASM_PATTERNS) >= 4
+
+    def test_game_unity_mono(self):
+        """dim53: Unity MonoBehaviour"""
+        from coding_enhancer import get_game_pattern
+        result = get_game_pattern("unity_monobehaviour")
+        assert result['success'] is True
+        assert 'MonoBehaviour' in result['code']
+        assert result['engine'] == 'unity'
+
+    def test_game_unity_so(self):
+        """dim53: Unity ScriptableObject"""
+        from coding_enhancer import get_game_pattern
+        result = get_game_pattern("unity_scriptable_object")
+        assert result['success'] is True
+        assert 'ScriptableObject' in result['code']
+
+    def test_game_godot_gdscript(self):
+        """dim53: Godot GDScript"""
+        from coding_enhancer import get_game_pattern
+        result = get_game_pattern("godot_gdscript")
+        assert result['success'] is True
+        assert 'CharacterBody2D' in result['code']
+        assert result['engine'] == 'godot'
+
+    def test_game_godot_signals(self):
+        """dim53: Godot信号系统"""
+        from coding_enhancer import get_game_pattern
+        result = get_game_pattern("godot_signals")
+        assert result['success'] is True
+        assert 'signal' in result['code']
+
+    def test_game_unknown(self):
+        """dim53: 未知模式返回错误"""
+        from coding_enhancer import get_game_pattern
+        result = get_game_pattern("unreal_blueprint")
+        assert result['success'] is False
+
+    def test_game_count(self):
+        """dim53: 游戏模式>=4个"""
+        from coding_enhancer import GAME_ENGINE_PATTERNS
+        assert len(GAME_ENGINE_PATTERNS) >= 4
+
+    def test_round16_tools_registered(self):
+        """所有Round16工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['get_desktop_pattern', 'get_wasm_pattern', 'get_game_pattern']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"
