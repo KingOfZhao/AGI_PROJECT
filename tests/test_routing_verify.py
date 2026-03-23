@@ -510,3 +510,126 @@ class TestRound6_ToolExpansion:
         tool_names = [t['function']['name'] for t in CODING_TOOLS]
         for tool in new_tools:
             assert tool in tool_names, f"Missing schema: {tool}"
+
+
+# ==================== Round 7: 效率/需求/架构工具验证 ====================
+class TestRound7_EfficiencyTools:
+    """第7轮: Token效率/需求→骨架/ADR生成器验证"""
+
+    def test_token_efficiency_basic(self):
+        """dim59: 基本token估算"""
+        from coding_enhancer import analyze_token_efficiency
+        code = "def hello():\n    print('hello world')\n\nhello()\n"
+        result = analyze_token_efficiency(code)
+        assert result['success'] is True
+        assert result['estimated_tokens'] > 0
+        assert result['within_limit'] is True
+        assert 0 <= result['info_density'] <= 1.0
+
+    def test_token_efficiency_chinese(self):
+        """dim59: 中文文本token估算"""
+        from coding_enhancer import analyze_token_efficiency
+        text = "这是一段中文测试文本，用于验证token估算的准确性。\n" * 10
+        result = analyze_token_efficiency(text)
+        assert result['success'] is True
+        assert result['estimated_tokens'] > 100  # 中文字多
+
+    def test_token_efficiency_compression(self):
+        """dim59: 压缩建议检测"""
+        from coding_enhancer import analyze_token_efficiency
+        bloated = "code\n\n\n\n\n\ncode\n\n\n\n\ncode\n\n\n\ncode\n\n\ncode\n"
+        result = analyze_token_efficiency(bloated)
+        assert result['success'] is True
+        assert result['empty_lines'] > 5
+        assert any('空行' in s for s in result['suggestions'])
+
+    def test_token_efficiency_duplicates(self):
+        """dim59: 重复行检测"""
+        from coding_enhancer import analyze_token_efficiency
+        text = "import os\nimport os\nimport os\nimport os\nimport os\nprint('hi')\n"
+        result = analyze_token_efficiency(text)
+        assert result['success'] is True
+        assert result['duplicate_lines'] >= 4
+
+    def test_token_efficiency_empty(self):
+        """dim59: 空文本返回错误"""
+        from coding_enhancer import analyze_token_efficiency
+        result = analyze_token_efficiency("")
+        assert result['success'] is False
+
+    def test_requirement_to_skeleton_api_db(self):
+        """dim74: 需求识别API+数据库模块"""
+        from coding_enhancer import requirement_to_skeleton
+        result = requirement_to_skeleton("构建一个用户管理API,需要数据库存储用户信息", "python")
+        assert result['success'] is True
+        assert 'api' in result['detected_modules']
+        assert 'database' in result['detected_modules']
+        assert result['file_count'] >= 2
+        assert 'api.py' in result['files']
+        assert 'database.py' in result['files']
+
+    def test_requirement_to_skeleton_auth(self):
+        """dim74: 需求识别认证模块"""
+        from coding_enhancer import requirement_to_skeleton
+        result = requirement_to_skeleton("实现JWT登录认证系统")
+        assert result['success'] is True
+        assert 'auth' in result['detected_modules']
+
+    def test_requirement_to_skeleton_typescript(self):
+        """dim74: TypeScript骨架生成"""
+        from coding_enhancer import requirement_to_skeleton
+        result = requirement_to_skeleton("Build a REST API service", "typescript")
+        assert result['success'] is True
+        assert any(f.endswith('.ts') for f in result['files'])
+
+    def test_requirement_to_skeleton_empty(self):
+        """dim74: 空需求返回错误"""
+        from coding_enhancer import requirement_to_skeleton
+        result = requirement_to_skeleton("")
+        assert result['success'] is False
+
+    def test_requirement_to_skeleton_fallback(self):
+        """dim74: 无法识别模块时使用main"""
+        from coding_enhancer import requirement_to_skeleton
+        result = requirement_to_skeleton("做点什么")
+        assert result['success'] is True
+        assert 'main' in result['detected_modules']
+
+    def test_adr_complete(self):
+        """dim75: 完整ADR生成"""
+        from coding_enhancer import generate_adr
+        result = generate_adr(
+            title="选择君臣佐使架构",
+            context="需要多模型协作来平衡成本和性能",
+            decision="采用4层路由架构",
+            alternatives=["单一大模型", "纯本地方案"]
+        )
+        assert result['success'] is True
+        assert result['completeness'] == 1.0
+        assert 'ADR-' in result['content']
+        assert '替代方案' in result['content']
+        assert result['file_name'].endswith('.md')
+
+    def test_adr_minimal(self):
+        """dim75: 最小ADR(仅标题)"""
+        from coding_enhancer import generate_adr
+        result = generate_adr(title="数据库选型")
+        assert result['success'] is True
+        assert result['completeness'] < 1.0
+        assert any('⚠️' in c for c in result['quality_checks'])
+
+    def test_adr_empty_title(self):
+        """dim75: 空标题返回错误"""
+        from coding_enhancer import generate_adr
+        result = generate_adr(title="")
+        assert result['success'] is False
+
+    def test_round7_tools_registered(self):
+        """所有Round7工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['analyze_token_efficiency', 'requirement_to_skeleton', 'generate_adr']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"

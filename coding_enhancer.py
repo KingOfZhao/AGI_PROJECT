@@ -980,6 +980,224 @@ def run_load_test(url: str = "", concurrency: int = 5, requests_count: int = 20)
     }
 
 
+# ==================== 14. Token效率分析与压缩 (维度59) ====================
+
+def analyze_token_efficiency(text: str, max_tokens: int = 8192) -> Dict:
+    """分析文本token效率:估算token数、信息密度、压缩建议"""
+    if not text:
+        return {"success": False, "error": "需要提供文本"}
+
+    # 粗估token: 中文≈1.5tok/字, 英文≈0.25tok/word
+    cn_chars = len(re.findall(r'[\u4e00-\u9fff]', text))
+    en_words = len(re.findall(r'[a-zA-Z]+', text))
+    estimated_tokens = int(cn_chars * 1.5 + en_words * 1.3 + len(re.findall(r'[^\w\s]', text)) * 0.5)
+
+    # 信息密度分析
+    lines = text.split('\n')
+    empty_lines = sum(1 for l in lines if not l.strip())
+    comment_lines = sum(1 for l in lines if l.strip().startswith(('#', '//', '/*', '*')))
+    code_lines = len(lines) - empty_lines - comment_lines
+
+    # 重复内容检测
+    seen_lines = set()
+    duplicate_lines = 0
+    for line in lines:
+        stripped = line.strip()
+        if stripped and stripped in seen_lines:
+            duplicate_lines += 1
+        seen_lines.add(stripped)
+
+    # 压缩建议
+    suggestions = []
+    if empty_lines > len(lines) * 0.3:
+        suggestions.append(f"空行过多({empty_lines}/{len(lines)}), 可压缩空行")
+    if comment_lines > code_lines * 0.5 and code_lines > 0:
+        suggestions.append(f"注释比例高({comment_lines}注释/{code_lines}代码), 可精简")
+    if duplicate_lines > 3:
+        suggestions.append(f"发现{duplicate_lines}行重复内容, 可去重")
+    if estimated_tokens > max_tokens:
+        suggestions.append(f"预估{estimated_tokens}tokens超出限制{max_tokens}, 需截断或分段")
+
+    # 压缩后估算
+    compressed_text = re.sub(r'\n{3,}', '\n\n', text)  # 压缩连续空行
+    compressed_text = re.sub(r'[ \t]+\n', '\n', compressed_text)  # 去除行尾空格
+    compressed_tokens = int(len(compressed_text) * estimated_tokens / max(len(text), 1))
+    savings = estimated_tokens - compressed_tokens
+
+    info_density = code_lines / max(len(lines), 1)
+
+    return {
+        "success": True,
+        "estimated_tokens": estimated_tokens,
+        "max_tokens": max_tokens,
+        "utilization": round(estimated_tokens / max_tokens * 100, 1),
+        "total_lines": len(lines),
+        "code_lines": code_lines,
+        "comment_lines": comment_lines,
+        "empty_lines": empty_lines,
+        "duplicate_lines": duplicate_lines,
+        "info_density": round(info_density, 2),
+        "compressed_tokens": compressed_tokens,
+        "token_savings": savings,
+        "savings_pct": round(savings / max(estimated_tokens, 1) * 100, 1),
+        "suggestions": suggestions,
+        "within_limit": estimated_tokens <= max_tokens,
+    }
+
+
+# ==================== 15. 需求→代码骨架 Pipeline (维度74) ====================
+
+def requirement_to_skeleton(requirement: str, language: str = "python") -> Dict:
+    """将自然语言需求转化为代码骨架:模块/类/函数/接口定义"""
+    if not requirement:
+        return {"success": False, "error": "需要提供需求描述"}
+
+    language = language.lower().strip()
+
+    # 关键词提取
+    keywords = re.findall(r'[\u4e00-\u9fff]+|[a-zA-Z_]\w+', requirement)
+    keyword_set = set(k.lower() for k in keywords if len(k) > 1)
+
+    # 识别功能模块
+    modules = []
+    module_patterns = {
+        "api": ["api", "接口", "端点", "endpoint", "rest", "graphql"],
+        "database": ["数据库", "database", "db", "sql", "存储", "持久化", "表"],
+        "auth": ["认证", "登录", "权限", "auth", "login", "token", "jwt"],
+        "ui": ["界面", "前端", "ui", "页面", "组件", "component", "view"],
+        "service": ["服务", "service", "业务", "逻辑", "处理"],
+        "model": ["模型", "model", "实体", "entity", "schema"],
+        "test": ["测试", "test", "验证", "断言"],
+        "config": ["配置", "config", "设置", "环境"],
+        "util": ["工具", "util", "helper", "辅助"],
+    }
+
+    req_lower = requirement.lower()
+    for mod_name, patterns in module_patterns.items():
+        if any(p in req_lower for p in patterns):
+            modules.append(mod_name)
+
+    if not modules:
+        modules = ["main"]
+
+    # 语言特定骨架模板
+    skeletons = {}
+    if language == "python":
+        for mod in modules:
+            skeleton = f'"""\n{mod} module - {requirement[:80]}\n"""\n'
+            if mod == "api":
+                skeleton += "from flask import Flask, jsonify, request\n\napp = Flask(__name__)\n\n\n@app.route('/api/v1/resource', methods=['GET'])\ndef list_resources():\n    \"\"\"TODO: 实现资源列表\"\"\"\n    raise NotImplementedError\n"
+            elif mod == "database":
+                skeleton += "import sqlite3\nfrom pathlib import Path\n\n\nclass Database:\n    def __init__(self, db_path: str):\n        self.conn = sqlite3.connect(db_path)\n        self._init_tables()\n\n    def _init_tables(self):\n        \"\"\"TODO: 创建表结构\"\"\"\n        raise NotImplementedError\n"
+            elif mod == "auth":
+                skeleton += "import hashlib\nimport secrets\n\n\nclass AuthService:\n    def login(self, username: str, password: str) -> dict:\n        \"\"\"TODO: 实现登录\"\"\"\n        raise NotImplementedError\n\n    def verify_token(self, token: str) -> bool:\n        \"\"\"TODO: 验证token\"\"\"\n        raise NotImplementedError\n"
+            elif mod == "model":
+                skeleton += "from dataclasses import dataclass\nfrom typing import Optional\n\n\n@dataclass\nclass BaseModel:\n    id: int\n    created_at: str = ''\n    updated_at: str = ''\n"
+            elif mod == "test":
+                skeleton += "import pytest\n\n\nclass TestMain:\n    def test_placeholder(self):\n        \"\"\"TODO: 实现测试\"\"\"\n        assert True\n"
+            else:
+                skeleton += f"class {mod.capitalize()}:\n    \"\"\"TODO: 实现{mod}模块\"\"\"\n\n    def run(self):\n        raise NotImplementedError\n"
+            skeletons[f"{mod}.py"] = skeleton
+    elif language in ("javascript", "typescript"):
+        ext = "ts" if language == "typescript" else "js"
+        for mod in modules:
+            skeleton = f"// {mod} module - {requirement[:80]}\n"
+            if mod == "api":
+                skeleton += "import express from 'express';\n\nconst router = express.Router();\n\nrouter.get('/api/v1/resource', async (req, res) => {\n  // TODO: implement\n  res.json({ data: [] });\n});\n\nexport default router;\n"
+            else:
+                skeleton += f"export class {mod.capitalize()} {{\n  // TODO: implement\n  run(): void {{\n    throw new Error('Not implemented');\n  }}\n}}\n"
+            skeletons[f"{mod}.{ext}"] = skeleton
+    else:
+        skeletons["main.txt"] = f"// {language} skeleton for: {requirement[:100]}\n// Modules: {', '.join(modules)}\n// TODO: implement"
+
+    return {
+        "success": True,
+        "requirement": requirement[:200],
+        "language": language,
+        "detected_modules": modules,
+        "keywords": list(keyword_set)[:20],
+        "files": skeletons,
+        "file_count": len(skeletons),
+        "skeleton_summary": f"{len(modules)}个模块, {len(skeletons)}个文件骨架",
+    }
+
+
+# ==================== 16. 架构决策记录ADR生成 (维度75) ====================
+
+def generate_adr(title: str, context: str = "", decision: str = "",
+                 alternatives: List[str] = None) -> Dict:
+    """生成Architecture Decision Record (ADR)"""
+    if not title:
+        return {"success": False, "error": "需要提供决策标题"}
+
+    adr_number = int(time.time()) % 10000
+    date = time.strftime("%Y-%m-%d")
+
+    alternatives = alternatives or []
+    alt_section = ""
+    if alternatives:
+        alt_section = "\n## 替代方案\n\n" + "\n".join(
+            f"### 方案{i+1}: {alt}\n- **优势**: TODO\n- **劣势**: TODO\n" for i, alt in enumerate(alternatives)
+        )
+
+    adr_content = f"""# ADR-{adr_number:04d}: {title}
+
+## 状态
+- **状态**: 提议中 (Proposed)
+- **日期**: {date}
+- **决策者**: AGI System
+
+## 上下文
+{context or '描述问题背景和约束条件...'}
+
+## 决策
+{decision or '描述最终选择的方案...'}
+{alt_section}
+## 后果
+
+### 正面影响
+- TODO: 描述积极影响
+
+### 负面影响
+- TODO: 描述潜在风险
+
+### 技术债务
+- TODO: 描述引入的技术债务
+
+## 参考
+- [相关文档/讨论链接]
+"""
+
+    # 分析决策质量
+    quality_checks = []
+    if context:
+        quality_checks.append("✅ 上下文已描述")
+    else:
+        quality_checks.append("⚠️ 缺少上下文描述")
+
+    if decision:
+        quality_checks.append("✅ 决策已明确")
+    else:
+        quality_checks.append("⚠️ 缺少决策描述")
+
+    if alternatives:
+        quality_checks.append(f"✅ {len(alternatives)}个替代方案")
+    else:
+        quality_checks.append("⚠️ 未列出替代方案")
+
+    completeness = sum(1 for c in quality_checks if c.startswith("✅")) / len(quality_checks)
+
+    return {
+        "success": True,
+        "adr_number": adr_number,
+        "title": title,
+        "content": adr_content,
+        "quality_checks": quality_checks,
+        "completeness": round(completeness, 2),
+        "file_name": f"adr-{adr_number:04d}-{title.lower().replace(' ', '-')[:30]}.md",
+    }
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -1172,6 +1390,53 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "analyze_token_efficiency",
+            "description": "分析文本token效率:估算token数/信息密度/重复检测/压缩建议。用于优化prompt和上下文。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "text": {"type": "string", "description": "要分析的文本"},
+                    "max_tokens": {"type": "integer", "description": "最大token限制(默认8192)"}
+                },
+                "required": ["text"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "requirement_to_skeleton",
+            "description": "将自然语言需求转化为代码骨架:自动识别模块(api/db/auth/ui/service)+生成文件结构。支持Python/JS/TS。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "requirement": {"type": "string", "description": "自然语言需求描述"},
+                    "language": {"type": "string", "description": "目标语言(python/javascript/typescript)"}
+                },
+                "required": ["requirement"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "generate_adr",
+            "description": "生成Architecture Decision Record:标准ADR格式(状态/上下文/决策/替代方案/后果)+质量检查。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "title": {"type": "string", "description": "决策标题"},
+                    "context": {"type": "string", "description": "问题背景"},
+                    "decision": {"type": "string", "description": "最终决策"},
+                    "alternatives": {"type": "array", "items": {"type": "string"}, "description": "替代方案列表"}
+                },
+                "required": ["title"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -1288,4 +1553,7 @@ CODING_HANDLERS = {
     "inspect_db_schema": lambda args: inspect_db_schema(args.get("db_path", "")),
     "check_output_consistency": lambda args: check_output_consistency(args.get("outputs", [])),
     "run_load_test": lambda args: run_load_test(args.get("url", ""), args.get("concurrency", 5), args.get("requests_count", 20)),
+    "analyze_token_efficiency": lambda args: analyze_token_efficiency(args.get("text", ""), args.get("max_tokens", 8192)),
+    "requirement_to_skeleton": lambda args: requirement_to_skeleton(args.get("requirement", ""), args.get("language", "python")),
+    "generate_adr": lambda args: generate_adr(args.get("title", ""), args.get("context", ""), args.get("decision", ""), args.get("alternatives", [])),
 }
