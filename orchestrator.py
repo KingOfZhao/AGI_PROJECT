@@ -308,11 +308,23 @@ class TaskOrchestrator:
     def route(self, question, proven_nodes, complexity, task_type):
         """君臣佐使路由:
         君(14B) = proven充分时fast_path验证
-        臣(GLM-5) = 复杂代码/多语言/深度推理 (主力算力)
+        臣(GLM-5) = 复杂代码/多语言/深度推理/长上下文 (主力算力, 128K context)
         佐(GLM-4.7) = 简单Python代码快速生成
         使(GLM-4.5-Air) = 轻量对话/规划
         """
         sufficiency = self.check_proven_sufficiency(question, proven_nodes)
+
+        # 0. 长上下文检测: 超过14B 8K限制 → 臣(GLM-5, 128K context)
+        estimated_tokens = len(question) // 2  # 粗估中文1字≈2token
+        if estimated_tokens > 3000:  # 接近8K上下文阈值
+            return {
+                'model': 'GLM-5',
+                'role': '臣',
+                'reason': f'[臣] 长上下文({estimated_tokens}tok)超出14B限制，GLM-5(128K)处理',
+                'proven_coverage': sufficiency['coverage'],
+                'sufficiency': sufficiency,
+                'long_context': True
+            }
 
         # 1. 君: proven充分 → fast_path (本地14B无幻觉验证)
         if sufficiency['sufficient']:

@@ -221,12 +221,39 @@ html[data-fs="xl"]{zoom:1.25}
 [data-theme="light"] #graph-tooltip{background:rgba(255,255,255,.95)!important;border-color:#e2e2de!important}
 [data-theme="light"] #graph-tooltip .text-slate-300{color:#374151!important}
 [data-theme="light"] #graph-tooltip .text-slate-500{color:#6b7280!important}
+
+/* ===== Responsive Breakpoints (dim39) ===== */
+@media(max-width:1024px){
+  .three-col{flex-direction:column!important}
+  .three-col>div{width:100%!important;min-width:0!important;max-height:50vh}
+  .three-col>div:nth-child(2){border-left:none!important;border-right:none!important;border-top:1px solid #1e293b;border-bottom:1px solid #1e293b}
+  header .flex{flex-wrap:wrap;gap:4px}
+  .stat-num{font-size:1.1rem}
+  .mode-menu{bottom:auto;top:100%;margin-top:6px;margin-bottom:0}
+}
+@media(max-width:640px){
+  header{padding:6px 8px!important}
+  .tab-btn{padding:4px 8px;font-size:.7rem}
+  #chat-in{font-size:14px}
+  .stat-num{font-size:1rem}
+  .px-4{padding-left:8px!important;padding-right:8px!important}
+  .hidden-mobile{display:none!important}
+  .backend-switch label{padding:2px 6px;font-size:.6rem}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+/* ===== Focus & A11y (dim84) ===== */
+:focus-visible{outline:2px solid #7c3aed;outline-offset:2px;border-radius:4px}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #7c3aed;outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
 </head>
-<body class="h-screen flex flex-col overflow-hidden">
+<body class="h-screen flex flex-col overflow-hidden" role="application" aria-label="AGI v13.3 Cognitive Lattice">
+<a href="#chat-in" class="sr-only" tabindex="1">跳转到输入框</a>
 
 <!-- 顶栏 -->
-<header class="border-b border-slate-800/80 bg-[#0a0e18]/90 backdrop-blur-md sticky top-0 z-50 px-4 py-2.5 flex items-center justify-between">
+<header role="banner" aria-label="顶部导航" class="border-b border-slate-800/80 bg-[#0a0e18]/90 backdrop-blur-md sticky top-0 z-50 px-4 py-2.5 flex items-center justify-between">
   <div class="flex items-center gap-2.5">
     <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center text-white text-sm font-bold">A</div>
     <div>
@@ -277,7 +304,7 @@ html[data-fs="xl"]{zoom:1.25}
 </div>
 
 <!-- 三栏主体 -->
-<div class="flex-1 flex overflow-hidden">
+<div class="flex-1 flex overflow-hidden three-col" role="main">
 
   <!-- 左栏：对话 -->
   <div class="flex flex-col" style="width:42%;min-width:340px">
@@ -289,7 +316,7 @@ html[data-fs="xl"]{zoom:1.25}
     </div>
     <!-- 对话 -->
     <div id="p-chat" class="flex-1 flex flex-col overflow-hidden">
-      <div id="chat-box" class="flex-1 overflow-y-auto p-3 space-y-2.5">
+      <div id="chat-box" class="flex-1 overflow-y-auto p-3 space-y-2.5" role="log" aria-live="polite" aria-label="对话消息">
         <div class="text-center text-slate-600 text-xs py-12">
           <div class="text-3xl mb-2">🧠</div>
           输入问题 → 四向碰撞 → 自动规划动作 → 执行并反馈
@@ -348,7 +375,7 @@ html[data-fs="xl"]{zoom:1.25}
               </div>
             </div>
           </div>
-          <input id="chat-in" type="text" placeholder="输入问题 (Enter 发送)..."
+          <input id="chat-in" type="text" placeholder="输入问题 (Enter 发送)..." aria-label="输入消息" autocomplete="off"
             class="flex-1 bg-[#0d1117] border border-slate-700/60 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-violet-500 placeholder-slate-600"
             onkeydown="if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing)sendMsg()">
           <button id="btn-send" onclick="sendMsg()" class="px-3 py-2 bg-violet-600 hover:bg-violet-500 rounded-lg text-xs font-semibold transition">发送</button>

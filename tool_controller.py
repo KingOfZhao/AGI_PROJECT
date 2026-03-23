@@ -25,6 +25,7 @@ import sqlite3
 import threading
 import traceback
 import contextlib
+import platform as _platform
 import subprocess
 from pathlib import Path
 from typing import Dict, Any, List, Optional
@@ -334,6 +335,35 @@ def _exec_python(code: str) -> Dict:
     return _runtime.execute(code)
 
 
+# 平台感知命令模板 (dim13: 终端命令生成准确性)
+_CURRENT_OS = _platform.system().lower()  # darwin/linux/windows
+
+PLATFORM_COMMANDS = {
+    "list_files":    {"darwin": "ls -la", "linux": "ls -la", "windows": "dir"},
+    "find_file":     {"darwin": "find . -name '{}'", "linux": "find . -name '{}'", "windows": "dir /s /b *{}*"},
+    "disk_usage":    {"darwin": "df -h", "linux": "df -h", "windows": "wmic logicaldisk get size,freespace,caption"},
+    "process_list":  {"darwin": "ps aux", "linux": "ps aux", "windows": "tasklist"},
+    "kill_process":  {"darwin": "kill -9 {}", "linux": "kill -9 {}", "windows": "taskkill /F /PID {}"},
+    "network_info":  {"darwin": "ifconfig", "linux": "ip addr", "windows": "ipconfig /all"},
+    "open_port":     {"darwin": "lsof -i :{}", "linux": "ss -tlnp | grep :{}", "windows": "netstat -ano | findstr :{}"},
+    "install_pkg":   {"darwin": "pip3 install {}", "linux": "pip3 install {}", "windows": "pip install {}"},
+    "python_run":    {"darwin": "python3 {}", "linux": "python3 {}", "windows": "python {}"},
+    "git_status":    {"darwin": "git status", "linux": "git status", "windows": "git status"},
+    "env_var":       {"darwin": "echo ${}", "linux": "echo ${}", "windows": "echo %{}%"},
+    "create_dir":    {"darwin": "mkdir -p {}", "linux": "mkdir -p {}", "windows": "mkdir {}"},
+    "remove_dir":    {"darwin": "rm -rf {}", "linux": "rm -rf {}", "windows": "rmdir /s /q {}"},
+    "copy_file":     {"darwin": "cp {} {}", "linux": "cp {} {}", "windows": "copy {} {}"},
+    "curl_get":      {"darwin": "curl -s {}", "linux": "curl -s {}", "windows": "curl -s {}"},
+}
+
+def get_platform_command(action: str, *args) -> str:
+    """获取当前平台的正确命令"""
+    tpl = PLATFORM_COMMANDS.get(action, {}).get(_CURRENT_OS, "")
+    if tpl and args:
+        tpl = tpl.format(*args)
+    return tpl
+
+
 def _exec_shell(command: str) -> Dict:
     for kw in DANGEROUS_KEYWORDS:
         if kw in command.lower():
@@ -348,6 +378,7 @@ def _exec_shell(command: str) -> Dict:
             "stdout": result.stdout[:5000],
             "stderr": result.stderr[:2000],
             "returncode": result.returncode,
+            "platform": _CURRENT_OS,
         }
     except subprocess.TimeoutExpired:
         return {"success": False, "error": "命令超时(30s)"}

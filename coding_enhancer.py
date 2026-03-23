@@ -918,7 +918,122 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "analyze_migration",
+            "description": "跨语言代码迁移分析:类型系统/内存模型/范式差异/AST特征检测。生成迁移提示和注意事项。支持Python/JS/TS/Java/Go/Rust/C#/Swift/Kotlin。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "code": {"type": "string", "description": "要迁移的源代码"},
+                    "source_lang": {"type": "string", "description": "源语言(python/javascript/java/go/rust/csharp/swift/kotlin)"},
+                    "target_lang": {"type": "string", "description": "目标语言"}
+                },
+                "required": ["code", "source_lang", "target_lang"]
+            }
+        }
+    },
 ]
+
+# ==================== 10. 跨语言代码迁移 (维度73) ====================
+
+# 语言特征映射表 — 用于生成迁移提示
+LANG_MIGRATION_MAP = {
+    "python": {"typing": "dynamic", "memory": "gc", "paradigm": "multi", "pkg": "pip"},
+    "javascript": {"typing": "dynamic", "memory": "gc", "paradigm": "multi", "pkg": "npm"},
+    "typescript": {"typing": "static", "memory": "gc", "paradigm": "multi", "pkg": "npm"},
+    "java": {"typing": "static", "memory": "gc", "paradigm": "oop", "pkg": "maven/gradle"},
+    "go": {"typing": "static", "memory": "gc", "paradigm": "procedural+interface", "pkg": "go mod"},
+    "rust": {"typing": "static", "memory": "ownership", "paradigm": "multi", "pkg": "cargo"},
+    "csharp": {"typing": "static", "memory": "gc", "paradigm": "oop", "pkg": "nuget"},
+    "swift": {"typing": "static", "memory": "arc", "paradigm": "multi", "pkg": "spm"},
+    "kotlin": {"typing": "static", "memory": "gc", "paradigm": "multi", "pkg": "gradle"},
+}
+
+def analyze_migration(code: str, source_lang: str, target_lang: str) -> Dict:
+    """分析跨语言代码迁移的关键差异和注意事项"""
+    source_lang = source_lang.lower().strip()
+    target_lang = target_lang.lower().strip()
+
+    src_info = LANG_MIGRATION_MAP.get(source_lang, {})
+    tgt_info = LANG_MIGRATION_MAP.get(target_lang, {})
+
+    if not src_info:
+        return {"success": False, "error": f"不支持的源语言: {source_lang}"}
+    if not tgt_info:
+        return {"success": False, "error": f"不支持的目标语言: {target_lang}"}
+
+    warnings = []
+    suggestions = []
+
+    # 类型系统差异
+    if src_info["typing"] != tgt_info["typing"]:
+        if src_info["typing"] == "dynamic" and tgt_info["typing"] == "static":
+            warnings.append(f"类型系统: {source_lang}(动态)→{target_lang}(静态) 需要显式类型声明")
+            suggestions.append("为所有变量添加类型注解，推断不确定的类型用泛型/any")
+        else:
+            warnings.append(f"类型系统: {source_lang}(静态)→{target_lang}(动态) 可简化类型声明")
+
+    # 内存模型差异
+    if src_info["memory"] != tgt_info["memory"]:
+        warnings.append(f"内存模型: {source_lang}({src_info['memory']})→{target_lang}({tgt_info['memory']})")
+        if tgt_info["memory"] == "ownership":
+            suggestions.append("Rust需要严格所有权管理: 引用(&)、可变引用(&mut)、生命周期标注")
+        elif tgt_info["memory"] == "arc":
+            suggestions.append("Swift ARC: 注意循环引用(weak/unowned)，无需手动释放")
+
+    # 范式差异
+    if src_info["paradigm"] != tgt_info["paradigm"]:
+        warnings.append(f"编程范式: {source_lang}({src_info['paradigm']})→{target_lang}({tgt_info['paradigm']})")
+
+    # AST分析源代码特征
+    code_features = []
+    if source_lang == "python":
+        try:
+            tree = ast.parse(code)
+            for node in ast.walk(tree):
+                if isinstance(node, ast.AsyncFunctionDef):
+                    code_features.append("async函数")
+                elif isinstance(node, ast.ListComp):
+                    code_features.append("列表推导式")
+                elif isinstance(node, ast.With):
+                    code_features.append("上下文管理器")
+                elif isinstance(node, (ast.Try, ast.ExceptHandler)):
+                    code_features.append("异常处理")
+        except SyntaxError:
+            pass
+
+    if code_features:
+        unique_features = list(set(code_features))
+        suggestions.append(f"源代码特征需特殊处理: {', '.join(unique_features)}")
+
+    # 生成迁移提示
+    migration_prompt = f"""将以下{source_lang}代码迁移到{target_lang}:
+注意事项:
+{chr(10).join(f'- {w}' for w in warnings)}
+建议:
+{chr(10).join(f'- {s}' for s in suggestions)}
+包管理: {src_info['pkg']} → {tgt_info['pkg']}
+
+源代码:
+```{source_lang}
+{code[:3000]}
+```
+
+请生成等价的{target_lang}代码，保持相同的功能和接口。"""
+
+    return {
+        "success": True,
+        "source_lang": source_lang,
+        "target_lang": target_lang,
+        "warnings": warnings,
+        "suggestions": suggestions,
+        "code_features": list(set(code_features)) if code_features else [],
+        "migration_prompt": migration_prompt,
+        "pkg_migration": f"{src_info['pkg']} → {tgt_info['pkg']}",
+    }
+
 
 # 工具处理器映射
 CODING_HANDLERS = {
@@ -931,4 +1046,5 @@ CODING_HANDLERS = {
     "run_browser_test": lambda args: run_browser_test(args.get("url", ""), args.get("actions"), args.get("screenshot", True)),
     "generate_test": lambda args: generate_test(args.get("code", ""), args.get("function_name", "")),
     "analyze_tech_debt": lambda args: analyze_tech_debt(args.get("project_dir", "")),
+    "analyze_migration": lambda args: analyze_migration(args.get("code", ""), args.get("source_lang", ""), args.get("target_lang", "")),
 }

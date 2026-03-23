@@ -296,3 +296,119 @@ class TestRound4_ArchitectureIntegrity:
         assert issubclass(LLMError, AGIBaseError)
         assert issubclass(ToolError, AGIBaseError)
         assert issubclass(SecurityError, AGIBaseError)
+
+
+# ==================== Round 5: 推演优化验证 ====================
+class TestRound5_Enhancements:
+    """第5轮: 验证推演新增的优化功能"""
+
+    def _make_orchestrator(self):
+        from orchestrator import TaskOrchestrator
+        from unittest.mock import MagicMock
+        lattice = MagicMock()
+        lattice._lock = MagicMock()
+        return TaskOrchestrator(lattice)
+
+    def test_long_context_routes_to_glm5(self):
+        """dim7: 长上下文自动路由到GLM-5(128K)"""
+        orch = self._make_orchestrator()
+        long_question = "请分析以下代码并重构" + "x" * 7000  # >3000 tokens
+        route = orch.route(long_question, [], 0.5, 'code_generation')
+        assert route['model'] == 'GLM-5'
+        assert route['role'] == '臣'
+        assert route.get('long_context') is True
+
+    def test_short_context_normal_routing(self):
+        """短上下文走正常路由"""
+        orch = self._make_orchestrator()
+        route = orch.route("hello", [{'status': 'proven', 'similarity': 0.95}] * 5, 0.2, 'general')
+        assert route['model'] == 'fast_path'
+        assert route['role'] == '君'
+
+    def test_platform_commands_exist(self):
+        """dim13: 平台命令模板完整"""
+        from tool_controller import PLATFORM_COMMANDS, get_platform_command, _CURRENT_OS
+        assert len(PLATFORM_COMMANDS) >= 15
+        for action, platforms in PLATFORM_COMMANDS.items():
+            assert 'darwin' in platforms, f"{action} missing darwin"
+            assert 'linux' in platforms, f"{action} missing linux"
+            assert 'windows' in platforms, f"{action} missing windows"
+        # 当前平台可以获取命令
+        cmd = get_platform_command("list_files")
+        assert len(cmd) > 0
+
+    def test_platform_command_with_args(self):
+        """dim13: 平台命令模板参数替换"""
+        from tool_controller import get_platform_command
+        cmd = get_platform_command("open_port", 8080)
+        assert "8080" in cmd
+
+    def test_migration_python_to_rust(self):
+        """dim73: Python→Rust迁移分析"""
+        from coding_enhancer import analyze_migration
+        code = '''
+def fibonacci(n: int) -> int:
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+'''
+        result = analyze_migration(code, "python", "rust")
+        assert result['success'] is True
+        assert len(result['warnings']) > 0  # 类型+内存差异
+        assert any('所有权' in s for s in result['suggestions'])
+        assert 'pip' in result['pkg_migration']
+        assert 'cargo' in result['pkg_migration']
+
+    def test_migration_js_to_typescript(self):
+        """dim73: JS→TS迁移分析"""
+        from coding_enhancer import analyze_migration
+        result = analyze_migration("const x = 42;", "javascript", "typescript")
+        assert result['success'] is True
+        assert any('类型' in w for w in result['warnings'])
+
+    def test_migration_invalid_lang(self):
+        """dim73: 不支持的语言返回错误"""
+        from coding_enhancer import analyze_migration
+        result = analyze_migration("code", "brainfuck", "python")
+        assert result['success'] is False
+
+    def test_migration_same_memory_model(self):
+        """dim73: 相同内存模型无内存警告"""
+        from coding_enhancer import analyze_migration
+        result = analyze_migration("code", "java", "csharp")
+        assert result['success'] is True
+        mem_warnings = [w for w in result['warnings'] if '内存' in w]
+        assert len(mem_warnings) == 0
+
+    def test_lang_migration_map_completeness(self):
+        """dim73: 9种语言全部覆盖"""
+        from coding_enhancer import LANG_MIGRATION_MAP
+        expected = {'python', 'javascript', 'typescript', 'java', 'go', 'rust', 'csharp', 'swift', 'kotlin'}
+        assert set(LANG_MIGRATION_MAP.keys()) == expected
+
+    def test_coding_enhancer_has_migration(self):
+        """dim73: analyze_migration已注册到CODING_HANDLERS"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        assert 'analyze_migration' in CODING_HANDLERS
+        tool_names = [t['function']['name'] for t in CODING_TOOLS]
+        assert 'analyze_migration' in tool_names
+
+    def test_web_responsive_css(self):
+        """dim39: web/index.html包含响应式断点"""
+        html_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'web', 'index.html')
+        content = open(html_path, encoding='utf-8').read()
+        assert '@media(max-width:1024px)' in content
+        assert '@media(max-width:640px)' in content
+        assert '@media(prefers-reduced-motion:reduce)' in content
+
+    def test_web_a11y_attributes(self):
+        """dim84: web/index.html包含ARIA可访问性属性"""
+        html_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'web', 'index.html')
+        content = open(html_path, encoding='utf-8').read()
+        assert 'role="banner"' in content
+        assert 'role="main"' in content
+        assert 'role="log"' in content
+        assert 'aria-live="polite"' in content
+        assert 'aria-label' in content
+        assert 'sr-only' in content
+        assert ':focus-visible' in content
