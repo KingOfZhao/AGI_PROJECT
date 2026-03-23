@@ -412,3 +412,101 @@ def fibonacci(n: int) -> int:
         assert 'aria-label' in content
         assert 'sr-only' in content
         assert ':focus-visible' in content
+
+
+# ==================== Round 6: 工具扩展验证 ====================
+class TestRound6_ToolExpansion:
+    """第6轮: 验证DB Schema检查/输出一致性/负载测试工具"""
+
+    def test_inspect_db_schema_default(self):
+        """dim29: 检查memory.db的Schema"""
+        from coding_enhancer import inspect_db_schema
+        result = inspect_db_schema()
+        if result['success']:
+            assert result['table_count'] >= 1
+            assert isinstance(result['schema'], dict)
+            assert isinstance(result['issues'], list)
+        else:
+            # DB可能不存在,但函数不应崩溃
+            assert 'error' in result
+
+    def test_inspect_db_schema_nonexistent(self):
+        """dim29: 不存在的数据库返回错误"""
+        from coding_enhancer import inspect_db_schema
+        result = inspect_db_schema("/tmp/nonexistent_xyz.db")
+        assert result['success'] is False
+
+    def test_inspect_db_schema_temp(self):
+        """dim29: 临时数据库Schema检查"""
+        import sqlite3, tempfile
+        with tempfile.NamedTemporaryFile(suffix='.db', delete=False) as f:
+            db_path = f.name
+        try:
+            conn = sqlite3.connect(db_path)
+            conn.execute("CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT NOT NULL, email TEXT)")
+            conn.execute("CREATE INDEX idx_email ON users(email)")
+            conn.execute("INSERT INTO users VALUES (1, 'test', 'a@b.com')")
+            conn.commit()
+            conn.close()
+
+            from coding_enhancer import inspect_db_schema
+            result = inspect_db_schema(db_path)
+            assert result['success'] is True
+            assert 'users' in result['tables']
+            assert result['schema']['users']['row_count'] == 1
+            assert len(result['schema']['users']['columns']) == 3
+            assert len(result['schema']['users']['indexes']) >= 1
+        finally:
+            os.unlink(db_path)
+
+    def test_output_consistency_similar(self):
+        """dim67: 相似输出一致性高"""
+        from coding_enhancer import check_output_consistency
+        outputs = [
+            "# 结果\n- 第一点: 正确\n- 第二点: 也对\n```python\nprint('hello')\n```",
+            "# 结果\n- 第一点: 正确\n- 第二点: 确实\n```python\nprint('hello')\n```",
+        ]
+        result = check_output_consistency(outputs)
+        assert result['success'] is True
+        assert result['overall_consistency'] > 0.6
+        assert result['rating'] in ('A', 'B')
+
+    def test_output_consistency_divergent(self):
+        """dim67: 差异大的输出一致性低"""
+        from coding_enhancer import check_output_consistency
+        outputs = [
+            "这是完全不同的内容",
+            "```python\nfor i in range(100):\n    print(i)\n```\n\n## 标题\n1. 列表",
+        ]
+        result = check_output_consistency(outputs)
+        assert result['success'] is True
+        assert result['overall_consistency'] < 0.9
+
+    def test_output_consistency_min_samples(self):
+        """dim67: 样本不足返回错误"""
+        from coding_enhancer import check_output_consistency
+        result = check_output_consistency(["only one"])
+        assert result['success'] is False
+
+    def test_load_test_function_exists(self):
+        """dim82: run_load_test函数存在且可调用"""
+        from coding_enhancer import run_load_test
+        assert callable(run_load_test)
+
+    def test_load_test_unreachable(self):
+        """dim82: 不可达URL正确报告错误"""
+        from coding_enhancer import run_load_test
+        result = run_load_test(url="http://127.0.0.1:59999/nonexist", concurrency=2, requests_count=3)
+        assert result['success'] is True
+        assert result['error_count'] == 3
+        assert result['error_rate'] == 100.0
+
+    def test_new_tools_registered(self):
+        """所有新工具已注册到CODING_HANDLERS和CODING_TOOLS"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        new_tools = ['inspect_db_schema', 'check_output_consistency', 'run_load_test']
+        for tool in new_tools:
+            assert tool in CODING_HANDLERS, f"Missing handler: {tool}"
+        tool_names = [t['function']['name'] for t in CODING_TOOLS]
+        for tool in new_tools:
+            assert tool in tool_names, f"Missing schema: {tool}"

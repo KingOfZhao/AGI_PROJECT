@@ -17,12 +17,18 @@ AGI v13.3 编码能力增强模块
 """
 
 import ast
+import concurrent.futures
 import json
 import os
+import re
+import sqlite3 as _sqlite3
 import subprocess
 import sys
 import time
 import textwrap
+import urllib.request
+import urllib.error
+from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Optional, Any
 
@@ -784,6 +790,196 @@ def analyze_tech_debt(project_dir: str = "") -> Dict:
     }
 
 
+# ==================== 11. 数据库Schema检查与迁移 (维度29) ====================
+
+def inspect_db_schema(db_path: str = "") -> Dict:
+    """检查SQLite数据库Schema,列出所有表/列/索引/外键,检测迁移问题"""
+    if not db_path:
+        db_path = str(PROJECT_ROOT / "memory.db")
+
+    if not Path(db_path).exists():
+        return {"success": False, "error": f"数据库不存在: {db_path}"}
+
+    try:
+        conn = _sqlite3.connect(db_path)
+        cursor = conn.cursor()
+
+        # 获取所有表
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")
+        tables = [r[0] for r in cursor.fetchall()]
+
+        schema_info = {}
+        for table in tables:
+            cursor.execute(f"PRAGMA table_info({table})")
+            columns = [{"name": r[1], "type": r[2], "notnull": bool(r[3]),
+                        "default": r[4], "pk": bool(r[5])} for r in cursor.fetchall()]
+
+            cursor.execute(f"PRAGMA index_list({table})")
+            indexes = [{"name": r[1], "unique": bool(r[2])} for r in cursor.fetchall()]
+
+            cursor.execute(f"PRAGMA foreign_key_list({table})")
+            fks = [{"table": r[2], "from": r[3], "to": r[4]} for r in cursor.fetchall()]
+
+            cursor.execute(f"SELECT COUNT(*) FROM {table}")
+            row_count = cursor.fetchone()[0]
+
+            schema_info[table] = {
+                "columns": columns,
+                "indexes": indexes,
+                "foreign_keys": fks,
+                "row_count": row_count,
+            }
+
+        # 检测潜在问题
+        issues = []
+        for table, info in schema_info.items():
+            if not info["indexes"]:
+                if info["row_count"] > 1000:
+                    issues.append(f"{table}: {info['row_count']}行但无索引,查询可能慢")
+            for col in info["columns"]:
+                if col["type"] == "" or col["type"] is None:
+                    issues.append(f"{table}.{col['name']}: 未指定类型")
+
+        conn.close()
+        return {
+            "success": True,
+            "db_path": db_path,
+            "tables": tables,
+            "table_count": len(tables),
+            "schema": schema_info,
+            "issues": issues,
+            "migration_ready": len(issues) == 0,
+        }
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+
+# ==================== 12. 输出一致性检查 (维度67) ====================
+
+def check_output_consistency(outputs: List[str]) -> Dict:
+    """检查多次输出的一致性:格式/结构/关键信息是否稳定"""
+    if not outputs or len(outputs) < 2:
+        return {"success": False, "error": "需要至少2个输出进行一致性对比"}
+
+    n = len(outputs)
+    lengths = [len(o) for o in outputs]
+    avg_len = sum(lengths) / n
+    len_variance = sum((l - avg_len) ** 2 for l in lengths) / n
+
+    # 结构一致性: 检查代码块/列表/标题的出现模式
+    patterns = {
+        "code_blocks": r"```",
+        "bullet_lists": r"^[-*]\s",
+        "numbered_lists": r"^\d+\.\s",
+        "headers": r"^#+\s",
+    }
+
+    structure_scores = {}
+    for name, pattern in patterns.items():
+        counts = [len(re.findall(pattern, o, re.MULTILINE)) for o in outputs]
+        if max(counts) > 0:
+            consistency = 1.0 - (max(counts) - min(counts)) / max(max(counts), 1)
+        else:
+            consistency = 1.0
+        structure_scores[name] = round(consistency, 2)
+
+    # 关键词一致性: 提取每个输出的top关键词
+    all_words = []
+    for o in outputs:
+        words = re.findall(r'[\u4e00-\u9fff]+|[a-zA-Z_]\w+', o)
+        all_words.append(Counter(words))
+
+    if all_words:
+        common_keys = set.intersection(*[set(c.keys()) for c in all_words]) if all_words else set()
+        keyword_overlap = len(common_keys) / max(len(set.union(*[set(c.keys()) for c in all_words])), 1)
+    else:
+        keyword_overlap = 0.0
+
+    overall = (
+        sum(structure_scores.values()) / max(len(structure_scores), 1) * 0.5
+        + keyword_overlap * 0.3
+        + (1.0 - min(len_variance / max(avg_len ** 2, 1), 1.0)) * 0.2
+    )
+
+    return {
+        "success": True,
+        "sample_count": n,
+        "avg_length": round(avg_len),
+        "length_variance": round(len_variance, 1),
+        "structure_scores": structure_scores,
+        "keyword_overlap": round(keyword_overlap, 2),
+        "overall_consistency": round(overall, 2),
+        "rating": "A" if overall > 0.8 else "B" if overall > 0.6 else "C",
+    }
+
+
+# ==================== 13. 基础负载测试 (维度82) ====================
+
+def run_load_test(url: str = "", concurrency: int = 5, requests_count: int = 20) -> Dict:
+    """基础HTTP负载测试: 并发请求+延迟统计+错误率"""
+    if not url:
+        url = "http://127.0.0.1:5002/api/health"
+
+    results = []
+    errors = 0
+
+    def _single_request(i):
+        start = time.time()
+        try:
+            req = urllib.request.Request(url, method='GET')
+            req.add_header('User-Agent', 'AGI-LoadTest/1.0')
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                status = resp.status
+                _ = resp.read()
+            elapsed = time.time() - start
+            return {"request_id": i, "status": status, "latency_ms": round(elapsed * 1000, 1), "error": None}
+        except Exception as e:
+            elapsed = time.time() - start
+            return {"request_id": i, "status": 0, "latency_ms": round(elapsed * 1000, 1), "error": str(e)}
+
+    start_all = time.time()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=concurrency) as pool:
+        futures = [pool.submit(_single_request, i) for i in range(requests_count)]
+        for f in concurrent.futures.as_completed(futures):
+            r = f.result()
+            results.append(r)
+            if r["error"]:
+                errors += 1
+
+    total_time = time.time() - start_all
+    latencies = [r["latency_ms"] for r in results if not r["error"]]
+
+    if latencies:
+        latencies.sort()
+        p50 = latencies[len(latencies) // 2]
+        p95 = latencies[int(len(latencies) * 0.95)]
+        p99 = latencies[int(len(latencies) * 0.99)]
+        avg_latency = sum(latencies) / len(latencies)
+    else:
+        p50 = p95 = p99 = avg_latency = 0
+
+    rps = requests_count / total_time if total_time > 0 else 0
+
+    return {
+        "success": True,
+        "url": url,
+        "total_requests": requests_count,
+        "concurrency": concurrency,
+        "total_time_s": round(total_time, 2),
+        "requests_per_second": round(rps, 1),
+        "error_count": errors,
+        "error_rate": round(errors / requests_count * 100, 1),
+        "latency_ms": {
+            "avg": round(avg_latency, 1),
+            "p50": round(p50, 1),
+            "p95": round(p95, 1),
+            "p99": round(p99, 1),
+        },
+        "rating": "A" if errors == 0 and avg_latency < 200 else
+                  "B" if errors / requests_count < 0.05 else "C",
+    }
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -934,6 +1130,48 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "inspect_db_schema",
+            "description": "检查SQLite数据库Schema:表/列/索引/外键/行数,检测无索引大表等迁移问题。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "db_path": {"type": "string", "description": "数据库文件路径(默认memory.db)"}
+                }
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "check_output_consistency",
+            "description": "检查多次LLM输出的一致性:格式结构/关键词重叠/长度方差。评级A/B/C。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "outputs": {"type": "array", "items": {"type": "string"}, "description": "多次输出的文本列表(至少2个)"}
+                },
+                "required": ["outputs"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "run_load_test",
+            "description": "基础HTTP负载测试:并发请求+延迟统计(p50/p95/p99)+错误率+RPS。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "url": {"type": "string", "description": "目标URL(默认本地health端点)"},
+                    "concurrency": {"type": "integer", "description": "并发数(默认5)"},
+                    "requests_count": {"type": "integer", "description": "总请求数(默认20)"}
+                }
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -1047,4 +1285,7 @@ CODING_HANDLERS = {
     "generate_test": lambda args: generate_test(args.get("code", ""), args.get("function_name", "")),
     "analyze_tech_debt": lambda args: analyze_tech_debt(args.get("project_dir", "")),
     "analyze_migration": lambda args: analyze_migration(args.get("code", ""), args.get("source_lang", ""), args.get("target_lang", "")),
+    "inspect_db_schema": lambda args: inspect_db_schema(args.get("db_path", "")),
+    "check_output_consistency": lambda args: check_output_consistency(args.get("outputs", [])),
+    "run_load_test": lambda args: run_load_test(args.get("url", ""), args.get("concurrency", 5), args.get("requests_count", 20)),
 }
