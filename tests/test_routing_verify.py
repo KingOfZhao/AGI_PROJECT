@@ -1419,3 +1419,161 @@ class TestRound12_CPMLFramework:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 13: SWE Pipeline/NoSQL/微服务验证 ====================
+class TestRound13_SWENoSQLMicroservice:
+    """第13轮: SWE Pipeline/NoSQL模板/微服务模式验证"""
+
+    def test_swe_bug_issue(self):
+        """dim1: Bug类Issue修复计划"""
+        from coding_enhancer import plan_swe_fix
+        result = plan_swe_fix("Bug: TypeError in api_server.py when handling empty request body\nTraceback: line 42")
+        assert result['success'] is True
+        assert result['issue_type'] == 'bug'
+        assert result['pipeline_length'] == 5
+        assert result['has_traceback'] is True
+
+    def test_swe_feature_issue(self):
+        """dim1: Feature类Issue修复计划"""
+        from coding_enhancer import plan_swe_fix
+        result = plan_swe_fix("Feature: Add support for WebSocket connections in the API server")
+        assert result['success'] is True
+        assert result['issue_type'] == 'feature'
+        assert result['estimated_complexity'] == 'high'
+
+    def test_swe_refactor_issue(self):
+        """dim1: Refactor类Issue修复计划"""
+        from coding_enhancer import plan_swe_fix
+        result = plan_swe_fix("Refactor: Improve the database query optimization module")
+        assert result['success'] is True
+        assert result['issue_type'] == 'refactor'
+
+    def test_swe_file_refs(self):
+        """dim1: 提取文件引用"""
+        from coding_enhancer import plan_swe_fix
+        result = plan_swe_fix("Bug in api_server.py: crash when loading config.json at startup")
+        assert result['success'] is True
+        assert len(result['file_references']) >= 1
+
+    def test_swe_short_issue(self):
+        """dim1: 太短的Issue返回错误"""
+        from coding_enhancer import plan_swe_fix
+        result = plan_swe_fix("bug")
+        assert result['success'] is False
+
+    def test_swe_pipeline_steps(self):
+        """dim1: Pipeline步骤完整"""
+        from coding_enhancer import SWE_PIPELINE_STEPS
+        assert 'parse_issue' in SWE_PIPELINE_STEPS
+        assert 'locate_code' in SWE_PIPELINE_STEPS
+        assert 'generate_patch' in SWE_PIPELINE_STEPS
+        assert 'verify_fix' in SWE_PIPELINE_STEPS
+        assert len(SWE_PIPELINE_STEPS) == 5
+
+    def test_nosql_redis_overview(self):
+        """dim31: Redis概览"""
+        from coding_enhancer import get_nosql_template
+        result = get_nosql_template("redis")
+        assert result['success'] is True
+        assert result['operation_count'] >= 6
+
+    def test_nosql_redis_string(self):
+        """dim31: Redis字符串操作"""
+        from coding_enhancer import get_nosql_template
+        result = get_nosql_template("redis", "string")
+        assert result['success'] is True
+        assert 'set' in result['code']
+
+    def test_nosql_redis_cache(self):
+        """dim31: Redis缓存模式"""
+        from coding_enhancer import get_nosql_template
+        result = get_nosql_template("redis", "cache_pattern")
+        assert result['success'] is True
+        assert 'get_cached' in result['code']
+
+    def test_nosql_mongodb(self):
+        """dim31: MongoDB概览"""
+        from coding_enhancer import get_nosql_template
+        result = get_nosql_template("mongodb")
+        assert result['success'] is True
+        assert result['operation_count'] >= 5
+
+    def test_nosql_mongodb_aggregate(self):
+        """dim31: MongoDB聚合"""
+        from coding_enhancer import get_nosql_template
+        result = get_nosql_template("mongodb", "aggregate")
+        assert result['success'] is True
+        assert '$match' in result['code']
+
+    def test_nosql_elasticsearch(self):
+        """dim31: Elasticsearch概览"""
+        from coding_enhancer import get_nosql_template
+        result = get_nosql_template("elasticsearch")
+        assert result['success'] is True
+
+    def test_nosql_unknown(self):
+        """dim31: 未知DB返回错误"""
+        from coding_enhancer import get_nosql_template
+        result = get_nosql_template("cassandra")
+        assert result['success'] is False
+
+    def test_nosql_db_count(self):
+        """dim31: NoSQL数据库>=3种"""
+        from coding_enhancer import NOSQL_TEMPLATES
+        assert len(NOSQL_TEMPLATES) >= 3
+
+    def test_ms_api_gateway(self):
+        """dim41: API Gateway模板"""
+        from coding_enhancer import get_microservice_pattern
+        result = get_microservice_pattern("api_gateway")
+        assert result['success'] is True
+        assert 'FastAPI' in result['code']
+
+    def test_ms_circuit_breaker(self):
+        """dim41: 熔断器模板"""
+        from coding_enhancer import get_microservice_pattern
+        result = get_microservice_pattern("circuit_breaker")
+        assert result['success'] is True
+        assert 'CircuitBreaker' in result['code']
+
+    def test_ms_event_driven(self):
+        """dim41: 事件驱动模板"""
+        from coding_enhancer import get_microservice_pattern
+        result = get_microservice_pattern("event_driven")
+        assert result['success'] is True
+        assert 'publish_event' in result['code']
+
+    def test_ms_saga(self):
+        """dim41: Saga模式模板"""
+        from coding_enhancer import get_microservice_pattern
+        result = get_microservice_pattern("saga_pattern")
+        assert result['success'] is True
+        assert 'SagaOrchestrator' in result['code']
+
+    def test_ms_service_discovery(self):
+        """dim41: 服务发现模板"""
+        from coding_enhancer import get_microservice_pattern
+        result = get_microservice_pattern("service_discovery")
+        assert result['success'] is True
+
+    def test_ms_unknown(self):
+        """dim41: 未知模式返回错误"""
+        from coding_enhancer import get_microservice_pattern
+        result = get_microservice_pattern("cqrs")
+        assert result['success'] is False
+
+    def test_ms_patterns_count(self):
+        """dim41: 微服务模式>=5种"""
+        from coding_enhancer import MICROSERVICE_PATTERNS
+        assert len(MICROSERVICE_PATTERNS) >= 5
+
+    def test_round13_tools_registered(self):
+        """所有Round13工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['plan_swe_fix', 'get_nosql_template', 'get_microservice_pattern']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"

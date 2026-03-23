@@ -2858,6 +2858,341 @@ def get_framework_cheatsheet(framework: str) -> Dict:
             "available": {k: v["name"] for k, v in FRAMEWORK_CHEATSHEETS.items()}}
 
 
+# ==================== 32. SWE-Agent Pipeline助手 (维度1) ====================
+
+SWE_PIPELINE_STEPS = {
+    "parse_issue": {
+        "description": "解析GitHub Issue,提取bug描述/复现步骤/预期行为",
+        "inputs": ["issue_text"],
+        "outputs": ["bug_description", "reproduction_steps", "expected_behavior", "affected_files"],
+    },
+    "locate_code": {
+        "description": "根据Issue关键词和堆栈追踪定位相关代码",
+        "inputs": ["bug_description", "repo_structure"],
+        "outputs": ["candidate_files", "relevant_functions", "search_queries"],
+    },
+    "generate_patch": {
+        "description": "生成修复补丁(最小化变更)",
+        "inputs": ["affected_files", "bug_description"],
+        "outputs": ["patch_diff", "changed_lines", "risk_assessment"],
+    },
+    "generate_test": {
+        "description": "为修复生成回归测试",
+        "inputs": ["bug_description", "patch_diff"],
+        "outputs": ["test_code", "test_name", "assertions"],
+    },
+    "verify_fix": {
+        "description": "运行测试验证修复有效性",
+        "inputs": ["test_code", "patch_diff"],
+        "outputs": ["test_result", "coverage_delta", "side_effects"],
+    },
+}
+
+
+def plan_swe_fix(issue_text: str) -> Dict:
+    """为GitHub Issue生成SWE-Agent修复计划"""
+    if not issue_text or len(issue_text.strip()) < 10:
+        return {"success": False, "error": "Issue文本太短,需要至少10个字符"}
+
+    text = issue_text.lower()
+    # 分类Issue
+    if any(kw in text for kw in ["error", "bug", "crash", "fail", "exception", "traceback"]):
+        issue_type = "bug"
+    elif any(kw in text for kw in ["feature", "add", "implement", "support", "enhancement"]):
+        issue_type = "feature"
+    elif any(kw in text for kw in ["refactor", "cleanup", "improve", "optimize"]):
+        issue_type = "refactor"
+    else:
+        issue_type = "unknown"
+
+    # 提取关键信息
+    lines = issue_text.strip().split('\n')
+    title = lines[0] if lines else "Untitled"
+
+    # 提取文件引用
+    import re
+    file_refs = re.findall(r'[\w/]+\.\w{1,5}', issue_text)
+    file_refs = list(set(f for f in file_refs if '.' in f and len(f) > 3))[:10]
+
+    # 提取堆栈追踪
+    has_traceback = 'traceback' in text or 'error' in text
+
+    # 生成修复计划
+    plan_steps = []
+    for step_name, step_info in SWE_PIPELINE_STEPS.items():
+        plan_steps.append({
+            "step": step_name,
+            "description": step_info["description"],
+            "inputs": step_info["inputs"],
+            "outputs": step_info["outputs"],
+        })
+
+    return {
+        "success": True,
+        "issue_type": issue_type,
+        "title": title,
+        "file_references": file_refs,
+        "has_traceback": has_traceback,
+        "pipeline": plan_steps,
+        "pipeline_length": len(plan_steps),
+        "estimated_complexity": "high" if issue_type == "feature" else "medium" if issue_type == "bug" else "low",
+    }
+
+
+# ==================== 33. NoSQL操作模板 (维度31) ====================
+
+NOSQL_TEMPLATES = {
+    "redis": {
+        "name": "Redis",
+        "connection": "import redis\nr = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)",
+        "operations": {
+            "string": "r.set('key', 'value')\nr.get('key')\nr.setex('key', 3600, 'value')  # TTL 1h",
+            "hash": "r.hset('user:1', mapping={'name': 'Alice', 'age': 30})\nr.hgetall('user:1')",
+            "list": "r.lpush('queue', 'task1', 'task2')\nr.rpop('queue')\nr.lrange('queue', 0, -1)",
+            "set": "r.sadd('tags', 'python', 'redis')\nr.smembers('tags')\nr.sinter('tags1', 'tags2')",
+            "sorted_set": "r.zadd('leaderboard', {'alice': 100, 'bob': 85})\nr.zrevrange('leaderboard', 0, 9, withscores=True)",
+            "pub_sub": "# Publisher\nr.publish('channel', 'message')\n# Subscriber\np = r.pubsub()\np.subscribe('channel')\nfor msg in p.listen(): print(msg)",
+            "cache_pattern": "def get_cached(key, fetch_fn, ttl=3600):\n    val = r.get(key)\n    if val is None:\n        val = fetch_fn()\n        r.setex(key, ttl, json.dumps(val))\n    return json.loads(val) if isinstance(val, str) else val",
+        },
+    },
+    "mongodb": {
+        "name": "MongoDB",
+        "connection": "from pymongo import MongoClient\nclient = MongoClient('mongodb://localhost:27017/')\ndb = client['mydb']\ncol = db['users']",
+        "operations": {
+            "insert": "col.insert_one({'name': 'Alice', 'age': 30})\ncol.insert_many([{'name': 'Bob'}, {'name': 'Charlie'}])",
+            "find": "col.find_one({'name': 'Alice'})\nlist(col.find({'age': {'$gt': 25}}).sort('age', -1).limit(10))",
+            "update": "col.update_one({'name': 'Alice'}, {'$set': {'age': 31}})\ncol.update_many({}, {'$inc': {'age': 1}})",
+            "delete": "col.delete_one({'name': 'Alice'})\ncol.delete_many({'age': {'$lt': 18}})",
+            "aggregate": "col.aggregate([\n    {'$match': {'age': {'$gt': 20}}},\n    {'$group': {'_id': '$city', 'avg_age': {'$avg': '$age'}}},\n    {'$sort': {'avg_age': -1}}\n])",
+            "index": "col.create_index([('name', 1)], unique=True)\ncol.create_index([('location', '2dsphere')])",
+        },
+    },
+    "elasticsearch": {
+        "name": "Elasticsearch",
+        "connection": "from elasticsearch import Elasticsearch\nes = Elasticsearch(['http://localhost:9200'])",
+        "operations": {
+            "index": "es.index(index='users', id=1, document={'name': 'Alice', 'age': 30})",
+            "search": "es.search(index='users', query={'match': {'name': 'Alice'}})",
+            "bulk": "from elasticsearch.helpers import bulk\nactions = [{'_index': 'users', '_source': doc} for doc in docs]\nbulk(es, actions)",
+            "aggregate": "es.search(index='users', aggs={'age_stats': {'stats': {'field': 'age'}}})",
+        },
+    },
+}
+
+
+def get_nosql_template(db: str, operation: str = "") -> Dict:
+    """获取NoSQL数据库操作模板"""
+    if not db:
+        return {"success": False, "error": "需要提供数据库名",
+                "available": {k: v["name"] for k, v in NOSQL_TEMPLATES.items()}}
+
+    db = db.lower().strip()
+    if db not in NOSQL_TEMPLATES:
+        return {"success": False, "error": f"未找到: {db}",
+                "available": {k: v["name"] for k, v in NOSQL_TEMPLATES.items()}}
+
+    tpl = NOSQL_TEMPLATES[db]
+
+    if operation:
+        operation = operation.lower().strip()
+        if operation in tpl["operations"]:
+            return {
+                "success": True,
+                "db": db,
+                "name": tpl["name"],
+                "operation": operation,
+                "code": tpl["operations"][operation],
+                "connection": tpl["connection"],
+            }
+        return {"success": False, "error": f"未找到操作: {operation}",
+                "available_ops": list(tpl["operations"].keys())}
+
+    return {
+        "success": True,
+        "db": db,
+        "name": tpl["name"],
+        "connection": tpl["connection"],
+        "operations": list(tpl["operations"].keys()),
+        "operation_count": len(tpl["operations"]),
+    }
+
+
+# ==================== 34. 微服务架构模板 (维度41) ====================
+
+MICROSERVICE_PATTERNS = {
+    "api_gateway": {
+        "name": "API Gateway",
+        "description": "统一入口,路由/限流/认证",
+        "code": '''from fastapi import FastAPI, Request
+import httpx
+
+app = FastAPI(title="API Gateway")
+SERVICES = {
+    "users": "http://user-service:8001",
+    "orders": "http://order-service:8002",
+    "products": "http://product-service:8003",
+}
+
+@app.api_route("/{service}/{path:path}", methods=["GET","POST","PUT","DELETE"])
+async def proxy(service: str, path: str, request: Request):
+    if service not in SERVICES:
+        return {"error": f"Unknown service: {service}"}
+    url = f"{SERVICES[service]}/{path}"
+    async with httpx.AsyncClient() as client:
+        resp = await client.request(request.method, url,
+            headers=dict(request.headers), content=await request.body())
+    return resp.json()
+''',
+    },
+    "service_discovery": {
+        "name": "服务发现",
+        "description": "Consul/etcd服务注册与发现",
+        "code": '''import consul
+
+c = consul.Consul()
+
+# 注册服务
+c.agent.service.register(
+    name="user-service",
+    service_id="user-1",
+    address="10.0.0.1",
+    port=8001,
+    check=consul.Check.http("http://10.0.0.1:8001/health", interval="10s")
+)
+
+# 发现服务
+_, services = c.health.service("user-service", passing=True)
+endpoints = [(s['Service']['Address'], s['Service']['Port']) for s in services]
+''',
+    },
+    "circuit_breaker": {
+        "name": "熔断器",
+        "description": "防止级联故障(Hystrix模式)",
+        "code": '''import time
+from enum import Enum
+
+class State(Enum):
+    CLOSED = "closed"
+    OPEN = "open"
+    HALF_OPEN = "half_open"
+
+class CircuitBreaker:
+    def __init__(self, failure_threshold=5, recovery_timeout=30):
+        self.failure_threshold = failure_threshold
+        self.recovery_timeout = recovery_timeout
+        self.failure_count = 0
+        self.state = State.CLOSED
+        self.last_failure_time = 0
+
+    def call(self, func, *args, **kwargs):
+        if self.state == State.OPEN:
+            if time.time() - self.last_failure_time > self.recovery_timeout:
+                self.state = State.HALF_OPEN
+            else:
+                raise Exception("Circuit is OPEN")
+        try:
+            result = func(*args, **kwargs)
+            self.failure_count = 0
+            self.state = State.CLOSED
+            return result
+        except Exception as e:
+            self.failure_count += 1
+            self.last_failure_time = time.time()
+            if self.failure_count >= self.failure_threshold:
+                self.state = State.OPEN
+            raise
+''',
+    },
+    "event_driven": {
+        "name": "事件驱动",
+        "description": "基于消息队列的异步通信",
+        "code": '''import json
+import redis
+
+r = redis.Redis()
+
+# 发布事件
+def publish_event(event_type: str, data: dict):
+    event = {"type": event_type, "data": data, "timestamp": time.time()}
+    r.publish("events", json.dumps(event))
+
+# 订阅事件
+def subscribe_events(handler):
+    p = r.pubsub()
+    p.subscribe("events")
+    for message in p.listen():
+        if message["type"] == "message":
+            event = json.loads(message["data"])
+            handler(event)
+
+# 使用
+publish_event("user_created", {"user_id": 123, "name": "Alice"})
+''',
+    },
+    "saga_pattern": {
+        "name": "Saga模式",
+        "description": "分布式事务补偿",
+        "code": '''class SagaStep:
+    def __init__(self, action, compensation):
+        self.action = action
+        self.compensation = compensation
+
+class SagaOrchestrator:
+    def __init__(self):
+        self.steps = []
+        self.completed = []
+
+    def add_step(self, action, compensation):
+        self.steps.append(SagaStep(action, compensation))
+
+    def execute(self):
+        for step in self.steps:
+            try:
+                step.action()
+                self.completed.append(step)
+            except Exception as e:
+                self.compensate()
+                raise Exception(f"Saga failed: {e}")
+
+    def compensate(self):
+        for step in reversed(self.completed):
+            try:
+                step.compensation()
+            except Exception:
+                pass  # log compensation failure
+''',
+    },
+}
+
+
+def get_microservice_pattern(pattern: str) -> Dict:
+    """获取微服务架构模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in MICROSERVICE_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in MICROSERVICE_PATTERNS:
+        p = MICROSERVICE_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "description": p["description"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in MICROSERVICE_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到模式: {pattern}",
+            "available": {k: v["name"] for k, v in MICROSERVICE_PATTERNS.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -3326,6 +3661,49 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "plan_swe_fix",
+            "description": "为GitHub Issue生成SWE-Agent修复计划(5步Pipeline:解析→定位→补丁→测试→验证)。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "issue_text": {"type": "string", "description": "Issue文本内容"}
+                },
+                "required": ["issue_text"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_nosql_template",
+            "description": "获取NoSQL操作模板。可用DB:redis/mongodb/elasticsearch。支持指定操作类型。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "db": {"type": "string", "description": "数据库名称(redis/mongodb/elasticsearch)"},
+                    "operation": {"type": "string", "description": "操作类型(可选,如string/hash/find/search)"}
+                },
+                "required": ["db"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_microservice_pattern",
+            "description": "获取微服务架构模式模板。可用:api_gateway/service_discovery/circuit_breaker/event_driven/saga_pattern。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "微服务模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -3460,4 +3838,7 @@ CODING_HANDLERS = {
     "get_cp_trick": lambda args: get_cp_trick(args.get("trick", "")),
     "recommend_ml_model": lambda args: recommend_ml_model(args.get("task", ""), args.get("data_size", "medium"), args.get("interpretable", False)),
     "get_framework_cheatsheet": lambda args: get_framework_cheatsheet(args.get("framework", "")),
+    "plan_swe_fix": lambda args: plan_swe_fix(args.get("issue_text", "")),
+    "get_nosql_template": lambda args: get_nosql_template(args.get("db", ""), args.get("operation", "")),
+    "get_microservice_pattern": lambda args: get_microservice_pattern(args.get("pattern", "")),
 }
