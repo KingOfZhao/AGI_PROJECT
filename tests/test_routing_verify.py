@@ -1111,3 +1111,158 @@ class TestRound10_APIChartAlgo:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 11: DS Pipeline/DP模式/图算法验证 ====================
+class TestRound11_DSPipelineDPGraph:
+    """第11轮: 数据科学Pipeline/DP模式/图算法验证"""
+
+    def test_ds_classification(self):
+        """dim48: 分类Pipeline生成"""
+        from coding_enhancer import generate_ds_pipeline
+        result = generate_ds_pipeline("classification")
+        assert result['success'] is True
+        assert 'pandas' in result['code']
+        assert 'RandomForestClassifier' in result['code']
+        assert len(result['steps']) == 6
+
+    def test_ds_regression(self):
+        """dim48: 回归Pipeline生成"""
+        from coding_enhancer import generate_ds_pipeline
+        result = generate_ds_pipeline("regression")
+        assert result['success'] is True
+        assert 'RandomForestRegressor' in result['code']
+        assert 'mean_squared_error' in result['code']
+
+    def test_ds_clustering(self):
+        """dim48: 聚类Pipeline生成"""
+        from coding_enhancer import generate_ds_pipeline
+        result = generate_ds_pipeline("clustering")
+        assert result['success'] is True
+        assert 'KMeans' in result['code']
+
+    def test_ds_json_format(self):
+        """dim48: JSON数据格式"""
+        from coding_enhancer import generate_ds_pipeline
+        result = generate_ds_pipeline("classification", data_format="json")
+        assert result['success'] is True
+        assert 'read_json' in result['code']
+
+    def test_ds_custom_target(self):
+        """dim48: 自定义目标列"""
+        from coding_enhancer import generate_ds_pipeline
+        result = generate_ds_pipeline("classification", target_col="label")
+        assert result['success'] is True
+        assert "'label'" in result['code']
+
+    def test_ds_pipeline_steps(self):
+        """dim48: Pipeline步骤完整"""
+        from coding_enhancer import DS_PIPELINE_STEPS
+        assert 'load' in DS_PIPELINE_STEPS
+        assert 'clean' in DS_PIPELINE_STEPS
+        assert 'split' in DS_PIPELINE_STEPS
+
+    def test_dp_linear(self):
+        """dim55: 线性DP模板"""
+        from coding_enhancer import get_dp_pattern
+        result = get_dp_pattern("linear_dp")
+        assert result['success'] is True
+        assert 'longest_increasing_subsequence' in result['code']
+        assert 'O(n' in result['complexity']['time']
+
+    def test_dp_interval(self):
+        """dim55: 区间DP模板"""
+        from coding_enhancer import get_dp_pattern
+        result = get_dp_pattern("interval_dp")
+        assert result['success'] is True
+        assert 'matrix_chain_order' in result['code']
+
+    def test_dp_tree(self):
+        """dim55: 树形DP模板"""
+        from coding_enhancer import get_dp_pattern
+        result = get_dp_pattern("tree_dp")
+        assert result['success'] is True
+        assert 'tree_diameter' in result['code']
+
+    def test_greedy_interval(self):
+        """dim55: 贪心-区间调度模板"""
+        from coding_enhancer import get_dp_pattern
+        result = get_dp_pattern("greedy_interval")
+        assert result['success'] is True
+        assert 'max_non_overlapping' in result['code']
+
+    def test_greedy_huffman(self):
+        """dim55: 贪心-Huffman模板"""
+        from coding_enhancer import get_dp_pattern
+        result = get_dp_pattern("greedy_huffman")
+        assert result['success'] is True
+        assert 'huffman_encoding' in result['code']
+
+    def test_dp_unknown(self):
+        """dim55: 未知DP模式返回错误"""
+        from coding_enhancer import get_dp_pattern
+        result = get_dp_pattern("quantum_dp")
+        assert result['success'] is False
+
+    def test_dp_patterns_count(self):
+        """dim55: DP/贪心模式>=5种"""
+        from coding_enhancer import DP_PATTERNS
+        assert len(DP_PATTERNS) >= 5
+
+    def test_graph_topological(self):
+        """dim56: 拓扑排序模板"""
+        from coding_enhancer import get_graph_algorithm
+        result = get_graph_algorithm("topological_sort")
+        assert result['success'] is True
+        assert 'topological_sort' in result['code']
+        assert 'O(V+E)' in result['complexity']['time']
+
+    def test_graph_kruskal(self):
+        """dim56: Kruskal MST模板"""
+        from coding_enhancer import get_graph_algorithm
+        result = get_graph_algorithm("kruskal_mst")
+        assert result['success'] is True
+        assert 'kruskal_mst' in result['code']
+
+    def test_graph_a_star(self):
+        """dim56: A*搜索模板"""
+        from coding_enhancer import get_graph_algorithm
+        result = get_graph_algorithm("a_star")
+        assert result['success'] is True
+        assert 'a_star' in result['code']
+        assert 'heuristic' in result['code']
+
+    def test_graph_floyd(self):
+        """dim56: Floyd-Warshall模板"""
+        from coding_enhancer import get_graph_algorithm
+        result = get_graph_algorithm("floyd_warshall")
+        assert result['success'] is True
+        assert 'floyd_warshall' in result['code']
+
+    def test_graph_tarjan(self):
+        """dim56: Tarjan SCC模板"""
+        from coding_enhancer import get_graph_algorithm
+        result = get_graph_algorithm("tarjan_scc")
+        assert result['success'] is True
+        assert 'tarjan_scc' in result['code']
+
+    def test_graph_unknown(self):
+        """dim56: 未知图算法返回错误"""
+        from coding_enhancer import get_graph_algorithm
+        result = get_graph_algorithm("bellman_ford")
+        assert result['success'] is False
+
+    def test_graph_algos_count(self):
+        """dim56: 图算法>=5种"""
+        from coding_enhancer import GRAPH_ALGORITHMS
+        assert len(GRAPH_ALGORITHMS) >= 5
+
+    def test_round11_tools_registered(self):
+        """所有Round11工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['generate_ds_pipeline', 'get_dp_pattern', 'get_graph_algorithm']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"

@@ -2144,6 +2144,440 @@ def get_algorithm_template(algorithm: str) -> Dict:
             "available": {k: v["name"] for k, v in ALGORITHM_TEMPLATES.items()}}
 
 
+# ==================== 26. 数据科学Pipeline生成 (维度48) ====================
+
+DS_PIPELINE_STEPS = {
+    "load": {
+        "csv": "df = pd.read_csv('{path}')",
+        "json": "df = pd.read_json('{path}')",
+        "excel": "df = pd.read_excel('{path}')",
+        "sql": "df = pd.read_sql('{query}', conn)",
+    },
+    "clean": [
+        "df = df.dropna(subset={columns})",
+        "df = df.drop_duplicates()",
+        "df = df.fillna(df.median(numeric_only=True))",
+        "df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')",
+    ],
+    "transform": [
+        "df['{col}_log'] = np.log1p(df['{col}'])",
+        "df['{col}_normalized'] = (df['{col}'] - df['{col}'].mean()) / df['{col}'].std()",
+        "df = pd.get_dummies(df, columns={cat_cols})",
+    ],
+    "feature": [
+        "from sklearn.preprocessing import StandardScaler",
+        "scaler = StandardScaler()",
+        "X_scaled = scaler.fit_transform(X)",
+    ],
+    "split": "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)",
+    "evaluate": [
+        "from sklearn.metrics import accuracy_score, classification_report",
+        "y_pred = model.predict(X_test)",
+        "print(classification_report(y_test, y_pred))",
+    ],
+}
+
+
+def generate_ds_pipeline(task: str = "classification", data_format: str = "csv",
+                         target_col: str = "target") -> Dict:
+    """生成数据科学Pipeline代码(加载→清洗→特征→训练→评估)"""
+    if not task:
+        return {"success": False, "error": "需要提供任务类型(classification/regression/clustering)"}
+
+    code_lines = [
+        "import pandas as pd",
+        "import numpy as np",
+        "from sklearn.model_selection import train_test_split",
+        "",
+        "# === Step 1: 数据加载 ===",
+    ]
+
+    load_code = DS_PIPELINE_STEPS["load"].get(data_format, DS_PIPELINE_STEPS["load"]["csv"])
+    code_lines.append(load_code.replace("{path}", "data.csv").replace("{query}", "SELECT * FROM table"))
+    code_lines.append(f"print(f'数据形状: {{df.shape}}')")
+    code_lines.append(f"print(df.head())")
+    code_lines.append("")
+
+    code_lines.append("# === Step 2: 数据清洗 ===")
+    for step in DS_PIPELINE_STEPS["clean"]:
+        code_lines.append(step.replace("{columns}", f"['{target_col}']"))
+    code_lines.append(f"print(f'清洗后: {{df.shape}}')")
+    code_lines.append("")
+
+    code_lines.append("# === Step 3: 特征工程 ===")
+    code_lines.append(f"X = df.drop(columns=['{target_col}'])")
+    code_lines.append(f"y = df['{target_col}']")
+    code_lines.append("# 数值列标准化")
+    code_lines.append("numeric_cols = X.select_dtypes(include=[np.number]).columns")
+    code_lines.append("X[numeric_cols] = (X[numeric_cols] - X[numeric_cols].mean()) / X[numeric_cols].std()")
+    code_lines.append("")
+
+    code_lines.append("# === Step 4: 数据分割 ===")
+    code_lines.append(DS_PIPELINE_STEPS["split"])
+    code_lines.append(f"print(f'训练集: {{X_train.shape}}, 测试集: {{X_test.shape}}')")
+    code_lines.append("")
+
+    code_lines.append("# === Step 5: 模型训练 ===")
+    if task == "classification":
+        code_lines.extend([
+            "from sklearn.ensemble import RandomForestClassifier",
+            "model = RandomForestClassifier(n_estimators=100, random_state=42)",
+        ])
+    elif task == "regression":
+        code_lines.extend([
+            "from sklearn.ensemble import RandomForestRegressor",
+            "model = RandomForestRegressor(n_estimators=100, random_state=42)",
+        ])
+    else:
+        code_lines.extend([
+            "from sklearn.cluster import KMeans",
+            "model = KMeans(n_clusters=3, random_state=42)",
+        ])
+    code_lines.append("model.fit(X_train, y_train)")
+    code_lines.append("")
+
+    code_lines.append("# === Step 6: 评估 ===")
+    if task == "classification":
+        code_lines.extend([
+            "from sklearn.metrics import accuracy_score, classification_report",
+            "y_pred = model.predict(X_test)",
+            "print(f'准确率: {accuracy_score(y_test, y_pred):.4f}')",
+            "print(classification_report(y_test, y_pred))",
+        ])
+    elif task == "regression":
+        code_lines.extend([
+            "from sklearn.metrics import mean_squared_error, r2_score",
+            "y_pred = model.predict(X_test)",
+            "print(f'MSE: {mean_squared_error(y_test, y_pred):.4f}')",
+            "print(f'R²: {r2_score(y_test, y_pred):.4f}')",
+        ])
+    else:
+        code_lines.extend([
+            "labels = model.predict(X_test)",
+            "print(f'聚类标签分布: {pd.Series(labels).value_counts().to_dict()}')",
+        ])
+
+    code = '\n'.join(code_lines)
+    return {
+        "success": True,
+        "task": task,
+        "data_format": data_format,
+        "target_col": target_col,
+        "code": code,
+        "steps": ["加载", "清洗", "特征工程", "分割", "训练", "评估"],
+        "line_count": len(code_lines),
+    }
+
+
+# ==================== 27. DP模式与贪心策略模板 (维度55) ====================
+
+DP_PATTERNS = {
+    "linear_dp": {
+        "name": "线性DP",
+        "description": "最长递增子序列/最大子数组和",
+        "complexity": {"time": "O(n²) / O(n)", "space": "O(n)"},
+        "code": '''def longest_increasing_subsequence(nums):
+    """最长递增子序列 - O(n²)"""
+    if not nums:
+        return 0
+    n = len(nums)
+    dp = [1] * n
+    for i in range(1, n):
+        for j in range(i):
+            if nums[j] < nums[i]:
+                dp[i] = max(dp[i], dp[j] + 1)
+    return max(dp)
+
+def max_subarray_sum(nums):
+    """最大子数组和 (Kadane) - O(n)"""
+    max_sum = cur_sum = nums[0]
+    for x in nums[1:]:
+        cur_sum = max(x, cur_sum + x)
+        max_sum = max(max_sum, cur_sum)
+    return max_sum
+''',
+    },
+    "interval_dp": {
+        "name": "区间DP",
+        "description": "矩阵链乘法/戳气球",
+        "complexity": {"time": "O(n³)", "space": "O(n²)"},
+        "code": '''def matrix_chain_order(dims):
+    """矩阵链乘法 - O(n³)"""
+    n = len(dims) - 1
+    dp = [[0] * n for _ in range(n)]
+    for length in range(2, n + 1):
+        for i in range(n - length + 1):
+            j = i + length - 1
+            dp[i][j] = float('inf')
+            for k in range(i, j):
+                cost = dp[i][k] + dp[k+1][j] + dims[i]*dims[k+1]*dims[j+1]
+                dp[i][j] = min(dp[i][j], cost)
+    return dp[0][n-1]
+''',
+    },
+    "tree_dp": {
+        "name": "树形DP",
+        "description": "树的最大独立集/树的直径",
+        "complexity": {"time": "O(n)", "space": "O(n)"},
+        "code": '''def tree_diameter(adj):
+    """树的直径 - O(n)"""
+    n = len(adj)
+    dp = [0] * n
+    diameter = [0]
+    visited = [False] * n
+
+    def dfs(u):
+        visited[u] = True
+        max1 = max2 = 0
+        for v in adj[u]:
+            if not visited[v]:
+                dfs(v)
+                d = dp[v] + 1
+                if d > max1:
+                    max2 = max1
+                    max1 = d
+                elif d > max2:
+                    max2 = d
+        dp[u] = max1
+        diameter[0] = max(diameter[0], max1 + max2)
+
+    dfs(0)
+    return diameter[0]
+''',
+    },
+    "greedy_interval": {
+        "name": "贪心-区间调度",
+        "description": "最多不重叠区间/最少会议室",
+        "complexity": {"time": "O(n log n)", "space": "O(1)"},
+        "code": '''def max_non_overlapping(intervals):
+    """最多不重叠区间 - O(n log n)"""
+    intervals.sort(key=lambda x: x[1])
+    count = 0
+    end = float('-inf')
+    for s, e in intervals:
+        if s >= end:
+            count += 1
+            end = e
+    return count
+''',
+    },
+    "greedy_huffman": {
+        "name": "贪心-Huffman编码",
+        "description": "最优前缀编码",
+        "complexity": {"time": "O(n log n)", "space": "O(n)"},
+        "code": '''import heapq
+
+def huffman_encoding(freq):
+    """Huffman编码 - O(n log n)"""
+    heap = [[f, [ch, '']] for ch, f in freq.items()]
+    heapq.heapify(heap)
+    while len(heap) > 1:
+        lo = heapq.heappop(heap)
+        hi = heapq.heappop(heap)
+        for pair in lo[1:]:
+            pair[1] = '0' + pair[1]
+        for pair in hi[1:]:
+            pair[1] = '1' + pair[1]
+        heapq.heappush(heap, [lo[0] + hi[0]] + lo[1:] + hi[1:])
+    return {ch: code for ch, code in heap[0][1:]}
+''',
+    },
+}
+
+
+def get_dp_pattern(pattern: str) -> Dict:
+    """获取DP/贪心算法模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in DP_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in DP_PATTERNS:
+        tpl = DP_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": tpl["name"],
+            "description": tpl["description"],
+            "complexity": tpl["complexity"],
+            "code": tpl["code"],
+            "line_count": len(tpl["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in DP_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到模式: {pattern}",
+            "available": {k: v["name"] for k, v in DP_PATTERNS.items()}}
+
+
+# ==================== 28. 图算法扩展 (维度56) ====================
+
+GRAPH_ALGORITHMS = {
+    "topological_sort": {
+        "name": "拓扑排序",
+        "complexity": {"time": "O(V+E)", "space": "O(V)"},
+        "code": '''from collections import deque
+
+def topological_sort(graph, n):
+    """拓扑排序(Kahn) - O(V+E)"""
+    in_degree = [0] * n
+    for u in range(n):
+        for v in graph.get(u, []):
+            in_degree[v] += 1
+    queue = deque([u for u in range(n) if in_degree[u] == 0])
+    order = []
+    while queue:
+        u = queue.popleft()
+        order.append(u)
+        for v in graph.get(u, []):
+            in_degree[v] -= 1
+            if in_degree[v] == 0:
+                queue.append(v)
+    return order if len(order) == n else []  # 空=有环
+''',
+    },
+    "kruskal_mst": {
+        "name": "Kruskal最小生成树",
+        "complexity": {"time": "O(E log E)", "space": "O(V)"},
+        "code": '''def kruskal_mst(edges, n):
+    """Kruskal MST - O(E log E)"""
+    parent = list(range(n))
+    rank = [0] * n
+
+    def find(x):
+        if parent[x] != x:
+            parent[x] = find(parent[x])
+        return parent[x]
+
+    def union(x, y):
+        px, py = find(x), find(y)
+        if px == py: return False
+        if rank[px] < rank[py]: px, py = py, px
+        parent[py] = px
+        if rank[px] == rank[py]: rank[px] += 1
+        return True
+
+    edges.sort(key=lambda e: e[2])  # (u, v, weight)
+    mst = []
+    for u, v, w in edges:
+        if union(u, v):
+            mst.append((u, v, w))
+            if len(mst) == n - 1:
+                break
+    return mst
+''',
+    },
+    "a_star": {
+        "name": "A*搜索",
+        "complexity": {"time": "O(E log V)", "space": "O(V)"},
+        "code": '''import heapq
+
+def a_star(graph, start, goal, heuristic):
+    """A*搜索 - O(E log V)"""
+    open_set = [(heuristic(start, goal), 0, start, [start])]
+    visited = set()
+    while open_set:
+        f, g, current, path = heapq.heappop(open_set)
+        if current == goal:
+            return path, g
+        if current in visited:
+            continue
+        visited.add(current)
+        for neighbor, weight in graph.get(current, []):
+            if neighbor not in visited:
+                ng = g + weight
+                nf = ng + heuristic(neighbor, goal)
+                heapq.heappush(open_set, (nf, ng, neighbor, path + [neighbor]))
+    return [], float('inf')
+''',
+    },
+    "floyd_warshall": {
+        "name": "Floyd-Warshall全源最短路",
+        "complexity": {"time": "O(V³)", "space": "O(V²)"},
+        "code": '''def floyd_warshall(dist):
+    """Floyd-Warshall - O(V³)"""
+    n = len(dist)
+    for k in range(n):
+        for i in range(n):
+            for j in range(n):
+                if dist[i][k] + dist[k][j] < dist[i][j]:
+                    dist[i][j] = dist[i][k] + dist[k][j]
+    return dist
+''',
+    },
+    "tarjan_scc": {
+        "name": "Tarjan强连通分量",
+        "complexity": {"time": "O(V+E)", "space": "O(V)"},
+        "code": '''def tarjan_scc(graph, n):
+    """Tarjan SCC - O(V+E)"""
+    idx = [0]
+    stack = []
+    on_stack = [False] * n
+    index = [-1] * n
+    lowlink = [0] * n
+    sccs = []
+
+    def strongconnect(v):
+        index[v] = lowlink[v] = idx[0]
+        idx[0] += 1
+        stack.append(v)
+        on_stack[v] = True
+        for w in graph.get(v, []):
+            if index[w] == -1:
+                strongconnect(w)
+                lowlink[v] = min(lowlink[v], lowlink[w])
+            elif on_stack[w]:
+                lowlink[v] = min(lowlink[v], index[w])
+        if lowlink[v] == index[v]:
+            scc = []
+            while True:
+                w = stack.pop()
+                on_stack[w] = False
+                scc.append(w)
+                if w == v: break
+            sccs.append(scc)
+
+    for v in range(n):
+        if index[v] == -1:
+            strongconnect(v)
+    return sccs
+''',
+    },
+}
+
+
+def get_graph_algorithm(algorithm: str) -> Dict:
+    """获取图算法模板"""
+    if not algorithm:
+        return {"success": False, "error": "需要提供算法名",
+                "available": {k: v["name"] for k, v in GRAPH_ALGORITHMS.items()}}
+
+    algorithm = algorithm.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if algorithm in GRAPH_ALGORITHMS:
+        tpl = GRAPH_ALGORITHMS[algorithm]
+        return {
+            "success": True,
+            "algorithm": algorithm,
+            "name": tpl["name"],
+            "complexity": tpl["complexity"],
+            "code": tpl["code"],
+            "line_count": len(tpl["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in GRAPH_ALGORITHMS.items()
+               if algorithm in k or algorithm in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{algorithm}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到算法: {algorithm}",
+            "available": {k: v["name"] for k, v in GRAPH_ALGORITHMS.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -2524,6 +2958,50 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "generate_ds_pipeline",
+            "description": "生成完整数据科学Pipeline代码(加载→清洗→特征→分割→训练→评估)。支持classification/regression/clustering。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "task": {"type": "string", "description": "任务类型(classification/regression/clustering)"},
+                    "data_format": {"type": "string", "description": "数据格式(csv/json/excel/sql)"},
+                    "target_col": {"type": "string", "description": "目标列名"}
+                },
+                "required": ["task"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_dp_pattern",
+            "description": "获取DP/贪心模式模板。可用:linear_dp/interval_dp/tree_dp/greedy_interval/greedy_huffman。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_graph_algorithm",
+            "description": "获取图算法模板。可用:topological_sort/kruskal_mst/a_star/floyd_warshall/tarjan_scc。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "algorithm": {"type": "string", "description": "图算法名称"}
+                },
+                "required": ["algorithm"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -2652,4 +3130,7 @@ CODING_HANDLERS = {
     "lookup_api": lambda args: lookup_api(args.get("module", ""), args.get("function", "")),
     "generate_chart_code": lambda args: generate_chart_code(args.get("chart_type", ""), **{k: v for k, v in args.items() if k != "chart_type"}),
     "get_algorithm_template": lambda args: get_algorithm_template(args.get("algorithm", "")),
+    "generate_ds_pipeline": lambda args: generate_ds_pipeline(args.get("task", "classification"), args.get("data_format", "csv"), args.get("target_col", "target")),
+    "get_dp_pattern": lambda args: get_dp_pattern(args.get("pattern", "")),
+    "get_graph_algorithm": lambda args: get_graph_algorithm(args.get("algorithm", "")),
 }
