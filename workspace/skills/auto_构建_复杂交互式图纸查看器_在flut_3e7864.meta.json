@@ -1,0 +1,29 @@
+{
+  "name": "auto_构建_复杂交互式图纸查看器_在flut_3e7864",
+  "file": "skills/auto_构建_复杂交互式图纸查看器_在flut_3e7864.py",
+  "description": "构建“复杂交互式图纸查看器”。在Flutter中实现原生级别的高性能CAD图层控制能力。不只是简单的Stack堆叠，而是将CAD的图层概念映射为Flutter的CompositingLayer，利用Hardware Layer加速巨大体量图纸的渲染。支持图层过滤、基于图层的Hit-testing（点击测试），使得移动端能流畅操作万级零件的BIM模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T23:10:02.465205",
+  "forged_by": "growth_engine_v3",
+  "source": "collision",
+  "source_node_id": "ho_2_O2_7649",
+  "design_spec": {
+    "name": "auto_构建_复杂交互式图纸查看器_在flut_3e7864",
+    "display_name": "构建“复杂交互式图纸查看器”。在Flutter中实现原生级别的高性能CAD图层控制能力。不只是简单的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建“复杂交互式图纸查看器”。在Flutter中实现原生级别的高性能CAD图层控制能力。不只是简单的Stack堆叠，而是将CAD的图层概念映射为Flutter的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 234
+  }
+}

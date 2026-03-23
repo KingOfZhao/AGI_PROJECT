@@ -1,0 +1,29 @@
+{
+  "name": "auto_持续碰撞_如何建立_代码_反馈_的强化_4e0b79",
+  "file": "skills/auto_持续碰撞_如何建立_代码_反馈_的强化_4e0b79.py",
+  "description": "【持续碰撞】如何建立“代码-反馈”的强化学习闭环（RLHF），让AI根据运行报错信息自动迭代修正逻辑，直至形成可执行的真实节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "machine_learning"
+  ],
+  "created_at": "2026-03-21T10:04:20.607977",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q6_2950",
+  "design_spec": {
+    "name": "auto_持续碰撞_如何建立_代码_反馈_的强化_4e0b79",
+    "display_name": "【持续碰撞】如何建立“代码-反馈”的强化学习闭环（RLHF），让AI根据运行报错信息自动迭代修正逻辑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【持续碰撞】如何建立“代码-反馈”的强化学习闭环（RLHF），让AI根据运行报错信息自动迭代修正逻辑，直至形成可执行的真实节点？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 211
+  }
+}

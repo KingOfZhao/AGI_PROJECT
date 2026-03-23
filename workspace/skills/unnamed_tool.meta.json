@@ -1,0 +1,13 @@
+{
+  "name": "unnamed_tool",
+  "description": "统计指定目录及其子目录中的总文件数量",
+  "tags": [],
+  "file": "skills/unnamed_tool.py",
+  "created_at": "2026-03-18T17:10:40.250595",
+  "forged_by": "tool_forge",
+  "design_spec": {
+    "name": "unnamed_tool",
+    "description": "统计指定目录及其子目录中的总文件数量",
+    "functions": []
+  }
+}

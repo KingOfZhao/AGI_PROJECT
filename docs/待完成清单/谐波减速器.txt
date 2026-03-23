@@ -1,0 +1,35 @@
+谐波减速器柔性环 CAD 生成完成
+生成的文件
+文件	说明
+workspace/outputs/flexspline_SHF-25_*.step	3D STEP模型 — 1.8MB, 100齿完整柔性环
+workspace/outputs/flexspline_2d_SHF-25_*.dxf	2D工程图 — 纵剖面+端面齿形+尺寸标注+参数表
+零件参数 (SHF-25型)
+参数	值
+齿数/模数	z=100, m=0.5mm, α=20°
+分度圆	∅50.0mm
+齿顶圆/齿根圆	∅51.0 / ∅48.8mm
+壁厚	0.3mm
+杯深	30.0mm
+法兰	∅20×3mm, 轴孔∅10, 4-∅3.2螺栓孔 PCD∅16
+材料	40CrNiMoA (弹性合金钢)
+3D模型结构 (STEP)
+杯底法兰: 实心盘 + 轴孔 + 4个螺栓孔
+薄壁圆筒: ∅48.8外壁, ∅48.15内壁, 壁厚0.3mm
+外齿环: 开口端8mm高度, 100个梯形齿(单多边形一次挤出)
+2D工程图内容 (DXF, 81个实体)
+俯视图: 齿顶圆/分度圆/齿根圆/内壁/轴孔/法兰/螺栓孔 + 齿形示意线
+主视图: 纵剖面(半剖) — 法兰+薄壁+齿区 + 剖面线
+标注: 杯深30, 法兰厚3, 壁厚0.3, 外径∅51.0
+标题栏: 零件名/齿参数/材料/日期
+参数表: 6行完整几何参数
+技术实现
+技术点	方案
+3D引擎	CadQuery 2.7.0 (pip install, 替代FreeCAD)
+齿形策略	单闭合多边形(400点)一次挤出, 避免N次布尔union
+性能	100齿3D STEP: 1.4秒 (之前逐齿union方案>120s超时)
+2D引擎	ezdxf 1.4.3
+技能文件	workspace/skills/harmonic_flexspline_generator.py
+打开方式
+STEP文件: FreeCAD / SolidWorks / Fusion360 / 在线STEP查看器
+DXF文件: AutoCAD / 中望CAD / FreeCAD / DXF在线查看器
+参数全部可调——修改 FlexsplineParams 即可生成不同规格的柔性环。

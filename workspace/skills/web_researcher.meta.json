@@ -1,0 +1,7 @@
+{
+  "name": "Web研究引擎",
+  "file": "skills/web_researcher.py",
+  "description": "搜索互联网→抓取页面→LLM提取知识→结构化为认知节点。AGI获取外部新知识的通道。",
+  "tags": ["web搜索", "知识提取", "外部数据", "研究能力"],
+  "created_at": "2026-03-17T12:00:00"
+}

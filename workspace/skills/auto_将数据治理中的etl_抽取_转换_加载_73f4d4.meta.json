@@ -1,0 +1,29 @@
+{
+  "name": "auto_将数据治理中的etl_抽取_转换_加载_73f4d4",
+  "file": "skills/auto_将数据治理中的etl_抽取_转换_加载_73f4d4.py",
+  "description": "将数据治理中的ETL（抽取、转换、加载）流程映射至人类认知过程。通过AI识别并隔离情绪'噪声'（归一化），还原客观事实'信号'（去噪），从而将混沌的日常经验转化为结构化的、可被逻辑处理的高质量'认知数据集'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T10:23:18.956985",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "bu_5_P1_7143",
+  "design_spec": {
+    "name": "auto_将数据治理中的etl_抽取_转换_加载_73f4d4",
+    "display_name": "将数据治理中的ETL（抽取、转换、加载）流程映射至人类认知过程。通过AI识别并隔离情绪'噪声'（归一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将数据治理中的ETL（抽取、转换、加载）流程映射至人类认知过程。通过AI识别并隔离情绪'噪声'（归一化），还原客观事实'信号'（去噪），从而将混沌的日常经验转化",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 125
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "auto_如何构建人机共生的_类比生成器_让ai_a409db",
+  "file": "skills/auto_如何构建人机共生的_类比生成器_让ai_a409db.py",
+  "description": "如何构建人机共生的'类比生成器'，让AI能够向人类提出跨域假设，通过人类的直觉跳跃来补全逻辑链条中缺失的'重叠节点'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "认知科学 / 交互设计"
+  ],
+  "created_at": "2026-03-21T20:19:32.342846",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_8_Q3_3765",
+  "design_spec": {
+    "name": "auto_如何构建人机共生的_类比生成器_让ai_a409db",
+    "display_name": "如何构建人机共生的'类比生成器'，让AI能够向人类提出跨域假设，通过人类的直觉跳跃来补全逻辑链条中缺",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建人机共生的'类比生成器'，让AI能够向人类提出跨域假设，通过人类的直觉跳跃来补全逻辑链条中缺失的'重叠节点'？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

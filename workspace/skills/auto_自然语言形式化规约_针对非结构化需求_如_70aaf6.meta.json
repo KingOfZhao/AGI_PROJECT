@@ -1,0 +1,29 @@
+{
+  "name": "auto_自然语言形式化规约_针对非结构化需求_如_70aaf6",
+  "file": "skills/auto_自然语言形式化规约_针对非结构化需求_如_70aaf6.py",
+  "description": "自然语言形式化规约：针对非结构化需求（如'帮我做一个贪吃蛇游戏，速度要快'），研究LLM将自然语言转化为带约束条件的类Z规格说明或DSL（领域特定语言）的能力。核心在于提取隐含约束（'速度要快' -> `frame_rate=60`, `speed_coefficient=1.5`）并显式化为参数，而非直接生成代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "software_engineering"
+  ],
+  "created_at": "2026-03-22T08:36:25.065634",
+  "forged_by": "growth_engine_v3",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q2_3928",
+  "design_spec": {
+    "name": "auto_自然语言形式化规约_针对非结构化需求_如_70aaf6",
+    "display_name": "自然语言形式化规约：针对非结构化需求（如'帮我做一个贪吃蛇游戏，速度要快'），研究LLM将自然语言转",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自然语言形式化规约：针对非结构化需求（如'帮我做一个贪吃蛇游戏，速度要快'），研究LLM将自然语言转化为带约束条件的类Z规格说明或DSL（领域特定语言）的能力。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "auto_上下文持久化_如何在长程任务执行中维护_7ee0f2",
+  "file": "skills/auto_上下文持久化_如何在长程任务执行中维护_7ee0f2.py",
+  "description": "【上下文持久化】如何在长程任务执行中维护'结构化认知网络'的快照，并实现增量更新？即当代码执行环境发生变化时，AI能基于旧的认知节点快速定位并更新相关的代码上下文，而不是重新加载整个环境。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "memory_architecture"
+  ],
+  "created_at": "2026-03-21T23:06:53.770466",
+  "forged_by": "growth_engine_v3",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q2_3398",
+  "design_spec": {
+    "name": "auto_上下文持久化_如何在长程任务执行中维护_7ee0f2",
+    "display_name": "【上下文持久化】如何在长程任务执行中维护'结构化认知网络'的快照，并实现增量更新？即当代码执行环境发",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【上下文持久化】如何在长程任务执行中维护'结构化认知网络'的快照，并实现增量更新？即当代码执行环境发生变化时，AI能基于旧的认知节点快速定位并更新相关的代码上下",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

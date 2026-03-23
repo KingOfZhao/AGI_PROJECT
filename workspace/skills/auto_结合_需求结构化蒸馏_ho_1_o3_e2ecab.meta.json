@@ -1,0 +1,29 @@
+{
+  "name": "auto_结合_需求结构化蒸馏_ho_1_o3_e2ecab",
+  "file": "skills/auto_结合_需求结构化蒸馏_ho_1_o3_e2ecab.py",
+  "description": "结合'需求结构化蒸馏'（ho_1_O3_2169）、'意图结构化'（td_2_Q1_3398）与'参数化UI生成'（ho_2_O1_7649）。打破传统的线性翻译模式，建立一个基于约束求解的双向通道。用户模糊意图被转化为严格的参数约束，系统反向计算出最优解，并可视化反馈给用户，形成'意图-约束-原型'的极速迭代循环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-22T08:39:34.392455",
+  "forged_by": "growth_engine_v3",
+  "source": "deep_reasoning",
+  "source_node_id": "em_2_E5_6950",
+  "design_spec": {
+    "name": "auto_结合_需求结构化蒸馏_ho_1_o3_e2ecab",
+    "display_name": "结合'需求结构化蒸馏'（ho_1_O3_2169）、'意图结构化'（td_2_Q1_3398）与'参",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'需求结构化蒸馏'（ho_1_O3_2169）、'意图结构化'（td_2_Q1_3398）与'参数化UI生成'（ho_2_O1_7649）。打破传统的线性翻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 270
+  }
+}

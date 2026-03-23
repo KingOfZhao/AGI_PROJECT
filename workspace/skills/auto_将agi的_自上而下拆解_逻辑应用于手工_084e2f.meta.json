@@ -1,0 +1,29 @@
+{
+  "name": "auto_将agi的_自上而下拆解_逻辑应用于手工_084e2f",
+  "file": "skills/auto_将agi的_自上而下拆解_逻辑应用于手工_084e2f.py",
+  "description": "将AGI的'自上而下拆解'逻辑应用于手工艺的隐性知识。通过AI辅助拆解专家动作的不可言说部分，生成可执行的微步骤清单，再由人类学徒在实践中进行证伪与修正。此能力将'经验直觉'转化为'可复制的真实节点'，极大缩短技能习得周期。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T10:30:52.139055",
+  "forged_by": "growth_engine",
+  "source": "collision",
+  "source_node_id": "ho_6_O1_8847",
+  "design_spec": {
+    "name": "auto_将agi的_自上而下拆解_逻辑应用于手工_084e2f",
+    "display_name": "将AGI的'自上而下拆解'逻辑应用于手工艺的隐性知识。通过AI辅助拆解专家动作的不可言说部分，生成可",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将AGI的'自上而下拆解'逻辑应用于手工艺的隐性知识。通过AI辅助拆解专家动作的不可言说部分，生成可执行的微步骤清单，再由人类学徒在实践中进行证伪与修正。此能力",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 103
+  }
+}

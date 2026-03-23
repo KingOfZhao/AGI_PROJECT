@@ -1,0 +1,15 @@
+{
+  "name": "工艺规划引擎",
+  "description": "从工业概念或CAD图纸生成结构化工艺规划: 检查清单+加工步骤+热处理+刀具参数。智谱API驱动。",
+  "tags": ["CAPP", "工艺规划", "检查清单", "加工", "热处理", "工业制造"],
+  "file": "skills/cad_process_planner.py",
+  "created_at": "2026-03-19T15:30:00",
+  "forged_by": "tool_controller",
+  "capabilities": [
+    "concept_to_checklist: 工业概念→可实践检查清单",
+    "dxf_to_process_plan: DXF图纸→完整工艺规划",
+    "generate_heat_treatment: 生成热处理方案",
+    "save_plan_to_file: 保存规划为JSON"
+  ],
+  "dependencies": ["ezdxf", "zhipu_ai_caller"]
+}

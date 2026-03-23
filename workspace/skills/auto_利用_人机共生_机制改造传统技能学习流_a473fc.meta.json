@@ -1,0 +1,29 @@
+{
+  "name": "auto_利用_人机共生_机制改造传统技能学习流_a473fc",
+  "file": "skills/auto_利用_人机共生_机制改造传统技能学习流_a473fc.py",
+  "description": "利用'人机共生'机制改造传统技能学习流。AI根据学习者的实时反馈（自下而上）动态调整训练难度与维度（跨域重叠），而非遵循僵化大纲。通过不断的'实践-反馈-概念重构'闭环，构建高度个性化的技能掌握网络，实现技能的适应性内化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T10:32:29.095568",
+  "forged_by": "growth_engine",
+  "source": "collision",
+  "source_node_id": "ho_6_O2_8847",
+  "design_spec": {
+    "name": "auto_利用_人机共生_机制改造传统技能学习流_a473fc",
+    "display_name": "利用'人机共生'机制改造传统技能学习流。AI根据学习者的实时反馈（自下而上）动态调整训练难度与维度（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "利用'人机共生'机制改造传统技能学习流。AI根据学习者的实时反馈（自下而上）动态调整训练难度与维度（跨域重叠），而非遵循僵化大纲。通过不断的'实践-反馈-概念重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

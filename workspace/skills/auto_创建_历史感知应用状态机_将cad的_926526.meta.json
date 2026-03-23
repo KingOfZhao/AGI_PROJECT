@@ -1,0 +1,29 @@
+{
+  "name": "auto_创建_历史感知应用状态机_将cad的_926526",
+  "file": "skills/auto_创建_历史感知应用状态机_将cad的_926526.py",
+  "description": "创建'历史感知应用状态机'。将CAD的'历史树（Undo/Redo）'机制深度集成到Flutter的状态管理中。不仅仅是简单的撤销重做，而是可以像CAD一样随时回到任意一个历史修改节点，调整参数，然后以此为基点重新推演后续操作。这对于复杂的表单填写、游戏关卡编辑器或协作式文档编辑工具是极大的功能增强。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-22T08:37:52.946934",
+  "forged_by": "growth_engine_v3",
+  "source": "collision",
+  "source_node_id": "ho_2_O4_6625",
+  "design_spec": {
+    "name": "auto_创建_历史感知应用状态机_将cad的_926526",
+    "display_name": "创建'历史感知应用状态机'。将CAD的'历史树（Undo/Redo）'机制深度集成到Flutter的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'历史感知应用状态机'。将CAD的'历史树（Undo/Redo）'机制深度集成到Flutter的状态管理中。不仅仅是简单的撤销重做，而是可以像CAD一样随时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

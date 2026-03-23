@@ -1,0 +1,29 @@
+{
+  "name": "auto_如何建立_用户画像_代码风格_的动态映射_de768d",
+  "file": "skills/auto_如何建立_用户画像_代码风格_的动态映射_de768d.py",
+  "description": "如何建立'用户画像-代码风格'的动态映射机制（左右跨域重叠）？不同用户的'意图'隐含了不同的代码风格偏好（如性能优先 vs 开发速度优先，函数式 vs 面向对象）。系统需要将用户的隐式偏好（通过历史交互数据）与代码生成参数进行跨域重叠，固化为一组可复用的'风格约束节点'，确保生成的代码符合特定人机共生场景下的个性化需求。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "personalization"
+  ],
+  "created_at": "2026-03-22T08:03:26.982182",
+  "forged_by": "growth_engine_v3",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q2_8543",
+  "design_spec": {
+    "name": "auto_如何建立_用户画像_代码风格_的动态映射_de768d",
+    "display_name": "如何建立'用户画像-代码风格'的动态映射机制（左右跨域重叠）？不同用户的'意图'隐含了不同的代码风格",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立'用户画像-代码风格'的动态映射机制（左右跨域重叠）？不同用户的'意图'隐含了不同的代码风格偏好（如性能优先 vs 开发速度优先，函数式 vs 面向对象",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "auto_基于认知科学中的_预测编码_理论_构建具_9ba659",
+  "file": "skills/auto_基于认知科学中的_预测编码_理论_构建具_9ba659.py",
+  "description": "基于认知科学中的“预测编码”理论，构建具有前瞻性的软件测试沙箱。该能力不仅是执行既定用例，而是模拟人类高级认知的“反事实思维”，自动生成针对未知边界和潜在系统崩溃的攻击性测试用例，实现从“验证已知功能”向“探索未知缺陷”的AGI进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_9",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T20:23:38.416349",
+  "forged_by": "growth_engine",
+  "source": "collision",
+  "source_node_id": "ho_9_O1_515",
+  "design_spec": {
+    "name": "auto_基于认知科学中的_预测编码_理论_构建具_9ba659",
+    "display_name": "基于认知科学中的“预测编码”理论，构建具有前瞻性的软件测试沙箱。该能力不仅是执行既定用例，而是模拟人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于认知科学中的“预测编码”理论，构建具有前瞻性的软件测试沙箱。该能力不仅是执行既定用例，而是模拟人类高级认知的“反事实思维”，自动生成针对未知边界和潜在系统崩",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 530
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "auto_重叠固化节点_如何构建_意图_代码_的_dd241f",
+  "file": "skills/auto_重叠固化节点_如何构建_意图_代码_的_dd241f.py",
+  "description": "【重叠固化节点】如何构建“意图-代码”的中间层IR（Intermediate Representation），以便将自然语言的歧义性坍缩为确定的逻辑图结构？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "programming_languages"
+  ],
+  "created_at": "2026-03-21T10:03:13.352398",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q2_2950",
+  "design_spec": {
+    "name": "auto_重叠固化节点_如何构建_意图_代码_的_dd241f",
+    "display_name": "【重叠固化节点】如何构建“意图-代码”的中间层IR（Intermediate Representat",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【重叠固化节点】如何构建“意图-代码”的中间层IR（Intermediate Representation），以便将自然语言的歧义性坍缩为确定的逻辑图结构？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 234
+  }
+}

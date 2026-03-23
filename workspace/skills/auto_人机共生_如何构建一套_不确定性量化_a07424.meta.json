@@ -1,0 +1,29 @@
+{
+  "name": "auto_人机共生_如何构建一套_不确定性量化_a07424",
+  "file": "skills/auto_人机共生_如何构建一套_不确定性量化_a07424.py",
+  "description": "【人机共生】如何构建一套“不确定性量化”协议，使AI能主动识别模糊区域并向人类发起定向询问，从而将不可执行的模糊概念拆解为可执行的布尔逻辑？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "人机交互"
+  ],
+  "created_at": "2026-03-21T20:30:43.693954",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_10_Q5_9705",
+  "design_spec": {
+    "name": "auto_人机共生_如何构建一套_不确定性量化_a07424",
+    "display_name": "【人机共生】如何构建一套“不确定性量化”协议，使AI能主动识别模糊区域并向人类发起定向询问，从而将不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】如何构建一套“不确定性量化”协议，使AI能主动识别模糊区域并向人类发起定向询问，从而将不可执行的模糊概念拆解为可执行的布尔逻辑？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 191
+  }
+}

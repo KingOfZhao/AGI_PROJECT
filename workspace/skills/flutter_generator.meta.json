@@ -1,0 +1,35 @@
+{
+  "name": "Flutter Generator",
+  "description": "生成一个基本的Flutter项目结构和示例代码。",
+  "tags": [
+    "flutter",
+    "code_generation",
+    "mobile_app"
+  ],
+  "file": "skills/flutter_generator.py",
+  "created_at": "2026-03-18T17:17:48.113971",
+  "forged_by": "tool_forge",
+  "design_spec": {
+    "name": "flutter_generator",
+    "display_name": "Flutter Generator",
+    "description": "生成一个基本的Flutter项目结构和示例代码。",
+    "functions": [
+      {
+        "name": "generate_flutter_project",
+        "purpose": "生成一个新的Flutter项目。",
+        "params": "project_name (str): 项目的名称，directory (str): 项目的保存目录。",
+        "returns": "bool: 生成成功返回True，否则返回False。"
+      }
+    ],
+    "dependencies": [
+      "os",
+      "shutil"
+    ],
+    "tags": [
+      "flutter",
+      "code_generation",
+      "mobile_app"
+    ],
+    "estimated_lines": 50
+  }
+}

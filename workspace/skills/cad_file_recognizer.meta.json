@@ -1,0 +1,49 @@
+{
+  "name": "CAD文件识别工具",
+  "description": "该工具用于识别和解析CAD文件中的几何形状、尺寸信息和其他相关数据。",
+  "tags": [
+    "CAD",
+    "文件识别",
+    "几何形状",
+    "尺寸提取"
+  ],
+  "file": "skills/cad_file_recognizer.py",
+  "created_at": "2026-03-17T22:39:32.201235",
+  "forged_by": "tool_forge",
+  "design_spec": {
+    "name": "cad_file_recognizer",
+    "display_name": "CAD文件识别工具",
+    "description": "该工具用于识别和解析CAD文件中的几何形状、尺寸信息和其他相关数据。",
+    "functions": [
+      {
+        "name": "load_cad_file",
+        "purpose": "加载CAD文件并进行初步解析",
+        "params": "file_path (str): CAD文件的路径",
+        "returns": "dict: 包含文件基本信息和几何形状的字典"
+      },
+      {
+        "name": "extract_geometric_shapes",
+        "purpose": "从CAD文件中提取几何形状信息",
+        "params": "cad_data (dict): 由load_cad_file返回的CAD数据",
+        "returns": "list: 包含几何形状的列表"
+      },
+      {
+        "name": "get_dimensions",
+        "purpose": "获取CAD文件中的尺寸信息",
+        "params": "cad_data (dict): 由load_cad_file返回的CAD数据",
+        "returns": "dict: 包含尺寸信息的字典"
+      }
+    ],
+    "dependencies": [
+      "os",
+      "json"
+    ],
+    "tags": [
+      "CAD",
+      "文件识别",
+      "几何形状",
+      "尺寸提取"
+    ],
+    "estimated_lines": 150
+  }
+}

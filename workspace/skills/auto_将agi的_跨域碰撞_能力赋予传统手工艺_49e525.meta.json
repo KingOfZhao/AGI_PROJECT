@@ -1,0 +1,29 @@
+{
+  "name": "auto_将agi的_跨域碰撞_能力赋予传统手工艺_49e525",
+  "file": "skills/auto_将agi的_跨域碰撞_能力赋予传统手工艺_49e525.py",
+  "description": "将AGI的‘跨域碰撞’能力赋予传统手工艺。AI分析不同领域（如建筑结构与木工榫卯）的知识图谱，发现潜在的逻辑重叠，生成全新的‘融合技法’建议。人类工匠实践验证后，创造出传统经验无法推导的新工艺，实现‘左右跨域重叠’的实体化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T10:04:47.335523",
+  "forged_by": "growth_engine",
+  "source": "collision",
+  "source_node_id": "ho_2_O2_1630",
+  "design_spec": {
+    "name": "auto_将agi的_跨域碰撞_能力赋予传统手工艺_49e525",
+    "display_name": "将AGI的‘跨域碰撞’能力赋予传统手工艺。AI分析不同领域（如建筑结构与木工榫卯）的知识图谱，发现潜",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将AGI的‘跨域碰撞’能力赋予传统手工艺。AI分析不同领域（如建筑结构与木工榫卯）的知识图谱，发现潜在的逻辑重叠，生成全新的‘融合技法’建议。人类工匠实践验证后",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 137
+  }
+}

@@ -1,0 +1,56 @@
+# AGI v13.3 Cognitive Lattice - Docker Compose
+# 对应维度43: Docker容器化配置生成
+
+version: '3.8'
+
+services:
+  agi-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agi-cognitive-lattice
+    ports:
+      - "${AGI_API_PORT:-5000}:5000"
+    environment:
+      - AGI_ENV=production
+      - AGI_DB_PATH=/app/data/memory.db
+      - AGI_LOG_LEVEL=${AGI_LOG_LEVEL:-INFO}
+      - ZHIPU_API_KEY=${ZHIPU_API_KEY}
+      - OLLAMA_HOST=${OLLAMA_HOST:-host.docker.internal:11434}
+    volumes:
+      - agi-data:/app/data
+      - agi-logs:/app/logs
+      - agi-workspace:/app/workspace
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/api/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 1G
+
+  redis:
+    image: redis:7-alpine
+    container_name: agi-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  agi-data:
+  agi-logs:
+  agi-workspace:
+  redis-data:

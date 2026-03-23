@@ -1,0 +1,33 @@
+{
+  "name": "zhipu_ai_caller",
+  "version": "1.0.0",
+  "description": "智谱AI云端算力调用技能 — 让本地模型借用云端强大推理能力",
+  "author": "AGI-实践器",
+  "capabilities": [
+    "call_zhipu: 通用智谱AI调用(支持5个模型)",
+    "generate_code: 委托生成高质量代码",
+    "deep_reasoning: 深度推理与分析",
+    "analyze_document: 长文档分析(128K上下文)",
+    "translate_text: 多语言翻译",
+    "smart_delegate: 智能任务委托(自动选模型)",
+    "multi_turn_chat: 多轮连续对话",
+    "test_connection: 连接测试"
+  ],
+  "models": {
+    "glm-4-flash": "快速响应(日常任务)",
+    "glm-4-air": "均衡模型(性价比)",
+    "glm-4-plus": "高性能(复杂推理/代码)",
+    "glm-4-long": "长上下文128K(文档分析)",
+    "glm-5": "旗舰模型(最强推理)"
+  },
+  "usage": {
+    "python": "from workspace.skills.zhipu_ai_caller import call_zhipu, smart_delegate",
+    "api": "POST /api/zhipu/call, POST /api/zhipu/delegate, GET /api/zhipu/models"
+  },
+  "tags": ["zhipu", "cloud_ai", "delegation", "reasoning", "code_gen"],
+  "safety": {
+    "api_key": "从BACKENDS配置读取，不硬编码",
+    "local_verify": "支持本地Ollama校验云端输出",
+    "rate_limit": "统计调用次数和token消耗"
+  }
+}

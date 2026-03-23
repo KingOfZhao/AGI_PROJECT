@@ -1,0 +1,29 @@
+{
+  "name": "auto_开发_实时参数化ui生成引擎_利用ca_b94126",
+  "file": "skills/auto_开发_实时参数化ui生成引擎_利用ca_b94126.py",
+  "description": "开发“实时参数化UI生成引擎”。利用CAD的特征历史树逻辑来管理Flutter的UI状态。不仅仅是State管理，而是将UI组件视为“特征”，通过类似CAD的约束求解器来动态计算布局，而非传统的Flex布局。例如，定义“按钮A必须距离输入框B 20px且中心对齐”，系统自动求解位置，而非写死坐标。这将使Flutter具备处理复杂工程图纸级UI的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T23:08:58.275389",
+  "forged_by": "growth_engine_v3",
+  "source": "collision",
+  "source_node_id": "ho_2_O1_7649",
+  "design_spec": {
+    "name": "auto_开发_实时参数化ui生成引擎_利用ca_b94126",
+    "display_name": "开发“实时参数化UI生成引擎”。利用CAD的特征历史树逻辑来管理Flutter的UI状态。不仅仅是S",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发“实时参数化UI生成引擎”。利用CAD的特征历史树逻辑来管理Flutter的UI状态。不仅仅是State管理，而是将UI组件视为“特征”，通过类似CAD的约",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 320
+  }
+}

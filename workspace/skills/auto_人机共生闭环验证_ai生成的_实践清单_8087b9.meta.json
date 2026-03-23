@@ -1,0 +1,29 @@
+{
+  "name": "auto_人机共生闭环验证_ai生成的_实践清单_8087b9",
+  "file": "skills/auto_人机共生闭环验证_ai生成的_实践清单_8087b9.py",
+  "description": "人机共生闭环验证：AI生成的'实践清单'，人类执行后能否获得可量化的正向反馈（即'真实节点'能否通过实践固化）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "human_machine_symbiosis"
+  ],
+  "created_at": "2026-03-21T10:11:21.887649",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q2_7510",
+  "design_spec": {
+    "name": "auto_人机共生闭环验证_ai生成的_实践清单_8087b9",
+    "display_name": "人机共生闭环验证：AI生成的'实践清单'，人类执行后能否获得可量化的正向反馈（即'真实节点'能否通过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生闭环验证：AI生成的'实践清单'，人类执行后能否获得可量化的正向反馈（即'真实节点'能否通过实践固化）？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 147
+  }
+}

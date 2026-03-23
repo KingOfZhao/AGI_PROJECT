@@ -1,0 +1,29 @@
+{
+  "name": "auto_证伪机制_如何量化_模糊度_并设定阈_35ee12",
+  "file": "skills/auto_证伪机制_如何量化_模糊度_并设定阈_35ee12.py",
+  "description": "【证伪机制】如何量化“模糊度”，并设定阈值决定何时由AI归纳生成，何时需人类介入澄清？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "AGI架构"
+  ],
+  "created_at": "2026-03-21T10:30:24.332778",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_6_Q6_272",
+  "design_spec": {
+    "name": "auto_证伪机制_如何量化_模糊度_并设定阈_35ee12",
+    "display_name": "【证伪机制】如何量化“模糊度”，并设定阈值决定何时由AI归纳生成，何时需人类介入澄清？",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【证伪机制】如何量化“模糊度”，并设定阈值决定何时由AI归纳生成，何时需人类介入澄清？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 91
+  }
+}

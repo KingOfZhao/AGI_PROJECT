@@ -1,0 +1,29 @@
+{
+  "name": "auto_借用软件工程的ci_cd_持续集成_持续_dafdfa",
+  "file": "skills/auto_借用软件工程的ci_cd_持续集成_持续_dafdfa.py",
+  "description": "借用软件工程的CI/CD（持续集成/持续部署）与深度学习的RLHF（基于人类反馈的强化学习）机制，重构人类知识获取流程。AI生成'实践清单'，人类执行并反馈结果，系统根据反馈自动修正逻辑漏洞或'负迁移'，实现'真实节点'的动态固化与版本升级。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T10:23:42.921142",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "bu_5_P3_7143",
+  "design_spec": {
+    "name": "auto_借用软件工程的ci_cd_持续集成_持续_dafdfa",
+    "display_name": "借用软件工程的CI/CD（持续集成/持续部署）与深度学习的RLHF（基于人类反馈的强化学习）机制，重",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "借用软件工程的CI/CD（持续集成/持续部署）与深度学习的RLHF（基于人类反馈的强化学习）机制，重构人类知识获取流程。AI生成'实践清单'，人类执行并反馈结果",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

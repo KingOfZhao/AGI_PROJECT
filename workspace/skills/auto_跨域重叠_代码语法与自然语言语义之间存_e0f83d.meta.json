@@ -1,0 +1,29 @@
+{
+  "name": "auto_跨域重叠_代码语法与自然语言语义之间存_e0f83d",
+  "file": "skills/auto_跨域重叠_代码语法与自然语言语义之间存_e0f83d.py",
+  "description": "【跨域重叠】代码语法与自然语言语义之间存在“映射损失”，如何构建最小损失的双向转换器？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "AI编译原理"
+  ],
+  "created_at": "2026-03-21T10:29:53.886612",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_6_Q3_272",
+  "design_spec": {
+    "name": "auto_跨域重叠_代码语法与自然语言语义之间存_e0f83d",
+    "display_name": "【跨域重叠】代码语法与自然语言语义之间存在“映射损失”，如何构建最小损失的双向转换器？",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域重叠】代码语法与自然语言语义之间存在“映射损失”，如何构建最小损失的双向转换器？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 170
+  }
+}

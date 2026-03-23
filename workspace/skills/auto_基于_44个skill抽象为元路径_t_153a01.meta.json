@@ -1,0 +1,29 @@
+{
+  "name": "auto_基于_44个skill抽象为元路径_t_153a01",
+  "file": "skills/auto_基于_44个skill抽象为元路径_t_153a01.py",
+  "description": "基于'44个Skill抽象为元路径'（td_8_Q6）与'知识节点到Skill转译'（td_1_Q9）。系统不再调用单一技能，而是构建一个动态的'技能图谱'。面对新问题，系统通过GNN识别出所需的元路径组合，自动生成临时的'复合技能脚本'，并在任务完成后将该脚本固化为新的'真实节点'，实现技能数量的自我增殖。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T23:11:38.347391",
+  "forged_by": "growth_engine_v3",
+  "source": "deep_reasoning",
+  "source_node_id": "em_2_E4_3420",
+  "design_spec": {
+    "name": "auto_基于_44个skill抽象为元路径_t_153a01",
+    "display_name": "基于'44个Skill抽象为元路径'（td_8_Q6）与'知识节点到Skill转译'（td_1_Q9",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'44个Skill抽象为元路径'（td_8_Q6）与'知识节点到Skill转译'（td_1_Q9）。系统不再调用单一技能，而是构建一个动态的'技能图谱'。面",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

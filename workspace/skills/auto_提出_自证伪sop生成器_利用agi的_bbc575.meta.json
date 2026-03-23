@@ -1,0 +1,29 @@
+{
+  "name": "auto_提出_自证伪sop生成器_利用agi的_bbc575",
+  "file": "skills/auto_提出_自证伪sop生成器_利用agi的_bbc575.py",
+  "description": "提出'自证伪SOP生成器'。利用AGI的推理能力生成详细SOP，但要求SOP中必须包含'关键控制点'。当人类执行SOP时，如果某个控制点无法通过（如'面团不粘手'这一感官反馈），AI立即触发CoT的自我修正逻辑，重新推理并生成适应性调整方案，而非仅仅报错。这打破了传统SOP的僵化，也避免了AI生成的空洞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-22T08:21:59.929897",
+  "forged_by": "growth_engine_v3",
+  "source": "collision",
+  "source_node_id": "ho_1_O1_5978",
+  "design_spec": {
+    "name": "auto_提出_自证伪sop生成器_利用agi的_bbc575",
+    "display_name": "提出'自证伪SOP生成器'。利用AGI的推理能力生成详细SOP，但要求SOP中必须包含'关键控制点'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'自证伪SOP生成器'。利用AGI的推理能力生成详细SOP，但要求SOP中必须包含'关键控制点'。当人类执行SOP时，如果某个控制点无法通过（如'面团不粘手",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

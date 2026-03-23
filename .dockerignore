@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+.env
+*.db
+*.db-journal
+logs/
+workspace/outputs/
+workspace/logs/
+migrate_packages/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+node_modules/
+.DS_Store

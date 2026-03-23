@@ -1,0 +1,29 @@
+{
+  "name": "zhipu_growth",
+  "description": "智谱API自主成长引擎 — 闲置时低内存后台运行，自动验证hypothesis节点升级为proven",
+  "version": "1.0.0",
+  "author": "AGI-实践器",
+  "capabilities": [
+    "后台自主成长(守护线程)",
+    "可打断+续接(进度持久化)",
+    "智谱API配额检测(不超70%)",
+    "hypothesis验证→proven升级",
+    "无法处理问题清单",
+    "代码实现领域深化"
+  ],
+  "api_endpoints": [
+    "POST /api/growth/start",
+    "POST /api/growth/stop",
+    "GET  /api/growth/status",
+    "POST /api/growth/cycle",
+    "GET|POST /api/growth/quota",
+    "GET  /api/growth/problems",
+    "POST /api/growth/problems/resolve"
+  ],
+  "data_files": [
+    "data/zhipu_growth_progress.json",
+    "data/zhipu_growth_problems.json",
+    "data/zhipu_quota.json"
+  ],
+  "dependencies": ["agi_v13_cognitive_lattice", "openai"]
+}

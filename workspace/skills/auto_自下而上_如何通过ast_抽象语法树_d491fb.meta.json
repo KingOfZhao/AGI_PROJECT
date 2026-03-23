@@ -1,0 +1,29 @@
+{
+  "name": "auto_自下而上_如何通过ast_抽象语法树_d491fb",
+  "file": "skills/auto_自下而上_如何通过ast_抽象语法树_d491fb.py",
+  "description": "【自下而上】如何通过AST（抽象语法树）与语义向量的混合索引，实现从模糊语义到精确API调用或代码片段的动态检索与匹配？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "程序合成"
+  ],
+  "created_at": "2026-03-21T20:30:12.006718",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_10_Q3_9705",
+  "design_spec": {
+    "name": "auto_自下而上_如何通过ast_抽象语法树_d491fb",
+    "display_name": "【自下而上】如何通过AST（抽象语法树）与语义向量的混合索引，实现从模糊语义到精确API调用或代码片",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上】如何通过AST（抽象语法树）与语义向量的混合索引，实现从模糊语义到精确API调用或代码片段的动态检索与匹配？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

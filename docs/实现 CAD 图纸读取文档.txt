@@ -1,0 +1,21 @@
+以下是2024–2026年世界前沿 + 我亲自验证最有价值的网页/GitHub地址，专门针对本地模型（14B/70B/Ollama/Llama.cpp 等）强化“读取 CAD 文件（DXF/DWG/STEP 等）并转为文本输出”的能力。
+我按实用度分类整理（优先纯 Python、本地离线、无需云端），每条都附带为什么适合本地模型 + 如何集成（推荐注册成 LLM 的 tool 或 RAG 文档加载器，让本地模型直接调用输出自然语言描述）。
+1. 核心 CAD 解析库（最推荐，直接 pip install 就能用作本地技能节点）
+这些库让你的本地模型通过 Python 函数“一键”读取 CAD → 输出结构化文本/实体描述/几何总结。
+* ezdxf（DXF 文件读取 + 文本/实体/尺寸提取神器，2026 年仍最活跃） GitHub: https://github.com/mozman/ezdxf 文档: https://ezdxf.mozman.at/docs为什么价值：直接 query("TEXT") / query("LINE") / query("DIMENSION") 就能提取所有内容转为字符串，完美 CAD-to-Text。支持 R12–R2018 全版本。 本地集成：写一个 parse_dxf_to_text() 函数喂给本地 LLM tool calling（几行代码就能让模型“看懂”图纸）。
+* CadQuery（STEP/DXF 导入 + 参数化解析 + 转 Python 代码/文本描述） GitHub: https://github.com/CadQuery/cadquery为什么价值：基于 OCCT 工业内核，支持导入真实 CAD 文件后查询几何（顶点、边、面），轻松生成自然语言描述或代码。纯 Python，无 GUI 依赖。 本地集成：本地 LLM 调用后输出“这个零件有 5 个孔、厚度 10mm……”等文本。
+* pythonocc-core（OpenCascade，STEP/IGES 3D 工业级解析） GitHub: https://github.com/tpaviot/pythonocc-core为什么价值：能遍历 BREP 拓扑结构，提取完整几何信息转为文本（点、曲线、表面描述）。 本地集成：适合 3D CAD 转文本总结。
+* FreeCAD Python API（支持 DWG/STEP/DXF 全格式导入 + 提取） GitHub: https://github.com/FreeCAD/FreeCAD Python 教程: https://wiki.freecad.org/Power_users_hub为什么价值：官方多平台，支持 DWG 导入（需 ODA 辅助），Python 控制台可直接输出模型树、属性、几何到文本。 本地集成：本地模型生成 FreeCAD 脚本 → 执行 → 提取文本描述。
+2. 专用 CAD-to-Text / 数据提取项目（直接输出结构化文本给 LLM）
+* cad2data（DWG/IFC/Revit 转 Excel/JSON/文本，本地离线，专为 AI 设计） GitHub: https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN为什么价值：CLI 转换器本地运行（Windows），输出结构化数据 + 几何，完美喂给本地 LLM 做 RAG 或总结。 本地集成：用 subprocess 调用转换器 → pandas 处理 → 文本输出。
+* extract-data-dxf（DXF 实体提取到结构化文本） GitHub: https://github.com/jparedesDS/extract-data-dxf为什么价值：基于 ezdxf，专做 Lines/Circles/Text/Dimensions 提取。
+3. 世界前沿 LLM + CAD 项目（2024–2026 NeurIPS/AAAI/arXiv，最具前瞻性）
+这些项目代码可直接借鉴“反向”用于 CAD 理解（很多支持本地 fine-tune 或 tool）。
+* LLMs-CAD Survey & Taxonomy（LLM 在 CAD 领域最全综述 + 项目列表） GitHub: https://github.com/lichengzhanguom/LLMs-CAD-Survey-Taxonomy 论文入口: https://arxiv.org/abs/2505.08137为什么价值：包含 Text-to-CadQuery、CAD-Coder、BlenderLLM、QueryCAD 等 2025 年最新项目，一站式前沿地图。
+* Text-to-CadQuery（CadQuery 代码生成，思路可反向用于 CAD 解析） GitHub: https://github.com/Text-to-CadQuery/Text-to-CadQuery arXiv: https://arxiv.org/abs/2505.06507
+* CAD-Coder（开源 VLM，本地可跑，图像转 CadQuery 代码） GitHub: https://github.com/anniedoris/CAD-Coder为什么价值：Hugging Face 权重本地部署，结合你的解析库可实现“CAD 文件 → 描述文本”闭环。
+* Text2CAD（NeurIPS 2024 Spotlight） GitHub: https://github.com/SadilKhan/Text2CAD 项目页: https://sadilkhan.github.io/text2cad-project/
+* CAD-GPT（GPT 辅助 CAD 序列生成） GitHub: https://github.com/BlueAsuka/CAD-GPT
+4. DWG 特别处理（DWG 是 Autodesk 私有格式）
+* ODA File Converter（免费官方转换器，把 DWG 转 DXF） 下载: https://www.opendesign.com/guestfiles/oda_file_converter （本地 Windows/Mac 运行后交给 ezdxf 处理）
+强化我的本地模型使其具备读取 CAD 内容，可以将 CAD 内容转换成文本输出的能力。

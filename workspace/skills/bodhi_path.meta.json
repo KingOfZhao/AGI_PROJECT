@@ -1,0 +1,19 @@
+{
+  "name": "bodhi_path",
+  "display_name": "菩提道次第·能力评估引擎",
+  "description": "将佛学果位体系映射为代码领域能力阶梯。声闻四果(自利)→缘觉(独悟)→菩萨十地(度他)→佛果(圆满)。核心功能：能力评估、成长路径、因问唤醒、深度探索。",
+  "version": "1.0.0",
+  "author": "AGI-实践器",
+  "capabilities": [
+    "assess_level",
+    "get_growth_path",
+    "activate_nodes",
+    "explore_depth",
+    "get_all_stages",
+    "get_stage_by_id"
+  ],
+  "philosophy": "应无所住而生其心。一切皆空，因问唤醒真实节点，构建关联映照答案，运用能力验证。",
+  "stage_count": 16,
+  "tiers": ["声闻(4果)", "缘觉(1)", "菩萨(10地)", "佛果(1)"],
+  "dependencies": ["agi_v13_cognitive_lattice"]
+}

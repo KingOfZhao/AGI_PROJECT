@@ -1,0 +1,15 @@
+{
+  "name": "DXF工艺图纸生成器",
+  "description": "用ezdxf生成工艺步骤DXF图纸: 工序流程图/零件标注图/热处理曲线/参数化法兰盘/Mastercam可导入模板",
+  "tags": ["CAD", "DXF", "ezdxf", "图纸生成", "工艺图", "工业制造"],
+  "file": "skills/cad_drawing_generator.py",
+  "created_at": "2026-03-19T15:30:00",
+  "forged_by": "tool_controller",
+  "capabilities": [
+    "generate_process_flow_dxf: 工艺步骤流程图",
+    "generate_part_outline_dxf: 零件轮廓+标注",
+    "generate_heat_treatment_curve: 热处理温度曲线",
+    "generate_flange_dxf: 参数化法兰盘图纸"
+  ],
+  "dependencies": ["ezdxf"]
+}

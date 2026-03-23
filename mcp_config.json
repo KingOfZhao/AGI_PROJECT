@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "agi-cognitive-lattice": {
+      "command": "/Users/administruter/Desktop/AGI-实践器/venv/bin/python",
+      "args": [
+        "/Users/administruter/Desktop/AGI-实践器/mcp_server.py"
+      ]
+    }
+  }
+}

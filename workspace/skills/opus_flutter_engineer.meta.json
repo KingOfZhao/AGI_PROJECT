@@ -1,0 +1,77 @@
+{
+  "name": "Opus Flutter 工程师",
+  "file": "skills/opus_flutter_engineer.py",
+  "description": "复刻 Claude Opus 4.6 的 Flutter 项目生成能力。八阶段认知管线 + 10轮迭代优化：知识注入(R1)→架构模板(R2)→Prompt链(R3)→自动修复(R4)→测试生成(R5)→Orchestrator路由(R6-7)→缓存+认知注入(R8)→flutter analyze集成(R9)→全面评估(R10)。",
+  "tags": ["flutter", "dart", "code_generation", "architecture", "mobile_app", "opus_level", "核心能力"],
+  "created_at": "2026-03-21T09:00:00",
+  "updated_at": "2026-03-21T12:00:00",
+  "forged_by": "cascade_analysis",
+  "version": "2.0",
+  "design_spec": {
+    "name": "opus_flutter_engineer",
+    "display_name": "Opus Flutter 工程师 v2.0",
+    "description": "八阶段认知管线 + 10轮迭代优化。内置Flutter Widget知识库(30+)、设计模式模板(4种)、架构文件模板(3领域)、依赖选型矩阵(27个包)、代码质量检查清单(15项)。",
+    "functions": [
+      {
+        "name": "analyze_flutter_requirement",
+        "purpose": "Phase 1+2: 需求分析+领域建模(含隐含需求推导)",
+        "params": "requirement (str)",
+        "returns": "dict: {domain, features, entities, relationships, complexity, tech_decisions, implicit_requirements}"
+      },
+      {
+        "name": "design_architecture",
+        "purpose": "Phase 3+4+5: 架构决策+依赖选型+接口设计(优先使用预定义模板)",
+        "params": "spec (dict)",
+        "returns": "dict: {pattern, file_plan, dependencies, implementation_order, pubspec_yaml, pattern_templates}"
+      },
+      {
+        "name": "generate_flutter_project",
+        "purpose": "Phase 6: 按依赖顺序生成所有Dart文件(含Widget知识注入+质量检查清单+设计模式模板)",
+        "params": "requirement (str), architecture (dict), output_dir (str)",
+        "returns": "dict: {success, files_generated, total_lines, files}"
+      },
+      {
+        "name": "auto_fix_common_issues",
+        "purpose": "Round 4: 自动修复缺失import/括号不匹配/缺少dispose等常见问题",
+        "params": "project_dir (str)",
+        "returns": "dict: {fixes_applied, count}"
+      },
+      {
+        "name": "generate_flutter_tests",
+        "purpose": "Round 5: 生成widget_test和model_test测试文件",
+        "params": "project_dir (str), app_name (str)",
+        "returns": "dict: {files}"
+      },
+      {
+        "name": "generate_project_scaffolding",
+        "purpose": "Round 5: 生成.gitignore/README.md/analysis_options.yaml",
+        "params": "project_dir (str), app_name (str)",
+        "returns": "dict: {files}"
+      },
+      {
+        "name": "verify_project_quality",
+        "purpose": "Phase 7: 质量校验(import检查、依赖一致性、文件质量、命名规范)",
+        "params": "project_dir (str)",
+        "returns": "dict: {score, issues, suggestions, stats}"
+      },
+      {
+        "name": "full_pipeline",
+        "purpose": "完整管线: 需求→分析→架构→生成→自动修复→测试→脚手架→质量校验→交付",
+        "params": "requirement (str), output_dir (str), lattice (optional)",
+        "returns": "dict: {success, project_path, files, quality_score, phases, elapsed_seconds}"
+      }
+    ],
+    "knowledge_bases": [
+      "FLUTTER_WIDGET_KNOWLEDGE: 30+ Widget用法(layout/scrolling/interaction/display/input/navigation/painting)",
+      "DESIGN_PATTERN_TEMPLATES: singleton_service/immutable_model/change_notifier_provider/websocket_service",
+      "ARCHITECTURE_FILE_TEMPLATES: layer_based_im(16文件)/layer_based_content_community(15文件)/layer_based_short_video(15文件)",
+      "DEPENDENCY_MATRIX: 27个场景→包映射",
+      "CODE_QUALITY_CHECKLIST: 15项代码质量检查"
+    ],
+    "dependencies": [
+      "os", "sys", "json", "re", "pathlib", "datetime", "typing"
+    ],
+    "tags": ["flutter", "dart", "code_generation", "architecture", "mobile_app"],
+    "estimated_lines": 1300
+  }
+}

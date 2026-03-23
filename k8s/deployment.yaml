@@ -1,0 +1,155 @@
+# AGI v13.3 Cognitive Lattice - Kubernetes Deployment
+# 对应维度44: Kubernetes部署编排
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agi-cognitive-lattice
+  labels:
+    app: agi-cognitive-lattice
+    version: v13.3
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: agi-cognitive-lattice
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: agi-cognitive-lattice
+        version: v13.3
+    spec:
+      containers:
+        - name: agi-api
+          image: agi-cognitive-lattice:latest
+          ports:
+            - containerPort: 5000
+              name: http
+          env:
+            - name: AGI_ENV
+              value: "production"
+            - name: AGI_LOG_LEVEL
+              value: "INFO"
+            - name: ZHIPU_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: agi-secrets
+                  key: zhipu-api-key
+            - name: OLLAMA_HOST
+              value: "ollama-service:11434"
+          resources:
+            requests:
+              memory: "1Gi"
+              cpu: "500m"
+            limits:
+              memory: "4Gi"
+              cpu: "2000m"
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: 5000
+            initialDelaySeconds: 15
+            periodSeconds: 30
+            timeoutSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: 5000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          volumeMounts:
+            - name: data
+              mountPath: /app/data
+            - name: logs
+              mountPath: /app/logs
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: agi-data-pvc
+        - name: logs
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: agi-cognitive-lattice
+  labels:
+    app: agi-cognitive-lattice
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 5000
+      protocol: TCP
+      name: http
+  selector:
+    app: agi-cognitive-lattice
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: agi-cognitive-lattice
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "50m"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "120"
+spec:
+  rules:
+    - host: agi.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: agi-cognitive-lattice
+                port:
+                  number: 80
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: agi-cognitive-lattice-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: agi-cognitive-lattice
+  minReplicas: 2
+  maxReplicas: 5
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70
+    - type: Resource
+      resource:
+        name: memory
+        target:
+          type: Utilization
+          averageUtilization: 80
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: agi-data-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: agi-secrets
+type: Opaque
+stringData:
+  zhipu-api-key: "REPLACE_WITH_ACTUAL_KEY"

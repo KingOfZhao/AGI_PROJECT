@@ -1,0 +1,7 @@
+{
+  "name": "能力引导器",
+  "file": "skills/capability_bootstrap.py",
+  "description": "将所有技能注册为认知网络的真实节点，让AGI知道自己有什么能力。",
+  "tags": ["引导", "能力注册", "自我意识"],
+  "created_at": "2026-03-17T12:00:00"
+}

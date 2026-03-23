@@ -1,0 +1,14 @@
+{
+    "name": "openclaw_abilities",
+    "description": "OpenClaw可复用能力集成：MMR多样性重排、时间衰减、查询扩展、可验证性分类、增强搜索管道",
+    "version": "1.0.0",
+    "functions": [
+        "mmr_rerank",
+        "apply_temporal_decay",
+        "expand_query",
+        "classify_verifiability",
+        "enhanced_search"
+    ],
+    "dependencies": [],
+    "source": "OpenClaw项目 (src/memory/mmr.ts, src/memory/temporal-decay.ts, src/memory/query-expansion.ts, src/agents/cognitive-lattice.ts)"
+}

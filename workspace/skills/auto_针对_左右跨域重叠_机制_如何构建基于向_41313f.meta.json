@@ -1,0 +1,29 @@
+{
+  "name": "auto_针对_左右跨域重叠_机制_如何构建基于向_41313f",
+  "file": "skills/auto_针对_左右跨域重叠_机制_如何构建基于向_41313f.py",
+  "description": "针对'左右跨域重叠'机制，如何构建基于向量空间的结构映射算法，使其能自动识别跨节点的深层同构性（如将'生物学捕食'与'商业竞争'映射），而非浅层文本相似？这要求系统在没有人工预设标签的情况下，计算两个异构知识图谱结构的一致性，并生成'重叠固化'的候选项。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cognitive_science"
+  ],
+  "created_at": "2026-03-21T22:47:38.723271",
+  "forged_by": "growth_engine_v3",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q1_7105",
+  "design_spec": {
+    "name": "auto_针对_左右跨域重叠_机制_如何构建基于向_41313f",
+    "display_name": "针对'左右跨域重叠'机制，如何构建基于向量空间的结构映射算法，使其能自动识别跨节点的深层同构性（如将",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'左右跨域重叠'机制，如何构建基于向量空间的结构映射算法，使其能自动识别跨节点的深层同构性（如将'生物学捕食'与'商业竞争'映射），而非浅层文本相似？这要求",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 330
+  }
+}

@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / Secrets
+.env
+*.env.local
+
+# Database
+*.db
+*.db-journal
+
+# Logs
+*.log
+logs/
+
+# Byte-compiled
+*.pyc
+
+# Migrate packages (large zips)
+migrate_packages/*.zip
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Workspace outputs (generated files)
+workspace/outputs/
+workspace/logs/
+workspace/__pycache__/
+
+# Verification results
+verification_results/

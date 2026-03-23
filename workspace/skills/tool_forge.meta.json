@@ -1,0 +1,7 @@
+{
+  "name": "Tool Forge 元能力引擎",
+  "file": "skills/tool_forge.py",
+  "description": "AGI为自己创造新工具的元能力。需求→设计→生成→测试→注册。能力无限扩展。",
+  "tags": ["元能力", "工具锻造", "自我扩展", "核心能力"],
+  "created_at": "2026-03-17T12:00:00"
+}

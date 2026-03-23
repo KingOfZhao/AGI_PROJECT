@@ -1,0 +1,27 @@
+{
+  "devices": {
+    "192.168.76.100": {
+      "ip": "192.168.76.100",
+      "name": "Mac Mini",
+      "os": "macOS",
+      "port": 5002,
+      "receiver_port": 5003,
+      "status": "offline",
+      "added_at": "2026-03-18T14:01:00.257397",
+      "last_seen": null,
+      "ollama_status": "offline",
+      "agi_status": "offline",
+      "capabilities": {
+        "ollama": false,
+        "agi_server": false,
+        "receiver": false,
+        "models": []
+      },
+      "is_self": false,
+      "receiver_status": "offline",
+      "ollama_models": []
+    }
+  },
+  "feishu": {},
+  "updated_at": "2026-03-18T16:44:53.577775"
+}

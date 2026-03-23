@@ -1,0 +1,29 @@
+{
+  "name": "auto_左右跨域_如何构建跨模态映射机制_将非_4d28b1",
+  "file": "skills/auto_左右跨域_如何构建跨模态映射机制_将非_4d28b1.py",
+  "description": "【左右跨域】如何构建跨模态映射机制，将非结构化的模糊输入（如“我要一个好用的界面”）转化为结构化的中间表示（IR），填补意图与逻辑之间的鸿沟？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "语义工程"
+  ],
+  "created_at": "2026-03-21T20:29:34.104288",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_10_Q2_9705",
+  "design_spec": {
+    "name": "auto_左右跨域_如何构建跨模态映射机制_将非_4d28b1",
+    "display_name": "【左右跨域】如何构建跨模态映射机制，将非结构化的模糊输入（如“我要一个好用的界面”）转化为结构化的中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域】如何构建跨模态映射机制，将非结构化的模糊输入（如“我要一个好用的界面”）转化为结构化的中间表示（IR），填补意图与逻辑之间的鸿沟？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 99
+  }
+}

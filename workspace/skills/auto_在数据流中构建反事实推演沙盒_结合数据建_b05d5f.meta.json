@@ -1,0 +1,29 @@
+{
+  "name": "auto_在数据流中构建反事实推演沙盒_结合数据建_b05d5f",
+  "file": "skills/auto_在数据流中构建反事实推演沙盒_结合数据建_b05d5f.py",
+  "description": "在数据流中构建反事实推演沙盒。结合数据建模的预测性与人类认知的想象力，在人机共生系统中快速验证‘如果...会怎样’的假设。AI负责生成潜在路径，人类负责基于直觉与经验的逻辑证伪，将未发生的未来固化为预演过的‘真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T20:19:33.894675",
+  "forged_by": "growth_engine",
+  "source": "collision",
+  "source_node_id": "ho_8_O3_8649",
+  "design_spec": {
+    "name": "auto_在数据流中构建反事实推演沙盒_结合数据建_b05d5f",
+    "display_name": "在数据流中构建反事实推演沙盒。结合数据建模的预测性与人类认知的想象力，在人机共生系统中快速验证‘如果",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在数据流中构建反事实推演沙盒。结合数据建模的预测性与人类认知的想象力，在人机共生系统中快速验证‘如果...会怎样’的假设。AI负责生成潜在路径，人类负责基于直觉",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

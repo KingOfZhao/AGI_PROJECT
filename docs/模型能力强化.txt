@@ -1,0 +1,32 @@
+你的所用命令行命令通过 脚本执行不要直接调用命令行http://localhost:5002
+这是我本地模型的可视化网页，分析我本地模型具有哪些能力，将这些能力整理成能力清单放置在项目文件夹下。
+这些能力都有哪些验证方式，整理一份验证清单到项目文件夹下，哪些可以通过编码修复优化你能处理的你来处理不能处理的标记出来。
+这些能力的哪些是不能使用的，搞一个评分机制出来标记在能力清单中。
+整理一份待实现能力的清单到文件夹下，哪些是你可以通过编码实现的你来实现掉，哪些是不能实现的标记出来我来处理。
+目前最高优先级的是本地模型通过 py 文件构建能力，将真实节点应用能力和运用智谱 API 作为算力辅助本地模型运转解决问题的能力。
+尤其是智谱 AI 的 API 调用问题，我的模型只调用智谱 AI 的算力解决自身算力有限的问题，我的模型对结果负责，如果结果不正确则可以进一步调整智谱 AI 的调用方式逐步分解让智谱 AI 负责他所掌握的真实节点作用，且要注意智谱 AI 聊久了产生幻觉的问题及时重置。
+如果我的模型明确无法处理的录入到问题清单中，增加按钮，判断当前哪些问题可以被我的模型处理则处理掉，不可处理的标记出来我来处理。
+
+以下为参考
+核心架构（最高优先级实现路径）：
+本地模型（通过单一或多份 .py 文件 + LangGraph 图结构构建）作为监督者节点（Supervisor Node），掌握“真实物理路径”锚点（本地推理、状态管理、结果责任）。它仅调用智谱AI API（GLM-4 系列）作为算力辅助工作者节点（Worker Node），解决自身算力/上下文限制问题。
+本地模型对最终结果 100% 负责：
+* 输出前必须经过自验证循环（Chain-of-Verification 或 多代理交叉校验）。
+* 若结果不正确/出现幻觉 → 立即自上而下拆解为最小不可证伪子任务 → 调整调用方式（温度降低、tool_choice=auto、async 分步）→ 让智谱AI 只负责它已掌握的“真实节点”（工具调用、长上下文推理、代码生成等）。
+* 同时自下而上从本地已验证节点生成新问题，寻找重叠后建立永久链接。
+* 幻觉重置机制：会话上下文超过阈值或验证失败时，直接重置 LangGraph 状态（或新建 messages 列表），避免“聊久了”累积偏差。
+本地 vs 智谱分工（四向碰撞重叠节点）：
+* 本地（Ollama/Llama.cpp + LangGraph）：负责规划、验证、记忆管理、最终合成（隐私 + 责任）。
+* 智谱API（glm-4 / glm-4-long）：负责重计算任务（工具调用、长上下文、agentic coding）。
+* 重叠节点一旦建立（验证通过），即固化成“真实认知结构”，后续无需重复调用。
+这正是你原描述的精炼版 + 可执行版，完全符合“自上而下拆解证伪 + 自下而上生成新问题 + 左右碰撞建立网络”的 AGI 成长机制。
+世界前沿网址（2026 年最新，完美补全你的描述）
+这些资源已直接支持“本地 .py 监督者 + 智谱API 工作者 + 自动幻觉重置 + 任务分解”完整闭环，我已验证过兼容性：
+1. LangChain 官方智谱集成（最关键入口）https://docs.langchain.com/oss/python/integrations/chat/zhipuai 一行代码即可把 glm-4 接入 LangGraph，支持 streaming、tool calling、JSON agent。官方 API 参考：https://open.bigmodel.cn/dev/api（支持 function calling、async、messages 重置）。 → 直接解决“调用方式调整 + 逐步分解”问题。
+2. LangGraph 本地代理教程（本地 .py 监督者核心）https://www.digitalocean.com/community/tutorials/local-ai-agents-with-langgraph-and-ollama 完整代码示例：Ollama（本地 LLM）+ LangGraph 构建 supervisor/worker 图，支持状态持久化（自动重置上下文）、任务分解、错误恢复。 → 把你的“本地模型负责结果”落地为 graph 节点。
+3. 幻觉缓解专文（多代理验证 + 重置最佳实践）https://www.getzep.com/ai-agents/reducing-llm-hallucinations/ 详细给出 Chain-of-Verification、自一致性、多代理交叉校验、上下文重置（ZepMemory 或 LangGraph state reset）的 Python 模式。明确推荐“本地 LLM 做验证、云 LLM 做生成”的混合策略。 → 完美解决“你要注意智谱聊久了产生幻觉及时重置”。
+4. 智谱官方 Python SDK + Tool Calling 示例https://open.bigmodel.cn/dev/api（SDK 安装：pip install --upgrade zhipuai） 官方支持 tool_calls、async 分步、temperature 控制、messages 重置。结合 LangChain 后可直接做“工作者节点”。
+5. 补充前沿框架（可选扩展）
+    * LiteLLM（统一代理本地+智谱）：https://github.com/BerriAI/litellm
+    * Microsoft Agent Framework（本地 Foundry + 云混合）：https://learn.microsoft.com/en-us/agent-framework/
+用以上 3 个核心链接（1+2+3）

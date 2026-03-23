@@ -1,0 +1,51 @@
+# AGI v13.3 Cognitive Lattice - Dependencies
+# Core
+flask>=3.0.0
+flask-cors>=4.0.0
+openai>=1.12.0
+requests>=2.31.0
+
+# Embedding & ML
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+torch>=2.0.0
+
+# Database
+# sqlite3 is built-in
+
+# Code Quality (维度19,20,93)
+ruff>=0.3.0
+black>=24.0.0
+isort>=5.13.0
+
+# Security Scanning (维度23,24)
+bandit>=1.7.0
+safety>=3.0.0
+
+# Testing (维度25,26,27)
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.23.0
+
+# Performance Profiling (维度16,18)
+memory-profiler>=0.61.0
+
+# Browser Automation (维度12,27)
+playwright>=1.40.0
+
+# Type Checking
+mypy>=1.8.0
+
+# Data Processing (维度48,49)
+pandas>=2.1.0
+matplotlib>=3.8.0
+
+# Caching (维度31)
+redis>=5.0.0
+
+# DXF/CAD
+ezdxf>=0.18.0
+
+# Utilities
+pyyaml>=6.0.0
+python-dotenv>=1.0.0

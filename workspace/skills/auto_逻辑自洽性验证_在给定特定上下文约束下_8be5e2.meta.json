@@ -1,0 +1,29 @@
+{
+  "name": "auto_逻辑自洽性验证_在给定特定上下文约束下_8be5e2",
+  "file": "skills/auto_逻辑自洽性验证_在给定特定上下文约束下_8be5e2.py",
+  "description": "逻辑自洽性验证：在给定特定上下文约束下，AI能否生成逻辑零漏洞、无幻觉的结构化方案？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "agi_architecture"
+  ],
+  "created_at": "2026-03-21T10:10:55.270460",
+  "forged_by": "growth_engine",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q1_7510",
+  "design_spec": {
+    "name": "auto_逻辑自洽性验证_在给定特定上下文约束下_8be5e2",
+    "display_name": "逻辑自洽性验证：在给定特定上下文约束下，AI能否生成逻辑零漏洞、无幻觉的结构化方案？",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "逻辑自洽性验证：在给定特定上下文约束下，AI能否生成逻辑零漏洞、无幻觉的结构化方案？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 145
+  }
+}

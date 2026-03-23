@@ -1,0 +1,29 @@
+{
+  "name": "auto_创建_需求结构化蒸馏引擎_在代码生成之_50252e",
+  "file": "skills/auto_创建_需求结构化蒸馏引擎_在代码生成之_50252e.py",
+  "description": "创建'需求结构化蒸馏引擎'。在代码生成之前，先运行一个认知科学驱动的预处理层。该层不直接翻译自然语言，而是先识别需求中的'概念骨架'（Conceptual Skeleton）。例如，对于'做一个像生物进化一样的优化器'，引擎先提取出'选择、交叉、变异'的结构化JSON骨架，并识别出'适应性函数'这一关键缺失变量要求用户确认（人机共生），将模糊的意图强制对齐到严谨的数学结构上，从而大幅降低代码生成后的试错成本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-22T08:20:57.755963",
+  "forged_by": "growth_engine_v3",
+  "source": "collision",
+  "source_node_id": "ho_1_O3_2169",
+  "design_spec": {
+    "name": "auto_创建_需求结构化蒸馏引擎_在代码生成之_50252e",
+    "display_name": "创建'需求结构化蒸馏引擎'。在代码生成之前，先运行一个认知科学驱动的预处理层。该层不直接翻译自然语言",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'需求结构化蒸馏引擎'。在代码生成之前，先运行一个认知科学驱动的预处理层。该层不直接翻译自然语言，而是先识别需求中的'概念骨架'（Conceptual Sk",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 779
+  }
+}

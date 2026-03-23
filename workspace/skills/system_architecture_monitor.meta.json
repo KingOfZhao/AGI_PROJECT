@@ -1,0 +1,43 @@
+{
+  "name": "系统架构监控工具",
+  "description": "该工具用于自动化监控和分析系统架构，帮助识别潜在问题并提供优化建议。",
+  "tags": [
+    "系统架构",
+    "自动化监控",
+    "健康检查",
+    "优化建议"
+  ],
+  "file": "skills/system_architecture_monitor.py",
+  "created_at": "2026-03-17T16:42:31.157014",
+  "forged_by": "tool_forge",
+  "design_spec": {
+    "name": "system_architecture_monitor",
+    "display_name": "系统架构监控工具",
+    "description": "该工具用于自动化监控和分析系统架构，帮助识别潜在问题并提供优化建议。",
+    "functions": [
+      {
+        "name": "monitor_system",
+        "purpose": "监控系统架构的健康状态",
+        "params": "system_config (dict): 系统配置信息",
+        "returns": "report (dict): 监控报告，包括健康状态和潜在问题"
+      },
+      {
+        "name": "generate_optimization_plan",
+        "purpose": "基于监控结果生成优化建议",
+        "params": "monitor_report (dict): 监控报告",
+        "returns": "optimization_plan (list): 优化建议列表"
+      }
+    ],
+    "dependencies": [
+      "json",
+      "requests"
+    ],
+    "tags": [
+      "系统架构",
+      "自动化监控",
+      "健康检查",
+      "优化建议"
+    ],
+    "estimated_lines": 200
+  }
+}

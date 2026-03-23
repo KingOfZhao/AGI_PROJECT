@@ -1,0 +1,41 @@
+{
+  "name": "数据结构优化工具",
+  "description": "该工具用于分析和优化项目中的数据结构，通过识别潜在的性能瓶颈和内存使用问题，并提供优化建议。",
+  "tags": [
+    "数据结构",
+    "性能优化",
+    "代码分析"
+  ],
+  "file": "skills/data_structure_optimizer.py",
+  "created_at": "2026-03-17T22:38:17.917939",
+  "forged_by": "tool_forge",
+  "design_spec": {
+    "name": "data_structure_optimizer",
+    "display_name": "数据结构优化工具",
+    "description": "该工具用于分析和优化项目中的数据结构，通过识别潜在的性能瓶颈和内存使用问题，并提供优化建议。",
+    "functions": [
+      {
+        "name": "analyze_data_structures",
+        "purpose": "扫描代码库并分析其中的数据结构使用情况",
+        "params": "project_path (str): 项目的根目录路径",
+        "returns": "dict: 包含数据结构使用情况的详细报告"
+      },
+      {
+        "name": "optimize_data_structures",
+        "purpose": "根据分析结果优化数据结构",
+        "params": "report (dict): 分析报告，包含需要优化的数据结构信息",
+        "returns": "list: 优化建议列表，包括修改代码的建议和优化后的代码片段"
+      }
+    ],
+    "dependencies": [
+      "os",
+      "ast"
+    ],
+    "tags": [
+      "数据结构",
+      "性能优化",
+      "代码分析"
+    ],
+    "estimated_lines": 200
+  }
+}

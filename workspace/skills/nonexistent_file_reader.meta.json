@@ -1,0 +1,32 @@
+{
+  "name": "不存在文件读取工具",
+  "description": "该工具用于尝试读取一个不存在的文件，并返回其路径。",
+  "tags": [
+    "文件操作",
+    "异常处理"
+  ],
+  "file": "skills/nonexistent_file_reader.py",
+  "created_at": "2026-03-18T17:23:41.928447",
+  "forged_by": "tool_forge",
+  "design_spec": {
+    "name": "nonexistent_file_reader",
+    "display_name": "不存在文件读取工具",
+    "description": "该工具用于尝试读取一个不存在的文件，并返回其路径。",
+    "functions": [
+      {
+        "name": "read_nonexistent_file",
+        "purpose": "尝试读取一个不存在的文件并返回其路径",
+        "params": "file_path (str): 文件的完整路径",
+        "returns": "str: 如果文件存在，返回文件内容；如果文件不存在，返回文件路径"
+      }
+    ],
+    "dependencies": [
+      "os"
+    ],
+    "tags": [
+      "文件操作",
+      "异常处理"
+    ],
+    "estimated_lines": 50
+  }
+}

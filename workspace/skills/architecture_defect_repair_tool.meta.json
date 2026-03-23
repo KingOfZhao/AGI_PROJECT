@@ -1,0 +1,53 @@
+{
+  "name": "架构缺陷修复工具",
+  "description": "识别和修复项目中的核心架构缺陷，通过分析代码库、依赖图和系统架构，提供优化建议并自动修复常见问题。",
+  "tags": [
+    "架构优化",
+    "代码修复",
+    "系统监控"
+  ],
+  "file": "skills/architecture_defect_repair_tool.py",
+  "created_at": "2026-03-18T09:23:05.530622",
+  "forged_by": "tool_forge",
+  "design_spec": {
+    "name": "architecture_defect_repair_tool",
+    "display_name": "架构缺陷修复工具",
+    "description": "识别和修复项目中的核心架构缺陷，通过分析代码库、依赖图和系统架构，提供优化建议并自动修复常见问题。",
+    "functions": [
+      {
+        "name": "analyze_architecture",
+        "purpose": "扫描项目结构并生成架构报告",
+        "params": "project_path (str): 项目的根目录路径",
+        "returns": "dict: 架构分析结果，包括依赖关系、模块化程度等信息"
+      },
+      {
+        "name": "identify_defects",
+        "purpose": "识别架构中的潜在缺陷",
+        "params": "architecture_report (dict): 架构分析报告",
+        "returns": "list: 缺陷列表，每个缺陷包含类型和位置信息"
+      },
+      {
+        "name": "suggest_repair_actions",
+        "purpose": "根据识别的缺陷提供修复建议",
+        "params": "defects (list): 缺陷列表",
+        "returns": "list: 修复建议列表，每个建议包含操作步骤和预期效果"
+      },
+      {
+        "name": "apply_repair_actions",
+        "purpose": "自动应用修复建议到项目中",
+        "params": "repair_suggestions (list): 修复建议列表, project_path (str): 项目的根目录路径",
+        "returns": "bool: 是否成功应用所有修复建议"
+      }
+    ],
+    "dependencies": [
+      "os",
+      "json"
+    ],
+    "tags": [
+      "架构优化",
+      "代码修复",
+      "系统监控"
+    ],
+    "estimated_lines": 300
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "auto_构建_神经_代码预测纠错系统_该能力不_874041",
+  "file": "skills/auto_构建_神经_代码预测纠错系统_该能力不_874041.py",
+  "description": "构建‘神经-代码预测纠错系统’。该能力不只是运行预设测试，而是利用认知科学中的预测编码机制，让AI根据代码变更动态生成‘最可能的失效场景’作为测试用例。系统建立一个‘认知沙箱’，模拟人类专家在Code Review时的心理模型，对代码进行‘认知压力测试’。它能识别出单纯逻辑覆盖率无法发现的‘语义怪异’或‘反直觉设计’，将测试从‘验证功能’提升为‘验证意图’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T22:49:31.173659",
+  "forged_by": "growth_engine_v3",
+  "source": "collision",
+  "source_node_id": "ho_1_O1_5530",
+  "design_spec": {
+    "name": "auto_构建_神经_代码预测纠错系统_该能力不_874041",
+    "display_name": "构建‘神经-代码预测纠错系统’。该能力不只是运行预设测试，而是利用认知科学中的预测编码机制，让AI根",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘神经-代码预测纠错系统’。该能力不只是运行预设测试，而是利用认知科学中的预测编码机制，让AI根据代码变更动态生成‘最可能的失效场景’作为测试用例。系统建立",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 404
+  }
+}

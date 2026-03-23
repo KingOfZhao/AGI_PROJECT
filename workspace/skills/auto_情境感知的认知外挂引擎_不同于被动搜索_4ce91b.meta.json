@@ -1,0 +1,29 @@
+{
+  "name": "auto_情境感知的认知外挂引擎_不同于被动搜索_4ce91b",
+  "file": "skills/auto_情境感知的认知外挂引擎_不同于被动搜索_4ce91b.py",
+  "description": "情境感知的认知外挂引擎。不同于被动搜索，该能力利用生物信号（眼动、脑电或当前对话语境）实时预测未来的信息需求，提前从个人知识库或互联网中'预取'数据，并推送到AR眼镜或耳麦中。这本质上是将人类的'直觉（预测）'与AI的'检索（查表）'融合，构建一个'零延迟'的认知外脑，让人在处理复杂任务时仿佛拥有过目不忘的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain"
+  ],
+  "created_at": "2026-03-21T22:50:21.809187",
+  "forged_by": "growth_engine_v3",
+  "source": "collision",
+  "source_node_id": "ho_1_O3_505",
+  "design_spec": {
+    "name": "auto_情境感知的认知外挂引擎_不同于被动搜索_4ce91b",
+    "display_name": "情境感知的认知外挂引擎。不同于被动搜索，该能力利用生物信号（眼动、脑电或当前对话语境）实时预测未来的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "情境感知的认知外挂引擎。不同于被动搜索，该能力利用生物信号（眼动、脑电或当前对话语境）实时预测未来的信息需求，提前从个人知识库或互联网中'预取'数据，并推送到A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

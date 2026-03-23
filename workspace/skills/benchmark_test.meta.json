@@ -1,0 +1,8 @@
+{
+  "name": "标准化基准测试框架",
+  "description": "5维度15题标准化测试：推理准确性、代码质量、事实准确性、不确定性声明、边界诚实度。量化对比能力边界。",
+  "tags": ["基准测试", "自我评估", "能力量化", "Claude对比"],
+  "version": "1.0",
+  "capabilities": ["run_benchmark", "run_single_test", "compare_results"],
+  "source": "collision_analysis_claude_opus_comparison"
+}
