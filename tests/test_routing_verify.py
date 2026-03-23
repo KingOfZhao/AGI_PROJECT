@@ -2177,3 +2177,114 @@ class TestRound17_ContextBlockchainVSCode:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 18: 吞吐量优化/Cursor兼容验证 ====================
+class TestRound18_ThroughputCursor:
+    """第18轮: 模型吞吐量优化/Cursor IDE兼容方案验证"""
+
+    def test_throughput_overview(self):
+        """dim58: 获取全部策略概览"""
+        from coding_enhancer import optimize_throughput
+        result = optimize_throughput()
+        assert result['success'] is True
+        assert 'strategies' in result
+        assert len(result['strategies']) >= 4
+
+    def test_throughput_batch(self):
+        """dim58: 批量请求队列"""
+        from coding_enhancer import optimize_throughput
+        result = optimize_throughput("batch_queue")
+        assert result['success'] is True
+        assert 'BatchQueue' in result['code']
+        assert result['config']['batch_size'] == 8
+
+    def test_throughput_multi_instance(self):
+        """dim58: 多实例负载均衡"""
+        from coding_enhancer import optimize_throughput
+        result = optimize_throughput("multi_instance")
+        assert result['success'] is True
+        assert 'OllamaLoadBalancer' in result['code']
+
+    def test_throughput_kv_cache(self):
+        """dim58: KV缓存优化"""
+        from coding_enhancer import optimize_throughput
+        result = optimize_throughput("kv_cache")
+        assert result['success'] is True
+        assert 'KVCache' in result['code']
+        assert result['config']['cache_size_mb'] == 512
+
+    def test_throughput_speculative(self):
+        """dim58: 投机解码加速"""
+        from coding_enhancer import optimize_throughput
+        result = optimize_throughput("speculative_decode")
+        assert result['success'] is True
+        assert 'SpeculativeDecoder' in result['code']
+
+    def test_throughput_unknown(self):
+        """dim58: 未知策略返回错误"""
+        from coding_enhancer import optimize_throughput
+        result = optimize_throughput("quantum_inference")
+        assert result['success'] is False
+
+    def test_throughput_count(self):
+        """dim58: 策略>=4个"""
+        from coding_enhancer import THROUGHPUT_STRATEGIES
+        assert len(THROUGHPUT_STRATEGIES) >= 4
+
+    def test_cursor_overview(self):
+        """dim62: 获取全部兼容方案"""
+        from coding_enhancer import get_cursor_compat
+        result = get_cursor_compat()
+        assert result['success'] is True
+        assert 'templates' in result
+        assert len(result['templates']) >= 4
+
+    def test_cursor_rules(self):
+        """dim62: .cursorrules配置"""
+        from coding_enhancer import get_cursor_compat
+        result = get_cursor_compat("cursor_rules")
+        assert result['success'] is True
+        assert '君臣佐使' in result['code']
+
+    def test_cursor_bridge(self):
+        """dim62: VS Code↔Cursor桥接"""
+        from coding_enhancer import get_cursor_compat
+        result = get_cursor_compat("vscode_cursor_bridge")
+        assert result['success'] is True
+        assert 'IDEBridge' in result['code']
+
+    def test_cursor_settings(self):
+        """dim62: 设置同步方案"""
+        from coding_enhancer import get_cursor_compat
+        result = get_cursor_compat("settings_sync")
+        assert result['success'] is True
+        assert 'agi.serverUrl' in result['code']
+
+    def test_cursor_api_server(self):
+        """dim62: API Server适配器"""
+        from coding_enhancer import get_cursor_compat
+        result = get_cursor_compat("api_server_adapter")
+        assert result['success'] is True
+        assert 'Flask' in result['code']
+
+    def test_cursor_unknown(self):
+        """dim62: 未知模板返回错误"""
+        from coding_enhancer import get_cursor_compat
+        result = get_cursor_compat("intellij_compat")
+        assert result['success'] is False
+
+    def test_cursor_count(self):
+        """dim62: Cursor模板>=4个"""
+        from coding_enhancer import CURSOR_COMPAT
+        assert len(CURSOR_COMPAT) >= 4
+
+    def test_round18_tools_registered(self):
+        """所有Round18工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['optimize_throughput', 'get_cursor_compat']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"
