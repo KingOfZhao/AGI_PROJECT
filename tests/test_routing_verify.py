@@ -633,3 +633,174 @@ class TestRound7_EfficiencyTools:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 8: 上下文/模板/Issue工具验证 ====================
+class TestRound8_ContextTemplateIssue:
+    """第8轮: 长上下文分块/低代码模板/GitHub Issue解析验证"""
+
+    def test_chunk_short_code(self):
+        """dim8: 短代码不需要分块"""
+        from coding_enhancer import chunk_code_context
+        code = "def hello():\n    return 'hi'\n"
+        result = chunk_code_context(code)
+        assert result['success'] is True
+        assert result['total_chunks'] >= 1
+        assert result['total_lines'] == 3
+
+    def test_chunk_long_code_splits(self):
+        """dim8: 长代码正确分块"""
+        from coding_enhancer import chunk_code_context
+        # 生成200行代码
+        lines = []
+        for i in range(20):
+            lines.append(f"def func_{i}():")
+            for j in range(9):
+                lines.append(f"    x_{j} = {i * 10 + j}")
+        code = '\n'.join(lines)
+        result = chunk_code_context(code, max_chunk_tokens=500)
+        assert result['success'] is True
+        assert result['total_chunks'] > 1
+
+    def test_chunk_symbol_extraction(self):
+        """dim8: 正确提取函数/类符号"""
+        from coding_enhancer import chunk_code_context
+        code = "class MyClass:\n    pass\n\ndef my_func():\n    pass\n"
+        result = chunk_code_context(code)
+        assert result['success'] is True
+        all_symbols = []
+        for c in result['chunks']:
+            all_symbols.extend(c['symbols'])
+        assert 'class:MyClass' in all_symbols
+        assert 'func:my_func' in all_symbols
+
+    def test_chunk_symbol_index(self):
+        """dim8: 跨块符号索引生成"""
+        from coding_enhancer import chunk_code_context
+        code = "def a():\n    pass\n\ndef b():\n    pass\n"
+        result = chunk_code_context(code)
+        assert isinstance(result['symbol_index'], dict)
+
+    def test_chunk_empty(self):
+        """dim8: 空代码返回错误"""
+        from coding_enhancer import chunk_code_context
+        result = chunk_code_context("")
+        assert result['success'] is False
+
+    def test_expand_crud_api(self):
+        """dim88: CRUD API模板扩展"""
+        from coding_enhancer import expand_template
+        result = expand_template("crud_api", resource_name="users")
+        assert result['success'] is True
+        assert result['ready'] is True
+        assert 'users' in result['code']
+        assert '/api/users' in result['code']
+        assert 'GET' in result['code']
+        assert 'POST' in result['code']
+        assert 'DELETE' in result['code']
+
+    def test_expand_cli_tool(self):
+        """dim88: CLI工具模板扩展"""
+        from coding_enhancer import expand_template
+        result = expand_template("cli_tool", tool_name="myutil", description="数据处理工具")
+        assert result['success'] is True
+        assert 'argparse' in result['code']
+        assert 'myutil' in result['code']
+
+    def test_expand_dataclass(self):
+        """dim88: 数据模型模板扩展"""
+        from coding_enhancer import expand_template
+        result = expand_template("dataclass_model", model_name="User")
+        assert result['success'] is True
+        assert '@dataclass' in result['code']
+        assert 'class User' in result['code']
+        assert 'validate' in result['code']
+
+    def test_expand_test_suite(self):
+        """dim88: 测试套件模板扩展"""
+        from coding_enhancer import expand_template
+        result = expand_template("test_suite", module_name="Auth")
+        assert result['success'] is True
+        assert 'TestAuth' in result['code']
+        assert 'pytest' in result['code']
+
+    def test_expand_unknown_template(self):
+        """dim88: 未知模板返回错误+可用列表"""
+        from coding_enhancer import expand_template
+        result = expand_template("nonexistent")
+        assert result['success'] is False
+        assert 'available' in result
+
+    def test_expand_available_templates(self):
+        """dim88: CODE_TEMPLATES包含4种模板"""
+        from coding_enhancer import CODE_TEMPLATES
+        assert len(CODE_TEMPLATES) >= 4
+        assert 'crud_api' in CODE_TEMPLATES
+        assert 'cli_tool' in CODE_TEMPLATES
+
+    def test_parse_bug_issue(self):
+        """dim92: Bug类型Issue解析"""
+        from coding_enhancer import parse_github_issue
+        issue = """# Login crash on empty password
+
+## Bug Report
+The app crashes when user submits empty password.
+
+Steps to reproduce:
+1. Open login page
+2. Leave password empty
+3. Click submit
+
+Expected:
+Show validation error
+
+Actual:
+App crashes with TypeError
+
+```python
+# Error traceback
+TypeError: NoneType has no len()
+```
+
+Affected file: `auth/login.py`
+"""
+        result = parse_github_issue(issue)
+        assert result['success'] is True
+        assert result['type'] == 'bug'
+        assert result['priority'] == 'medium'
+        assert len(result['tasks']) == 5
+        assert len(result['code_refs']) >= 1
+        assert any('login' in f for f in result['affected_files'])
+
+    def test_parse_feature_issue(self):
+        """dim92: Feature类型Issue解析"""
+        from coding_enhancer import parse_github_issue
+        issue = "# Add dark mode feature\n\n需求: 新增暗色主题切换功能\n"
+        result = parse_github_issue(issue)
+        assert result['success'] is True
+        assert result['type'] == 'feature'
+        assert result['task_count'] == 5
+
+    def test_parse_urgent_issue(self):
+        """dim92: 紧急优先级检测"""
+        from coding_enhancer import parse_github_issue
+        issue = "# Critical: 数据库连接泄漏 bug\n\n紧急修复,生产环境严重影响\n"
+        result = parse_github_issue(issue)
+        assert result['success'] is True
+        assert result['priority'] == 'high'
+
+    def test_parse_empty_issue(self):
+        """dim92: 空Issue返回错误"""
+        from coding_enhancer import parse_github_issue
+        result = parse_github_issue("")
+        assert result['success'] is False
+
+    def test_round8_tools_registered(self):
+        """所有Round8工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['chunk_code_context', 'expand_template', 'parse_github_issue']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"

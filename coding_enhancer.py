@@ -1198,6 +1198,363 @@ def generate_adr(title: str, context: str = "", decision: str = "",
     }
 
 
+# ==================== 17. 长上下文分块与连贯性保持 (维度8) ====================
+
+def chunk_code_context(code: str, max_chunk_tokens: int = 3000,
+                       overlap_lines: int = 5) -> Dict:
+    """将长代码分块,保持跨块连贯性(重叠行+符号索引)"""
+    if not code:
+        return {"success": False, "error": "需要提供代码"}
+
+    lines = code.split('\n')
+    total_lines = len(lines)
+
+    # 估算每行token
+    avg_tokens_per_line = max(sum(len(l) for l in lines) / max(total_lines, 1) * 0.4, 1)
+    lines_per_chunk = max(int(max_chunk_tokens / avg_tokens_per_line), 10)
+
+    chunks = []
+    i = 0
+    while i < total_lines:
+        end = min(i + lines_per_chunk, total_lines)
+
+        # 尝试在函数/类边界处分割
+        if end < total_lines:
+            for j in range(end, max(end - 20, i + 10), -1):
+                stripped = lines[j].strip() if j < total_lines else ""
+                if stripped.startswith(('def ', 'class ', 'async def ', 'function ',
+                                        'export ', 'public ', 'private ', '}')):
+                    end = j
+                    break
+
+        chunk_lines = lines[i:end]
+        chunk_text = '\n'.join(chunk_lines)
+
+        # 提取该块的符号(函数/类名)
+        symbols = []
+        for line in chunk_lines:
+            stripped = line.strip()
+            if stripped.startswith('def '):
+                name = stripped.split('(')[0].replace('def ', '')
+                symbols.append(f"func:{name}")
+            elif stripped.startswith('class '):
+                name = stripped.split('(')[0].split(':')[0].replace('class ', '')
+                symbols.append(f"class:{name}")
+
+        chunks.append({
+            "chunk_id": len(chunks),
+            "start_line": i + 1,
+            "end_line": end,
+            "line_count": end - i,
+            "estimated_tokens": int(len(chunk_text) * 0.4),
+            "symbols": symbols,
+            "content": chunk_text,
+        })
+
+        # 下一块从overlap_lines前开始(保持连贯)
+        i = max(end - overlap_lines, end) if end >= total_lines else end - overlap_lines
+
+    # 生成跨块符号索引
+    symbol_index = {}
+    for chunk in chunks:
+        for sym in chunk["symbols"]:
+            if sym not in symbol_index:
+                symbol_index[sym] = []
+            symbol_index[sym].append(chunk["chunk_id"])
+
+    return {
+        "success": True,
+        "total_lines": total_lines,
+        "total_chunks": len(chunks),
+        "max_chunk_tokens": max_chunk_tokens,
+        "overlap_lines": overlap_lines,
+        "chunks": [{"chunk_id": c["chunk_id"], "start_line": c["start_line"],
+                     "end_line": c["end_line"], "line_count": c["line_count"],
+                     "estimated_tokens": c["estimated_tokens"],
+                     "symbols": c["symbols"]} for c in chunks],
+        "symbol_index": symbol_index,
+        "full_chunks": chunks,  # 含content
+    }
+
+
+# ==================== 18. 低代码→高代码模板扩展 (维度88) ====================
+
+CODE_TEMPLATES = {
+    "crud_api": {
+        "description": "REST CRUD API (Flask)",
+        "params": ["resource_name", "fields"],
+        "template": '''from flask import Flask, jsonify, request
+
+app = Flask(__name__)
+_{resource_name}_store = []
+_next_id = 1
+
+@app.route('/api/{resource_name}', methods=['GET'])
+def list_{resource_name}():
+    return jsonify({resource_name}_store)
+
+@app.route('/api/{resource_name}', methods=['POST'])
+def create_{resource_name}():
+    global _next_id
+    data = request.json
+    data['id'] = _next_id
+    _next_id += 1
+    _{resource_name}_store.append(data)
+    return jsonify(data), 201
+
+@app.route('/api/{resource_name}/<int:id>', methods=['GET'])
+def get_{resource_name}(id):
+    item = next((x for x in _{resource_name}_store if x['id'] == id), None)
+    return jsonify(item) if item else ('', 404)
+
+@app.route('/api/{resource_name}/<int:id>', methods=['PUT'])
+def update_{resource_name}(id):
+    item = next((x for x in _{resource_name}_store if x['id'] == id), None)
+    if not item:
+        return ('', 404)
+    item.update(request.json)
+    return jsonify(item)
+
+@app.route('/api/{resource_name}/<int:id>', methods=['DELETE'])
+def delete_{resource_name}(id):
+    global _{resource_name}_store
+    _{resource_name}_store = [x for x in _{resource_name}_store if x['id'] != id]
+    return ('', 204)
+''',
+    },
+    "cli_tool": {
+        "description": "CLI工具骨架 (argparse)",
+        "params": ["tool_name", "description"],
+        "template": '''#!/usr/bin/env python3
+"""
+{tool_name} - {description}
+"""
+import argparse
+import sys
+
+def main():
+    parser = argparse.ArgumentParser(description='{description}')
+    parser.add_argument('input', help='输入文件/参数')
+    parser.add_argument('-o', '--output', help='输出路径')
+    parser.add_argument('-v', '--verbose', action='store_true', help='详细输出')
+    args = parser.parse_args()
+
+    # TODO: 实现核心逻辑
+    if args.verbose:
+        print(f"Processing: {{args.input}}")
+
+    print(f"{tool_name} completed.")
+
+if __name__ == '__main__':
+    main()
+''',
+    },
+    "dataclass_model": {
+        "description": "数据模型 (dataclass + validation)",
+        "params": ["model_name", "fields"],
+        "template": '''from dataclasses import dataclass, field
+from typing import Optional, List
+from datetime import datetime
+
+@dataclass
+class {model_name}:
+    id: int = 0
+    created_at: str = field(default_factory=lambda: datetime.now().isoformat())
+    updated_at: str = ''
+
+    def validate(self) -> List[str]:
+        errors = []
+        if self.id < 0:
+            errors.append("id must be non-negative")
+        return errors
+
+    def to_dict(self) -> dict:
+        return {{k: v for k, v in self.__dict__.items()}}
+
+    @classmethod
+    def from_dict(cls, data: dict) -> '{model_name}':
+        return cls(**{{k: v for k, v in data.items() if k in cls.__dataclass_fields__}})
+''',
+    },
+    "test_suite": {
+        "description": "测试套件骨架 (pytest)",
+        "params": ["module_name"],
+        "template": '''import pytest
+from unittest.mock import MagicMock, patch
+
+class Test{module_name}:
+    """Tests for {module_name}"""
+
+    @pytest.fixture
+    def instance(self):
+        """Create test instance"""
+        # TODO: return instance
+        return None
+
+    def test_creation(self, instance):
+        """Test basic creation"""
+        assert instance is not None
+
+    def test_happy_path(self, instance):
+        """Test normal operation"""
+        # TODO: implement
+        pass
+
+    def test_edge_case(self, instance):
+        """Test edge cases"""
+        # TODO: implement
+        pass
+
+    def test_error_handling(self, instance):
+        """Test error conditions"""
+        # TODO: implement
+        pass
+''',
+    },
+}
+
+
+def expand_template(template_name: str, **params) -> Dict:
+    """将低代码模板扩展为完整的生产级代码"""
+    if template_name not in CODE_TEMPLATES:
+        available = list(CODE_TEMPLATES.keys())
+        return {"success": False, "error": f"未知模板: {template_name}", "available": available}
+
+    tpl = CODE_TEMPLATES[template_name]
+    code = tpl["template"]
+
+    # 替换参数
+    for key, value in params.items():
+        code = code.replace('{' + key + '}', str(value))
+
+    # 检查未替换的参数
+    missing = re.findall(r'\{(\w+)\}', code)
+    # 过滤掉Python f-string内的变量引用
+    real_missing = [m for m in missing if m in tpl.get("params", [])]
+
+    return {
+        "success": True,
+        "template_name": template_name,
+        "description": tpl["description"],
+        "params_used": params,
+        "missing_params": real_missing,
+        "code": code,
+        "line_count": len(code.split('\n')),
+        "ready": len(real_missing) == 0,
+    }
+
+
+# ==================== 19. GitHub Issue解析与任务分解 (维度92) ====================
+
+def parse_github_issue(issue_text: str) -> Dict:
+    """解析GitHub Issue文本,提取结构化任务信息"""
+    if not issue_text:
+        return {"success": False, "error": "需要提供Issue文本"}
+
+    result = {
+        "title": "",
+        "type": "unknown",
+        "priority": "medium",
+        "labels": [],
+        "steps_to_reproduce": [],
+        "expected_behavior": "",
+        "actual_behavior": "",
+        "tasks": [],
+        "code_refs": [],
+        "affected_files": [],
+    }
+
+    lines = issue_text.strip().split('\n')
+
+    # 提取标题(第一行或#开头)
+    for line in lines:
+        stripped = line.strip()
+        if stripped:
+            result["title"] = stripped.lstrip('#').strip()
+            break
+
+    text_lower = issue_text.lower()
+
+    # 分类Issue类型
+    if any(kw in text_lower for kw in ['bug', '错误', 'error', 'crash', '崩溃', 'fix', '修复']):
+        result["type"] = "bug"
+        result["labels"].append("bug")
+    elif any(kw in text_lower for kw in ['feature', '功能', '新增', 'add', 'enhancement', '需求']):
+        result["type"] = "feature"
+        result["labels"].append("enhancement")
+    elif any(kw in text_lower for kw in ['refactor', '重构', 'optimize', '优化', 'performance']):
+        result["type"] = "improvement"
+        result["labels"].append("improvement")
+    elif any(kw in text_lower for kw in ['doc', '文档', 'readme', 'typo']):
+        result["type"] = "documentation"
+        result["labels"].append("documentation")
+
+    # 优先级检测
+    if any(kw in text_lower for kw in ['urgent', '紧急', 'critical', 'blocker', '严重']):
+        result["priority"] = "high"
+    elif any(kw in text_lower for kw in ['minor', '次要', 'low', 'nice to have']):
+        result["priority"] = "low"
+
+    # 提取代码引用
+    code_blocks = re.findall(r'```[\w]*\n(.*?)```', issue_text, re.DOTALL)
+    result["code_refs"] = [block.strip()[:200] for block in code_blocks]
+
+    # 提取文件路径引用
+    file_refs = re.findall(r'[`\s]([a-zA-Z_][\w/]*\.\w{1,5})[`\s,.]', issue_text)
+    result["affected_files"] = list(set(file_refs))[:10]
+
+    # 提取复现步骤
+    in_steps = False
+    for line in lines:
+        stripped = line.strip()
+        if re.match(r'(steps|复现|重现|reproduce)', stripped, re.IGNORECASE):
+            in_steps = True
+            continue
+        if in_steps:
+            if stripped.startswith(('- ', '* ', '1.', '2.', '3.', '4.', '5.')):
+                result["steps_to_reproduce"].append(stripped.lstrip('-*0123456789. '))
+            elif stripped.startswith('#') or not stripped:
+                in_steps = False
+
+    # 提取期望/实际行为
+    for i, line in enumerate(lines):
+        stripped = line.strip().lower()
+        if any(kw in stripped for kw in ['expected', '期望', '应该']):
+            if i + 1 < len(lines):
+                result["expected_behavior"] = lines[i + 1].strip()
+        elif any(kw in stripped for kw in ['actual', '实际', '但是']):
+            if i + 1 < len(lines):
+                result["actual_behavior"] = lines[i + 1].strip()
+
+    # 生成任务分解
+    if result["type"] == "bug":
+        result["tasks"] = [
+            {"step": 1, "action": "复现问题", "detail": "在本地环境复现Issue描述的问题"},
+            {"step": 2, "action": "定位根因", "detail": f"检查相关文件: {', '.join(result['affected_files'][:3]) or 'TBD'}"},
+            {"step": 3, "action": "编写修复", "detail": "修复根因代码"},
+            {"step": 4, "action": "添加测试", "detail": "添加回归测试防止复现"},
+            {"step": 5, "action": "验证修复", "detail": "运行全部测试确认无副作用"},
+        ]
+    elif result["type"] == "feature":
+        result["tasks"] = [
+            {"step": 1, "action": "需求分析", "detail": "明确功能边界和验收条件"},
+            {"step": 2, "action": "技术设计", "detail": "选择实现方案,评估影响范围"},
+            {"step": 3, "action": "代码实现", "detail": "实现核心功能"},
+            {"step": 4, "action": "测试覆盖", "detail": "编写单元测试+集成测试"},
+            {"step": 5, "action": "文档更新", "detail": "更新README和API文档"},
+        ]
+    else:
+        result["tasks"] = [
+            {"step": 1, "action": "分析Issue", "detail": "理解问题范围"},
+            {"step": 2, "action": "实施修改", "detail": "执行必要的代码修改"},
+            {"step": 3, "action": "验证结果", "detail": "确认修改达到预期"},
+        ]
+
+    result["success"] = True
+    result["task_count"] = len(result["tasks"])
+    return result
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -1437,6 +1794,55 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "chunk_code_context",
+            "description": "将长代码分块保持连贯性:函数/类边界分割+重叠行+跨块符号索引。用于处理超长上下文。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "code": {"type": "string", "description": "要分块的代码"},
+                    "max_chunk_tokens": {"type": "integer", "description": "每块最大token数(默认3000)"},
+                    "overlap_lines": {"type": "integer", "description": "块间重叠行数(默认5)"}
+                },
+                "required": ["code"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "expand_template",
+            "description": "低代码模板扩展为生产级代码。可用模板:crud_api/cli_tool/dataclass_model/test_suite。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "template_name": {"type": "string", "description": "模板名称(crud_api/cli_tool/dataclass_model/test_suite)"},
+                    "resource_name": {"type": "string", "description": "资源名称(用于crud_api)"},
+                    "tool_name": {"type": "string", "description": "工具名称(用于cli_tool)"},
+                    "model_name": {"type": "string", "description": "模型名称(用于dataclass_model)"},
+                    "module_name": {"type": "string", "description": "模块名称(用于test_suite)"},
+                    "description": {"type": "string", "description": "描述(用于cli_tool)"}
+                },
+                "required": ["template_name"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "parse_github_issue",
+            "description": "解析GitHub Issue文本:自动分类(bug/feature/improvement)+优先级+代码引用+文件引用+任务分解。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "issue_text": {"type": "string", "description": "Issue的完整文本"}
+                },
+                "required": ["issue_text"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -1556,4 +1962,7 @@ CODING_HANDLERS = {
     "analyze_token_efficiency": lambda args: analyze_token_efficiency(args.get("text", ""), args.get("max_tokens", 8192)),
     "requirement_to_skeleton": lambda args: requirement_to_skeleton(args.get("requirement", ""), args.get("language", "python")),
     "generate_adr": lambda args: generate_adr(args.get("title", ""), args.get("context", ""), args.get("decision", ""), args.get("alternatives", [])),
+    "chunk_code_context": lambda args: chunk_code_context(args.get("code", ""), args.get("max_chunk_tokens", 3000), args.get("overlap_lines", 5)),
+    "expand_template": lambda args: expand_template(args.get("template_name", ""), **{k: v for k, v in args.items() if k != "template_name"}),
+    "parse_github_issue": lambda args: parse_github_issue(args.get("issue_text", "")),
 }
