@@ -1577,3 +1577,171 @@ class TestRound13_SWENoSQLMicroservice:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 14: JS/TS片段/Java模式/Go并发验证 ====================
+class TestRound14_JSTSJavaGo:
+    """第14轮: JS/TS片段/Java企业级模式/Go并发模式验证"""
+
+    def test_jsts_react_useState(self):
+        """dim33: React useState片段"""
+        from coding_enhancer import get_jsts_snippet
+        result = get_jsts_snippet("react_usestate")
+        assert result['success'] is True
+        assert 'useState' in result['code']
+        assert result['lang'] == 'tsx'
+
+    def test_jsts_react_useEffect(self):
+        """dim33: React useEffect片段"""
+        from coding_enhancer import get_jsts_snippet
+        result = get_jsts_snippet("react_useeffect")
+        assert result['success'] is True
+        assert 'useEffect' in result['code']
+
+    def test_jsts_custom_hook(self):
+        """dim33: React自定义Hook"""
+        from coding_enhancer import get_jsts_snippet
+        result = get_jsts_snippet("react_custom_hook")
+        assert result['success'] is True
+        assert 'useFetch' in result['code']
+
+    def test_jsts_express_router(self):
+        """dim33: Express Router"""
+        from coding_enhancer import get_jsts_snippet
+        result = get_jsts_snippet("express_router")
+        assert result['success'] is True
+        assert 'Router' in result['code']
+
+    def test_jsts_ts_utility(self):
+        """dim33: TypeScript工具类型"""
+        from coding_enhancer import get_jsts_snippet
+        result = get_jsts_snippet("ts_utility_types")
+        assert result['success'] is True
+        assert 'Partial' in result['code']
+
+    def test_jsts_zod(self):
+        """dim33: Zod验证"""
+        from coding_enhancer import get_jsts_snippet
+        result = get_jsts_snippet("ts_zod_validation")
+        assert result['success'] is True
+        assert 'z.object' in result['code']
+
+    def test_jsts_unknown(self):
+        """dim33: 未知片段返回错误"""
+        from coding_enhancer import get_jsts_snippet
+        result = get_jsts_snippet("svelte_store")
+        assert result['success'] is False
+
+    def test_jsts_count(self):
+        """dim33: JS/TS片段>=6个"""
+        from coding_enhancer import JSTS_SNIPPETS
+        assert len(JSTS_SNIPPETS) >= 6
+
+    def test_java_spring_controller(self):
+        """dim34: Spring REST Controller"""
+        from coding_enhancer import get_java_pattern
+        result = get_java_pattern("spring_rest_controller")
+        assert result['success'] is True
+        assert '@RestController' in result['code']
+
+    def test_java_jpa_entity(self):
+        """dim34: JPA Entity"""
+        from coding_enhancer import get_java_pattern
+        result = get_java_pattern("jpa_entity")
+        assert result['success'] is True
+        assert '@Entity' in result['code']
+
+    def test_java_service(self):
+        """dim34: Service层"""
+        from coding_enhancer import get_java_pattern
+        result = get_java_pattern("service_layer")
+        assert result['success'] is True
+        assert '@Transactional' in result['code']
+
+    def test_java_exception_handler(self):
+        """dim34: 全局异常处理"""
+        from coding_enhancer import get_java_pattern
+        result = get_java_pattern("exception_handler")
+        assert result['success'] is True
+        assert '@RestControllerAdvice' in result['code']
+
+    def test_java_builder(self):
+        """dim34: Builder模式"""
+        from coding_enhancer import get_java_pattern
+        result = get_java_pattern("design_pattern_builder")
+        assert result['success'] is True
+        assert 'Builder' in result['code']
+
+    def test_java_unknown(self):
+        """dim34: 未知模式返回错误"""
+        from coding_enhancer import get_java_pattern
+        result = get_java_pattern("hibernate_cache")
+        assert result['success'] is False
+
+    def test_java_count(self):
+        """dim34: Java模式>=5个"""
+        from coding_enhancer import JAVA_PATTERNS
+        assert len(JAVA_PATTERNS) >= 5
+
+    def test_go_goroutine(self):
+        """dim35: Goroutine基础"""
+        from coding_enhancer import get_go_pattern
+        result = get_go_pattern("goroutine_basic")
+        assert result['success'] is True
+        assert 'sync.WaitGroup' in result['code']
+
+    def test_go_channel_pipeline(self):
+        """dim35: Channel Pipeline"""
+        from coding_enhancer import get_go_pattern
+        result = get_go_pattern("channel_pipeline")
+        assert result['success'] is True
+        assert 'chan int' in result['code']
+
+    def test_go_worker_pool(self):
+        """dim35: Worker Pool"""
+        from coding_enhancer import get_go_pattern
+        result = get_go_pattern("worker_pool")
+        assert result['success'] is True
+        assert 'workerPool' in result['code']
+
+    def test_go_context_cancel(self):
+        """dim35: Context取消"""
+        from coding_enhancer import get_go_pattern
+        result = get_go_pattern("context_cancel")
+        assert result['success'] is True
+        assert 'ctx.Done()' in result['code']
+
+    def test_go_fan_in(self):
+        """dim35: Select Fan-in"""
+        from coding_enhancer import get_go_pattern
+        result = get_go_pattern("select_fan_in")
+        assert result['success'] is True
+        assert 'fanIn' in result['code']
+
+    def test_go_mutex(self):
+        """dim35: Mutex同步"""
+        from coding_enhancer import get_go_pattern
+        result = get_go_pattern("mutex_sync")
+        assert result['success'] is True
+        assert 'RWMutex' in result['code']
+
+    def test_go_unknown(self):
+        """dim35: 未知模式返回错误"""
+        from coding_enhancer import get_go_pattern
+        result = get_go_pattern("actor_model")
+        assert result['success'] is False
+
+    def test_go_count(self):
+        """dim35: Go模式>=6个"""
+        from coding_enhancer import GO_CONCURRENCY
+        assert len(GO_CONCURRENCY) >= 6
+
+    def test_round14_tools_registered(self):
+        """所有Round14工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['get_jsts_snippet', 'get_java_pattern', 'get_go_pattern']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"

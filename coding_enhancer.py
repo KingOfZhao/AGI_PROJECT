@@ -3193,6 +3193,541 @@ def get_microservice_pattern(pattern: str) -> Dict:
             "available": {k: v["name"] for k, v in MICROSERVICE_PATTERNS.items()}}
 
 
+# ==================== 35. JS/TS代码片段库 (维度33) ====================
+
+JSTS_SNIPPETS = {
+    "react_usestate": {
+        "name": "React useState Hook",
+        "lang": "tsx",
+        "code": '''import { useState } from 'react';
+
+const [count, setCount] = useState(0);
+const [items, setItems] = useState<string[]>([]);
+const [user, setUser] = useState<User | null>(null);
+
+// 函数式更新
+setCount(prev => prev + 1);
+setItems(prev => [...prev, 'new item']);
+''',
+    },
+    "react_useeffect": {
+        "name": "React useEffect Hook",
+        "lang": "tsx",
+        "code": '''import { useEffect, useState } from 'react';
+
+// 挂载时执行
+useEffect(() => {
+  fetchData();
+  return () => cleanup(); // 卸载时清理
+}, []);
+
+// 依赖变化时执行
+useEffect(() => {
+  const subscription = subscribe(id);
+  return () => subscription.unsubscribe();
+}, [id]);
+''',
+    },
+    "react_custom_hook": {
+        "name": "React 自定义Hook",
+        "lang": "tsx",
+        "code": '''import { useState, useEffect } from 'react';
+
+function useFetch<T>(url: string) {
+  const [data, setData] = useState<T | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<Error | null>(null);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch(url, { signal: controller.signal })
+      .then(res => res.json())
+      .then(setData)
+      .catch(setError)
+      .finally(() => setLoading(false));
+    return () => controller.abort();
+  }, [url]);
+
+  return { data, loading, error };
+}
+''',
+    },
+    "express_router": {
+        "name": "Express Router模式",
+        "lang": "ts",
+        "code": '''import express, { Request, Response, NextFunction } from 'express';
+
+const router = express.Router();
+
+// 中间件
+const authMiddleware = (req: Request, res: Response, next: NextFunction) => {
+  const token = req.headers.authorization?.split(' ')[1];
+  if (!token) return res.status(401).json({ error: 'Unauthorized' });
+  next();
+};
+
+router.get('/users', authMiddleware, async (req: Request, res: Response) => {
+  const users = await UserService.findAll();
+  res.json(users);
+});
+
+router.post('/users', async (req: Request, res: Response) => {
+  const user = await UserService.create(req.body);
+  res.status(201).json(user);
+});
+
+export default router;
+''',
+    },
+    "ts_utility_types": {
+        "name": "TypeScript工具类型",
+        "lang": "ts",
+        "code": '''// Partial - 所有属性可选
+type UpdateUser = Partial<User>;
+
+// Pick - 选择部分属性
+type UserPreview = Pick<User, 'id' | 'name'>;
+
+// Omit - 排除部分属性
+type CreateUser = Omit<User, 'id' | 'createdAt'>;
+
+// Record - 键值对映射
+type UserMap = Record<string, User>;
+
+// 条件类型
+type NonNullable<T> = T extends null | undefined ? never : T;
+
+// 泛型约束
+function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
+  return obj[key];
+}
+''',
+    },
+    "ts_zod_validation": {
+        "name": "Zod Schema验证",
+        "lang": "ts",
+        "code": '''import { z } from 'zod';
+
+const UserSchema = z.object({
+  name: z.string().min(1).max(100),
+  email: z.string().email(),
+  age: z.number().int().positive().optional(),
+  role: z.enum(['admin', 'user', 'guest']),
+});
+
+type User = z.infer<typeof UserSchema>;
+
+// 验证
+const result = UserSchema.safeParse(data);
+if (result.success) {
+  console.log(result.data); // 类型安全
+} else {
+  console.log(result.error.issues);
+}
+''',
+    },
+}
+
+
+def get_jsts_snippet(snippet: str) -> Dict:
+    """获取JS/TS代码片段"""
+    if not snippet:
+        return {"success": False, "error": "需要提供片段名",
+                "available": {k: v["name"] for k, v in JSTS_SNIPPETS.items()}}
+
+    snippet = snippet.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if snippet in JSTS_SNIPPETS:
+        s = JSTS_SNIPPETS[snippet]
+        return {
+            "success": True,
+            "snippet": snippet,
+            "name": s["name"],
+            "lang": s["lang"],
+            "code": s["code"],
+        }
+
+    matches = {k: v["name"] for k, v in JSTS_SNIPPETS.items()
+               if snippet in k or snippet in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{snippet}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {snippet}",
+            "available": {k: v["name"] for k, v in JSTS_SNIPPETS.items()}}
+
+
+# ==================== 36. Java企业级模式 (维度34) ====================
+
+JAVA_PATTERNS = {
+    "spring_rest_controller": {
+        "name": "Spring REST Controller",
+        "code": '''@RestController
+@RequestMapping("/api/users")
+public class UserController {
+    @Autowired
+    private UserService userService;
+
+    @GetMapping
+    public ResponseEntity<List<User>> getAll() {
+        return ResponseEntity.ok(userService.findAll());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<User> getById(@PathVariable Long id) {
+        return userService.findById(id)
+            .map(ResponseEntity::ok)
+            .orElse(ResponseEntity.notFound().build());
+    }
+
+    @PostMapping
+    public ResponseEntity<User> create(@Valid @RequestBody CreateUserDTO dto) {
+        User user = userService.create(dto);
+        return ResponseEntity.status(HttpStatus.CREATED).body(user);
+    }
+}
+''',
+    },
+    "jpa_entity": {
+        "name": "JPA Entity + Repository",
+        "code": '''@Entity
+@Table(name = "users")
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false, length = 100)
+    private String name;
+
+    @Column(unique = true, nullable = false)
+    private String email;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Order> orders = new ArrayList<>();
+
+    @CreatedDate
+    private LocalDateTime createdAt;
+}
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByEmail(String email);
+    List<User> findByNameContaining(String name);
+
+    @Query("SELECT u FROM User u WHERE u.createdAt > :date")
+    List<User> findRecentUsers(@Param("date") LocalDateTime date);
+}
+''',
+    },
+    "service_layer": {
+        "name": "Service + 事务管理",
+        "code": '''@Service
+@Transactional(readOnly = true)
+public class UserService {
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public List<User> findAll() {
+        return userRepository.findAll();
+    }
+
+    @Transactional
+    public User create(CreateUserDTO dto) {
+        if (userRepository.findByEmail(dto.getEmail()).isPresent()) {
+            throw new DuplicateException("Email already exists");
+        }
+        User user = new User();
+        user.setName(dto.getName());
+        user.setEmail(dto.getEmail());
+        return userRepository.save(user);
+    }
+
+    @Transactional
+    public void delete(Long id) {
+        userRepository.deleteById(id);
+    }
+}
+''',
+    },
+    "exception_handler": {
+        "name": "全局异常处理",
+        "code": '''@RestControllerAdvice
+public class GlobalExceptionHandler {
+    @ExceptionHandler(ResourceNotFoundException.class)
+    public ResponseEntity<ErrorResponse> handleNotFound(ResourceNotFoundException ex) {
+        return ResponseEntity.status(HttpStatus.NOT_FOUND)
+            .body(new ErrorResponse(404, ex.getMessage()));
+    }
+
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public ResponseEntity<ErrorResponse> handleValidation(MethodArgumentNotValidException ex) {
+        String message = ex.getBindingResult().getFieldErrors().stream()
+            .map(e -> e.getField() + ": " + e.getDefaultMessage())
+            .collect(Collectors.joining(", "));
+        return ResponseEntity.badRequest().body(new ErrorResponse(400, message));
+    }
+}
+''',
+    },
+    "design_pattern_builder": {
+        "name": "Builder设计模式",
+        "code": '''public class User {
+    private final String name;
+    private final String email;
+    private final int age;
+
+    private User(Builder builder) {
+        this.name = builder.name;
+        this.email = builder.email;
+        this.age = builder.age;
+    }
+
+    public static class Builder {
+        private String name;
+        private String email;
+        private int age;
+
+        public Builder name(String name) { this.name = name; return this; }
+        public Builder email(String email) { this.email = email; return this; }
+        public Builder age(int age) { this.age = age; return this; }
+        public User build() { return new User(this); }
+    }
+}
+// 使用: new User.Builder().name("Alice").email("a@b.com").age(30).build();
+''',
+    },
+}
+
+
+def get_java_pattern(pattern: str) -> Dict:
+    """获取Java企业级模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in JAVA_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in JAVA_PATTERNS:
+        p = JAVA_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in JAVA_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in JAVA_PATTERNS.items()}}
+
+
+# ==================== 37. Go并发模式 (维度35) ====================
+
+GO_CONCURRENCY = {
+    "goroutine_basic": {
+        "name": "Goroutine基础",
+        "code": '''package main
+
+import (
+    "fmt"
+    "sync"
+)
+
+func worker(id int, wg *sync.WaitGroup) {
+    defer wg.Done()
+    fmt.Printf("Worker %d starting\\n", id)
+    // do work
+    fmt.Printf("Worker %d done\\n", id)
+}
+
+func main() {
+    var wg sync.WaitGroup
+    for i := 1; i <= 5; i++ {
+        wg.Add(1)
+        go worker(i, &wg)
+    }
+    wg.Wait()
+}
+''',
+    },
+    "channel_pipeline": {
+        "name": "Channel Pipeline",
+        "code": '''func generator(nums ...int) <-chan int {
+    out := make(chan int)
+    go func() {
+        for _, n := range nums {
+            out <- n
+        }
+        close(out)
+    }()
+    return out
+}
+
+func square(in <-chan int) <-chan int {
+    out := make(chan int)
+    go func() {
+        for n := range in {
+            out <- n * n
+        }
+        close(out)
+    }()
+    return out
+}
+
+// 使用: for v := range square(generator(2, 3, 4)) { fmt.Println(v) }
+''',
+    },
+    "worker_pool": {
+        "name": "Worker Pool",
+        "code": '''func workerPool(jobs <-chan int, results chan<- int, numWorkers int) {
+    var wg sync.WaitGroup
+    for i := 0; i < numWorkers; i++ {
+        wg.Add(1)
+        go func(id int) {
+            defer wg.Done()
+            for job := range jobs {
+                result := process(job) // 处理任务
+                results <- result
+            }
+        }(i)
+    }
+    go func() {
+        wg.Wait()
+        close(results)
+    }()
+}
+
+func main() {
+    jobs := make(chan int, 100)
+    results := make(chan int, 100)
+    workerPool(jobs, results, 5)
+    for i := 0; i < 50; i++ { jobs <- i }
+    close(jobs)
+    for r := range results { fmt.Println(r) }
+}
+''',
+    },
+    "context_cancel": {
+        "name": "Context取消",
+        "code": '''func longRunningTask(ctx context.Context) error {
+    for {
+        select {
+        case <-ctx.Done():
+            return ctx.Err() // context.Canceled or DeadlineExceeded
+        default:
+            // do work
+            time.Sleep(100 * time.Millisecond)
+        }
+    }
+}
+
+func main() {
+    ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+    defer cancel()
+
+    go func() {
+        if err := longRunningTask(ctx); err != nil {
+            log.Printf("Task cancelled: %v", err)
+        }
+    }()
+
+    // 提前取消
+    time.Sleep(2 * time.Second)
+    cancel()
+}
+''',
+    },
+    "select_fan_in": {
+        "name": "Select Fan-in",
+        "code": '''func fanIn(channels ...<-chan string) <-chan string {
+    merged := make(chan string)
+    var wg sync.WaitGroup
+    for _, ch := range channels {
+        wg.Add(1)
+        go func(c <-chan string) {
+            defer wg.Done()
+            for v := range c {
+                merged <- v
+            }
+        }(ch)
+    }
+    go func() {
+        wg.Wait()
+        close(merged)
+    }()
+    return merged
+}
+
+// 超时select
+select {
+case msg := <-ch:
+    fmt.Println(msg)
+case <-time.After(3 * time.Second):
+    fmt.Println("timeout")
+}
+''',
+    },
+    "mutex_sync": {
+        "name": "Mutex同步",
+        "code": '''type SafeCounter struct {
+    mu sync.RWMutex
+    v  map[string]int
+}
+
+func (c *SafeCounter) Inc(key string) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.v[key]++
+}
+
+func (c *SafeCounter) Get(key string) int {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
+    return c.v[key]
+}
+
+// sync.Once - 只执行一次
+var once sync.Once
+once.Do(func() { initDB() })
+''',
+    },
+}
+
+
+def get_go_pattern(pattern: str) -> Dict:
+    """获取Go并发模式模板"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in GO_CONCURRENCY.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in GO_CONCURRENCY:
+        p = GO_CONCURRENCY[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in GO_CONCURRENCY.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in GO_CONCURRENCY.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -3704,6 +4239,48 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_jsts_snippet",
+            "description": "获取JS/TS代码片段。可用:react_useState/react_useEffect/react_custom_hook/express_router/ts_utility_types/ts_zod_validation。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "snippet": {"type": "string", "description": "片段名称"}
+                },
+                "required": ["snippet"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_java_pattern",
+            "description": "获取Java企业级模式。可用:spring_rest_controller/jpa_entity/service_layer/exception_handler/design_pattern_builder。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_go_pattern",
+            "description": "获取Go并发模式。可用:goroutine_basic/channel_pipeline/worker_pool/context_cancel/select_fan_in/mutex_sync。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -3841,4 +4418,7 @@ CODING_HANDLERS = {
     "plan_swe_fix": lambda args: plan_swe_fix(args.get("issue_text", "")),
     "get_nosql_template": lambda args: get_nosql_template(args.get("db", ""), args.get("operation", "")),
     "get_microservice_pattern": lambda args: get_microservice_pattern(args.get("pattern", "")),
+    "get_jsts_snippet": lambda args: get_jsts_snippet(args.get("snippet", "")),
+    "get_java_pattern": lambda args: get_java_pattern(args.get("pattern", "")),
+    "get_go_pattern": lambda args: get_go_pattern(args.get("pattern", "")),
 }
