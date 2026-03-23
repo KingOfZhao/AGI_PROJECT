@@ -2578,6 +2578,286 @@ def get_graph_algorithm(algorithm: str) -> Dict:
             "available": {k: v["name"] for k, v in GRAPH_ALGORITHMS.items()}}
 
 
+# ==================== 29. 竞赛编程助手 (维度2/LiveCodeBench) ====================
+
+CP_TRICKS = {
+    "fast_io": {
+        "name": "快速IO",
+        "python": "import sys\ninput = sys.stdin.readline\nprint = sys.stdout.write",
+        "cpp": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){ios::sync_with_stdio(0);cin.tie(0);",
+    },
+    "mod_arithmetic": {
+        "name": "模运算",
+        "python": "MOD = 10**9 + 7\ndef modinv(a, m=MOD): return pow(a, m-2, m)\ndef modcomb(n, r, m=MOD):\n    if r > n: return 0\n    num = den = 1\n    for i in range(r): num = num*(n-i)%m; den = den*(i+1)%m\n    return num * modinv(den, m) % m",
+    },
+    "bit_manipulation": {
+        "name": "位运算技巧",
+        "python": "# 最低位1: x & (-x)\n# 去掉最低位1: x & (x-1)\n# 是否2的幂: x > 0 and (x & (x-1)) == 0\n# 子集枚举:\ns = mask\nwhile s > 0:\n    # process subset s\n    s = (s - 1) & mask",
+    },
+    "prefix_sum": {
+        "name": "前缀和",
+        "python": "from itertools import accumulate\nprefix = list(accumulate(arr, initial=0))\n# 区间和 [l, r] = prefix[r+1] - prefix[l]",
+    },
+    "binary_search_template": {
+        "name": "二分答案模板",
+        "python": "def check(mid): pass  # 判断mid是否满足条件\nlo, hi = 0, 10**18\nwhile lo < hi:\n    mid = (lo + hi) // 2\n    if check(mid): hi = mid\n    else: lo = mid + 1\n# lo 即为答案",
+    },
+    "segment_tree": {
+        "name": "线段树",
+        "python": "class SegTree:\n    def __init__(self, n):\n        self.n = n; self.tree = [0]*(4*n)\n    def update(self, i, val, node=1, lo=0, hi=None):\n        if hi is None: hi = self.n-1\n        if lo == hi: self.tree[node] = val; return\n        mid = (lo+hi)//2\n        if i <= mid: self.update(i, val, 2*node, lo, mid)\n        else: self.update(i, val, 2*node+1, mid+1, hi)\n        self.tree[node] = self.tree[2*node] + self.tree[2*node+1]\n    def query(self, l, r, node=1, lo=0, hi=None):\n        if hi is None: hi = self.n-1\n        if l > hi or r < lo: return 0\n        if l <= lo and hi <= r: return self.tree[node]\n        mid = (lo+hi)//2\n        return self.query(l, r, 2*node, lo, mid) + self.query(l, r, 2*node+1, mid+1, hi)",
+    },
+}
+
+
+def get_cp_trick(trick: str) -> Dict:
+    """获取竞赛编程技巧/模板"""
+    if not trick:
+        return {"success": False, "error": "需要提供技巧名称",
+                "available": {k: v["name"] for k, v in CP_TRICKS.items()}}
+
+    trick = trick.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if trick in CP_TRICKS:
+        t = CP_TRICKS[trick]
+        return {
+            "success": True,
+            "trick": trick,
+            "name": t["name"],
+            "code": t.get("python", ""),
+            "cpp_code": t.get("cpp", ""),
+            "languages": [k for k in t if k != "name"],
+        }
+
+    matches = {k: v["name"] for k, v in CP_TRICKS.items()
+               if trick in k or trick in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{trick}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {trick}",
+            "available": {k: v["name"] for k, v in CP_TRICKS.items()}}
+
+
+# ==================== 30. ML模型选择器 (维度47) ====================
+
+ML_MODEL_CATALOG = {
+    "classification": {
+        "logistic_regression": {"complexity": "低", "interpretable": True, "large_data": True, "params": {"C": 1.0, "max_iter": 100}},
+        "random_forest": {"complexity": "中", "interpretable": True, "large_data": True, "params": {"n_estimators": 100, "max_depth": None}},
+        "gradient_boosting": {"complexity": "高", "interpretable": False, "large_data": True, "params": {"n_estimators": 200, "learning_rate": 0.1, "max_depth": 5}},
+        "svm": {"complexity": "中", "interpretable": False, "large_data": False, "params": {"C": 1.0, "kernel": "rbf"}},
+        "knn": {"complexity": "低", "interpretable": True, "large_data": False, "params": {"n_neighbors": 5}},
+    },
+    "regression": {
+        "linear_regression": {"complexity": "低", "interpretable": True, "large_data": True, "params": {}},
+        "ridge": {"complexity": "低", "interpretable": True, "large_data": True, "params": {"alpha": 1.0}},
+        "random_forest_regressor": {"complexity": "中", "interpretable": True, "large_data": True, "params": {"n_estimators": 100}},
+        "gradient_boosting_regressor": {"complexity": "高", "interpretable": False, "large_data": True, "params": {"n_estimators": 200, "learning_rate": 0.1}},
+        "svr": {"complexity": "中", "interpretable": False, "large_data": False, "params": {"C": 1.0, "kernel": "rbf"}},
+    },
+    "clustering": {
+        "kmeans": {"complexity": "低", "interpretable": True, "large_data": True, "params": {"n_clusters": 3}},
+        "dbscan": {"complexity": "中", "interpretable": True, "large_data": True, "params": {"eps": 0.5, "min_samples": 5}},
+        "agglomerative": {"complexity": "高", "interpretable": True, "large_data": False, "params": {"n_clusters": 3}},
+    },
+}
+
+
+def recommend_ml_model(task: str, data_size: str = "medium",
+                       interpretable: bool = False) -> Dict:
+    """根据任务类型和约束推荐ML模型"""
+    if not task or task not in ML_MODEL_CATALOG:
+        return {"success": False, "error": f"未知任务: {task}",
+                "available_tasks": list(ML_MODEL_CATALOG.keys())}
+
+    models = ML_MODEL_CATALOG[task]
+    large = data_size in ("large", "big", "huge")
+
+    ranked = []
+    for name, info in models.items():
+        score = 0
+        if large and info["large_data"]:
+            score += 2
+        if interpretable and info["interpretable"]:
+            score += 2
+        if info["complexity"] == "低":
+            score += 1
+        elif info["complexity"] == "高":
+            score += 0.5  # powerful models get a small boost
+        ranked.append((name, info, score))
+
+    ranked.sort(key=lambda x: -x[2])
+
+    recommendations = []
+    for name, info, score in ranked[:3]:
+        recommendations.append({
+            "model": name,
+            "complexity": info["complexity"],
+            "interpretable": info["interpretable"],
+            "suggested_params": info["params"],
+        })
+
+    return {
+        "success": True,
+        "task": task,
+        "data_size": data_size,
+        "interpretable_required": interpretable,
+        "recommendations": recommendations,
+        "total_models": len(models),
+    }
+
+
+# ==================== 31. 框架速查表生成器 (维度71) ====================
+
+FRAMEWORK_CHEATSHEETS = {
+    "fastapi": {
+        "name": "FastAPI",
+        "category": "Python Web",
+        "setup": "pip install fastapi uvicorn",
+        "hello_world": '''from fastapi import FastAPI
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+# uvicorn main:app --reload
+''',
+        "key_concepts": ["路由装饰器", "Pydantic模型", "依赖注入", "异步支持", "自动OpenAPI文档"],
+        "common_patterns": {
+            "CRUD": "@app.post('/items'), @app.get('/items/{id}'), @app.put('/items/{id}'), @app.delete('/items/{id}')",
+            "中间件": "app.add_middleware(CORSMiddleware, allow_origins=['*'])",
+            "数据库": "from sqlalchemy.ext.asyncio import AsyncSession",
+        },
+    },
+    "nextjs": {
+        "name": "Next.js",
+        "category": "React Framework",
+        "setup": "npx create-next-app@latest my-app",
+        "hello_world": '''// app/page.tsx
+export default function Home() {
+  return <h1>Hello World</h1>
+}
+''',
+        "key_concepts": ["App Router", "Server Components", "SSR/SSG/ISR", "API Routes", "Middleware"],
+        "common_patterns": {
+            "数据获取": "async function getData() { const res = await fetch('...'); return res.json() }",
+            "动态路由": "app/blog/[slug]/page.tsx",
+            "布局": "app/layout.tsx - 共享布局组件",
+        },
+    },
+    "django": {
+        "name": "Django",
+        "category": "Python Web",
+        "setup": "pip install django && django-admin startproject mysite",
+        "hello_world": '''# views.py
+from django.http import JsonResponse
+def hello(request):
+    return JsonResponse({"message": "Hello World"})
+
+# urls.py
+urlpatterns = [path('hello/', hello)]
+''',
+        "key_concepts": ["MTV架构", "ORM", "Admin后台", "中间件", "模板系统"],
+        "common_patterns": {
+            "模型": "class Article(models.Model): title = models.CharField(max_length=200)",
+            "视图": "class ArticleViewSet(viewsets.ModelViewSet)",
+            "序列化": "class ArticleSerializer(serializers.ModelSerializer)",
+        },
+    },
+    "vue3": {
+        "name": "Vue 3",
+        "category": "Frontend Framework",
+        "setup": "npm create vue@latest",
+        "hello_world": '''<script setup>
+import { ref } from 'vue'
+const msg = ref('Hello World')
+</script>
+<template>
+  <h1>{{ msg }}</h1>
+</template>
+''',
+        "key_concepts": ["Composition API", "响应式ref/reactive", "组件", "Pinia状态管理", "Vue Router"],
+        "common_patterns": {
+            "状态": "const count = ref(0); const state = reactive({ items: [] })",
+            "计算属性": "const doubled = computed(() => count.value * 2)",
+            "监听": "watch(count, (newVal) => { console.log(newVal) })",
+        },
+    },
+    "spring_boot": {
+        "name": "Spring Boot",
+        "category": "Java Web",
+        "setup": "https://start.spring.io/ → 选择依赖 → 下载",
+        "hello_world": '''@RestController
+public class HelloController {
+    @GetMapping("/")
+    public String hello() {
+        return "Hello World";
+    }
+}
+''',
+        "key_concepts": ["自动配置", "依赖注入", "JPA", "Spring Security", "Actuator监控"],
+        "common_patterns": {
+            "REST API": "@RestController + @GetMapping/@PostMapping",
+            "数据层": "@Repository + JpaRepository<Entity, Long>",
+            "服务层": "@Service + @Transactional",
+        },
+    },
+    "gin": {
+        "name": "Gin (Go)",
+        "category": "Go Web",
+        "setup": "go get -u github.com/gin-gonic/gin",
+        "hello_world": '''package main
+import "github.com/gin-gonic/gin"
+
+func main() {
+    r := gin.Default()
+    r.GET("/", func(c *gin.Context) {
+        c.JSON(200, gin.H{"message": "Hello World"})
+    })
+    r.Run(":8080")
+}
+''',
+        "key_concepts": ["路由组", "中间件", "参数绑定", "JSON响应", "模板渲染"],
+        "common_patterns": {
+            "路由组": "api := r.Group('/api'); api.GET('/users', getUsers)",
+            "中间件": "r.Use(gin.Logger(), gin.Recovery())",
+            "参数": "c.Param('id'), c.Query('page'), c.ShouldBindJSON(&obj)",
+        },
+    },
+}
+
+
+def get_framework_cheatsheet(framework: str) -> Dict:
+    """获取框架速查表"""
+    if not framework:
+        return {"success": False, "error": "需要提供框架名称",
+                "available": {k: v["name"] for k, v in FRAMEWORK_CHEATSHEETS.items()}}
+
+    framework = framework.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if framework in FRAMEWORK_CHEATSHEETS:
+        cs = FRAMEWORK_CHEATSHEETS[framework]
+        return {
+            "success": True,
+            "framework": framework,
+            "name": cs["name"],
+            "category": cs["category"],
+            "setup": cs["setup"],
+            "hello_world": cs["hello_world"],
+            "key_concepts": cs["key_concepts"],
+            "common_patterns": cs["common_patterns"],
+            "pattern_count": len(cs["common_patterns"]),
+        }
+
+    matches = {k: v["name"] for k, v in FRAMEWORK_CHEATSHEETS.items()
+               if framework in k or framework in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{framework}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到框架: {framework}",
+            "available": {k: v["name"] for k, v in FRAMEWORK_CHEATSHEETS.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -3002,6 +3282,50 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_cp_trick",
+            "description": "获取竞赛编程技巧模板。可用:fast_io/mod_arithmetic/bit_manipulation/prefix_sum/binary_search_template/segment_tree。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "trick": {"type": "string", "description": "技巧名称"}
+                },
+                "required": ["trick"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "recommend_ml_model",
+            "description": "根据任务类型和约束推荐ML模型(Top3)。支持classification/regression/clustering。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "task": {"type": "string", "description": "任务类型(classification/regression/clustering)"},
+                    "data_size": {"type": "string", "description": "数据规模(small/medium/large)"},
+                    "interpretable": {"type": "boolean", "description": "是否需要可解释性"}
+                },
+                "required": ["task"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_framework_cheatsheet",
+            "description": "获取框架速查表。可用:fastapi/nextjs/django/vue3/spring_boot/gin。含setup/hello_world/关键概念/常用模式。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "framework": {"type": "string", "description": "框架名称"}
+                },
+                "required": ["framework"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -3133,4 +3457,7 @@ CODING_HANDLERS = {
     "generate_ds_pipeline": lambda args: generate_ds_pipeline(args.get("task", "classification"), args.get("data_format", "csv"), args.get("target_col", "target")),
     "get_dp_pattern": lambda args: get_dp_pattern(args.get("pattern", "")),
     "get_graph_algorithm": lambda args: get_graph_algorithm(args.get("algorithm", "")),
+    "get_cp_trick": lambda args: get_cp_trick(args.get("trick", "")),
+    "recommend_ml_model": lambda args: recommend_ml_model(args.get("task", ""), args.get("data_size", "medium"), args.get("interpretable", False)),
+    "get_framework_cheatsheet": lambda args: get_framework_cheatsheet(args.get("framework", "")),
 }

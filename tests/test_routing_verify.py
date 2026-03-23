@@ -1266,3 +1266,156 @@ class TestRound11_DSPipelineDPGraph:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 12: 竞赛编程/ML模型选择/框架速查验证 ====================
+class TestRound12_CPMLFramework:
+    """第12轮: 竞赛编程/ML模型选择/框架速查验证"""
+
+    def test_cp_fast_io(self):
+        """dim2: 快速IO模板"""
+        from coding_enhancer import get_cp_trick
+        result = get_cp_trick("fast_io")
+        assert result['success'] is True
+        assert 'sys.stdin' in result['code']
+
+    def test_cp_mod_arithmetic(self):
+        """dim2: 模运算模板"""
+        from coding_enhancer import get_cp_trick
+        result = get_cp_trick("mod_arithmetic")
+        assert result['success'] is True
+        assert 'modinv' in result['code']
+
+    def test_cp_bit_manipulation(self):
+        """dim2: 位运算技巧"""
+        from coding_enhancer import get_cp_trick
+        result = get_cp_trick("bit_manipulation")
+        assert result['success'] is True
+        assert 'mask' in result['code']
+
+    def test_cp_segment_tree(self):
+        """dim2: 线段树模板"""
+        from coding_enhancer import get_cp_trick
+        result = get_cp_trick("segment_tree")
+        assert result['success'] is True
+        assert 'SegTree' in result['code']
+
+    def test_cp_prefix_sum(self):
+        """dim2: 前缀和模板"""
+        from coding_enhancer import get_cp_trick
+        result = get_cp_trick("prefix_sum")
+        assert result['success'] is True
+        assert 'accumulate' in result['code']
+
+    def test_cp_unknown(self):
+        """dim2: 未知技巧返回错误"""
+        from coding_enhancer import get_cp_trick
+        result = get_cp_trick("quantum_trick")
+        assert result['success'] is False
+
+    def test_cp_tricks_count(self):
+        """dim2: 竞赛技巧>=6种"""
+        from coding_enhancer import CP_TRICKS
+        assert len(CP_TRICKS) >= 6
+
+    def test_ml_classification(self):
+        """dim47: 分类模型推荐"""
+        from coding_enhancer import recommend_ml_model
+        result = recommend_ml_model("classification")
+        assert result['success'] is True
+        assert len(result['recommendations']) >= 3
+        assert result['total_models'] >= 5
+
+    def test_ml_regression(self):
+        """dim47: 回归模型推荐"""
+        from coding_enhancer import recommend_ml_model
+        result = recommend_ml_model("regression")
+        assert result['success'] is True
+        assert len(result['recommendations']) >= 3
+
+    def test_ml_clustering(self):
+        """dim47: 聚类模型推荐"""
+        from coding_enhancer import recommend_ml_model
+        result = recommend_ml_model("clustering")
+        assert result['success'] is True
+        assert len(result['recommendations']) >= 2
+
+    def test_ml_interpretable(self):
+        """dim47: 可解释性约束"""
+        from coding_enhancer import recommend_ml_model
+        result = recommend_ml_model("classification", interpretable=True)
+        assert result['success'] is True
+        assert result['recommendations'][0]['interpretable'] is True
+
+    def test_ml_unknown_task(self):
+        """dim47: 未知任务返回错误"""
+        from coding_enhancer import recommend_ml_model
+        result = recommend_ml_model("reinforcement")
+        assert result['success'] is False
+
+    def test_ml_catalog_count(self):
+        """dim47: ML目录>=3类任务"""
+        from coding_enhancer import ML_MODEL_CATALOG
+        assert len(ML_MODEL_CATALOG) >= 3
+
+    def test_fw_fastapi(self):
+        """dim71: FastAPI速查表"""
+        from coding_enhancer import get_framework_cheatsheet
+        result = get_framework_cheatsheet("fastapi")
+        assert result['success'] is True
+        assert 'FastAPI' in result['hello_world']
+        assert len(result['key_concepts']) >= 3
+
+    def test_fw_nextjs(self):
+        """dim71: Next.js速查表"""
+        from coding_enhancer import get_framework_cheatsheet
+        result = get_framework_cheatsheet("nextjs")
+        assert result['success'] is True
+        assert 'App Router' in result['key_concepts']
+
+    def test_fw_django(self):
+        """dim71: Django速查表"""
+        from coding_enhancer import get_framework_cheatsheet
+        result = get_framework_cheatsheet("django")
+        assert result['success'] is True
+        assert 'ORM' in result['key_concepts']
+
+    def test_fw_vue3(self):
+        """dim71: Vue3速查表"""
+        from coding_enhancer import get_framework_cheatsheet
+        result = get_framework_cheatsheet("vue3")
+        assert result['success'] is True
+        assert 'Composition API' in result['key_concepts']
+
+    def test_fw_spring_boot(self):
+        """dim71: Spring Boot速查表"""
+        from coding_enhancer import get_framework_cheatsheet
+        result = get_framework_cheatsheet("spring_boot")
+        assert result['success'] is True
+
+    def test_fw_gin(self):
+        """dim71: Gin速查表"""
+        from coding_enhancer import get_framework_cheatsheet
+        result = get_framework_cheatsheet("gin")
+        assert result['success'] is True
+
+    def test_fw_unknown(self):
+        """dim71: 未知框架返回错误"""
+        from coding_enhancer import get_framework_cheatsheet
+        result = get_framework_cheatsheet("phoenix")
+        assert result['success'] is False
+
+    def test_fw_count(self):
+        """dim71: 框架速查>=6个"""
+        from coding_enhancer import FRAMEWORK_CHEATSHEETS
+        assert len(FRAMEWORK_CHEATSHEETS) >= 6
+
+    def test_round12_tools_registered(self):
+        """所有Round12工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['get_cp_trick', 'recommend_ml_model', 'get_framework_cheatsheet']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"
