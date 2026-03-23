@@ -1555,6 +1555,212 @@ def parse_github_issue(issue_text: str) -> Dict:
     return result
 
 
+# ==================== 20. 类型检查与边界测试强化 (维度3/HumanEval) ====================
+
+def enforce_type_hints(code: str) -> Dict:
+    """分析代码类型注解覆盖率,生成缺失的类型提示建议"""
+    if not code:
+        return {"success": False, "error": "需要提供代码"}
+
+    try:
+        tree = ast.parse(code)
+    except SyntaxError as e:
+        return {"success": False, "error": f"语法错误: {e}"}
+
+    functions = []
+    typed_funcs = 0
+    total_funcs = 0
+    suggestions = []
+
+    for node in ast.walk(tree):
+        if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)):
+            total_funcs += 1
+            func_info = {
+                "name": node.name,
+                "has_return_type": node.returns is not None,
+                "params_total": 0,
+                "params_typed": 0,
+                "missing_types": [],
+            }
+
+            for arg in node.args.args:
+                if arg.arg == 'self' or arg.arg == 'cls':
+                    continue
+                func_info["params_total"] += 1
+                if arg.annotation is not None:
+                    func_info["params_typed"] += 1
+                else:
+                    func_info["missing_types"].append(arg.arg)
+
+            if func_info["has_return_type"] and func_info["params_typed"] == func_info["params_total"]:
+                typed_funcs += 1
+
+            if func_info["missing_types"]:
+                suggestions.append(f"{node.name}(): 缺少参数类型 → {', '.join(func_info['missing_types'])}")
+            if not func_info["has_return_type"]:
+                suggestions.append(f"{node.name}(): 缺少返回类型")
+
+            functions.append(func_info)
+
+    coverage = typed_funcs / max(total_funcs, 1)
+
+    # 检测常见类型错误模式
+    type_issues = []
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Compare):
+            for op in node.ops:
+                if isinstance(op, ast.Is) and isinstance(node.comparators[0], ast.Constant):
+                    if node.comparators[0].value is not None:
+                        type_issues.append(f"Line {node.lineno}: 使用'is'比较非None常量,应用'=='")
+
+    return {
+        "success": True,
+        "total_functions": total_funcs,
+        "fully_typed": typed_funcs,
+        "type_coverage": round(coverage * 100, 1),
+        "suggestions": suggestions[:20],
+        "type_issues": type_issues,
+        "rating": "A" if coverage > 0.8 else "B" if coverage > 0.5 else "C",
+    }
+
+
+# ==================== 21. UI组件与设计系统 (维度38) ====================
+
+UI_COMPONENT_LIBRARY = {
+    "button": {
+        "html": '<button class="btn {variant}" {attrs}>{label}</button>',
+        "variants": ["btn-primary", "btn-secondary", "btn-danger", "btn-ghost"],
+        "css": ".btn { padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 500; cursor: pointer; transition: all 0.2s; }\n.btn-primary { background: #3b82f6; color: white; }\n.btn-primary:hover { background: #2563eb; }\n.btn-secondary { background: #6b7280; color: white; }\n.btn-danger { background: #ef4444; color: white; }\n.btn-ghost { background: transparent; border: 1px solid #d1d5db; }",
+    },
+    "card": {
+        "html": '<div class="card {variant}">\n  <div class="card-header">{title}</div>\n  <div class="card-body">{content}</div>\n</div>',
+        "variants": ["card-default", "card-bordered", "card-elevated"],
+        "css": ".card { border-radius: 0.5rem; overflow: hidden; }\n.card-header { padding: 1rem; font-weight: 600; }\n.card-body { padding: 1rem; }\n.card-default { background: white; }\n.card-bordered { border: 1px solid #e5e7eb; }\n.card-elevated { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }",
+    },
+    "input": {
+        "html": '<div class="input-group">\n  <label class="input-label" for="{id}">{label}</label>\n  <input class="input {variant}" id="{id}" type="{type}" placeholder="{placeholder}" {attrs}/>\n</div>',
+        "variants": ["input-default", "input-error", "input-success"],
+        "css": ".input-group { display: flex; flex-direction: column; gap: 0.25rem; }\n.input-label { font-size: 0.875rem; font-weight: 500; }\n.input { padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; }\n.input:focus { outline: none; border-color: #3b82f6; box-shadow: 0 0 0 2px rgba(59,130,246,0.3); }\n.input-error { border-color: #ef4444; }\n.input-success { border-color: #10b981; }",
+    },
+    "modal": {
+        "html": '<div class="modal-overlay" id="{id}">\n  <div class="modal">\n    <div class="modal-header">\n      <h3>{title}</h3>\n      <button class="modal-close" onclick="this.closest(\'.modal-overlay\').style.display=\'none\'">&times;</button>\n    </div>\n    <div class="modal-body">{content}</div>\n    <div class="modal-footer">{actions}</div>\n  </div>\n</div>',
+        "variants": ["modal-sm", "modal-md", "modal-lg"],
+        "css": ".modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 50; }\n.modal { background: white; border-radius: 0.5rem; width: 90%; max-width: 32rem; }\n.modal-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; border-bottom: 1px solid #e5e7eb; }\n.modal-body { padding: 1rem; }\n.modal-footer { padding: 1rem; border-top: 1px solid #e5e7eb; display: flex; justify-content: flex-end; gap: 0.5rem; }\n.modal-close { background: none; border: none; font-size: 1.5rem; cursor: pointer; }",
+    },
+}
+
+
+def generate_ui_component(component_type: str, **params) -> Dict:
+    """生成UI组件(HTML+CSS),支持多种变体"""
+    if component_type not in UI_COMPONENT_LIBRARY:
+        return {
+            "success": False,
+            "error": f"未知组件: {component_type}",
+            "available": list(UI_COMPONENT_LIBRARY.keys()),
+        }
+
+    comp = UI_COMPONENT_LIBRARY[component_type]
+    html = comp["html"]
+    css = comp["css"]
+
+    # 替换参数
+    defaults = {"variant": comp["variants"][0], "label": "Button", "title": "Title",
+                "content": "Content", "id": "comp-1", "type": "text",
+                "placeholder": "", "attrs": "", "actions": ""}
+    merged = {**defaults, **params}
+
+    for key, value in merged.items():
+        html = html.replace('{' + key + '}', str(value))
+
+    return {
+        "success": True,
+        "component_type": component_type,
+        "html": html,
+        "css": css,
+        "variants": comp["variants"],
+        "params_used": {k: v for k, v in merged.items() if k in params},
+    }
+
+
+# ==================== 22. 代码风格学习与适配 (维度70) ====================
+
+def learn_code_style(code: str) -> Dict:
+    """分析代码风格特征:缩进/命名/引号/导入/文档风格"""
+    if not code:
+        return {"success": False, "error": "需要提供代码"}
+
+    lines = code.split('\n')
+
+    # 缩进风格
+    indent_counts = {"spaces_2": 0, "spaces_4": 0, "tabs": 0}
+    for line in lines:
+        if line and not line.strip():
+            continue
+        leading = len(line) - len(line.lstrip())
+        if leading > 0:
+            if line[0] == '\t':
+                indent_counts["tabs"] += 1
+            elif leading % 4 == 0:
+                indent_counts["spaces_4"] += 1
+            elif leading % 2 == 0:
+                indent_counts["spaces_2"] += 1
+
+    indent_style = max(indent_counts, key=indent_counts.get) if any(indent_counts.values()) else "spaces_4"
+
+    # 引号风格
+    single_quotes = len(re.findall(r"'[^']*'", code))
+    double_quotes = len(re.findall(r'"[^"]*"', code))
+    quote_style = "single" if single_quotes > double_quotes else "double"
+
+    # 命名风格
+    names = re.findall(r'\bdef\s+(\w+)', code) + re.findall(r'\b(\w+)\s*=', code)
+    snake_count = sum(1 for n in names if '_' in n and n.islower())
+    camel_count = sum(1 for n in names if not '_' in n and any(c.isupper() for c in n[1:]))
+    naming_style = "snake_case" if snake_count >= camel_count else "camelCase"
+
+    # 导入风格
+    imports = [l.strip() for l in lines if l.strip().startswith(('import ', 'from '))]
+    has_grouped_imports = False
+    prev_was_import = False
+    for line in lines:
+        stripped = line.strip()
+        is_import = stripped.startswith(('import ', 'from '))
+        if prev_was_import and not is_import and stripped == '':
+            if any(l.strip().startswith(('import ', 'from ')) for l in lines[lines.index(line)+1:lines.index(line)+3] if lines.index(line)+1 < len(lines)):
+                has_grouped_imports = True
+                break
+        prev_was_import = is_import
+
+    # 文档风格
+    has_docstrings = '"""' in code or "'''" in code
+    has_comments = '#' in code
+    doc_style = "docstring" if has_docstrings else "comments" if has_comments else "none"
+
+    # 行长度统计
+    line_lengths = [len(l) for l in lines if l.strip()]
+    max_line = max(line_lengths) if line_lengths else 0
+    avg_line = sum(line_lengths) / max(len(line_lengths), 1)
+
+    style_profile = {
+        "indent": indent_style,
+        "quotes": quote_style,
+        "naming": naming_style,
+        "imports_grouped": has_grouped_imports,
+        "doc_style": doc_style,
+        "max_line_length": max_line,
+        "avg_line_length": round(avg_line),
+        "trailing_newline": code.endswith('\n'),
+    }
+
+    return {
+        "success": True,
+        "style_profile": style_profile,
+        "total_lines": len(lines),
+        "import_count": len(imports),
+        "summary": f"风格: {indent_style}/{quote_style}/{naming_style}, 文档: {doc_style}, 最长行: {max_line}",
+    }
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -1843,6 +2049,52 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "enforce_type_hints",
+            "description": "分析Python代码类型注解覆盖率:检测缺失类型/返回值+常见类型错误模式+生成修复建议。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "code": {"type": "string", "description": "Python代码"}
+                },
+                "required": ["code"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "generate_ui_component",
+            "description": "生成UI组件(HTML+CSS)。可用组件:button/card/input/modal,支持多种变体和自定义参数。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "component_type": {"type": "string", "description": "组件类型(button/card/input/modal)"},
+                    "variant": {"type": "string", "description": "变体名称"},
+                    "label": {"type": "string", "description": "按钮文本"},
+                    "title": {"type": "string", "description": "标题"},
+                    "content": {"type": "string", "description": "内容"}
+                },
+                "required": ["component_type"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "learn_code_style",
+            "description": "分析代码风格特征:缩进/命名/引号/导入/文档风格,用于保持代码风格一致性。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "code": {"type": "string", "description": "要分析的代码"}
+                },
+                "required": ["code"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -1965,4 +2217,7 @@ CODING_HANDLERS = {
     "chunk_code_context": lambda args: chunk_code_context(args.get("code", ""), args.get("max_chunk_tokens", 3000), args.get("overlap_lines", 5)),
     "expand_template": lambda args: expand_template(args.get("template_name", ""), **{k: v for k, v in args.items() if k != "template_name"}),
     "parse_github_issue": lambda args: parse_github_issue(args.get("issue_text", "")),
+    "enforce_type_hints": lambda args: enforce_type_hints(args.get("code", "")),
+    "generate_ui_component": lambda args: generate_ui_component(args.get("component_type", ""), **{k: v for k, v in args.items() if k != "component_type"}),
+    "learn_code_style": lambda args: learn_code_style(args.get("code", "")),
 }

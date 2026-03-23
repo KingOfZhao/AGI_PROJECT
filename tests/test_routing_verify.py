@@ -804,3 +804,157 @@ Affected file: `auth/login.py`
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 9: 类型/UI组件/风格学习验证 ====================
+class TestRound9_TypeUIStyle:
+    """第9轮: 类型检查/UI组件生成/代码风格学习验证"""
+
+    def test_type_hints_fully_typed(self):
+        """dim3: 完全类型注解代码得A"""
+        from coding_enhancer import enforce_type_hints
+        code = "def add(a: int, b: int) -> int:\n    return a + b\n"
+        result = enforce_type_hints(code)
+        assert result['success'] is True
+        assert result['type_coverage'] == 100.0
+        assert result['rating'] == 'A'
+
+    def test_type_hints_missing(self):
+        """dim3: 缺失类型注解检测"""
+        from coding_enhancer import enforce_type_hints
+        code = "def process(data, flag):\n    return data\n"
+        result = enforce_type_hints(code)
+        assert result['success'] is True
+        assert result['type_coverage'] == 0.0
+        assert len(result['suggestions']) >= 2
+        assert result['rating'] == 'C'
+
+    def test_type_hints_partial(self):
+        """dim3: 部分类型注解"""
+        from coding_enhancer import enforce_type_hints
+        code = "def f1(x: int) -> str:\n    return str(x)\n\ndef f2(y):\n    return y\n"
+        result = enforce_type_hints(code)
+        assert result['success'] is True
+        assert result['total_functions'] == 2
+        assert result['fully_typed'] == 1
+
+    def test_type_hints_self_skip(self):
+        """dim3: self/cls参数跳过"""
+        from coding_enhancer import enforce_type_hints
+        code = "class A:\n    def method(self, x: int) -> None:\n        pass\n"
+        result = enforce_type_hints(code)
+        assert result['success'] is True
+        assert result['type_coverage'] == 100.0
+
+    def test_type_hints_syntax_error(self):
+        """dim3: 语法错误处理"""
+        from coding_enhancer import enforce_type_hints
+        result = enforce_type_hints("def broken(:")
+        assert result['success'] is False
+
+    def test_type_hints_empty(self):
+        """dim3: 空代码返回错误"""
+        from coding_enhancer import enforce_type_hints
+        result = enforce_type_hints("")
+        assert result['success'] is False
+
+    def test_ui_button(self):
+        """dim38: 按钮组件生成"""
+        from coding_enhancer import generate_ui_component
+        result = generate_ui_component("button", label="提交")
+        assert result['success'] is True
+        assert '提交' in result['html']
+        assert '.btn' in result['css']
+        assert len(result['variants']) >= 4
+
+    def test_ui_card(self):
+        """dim38: 卡片组件生成"""
+        from coding_enhancer import generate_ui_component
+        result = generate_ui_component("card", title="标题", content="内容")
+        assert result['success'] is True
+        assert '标题' in result['html']
+        assert '.card' in result['css']
+
+    def test_ui_input(self):
+        """dim38: 输入框组件生成"""
+        from coding_enhancer import generate_ui_component
+        result = generate_ui_component("input", label="用户名", id="username")
+        assert result['success'] is True
+        assert 'username' in result['html']
+        assert '.input' in result['css']
+
+    def test_ui_modal(self):
+        """dim38: 模态框组件生成"""
+        from coding_enhancer import generate_ui_component
+        result = generate_ui_component("modal", title="确认删除")
+        assert result['success'] is True
+        assert '确认删除' in result['html']
+        assert '.modal' in result['css']
+
+    def test_ui_unknown(self):
+        """dim38: 未知组件返回错误"""
+        from coding_enhancer import generate_ui_component
+        result = generate_ui_component("datepicker")
+        assert result['success'] is False
+        assert 'available' in result
+
+    def test_ui_library_count(self):
+        """dim38: UI组件库>=4种"""
+        from coding_enhancer import UI_COMPONENT_LIBRARY
+        assert len(UI_COMPONENT_LIBRARY) >= 4
+
+    def test_style_snake_case(self):
+        """dim70: 检测snake_case风格"""
+        from coding_enhancer import learn_code_style
+        code = "def my_func():\n    my_var = 1\n    other_var = 2\n"
+        result = learn_code_style(code)
+        assert result['success'] is True
+        assert result['style_profile']['naming'] == 'snake_case'
+
+    def test_style_indent_4spaces(self):
+        """dim70: 检测4空格缩进"""
+        from coding_enhancer import learn_code_style
+        code = "def f():\n    x = 1\n    y = 2\n    return x + y\n"
+        result = learn_code_style(code)
+        assert result['success'] is True
+        assert result['style_profile']['indent'] == 'spaces_4'
+
+    def test_style_single_quotes(self):
+        """dim70: 检测单引号风格"""
+        from coding_enhancer import learn_code_style
+        code = "x = 'hello'\ny = 'world'\nz = 'test'\n"
+        result = learn_code_style(code)
+        assert result['success'] is True
+        assert result['style_profile']['quotes'] == 'single'
+
+    def test_style_docstring(self):
+        """dim70: 检测docstring文档风格"""
+        from coding_enhancer import learn_code_style
+        code = '"""\nModule doc\n"""\ndef f():\n    """Function doc"""\n    pass\n'
+        result = learn_code_style(code)
+        assert result['success'] is True
+        assert result['style_profile']['doc_style'] == 'docstring'
+
+    def test_style_empty(self):
+        """dim70: 空代码返回错误"""
+        from coding_enhancer import learn_code_style
+        result = learn_code_style("")
+        assert result['success'] is False
+
+    def test_style_summary(self):
+        """dim70: 风格摘要包含关键信息"""
+        from coding_enhancer import learn_code_style
+        code = "def hello():\n    print('hi')\n"
+        result = learn_code_style(code)
+        assert result['success'] is True
+        assert '风格' in result['summary']
+
+    def test_round9_tools_registered(self):
+        """所有Round9工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['enforce_type_hints', 'generate_ui_component', 'learn_code_style']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"
