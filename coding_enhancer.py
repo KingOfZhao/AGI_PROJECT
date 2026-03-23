@@ -4722,6 +4722,416 @@ def get_game_pattern(pattern: str) -> Dict:
             "available": {k: v["name"] for k, v in GAME_ENGINE_PATTERNS.items()}}
 
 
+# ==================== 44. 智能上下文路由 (维度7) ====================
+
+CONTEXT_STRATEGIES = {
+    "short": {
+        "name": "短上下文(本地14B)",
+        "max_tokens": 8192,
+        "model": "local_14b",
+        "strategy": "直接处理,无需分块",
+        "tips": ["适合单文件编辑", "函数级代码生成", "快速问答"],
+    },
+    "medium": {
+        "name": "中等上下文(GLM-4.5-Air)",
+        "max_tokens": 32768,
+        "model": "glm_4_5_air",
+        "strategy": "符号索引+关键函数提取",
+        "tips": ["多文件关联分析", "模块级重构", "API设计"],
+    },
+    "long": {
+        "name": "长上下文(GLM-5 128K)",
+        "max_tokens": 131072,
+        "model": "glm_5",
+        "strategy": "chunk_code_context分块+重叠行+符号索引",
+        "tips": ["仓库级理解", "大型重构", "架构分析", "长文档生成"],
+    },
+}
+
+
+def route_context(token_count: int, task_type: str = "general") -> Dict:
+    """根据token数量和任务类型智能路由到最优上下文策略"""
+    if token_count <= 0:
+        return {"success": False, "error": "token_count必须>0"}
+
+    complexity_boost = 1.0
+    if task_type in ("refactor", "architecture", "migration"):
+        complexity_boost = 1.5
+    elif task_type in ("generate", "explain"):
+        complexity_boost = 0.8
+
+    effective = int(token_count * complexity_boost)
+
+    if effective <= 6000:
+        tier = "short"
+    elif effective <= 28000:
+        tier = "medium"
+    else:
+        tier = "long"
+
+    strategy = CONTEXT_STRATEGIES[tier]
+    return {
+        "success": True,
+        "input_tokens": token_count,
+        "effective_tokens": effective,
+        "task_type": task_type,
+        "complexity_boost": complexity_boost,
+        "tier": tier,
+        "model": strategy["model"],
+        "max_tokens": strategy["max_tokens"],
+        "strategy": strategy["strategy"],
+        "tips": strategy["tips"],
+        "utilization": round(effective / strategy["max_tokens"] * 100, 1),
+    }
+
+
+# ==================== 45. 区块链智能合约 (维度86) ====================
+
+SOLIDITY_PATTERNS = {
+    "erc20_token": {
+        "name": "ERC-20代币合约",
+        "code": '''// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract MyToken is ERC20, Ownable {
+    uint256 public constant MAX_SUPPLY = 1_000_000 * 10**18;
+
+    constructor() ERC20("MyToken", "MTK") Ownable(msg.sender) {
+        _mint(msg.sender, MAX_SUPPLY);
+    }
+
+    function mint(address to, uint256 amount) external onlyOwner {
+        require(totalSupply() + amount <= MAX_SUPPLY, "Exceeds max supply");
+        _mint(to, amount);
+    }
+
+    function burn(uint256 amount) external {
+        _burn(msg.sender, amount);
+    }
+}
+''',
+    },
+    "erc721_nft": {
+        "name": "ERC-721 NFT合约",
+        "code": '''// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract MyNFT is ERC721, ERC721URIStorage, Ownable {
+    uint256 private _nextTokenId;
+    uint256 public mintPrice = 0.05 ether;
+
+    constructor() ERC721("MyNFT", "MNFT") Ownable(msg.sender) {}
+
+    function mint(string memory uri) external payable {
+        require(msg.value >= mintPrice, "Insufficient payment");
+        uint256 tokenId = _nextTokenId++;
+        _safeMint(msg.sender, tokenId);
+        _setTokenURI(tokenId, uri);
+    }
+
+    function tokenURI(uint256 tokenId) public view override(ERC721, ERC721URIStorage)
+        returns (string memory) { return super.tokenURI(tokenId); }
+
+    function supportsInterface(bytes4 interfaceId) public view override(ERC721, ERC721URIStorage)
+        returns (bool) { return super.supportsInterface(interfaceId); }
+
+    function withdraw() external onlyOwner {
+        payable(owner()).transfer(address(this).balance);
+    }
+}
+''',
+    },
+    "defi_staking": {
+        "name": "DeFi质押合约",
+        "code": '''// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract Staking is ReentrancyGuard {
+    IERC20 public stakingToken;
+    uint256 public rewardRate = 100; // per second
+    uint256 public lastUpdateTime;
+    uint256 public rewardPerTokenStored;
+
+    mapping(address => uint256) public userRewardPerTokenPaid;
+    mapping(address => uint256) public rewards;
+    mapping(address => uint256) public balances;
+    uint256 public totalSupply;
+
+    constructor(address _stakingToken) {
+        stakingToken = IERC20(_stakingToken);
+    }
+
+    function stake(uint256 amount) external nonReentrant {
+        _updateReward(msg.sender);
+        totalSupply += amount;
+        balances[msg.sender] += amount;
+        stakingToken.transferFrom(msg.sender, address(this), amount);
+    }
+
+    function withdraw(uint256 amount) external nonReentrant {
+        _updateReward(msg.sender);
+        totalSupply -= amount;
+        balances[msg.sender] -= amount;
+        stakingToken.transfer(msg.sender, amount);
+    }
+
+    function _updateReward(address account) internal {
+        rewardPerTokenStored = rewardPerToken();
+        lastUpdateTime = block.timestamp;
+        rewards[account] = earned(account);
+        userRewardPerTokenPaid[account] = rewardPerTokenStored;
+    }
+
+    function rewardPerToken() public view returns (uint256) {
+        if (totalSupply == 0) return rewardPerTokenStored;
+        return rewardPerTokenStored +
+            (block.timestamp - lastUpdateTime) * rewardRate * 1e18 / totalSupply;
+    }
+
+    function earned(address account) public view returns (uint256) {
+        return balances[account] * (rewardPerToken() - userRewardPerTokenPaid[account]) / 1e18
+            + rewards[account];
+    }
+}
+''',
+    },
+    "hardhat_test": {
+        "name": "Hardhat测试模板",
+        "code": '''const { expect } = require("chai");
+const { ethers } = require("hardhat");
+
+describe("MyToken", function () {
+  let token, owner, addr1;
+
+  beforeEach(async function () {
+    [owner, addr1] = await ethers.getSigners();
+    const Token = await ethers.getContractFactory("MyToken");
+    token = await Token.deploy();
+  });
+
+  it("Should have correct name and symbol", async function () {
+    expect(await token.name()).to.equal("MyToken");
+    expect(await token.symbol()).to.equal("MTK");
+  });
+
+  it("Should mint initial supply to owner", async function () {
+    const balance = await token.balanceOf(owner.address);
+    expect(balance).to.equal(ethers.parseEther("1000000"));
+  });
+
+  it("Should transfer tokens", async function () {
+    await token.transfer(addr1.address, ethers.parseEther("100"));
+    expect(await token.balanceOf(addr1.address))
+      .to.equal(ethers.parseEther("100"));
+  });
+
+  it("Should fail if sender has insufficient balance", async function () {
+    await expect(
+      token.connect(addr1).transfer(owner.address, 1)
+    ).to.be.reverted;
+  });
+});
+''',
+    },
+}
+
+
+def get_solidity_pattern(pattern: str) -> Dict:
+    """获取Solidity智能合约模式"""
+    if not pattern:
+        return {"success": False, "error": "需要提供模式名",
+                "available": {k: v["name"] for k, v in SOLIDITY_PATTERNS.items()}}
+
+    pattern = pattern.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if pattern in SOLIDITY_PATTERNS:
+        p = SOLIDITY_PATTERNS[pattern]
+        return {
+            "success": True,
+            "pattern": pattern,
+            "name": p["name"],
+            "code": p["code"],
+            "line_count": len(p["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in SOLIDITY_PATTERNS.items()
+               if pattern in k or pattern in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{pattern}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {pattern}",
+            "available": {k: v["name"] for k, v in SOLIDITY_PATTERNS.items()}}
+
+
+# ==================== 46. VS Code LSP扩展脚手架 (维度63) ====================
+
+VSCODE_EXT_TEMPLATES = {
+    "extension_manifest": {
+        "name": "package.json扩展清单",
+        "code": '''{
+  "name": "agi-coding-assistant",
+  "displayName": "AGI Coding Assistant",
+  "version": "0.1.0",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Programming Languages", "Linters", "Snippets"],
+  "activationEvents": ["onLanguage:python", "onLanguage:javascript"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "agi.analyzeCode",
+      "title": "AGI: Analyze Code"
+    }],
+    "configuration": {
+      "title": "AGI Assistant",
+      "properties": {
+        "agi.serverUrl": { "type": "string", "default": "http://localhost:5000" },
+        "agi.model": { "type": "string", "default": "local_14b" }
+      }
+    }
+  }
+}
+''',
+    },
+    "lsp_server": {
+        "name": "LSP Server实现",
+        "code": '''from lsprotocol import types
+from pygls.server import LanguageServer
+
+server = LanguageServer("agi-lsp", "v0.1.0")
+
+@server.feature(types.TEXT_DOCUMENT_DID_OPEN)
+def did_open(params: types.DidOpenTextDocumentParams):
+    _validate(params.text_document.uri)
+
+@server.feature(types.TEXT_DOCUMENT_COMPLETION)
+def completions(params: types.CompletionParams):
+    return types.CompletionList(is_incomplete=False, items=[
+        types.CompletionItem(label="agi_suggest", kind=types.CompletionItemKind.Snippet),
+    ])
+
+@server.feature(types.TEXT_DOCUMENT_HOVER)
+def hover(params: types.HoverParams):
+    doc = server.workspace.get_text_document(params.text_document.uri)
+    word = doc.word_at_position(params.position)
+    return types.Hover(contents=types.MarkupContent(
+        kind=types.MarkupKind.Markdown, value=f"**AGI**: `{word}`"))
+
+def _validate(uri: str):
+    doc = server.workspace.get_text_document(uri)
+    diagnostics = []  # Run analysis here
+    server.publish_diagnostics(uri, diagnostics)
+
+if __name__ == "__main__":
+    server.start_io()
+''',
+    },
+    "extension_activate": {
+        "name": "VS Code Extension激活",
+        "code": '''import * as vscode from 'vscode';
+import { LanguageClient, TransportKind } from 'vscode-languageclient/node';
+
+let client: LanguageClient;
+
+export function activate(context: vscode.ExtensionContext) {
+  const serverModule = context.asAbsolutePath('server/lsp_server.py');
+  const serverOptions = {
+    run: { command: 'python', args: [serverModule], transport: TransportKind.stdio },
+    debug: { command: 'python', args: [serverModule], transport: TransportKind.stdio },
+  };
+  const clientOptions = {
+    documentSelector: [
+      { scheme: 'file', language: 'python' },
+      { scheme: 'file', language: 'javascript' },
+    ],
+  };
+  client = new LanguageClient('agi-lsp', 'AGI LSP', serverOptions, clientOptions);
+  client.start();
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand('agi.analyzeCode', async () => {
+      const editor = vscode.window.activeTextEditor;
+      if (!editor) return;
+      const result = await client.sendRequest('agi/analyze', {
+        uri: editor.document.uri.toString(),
+      });
+      vscode.window.showInformationMessage(`Analysis: ${JSON.stringify(result)}`);
+    })
+  );
+}
+
+export function deactivate() { return client?.stop(); }
+''',
+    },
+    "diagnostic_provider": {
+        "name": "诊断提供器",
+        "code": '''import * as vscode from 'vscode';
+
+const diagnosticCollection = vscode.languages.createDiagnosticCollection('agi');
+
+export function updateDiagnostics(document: vscode.TextDocument): void {
+  const diagnostics: vscode.Diagnostic[] = [];
+  const text = document.getText();
+  const lines = text.split('\\n');
+
+  lines.forEach((line, i) => {
+    // 检测TODO
+    if (line.includes('TODO')) {
+      diagnostics.push(new vscode.Diagnostic(
+        new vscode.Range(i, line.indexOf('TODO'), i, line.length),
+        'TODO found', vscode.DiagnosticSeverity.Information));
+    }
+    // 检测安全问题
+    if (line.includes('eval(')) {
+      diagnostics.push(new vscode.Diagnostic(
+        new vscode.Range(i, line.indexOf('eval('), i, line.indexOf('eval(') + 5),
+        'Avoid eval() - security risk', vscode.DiagnosticSeverity.Warning));
+    }
+  });
+
+  diagnosticCollection.set(document.uri, diagnostics);
+}
+''',
+    },
+}
+
+
+def get_vscode_template(template: str) -> Dict:
+    """获取VS Code扩展开发模板"""
+    if not template:
+        return {"success": False, "error": "需要提供模板名",
+                "available": {k: v["name"] for k, v in VSCODE_EXT_TEMPLATES.items()}}
+
+    template = template.lower().strip().replace(' ', '_').replace('-', '_')
+
+    if template in VSCODE_EXT_TEMPLATES:
+        t = VSCODE_EXT_TEMPLATES[template]
+        return {
+            "success": True,
+            "template": template,
+            "name": t["name"],
+            "code": t["code"],
+            "line_count": len(t["code"].split('\n')),
+        }
+
+    matches = {k: v["name"] for k, v in VSCODE_EXT_TEMPLATES.items()
+               if template in k or template in v["name"].lower()}
+    if matches:
+        return {"success": False, "error": f"未精确匹配'{template}'", "similar": matches}
+
+    return {"success": False, "error": f"未找到: {template}",
+            "available": {k: v["name"] for k, v in VSCODE_EXT_TEMPLATES.items()}}
+
+
 # ==================== 注册到ToolController ====================
 
 CODING_TOOLS = [
@@ -5359,6 +5769,49 @@ CODING_TOOLS = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "route_context",
+            "description": "智能上下文路由。根据token数量和任务类型自动选择最优模型(short→14B/medium→GLM-4.5/long→GLM-5 128K)。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "token_count": {"type": "integer", "description": "输入token数量"},
+                    "task_type": {"type": "string", "description": "任务类型:general/refactor/architecture/migration/generate/explain"}
+                },
+                "required": ["token_count"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_solidity_pattern",
+            "description": "获取Solidity智能合约模式。可用:erc20_token/erc721_nft/defi_staking/hardhat_test。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {"type": "string", "description": "模式名称"}
+                },
+                "required": ["pattern"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_vscode_template",
+            "description": "获取VS Code扩展开发模板。可用:extension_manifest/lsp_server/extension_activate/diagnostic_provider。",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "template": {"type": "string", "description": "模板名称"}
+                },
+                "required": ["template"]
+            }
+        }
+    },
 ]
 
 # ==================== 10. 跨语言代码迁移 (维度73) ====================
@@ -5505,4 +5958,7 @@ CODING_HANDLERS = {
     "get_desktop_pattern": lambda args: get_desktop_pattern(args.get("pattern", "")),
     "get_wasm_pattern": lambda args: get_wasm_pattern(args.get("pattern", "")),
     "get_game_pattern": lambda args: get_game_pattern(args.get("pattern", "")),
+    "route_context": lambda args: route_context(args.get("token_count", 0), args.get("task_type", "general")),
+    "get_solidity_pattern": lambda args: get_solidity_pattern(args.get("pattern", "")),
+    "get_vscode_template": lambda args: get_vscode_template(args.get("template", "")),
 }

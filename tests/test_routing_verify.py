@@ -2036,3 +2036,144 @@ class TestRound16_DesktopWasmGame:
         tool_names = [x['function']['name'] for x in CODING_TOOLS]
         for t in tools:
             assert t in tool_names, f"Missing schema: {t}"
+
+
+# ==================== Round 17: 上下文路由/区块链/VS Code扩展验证 ====================
+class TestRound17_ContextBlockchainVSCode:
+    """第17轮: 智能上下文路由/区块链智能合约/VS Code扩展验证"""
+
+    def test_context_short(self):
+        """dim7: 短上下文路由到local_14b"""
+        from coding_enhancer import route_context
+        result = route_context(2000)
+        assert result['success'] is True
+        assert result['tier'] == 'short'
+        assert result['model'] == 'local_14b'
+
+    def test_context_medium(self):
+        """dim7: 中等上下文路由到GLM-4.5"""
+        from coding_enhancer import route_context
+        result = route_context(15000)
+        assert result['success'] is True
+        assert result['tier'] == 'medium'
+        assert result['model'] == 'glm_4_5_air'
+
+    def test_context_long(self):
+        """dim7: 长上下文路由到GLM-5 128K"""
+        from coding_enhancer import route_context
+        result = route_context(50000)
+        assert result['success'] is True
+        assert result['tier'] == 'long'
+        assert result['model'] == 'glm_5'
+        assert result['max_tokens'] == 131072
+
+    def test_context_complexity_boost(self):
+        """dim7: 复杂任务提升token估算"""
+        from coding_enhancer import route_context
+        result = route_context(5000, "refactor")
+        assert result['success'] is True
+        assert result['complexity_boost'] == 1.5
+        assert result['effective_tokens'] == 7500
+
+    def test_context_invalid(self):
+        """dim7: 无效token数"""
+        from coding_enhancer import route_context
+        result = route_context(0)
+        assert result['success'] is False
+
+    def test_context_strategies_exist(self):
+        """dim7: 3种策略都存在"""
+        from coding_enhancer import CONTEXT_STRATEGIES
+        assert 'short' in CONTEXT_STRATEGIES
+        assert 'medium' in CONTEXT_STRATEGIES
+        assert 'long' in CONTEXT_STRATEGIES
+
+    def test_solidity_erc20(self):
+        """dim86: ERC-20代币合约"""
+        from coding_enhancer import get_solidity_pattern
+        result = get_solidity_pattern("erc20_token")
+        assert result['success'] is True
+        assert 'ERC20' in result['code']
+        assert 'MAX_SUPPLY' in result['code']
+
+    def test_solidity_erc721(self):
+        """dim86: ERC-721 NFT合约"""
+        from coding_enhancer import get_solidity_pattern
+        result = get_solidity_pattern("erc721_nft")
+        assert result['success'] is True
+        assert 'ERC721' in result['code']
+        assert 'safeMint' in result['code']
+
+    def test_solidity_defi(self):
+        """dim86: DeFi质押合约"""
+        from coding_enhancer import get_solidity_pattern
+        result = get_solidity_pattern("defi_staking")
+        assert result['success'] is True
+        assert 'ReentrancyGuard' in result['code']
+
+    def test_solidity_hardhat(self):
+        """dim86: Hardhat测试模板"""
+        from coding_enhancer import get_solidity_pattern
+        result = get_solidity_pattern("hardhat_test")
+        assert result['success'] is True
+        assert 'ethers' in result['code']
+
+    def test_solidity_unknown(self):
+        """dim86: 未知模式返回错误"""
+        from coding_enhancer import get_solidity_pattern
+        result = get_solidity_pattern("vyper_contract")
+        assert result['success'] is False
+
+    def test_solidity_count(self):
+        """dim86: Solidity模式>=4个"""
+        from coding_enhancer import SOLIDITY_PATTERNS
+        assert len(SOLIDITY_PATTERNS) >= 4
+
+    def test_vscode_manifest(self):
+        """dim63: VS Code扩展清单"""
+        from coding_enhancer import get_vscode_template
+        result = get_vscode_template("extension_manifest")
+        assert result['success'] is True
+        assert 'agi-coding-assistant' in result['code']
+
+    def test_vscode_lsp(self):
+        """dim63: LSP Server"""
+        from coding_enhancer import get_vscode_template
+        result = get_vscode_template("lsp_server")
+        assert result['success'] is True
+        assert 'LanguageServer' in result['code']
+
+    def test_vscode_activate(self):
+        """dim63: Extension激活"""
+        from coding_enhancer import get_vscode_template
+        result = get_vscode_template("extension_activate")
+        assert result['success'] is True
+        assert 'LanguageClient' in result['code']
+
+    def test_vscode_diagnostic(self):
+        """dim63: 诊断提供器"""
+        from coding_enhancer import get_vscode_template
+        result = get_vscode_template("diagnostic_provider")
+        assert result['success'] is True
+        assert 'DiagnosticSeverity' in result['code']
+
+    def test_vscode_unknown(self):
+        """dim63: 未知模板返回错误"""
+        from coding_enhancer import get_vscode_template
+        result = get_vscode_template("intellij_plugin")
+        assert result['success'] is False
+
+    def test_vscode_count(self):
+        """dim63: VS Code模板>=4个"""
+        from coding_enhancer import VSCODE_EXT_TEMPLATES
+        assert len(VSCODE_EXT_TEMPLATES) >= 4
+
+    def test_round17_tools_registered(self):
+        """所有Round17工具已注册"""
+        from coding_enhancer import CODING_HANDLERS, CODING_TOOLS
+        tools = ['route_context', 'get_solidity_pattern', 'get_vscode_template']
+        for t in tools:
+            assert t in CODING_HANDLERS, f"Missing handler: {t}"
+        tool_names = [x['function']['name'] for x in CODING_TOOLS]
+        for t in tools:
+            assert t in tool_names, f"Missing schema: {t}"
