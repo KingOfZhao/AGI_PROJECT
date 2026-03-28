@@ -1,0 +1,387 @@
+[
+  {
+    "name": "Bobst | 瑞士 | 1.35-1.45 |",
+    "tolerance_mm": 0.05,
+    "source": "[0324] (conf=0.90) Bobst | 瑞士 | 1.35-1.45 | ±0.05mm | 50-500"
+  },
+  {
+    "name": "Bobst, 海德堡 |",
+    "tolerance_mm": 0.05,
+    "source": "[0324] (conf=0.90) Bobst, 海德堡 | ±0.05mm | ±0.03mm | 300吨 | 5"
+  },
+  {
+    "name": "Bobst/海德堡 |",
+    "tolerance_mm": 0.05,
+    "source": "[0324] (conf=0.90) Bobst/海德堡 | ±0.05mm | ±0.03mm | 9000张/h |"
+  },
+  {
+    "name": "Heidelberg | 德国 | 1.40-1.50 |",
+    "tolerance_mm": 0.08,
+    "source": "[0324] (conf=0.90) Heidelberg | 德国 | 1.40-1.50 | ±0.08mm | 4"
+  },
+  {
+    "name": "0.1-0.3mm)往往超过机器本身的静态定位精度",
+    "tolerance_mm": 0.1,
+    "source": "[0324] (conf=0.85) 瓦楞模切中，软刀(38HRC以下)在侧向切削力下的弯曲量(0.1-0.3mm)往往"
+  },
+  {
+    "name": "Bobst SP 106 | 平压平 |",
+    "tolerance_mm": 0.1,
+    "source": "[0324] (conf=0.90) Bobst SP 106 | 平压平 | ±0.10mm | 6mm | 1060"
+  },
+  {
+    "name": "ECMA精密 | 1.3 | +0.5 | 卡纸/灰板 |",
+    "tolerance_mm": 0.1,
+    "source": "[0324] (conf=0.95) ECMA精密 | 1.3 | +0.5 | 卡纸/灰板 | ±0.1mm |"
+  },
+  {
+    "name": "FEFCO与GB标准在压痕深度公差上存在差异",
+    "tolerance_mm": 0.1,
+    "source": "[0324] (conf=0.95) FEFCO与GB标准在压痕深度公差上存在差异(±0.1mm vs ±0.2mm)，"
+  },
+  {
+    "name": "FEFCO精密 | 1.0 | +0.5 | 微瓦楞/灰板 |",
+    "tolerance_mm": 0.1,
+    "source": "[0324] (conf=0.95) FEFCO精密 | 1.0 | +0.5 | 微瓦楞/灰板 | ±0.1mm |"
+  },
+  {
+    "name": "及刀模制作误差",
+    "tolerance_mm": 0.1,
+    "source": "[0324] (conf=0.95) RSS误差反推:** 若使用国产设备（±0.30mm），叠加纸张伸缩（±0.5mm"
+  },
+  {
+    "name": "Bobst SP 162 | 平压平 |",
+    "tolerance_mm": 0.12,
+    "source": "[0324] (conf=0.90) Bobst SP 162 | 平压平 | ±0.12mm | 8mm | 1620"
+  },
+  {
+    "name": "0.1-±0.5mm |",
+    "tolerance_mm": 0.15,
+    "source": "[0324] (conf=0.85) 0.1-±0.5mm | ±0.15mm | MC-01 | RSS误差源 |"
+  },
+  {
+    "name": "瓦楞厚度变异 | 材料 |",
+    "tolerance_mm": 0.15,
+    "source": "[0324] (conf=0.85) 瓦楞厚度变异 | 材料 | ±0.15mm | 正态 | - | - |"
+  },
+  {
+    "name": "瑞士) | Expertcut |",
+    "tolerance_mm": 0.15,
+    "source": "[0324] (conf=0.90) Bobst (瑞士)** | Expertcut | ±0.15 mm | 1.4"
+  },
+  {
+    "name": "瑞士) | SP 106-ER |",
+    "tolerance_mm": 0.15,
+    "source": "[0324] (conf=0.90) Bobst (瑞士)** | SP 106-ER | ±0.15mm | 深 (0"
+  },
+  {
+    "name": "Bobst SP 104 E | 瑞士 | ",
+    "tolerance_mm": 0.15,
+    "source": "[0324] (conf=0.90) Bobst SP 104 E** | 瑞士 | **±0.15 mm** | 75"
+  },
+  {
+    "name": "Bobst SP106 | 200-600吨 |",
+    "tolerance_mm": 0.15,
+    "source": "[0324] (conf=0.90) Bobst SP106 | 200-600吨 | ±0.15mm | 自动补偿 |"
+  },
+  {
+    "name": "Bobst SP162 | 400-1000吨 |",
+    "tolerance_mm": 0.15,
+    "source": "[0324] (conf=0.90) Bobst SP162 | 400-1000吨 | ±0.15mm | 自动补偿 "
+  },
+  {
+    "name": "1.8mm | N/A | 8% ± 2% | 0.05% / 10% RH |",
+    "tolerance_mm": 0.2,
+    "source": "[0324] (conf=0.85) 灰板** | 1200g | ~1.8mm | N/A | 8% ± 2% | 0"
+  },
+  {
+    "name": "Bobst SPO 20 | 圆压圆 |",
+    "tolerance_mm": 0.2,
+    "source": "[0324] (conf=0.90) Bobst SPO 20** | 圆压圆 | ±0.20mm | **热膨胀**,"
+  },
+  {
+    "name": "德) | Dymatrix |",
+    "tolerance_mm": 0.2,
+    "source": "[0324] (conf=0.90) Heidelberg (德)** | Dymatrix | ±0.20 mm | "
+  },
+  {
+    "name": "FEFCO标准 | 1.2 | +0.8 | 普通瓦楞 |",
+    "tolerance_mm": 0.2,
+    "source": "[0324] (conf=0.95) FEFCO标准 | 1.2 | +0.8 | 普通瓦楞 | ±0.2mm |"
+  },
+  {
+    "name": "2.2mm | N/A | 8% ± 2% | 0.04% / 10% RH |",
+    "tolerance_mm": 0.3,
+    "source": "[0324] (conf=0.85) 灰板** | 1500g | ~2.2mm | N/A | 8% ± 2% | 0"
+  },
+  {
+    "name": "瓦楞) | 材料厚度$t$, 塌陷角$\\theta$ | 折叠精度",
+    "tolerance_mm": 0.3,
+    "source": "[0324] (conf=0.85) 瓦楞) | 材料厚度$t$, 塌陷角$\\theta$ | 折叠精度±0.3mm |"
+  },
+  {
+    "name": "折叠盒) | ≥8mm |",
+    "tolerance_mm": 0.3,
+    "source": "[0324] (conf=0.95) ECMA** (折叠盒) | ≥8mm | ±0.3mm | W=1.5t+0.5"
+  },
+  {
+    "name": "\\sim 0.6t$ | $W = 1.5t + 1.5mm$ | 12mm |",
+    "tolerance_mm": 0.3,
+    "source": "[0324] (conf=0.95) ECMA** | $d = 0.4t \\sim 0.6t$ | $W = 1.5t"
+  },
+  {
+    "name": "日标) | ≥8mm |",
+    "tolerance_mm": 0.3,
+    "source": "[0324] (conf=0.95) JIS Z 0502** (日标) | ≥8mm | ±0.3mm | W=t+0"
+  },
+  {
+    "name": "\\pm 0.1mm$ | $W = 1.8t + 1.2mm$ | 12mm |",
+    "tolerance_mm": 0.3,
+    "source": "[0324] (conf=0.95) JIS Z 1506** | $d = 0.4t \\pm 0.1mm$ | $W "
+  },
+  {
+    "name": "RSS误差反推: 若使用国产设备",
+    "tolerance_mm": 0.3,
+    "source": "[0324] (conf=0.95) RSS误差反推:** 若使用国产设备（±0.30mm），叠加纸张伸缩（±0.5mm"
+  },
+  {
+    "name": "RSS总误差 | σ_total | ",
+    "tolerance_mm": 0.39,
+    "source": "[0324] (conf=0.95) RSS总误差** | **σ_total** | **±0.39mm** | **"
+  },
+  {
+    "name": "德标) | ≥8mm |",
+    "tolerance_mm": 0.4,
+    "source": "[0324] (conf=0.95) DIN 55468** (德标) | ≥8mm | ±0.4mm | W=t+1 "
+  },
+  {
+    "name": "\\pm 0.15mm$ | $W = 2t + 0.8mm$ | 15mm |",
+    "tolerance_mm": 0.4,
+    "source": "[0324] (conf=0.95) DIN 55468** | $d = 0.5t \\pm 0.15mm$ | $W "
+  },
+  {
+    "name": "可达性前置校验 |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.85) 可达性前置校验** | ±0.5mm精密级在常规条件下数学不可达，必须RSS前置校"
+  },
+  {
+    "name": "m}$。在裱合工序链中，若使用国产设备，机器误差贡献率占比高达45%，直接决定了",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.85) 模型 $\\sigma_{total} = \\sqrt{\\sum \\sigma_i^"
+  },
+  {
+    "name": "| 2.0 | 0.5 | 2.50-3.50 | 楞型、压实系数 | 折叠精度",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.85) 瓦楞(E楞) | 1.0-1.5 | 2.0 | 0.5 | 2.50-3.50 "
+  },
+  {
+    "name": "一般) | GB的",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.85) 瓦楞) | $\\pm 0.5\\text{mm}$ (精细)<br>$\\pm 1.0"
+  },
+  {
+    "name": "| 1.4 - 1.5 |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.90) Bobst (瑞士)** | Expertcut | ±0.15 mm | 1.4"
+  },
+  {
+    "name": "基准) | 精密级",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.90) Bobst** | Mastercut / SP | 极高 | 低 | $1.00"
+  },
+  {
+    "name": "| ±0.03mm | 9000张/h |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.90) Bobst/海德堡 | ±0.05mm | ±0.03mm | 9000张/h |"
+  },
+  {
+    "name": "DIN 55468 |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) DIN 55468** | ±0.5mm | 7-9% | 0.4-0.6T | "
+  },
+  {
+    "name": "ECMA | 7%±1% |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) ECMA** | 7%±1% | ±0.5mm | 23°C/50%RH | SF"
+  },
+  {
+    "name": "ECMA |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) ECMA** | ±0.5mm | 7-8% | 0.4-0.6T | - | -"
+  },
+  {
+    "name": "ECMA标准中定义的\"精密级\"公差",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) ECMA标准中定义的\"精密级\"公差(±0.5mm)在国产普通设备链上数学不可达。G"
+  },
+  {
+    "name": "欧标) | ≥8mm |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) FEFCO** (欧标) | ≥8mm | ±0.5mm | W=t+1 | 0."
+  },
+  {
+    "name": ".5t \\pm 0.1mm$ | $W = 2t + 1mm$ | 15mm |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) FEFCO** | $d = 0.5t \\pm 0.1mm$ | $W = 2t "
+  },
+  {
+    "name": "FEFCO |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) FEFCO** | ±0.5mm(精密) | 7-8% | 0.45-0.55T "
+  },
+  {
+    "name": "FEFCO、GB/T、JIS中对模切公差等级的界定，确认",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) FEFCO、GB/T、JIS中对模切公差等级的界定，确认±0.5mm是否为国际公认"
+  },
+  {
+    "name": "FEFCO隔档切口深度必须=板宽/2，公差",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) FEFCO隔档切口深度必须=板宽/2，公差±0.5mm，违反则结构坍塌 | 固定规"
+  },
+  {
+    "name": ".5t \\pm 0.2mm$ | $W = 2t + 1mm$ | 15mm |",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) GB/T 6543** | $d = 0.5t \\pm 0.2mm$ | $W ="
+  },
+  {
+    "name": "JIS Z 0402与ECMA标准中定义的\"精密级\"公差",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) JIS Z 0402与ECMA标准中定义的\"精密级\"公差(±0.5mm)在国产普通"
+  },
+  {
+    "name": "RSS三区修正: 精密区/标准区/宽松区采用不同修正系数，解决\"",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) RSS三区修正:** 精密区/标准区/宽松区采用不同修正系数，解决\"±0.5mm可"
+  },
+  {
+    "name": "RSS合成误差已达0.58mm，加上安全系数后远超",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) RSS合成误差已达0.58mm，加上安全系数后远超±0.5mm。若强行设定此公差，"
+  },
+  {
+    "name": "，叠加纸张伸缩",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) RSS误差反推:** 若使用国产设备（±0.30mm），叠加纸张伸缩（±0.5mm"
+  },
+  {
+    "name": "igma_{machine}$ 权重需上调30%-50%。Round 6争议的\"",
+    "tolerance_mm": 0.5,
+    "source": "[0324] (conf=0.95) RSS误差模型中，国产设备的 $\\sigma_{machine}$ 权重需上调30"
+  },
+  {
+    "name": "0.20 mm | 1.4 - 1.5 |",
+    "tolerance_mm": 0.6,
+    "source": "[0324] (conf=0.85) 0.20 mm | 1.4 - 1.5 | ±0.6 mm | 适合微瓦楞，压线轮"
+  },
+  {
+    "name": "| 1.4 - 1.5 |",
+    "tolerance_mm": 0.6,
+    "source": "[0324] (conf=0.90) Heidelberg (德)** | Dymatrix | ±0.20 mm | "
+  },
+  {
+    "name": "瓦楞纸箱工序链总误差约",
+    "tolerance_mm": 0.66,
+    "source": "[0324] (conf=0.85) 瓦楞纸箱工序链总误差约±0.66mm，±0.5mm精密级公差需高精度设备链。"
+  },
+  {
+    "name": "国标) | ≥12mm |",
+    "tolerance_mm": 0.7,
+    "source": "[0324] (conf=0.95) GB/T 6543** (国标) | ≥12mm | ±0.7mm | W=1.5"
+  },
+  {
+    "name": " | $\\Delta T$ | ±0.3 ~",
+    "tolerance_mm": 0.8,
+    "source": "[0324] (conf=0.85) ** | $\\Delta T$ | ±0.3 ~ ±0.8mm | ±0.5mm "
+  },
+  {
+    "name": "| 2.2 | 0.6 | 5.00-7.20 | 楞型、塌陷角θ | 折叠精度",
+    "tolerance_mm": 0.8,
+    "source": "[0324] (conf=0.85) 瓦楞(B楞) | 2.0-3.0 | 2.2 | 0.6 | 5.00-7.20 "
+  },
+  {
+    "name": "erg | Dymatrix | 高 | 中低 | $1.05$ | 精密级",
+    "tolerance_mm": 0.8,
+    "source": "[0324] (conf=0.90) Heidelberg** | Dymatrix | 高 | 中低 | $1.05$"
+  },
+  {
+    "name": "DIN 55468 | 德国 | 工业配件、机械包装 |",
+    "tolerance_mm": 0.8,
+    "source": "[0324] (conf=0.95) DIN 55468** | 德国 | 工业配件、机械包装 | ±0.8mm | ±"
+  },
+  {
+    "name": "Delta_i^2} = \\sqrt{0.5^2 \\times 3}$ | ",
+    "tolerance_mm": 0.87,
+    "source": "[0324] (conf=0.95) RSS (随机)** | $\\sqrt{\\sum \\Delta_i^2} = \\s"
+  },
+  {
+    "name": " |",
+    "tolerance_mm": 1.0,
+    "source": "[0324] (conf=0.85) ** | ±1.0 mm | ±0.8 mm (严控) | ±1.5 mm | ±"
+  },
+  {
+    "name": "瓦楞) | $W = t + 1.0mm$ |",
+    "tolerance_mm": 1.0,
+    "source": "[0324] (conf=0.85) 瓦楞) | $W = t + 1.0mm$ | ±1.0mm(常规) | 强调抗压"
+  },
+  {
+    "name": "FEFCO | 欧洲/国际 | 自动化物流、出口包装 |",
+    "tolerance_mm": 1.0,
+    "source": "[0324] (conf=0.95) FEFCO** | 欧洲/国际 | 自动化物流、出口包装 | ±1.0mm (精密"
+  },
+  {
+    "name": "ISO 12004 | 国际 |",
+    "tolerance_mm": 1.0,
+    "source": "[0324] (conf=0.95) ISO 12004** | 国际 | ±1.0mm | 协商确定 | 协商确定 |"
+  },
+  {
+    "name": "JIS Z 1506 |",
+    "tolerance_mm": 1.0,
+    "source": "[0324] (conf=0.95) JIS Z 1506** | ±1.0mm | 8-10% | 0.45-0.55"
+  },
+  {
+    "name": "设系统偏差0.3mm)* | ",
+    "tolerance_mm": 1.17,
+    "source": "[0324] (conf=0.95) RSS (推荐)** | $\\Delta_{sys} + \\sqrt{\\sum \\"
+  },
+  {
+    "name": "| 2.5 | 0.8 | 9.55-12.05 | 楞型、含水率 | 折叠精度",
+    "tolerance_mm": 1.2,
+    "source": "[0324] (conf=0.85) 瓦楞(C楞) | 3.5-4.5 | 2.5 | 0.8 | 9.55-12.05"
+  },
+  {
+    "name": "严控) |",
+    "tolerance_mm": 1.5,
+    "source": "[0324] (conf=0.85) ** | ±1.0 mm | ±0.8 mm (严控) | ±1.5 mm | ±"
+  },
+  {
+    "name": "8 | 1.0 | 15.00-20.60 | 复合结构、层间滑移 | 折叠精度",
+    "tolerance_mm": 1.5,
+    "source": "[0324] (conf=0.85) 瓦楞(BC楞) | 5.0-7.0 | 2.8 | 1.0 | 15.00-20."
+  },
+  {
+    "name": "JIS Z 1506 | 日本 | 精细电子、消费品 |",
+    "tolerance_mm": 1.5,
+    "source": "[0324] (conf=0.95) JIS Z 1506** | 日本 | 精细电子、消费品 | ±1.5mm (外观"
+  },
+  {
+    "name": "m)在国产普通设备链上数学不可达。GB/T 6543-2008对尺寸偏差要求较宽",
+    "tolerance_mm": 2.0,
+    "source": "[0324] (conf=0.85) (±0.5mm)在国产普通设备链上数学不可达。GB/T 6543-2008对尺寸偏"
+  },
+  {
+    "name": "在国产普通设备链上数学不可达。GB/T 6543-2008对尺寸偏差要求较宽",
+    "tolerance_mm": 2.0,
+    "source": "[0324] (conf=0.95) ECMA标准中定义的\"精密级\"公差(±0.5mm)在国产普通设备链上数学不可达。G"
+  },
+  {
+    "name": "GB/T 6543 |",
+    "tolerance_mm": 2.0,
+    "source": "[0324] (conf=0.95) GB/T 6543** | ±2.0mm | 10-14% | 0.4-0.6T "
+  },
+  {
+    "name": "GB/T 6543-2008对尺寸偏差要求较宽",
+    "tolerance_mm": 2.0,
+    "source": "[0324] (conf=0.95) GB/T 6543-2008对尺寸偏差要求较宽(±2mm-±3mm)，导致国内工厂"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-03-29T00:48:26.566329",
+  "summary": {
+    "total": 3746,
+    "valid": 2921,
+    "fragments": 825,
+    "fragment_rate": 22.0,
+    "avg_content_length": 46.0
+  },
+  "by_type": {
+    "unknown": 3308,
+    "formula": 438
+  },
+  "by_status": {
+    "SUCCESS": 2237,
+    "DISPUTED": 1439,
+    "UNKNOWN": 70
+  },
+  "recommendations": [
+    "3308个节点类型无法识别，需要补充解析规则"
+  ]
+}
