@@ -56,12 +56,12 @@ TOLERANCES = {
         tolerance_large_mm=1.0, dimension_basis="inner",
         note="尺寸<500mm时±0.5mm，>500mm时±1.0mm",
     ),
-    # GB/T — 宽松
+    # GB/T — 宽松 (注意: GB/T 6543-2008运输包装优等品±3mm, 节点1838修正)
     "gb_commercial": ToleranceSpec(
         org=StandardOrg.GB, grade=ToleranceGrade.COMMERCIAL,
         tolerance_mm=1.0, size_threshold_mm=500,
-        tolerance_large_mm=2.0, dimension_basis="outer",
-        note="中国标准，显著低于FEFCO",
+        tolerance_large_mm=3.0, dimension_basis="outer",
+        note="运输包装GB/T 6543-2008: 优等品±3mm(≤1000mm); 销售包装GB/T 27928.1: ±1mm",
     ),
     # ISO
     "iso_precision": ToleranceSpec(
