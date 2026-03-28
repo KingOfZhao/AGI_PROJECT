@@ -5,7 +5,7 @@
   "total_used_tokens": 178976,
   "daily_calls": 0,
   "total_calls": 408,
-  "last_reset_date": "2026-03-22",
+  "last_reset_date": "2026-03-28",
   "max_usage_ratio": 0.7,
   "memory_ratio": 0.5,
   "batch_size": 10,

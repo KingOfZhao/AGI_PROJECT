@@ -1,0 +1,30 @@
+{
+  "name": "auto_异构创新雷达_构建一个跨行业技能映射引_8f931f",
+  "file": "skills/auto_异构创新雷达_构建一个跨行业技能映射引_8f931f.py",
+  "description": "【异构创新雷达】构建一个跨行业技能映射引擎。当用户在A行业（如餐饮）遇到瓶颈（如'高峰期出餐慢'）时，系统不检索餐饮案例，而是去检索结构相似但领域不同的案例（如'F1赛车进站策略'或'工厂流水线节拍'）。通过提取对方的'解构骨架'（流程优化、并行处理），强制映射到餐饮场景，激发非线性的创新解决方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.142161",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_36_O7_6231",
+  "design_spec": {
+    "name": "auto_异构创新雷达_构建一个跨行业技能映射引_8f931f",
+    "display_name": "【异构创新雷达】构建一个跨行业技能映射引擎。当用户在A行业（如餐饮）遇到瓶颈（如'高峰期出餐慢'）时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【异构创新雷达】构建一个跨行业技能映射引擎。当用户在A行业（如餐饮）遇到瓶颈（如'高峰期出餐慢'）时，系统不检索餐饮案例，而是去检索结构相似但领域不同的案例（如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 471
+  }
+}

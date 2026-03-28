@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_抽象阶梯的自动升降机_当ll_c7e517",
+  "file": "skills/auto_如何构建_抽象阶梯的自动升降机_当ll_c7e517.py",
+  "description": "如何构建‘抽象阶梯的自动升降机’？当LLM生成代码时，根据错误反馈自动判断当前抽象层级是否过高（概念太泛）或过低（细节太死），并动态调整Prompt的抽象层级。例如，当UI代码无法适配时，从‘绘制按钮’降级为‘调用UI组件库’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.389869",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q6_3_4566",
+  "design_spec": {
+    "name": "auto_如何构建_抽象阶梯的自动升降机_当ll_c7e517",
+    "display_name": "如何构建‘抽象阶梯的自动升降机’？当LLM生成代码时，根据错误反馈自动判断当前抽象层级是否过高（概念",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建‘抽象阶梯的自动升降机’？当LLM生成代码时，根据错误反馈自动判断当前抽象层级是否过高（概念太泛）或过低（细节太死），并动态调整Prompt的抽象层级。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

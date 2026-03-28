@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计基于_认知效用密度_的节点淘汰算_9c8997",
+  "file": "skills/auto_如何设计基于_认知效用密度_的节点淘汰算_9c8997.py",
+  "description": "如何设计基于'认知效用密度'的节点淘汰算法？不仅要看节点被调用的频率，还要计算其维护成本（依赖复杂度）与产生的价值（解决问题带来的信息增益）。目标是识别并淘汰那些'高频调用但低价值产出'的虚荣节点或'高维护成本但极少使用'的僵尸节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "economics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.829364",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q7_0_658",
+  "design_spec": {
+    "name": "auto_如何设计基于_认知效用密度_的节点淘汰算_9c8997",
+    "display_name": "如何设计基于'认知效用密度'的节点淘汰算法？不仅要看节点被调用的频率，还要计算其维护成本（依赖复杂度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计基于'认知效用密度'的节点淘汰算法？不仅要看节点被调用的频率，还要计算其维护成本（依赖复杂度）与产生的价值（解决问题带来的信息增益）。目标是识别并淘汰那",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

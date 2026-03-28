@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索构建_统一多模态神经符号表征_模型_0eebe0",
+  "file": "skills/auto_探索构建_统一多模态神经符号表征_模型_0eebe0.py",
+  "description": "探索构建'统一多模态神经符号表征'模型，将工业物理参数、自然语言指令和Python/PLC代码映射到同一高维向量空间，实现跨模态的语义检索与推理。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.776493",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_24_G1_6062",
+  "design_spec": {
+    "name": "auto_探索构建_统一多模态神经符号表征_模型_0eebe0",
+    "display_name": "探索构建'统一多模态神经符号表征'模型，将工业物理参数、自然语言指令和Python/PLC代码映射到",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索构建'统一多模态神经符号表征'模型，将工业物理参数、自然语言指令和Python/PLC代码映射到同一高维向量空间，实现跨模态的语义检索与推理。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 229
+  }
+}

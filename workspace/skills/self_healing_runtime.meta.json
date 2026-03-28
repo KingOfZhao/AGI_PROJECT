@@ -1,0 +1,34 @@
+{
+  "skill_name": "self_healing_runtime",
+  "version": "1.0.0",
+  "deduction_round": "Round 4/5",
+  "deducer": "Claude Opus 4",
+  "framework": "ULDS v2.1",
+  "truth_level": "L3_capability",
+  "truth_evidence": "8 unit tests, circuit breaker + chaos monkey + fallback verified",
+  "domain": "code/reliability_engineering",
+  "tags": ["circuit_breaker", "chaos_engineering", "self_healing", "retry", "fallback", "resilience"],
+  "ulds_laws": ["L6_systems", "L10_evolution", "L7_probability", "L4_logic"],
+  "surpass_strategies": ["S3_dynasty_governance", "S7_zero_avoidance", "S8_chain_convergence"],
+  "breakthrough_target": "B10_Agent_autonomy_B9_API_latency",
+  "state_machine": {
+    "CLOSED_to_OPEN": "error_rate > threshold",
+    "OPEN_to_HALF_OPEN": "recovery timeout expired",
+    "HALF_OPEN_to_CLOSED": "probe success",
+    "HALF_OPEN_to_OPEN": "probe failure"
+  },
+  "chain_convergence": "F(threshold)→V(error_rate)→F(circuit_decision)→V(recovery_probe)→F(new_health)",
+  "zero_avoidance": {
+    "CD02_concurrency": "RLock for atomic state transitions",
+    "CD01_boundary": "Zero-request safe, negative latency rejected"
+  },
+  "components": [
+    "CircuitBreaker — L4 state machine with exponential backoff",
+    "ChaosMonkey — L10 fault injection (latency + errors)",
+    "SelfHealingRuntime — S3 orchestrator with retry + fallback",
+    "CircuitStats — L7 sliding window error rate + P99 latency"
+  ],
+  "file": "workspace/skills/self_healing_runtime.py",
+  "lines_of_code": 580,
+  "created": "2026-03-26T17:45:00+08:00"
+}

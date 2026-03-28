@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理感知神经网络架构搜索_将建筑力学分析_629dc1",
+  "file": "skills/auto_物理感知神经网络架构搜索_将建筑力学分析_629dc1.py",
+  "description": "物理感知神经网络架构搜索。将建筑力学分析直接嵌入神经网络的拓扑设计，构建'力学同构网络'。在这种网络中，梯度流必须遵循类似力学传导的'刚度'约束，防止梯度消失/爆炸（类似结构失稳）。这能自动生成不仅数学上收敛，且在工程逻辑上高度鲁棒的AI模型，专门用于预测复杂物理系统（如流体动力学、地震响应）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.564608",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_138_O1_7965",
+  "design_spec": {
+    "name": "auto_物理感知神经网络架构搜索_将建筑力学分析_629dc1",
+    "display_name": "物理感知神经网络架构搜索。将建筑力学分析直接嵌入神经网络的拓扑设计，构建'力学同构网络'。在这种网络",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "物理感知神经网络架构搜索。将建筑力学分析直接嵌入神经网络的拓扑设计，构建'力学同构网络'。在这种网络中，梯度流必须遵循类似力学传导的'刚度'约束，防止梯度消失/",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 492
+  }
+}

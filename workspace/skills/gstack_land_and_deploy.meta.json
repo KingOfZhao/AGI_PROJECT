@@ -1,0 +1,36 @@
+{
+  "name": "gstack/land-and-deploy",
+  "slug": "gstack_land_and_deploy",
+  "description": "Land and deploy workflow. Merges the PR, waits for CI and deploy, verifies production health via canary checks. Takes over after /ship creates the PR. Use when: \"merge\", \"land\", \"deploy\", \"merge and verify\", \"land it\", \"ship it to production\".",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "release-deploy",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/land-and-deploy",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "release-deploy",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Glob",
+    "AskUserQuestion"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)",
+    "WARNING: external_network — 存在外部网络请求"
+  ],
+  "created_at": "2026-03-25T15:32:03.540443",
+  "imported_by": "gstack_skill_importer"
+}

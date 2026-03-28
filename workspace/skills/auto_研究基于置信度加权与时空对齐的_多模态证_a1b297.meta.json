@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究基于置信度加权与时空对齐的_多模态证_a1b297",
+  "file": "skills/auto_研究基于置信度加权与时空对齐的_多模态证_a1b297.py",
+  "description": "研究基于置信度加权与时空对齐的'多模态证据融合'算法，建立跨模态事实核查标准。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.520835",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_107_G1_6927",
+  "design_spec": {
+    "name": "auto_研究基于置信度加权与时空对齐的_多模态证_a1b297",
+    "display_name": "研究基于置信度加权与时空对齐的'多模态证据融合'算法，建立跨模态事实核查标准。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究基于置信度加权与时空对齐的'多模态证据融合'算法，建立跨模态事实核查标准。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 282
+  }
+}

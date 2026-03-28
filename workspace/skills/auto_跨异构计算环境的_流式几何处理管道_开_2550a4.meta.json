@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨异构计算环境的_流式几何处理管道_开_2550a4",
+  "file": "skills/auto_跨异构计算环境的_流式几何处理管道_开_2550a4.py",
+  "description": "跨异构计算环境的'流式几何处理管道'。开发一种基于Dart FFI (Foreign Function Interface) 的高吞吐量数据管道，允许Flutter应用直接调用本地的高性能CAD算法库（如网格划分、布尔运算）。关键创新在于'零拷贝'数据共享，使得Flutter界面可以直接操作内存中的巨型3D网格数据，用于实时仿真结果展示或AR/VR工程现场勘误。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.489103",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_104_O3_9410",
+  "design_spec": {
+    "name": "auto_跨异构计算环境的_流式几何处理管道_开_2550a4",
+    "display_name": "跨异构计算环境的'流式几何处理管道'。开发一种基于Dart FFI (Foreign Functio",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨异构计算环境的'流式几何处理管道'。开发一种基于Dart FFI (Foreign Function Interface) 的高吞吐量数据管道，允许Flutt",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 381
+  }
+}

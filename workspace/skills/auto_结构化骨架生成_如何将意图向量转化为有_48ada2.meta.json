@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构化骨架生成_如何将意图向量转化为有_48ada2",
+  "file": "skills/auto_结构化骨架生成_如何将意图向量转化为有_48ada2.py",
+  "description": "【结构化骨架生成】如何将意图向量转化为有向无环图（DAG）形式的代码逻辑骨架，而非线性的代码片段？这要求系统理解代码的控制流（循环、条件）和数据流，能够先生成“伪代码逻辑图”，确保逻辑闭环，再映射到具体语法树。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "Software Engineering/Graph Theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:29.015866",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q2_3_4775",
+  "design_spec": {
+    "name": "auto_结构化骨架生成_如何将意图向量转化为有_48ada2",
+    "display_name": "【结构化骨架生成】如何将意图向量转化为有向无环图（DAG）形式的代码逻辑骨架，而非线性的代码片段？这",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【结构化骨架生成】如何将意图向量转化为有向无环图（DAG）形式的代码逻辑骨架，而非线性的代码片段？这要求系统理解代码的控制流（循环、条件）和数据流，能够先生成“",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

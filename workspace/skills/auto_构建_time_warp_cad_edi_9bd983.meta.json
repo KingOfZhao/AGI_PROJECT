@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_time_warp_cad_edi_9bd983",
+  "file": "skills/auto_构建_time_warp_cad_edi_9bd983.py",
+  "description": "构建‘Time-Warp CAD Editor’。结合Flutter的即时渲染与CAD的参数化历史，实现‘视觉化Git’。用户在修改历史参数时，能像Hot Reload一样，在3D视图中实时看到模型形态的流变过渡，而非生硬的跳变。此外，利用Flutter状态保存，可瞬间切换同一零件的几十种设计变体。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.914280",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O4_6098",
+  "design_spec": {
+    "name": "auto_构建_time_warp_cad_edi_9bd983",
+    "display_name": "构建‘Time-Warp CAD Editor’。结合Flutter的即时渲染与CAD的参数化历史，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘Time-Warp CAD Editor’。结合Flutter的即时渲染与CAD的参数化历史，实现‘视觉化Git’。用户在修改历史参数时，能像Hot Re",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 323
+  }
+}

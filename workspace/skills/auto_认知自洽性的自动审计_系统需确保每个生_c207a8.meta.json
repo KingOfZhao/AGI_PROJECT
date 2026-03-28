@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽性的自动审计_系统需确保每个生_c207a8",
+  "file": "skills/auto_认知自洽性的自动审计_系统需确保每个生_c207a8.py",
+  "description": "【认知自洽性的自动审计】系统需确保每个生成的‘真实节点’在局部网络内是‘认知自洽’的（无逻辑矛盾）。如何构建一个‘逻辑一致性检查器’，在节点入库前，自动遍历其与邻近节点的因果链条，检测是否存在循环依赖或事实冲突？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.016741",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q8_0_2707",
+  "design_spec": {
+    "name": "auto_认知自洽性的自动审计_系统需确保每个生_c207a8",
+    "display_name": "【认知自洽性的自动审计】系统需确保每个生成的‘真实节点’在局部网络内是‘认知自洽’的（无逻辑矛盾）。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知自洽性的自动审计】系统需确保每个生成的‘真实节点’在局部网络内是‘认知自洽’的（无逻辑矛盾）。如何构建一个‘逻辑一致性检查器’，在节点入库前，自动遍历其与",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

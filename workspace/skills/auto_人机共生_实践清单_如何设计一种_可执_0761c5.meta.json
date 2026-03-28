@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_实践清单_如何设计一种_可执_0761c5",
+  "file": "skills/auto_人机共生_实践清单_如何设计一种_可执_0761c5.py",
+  "description": "【人机共生-实践清单】如何设计一种'可执行清单'的生成协议，使得AI能将抽象的SKILL节点转化为人类仅需5分钟即可完成验证的微实验？重点在于降低人类的认知负荷和物理执行门槛，确保每个步骤都具备明确的'通过/失败'判定标准。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_82",
+    "interaction_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T19:40:26.374400",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_82_Q2_0_2351",
+  "design_spec": {
+    "name": "auto_人机共生_实践清单_如何设计一种_可执_0761c5",
+    "display_name": "【人机共生-实践清单】如何设计一种'可执行清单'的生成协议，使得AI能将抽象的SKILL节点转化为人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生-实践清单】如何设计一种'可执行清单'的生成协议，使得AI能将抽象的SKILL节点转化为人类仅需5分钟即可完成验证的微实验？重点在于降低人类的认知负荷",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

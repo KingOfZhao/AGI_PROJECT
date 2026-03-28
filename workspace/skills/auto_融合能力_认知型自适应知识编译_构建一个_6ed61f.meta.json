@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_认知型自适应知识编译_构建一个_6ed61f",
+  "file": "skills/auto_融合能力_认知型自适应知识编译_构建一个_6ed61f.py",
+  "description": "融合能力：认知型自适应知识编译。构建一个AI系统，它在使用RAG检索知识时，会像JIT一样评估知识片段的'使用热度'和'验证状态'。对于被高频且准确使用的知识，系统将其从'软性提示'（Soft Prompt/RAG）升级为'硬性权重'（通过LoRA微调固化），或转化为可执行函数。这实现了从'检索知识'到'内化技能'的自主进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.814465",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_122_O4_3987",
+  "design_spec": {
+    "name": "auto_融合能力_认知型自适应知识编译_构建一个_6ed61f",
+    "display_name": "融合能力：认知型自适应知识编译。构建一个AI系统，它在使用RAG检索知识时，会像JIT一样评估知识片",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：认知型自适应知识编译。构建一个AI系统，它在使用RAG检索知识时，会像JIT一样评估知识片段的'使用热度'和'验证状态'。对于被高频且准确使用的知识，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_在代码生成的上下文中_如何实现_意图_文_9182d2",
+  "file": "skills/auto_在代码生成的上下文中_如何实现_意图_文_9182d2.py",
+  "description": "在代码生成的上下文中，如何实现'意图-文法'的自动对齐？即如何设计一个解析器，能够将非结构化的自然语言意图实时转化为受限于特定领域语言（DSL）约束的抽象语法树（AST）前缀？这涉及到如何动态识别意图中的'结构化骨架'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "compiler_nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:26:29.551300",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q2_1_7950",
+  "design_spec": {
+    "name": "auto_在代码生成的上下文中_如何实现_意图_文_9182d2",
+    "display_name": "在代码生成的上下文中，如何实现'意图-文法'的自动对齐？即如何设计一个解析器，能够将非结构化的自然语",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在代码生成的上下文中，如何实现'意图-文法'的自动对齐？即如何设计一个解析器，能够将非结构化的自然语言意图实时转化为受限于特定领域语言（DSL）约束的抽象语法树",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

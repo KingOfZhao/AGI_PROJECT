@@ -1,0 +1,36 @@
+{
+  "name": "自性知识节点构建器 v6",
+  "description": "为复杂编码任务构建节点图谱并生成连接代码。链式调用：提取关键节点→梳理节点间关系（JSON）→生成Python图谱代码（networkx/dict）→输出可运行代码。与前序技能无缝衔接。",
+  "tags": [
+    "知识图谱",
+    "节点构建",
+    "本地模型",
+    "图谱代码",
+    "关系梳理"
+  ],
+  "category": "knowledge_graph",
+  "file": "workspace/skills/local_knowledge_node_builder_v6.py",
+  "source": "local",
+  "safety_level": "safe",
+  "created_at": "2026-03-25T16:31:00.000000",
+  "forged_by": "user_skill_chain",
+  "version": "v6",
+  "design_spec": {
+    "name": "local_knowledge_node_builder_v6",
+    "display_name": "自性知识节点构建器 v6",
+    "description": "提取关键节点、梳理关系并生成可运行的图谱代码",
+    "functions": [
+      {
+        "name": "run_full_chain",
+        "purpose": "启动完整知识节点图谱构建链",
+        "params": "task (str): 图谱构建任务描述",
+        "returns": "str: 生成的图谱Python代码"
+      }
+    ],
+    "dependencies": ["requests"],
+    "tags": ["知识图谱", "节点构建", "关系梳理"],
+    "estimated_lines": 55,
+    "chain_position": 6,
+    "chain_family": "自性技能链"
+  }
+}

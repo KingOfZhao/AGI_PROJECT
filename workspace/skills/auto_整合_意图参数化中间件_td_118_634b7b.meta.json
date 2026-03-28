@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_意图参数化中间件_td_118_634b7b",
+  "file": "skills/auto_整合_意图参数化中间件_td_118_634b7b.py",
+  "description": "整合‘意图参数化中间件’(td_118_Q1_3_6830)、‘自动代码化’(td_118_Q10_1_9737)与‘实用主义纠错引擎’(ho_118_O1_6284)。用户输入模糊自然语言，系统转化为参数，生成PLC代码，并在数字孪生中预演，最后通过纠错引擎在物理世界执行并微调，形成从‘想法’到‘物理动作’的完整闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_119",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:17:51.168874",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_119_E2_8597",
+  "design_spec": {
+    "name": "auto_整合_意图参数化中间件_td_118_634b7b",
+    "display_name": "整合‘意图参数化中间件’(td_118_Q1_3_6830)、‘自动代码化’(td_118_Q10_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合‘意图参数化中间件’(td_118_Q1_3_6830)、‘自动代码化’(td_118_Q10_1_9737)与‘实用主义纠错引擎’(ho_118_O1_6",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

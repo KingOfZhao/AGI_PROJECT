@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对生成式代码与技能的_沙箱_反馈_自动_f100f9",
+  "file": "skills/auto_针对生成式代码与技能的_沙箱_反馈_自动_f100f9.py",
+  "description": "针对生成式代码与技能的‘沙箱-反馈’自动化验证闭环。针对SKILL类型的节点（目前1816个），如何构建一个通用的执行沙箱，能够自动生成测试用例，执行技能代码，并捕获运行时错误与逻辑漏洞？这要求系统能将‘模糊的技能描述’转化为‘严格的输入输出断言’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.752010",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_109_Q2_3_9735",
+  "design_spec": {
+    "name": "auto_针对生成式代码与技能的_沙箱_反馈_自动_f100f9",
+    "display_name": "针对生成式代码与技能的‘沙箱-反馈’自动化验证闭环。针对SKILL类型的节点（目前1816个），如何",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对生成式代码与技能的‘沙箱-反馈’自动化验证闭环。针对SKILL类型的节点（目前1816个），如何构建一个通用的执行沙箱，能够自动生成测试用例，执行技能代码，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

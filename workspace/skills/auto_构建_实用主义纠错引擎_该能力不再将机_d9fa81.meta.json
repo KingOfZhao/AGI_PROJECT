@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实用主义纠错引擎_该能力不再将机_d9fa81",
+  "file": "skills/auto_构建_实用主义纠错引擎_该能力不再将机_d9fa81.py",
+  "description": "构建‘实用主义纠错引擎’。该能力不再将机器人的执行视为单纯的指令输出，而是视为一连串的‘假设-验证’循环。当力矩传感器检测到阻力（证伪信号）时，AI不仅查询技术案例，还调用‘实用主义逻辑模型’，分析当前动作的‘工具性无效性’，从而生成具有因果解释性的微调策略（例如：不是单纯减小力度，而是理解‘该力度无法克服摩擦’，从而改变策略）。这使机器人具备了‘理解性适应’而非‘盲目参数调整’的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.801115",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_118_O1_6284",
+  "design_spec": {
+    "name": "auto_构建_实用主义纠错引擎_该能力不再将机_d9fa81",
+    "display_name": "构建‘实用主义纠错引擎’。该能力不再将机器人的执行视为单纯的指令输出，而是视为一连串的‘假设-验证’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘实用主义纠错引擎’。该能力不再将机器人的执行视为单纯的指令输出，而是视为一连串的‘假设-验证’循环。当力矩传感器检测到阻力（证伪信号）时，AI不仅查询技术",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 576
+  }
+}

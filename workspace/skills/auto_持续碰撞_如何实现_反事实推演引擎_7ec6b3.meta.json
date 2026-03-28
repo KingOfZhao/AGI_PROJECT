@@ -1,0 +1,30 @@
+{
+  "name": "auto_持续碰撞_如何实现_反事实推演引擎_7ec6b3",
+  "file": "skills/auto_持续碰撞_如何实现_反事实推演引擎_7ec6b3.py",
+  "description": "【持续碰撞】如何实现'反事实推演引擎'？系统应能基于现有节点生成'如果...会怎样'的假设场景（Counterfactuals），并请求人类进行特定实践验证。需验证AI生成的假设是否具备'可验证性'（Falsifiability）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "speculative_simulation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.305163",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q6_1_5993",
+  "design_spec": {
+    "name": "auto_持续碰撞_如何实现_反事实推演引擎_7ec6b3",
+    "display_name": "【持续碰撞】如何实现'反事实推演引擎'？系统应能基于现有节点生成'如果...会怎样'的假设场景（Co",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【持续碰撞】如何实现'反事实推演引擎'？系统应能基于现有节点生成'如果...会怎样'的假设场景（Counterfactuals），并请求人类进行特定实践验证。需",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

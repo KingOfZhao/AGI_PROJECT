@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建跨域迁移机制_能否将_供应链物流优化_732649",
+  "file": "skills/auto_构建跨域迁移机制_能否将_供应链物流优化_732649.py",
+  "description": "构建跨域迁移机制：能否将‘供应链物流优化’的节点逻辑，迁移至‘车间AGV调度’问题中？需要识别两者在拓扑结构和约束条件上的同构性（Isomorphism），实现左右跨域碰撞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "agi_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.321773",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q4_3_8148",
+  "design_spec": {
+    "name": "auto_构建跨域迁移机制_能否将_供应链物流优化_732649",
+    "display_name": "构建跨域迁移机制：能否将‘供应链物流优化’的节点逻辑，迁移至‘车间AGV调度’问题中？需要识别两者在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建跨域迁移机制：能否将‘供应链物流优化’的节点逻辑，迁移至‘车间AGV调度’问题中？需要识别两者在拓扑结构和约束条件上的同构性（Isomorphism），实现",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

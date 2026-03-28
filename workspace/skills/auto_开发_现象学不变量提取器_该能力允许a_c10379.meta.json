@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_现象学不变量提取器_该能力允许a_c10379",
+  "file": "skills/auto_开发_现象学不变量提取器_该能力允许a_c10379.py",
+  "description": "开发'现象学不变量提取器'。该能力允许AI从一个工匠（如高个子）身上习得技能后，通过'先验图式'映射，自动适配给另一个不同构型的机器人（如短臂机械手）或另一位工匠。系统不再复制动作序列，而是提取'力-位-时'的拓扑结构（如'切削时保持切向力恒定'），这构成了技能的'本质'，使其能跨越物理形态的鸿沟进行迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.802331",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_75_O2_1629",
+  "design_spec": {
+    "name": "auto_开发_现象学不变量提取器_该能力允许a_c10379",
+    "display_name": "开发'现象学不变量提取器'。该能力允许AI从一个工匠（如高个子）身上习得技能后，通过'先验图式'映射",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'现象学不变量提取器'。该能力允许AI从一个工匠（如高个子）身上习得技能后，通过'先验图式'映射，自动适配给另一个不同构型的机器人（如短臂机械手）或另一位工",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

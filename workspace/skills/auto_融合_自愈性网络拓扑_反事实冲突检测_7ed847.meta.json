@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_自愈性网络拓扑_反事实冲突检测_7ed847",
+  "file": "skills/auto_融合_自愈性网络拓扑_反事实冲突检测_7ed847.py",
+  "description": "融合'自愈性网络拓扑'、'反事实冲突检测'与'负样本采样'。系统将不再仅仅是对错误的被动反应，而是具备'数字白细胞'能力。它能利用反事实推理主动在网络中游走，模拟各种'黑天鹅'攻击（如节点失效、数据投毒），并提前进行'认知疫苗接种'（加固节点或生成补丁），从而在真实灾难发生前实现网络的主动进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.128378",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_101_E2_9920",
+  "design_spec": {
+    "name": "auto_融合_自愈性网络拓扑_反事实冲突检测_7ed847",
+    "display_name": "融合'自愈性网络拓扑'、'反事实冲突检测'与'负样本采样'。系统将不再仅仅是对错误的被动反应，而是具",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'自愈性网络拓扑'、'反事实冲突检测'与'负样本采样'。系统将不再仅仅是对错误的被动反应，而是具备'数字白细胞'能力。它能利用反事实推理主动在网络中游走，模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

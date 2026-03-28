@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_反事实物理逻辑防火墙_该能力将物_718d84",
+  "file": "skills/auto_构建_反事实物理逻辑防火墙_该能力将物_718d84.py",
+  "description": "构建'反事实物理逻辑防火墙'。该能力将物理约束转化为逻辑公理，嵌入AI的认知内核。当AI生成技能策略时，不仅进行运动学检查，还进行'认知压力测试'——在思维空间中构建极限物理场景（如零摩擦或超高重力），检测策略是否会产生物理性幻觉（如违反能量守恒）。只有通过'物理逻辑双证伪'的技能节点才能被标记为'真实节点'，从而从底层杜绝Sim2Real中的虚假迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.673302",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_148_O1_6448",
+  "design_spec": {
+    "name": "auto_构建_反事实物理逻辑防火墙_该能力将物_718d84",
+    "display_name": "构建'反事实物理逻辑防火墙'。该能力将物理约束转化为逻辑公理，嵌入AI的认知内核。当AI生成技能策略",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'反事实物理逻辑防火墙'。该能力将物理约束转化为逻辑公理，嵌入AI的认知内核。当AI生成技能策略时，不仅进行运动学检查，还进行'认知压力测试'——在思维空间",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

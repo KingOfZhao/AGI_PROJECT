@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于现有3714个节点库_构建语义指纹聚_b4f637",
+  "file": "skills/auto_基于现有3714个节点库_构建语义指纹聚_b4f637.py",
+  "description": "基于现有3714个节点库，构建语义指纹聚类模型，解决'意图词汇'与'节点标准名'的多对多映射问题。具体挑战在于，人类自然语言描述（如'搞一下那个排版'）具有模糊性和依赖性，而系统节点是结构化的。本实验旨在测试基于向量空间的相似度检索与基于图结构的关联度检索的融合效率，目标是将意图映射到正确节点列表Top 5的准确率提升至90%以上。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "nlp_ontology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.434414",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q1_3_4953",
+  "design_spec": {
+    "name": "auto_基于现有3714个节点库_构建语义指纹聚_b4f637",
+    "display_name": "基于现有3714个节点库，构建语义指纹聚类模型，解决'意图词汇'与'节点标准名'的多对多映射问题。具",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于现有3714个节点库，构建语义指纹聚类模型，解决'意图词汇'与'节点标准名'的多对多映射问题。具体挑战在于，人类自然语言描述（如'搞一下那个排版'）具有模糊",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 472
+  }
+}

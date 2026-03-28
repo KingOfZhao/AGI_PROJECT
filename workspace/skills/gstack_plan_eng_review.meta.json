@@ -1,0 +1,37 @@
+{
+  "name": "gstack/plan-eng-review",
+  "slug": "gstack_plan_eng_review",
+  "description": "Eng manager-mode plan review. Lock in the execution plan — architecture, data flow, diagrams, edge cases, test coverage, performance. Walks through issues interactively with opinionated recommendations. Use when asked to \"review the architecture\", \"engineering review\", or \"lock in the plan\". Proactively suggest when the user has a plan or design doc and is about to start coding — to catch architecture issues before implementation.",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "engineering-review",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/plan-eng-review",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "engineering-review",
+  "allowed_tools": [
+    "Read",
+    "Write",
+    "Grep",
+    "Glob",
+    "AskUserQuestion",
+    "Bash",
+    "WebSearch"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)"
+  ],
+  "created_at": "2026-03-25T15:32:03.541182",
+  "imported_by": "gstack_skill_importer"
+}

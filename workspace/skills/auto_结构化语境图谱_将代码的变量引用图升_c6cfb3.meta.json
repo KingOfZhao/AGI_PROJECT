@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构化语境图谱_将代码的变量引用图升_c6cfb3",
+  "file": "skills/auto_结构化语境图谱_将代码的变量引用图升_c6cfb3.py",
+  "description": "【结构化语境图谱】：将代码的变量引用图升级为'认知语境图谱'。当AI解析'它'时，不仅查找变量名，还利用向量空间算法计算当前上下文与历史节点的'结构相似度'。例如，如果用户说'像处理那个一样处理这个'，系统能通过结构映射（Structure Mapping）找到历史代码中的逻辑模式，而不仅仅是变量名，从而实现代码逻辑的'隐喻级'复用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.880752",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O4_9655",
+  "design_spec": {
+    "name": "auto_结构化语境图谱_将代码的变量引用图升_c6cfb3",
+    "display_name": "【结构化语境图谱】：将代码的变量引用图升级为'认知语境图谱'。当AI解析'它'时，不仅查找变量名，还",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【结构化语境图谱】：将代码的变量引用图升级为'认知语境图谱'。当AI解析'它'时，不仅查找变量名，还利用向量空间算法计算当前上下文与历史节点的'结构相似度'。例",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 555
+  }
+}

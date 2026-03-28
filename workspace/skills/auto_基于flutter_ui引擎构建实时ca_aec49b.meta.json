@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于flutter_ui引擎构建实时ca_aec49b",
+  "file": "skills/auto_基于flutter_ui引擎构建实时ca_aec49b.py",
+  "description": "基于Flutter UI引擎构建实时CAD约束求解前端。利用Flutter的Diffing算法优化CAD约束求解效率：当用户微调参数时，仅重绘受影响的几何图层而非整个画布。同时，将CAD的Constraint概念引入Flutter布局，开发'物理感'UI组件，使界面元素能像机械连杆一样根据应力自动调整位置，实现非矩形、基于力导向的自适应布局系统。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.444241",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O1_5454",
+  "design_spec": {
+    "name": "auto_基于flutter_ui引擎构建实时ca_aec49b",
+    "display_name": "基于Flutter UI引擎构建实时CAD约束求解前端。利用Flutter的Diffing算法优化C",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于Flutter UI引擎构建实时CAD约束求解前端。利用Flutter的Diffing算法优化CAD约束求解效率：当用户微调参数时，仅重绘受影响的几何图层而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点固化判据_如何定义并自动检测一_ba2fa3",
+  "file": "skills/auto_真实节点固化判据_如何定义并自动检测一_ba2fa3.py",
+  "description": "【真实节点固化判据】如何定义并自动检测一个跨域迁移产生的‘临时假设’已固化为‘真实节点’？必须验证该节点在多个独立领域（至少3个）中是否具备‘可证伪性’且未被证伪。需要构建一个‘贝叶斯真相追踪器’，根据不同领域的实践反馈更新节点的‘真实性概率’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "epistemology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.780825",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q5_3_5248",
+  "design_spec": {
+    "name": "auto_真实节点固化判据_如何定义并自动检测一_ba2fa3",
+    "display_name": "【真实节点固化判据】如何定义并自动检测一个跨域迁移产生的‘临时假设’已固化为‘真实节点’？必须验证该",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点固化判据】如何定义并自动检测一个跨域迁移产生的‘临时假设’已固化为‘真实节点’？必须验证该节点在多个独立领域（至少3个）中是否具备‘可证伪性’且未被证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_非结构化环境_动态校准_手工艺往往是非_a48945",
+  "file": "skills/auto_非结构化环境_动态校准_手工艺往往是非_a48945.py",
+  "description": "【非结构化环境-动态校准】手工艺往往是非结构化的（如陶土形状随时在变）。如何构建一个状态估计器，能够实时融合视觉与触觉数据，预测材料在受力后的短时形态变化？这需要验证AI是否具备‘物理直觉’，即在脑中模拟物质变形的能力，而非仅依靠预编程的逻辑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "physics_engine_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.235339",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_102_Q3_2_1159",
+  "design_spec": {
+    "name": "auto_非结构化环境_动态校准_手工艺往往是非_a48945",
+    "display_name": "【非结构化环境-动态校准】手工艺往往是非结构化的（如陶土形状随时在变）。如何构建一个状态估计器，能够",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【非结构化环境-动态校准】手工艺往往是非结构化的（如陶土形状随时在变）。如何构建一个状态估计器，能够实时融合视觉与触觉数据，预测材料在受力后的短时形态变化？这需",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于知识图谱拓扑结构的_孤岛节点_与_冗_95cbe8",
+  "file": "skills/auto_基于知识图谱拓扑结构的_孤岛节点_与_冗_95cbe8.py",
+  "description": "基于知识图谱拓扑结构的‘孤岛节点’与‘冗余节点’识别：如何通过分析2759个节点之间的引用关系（Edge），识别出那些缺乏上下游支持的‘孤岛节点’（高淘汰候选）以及语义高度重叠的‘冗余节点’？需设计图算法来计算节点的PageRank值与语义密度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.946231",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_108_Q3_0_5121",
+  "design_spec": {
+    "name": "auto_基于知识图谱拓扑结构的_孤岛节点_与_冗_95cbe8",
+    "display_name": "基于知识图谱拓扑结构的‘孤岛节点’与‘冗余节点’识别：如何通过分析2759个节点之间的引用关系（Ed",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于知识图谱拓扑结构的‘孤岛节点’与‘冗余节点’识别：如何通过分析2759个节点之间的引用关系（Edge），识别出那些缺乏上下游支持的‘孤岛节点’（高淘汰候选）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 391
+  }
+}

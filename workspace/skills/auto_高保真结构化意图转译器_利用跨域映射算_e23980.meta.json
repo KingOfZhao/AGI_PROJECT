@@ -1,0 +1,30 @@
+{
+  "name": "auto_高保真结构化意图转译器_利用跨域映射算_e23980",
+  "file": "skills/auto_高保真结构化意图转译器_利用跨域映射算_e23980.py",
+  "description": "【高保真结构化意图转译器】利用跨域映射算法来增强自然语言到形式化规约（DSL/Z-Notation）的转换能力。系统不再逐字翻译，而是先构建自然语言的'语义骨架'，然后寻找形式化语言中能够完美承载该骨架的'同构体'。例如，将'贪吃蛇游戏'映射为'状态机+事件流'的DSL结构，而非简单的函数堆砌，确保生成的规约具备数学上的自洽性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.634276",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_60_O4_6527",
+  "design_spec": {
+    "name": "auto_高保真结构化意图转译器_利用跨域映射算_e23980",
+    "display_name": "【高保真结构化意图转译器】利用跨域映射算法来增强自然语言到形式化规约（DSL/Z-Notation）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【高保真结构化意图转译器】利用跨域映射算法来增强自然语言到形式化规约（DSL/Z-Notation）的转换能力。系统不再逐字翻译，而是先构建自然语言的'语义骨架",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 471
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_碰撞固化_边缘碰撞_激发的创新突变率_5b0f13",
+  "file": "skills/auto_碰撞固化_边缘碰撞_激发的创新突变率_5b0f13.py",
+  "description": "【碰撞固化】'边缘碰撞'激发的创新突变率：模拟两个高成熟度但低相关性的节点（如'量子力学'与'诗歌韵律'）在网络边缘强制碰撞。检测系统是否能利用两者属性的'非重叠区'生成具备可执行性的新SKILL，而非生成无意义的幻觉文本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "computational_creativity",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.791589",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q6_1_5308",
+  "design_spec": {
+    "name": "auto_碰撞固化_边缘碰撞_激发的创新突变率_5b0f13",
+    "display_name": "【碰撞固化】'边缘碰撞'激发的创新突变率：模拟两个高成熟度但低相关性的节点（如'量子力学'与'诗歌韵",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【碰撞固化】'边缘碰撞'激发的创新突变率：模拟两个高成熟度但低相关性的节点（如'量子力学'与'诗歌韵律'）在网络边缘强制碰撞。检测系统是否能利用两者属性的'非重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

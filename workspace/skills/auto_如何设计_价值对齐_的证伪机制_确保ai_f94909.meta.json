@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_价值对齐_的证伪机制_确保ai_f94909",
+  "file": "skills/auto_如何设计_价值对齐_的证伪机制_确保ai_f94909.py",
+  "description": "如何设计'价值对齐'的证伪机制，确保AI的认知目标不偏离人类福祉？这不仅是逻辑问题，更是伦理问题。需要建立一套形式化的伦理约束层，任何生成的节点若违反阿西莫夫定律或特定文化价值观，必须被标记为'禁止固化'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "ai_safety",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.706470",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_27_Q10_1_4907",
+  "design_spec": {
+    "name": "auto_如何设计_价值对齐_的证伪机制_确保ai_f94909",
+    "display_name": "如何设计'价值对齐'的证伪机制，确保AI的认知目标不偏离人类福祉？这不仅是逻辑问题，更是伦理问题。需",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'价值对齐'的证伪机制，确保AI的认知目标不偏离人类福祉？这不仅是逻辑问题，更是伦理问题。需要建立一套形式化的伦理约束层，任何生成的节点若违反阿西莫夫定",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

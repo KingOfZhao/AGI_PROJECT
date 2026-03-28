@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一套_代谢式知识生态系统_不再静态_027c81",
+  "file": "skills/auto_构建一套_代谢式知识生态系统_不再静态_027c81.py",
+  "description": "构建一套'代谢式知识生态系统'。不再静态存储所有知识，而是引入'认知熵'与'能量币'机制。每个知识节点必须通过解决实际问题（光合作用/摄取）来赚取'算力币'以支付存储租金（呼吸消耗）。这能自动淘汰那些'虽高频调用但高依赖、低净值'的僵尸知识（类似生态中的寄生或低效物种），实现AGI内存的动态生态平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.457485",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_78_O1_258",
+  "design_spec": {
+    "name": "auto_构建一套_代谢式知识生态系统_不再静态_027c81",
+    "display_name": "构建一套'代谢式知识生态系统'。不再静态存储所有知识，而是引入'认知熵'与'能量币'机制。每个知识节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一套'代谢式知识生态系统'。不再静态存储所有知识，而是引入'认知熵'与'能量币'机制。每个知识节点必须通过解决实际问题（光合作用/摄取）来赚取'算力币'以支",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

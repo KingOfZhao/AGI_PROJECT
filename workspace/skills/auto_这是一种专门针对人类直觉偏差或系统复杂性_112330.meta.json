@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一种专门针对人类直觉偏差或系统复杂性_112330",
+  "file": "skills/auto_这是一种专门针对人类直觉偏差或系统复杂性_112330.py",
+  "description": "这是一种专门针对人类直觉偏差或系统复杂性盲区的防御性认知架构。它旨在识别并防御“负迁移”和“伪证伪”。通过建立高吞吐量的底层反馈通道（如共享内存数据），结合对抗性攻击防御和宏观目标拆解验证，构建一个能主动识别“看似合理实则错误”的决策防火墙。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.327663",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_3_P6_2400",
+  "design_spec": {
+    "name": "auto_这是一种专门针对人类直觉偏差或系统复杂性_112330",
+    "display_name": "这是一种专门针对人类直觉偏差或系统复杂性盲区的防御性认知架构。它旨在识别并防御“负迁移”和“伪证伪”",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一种专门针对人类直觉偏差或系统复杂性盲区的防御性认知架构。它旨在识别并防御“负迁移”和“伪证伪”。通过建立高吞吐量的底层反馈通道（如共享内存数据），结合对抗",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

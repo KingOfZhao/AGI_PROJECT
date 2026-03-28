@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_人机共生_的代码化接口_如何构建一_899102",
+  "file": "skills/auto_实现_人机共生_的代码化接口_如何构建一_899102.py",
+  "description": "实现‘人机共生’的代码化接口：如何构建一个双向API，使得AI能生成一份‘设备调试清单’给人类技工，技工执行后只需简单的‘通过/失败’打标，AI即可自动更新网络中2555个SKILL的概率权重？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.338830",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q5_3_8148",
+  "design_spec": {
+    "name": "auto_实现_人机共生_的代码化接口_如何构建一_899102",
+    "display_name": "实现‘人机共生’的代码化接口：如何构建一个双向API，使得AI能生成一份‘设备调试清单’给人类技工，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现‘人机共生’的代码化接口：如何构建一个双向API，使得AI能生成一份‘设备调试清单’给人类技工，技工执行后只需简单的‘通过/失败’打标，AI即可自动更新网络",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 265
+  }
+}

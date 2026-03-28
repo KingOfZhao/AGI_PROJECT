@@ -1,0 +1,30 @@
+{
+  "name": "auto_通过融合_微观动作时序边界检测_非结_f04ac8",
+  "file": "skills/auto_通过融合_微观动作时序边界检测_非结_f04ac8.py",
+  "description": "通过融合'微观动作时序边界检测'、'非结构化意图提取'与'增量式少样本学习'，系统能够将人类专家（如工匠、高级技工）模糊的'手感'和'直觉'，先转化为时序数据，再提炼为结构化的SOP（标准作业程序）三元组，最终压缩为可被AI快速复用的'原子技能'节点。这实现了从'隐性经验'到'显性资产'的自动化蒸馏。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_31",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:21:49.645089",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_31_E2_6347",
+  "design_spec": {
+    "name": "auto_通过融合_微观动作时序边界检测_非结_f04ac8",
+    "display_name": "通过融合'微观动作时序边界检测'、'非结构化意图提取'与'增量式少样本学习'，系统能够将人类专家（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "通过融合'微观动作时序边界检测'、'非结构化意图提取'与'增量式少样本学习'，系统能够将人类专家（如工匠、高级技工）模糊的'手感'和'直觉'，先转化为时序数据，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

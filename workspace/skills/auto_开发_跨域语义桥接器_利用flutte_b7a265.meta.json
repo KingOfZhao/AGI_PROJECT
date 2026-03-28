@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_跨域语义桥接器_利用flutte_b7a265",
+  "file": "skills/auto_开发_跨域语义桥接器_利用flutte_b7a265.py",
+  "description": "开发'跨域语义桥接器'。利用Flutter Platform Channels作为通用总线，不仅连接原生API，更连接各种工业协议（Modbus, OPC UA）和CAD数据格式。这不仅是格式转换，而是建立一个运行在移动端/Web端的轻量级'数字孪生网关'，使得移动端应用能实时切片查看重型CAD模型，并能直接控制PLC设备，实现设计端到制造端的闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.353078",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_8_O2_3669",
+  "design_spec": {
+    "name": "auto_开发_跨域语义桥接器_利用flutte_b7a265",
+    "display_name": "开发'跨域语义桥接器'。利用Flutter Platform Channels作为通用总线，不仅连接",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'跨域语义桥接器'。利用Flutter Platform Channels作为通用总线，不仅连接原生API，更连接各种工业协议（Modbus, OPC UA",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

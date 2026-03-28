@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_具备ai辅助对齐的智能白板组件_e2d2fb",
+  "file": "skills/auto_开发_具备ai辅助对齐的智能白板组件_e2d2fb.py",
+  "description": "开发'具备AI辅助对齐的智能白板组件'。将CAD的'智能捕捉'和'自动约束'能力移植到Flutter的签名/绘图板中。当用户在白板上绘制流程图或草图时，后台算法实时分析笔触几何关系，自动修正线条（变直、变圆）、自动对齐节点、自动连接端口，使手绘草图瞬间转化为工整的矢量图表，实现从'自由笔触'到'工程图解'的实时转化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.494471",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O4_4066",
+  "design_spec": {
+    "name": "auto_开发_具备ai辅助对齐的智能白板组件_e2d2fb",
+    "display_name": "开发'具备AI辅助对齐的智能白板组件'。将CAD的'智能捕捉'和'自动约束'能力移植到Flutter",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'具备AI辅助对齐的智能白板组件'。将CAD的'智能捕捉'和'自动约束'能力移植到Flutter的签名/绘图板中。当用户在白板上绘制流程图或草图时，后台算法",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

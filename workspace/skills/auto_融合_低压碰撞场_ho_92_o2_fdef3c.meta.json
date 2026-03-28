@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_低压碰撞场_ho_92_o2_fdef3c",
+  "file": "skills/auto_融合_低压碰撞场_ho_92_o2_fdef3c.py",
+  "description": "融合'低压碰撞场'(ho_92_O2)、'自上而下证伪'(td_91_Q3_2)与'贝叶斯动态校准'(td_92_Q7_1)。系统不仅能模拟决策后果，还能在沙盒中主动运行'如果...会怎样'的反事实推演。通过证伪模块自我攻击，并根据模拟结果的反馈实时更新贝叶斯后验概率，系统能够在零物理成本的情况下，对高风险决策进行极高精度的预演，实现'纸上谈兵'到'沙盘推演'的质变。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.068114",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_93_E2_5613",
+  "design_spec": {
+    "name": "auto_融合_低压碰撞场_ho_92_o2_fdef3c",
+    "display_name": "融合'低压碰撞场'(ho_92_O2)、'自上而下证伪'(td_91_Q3_2)与'贝叶斯动态校准'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'低压碰撞场'(ho_92_O2)、'自上而下证伪'(td_91_Q3_2)与'贝叶斯动态校准'(td_92_Q7_1)。系统不仅能模拟决策后果，还能在沙盒",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 357
+  }
+}

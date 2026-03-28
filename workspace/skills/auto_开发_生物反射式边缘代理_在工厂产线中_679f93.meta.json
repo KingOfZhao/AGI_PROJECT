@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_生物反射式边缘代理_在工厂产线中_679f93",
+  "file": "skills/auto_开发_生物反射式边缘代理_在工厂产线中_679f93.py",
+  "description": "开发‘生物反射式边缘代理’。在工厂产线中，无需将所有数据（如温度微变）上传至云端大脑，而是赋予边缘节点（认知微服务）类似‘脊髓’的处理能力。当数据模式匹配到预设的‘危险反射模板’时，直接执行物理干预（断电、停机）。这融合了生物的即时性与分布式系统的鲁棒性，实现了毫秒级的‘实践证伪’闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.809146",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O2_6096",
+  "design_spec": {
+    "name": "auto_开发_生物反射式边缘代理_在工厂产线中_679f93",
+    "display_name": "开发‘生物反射式边缘代理’。在工厂产线中，无需将所有数据（如温度微变）上传至云端大脑，而是赋予边缘节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘生物反射式边缘代理’。在工厂产线中，无需将所有数据（如温度微变）上传至云端大脑，而是赋予边缘节点（认知微服务）类似‘脊髓’的处理能力。当数据模式匹配到预设",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

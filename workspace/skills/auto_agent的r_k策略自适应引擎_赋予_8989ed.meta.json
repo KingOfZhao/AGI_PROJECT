@@ -1,0 +1,30 @@
+{
+  "name": "auto_agent的r_k策略自适应引擎_赋予_8989ed",
+  "file": "skills/auto_agent的r_k策略自适应引擎_赋予_8989ed.py",
+  "description": "【Agent的r/k策略自适应引擎】赋予AI在复杂环境下的动态生存本能。AI不再使用单一的优化策略，而是评估环境的动荡性（如市场波动=气候变化）。在动荡环境（如初创期或危机处理）中，AI自动切换为'r-认知模式'（广撒网、低成本试错、高容错、快速迭代，类似浮游生物或杂草）；在稳定环境（成熟期）中切换为'K-认知模式'（精细化运营、高投入、高壁垒，类似顶级群落）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.226178",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_144_O2_8280",
+  "design_spec": {
+    "name": "auto_agent的r_k策略自适应引擎_赋予_8989ed",
+    "display_name": "【Agent的r/k策略自适应引擎】赋予AI在复杂环境下的动态生存本能。AI不再使用单一的优化策略，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【Agent的r/k策略自适应引擎】赋予AI在复杂环境下的动态生存本能。AI不再使用单一的优化策略，而是评估环境的动荡性（如市场波动=气候变化）。在动荡环境（如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

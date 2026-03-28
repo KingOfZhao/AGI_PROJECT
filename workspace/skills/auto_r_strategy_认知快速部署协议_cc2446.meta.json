@@ -1,0 +1,30 @@
+{
+  "name": "auto_r_strategy_认知快速部署协议_cc2446",
+  "file": "skills/auto_r_strategy_认知快速部署协议_cc2446.py",
+  "description": "【r-Strategy 认知快速部署协议】针对AGI在陌生领域的冷启动问题。不追求一步到位的完美方案（K策略），而是生成海量的'小摊贩级'简易认知脚本（低成本、高变异性），并快速投入环境进行'试错'。通过高频的'生成-验证-淘汰'循环，从海量垃圾方案中筛选出适应环境的'变异体'。此能力专用于解决td_66中极度简化场景下的快速闭环构建，强调'先闭环，后优化'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.826192",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_88_O3_7383",
+  "design_spec": {
+    "name": "auto_r_strategy_认知快速部署协议_cc2446",
+    "display_name": "【r-Strategy 认知快速部署协议】针对AGI在陌生领域的冷启动问题。不追求一步到位的完美方案",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【r-Strategy 认知快速部署协议】针对AGI在陌生领域的冷启动问题。不追求一步到位的完美方案（K策略），而是生成海量的'小摊贩级'简易认知脚本（低成本、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 325
+  }
+}

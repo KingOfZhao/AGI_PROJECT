@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_跨平台几何计算中间件_将复杂的c_4b428a",
+  "file": "skills/auto_开发_跨平台几何计算中间件_将复杂的c_4b428a.py",
+  "description": "开发'跨平台几何计算中间件'。将复杂的CAD布尔运算、曲线拟合下沉到C++/Rust层（通过FFI），但在Dart层提供类似Stream的异步接口。这不仅是调用，而是将'计算密集型任务'像处理'IO密集型任务'一样管理，利用Dart的Isolate实现非阻塞的3D模型处理，使得移动端App具备桌面级CAD建模能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.854964",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_115_O5_4670",
+  "design_spec": {
+    "name": "auto_开发_跨平台几何计算中间件_将复杂的c_4b428a",
+    "display_name": "开发'跨平台几何计算中间件'。将复杂的CAD布尔运算、曲线拟合下沉到C++/Rust层（通过FFI）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'跨平台几何计算中间件'。将复杂的CAD布尔运算、曲线拟合下沉到C++/Rust层（通过FFI），但在Dart层提供类似Stream的异步接口。这不仅是调用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

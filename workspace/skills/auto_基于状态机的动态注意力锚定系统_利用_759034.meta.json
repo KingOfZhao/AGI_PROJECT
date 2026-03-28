@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于状态机的动态注意力锚定系统_利用_759034",
+  "file": "skills/auto_基于状态机的动态注意力锚定系统_利用_759034.py",
+  "description": "【基于状态机的动态注意力锚定系统】：利用软件工程中调试器的'断点/监视'概念来增强LLM的上下文管理。系统在处理长链任务（无论是推理还是长对话编程）时，显式维护一个'变量引用解析图'（Reference Resolution Graph）。当检测到'注意力漂移'（如无关噪音引入）时，自动回溯到最近的一个'高置信度真实节点'，重新校准推理路径，确保'它'永远指向正确的变量对象，而非幻觉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.566622",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_126_O3_3916",
+  "design_spec": {
+    "name": "auto_基于状态机的动态注意力锚定系统_利用_759034",
+    "display_name": "【基于状态机的动态注意力锚定系统】：利用软件工程中调试器的'断点/监视'概念来增强LLM的上下文管理",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于状态机的动态注意力锚定系统】：利用软件工程中调试器的'断点/监视'概念来增强LLM的上下文管理。系统在处理长链任务（无论是推理还是长对话编程）时，显式维护",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

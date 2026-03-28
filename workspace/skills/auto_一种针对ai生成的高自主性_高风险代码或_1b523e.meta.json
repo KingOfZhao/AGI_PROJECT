@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种针对ai生成的高自主性_高风险代码或_1b523e",
+  "file": "skills/auto_一种针对ai生成的高自主性_高风险代码或_1b523e.py",
+  "description": "一种针对AI生成的高自主性、高风险代码或假设的自动化验证与防御体系。该概念强调在‘真实环境’执行前，必须在‘隔离沙箱’中进行极端压力测试。它结合了‘元认知监控’（评估置信度）与‘恶意推演’（主动生成攻击性输入），试图通过‘定向碰撞’来击穿AI的幻觉或逻辑漏洞。只有通过证伪测试的节点才能被标记为‘真实节点’，从而实现从假设到实践的绝对安全跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.847832",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_115_P4_2167",
+  "design_spec": {
+    "name": "auto_一种针对ai生成的高自主性_高风险代码或_1b523e",
+    "display_name": "一种针对AI生成的高自主性、高风险代码或假设的自动化验证与防御体系。该概念强调在‘真实环境’执行前，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种针对AI生成的高自主性、高风险代码或假设的自动化验证与防御体系。该概念强调在‘真实环境’执行前，必须在‘隔离沙箱’中进行极端压力测试。它结合了‘元认知监控’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

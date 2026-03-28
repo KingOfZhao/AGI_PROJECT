@@ -1,0 +1,30 @@
+{
+  "name": "auto_在意图转代码的过程中_如何定义并实现_认_7a0d55",
+  "file": "skills/auto_在意图转代码的过程中_如何定义并实现_认_7a0d55.py",
+  "description": "在意图转代码的过程中，如何定义并实现'认知上下文窗口'的动态裁剪与加载？代码生成往往受限于Token限制，且无关的上下文会引入噪声。需要一种机制，能够根据当前正在处理的'意图节点'，动态检索并加载最相关的'真实节点'（如特定的库文档、历史代码片段），排除无关干扰。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "rag/context_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.558224",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_126_Q3_1_2725",
+  "design_spec": {
+    "name": "auto_在意图转代码的过程中_如何定义并实现_认_7a0d55",
+    "display_name": "在意图转代码的过程中，如何定义并实现'认知上下文窗口'的动态裁剪与加载？代码生成往往受限于Token",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在意图转代码的过程中，如何定义并实现'认知上下文窗口'的动态裁剪与加载？代码生成往往受限于Token限制，且无关的上下文会引入噪声。需要一种机制，能够根据当前正",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

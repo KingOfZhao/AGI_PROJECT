@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_跨模态神经符号编译器_该能力不_2b2294",
+  "file": "skills/auto_融合能力_跨模态神经符号编译器_该能力不_2b2294.py",
+  "description": "融合能力：跨模态神经符号编译器。该能力不再是简单的文本解析，而是将非结构化的自然语言直接编译为可执行的中间表示（IR）或逻辑形式。它利用Compiler的类型系统和作用域检查来约束NLP的生成过程，消除大模型的幻觉。例如，用户用口语描述业务逻辑，系统直接将其编译为带有类型检查的确定性代码或数据库查询语句，实现'所想即所得'的零代码开发。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.355092",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_146_O1_6929",
+  "design_spec": {
+    "name": "auto_融合能力_跨模态神经符号编译器_该能力不_2b2294",
+    "display_name": "融合能力：跨模态神经符号编译器。该能力不再是简单的文本解析，而是将非结构化的自然语言直接编译为可执行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：跨模态神经符号编译器。该能力不再是简单的文本解析，而是将非结构化的自然语言直接编译为可执行的中间表示（IR）或逻辑形式。它利用Compiler的类型系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

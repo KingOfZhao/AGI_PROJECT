@@ -1,0 +1,30 @@
+{
+  "name": "auto_创造_自优化形态发生器_将物理力学模拟_c76c48",
+  "file": "skills/auto_创造_自优化形态发生器_将物理力学模拟_c76c48.py",
+  "description": "创造'自优化形态发生器'。将物理力学模拟直接嵌入神经网络的前向传播过程。不再是先设计后验算，而是'生成即计算'。AI根据环境荷载（风/重力/地震）自动演算出最优的仿生结构形态，类似于骨骼的沃夫定律（Wolff's law），在使用中自动强化高应力区，实现零浪费的参数化建筑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.600926",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_60_O2_4387",
+  "design_spec": {
+    "name": "auto_创造_自优化形态发生器_将物理力学模拟_c76c48",
+    "display_name": "创造'自优化形态发生器'。将物理力学模拟直接嵌入神经网络的前向传播过程。不再是先设计后验算，而是'生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创造'自优化形态发生器'。将物理力学模拟直接嵌入神经网络的前向传播过程。不再是先设计后验算，而是'生成即计算'。AI根据环境荷载（风/重力/地震）自动演算出最优",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

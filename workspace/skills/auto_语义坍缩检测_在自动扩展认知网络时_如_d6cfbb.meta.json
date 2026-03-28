@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义坍缩检测_在自动扩展认知网络时_如_d6cfbb",
+  "file": "skills/auto_语义坍缩检测_在自动扩展认知网络时_如_d6cfbb.py",
+  "description": "【语义坍缩检测】在自动扩展认知网络时，如何防止‘语义坍缩’（Semantic Collapse）？即防止新节点仅仅是旧节点的同义词，导致网络冗余而非增长。需要开发一种基于‘功能差异性’的验证机制：新节点必须在特定的上下文中表现出与所有现有节点不同的决策行为，才能被接纳。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "knowledge_representation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.724547",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q5_0_5246",
+  "design_spec": {
+    "name": "auto_语义坍缩检测_在自动扩展认知网络时_如_d6cfbb",
+    "display_name": "【语义坍缩检测】在自动扩展认知网络时，如何防止‘语义坍缩’（Semantic Collapse）？即",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义坍缩检测】在自动扩展认知网络时，如何防止‘语义坍缩’（Semantic Collapse）？即防止新节点仅仅是旧节点的同义词，导致网络冗余而非增长。需要开",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 287
+  }
+}

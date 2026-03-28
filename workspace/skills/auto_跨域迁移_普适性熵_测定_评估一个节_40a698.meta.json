@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移_普适性熵_测定_评估一个节_40a698",
+  "file": "skills/auto_跨域迁移_普适性熵_测定_评估一个节_40a698.py",
+  "description": "【跨域迁移】'普适性熵'测定：评估一个节点在不同上下文环境中的'失真度'。将一个特定的SKILL（如'数据分析'）强行迁移到不相关的领域（如'诗歌鉴赏'）中，测量其输出结果的语义连贯性。高质量节点应具备在异构环境中保持核心逻辑不崩塌的能力（即低熵增）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.286030",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q3_0_3605",
+  "design_spec": {
+    "name": "auto_跨域迁移_普适性熵_测定_评估一个节_40a698",
+    "display_name": "【跨域迁移】'普适性熵'测定：评估一个节点在不同上下文环境中的'失真度'。将一个特定的SKILL（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移】'普适性熵'测定：评估一个节点在不同上下文环境中的'失真度'。将一个特定的SKILL（如'数据分析'）强行迁移到不相关的领域（如'诗歌鉴赏'）中，测",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 301
+  }
+}

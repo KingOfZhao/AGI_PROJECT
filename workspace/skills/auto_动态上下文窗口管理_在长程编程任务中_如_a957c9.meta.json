@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态上下文窗口管理_在长程编程任务中_如_a957c9",
+  "file": "skills/auto_动态上下文窗口管理_在长程编程任务中_如_a957c9.py",
+  "description": "动态上下文窗口管理：在长程编程任务中，如何构建'记忆流'机制，决定哪些历史对话片段、代码片段或文档应保留在有限的工作记忆（Context Window）中，以维持意图的一致性？这是解决'遗忘初衷'导致代码逻辑崩塌的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.054610",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q3_3_6903",
+  "design_spec": {
+    "name": "auto_动态上下文窗口管理_在长程编程任务中_如_a957c9",
+    "display_name": "动态上下文窗口管理：在长程编程任务中，如何构建'记忆流'机制，决定哪些历史对话片段、代码片段或文档应",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态上下文窗口管理：在长程编程任务中，如何构建'记忆流'机制，决定哪些历史对话片段、代码片段或文档应保留在有限的工作记忆（Context Window）中，以维",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 243
+  }
+}

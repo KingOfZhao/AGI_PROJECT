@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_隐性知识向量化_bu_46_p1_7313e7",
+  "file": "skills/auto_结合_隐性知识向量化_bu_46_p1_7313e7.py",
+  "description": "结合'隐性知识向量化'(bu_46_P1_9968)与'物理仿真'(td_46_Q10_2_4231)及'反直觉沙盒'(ho_46_O1_269)。AI不仅能生成游戏代码，还能构建包含'手感'、'重力感'等非视觉物理属性的虚拟训练场，让用户在VR环境中习得只有老师傅才具备的隐性肌肉记忆，实现认知的'具身化'传递。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.389045",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_47_E1_8409",
+  "design_spec": {
+    "name": "auto_结合_隐性知识向量化_bu_46_p1_7313e7",
+    "display_name": "结合'隐性知识向量化'(bu_46_P1_9968)与'物理仿真'(td_46_Q10_2_4231",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'隐性知识向量化'(bu_46_P1_9968)与'物理仿真'(td_46_Q10_2_4231)及'反直觉沙盒'(ho_46_O1_269)。AI不仅能生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

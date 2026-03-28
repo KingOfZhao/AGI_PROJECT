@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_基因编译型边缘计算架构_当前se_f71827",
+  "file": "skills/auto_建立_基因编译型边缘计算架构_当前se_f71827.py",
+  "description": "建立'基因编译型边缘计算架构'。当前Serverless冷启动慢是因为环境重置。生物学中，核糖体大小亚基是预组装随时待命的。融合能力提出'亚基化'微服务架构：将服务拆分为极轻量的'大小亚基'（基础Runtime与业务Logic分离），常驻内存但不激活。当请求到达，瞬间在边缘节点'拼装'成完整服务实例。支持'RNA剪接'式的动态功能裁剪，按需加载最小依赖集，实现毫秒级冷启动。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.433331",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_23_O3_8163",
+  "design_spec": {
+    "name": "auto_建立_基因编译型边缘计算架构_当前se_f71827",
+    "display_name": "建立'基因编译型边缘计算架构'。当前Serverless冷启动慢是因为环境重置。生物学中，核糖体大小",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'基因编译型边缘计算架构'。当前Serverless冷启动慢是因为环境重置。生物学中，核糖体大小亚基是预组装随时待命的。融合能力提出'亚基化'微服务架构：将",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 231
+  }
+}

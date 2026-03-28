@@ -1,0 +1,30 @@
+{
+  "name": "auto_验证_长程逻辑一致性_在构建一个包含至_48f061",
+  "file": "skills/auto_验证_长程逻辑一致性_在构建一个包含至_48f061.py",
+  "description": "验证'长程逻辑一致性'。在构建一个包含至少10个步骤的复杂任务链（如'从零开始设计并部署一个在线商店'）时，AI是否能在第10步依然严格遵守第1步设定的隐性约束（如'预算不超过100元'或'只使用开源工具'）。这测试的是AI是否具备全局工作记忆，还是仅具有局部流畅性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.629203",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_106_Q2_2_6925",
+  "design_spec": {
+    "name": "auto_验证_长程逻辑一致性_在构建一个包含至_48f061",
+    "display_name": "验证'长程逻辑一致性'。在构建一个包含至少10个步骤的复杂任务链（如'从零开始设计并部署一个在线商店",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "验证'长程逻辑一致性'。在构建一个包含至少10个步骤的复杂任务链（如'从零开始设计并部署一个在线商店'）时，AI是否能在第10步依然严格遵守第1步设定的隐性约束",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 255
+  }
+}

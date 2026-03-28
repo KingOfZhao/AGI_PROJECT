@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_神经符号中间态_不再将文本视为高_9eb71e",
+  "file": "skills/auto_开发_神经符号中间态_不再将文本视为高_9eb71e.py",
+  "description": "开发‘神经符号中间态’。不再将文本视为高维连续向量，而是将其编译为一种‘可微分的中间表示’。这种IR保留了自然语言的模糊性（概率分布），同时引入了IR的显式控制流（Control Flow Graph）。这允许我们在向量空间中进行类似编译器优化的‘语义死代码消除’或‘语义常量折叠’，即在生成回复前，先在IR层面优化思维链，去除冗余逻辑，提高大模型推理的确定性和效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.520266",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_147_O2_4955",
+  "design_spec": {
+    "name": "auto_开发_神经符号中间态_不再将文本视为高_9eb71e",
+    "display_name": "开发‘神经符号中间态’。不再将文本视为高维连续向量，而是将其编译为一种‘可微分的中间表示’。这种IR",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘神经符号中间态’。不再将文本视为高维连续向量，而是将其编译为一种‘可微分的中间表示’。这种IR保留了自然语言的模糊性（概率分布），同时引入了IR的显式控制",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

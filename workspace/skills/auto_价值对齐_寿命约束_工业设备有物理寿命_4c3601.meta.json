@@ -1,0 +1,30 @@
+{
+  "name": "auto_价值对齐_寿命约束_工业设备有物理寿命_4c3601",
+  "file": "skills/auto_价值对齐_寿命约束_工业设备有物理寿命_4c3601.py",
+  "description": "【价值对齐：寿命约束】工业设备有物理寿命限制。问题：如何将材料的‘疲劳曲线’作为物理约束边界，硬编码进AGI的决策网络中，确保AGI在优化生产效率（自下而上）时，绝不会生成‘过度损耗设备以换取短期产出’的指令？这是防止AGI‘走火入魔’的安全阀。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "risk_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.347852",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q8_3_8808",
+  "design_spec": {
+    "name": "auto_价值对齐_寿命约束_工业设备有物理寿命_4c3601",
+    "display_name": "【价值对齐：寿命约束】工业设备有物理寿命限制。问题：如何将材料的‘疲劳曲线’作为物理约束边界，硬编码",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【价值对齐：寿命约束】工业设备有物理寿命限制。问题：如何将材料的‘疲劳曲线’作为物理约束边界，硬编码进AGI的决策网络中，确保AGI在优化生产效率（自下而上）时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

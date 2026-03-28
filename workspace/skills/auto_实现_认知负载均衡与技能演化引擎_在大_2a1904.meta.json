@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_认知负载均衡与技能演化引擎_在大_2a1904",
+  "file": "skills/auto_实现_认知负载均衡与技能演化引擎_在大_2a1904.py",
+  "description": "实现'认知负载均衡与技能演化引擎'。在大型工厂中，将不同类型的任务（认知请求）视为'流量'，将不同技能水平的员工或AI Agent视为'服务实例'。系统根据'生态位'（技能特长）自动分发任务。更重要的是，当系统检测到某类认知任务（如特定故障排查）处理效率低下时，自动保留一部分'变异'尝试（非标准做法），如果变异表现更好，则将其固化为新物种（新真实节点），推动知识演化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.788013",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O4_7118",
+  "design_spec": {
+    "name": "auto_实现_认知负载均衡与技能演化引擎_在大_2a1904",
+    "display_name": "实现'认知负载均衡与技能演化引擎'。在大型工厂中，将不同类型的任务（认知请求）视为'流量'，将不同技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'认知负载均衡与技能演化引擎'。在大型工厂中，将不同类型的任务（认知请求）视为'流量'，将不同技能水平的员工或AI Agent视为'服务实例'。系统根据'生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

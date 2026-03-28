@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发基于_认知roi_的节点遗忘机制_鉴_eec361",
+  "file": "skills/auto_开发基于_认知roi_的节点遗忘机制_鉴_eec361.py",
+  "description": "开发基于‘认知ROI’的节点遗忘机制。鉴于‘解决人类寿命限制’的目标，系统需模拟人类大脑的‘突触修剪’。当节点库超过5000时，如何定义‘认知资产折旧’？需设计一个公式，结合节点的‘最后被调用时间’、‘连接权重’和‘实践证伪次数’，自动降级或归档那些ROI低于阈值的节点，以保持系统的高效与敏捷。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "system_optimization",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.838301",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q6_2_9854",
+  "design_spec": {
+    "name": "auto_开发基于_认知roi_的节点遗忘机制_鉴_eec361",
+    "display_name": "开发基于‘认知ROI’的节点遗忘机制。鉴于‘解决人类寿命限制’的目标，系统需模拟人类大脑的‘突触修剪",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发基于‘认知ROI’的节点遗忘机制。鉴于‘解决人类寿命限制’的目标，系统需模拟人类大脑的‘突触修剪’。当节点库超过5000时，如何定义‘认知资产折旧’？需设计",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_幻觉代码过滤机制_基于_真实节点_4027fb",
+  "file": "skills/auto_建立_幻觉代码过滤机制_基于_真实节点_4027fb.py",
+  "description": "建立'幻觉代码过滤机制'，基于'真实节点'概念。大模型生成的代码往往包含过时的库调用或不存在的API。本子问题要求构建一个静态分析器，其白名单仅限于现有节点库中已验证的API和模式。任何生成的代码必须通过该白名单的校验才能被视为'可执行'，以此强制AI在'认知自洽'的边界内工作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.438790",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q5_3_4954",
+  "design_spec": {
+    "name": "auto_建立_幻觉代码过滤机制_基于_真实节点_4027fb",
+    "display_name": "建立'幻觉代码过滤机制'，基于'真实节点'概念。大模型生成的代码往往包含过时的库调用或不存在的API",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'幻觉代码过滤机制'，基于'真实节点'概念。大模型生成的代码往往包含过时的库调用或不存在的API。本子问题要求构建一个静态分析器，其白名单仅限于现有节点库中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 263
+  }
+}

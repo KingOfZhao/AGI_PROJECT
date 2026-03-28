@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态技能固化机制_当代码成功执行并解决_0b80cd",
+  "file": "skills/auto_动态技能固化机制_当代码成功执行并解决_0b80cd.py",
+  "description": "【动态技能固化机制】当代码成功执行并解决了一个新类型的意图后，如何自动提取该过程为一个可复用的'真实节点'并更新到Skill库（当前1703），避免每次重新造轮子？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "meta_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.111415",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q7_1_8386",
+  "design_spec": {
+    "name": "auto_动态技能固化机制_当代码成功执行并解决_0b80cd",
+    "display_name": "【动态技能固化机制】当代码成功执行并解决了一个新类型的意图后，如何自动提取该过程为一个可复用的'真实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态技能固化机制】当代码成功执行并解决了一个新类型的意图后，如何自动提取该过程为一个可复用的'真实节点'并更新到Skill库（当前1703），避免每次重新造轮",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 295
+  }
+}

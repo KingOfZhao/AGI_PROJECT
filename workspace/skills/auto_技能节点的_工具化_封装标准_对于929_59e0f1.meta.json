@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能节点的_工具化_封装标准_对于929_59e0f1",
+  "file": "skills/auto_技能节点的_工具化_封装标准_对于929_59e0f1.py",
+  "description": "技能节点的‘工具化’封装标准：对于929个Skill节点，如何自动判断其是否具备API化潜质？需设计一套解析器，将自然语言描述的Skill转化为结构化的JSON Schema（定义Input, Output, Side-effect），使其能被其他节点像函数一样调用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.084962",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q9_2_9740",
+  "design_spec": {
+    "name": "auto_技能节点的_工具化_封装标准_对于929_59e0f1",
+    "display_name": "技能节点的‘工具化’封装标准：对于929个Skill节点，如何自动判断其是否具备API化潜质？需设计",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "技能节点的‘工具化’封装标准：对于929个Skill节点，如何自动判断其是否具备API化潜质？需设计一套解析器，将自然语言描述的Skill转化为结构化的JSON",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 376
+  }
+}

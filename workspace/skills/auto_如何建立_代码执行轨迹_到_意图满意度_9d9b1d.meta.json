@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立_代码执行轨迹_到_意图满意度_9d9b1d",
+  "file": "skills/auto_如何建立_代码执行轨迹_到_意图满意度_9d9b1d.py",
+  "description": "如何建立‘代码执行轨迹’到‘意图满意度’的映射模型？代码不仅在语法上正确，还需在行为上符合模糊意图。系统需要构建一个预测模型，在代码运行前预测其状态空间轨迹，并与人类直觉产生的‘意图轨迹’进行比对。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "formal_verification",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.272267",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q8_3_4241",
+  "design_spec": {
+    "name": "auto_如何建立_代码执行轨迹_到_意图满意度_9d9b1d",
+    "display_name": "如何建立‘代码执行轨迹’到‘意图满意度’的映射模型？代码不仅在语法上正确，还需在行为上符合模糊意图。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立‘代码执行轨迹’到‘意图满意度’的映射模型？代码不仅在语法上正确，还需在行为上符合模糊意图。系统需要构建一个预测模型，在代码运行前预测其状态空间轨迹，并",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

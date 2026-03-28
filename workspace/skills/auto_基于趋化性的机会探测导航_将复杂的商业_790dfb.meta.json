@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于趋化性的机会探测导航_将复杂的商业_790dfb",
+  "file": "skills/auto_基于趋化性的机会探测导航_将复杂的商业_790dfb.py",
+  "description": "【基于趋化性的机会探测导航】将复杂的商业机会搜索降维成生物本能级的'嗅觉'导航。在海量数据流中，AI不需要构建全知全能的地图，而是利用'趋化性算法'沿着数据梯度（如用户情绪浓度、价格洼地、流量高峰）进行'布朗运动+梯度攀登'。这特别适合处理非结构化、极高动态的碎片化市场（如地摊经济、短期套利）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.227353",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_144_O4_8280",
+  "design_spec": {
+    "name": "auto_基于趋化性的机会探测导航_将复杂的商业_790dfb",
+    "display_name": "【基于趋化性的机会探测导航】将复杂的商业机会搜索降维成生物本能级的'嗅觉'导航。在海量数据流中，AI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于趋化性的机会探测导航】将复杂的商业机会搜索降维成生物本能级的'嗅觉'导航。在海量数据流中，AI不需要构建全知全能的地图，而是利用'趋化性算法'沿着数据梯度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

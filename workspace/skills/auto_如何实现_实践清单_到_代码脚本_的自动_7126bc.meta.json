@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_实践清单_到_代码脚本_的自动_7126bc",
+  "file": "skills/auto_如何实现_实践清单_到_代码脚本_的自动_7126bc.py",
+  "description": "如何实现“实践清单”到“代码脚本”的自动转译与证伪？人机共生中，人类负责实践证伪，AI负责梳理清单。本问题要求系统具备“反事实模拟”能力：在人类执行物理实践前，AI在虚拟环境中预演清单，剔除逻辑上不可行的步骤，只输出可证伪的、最小化的行动集。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "digital_twin",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.310848",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q7_1_2332",
+  "design_spec": {
+    "name": "auto_如何实现_实践清单_到_代码脚本_的自动_7126bc",
+    "display_name": "如何实现“实践清单”到“代码脚本”的自动转译与证伪？人机共生中，人类负责实践证伪，AI负责梳理清单。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现“实践清单”到“代码脚本”的自动转译与证伪？人机共生中，人类负责实践证伪，AI负责梳理清单。本问题要求系统具备“反事实模拟”能力：在人类执行物理实践前，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 342
+  }
+}

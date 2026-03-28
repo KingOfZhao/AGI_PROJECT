@@ -1,0 +1,30 @@
+{
+  "name": "auto_虽有全息数字孪生_bu_89_p1_54_ab55d6",
+  "file": "skills/auto_虽有全息数字孪生_bu_89_p1_54_ab55d6.py",
+  "description": "虽有全息数字孪生（bu_89_P1_5493），但缺乏针对'反常识物理现象'（如非牛顿流体、高熵环境）的专门处理节点。建议引入'反直觉物理案例库'以增强机器人在极端环境下的适应性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.473453",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_90_G2_4825",
+  "design_spec": {
+    "name": "auto_虽有全息数字孪生_bu_89_p1_54_ab55d6",
+    "display_name": "虽有全息数字孪生（bu_89_P1_5493），但缺乏针对'反常识物理现象'（如非牛顿流体、高熵环境",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "虽有全息数字孪生（bu_89_P1_5493），但缺乏针对'反常识物理现象'（如非牛顿流体、高熵环境）的专门处理节点。建议引入'反直觉物理案例库'以增强机器人在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 301
+  }
+}

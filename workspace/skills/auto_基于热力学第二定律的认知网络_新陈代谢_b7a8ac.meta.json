@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于热力学第二定律的认知网络_新陈代谢_b7a8ac",
+  "file": "skills/auto_基于热力学第二定律的认知网络_新陈代谢_b7a8ac.py",
+  "description": "基于热力学第二定律的认知网络'新陈代谢'机制。AGI不能只增不减。需设计算法监测节点的'活性'（调用频率与实践成功率）。当一个旧节点（如'软盘存储'）长时间未被调用，或在现代语境下被证伪，系统应将其'降解'为历史索引而非活跃推理节点，防止认知僵化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "Systems Architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.510836",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_5_Q3_1_9126",
+  "design_spec": {
+    "name": "auto_基于热力学第二定律的认知网络_新陈代谢_b7a8ac",
+    "display_name": "基于热力学第二定律的认知网络'新陈代谢'机制。AGI不能只增不减。需设计算法监测节点的'活性'（调用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于热力学第二定律的认知网络'新陈代谢'机制。AGI不能只增不减。需设计算法监测节点的'活性'（调用频率与实践成功率）。当一个旧节点（如'软盘存储'）长时间未被",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 226
+  }
+}

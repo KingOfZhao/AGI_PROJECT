@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽性的闭环验证模拟器_针对_小摊贩_44dd84",
+  "file": "skills/auto_认知自洽性的闭环验证模拟器_针对_小摊贩_44dd84.py",
+  "description": "认知自洽性的闭环验证模拟器：针对'小摊贩摆摊'这类高度依赖经验的节点，如何构建一个轻量级模拟器，允许AI在无需人类物理介入的情况下进行'模拟实践证伪'，从而加速认知闭环？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "Digital Twin / RL",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.579440",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_130_Q7_1_6497",
+  "design_spec": {
+    "name": "auto_认知自洽性的闭环验证模拟器_针对_小摊贩_44dd84",
+    "display_name": "认知自洽性的闭环验证模拟器：针对'小摊贩摆摊'这类高度依赖经验的节点，如何构建一个轻量级模拟器，允许",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知自洽性的闭环验证模拟器：针对'小摊贩摆摊'这类高度依赖经验的节点，如何构建一个轻量级模拟器，允许AI在无需人类物理介入的情况下进行'模拟实践证伪'，从而加速",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

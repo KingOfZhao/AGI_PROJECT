@@ -1,0 +1,30 @@
+{
+  "name": "auto_记忆压缩与检索效率_随着719个节点增长_581e11",
+  "file": "skills/auto_记忆压缩与检索效率_随着719个节点增长_581e11.py",
+  "description": "记忆压缩与检索效率：随着719个节点增长到百万级，如何保证意图匹配的检索速度？验证一种分层记忆索引机制，确保常用技能（高频节点）被优先检索，低频节点归档但不丢失。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "information_retrieval",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.418139",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q10_3_8723",
+  "design_spec": {
+    "name": "auto_记忆压缩与检索效率_随着719个节点增长_581e11",
+    "display_name": "记忆压缩与检索效率：随着719个节点增长到百万级，如何保证意图匹配的检索速度？验证一种分层记忆索引机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "记忆压缩与检索效率：随着719个节点增长到百万级，如何保证意图匹配的检索速度？验证一种分层记忆索引机制，确保常用技能（高频节点）被优先检索，低频节点归档但不丢失",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 337
+  }
+}

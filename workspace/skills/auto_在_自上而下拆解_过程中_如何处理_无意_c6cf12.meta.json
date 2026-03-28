@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_自上而下拆解_过程中_如何处理_无意_c6cf12",
+  "file": "skills/auto_在_自上而下拆解_过程中_如何处理_无意_c6cf12.py",
+  "description": "在'自上而下拆解'过程中，如何处理'无意识能力'（Unconscious Competence）？设计特定的交互协议，通过'冻结-提问'（Freeze-Probe）机制，在动作关键帧强制中断专家，捕捉瞬时工作记忆。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "cognitive_psychology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.420490",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_142_Q10_2_8407",
+  "design_spec": {
+    "name": "auto_在_自上而下拆解_过程中_如何处理_无意_c6cf12",
+    "display_name": "在'自上而下拆解'过程中，如何处理'无意识能力'（Unconscious Competence）？设",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'自上而下拆解'过程中，如何处理'无意识能力'（Unconscious Competence）？设计特定的交互协议，通过'冻结-提问'（Freeze-Prob",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

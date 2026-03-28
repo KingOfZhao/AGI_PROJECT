@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应工程图生成系统_将cad的装配约束_ef5685",
+  "file": "skills/auto_自适应工程图生成系统_将cad的装配约束_ef5685.py",
+  "description": "自适应工程图生成系统。将CAD的装配约束转化为Flutter的布局协议。开发一套'Engineering Layout Widgets'，其中'紧配合'对应tight约束，'间隙配合'对应loose约束。工程师不再需要手动计算工程图的投影位置，只需定义装配逻辑，系统即可像渲染UI一样，根据图纸幅面自动排版视图、生成BOM表，并确保标注不重叠（类似Stack避让）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.397401",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_128_O2_3487",
+  "design_spec": {
+    "name": "auto_自适应工程图生成系统_将cad的装配约束_ef5685",
+    "display_name": "自适应工程图生成系统。将CAD的装配约束转化为Flutter的布局协议。开发一套'Engineeri",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自适应工程图生成系统。将CAD的装配约束转化为Flutter的布局协议。开发一套'Engineering Layout Widgets'，其中'紧配合'对应ti",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

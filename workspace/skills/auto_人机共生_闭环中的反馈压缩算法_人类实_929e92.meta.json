@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_闭环中的反馈压缩算法_人类实_929e92",
+  "file": "skills/auto_人机共生_闭环中的反馈压缩算法_人类实_929e92.py",
+  "description": "‘人机共生’闭环中的反馈压缩算法：人类实践证伪后产生的反馈往往是高噪、非结构化的（如‘这东西根本没法用’）。如何设计一个算法，将这种高噪反馈压缩并固化为一个新的‘真实节点’（如‘UI_交互_反模式_001’），并反向更新到现有网络中而不破坏原有网络的权重平衡？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_34",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:27:34.182701",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_34_Q4_1_9520",
+  "design_spec": {
+    "name": "auto_人机共生_闭环中的反馈压缩算法_人类实_929e92",
+    "display_name": "‘人机共生’闭环中的反馈压缩算法：人类实践证伪后产生的反馈往往是高噪、非结构化的（如‘这东西根本没法",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘人机共生’闭环中的反馈压缩算法：人类实践证伪后产生的反馈往往是高噪、非结构化的（如‘这东西根本没法用’）。如何设计一个算法，将这种高噪反馈压缩并固化为一个新的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

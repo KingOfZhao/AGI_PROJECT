@@ -1,0 +1,30 @@
+{
+  "name": "auto_工业制造中存在大量_隐性知识_老师傅的_d427e2",
+  "file": "skills/auto_工业制造中存在大量_隐性知识_老师傅的_d427e2.py",
+  "description": "工业制造中存在大量'隐性知识'（老师傅的手感、经验），如何通过'人机共生'机制将其显性化为'真实节点'？本实验旨在构建一个交互界面，让资深技工对AI生成的初始工艺参数进行微调。系统需捕捉人类的调整轨迹（如'增加了0.5秒冷却时间'），并将其固化为'避免变形'这一策略节点。验证重点在于AI能否从单次调整中归纳出通用规则。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.561386",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q2_1_4130",
+  "design_spec": {
+    "name": "auto_工业制造中存在大量_隐性知识_老师傅的_d427e2",
+    "display_name": "工业制造中存在大量'隐性知识'（老师傅的手感、经验），如何通过'人机共生'机制将其显性化为'真实节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "工业制造中存在大量'隐性知识'（老师傅的手感、经验），如何通过'人机共生'机制将其显性化为'真实节点'？本实验旨在构建一个交互界面，让资深技工对AI生成的初始工",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

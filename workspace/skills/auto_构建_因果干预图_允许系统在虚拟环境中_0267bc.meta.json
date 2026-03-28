@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_因果干预图_允许系统在虚拟环境中_0267bc",
+  "file": "skills/auto_构建_因果干预图_允许系统在虚拟环境中_0267bc.py",
+  "description": "构建‘因果干预图’，允许系统在虚拟环境中修改某个节点参数，观察其对下游结果的影响，而不影响现实运行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.208821",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_49_G3_267",
+  "design_spec": {
+    "name": "auto_构建_因果干预图_允许系统在虚拟环境中_0267bc",
+    "display_name": "构建‘因果干预图’，允许系统在虚拟环境中修改某个节点参数，观察其对下游结果的影响，而不影响现实运行。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘因果干预图’，允许系统在虚拟环境中修改某个节点参数，观察其对下游结果的影响，而不影响现实运行。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

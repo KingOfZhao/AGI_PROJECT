@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计基于_真实节点_索引的代码检索增_4517cf",
+  "file": "skills/auto_如何设计基于_真实节点_索引的代码检索增_4517cf.py",
+  "description": "如何设计基于'真实节点'索引的代码检索增强生成（RAG）系统？当收到结构化意图时，系统不应仅依赖向量相似度，而需基于已有3052个节点的拓扑结构进行图检索，找到最具'结构相似性'而非仅仅'语义相似性'的代码片段作为Few-shot示例，以减少幻觉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.663914",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_121_Q2_1_6817",
+  "design_spec": {
+    "name": "auto_如何设计基于_真实节点_索引的代码检索增_4517cf",
+    "display_name": "如何设计基于'真实节点'索引的代码检索增强生成（RAG）系统？当收到结构化意图时，系统不应仅依赖向量",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计基于'真实节点'索引的代码检索增强生成（RAG）系统？当收到结构化意图时，系统不应仅依赖向量相似度，而需基于已有3052个节点的拓扑结构进行图检索，找到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

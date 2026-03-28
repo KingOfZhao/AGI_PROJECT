@@ -1,0 +1,30 @@
+{
+  "name": "auto_通过_交互式意图澄清_td_148_q_0c7472",
+  "file": "skills/auto_通过_交互式意图澄清_td_148_q_0c7472.py",
+  "description": "通过'交互式意图澄清'(td_148_Q4_3_7298)和'验证熵计算'(td_148_Q6_0_9836)。系统不再是被动等待反馈，而是主动计算'人类的困惑度'。当验证熵超过阈值，系统自动生成'最小代价证伪问题'，用最少的字数撬动最大的人类确认价值，实现高效的人机意图对齐。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.580937",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_149_E5_5301",
+  "design_spec": {
+    "name": "auto_通过_交互式意图澄清_td_148_q_0c7472",
+    "display_name": "通过'交互式意图澄清'(td_148_Q4_3_7298)和'验证熵计算'(td_148_Q6_0_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "通过'交互式意图澄清'(td_148_Q4_3_7298)和'验证熵计算'(td_148_Q6_0_9836)。系统不再是被动等待反馈，而是主动计算'人类的困惑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

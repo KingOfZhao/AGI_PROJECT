@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知高维映射_ai如何将线性的_扁平的_a20f54",
+  "file": "skills/auto_认知高维映射_ai如何将线性的_扁平的_a20f54.py",
+  "description": "【认知高维映射】AI如何将线性的、扁平的知识（如教科书文本）转化为具有拓扑结构的‘认知网络’？重点在于自动识别知识点的‘前置依赖’与‘后置启发’关系，构建有向无环图（DAG）。挑战在于处理隐含的依赖关系（即书中未明说但逻辑必须的依赖）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.735685",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q6_0_5246",
+  "design_spec": {
+    "name": "auto_认知高维映射_ai如何将线性的_扁平的_a20f54",
+    "display_name": "【认知高维映射】AI如何将线性的、扁平的知识（如教科书文本）转化为具有拓扑结构的‘认知网络’？重点在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知高维映射】AI如何将线性的、扁平的知识（如教科书文本）转化为具有拓扑结构的‘认知网络’？重点在于自动识别知识点的‘前置依赖’与‘后置启发’关系，构建有向无",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

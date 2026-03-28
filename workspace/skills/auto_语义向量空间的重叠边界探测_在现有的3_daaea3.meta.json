@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义向量空间的重叠边界探测_在现有的3_daaea3",
+  "file": "skills/auto_语义向量空间的重叠边界探测_在现有的3_daaea3.py",
+  "description": "【语义向量空间的重叠边界探测】在现有的3462个节点中，如何量化不同领域节点（如'生物进化'与'计算机迭代算法'）在潜在语义空间中的正交或重叠关系？具体而言，需要建立一个算法，计算高维向量空间中不同聚类簇之间的'语义渗透压'，当该值超过阈值时，提示存在跨域迁移的可能性，而非仅仅依赖关键词匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_134",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:33:15.344997",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_134_Q1_1_9509",
+  "design_spec": {
+    "name": "auto_语义向量空间的重叠边界探测_在现有的3_daaea3",
+    "display_name": "【语义向量空间的重叠边界探测】在现有的3462个节点中，如何量化不同领域节点（如'生物进化'与'计算",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义向量空间的重叠边界探测】在现有的3462个节点中，如何量化不同领域节点（如'生物进化'与'计算机迭代算法'）在潜在语义空间中的正交或重叠关系？具体而言，需",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

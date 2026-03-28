@@ -1,0 +1,30 @@
+{
+  "name": "auto_实践清单生成与闭环_针对一个完全陌生的_c0e286",
+  "file": "skills/auto_实践清单生成与闭环_针对一个完全陌生的_c0e286.py",
+  "description": "【实践清单生成与闭环】针对一个完全陌生的领域（如“如何在南极建立科考站”），AI能否生成一份包含物资、风险应对、人员配置的实践清单，并附带“验证指标”（如：物资清单需通过热量消耗公式校验）？这测试了解决方案的可实践性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_21",
+    "logistics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:48:16.350280",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_21_Q8_2_8666",
+  "design_spec": {
+    "name": "auto_实践清单生成与闭环_针对一个完全陌生的_c0e286",
+    "display_name": "【实践清单生成与闭环】针对一个完全陌生的领域（如“如何在南极建立科考站”），AI能否生成一份包含物资",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【实践清单生成与闭环】针对一个完全陌生的领域（如“如何在南极建立科考站”），AI能否生成一份包含物资、风险应对、人员配置的实践清单，并附带“验证指标”（如：物资",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

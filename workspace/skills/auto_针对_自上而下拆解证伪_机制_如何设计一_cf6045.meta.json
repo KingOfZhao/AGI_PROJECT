@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_自上而下拆解证伪_机制_如何设计一_cf6045",
+  "file": "skills/auto_针对_自上而下拆解证伪_机制_如何设计一_cf6045.py",
+  "description": "针对'自上而下拆解证伪'机制，如何设计一个算法，能够将一个抽象的高级目标（如'打造爆款产品'）递归拆解为最小可执行的原子任务，并映射到现有的1070个SKILL节点上？若映射失败，系统能否自动生成'技能缺口报告'，提示需要补充的特定技能节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cognitive_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:10.972946",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q2_3_7871",
+  "design_spec": {
+    "name": "auto_针对_自上而下拆解证伪_机制_如何设计一_cf6045",
+    "display_name": "针对'自上而下拆解证伪'机制，如何设计一个算法，能够将一个抽象的高级目标（如'打造爆款产品'）递归拆",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'自上而下拆解证伪'机制，如何设计一个算法，能够将一个抽象的高级目标（如'打造爆款产品'）递归拆解为最小可执行的原子任务，并映射到现有的1070个SKILL",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 250
+  }
+}

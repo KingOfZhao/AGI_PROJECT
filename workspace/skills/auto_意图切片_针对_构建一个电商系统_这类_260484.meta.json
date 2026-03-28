@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图切片_针对_构建一个电商系统_这类_260484",
+  "file": "skills/auto_意图切片_针对_构建一个电商系统_这类_260484.py",
+  "description": "【意图切片】针对'构建一个电商系统'这类宏大的复合意图，如何基于现有的1207个SKILL节点，通过图算法（如最小生成树或最短路径）将其拆解为一系列具有拓扑依赖关系的子任务序列？重点在于识别'逻辑断点'，即现有SKILL无法覆盖的空白区域。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "task_decomposition",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.803724",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q2_3_4004",
+  "design_spec": {
+    "name": "auto_意图切片_针对_构建一个电商系统_这类_260484",
+    "display_name": "【意图切片】针对'构建一个电商系统'这类宏大的复合意图，如何基于现有的1207个SKILL节点，通过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图切片】针对'构建一个电商系统'这类宏大的复合意图，如何基于现有的1207个SKILL节点，通过图算法（如最小生成树或最短路径）将其拆解为一系列具有拓扑依赖",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 320
+  }
+}

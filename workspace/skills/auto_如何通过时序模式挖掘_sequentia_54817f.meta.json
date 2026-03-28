@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过时序模式挖掘_sequentia_54817f",
+  "file": "skills/auto_如何通过时序模式挖掘_sequentia_54817f.py",
+  "description": "如何通过时序模式挖掘（Sequential Pattern Mining）将‘人类实践日志’自动转化为‘可执行代码’或‘工作流节点’？当前系统虽有2487个技能，但多为文本描述。需设计一种解析器，读取人类在IDE或软件操作中的行为日志，自动识别重复出现的操作序列，并将其抽象为新的‘Skill_Node’，实现自下而上的归纳构建。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.512203",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_147_Q3_0_2541",
+  "design_spec": {
+    "name": "auto_如何通过时序模式挖掘_sequentia_54817f",
+    "display_name": "如何通过时序模式挖掘（Sequential Pattern Mining）将‘人类实践日志’自动转化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过时序模式挖掘（Sequential Pattern Mining）将‘人类实践日志’自动转化为‘可执行代码’或‘工作流节点’？当前系统虽有2487个技能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

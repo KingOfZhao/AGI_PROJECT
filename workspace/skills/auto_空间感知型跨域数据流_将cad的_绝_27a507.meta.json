@@ -1,0 +1,30 @@
+{
+  "name": "auto_空间感知型跨域数据流_将cad的_绝_27a507",
+  "file": "skills/auto_空间感知型跨域数据流_将cad的_绝_27a507.py",
+  "description": "‘空间感知型跨域数据流’。将CAD的‘绝对坐标系/相对坐标系’概念引入Flutter的数据传递。目前的InheritedWidget缺乏‘空间感’。融合能力是开发一套基于‘空间位置’的数据分发机制。例如，只有位于屏幕左侧区域的组件才能接收‘左侧菜单主题’的数据，当组件被动画移动到右侧时，自动切断旧连接并接入右侧数据源，实现UI与数据的动态空间映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.362354",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O4_9168",
+  "design_spec": {
+    "name": "auto_空间感知型跨域数据流_将cad的_绝_27a507",
+    "display_name": "‘空间感知型跨域数据流’。将CAD的‘绝对坐标系/相对坐标系’概念引入Flutter的数据传递。目前",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘空间感知型跨域数据流’。将CAD的‘绝对坐标系/相对坐标系’概念引入Flutter的数据传递。目前的InheritedWidget缺乏‘空间感’。融合能力是开",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

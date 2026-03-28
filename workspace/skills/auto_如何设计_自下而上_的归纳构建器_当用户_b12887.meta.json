@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_自下而上_的归纳构建器_当用户_b12887",
+  "file": "skills/auto_如何设计_自下而上_的归纳构建器_当用户_b12887.py",
+  "description": "如何设计'自下而上'的归纳构建器？当用户无法描述意图，只能提供一堆'输入-输出'样例（如Excel数据转换案例）时，系统如何通过模式识别归纳出潜在的数据处理逻辑，并将其转化为一段可执行的Python/Pandas代码？这是从'现象'反推'结构'的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "program_synthesis",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.043670",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q7_1_7855",
+  "design_spec": {
+    "name": "auto_如何设计_自下而上_的归纳构建器_当用户_b12887",
+    "display_name": "如何设计'自下而上'的归纳构建器？当用户无法描述意图，只能提供一堆'输入-输出'样例（如Excel数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'自下而上'的归纳构建器？当用户无法描述意图，只能提供一堆'输入-输出'样例（如Excel数据转换案例）时，系统如何通过模式识别归纳出潜在的数据处理逻辑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨模态_实践清单_的标准化编译_ai梳理_9715f3",
+  "file": "skills/auto_跨模态_实践清单_的标准化编译_ai梳理_9715f3.py",
+  "description": "跨模态‘实践清单’的标准化编译。AI梳理的实践清单往往过于抽象（文本），人类难以直接执行。如何将文本节点自动转化为多模态的Checklist（包含视觉参考、工具链接、物理动作提示）？研究重点在于如何将‘节点关系’映射为‘执行顺序’和‘资源依赖’，使人类能无缝从‘认知’滑入‘行动’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.839729",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q7_2_9854",
+  "design_spec": {
+    "name": "auto_跨模态_实践清单_的标准化编译_ai梳理_9715f3",
+    "display_name": "跨模态‘实践清单’的标准化编译。AI梳理的实践清单往往过于抽象（文本），人类难以直接执行。如何将文本",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨模态‘实践清单’的标准化编译。AI梳理的实践清单往往过于抽象（文本），人类难以直接执行。如何将文本节点自动转化为多模态的Checklist（包含视觉参考、工具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

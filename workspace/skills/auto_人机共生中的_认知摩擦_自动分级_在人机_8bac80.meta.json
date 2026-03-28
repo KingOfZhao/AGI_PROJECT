@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生中的_认知摩擦_自动分级_在人机_8bac80",
+  "file": "skills/auto_人机共生中的_认知摩擦_自动分级_在人机_8bac80.py",
+  "description": "人机共生中的'认知摩擦'自动分级。在人机共生循环中，AI需要知道哪些实践清单是'高摩擦'的（即人类难以执行或容易出错的）。本问题是开发一个分类器，基于节点属性和上下文，预测某个人类实践步骤的难度和出错率，从而优先让AI去辅助或接管这些高摩擦点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_86",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:02:52.165567",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_86_Q5_0_1658",
+  "design_spec": {
+    "name": "auto_人机共生中的_认知摩擦_自动分级_在人机_8bac80",
+    "display_name": "人机共生中的'认知摩擦'自动分级。在人机共生循环中，AI需要知道哪些实践清单是'高摩擦'的（即人类难",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生中的'认知摩擦'自动分级。在人机共生循环中，AI需要知道哪些实践清单是'高摩擦'的（即人类难以执行或容易出错的）。本问题是开发一个分类器，基于节点属性和",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

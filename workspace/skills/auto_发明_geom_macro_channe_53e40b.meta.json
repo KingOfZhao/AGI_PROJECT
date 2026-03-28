@@ -1,0 +1,30 @@
+{
+  "name": "auto_发明_geom_macro_channe_53e40b",
+  "file": "skills/auto_发明_geom_macro_channe_53e40b.py",
+  "description": "发明'Geom-Macro-Channel'（几何宏通道）。定义一套DSL（领域特定语言），允许在Flutter UI层直接编写或录制针对CAD内核的自动化脚本。用户在App界面上的操作可以被'录制'为一段几何宏代码，并在后台批量执行。这使得移动端App具备了桌面级CAD的'自动化批处理'能力，例如'一键生成100个不同尺寸的齿轮模型'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.706398",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O4_2349",
+  "design_spec": {
+    "name": "auto_发明_geom_macro_channe_53e40b",
+    "display_name": "发明'Geom-Macro-Channel'（几何宏通道）。定义一套DSL（领域特定语言），允许在F",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "发明'Geom-Macro-Channel'（几何宏通道）。定义一套DSL（领域特定语言），允许在Flutter UI层直接编写或录制针对CAD内核的自动化脚本",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

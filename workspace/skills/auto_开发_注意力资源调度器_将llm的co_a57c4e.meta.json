@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_注意力资源调度器_将llm的co_a57c4e",
+  "file": "skills/auto_开发_注意力资源调度器_将llm的co_a57c4e.py",
+  "description": "开发'注意力资源调度器'。将LLM的Context Window视为寄存器堆，外部向量数据库视为内存。不仅仅是简单的RAG，而是像寄存器分配算法（如图着色算法）一样，计算当前任务中各个'知识块'的'活跃度'和'冲突'，智能决定哪些信息保留在Context中（分配寄存器），哪些信息被踢出到检索库（Spilling），哪些信息需要常驻（Callee-saved）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.324914",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_135_O5_5846",
+  "design_spec": {
+    "name": "auto_开发_注意力资源调度器_将llm的co_a57c4e",
+    "display_name": "开发'注意力资源调度器'。将LLM的Context Window视为寄存器堆，外部向量数据库视为内存",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'注意力资源调度器'。将LLM的Context Window视为寄存器堆，外部向量数据库视为内存。不仅仅是简单的RAG，而是像寄存器分配算法（如图着色算法）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

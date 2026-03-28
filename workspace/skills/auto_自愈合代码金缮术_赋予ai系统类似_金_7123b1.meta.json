@@ -1,0 +1,30 @@
+{
+  "name": "auto_自愈合代码金缮术_赋予ai系统类似_金_7123b1",
+  "file": "skills/auto_自愈合代码金缮术_赋予ai系统类似_金_7123b1.py",
+  "description": "【自愈合代码金缮术】赋予AI系统类似‘金缮’的自我修复能力。当代码运行崩溃（认知破碎）时，系统不单纯回滚，而是分析崩溃现场的‘断茬’（上下文数据），生成一段专门用于‘连接’断点的补丁代码。这段补丁代码不仅修复Bug，还保留对异常的‘记忆’（日志或增强处理），使系统在修复后比原先更具韧性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.214719",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O5_6106",
+  "design_spec": {
+    "name": "auto_自愈合代码金缮术_赋予ai系统类似_金_7123b1",
+    "display_name": "【自愈合代码金缮术】赋予AI系统类似‘金缮’的自我修复能力。当代码运行崩溃（认知破碎）时，系统不单纯",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自愈合代码金缮术】赋予AI系统类似‘金缮’的自我修复能力。当代码运行崩溃（认知破碎）时，系统不单纯回滚，而是分析崩溃现场的‘断茬’（上下文数据），生成一段专门",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

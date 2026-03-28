@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐喻驱动的意图形式化引擎_结合认知科学_50b5c8",
+  "file": "skills/auto_隐喻驱动的意图形式化引擎_结合认知科学_50b5c8.py",
+  "description": "【隐喻驱动的意图形式化引擎】结合认知科学的结构映射算法与软件工程的DSL生成技术。当用户提出模糊需求（如'像生物进化一样优化代码'）时，系统不再仅依赖概率补全，而是调用'进化论'的结构图谱（变异、选择、遗传），将其映射为代码优化的具体逻辑约束（随机改动、单元测试筛选、版本合并）。这能将自然语言的'隐喻'直接转化为可执行的类Z规格说明或API调用参数，极大提升模糊需求的落地精度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.570741",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_73_O1_5317",
+  "design_spec": {
+    "name": "auto_隐喻驱动的意图形式化引擎_结合认知科学_50b5c8",
+    "display_name": "【隐喻驱动的意图形式化引擎】结合认知科学的结构映射算法与软件工程的DSL生成技术。当用户提出模糊需求",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【隐喻驱动的意图形式化引擎】结合认知科学的结构映射算法与软件工程的DSL生成技术。当用户提出模糊需求（如'像生物进化一样优化代码'）时，系统不再仅依赖概率补全，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

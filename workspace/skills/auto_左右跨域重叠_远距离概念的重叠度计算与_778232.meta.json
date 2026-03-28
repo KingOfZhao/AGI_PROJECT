@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域重叠_远距离概念的重叠度计算与_778232",
+  "file": "skills/auto_左右跨域重叠_远距离概念的重叠度计算与_778232.py",
+  "description": "【左右跨域重叠】远距离概念的重叠度计算与迁移映射。如何计算两个表面无关节点（如‘生物进化’与‘代码迭代’）的深层结构相似性，并生成映射规则？此能力决定了AI能否进行创造性联想，打破人类的知识孤岛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.436457",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_35_Q3_1_4346",
+  "design_spec": {
+    "name": "auto_左右跨域重叠_远距离概念的重叠度计算与_778232",
+    "display_name": "【左右跨域重叠】远距离概念的重叠度计算与迁移映射。如何计算两个表面无关节点（如‘生物进化’与‘代码迭",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域重叠】远距离概念的重叠度计算与迁移映射。如何计算两个表面无关节点（如‘生物进化’与‘代码迭代’）的深层结构相似性，并生成映射规则？此能力决定了AI能否",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能执行代码的沙箱回归测试_unit_t_576479",
+  "file": "skills/auto_技能执行代码的沙箱回归测试_unit_t_576479.py",
+  "description": "技能执行代码的沙箱回归测试（Unit Testing for Skills）：针对现有的2135个SKILL（可执行代码/流程），建立自动化沙箱环境。当底层依赖库或关联节点更新时，自动运行回归测试。若执行结果偏离预期输出（Output Deviation），或执行时间/资源消耗异常，则判定该技能失效。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.821583",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q4_3_4569",
+  "design_spec": {
+    "name": "auto_技能执行代码的沙箱回归测试_unit_t_576479",
+    "display_name": "技能执行代码的沙箱回归测试（Unit Testing for Skills）：针对现有的2135个S",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "技能执行代码的沙箱回归测试（Unit Testing for Skills）：针对现有的2135个SKILL（可执行代码/流程），建立自动化沙箱环境。当底层依赖",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

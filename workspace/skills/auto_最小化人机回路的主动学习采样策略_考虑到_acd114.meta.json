@@ -1,0 +1,30 @@
+{
+  "name": "auto_最小化人机回路的主动学习采样策略_考虑到_acd114",
+  "file": "skills/auto_最小化人机回路的主动学习采样策略_考虑到_acd114.py",
+  "description": "最小化人机回路的主动学习采样策略。考虑到人类注意力是稀缺资源，系统应仅请求人类评估‘信息增益’最大的节点。如何开发一种不确定性采样算法，计算每个节点当前评分的‘熵值’，并只向人类专家推送处于‘不确定边界’（即系统无法确信其是真节点还是伪节点）的案例进行验证？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "active_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.076957",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q8_0_3746",
+  "design_spec": {
+    "name": "auto_最小化人机回路的主动学习采样策略_考虑到_acd114",
+    "display_name": "最小化人机回路的主动学习采样策略。考虑到人类注意力是稀缺资源，系统应仅请求人类评估‘信息增益’最大的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "最小化人机回路的主动学习采样策略。考虑到人类注意力是稀缺资源，系统应仅请求人类评估‘信息增益’最大的节点。如何开发一种不确定性采样算法，计算每个节点当前评分的‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 283
+  }
+}

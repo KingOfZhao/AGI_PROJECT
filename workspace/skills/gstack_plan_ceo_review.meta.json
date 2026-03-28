@@ -1,0 +1,36 @@
+{
+  "name": "gstack/plan-ceo-review",
+  "slug": "gstack_plan_ceo_review",
+  "description": "CEO/founder-mode plan review. Rethink the problem, find the 10-star product, challenge premises, expand scope when it creates a better product. Four modes: SCOPE EXPANSION (dream big), SELECTIVE EXPANSION (hold scope + cherry-pick expansions), HOLD SCOPE (maximum rigor), SCOPE REDUCTION (strip to essentials). Use when asked to \"think bigger\", \"expand scope\", \"strategy review\", \"rethink this\", or \"is this ambitious enough\". Proactively suggest when the user is questioning scope or ambition of a p",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "product-planning",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/plan-ceo-review",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "product-planning",
+  "allowed_tools": [
+    "Read",
+    "Grep",
+    "Glob",
+    "Bash",
+    "AskUserQuestion",
+    "WebSearch"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)"
+  ],
+  "created_at": "2026-03-25T15:32:03.540670",
+  "imported_by": "gstack_skill_importer"
+}

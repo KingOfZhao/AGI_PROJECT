@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何利用多模态传感器_如动作捕捉_肌电信_6b6080",
+  "file": "skills/auto_如何利用多模态传感器_如动作捕捉_肌电信_6b6080.py",
+  "description": "如何利用多模态传感器（如动作捕捉、肌电信号EMG、触觉压力手套）将非结构化的手工艺物理动作（如陶艺拉坯的手部微操）转化为时序张量数据，并映射到已有的983个SKILL节点中的'物理操作'向量空间？本问题旨在解决隐性知识的'数字化录入'难题，将人类的肌肉记忆转化为AI可计算的时间序列。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.139328",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_57_Q1_2_4293",
+  "design_spec": {
+    "name": "auto_如何利用多模态传感器_如动作捕捉_肌电信_6b6080",
+    "display_name": "如何利用多模态传感器（如动作捕捉、肌电信号EMG、触觉压力手套）将非结构化的手工艺物理动作（如陶艺拉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何利用多模态传感器（如动作捕捉、肌电信号EMG、触觉压力手套）将非结构化的手工艺物理动作（如陶艺拉坯的手部微操）转化为时序张量数据，并映射到已有的983个SK",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

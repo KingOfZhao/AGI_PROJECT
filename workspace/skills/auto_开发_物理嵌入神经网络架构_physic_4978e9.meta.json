@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_物理嵌入神经网络架构_physic_4978e9",
+  "file": "skills/auto_开发_物理嵌入神经网络架构_physic_4978e9.py",
+  "description": "开发'物理嵌入神经网络架构（Physics-informed Neural Architectures）'的工程实现规范。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.259122",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_116_G2_8790",
+  "design_spec": {
+    "name": "auto_开发_物理嵌入神经网络架构_physic_4978e9",
+    "display_name": "开发'物理嵌入神经网络架构（Physics-informed Neural Architecture",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'物理嵌入神经网络架构（Physics-informed Neural Architectures）'的工程实现规范。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 311
+  }
+}

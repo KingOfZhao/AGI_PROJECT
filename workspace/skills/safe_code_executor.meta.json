@@ -1,0 +1,24 @@
+{
+  "name": "safe_code_executor",
+  "display_name": "安全代码执行器 (Anti-Heredoc)",
+  "description": "解决heredoc>卡死问题的底层代码执行技能。所有多行代码通过tempfile模式执行, 彻底避免shell heredoc/引号嵌套/管道截断。已集成到shell_executor.run_python()底层链路。",
+  "tags": ["heredoc", "shell", "subprocess", "代码执行", "tempfile", "底层链路", "安全执行"],
+  "version": "1.0",
+  "status": "production",
+  "truth_level": "L3_Capability",
+  "integration_points": [
+    "workspace/skills/shell_executor.py → run_python() 已改为tempfile模式",
+    "workspace/skills/safe_code_executor.py → safe_exec_python() 核心API",
+    "workspace/skills/safe_code_executor.py → safe_exec_analysis() 数据分析专用",
+    "workspace/skills/safe_code_executor.py → json_query() JSON文件查询",
+    "workspace/skills/safe_code_executor.py → diagnose_heredoc() 诊断工具"
+  ],
+  "problem_solved": {
+    "heredoc_hang": "shell << 'EOF' 在subprocess中卡死 → tempfile替代",
+    "quote_nesting": "python -c 多层引号嵌套解析错误 → tempfile替代",
+    "pipe_truncation": "echo | python 管道截断 → tempfile替代"
+  },
+  "tests_passed": 5,
+  "created_at": "2026-03-26T09:21:00+08:00",
+  "author": "Zhao Dylan"
+}

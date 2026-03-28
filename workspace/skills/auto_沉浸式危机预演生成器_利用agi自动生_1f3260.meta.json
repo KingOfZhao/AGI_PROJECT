@@ -1,0 +1,30 @@
+{
+  "name": "auto_沉浸式危机预演生成器_利用agi自动生_1f3260",
+  "file": "skills/auto_沉浸式危机预演生成器_利用agi自动生_1f3260.py",
+  "description": "【沉浸式危机预演生成器】利用AGI自动生成针对特定技能的'极端边缘情况'（Edge Cases）。例如，针对化工操作员，AI不只生成标准流程，而是生成'阀门卡死+警报失灵+有毒气体泄漏'的组合极端场景脚本，并配合VR环境进行演练。AI作为'虚拟红队'，动态调整灾难难度，直到人类操作员在所有生成的'证伪'场景中存活，从而低成本地获得需要数年一线经验才能积累的危机处理能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.699903",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_91_O5_8187",
+  "design_spec": {
+    "name": "auto_沉浸式危机预演生成器_利用agi自动生_1f3260",
+    "display_name": "【沉浸式危机预演生成器】利用AGI自动生成针对特定技能的'极端边缘情况'（Edge Cases）。例",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【沉浸式危机预演生成器】利用AGI自动生成针对特定技能的'极端边缘情况'（Edge Cases）。例如，针对化工操作员，AI不只生成标准流程，而是生成'阀门卡死",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 474
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_人在回路接口_实践回响量化_与_124185",
+  "file": "skills/auto_整合_人在回路接口_实践回响量化_与_124185.py",
+  "description": "整合'人在回路接口'、'实践回响量化'与'最小可行动作单元'。系统不再是被动等待反馈，而是主动识别'置信度低谷'，生成'最小验证问题'请求人类直觉干预，并根据人类的'实践执行比率'动态调整推荐策略，形成从'直觉请求'到'实践验证'再到'知识固化'的完整螺旋上升通道。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.569137",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_126_E4_2598",
+  "design_spec": {
+    "name": "auto_整合_人在回路接口_实践回响量化_与_124185",
+    "display_name": "整合'人在回路接口'、'实践回响量化'与'最小可行动作单元'。系统不再是被动等待反馈，而是主动识别'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'人在回路接口'、'实践回响量化'与'最小可行动作单元'。系统不再是被动等待反馈，而是主动识别'置信度低谷'，生成'最小验证问题'请求人类直觉干预，并根据人",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_左右跨域重叠_能力的验证_测试ai_9d6ea3",
+  "file": "skills/auto_针对_左右跨域重叠_能力的验证_测试ai_9d6ea3.py",
+  "description": "针对'左右跨域重叠'能力的验证：测试AI能否将'生物学免疫系统的T细胞识别机制'迁移到'计算机网络安全系统的入侵检测算法'中。要求AI不仅进行比喻，而是生成一段伪代码，描述如何利用免疫学的'阴性选择'原理来优化现有的异常检测模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_31",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:21:49.611272",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_31_Q3_2_8621",
+  "design_spec": {
+    "name": "auto_针对_左右跨域重叠_能力的验证_测试ai_9d6ea3",
+    "display_name": "针对'左右跨域重叠'能力的验证：测试AI能否将'生物学免疫系统的T细胞识别机制'迁移到'计算机网络安",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'左右跨域重叠'能力的验证：测试AI能否将'生物学免疫系统的T细胞识别机制'迁移到'计算机网络安全系统的入侵检测算法'中。要求AI不仅进行比喻，而是生成一段",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 245
+  }
+}

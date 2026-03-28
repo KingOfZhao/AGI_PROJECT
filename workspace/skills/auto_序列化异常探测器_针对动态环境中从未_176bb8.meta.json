@@ -1,0 +1,30 @@
+{
+  "name": "auto_序列化异常探测器_针对动态环境中从未_176bb8",
+  "file": "skills/auto_序列化异常探测器_针对动态环境中从未_176bb8.py",
+  "description": "‘序列化异常探测器’。针对动态环境中从未见过的新型故障（无调性），该能力不依赖历史权重（调性），而是严格分析事件发生的‘序列’关系。它模仿十二音技法中的‘原形、逆行、倒影、逆行倒影’四种变换，对异常日志进行全排列组合分析，从而在混乱中发现隐匿的结构性关联，快速固化新的‘真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.556616",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_149_O5_2502",
+  "design_spec": {
+    "name": "auto_序列化异常探测器_针对动态环境中从未_176bb8",
+    "display_name": "‘序列化异常探测器’。针对动态环境中从未见过的新型故障（无调性），该能力不依赖历史权重（调性），而是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘序列化异常探测器’。针对动态环境中从未见过的新型故障（无调性），该能力不依赖历史权重（调性），而是严格分析事件发生的‘序列’关系。它模仿十二音技法中的‘原形、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

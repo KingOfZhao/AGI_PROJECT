@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对2305个skill节点_如何实现_4f4091",
+  "file": "skills/auto_针对2305个skill节点_如何实现_4f4091.py",
+  "description": "针对2305个SKILL节点，如何实现'技能变异'算法以加速进化？类似于生物进化，系统应主动对现有技能节点进行随机'变异'（修改参数、置换上下文、组合异构步骤），生成'变种技能'供人类在边缘场景下测试，从而跳出局部最优解。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "evolutionary_computing",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.651217",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q5_2_9798",
+  "design_spec": {
+    "name": "auto_针对2305个skill节点_如何实现_4f4091",
+    "display_name": "针对2305个SKILL节点，如何实现'技能变异'算法以加速进化？类似于生物进化，系统应主动对现有技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对2305个SKILL节点，如何实现'技能变异'算法以加速进化？类似于生物进化，系统应主动对现有技能节点进行随机'变异'（修改参数、置换上下文、组合异构步骤）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

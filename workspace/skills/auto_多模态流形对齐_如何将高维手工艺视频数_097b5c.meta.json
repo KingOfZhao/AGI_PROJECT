@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态流形对齐_如何将高维手工艺视频数_097b5c",
+  "file": "skills/auto_多模态流形对齐_如何将高维手工艺视频数_097b5c.py",
+  "description": "【多模态流形对齐】如何将高维手工艺视频数据（如陶艺拉坯的手部微操）映射到低维的潜在技能空间？这涉及到将非结构化的像素流转化为结构化的“力-位姿-时间”张量。我们需验证AI是否能通过对比视频流与传感器数据，提取出‘黏稠度感知’这样的隐性维度，而非仅仅识别形状。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.523025",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_72_Q1_2_2876",
+  "design_spec": {
+    "name": "auto_多模态流形对齐_如何将高维手工艺视频数_097b5c",
+    "display_name": "【多模态流形对齐】如何将高维手工艺视频数据（如陶艺拉坯的手部微操）映射到低维的潜在技能空间？这涉及到",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态流形对齐】如何将高维手工艺视频数据（如陶艺拉坯的手部微操）映射到低维的潜在技能空间？这涉及到将非结构化的像素流转化为结构化的“力-位姿-时间”张量。我们",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_视口感知的lod_level_o_94ddc1",
+  "file": "skills/auto_创建_视口感知的lod_level_o_94ddc1.py",
+  "description": "创建“视口感知的LOD (Level of Detail) 渲染架构”。借鉴CAD处理超大装配体的技术（只渲染视口内的、隐藏背后的零件）。在Flutter长列表或复杂绘图应用中，不仅仅回收View，而是根据缩放比例和视口位置，动态切换渲染的‘精度’。比如缩小时，自动将复杂的CustomPainter降级为静态图片Layer，放大时再动态替换回矢量计算，内存管理更精细。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.769736",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_24_O4_25",
+  "design_spec": {
+    "name": "auto_创建_视口感知的lod_level_o_94ddc1",
+    "display_name": "创建“视口感知的LOD (Level of Detail) 渲染架构”。借鉴CAD处理超大装配体的技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建“视口感知的LOD (Level of Detail) 渲染架构”。借鉴CAD处理超大装配体的技术（只渲染视口内的、隐藏背后的零件）。在Flutter长列表",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

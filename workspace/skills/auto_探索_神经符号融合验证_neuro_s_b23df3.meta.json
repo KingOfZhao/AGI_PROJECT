@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索_神经符号融合验证_neuro_s_b23df3",
+  "file": "skills/auto_探索_神经符号融合验证_neuro_s_b23df3.py",
+  "description": "探索‘神经符号融合验证’（Neuro-Symbolic Verification），在生成代码中嵌入定理证明约束，或在物理仿真中引入能量守恒哈密顿网络。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.379652",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_47_G_Cert_6683",
+  "design_spec": {
+    "name": "auto_探索_神经符号融合验证_neuro_s_b23df3",
+    "display_name": "探索‘神经符号融合验证’（Neuro-Symbolic Verification），在生成代码中嵌入",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索‘神经符号融合验证’（Neuro-Symbolic Verification），在生成代码中嵌入定理证明约束，或在物理仿真中引入能量守恒哈密顿网络。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_数字孪生压力测试场_为特定技能_如危机_4654fb",
+  "file": "skills/auto_数字孪生压力测试场_为特定技能_如危机_4654fb.py",
+  "description": "【数字孪生压力测试场】为特定技能（如危机公关、精密制造）生成一个'虚拟对抗环境'。AI自动生成极端的突发状况（如机器故障、客户暴怒），迫使受训者进行实时决策。系统根据决策路径自动评估其技能树的'鲁棒性'，找出薄弱环节。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.371078",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_97_O4_2506",
+  "design_spec": {
+    "name": "auto_数字孪生压力测试场_为特定技能_如危机_4654fb",
+    "display_name": "【数字孪生压力测试场】为特定技能（如危机公关、精密制造）生成一个'虚拟对抗环境'。AI自动生成极端的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【数字孪生压力测试场】为特定技能（如危机公关、精密制造）生成一个'虚拟对抗环境'。AI自动生成极端的突发状况（如机器故障、客户暴怒），迫使受训者进行实时决策。系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图结构化投影引擎_一种能够解析自然语_dfa21a",
+  "file": "skills/auto_意图结构化投影引擎_一种能够解析自然语_dfa21a.py",
+  "description": "【意图结构化投影引擎】一种能够解析自然语言中隐含隐喻结构，并将其直接转化为可执行代码形式化约束的能力。例如，当用户说“像管理图书馆一样管理内存”，系统不仅生成代码，而是先提取“借阅、归还、超期罚款”的结构关系，将其映射为内存的“分配、释放、泄漏检测”逻辑，并显式生成带有这些约束条件的类Z规格说明，作为代码生成的中间层。这解决了单纯代码生成缺乏高层语义约束的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_89",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:04:54.816218",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_89_O1_600",
+  "design_spec": {
+    "name": "auto_意图结构化投影引擎_一种能够解析自然语_dfa21a",
+    "display_name": "【意图结构化投影引擎】一种能够解析自然语言中隐含隐喻结构，并将其直接转化为可执行代码形式化约束的能力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图结构化投影引擎】一种能够解析自然语言中隐含隐喻结构，并将其直接转化为可执行代码形式化约束的能力。例如，当用户说“像管理图书馆一样管理内存”，系统不仅生成代",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 323
+  }
+}

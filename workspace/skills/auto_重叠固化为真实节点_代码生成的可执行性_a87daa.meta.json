@@ -1,0 +1,30 @@
+{
+  "name": "auto_重叠固化为真实节点_代码生成的可执行性_a87daa",
+  "file": "skills/auto_重叠固化为真实节点_代码生成的可执行性_a87daa.py",
+  "description": "【重叠固化为真实节点】代码生成的可执行性与自修复能力：在‘人机共生’环节中，AI生成的代码类Skill是否具备环境适应性。当代码在特定运行环境（如不同版本的Python库）中执行失败时，AI能否利用错误回溯信息，定位逻辑漏洞并自动生成修补补丁，而非仅抛出异常。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.340668",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_146_Q3_2_7550",
+  "design_spec": {
+    "name": "auto_重叠固化为真实节点_代码生成的可执行性_a87daa",
+    "display_name": "【重叠固化为真实节点】代码生成的可执行性与自修复能力：在‘人机共生’环节中，AI生成的代码类Skil",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【重叠固化为真实节点】代码生成的可执行性与自修复能力：在‘人机共生’环节中，AI生成的代码类Skill是否具备环境适应性。当代码在特定运行环境（如不同版本的Py",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移_将_抽象原则_映射为_异构执_33d675",
+  "file": "skills/auto_跨域迁移_将_抽象原则_映射为_异构执_33d675.py",
+  "description": "【跨域迁移】将'抽象原则'映射为'异构执行'的能力。给定一个通用的战略原则（如'避实击虚'），AI能否将其分别转化为具体的软件架构设计方案、厨房管理流程、以及围棋落子策略？这验证了AI是否掌握了超越具体领域的'元认知节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_76",
+    "strategy",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:35:30.440911",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_76_Q6_2_6755",
+  "design_spec": {
+    "name": "auto_跨域迁移_将_抽象原则_映射为_异构执_33d675",
+    "display_name": "【跨域迁移】将'抽象原则'映射为'异构执行'的能力。给定一个通用的战略原则（如'避实击虚'），AI能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移】将'抽象原则'映射为'异构执行'的能力。给定一个通用的战略原则（如'避实击虚'），AI能否将其分别转化为具体的软件架构设计方案、厨房管理流程、以及围",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_仿生架构偏置引擎_不再是人工设计_315e31",
+  "file": "skills/auto_提出_仿生架构偏置引擎_不再是人工设计_315e31.py",
+  "description": "提出'仿生架构偏置引擎'。不再是人工设计神经网络架构，而是将建筑学中成熟的力学与美学约束（如结构稳定性、空间流线效率）转化为Loss函数或Layer的拓扑约束。这能创造出既符合物理逻辑又具备高度稀疏性的AI模型，大幅降低计算能耗，同时生成的模型结构具有类似建筑的可解释性层级。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.562019",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_126_O1_6284",
+  "design_spec": {
+    "name": "auto_提出_仿生架构偏置引擎_不再是人工设计_315e31",
+    "display_name": "提出'仿生架构偏置引擎'。不再是人工设计神经网络架构，而是将建筑学中成熟的力学与美学约束（如结构稳定",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'仿生架构偏置引擎'。不再是人工设计神经网络架构，而是将建筑学中成熟的力学与美学约束（如结构稳定性、空间流线效率）转化为Loss函数或Layer的拓扑约束。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

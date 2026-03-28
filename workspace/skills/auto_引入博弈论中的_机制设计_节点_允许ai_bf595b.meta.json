@@ -1,0 +1,30 @@
+{
+  "name": "auto_引入博弈论中的_机制设计_节点_允许ai_bf595b",
+  "file": "skills/auto_引入博弈论中的_机制设计_节点_允许ai_bf595b.py",
+  "description": "引入博弈论中的‘机制设计’节点，允许AI在非合作环境下进行策略性交互和节点价值重估。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.515820",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_22_G3_1908",
+  "design_spec": {
+    "name": "auto_引入博弈论中的_机制设计_节点_允许ai_bf595b",
+    "display_name": "引入博弈论中的‘机制设计’节点，允许AI在非合作环境下进行策略性交互和节点价值重估。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "引入博弈论中的‘机制设计’节点，允许AI在非合作环境下进行策略性交互和节点价值重估。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

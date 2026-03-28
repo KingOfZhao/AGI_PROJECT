@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机共生_与_持续碰撞_原则_如何_38d09e",
+  "file": "skills/auto_基于_人机共生_与_持续碰撞_原则_如何_38d09e.py",
+  "description": "基于'人机共生'与'持续碰撞'原则，如何构建一个动态的认知衰变机制？该机制需能自动检测已有节点（2547个）在特定时间周期内未被人类实践证伪或调用的'休眠状态'，并根据网络拓扑结构降低其连接权重，而非直接删除。这模拟了人类记忆的遗忘曲线，防止静态知识库的'认知硬化'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.365555",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_97_Q1_3_9182",
+  "design_spec": {
+    "name": "auto_基于_人机共生_与_持续碰撞_原则_如何_38d09e",
+    "display_name": "基于'人机共生'与'持续碰撞'原则，如何构建一个动态的认知衰变机制？该机制需能自动检测已有节点（25",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'人机共生'与'持续碰撞'原则，如何构建一个动态的认知衰变机制？该机制需能自动检测已有节点（2547个）在特定时间周期内未被人类实践证伪或调用的'休眠状态'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

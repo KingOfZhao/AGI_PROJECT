@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知同构沙箱_不仅测试代码功能_7a2cee",
+  "file": "skills/auto_开发_认知同构沙箱_不仅测试代码功能_7a2cee.py",
+  "description": "开发'认知同构沙箱'。不仅测试代码功能，还能自动识别代码结构与其他领域知识的同构性。例如，当AI生成一段排序算法时，沙箱不仅验证其正确性，还利用CS的结构映射算法检测其逻辑结构是否与'气泡上浮'或'生物优胜劣汰'同构，并以此为依据自动生成更极端的边界测试用例（模拟生物环境突变来测试算法鲁棒性），实现'基于认知模型的自动化压力测试'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.358114",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O2_7301",
+  "design_spec": {
+    "name": "auto_开发_认知同构沙箱_不仅测试代码功能_7a2cee",
+    "display_name": "开发'认知同构沙箱'。不仅测试代码功能，还能自动识别代码结构与其他领域知识的同构性。例如，当AI生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知同构沙箱'。不仅测试代码功能，还能自动识别代码结构与其他领域知识的同构性。例如，当AI生成一段排序算法时，沙箱不仅验证其正确性，还利用CS的结构映射算",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 249
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于上下文感知的意图_函数签名匹配与参数_adc19f",
+  "file": "skills/auto_基于上下文感知的意图_函数签名匹配与参数_adc19f.py",
+  "description": "基于上下文感知的意图-函数签名匹配与参数填充：在拥有1277个技能节点的大型代码库中，如何通过图神经网络（GNN）或向量检索（RAG），将模糊意图（如'处理这张图'）精确映射到特定的函数签名，并根据上下文自动填充缺失的参数类型？重点解决'选择过载'和'类型不匹配'问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.831071",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_71_Q3_1_4454",
+  "design_spec": {
+    "name": "auto_基于上下文感知的意图_函数签名匹配与参数_adc19f",
+    "display_name": "基于上下文感知的意图-函数签名匹配与参数填充：在拥有1277个技能节点的大型代码库中，如何通过图神经",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于上下文感知的意图-函数签名匹配与参数填充：在拥有1277个技能节点的大型代码库中，如何通过图神经网络（GNN）或向量检索（RAG），将模糊意图（如'处理这张",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

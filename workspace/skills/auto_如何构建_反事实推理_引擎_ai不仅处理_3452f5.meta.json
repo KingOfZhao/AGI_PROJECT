@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_反事实推理_引擎_ai不仅处理_3452f5",
+  "file": "skills/auto_如何构建_反事实推理_引擎_ai不仅处理_3452f5.py",
+  "description": "如何构建'反事实推理'引擎？AI不仅处理'是什么'（现有3532节点），更需推导'如果...会怎样'。子问题：基于现有节点的关系约束，自动生成'反事实'变异（例如：如果'重力'节点属性变为负数，对'建筑学'SKILL节点有何影响？），以此探索物理法则之外的知识边界，发现潜在的通用逻辑漏洞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.547981",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q7_2_9508",
+  "design_spec": {
+    "name": "auto_如何构建_反事实推理_引擎_ai不仅处理_3452f5",
+    "display_name": "如何构建'反事实推理'引擎？AI不仅处理'是什么'（现有3532节点），更需推导'如果...会怎样'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'反事实推理'引擎？AI不仅处理'是什么'（现有3532节点），更需推导'如果...会怎样'。子问题：基于现有节点的关系约束，自动生成'反事实'变异（例",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

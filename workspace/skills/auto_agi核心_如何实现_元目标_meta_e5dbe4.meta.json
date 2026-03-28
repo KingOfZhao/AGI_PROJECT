@@ -1,0 +1,30 @@
+{
+  "name": "auto_agi核心_如何实现_元目标_meta_e5dbe4",
+  "file": "skills/auto_agi核心_如何实现_元目标_meta_e5dbe4.py",
+  "description": "【AGI核心】如何实现'元目标（Meta-Goal）'驱动的自主搜索？目前的AGI架构可能仍依赖Prompt驱动。真正的进化系统应具备一个内置的'降低不确定性'或'最大化信息增益'的元目标，主动在网络稀疏处（Unknown Unknowns）发起查询或实验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_112",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:03:11.517084",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_112_Q9_3_5283",
+  "design_spec": {
+    "name": "auto_agi核心_如何实现_元目标_meta_e5dbe4",
+    "display_name": "【AGI核心】如何实现'元目标（Meta-Goal）'驱动的自主搜索？目前的AGI架构可能仍依赖Pr",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【AGI核心】如何实现'元目标（Meta-Goal）'驱动的自主搜索？目前的AGI架构可能仍依赖Prompt驱动。真正的进化系统应具备一个内置的'降低不确定性'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

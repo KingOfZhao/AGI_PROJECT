@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点抗压验证_选取网络中已固化的某_deb790",
+  "file": "skills/auto_真实节点抗压验证_选取网络中已固化的某_deb790.py",
+  "description": "【真实节点抗压验证】选取网络中已固化的某个‘真实节点’（如某种特定的谈判技巧），通过引入极端的对抗性环境参数（如‘对方完全不讲理且带有攻击性’），验证该节点是否包含足够的异常处理分支，还是仅仅是一个单线性的理想模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.706015",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_99_Q6_0_1469",
+  "design_spec": {
+    "name": "auto_真实节点抗压验证_选取网络中已固化的某_deb790",
+    "display_name": "【真实节点抗压验证】选取网络中已固化的某个‘真实节点’（如某种特定的谈判技巧），通过引入极端的对抗性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点抗压验证】选取网络中已固化的某个‘真实节点’（如某种特定的谈判技巧），通过引入极端的对抗性环境参数（如‘对方完全不讲理且带有攻击性’），验证该节点是否",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_agi生态韧性防火墙_传统的容错_00faed",
+  "file": "skills/auto_建立_agi生态韧性防火墙_传统的容错_00faed.py",
+  "description": "建立'AGI生态韧性防火墙'。传统的容错是基于规则的，而融合能力是基于生态动力学的。AI能实时监测自身认知网络的'临界慢化'指标，预测系统即将崩溃的临界点。在资源耗尽前，主动执行'断尾求生'策略（主动丢弃非核心功能模块），并在危机过后利用残留的'土壤种子库'（核心真实节点）快速重构认知网络。这是一种具备生物级自愈力的系统架构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_94",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:50:15.563104",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_94_O3_4176",
+  "design_spec": {
+    "name": "auto_建立_agi生态韧性防火墙_传统的容错_00faed",
+    "display_name": "建立'AGI生态韧性防火墙'。传统的容错是基于规则的，而融合能力是基于生态动力学的。AI能实时监测自",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'AGI生态韧性防火墙'。传统的容错是基于规则的，而融合能力是基于生态动力学的。AI能实时监测自身认知网络的'临界慢化'指标，预测系统即将崩溃的临界点。在资",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 406
+  }
+}

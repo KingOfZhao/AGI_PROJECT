@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于人流热力图的_神经_建筑_自适应动态_b71609",
+  "file": "skills/auto_基于人流热力图的_神经_建筑_自适应动态_b71609.py",
+  "description": "基于人流热力图的'神经-建筑'自适应动态空间重构系统。利用神经网络分析建筑内部实时传感器数据，动态调整物理环境（如可移动墙体、智能导视系统、空调风阀），使建筑像生物神经网络一样具备'神经可塑性'，随使用习惯自我优化，消除拥堵点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.952557",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_54_O1_7559",
+  "design_spec": {
+    "name": "auto_基于人流热力图的_神经_建筑_自适应动态_b71609",
+    "display_name": "基于人流热力图的'神经-建筑'自适应动态空间重构系统。利用神经网络分析建筑内部实时传感器数据，动态调",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于人流热力图的'神经-建筑'自适应动态空间重构系统。利用神经网络分析建筑内部实时传感器数据，动态调整物理环境（如可移动墙体、智能导视系统、空调风阀），使建筑像",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

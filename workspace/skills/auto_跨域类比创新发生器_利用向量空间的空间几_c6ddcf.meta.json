@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域类比创新发生器_利用向量空间的空间几_c6ddcf",
+  "file": "skills/auto_跨域类比创新发生器_利用向量空间的空间几_c6ddcf.py",
+  "description": "跨域类比创新发生器。利用向量空间的空间几何特性，专门寻找'距离遥远但结构相似'的节点对。传统搜索寻找'相似'，此能力寻找'结构同构的异类'。例如，将'生物进化'的向量结构与'软件迭代'的向量结构进行重叠，发现两者在'变异-选择-保留'机制上的数学同构，从而自动生成'软件进化论'的新概念。这是AGI实现'从0到1'创新的核心路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.703250",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O4_493",
+  "design_spec": {
+    "name": "auto_跨域类比创新发生器_利用向量空间的空间几_c6ddcf",
+    "display_name": "跨域类比创新发生器。利用向量空间的空间几何特性，专门寻找'距离遥远但结构相似'的节点对。传统搜索寻找",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域类比创新发生器。利用向量空间的空间几何特性，专门寻找'距离遥远但结构相似'的节点对。传统搜索寻找'相似'，此能力寻找'结构同构的异类'。例如，将'生物进化'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

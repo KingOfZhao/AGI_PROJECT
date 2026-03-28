@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_概念结晶_的自动化代码生成_当_b5cd30",
+  "file": "skills/auto_如何实现_概念结晶_的自动化代码生成_当_b5cd30.py",
+  "description": "如何实现'概念结晶'的自动化代码生成？当一个模糊的实践节点经过人类验证并赋予新概念后，系统需要将其从'自然语言描述'转化为'可执行的结构化对象'（如JSON Schema或Class）。关键在于如何精准提取描述中的'边界条件'（Boundary Conditions）作为代码逻辑的判断分支。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.611315",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_72_Q7_0_7576",
+  "design_spec": {
+    "name": "auto_如何实现_概念结晶_的自动化代码生成_当_b5cd30",
+    "display_name": "如何实现'概念结晶'的自动化代码生成？当一个模糊的实践节点经过人类验证并赋予新概念后，系统需要将其从",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'概念结晶'的自动化代码生成？当一个模糊的实践节点经过人类验证并赋予新概念后，系统需要将其从'自然语言描述'转化为'可执行的结构化对象'（如JSON S",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

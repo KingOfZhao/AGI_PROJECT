@@ -1,0 +1,30 @@
+{
+  "name": "auto_碰撞价值预测_在自上而下的拆解过程中_0f9ee4",
+  "file": "skills/auto_碰撞价值预测_在自上而下的拆解过程中_0f9ee4.py",
+  "description": "【碰撞价值预测】在自上而下的拆解过程中，给定一个高阶抽象节点，如何预测其与现有1504个Skill节点的碰撞潜力（即产生新价值的概率）？我们需要一个评估函数，在执行具体的碰撞操作前，预判哪些跨域连接最可能产生'真实节点'，以节省计算资源。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "agi_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.233564",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_85_Q2_1_6303",
+  "design_spec": {
+    "name": "auto_碰撞价值预测_在自上而下的拆解过程中_0f9ee4",
+    "display_name": "【碰撞价值预测】在自上而下的拆解过程中，给定一个高阶抽象节点，如何预测其与现有1504个Skill节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【碰撞价值预测】在自上而下的拆解过程中，给定一个高阶抽象节点，如何预测其与现有1504个Skill节点的碰撞潜力（即产生新价值的概率）？我们需要一个评估函数，在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

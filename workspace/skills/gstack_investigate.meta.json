@@ -1,0 +1,39 @@
+{
+  "name": "gstack/investigate",
+  "slug": "gstack_investigate",
+  "description": "Systematic debugging with root cause investigation. Four phases: investigate, analyze, hypothesize, implement. Iron Law: no fixes without root cause. Use when asked to \"debug this\", \"fix this bug\", \"why is this broken\", \"investigate this error\", or \"root cause analysis\". Proactively suggest when the user reports errors, unexpected behavior, or is troubleshooting why something stopped working.",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "debugging",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/investigate",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "debugging",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "Grep",
+    "Glob",
+    "AskUserQuestion",
+    "WebSearch"
+  ],
+  "has_hooks": true,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)",
+    "INFO: 使用 hooks (PreToolUse) — 可拦截工具调用"
+  ],
+  "created_at": "2026-03-25T15:32:03.540328",
+  "imported_by": "gstack_skill_importer"
+}

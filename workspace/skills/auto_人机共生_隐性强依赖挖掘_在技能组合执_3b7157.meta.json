@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_隐性强依赖挖掘_在技能组合执_3b7157",
+  "file": "skills/auto_人机共生_隐性强依赖挖掘_在技能组合执_3b7157.py",
+  "description": "【人机共生】隐性强依赖挖掘：在技能组合执行过程中，如何检测并量化‘隐性上下文’对结果的影响？即，当人类实践者执行SKILL成功时，往往依赖了未显式记录在节点中的环境因素（如‘摆摊’技能隐含了‘天气晴朗’）。需开发一个归因分析模块，计算技能成功的隐性先验概率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.780337",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_50_Q4_1_282",
+  "design_spec": {
+    "name": "auto_人机共生_隐性强依赖挖掘_在技能组合执_3b7157",
+    "display_name": "【人机共生】隐性强依赖挖掘：在技能组合执行过程中，如何检测并量化‘隐性上下文’对结果的影响？即，当人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】隐性强依赖挖掘：在技能组合执行过程中，如何检测并量化‘隐性上下文’对结果的影响？即，当人类实践者执行SKILL成功时，往往依赖了未显式记录在节点中的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 383
+  }
+}

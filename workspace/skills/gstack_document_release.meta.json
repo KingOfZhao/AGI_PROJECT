@@ -1,0 +1,37 @@
+{
+  "name": "gstack/document-release",
+  "slug": "gstack_document_release",
+  "description": "Post-ship documentation update. Reads all project docs, cross-references the diff, updates README/ARCHITECTURE/CONTRIBUTING/CLAUDE.md to match what shipped, polishes CHANGELOG voice, cleans up TODOS, and optionally bumps VERSION. Use when asked to \"update the docs\", \"sync documentation\", or \"post-ship docs\". Proactively suggest after a PR is merged or code is shipped.",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "release-deploy",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/document-release",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "release-deploy",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "Grep",
+    "Glob",
+    "AskUserQuestion"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)"
+  ],
+  "created_at": "2026-03-25T15:32:03.539481",
+  "imported_by": "gstack_skill_importer"
+}

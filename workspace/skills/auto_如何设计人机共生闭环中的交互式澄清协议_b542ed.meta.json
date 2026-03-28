@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计人机共生闭环中的交互式澄清协议_b542ed",
+  "file": "skills/auto_如何设计人机共生闭环中的交互式澄清协议_b542ed.py",
+  "description": "如何设计人机共生闭环中的交互式澄清协议，当系统检测到意图模糊或逻辑冲突时，生成最小化猜测问题（Multiple Choice）供人类确认，以快速收敛真实意图？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:24.002866",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_11_Q6_1_7747",
+  "design_spec": {
+    "name": "auto_如何设计人机共生闭环中的交互式澄清协议_b542ed",
+    "display_name": "如何设计人机共生闭环中的交互式澄清协议，当系统检测到意图模糊或逻辑冲突时，生成最小化猜测问题（Mul",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计人机共生闭环中的交互式澄清协议，当系统检测到意图模糊或逻辑冲突时，生成最小化猜测问题（Multiple Choice）供人类确认，以快速收敛真实意图？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 325
+  }
+}

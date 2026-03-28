@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_信息熵减_的节点价值量化模型_针对_446e89",
+  "file": "skills/auto_基于_信息熵减_的节点价值量化模型_针对_446e89.py",
+  "description": "基于'信息熵减'的节点价值量化模型。针对1110个Skill节点，需验证每个节点在解决问题时对系统整体混乱度的降低贡献。具体为：计算(问题状态的熵 - 解决方案的熵) / 节点自身存储成本。如果一个Skill执行后导致系统状态更复杂或引入新冲突，则其价值为负。需建立一个基于信息论的评分函数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.319955",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q2_0_5411",
+  "design_spec": {
+    "name": "auto_基于_信息熵减_的节点价值量化模型_针对_446e89",
+    "display_name": "基于'信息熵减'的节点价值量化模型。针对1110个Skill节点，需验证每个节点在解决问题时对系统整",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'信息熵减'的节点价值量化模型。针对1110个Skill节点，需验证每个节点在解决问题时对系统整体混乱度的降低贡献。具体为：计算(问题状态的熵 - 解决方案",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

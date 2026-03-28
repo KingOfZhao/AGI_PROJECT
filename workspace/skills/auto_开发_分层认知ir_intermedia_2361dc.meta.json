@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_分层认知ir_intermedia_2361dc",
+  "file": "skills/auto_开发_分层认知ir_intermedia_2361dc.py",
+  "description": "开发'分层认知IR（Intermediate Representation）协议'。在AI处理极复杂任务时，强制不直接输出结果，而是生成类似编译器IR的结构化中间态（如'认知AST'）。这允许人类在AI推理的中间步骤进行介入和修正，就像编译器优化Pass一样，人类可以对AI的'思维链'进行'常量折叠'或'死代码消除'，实现可解释、可干预的深度人机共生。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.158000",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_7_O1_1804",
+  "design_spec": {
+    "name": "auto_开发_分层认知ir_intermedia_2361dc",
+    "display_name": "开发'分层认知IR（Intermediate Representation）协议'。在AI处理极复杂",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'分层认知IR（Intermediate Representation）协议'。在AI处理极复杂任务时，强制不直接输出结果，而是生成类似编译器IR的结构化中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

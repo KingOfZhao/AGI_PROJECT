@@ -1,0 +1,30 @@
+{
+  "name": "auto_模糊意图的形式化表征鸿沟_如何构建一个_f2950b",
+  "file": "skills/auto_模糊意图的形式化表征鸿沟_如何构建一个_f2950b.py",
+  "description": "模糊意图的形式化表征鸿沟：如何构建一个‘意图解析器’，将非结构化的自然语言（如‘帮我搞个酷一点的推广’）转化为结构化的中间表示（IR），同时保留模糊性参数供后续确认？此过程需解决语义鸿沟问题，即如何将人类语言中的‘感觉’映射为机器可理解的向量空间或逻辑约束。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "nlp_agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.939406",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_108_Q1_3_3795",
+  "design_spec": {
+    "name": "auto_模糊意图的形式化表征鸿沟_如何构建一个_f2950b",
+    "display_name": "模糊意图的形式化表征鸿沟：如何构建一个‘意图解析器’，将非结构化的自然语言（如‘帮我搞个酷一点的推广",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "模糊意图的形式化表征鸿沟：如何构建一个‘意图解析器’，将非结构化的自然语言（如‘帮我搞个酷一点的推广’）转化为结构化的中间表示（IR），同时保留模糊性参数供后续",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

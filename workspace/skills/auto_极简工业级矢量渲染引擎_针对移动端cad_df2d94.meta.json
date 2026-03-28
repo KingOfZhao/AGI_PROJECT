@@ -1,0 +1,30 @@
+{
+  "name": "auto_极简工业级矢量渲染引擎_针对移动端cad_df2d94",
+  "file": "skills/auto_极简工业级矢量渲染引擎_针对移动端cad_df2d94.py",
+  "description": "极简工业级矢量渲染引擎。针对移动端CAD查看器，不依赖沉重的WebGL，而是利用Flutter的Canvas API直接绘制参数化曲线和曲面。利用CAD的‘层级剔除’算法优化Flutter的Paint层级，实现海量图元的即时渲染。这不仅是画图，而是将CAD的‘精度’带入UI，实现像素级对齐的工业设计图纸查看，且文件体积极小。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_84",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:20:23.831961",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_84_O5_6962",
+  "design_spec": {
+    "name": "auto_极简工业级矢量渲染引擎_针对移动端cad_df2d94",
+    "display_name": "极简工业级矢量渲染引擎。针对移动端CAD查看器，不依赖沉重的WebGL，而是利用Flutter的Ca",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "极简工业级矢量渲染引擎。针对移动端CAD查看器，不依赖沉重的WebGL，而是利用Flutter的Canvas API直接绘制参数化曲线和曲面。利用CAD的‘层级",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 550
+  }
+}

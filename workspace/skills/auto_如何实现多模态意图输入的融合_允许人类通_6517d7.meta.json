@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现多模态意图输入的融合_允许人类通_6517d7",
+  "file": "skills/auto_如何实现多模态意图输入的融合_允许人类通_6517d7.py",
+  "description": "如何实现多模态意图输入的融合，允许人类通过上传图片、音频或草图辅助模糊的文字描述，共同转化为结构化代码参数？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:24.007551",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_11_Q11_1_7747",
+  "design_spec": {
+    "name": "auto_如何实现多模态意图输入的融合_允许人类通_6517d7",
+    "display_name": "如何实现多模态意图输入的融合，允许人类通过上传图片、音频或草图辅助模糊的文字描述，共同转化为结构化代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现多模态意图输入的融合，允许人类通过上传图片、音频或草图辅助模糊的文字描述，共同转化为结构化代码参数？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 308
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_全链路语义锚定与约束求解器_该能力解决_9ede61",
+  "file": "skills/auto_全链路语义锚定与约束求解器_该能力解决_9ede61.py",
+  "description": "【全链路语义锚定与约束求解器】该能力解决了'词不达意'和'隐藏Bug'的问题。在编写代码时，系统不仅解析语法，还并行运行一个'语义锚定器'。当用户说'处理那个文件'，系统锁定'文件'对象，并同时提取用户潜意识中的约束（如'那个'通常指当前目录下的非隐藏文件）。系统将这些自然语言约束自动转化为代码中的Guard Clauses（卫语句）或类型约束，实现从自然语言语境到机器执行环境的无缝且严格的映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.471478",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O3_116",
+  "design_spec": {
+    "name": "auto_全链路语义锚定与约束求解器_该能力解决_9ede61",
+    "display_name": "【全链路语义锚定与约束求解器】该能力解决了'词不达意'和'隐藏Bug'的问题。在编写代码时，系统不仅",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【全链路语义锚定与约束求解器】该能力解决了'词不达意'和'隐藏Bug'的问题。在编写代码时，系统不仅解析语法，还并行运行一个'语义锚定器'。当用户说'处理那个文",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

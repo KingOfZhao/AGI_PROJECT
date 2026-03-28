@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_r_agi战术微循环引擎_将小摊_ebf9cf",
+  "file": "skills/auto_开发_r_agi战术微循环引擎_将小摊_ebf9cf.py",
+  "description": "开发'r-AGI战术微循环引擎'。将小摊贩的商业模式抽象为'r-策略'生存算法。在AGI面对陌生或极高风险领域时，不再部署重型、完整的智能体（K策略），而是生成大量轻量级、低成本、功能单一但复制极快的'认知孢子'（微型Agent）。这些孢子进行地毯式尝试，一旦某个孢子验证了'真实节点'（盈利/有效），立即注入资源进行规模化复制（进化）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.448320",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O2_6398",
+  "design_spec": {
+    "name": "auto_开发_r_agi战术微循环引擎_将小摊_ebf9cf",
+    "display_name": "开发'r-AGI战术微循环引擎'。将小摊贩的商业模式抽象为'r-策略'生存算法。在AGI面对陌生或极",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'r-AGI战术微循环引擎'。将小摊贩的商业模式抽象为'r-策略'生存算法。在AGI面对陌生或极高风险领域时，不再部署重型、完整的智能体（K策略），而是生成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

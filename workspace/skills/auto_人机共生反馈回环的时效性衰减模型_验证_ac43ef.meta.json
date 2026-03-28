@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈回环的时效性衰减模型_验证_ac43ef",
+  "file": "skills/auto_人机共生反馈回环的时效性衰减模型_验证_ac43ef.py",
+  "description": "人机共生反馈回环的时效性衰减模型：验证'人类反馈的纠错权重'是否应随时间指数级衰减。具体为，一个'真实节点'在经过N次AI自动化调用无误后，其对人工复核的依赖度是否可以降低？若节点在无人干预下保持稳定（无报错），是否可提升其'置信度'层级？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.404503",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q2_0_8080",
+  "design_spec": {
+    "name": "auto_人机共生反馈回环的时效性衰减模型_验证_ac43ef",
+    "display_name": "人机共生反馈回环的时效性衰减模型：验证'人类反馈的纠错权重'是否应随时间指数级衰减。具体为，一个'真",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生反馈回环的时效性衰减模型：验证'人类反馈的纠错权重'是否应随时间指数级衰减。具体为，一个'真实节点'在经过N次AI自动化调用无误后，其对人工复核的依赖度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 352
+  }
+}

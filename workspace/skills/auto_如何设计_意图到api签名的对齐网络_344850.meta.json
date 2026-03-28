@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_意图到api签名的对齐网络_344850",
+  "file": "skills/auto_如何设计_意图到api签名的对齐网络_344850.py",
+  "description": "如何设计‘意图到API签名的对齐网络’，将自然语言描述的微观功能（如‘把这张图变模糊’）无损映射到具体的代码函数签名（包括参数类型、返回值类型、异常处理）？这要求模型不仅理解语义，还要理解目标编程语言的类型系统和库的设计哲学。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.384942",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q3_3_4566",
+  "design_spec": {
+    "name": "auto_如何设计_意图到api签名的对齐网络_344850",
+    "display_name": "如何设计‘意图到API签名的对齐网络’，将自然语言描述的微观功能（如‘把这张图变模糊’）无损映射到具",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计‘意图到API签名的对齐网络’，将自然语言描述的微观功能（如‘把这张图变模糊’）无损映射到具体的代码函数签名（包括参数类型、返回值类型、异常处理）？这要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 437
+  }
+}

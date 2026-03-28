@@ -1,0 +1,30 @@
+{
+  "name": "auto_分层意图的状态机拆解_hfsm_如何将_be3f71",
+  "file": "skills/auto_分层意图的状态机拆解_hfsm_如何将_be3f71.py",
+  "description": "分层意图的状态机拆解（HFSM）：如何将一个长周期的复杂意图（如‘开发并运营一个网站’）递归拆解为状态机？关键在于识别‘意图检查点’，即代码执行到某一步必须回溯人类意图进行校验的时刻，防止累积误差。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "control_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.674613",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q6_1_3223",
+  "design_spec": {
+    "name": "auto_分层意图的状态机拆解_hfsm_如何将_be3f71",
+    "display_name": "分层意图的状态机拆解（HFSM）：如何将一个长周期的复杂意图（如‘开发并运营一个网站’）递归拆解为状",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "分层意图的状态机拆解（HFSM）：如何将一个长周期的复杂意图（如‘开发并运营一个网站’）递归拆解为状态机？关键在于识别‘意图检查点’，即代码执行到某一步必须回溯",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

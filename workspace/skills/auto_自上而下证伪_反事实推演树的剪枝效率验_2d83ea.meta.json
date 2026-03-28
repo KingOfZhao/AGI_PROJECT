@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下证伪_反事实推演树的剪枝效率验_2d83ea",
+  "file": "skills/auto_自上而下证伪_反事实推演树的剪枝效率验_2d83ea.py",
+  "description": "【自上而下证伪】反事实推演树的剪枝效率验证：针对复杂决策节点，构建'反事实模拟器'。当AGI提出一个假设时，系统必须自动生成N个'如果...会怎样'的负面场景进行攻击。本问题关注剪枝策略：如何证明通过自动生成的反例失败，能有效缩减搜索空间，而不是陷入无限递归？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "decision_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.786991",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q3_1_5308",
+  "design_spec": {
+    "name": "auto_自上而下证伪_反事实推演树的剪枝效率验_2d83ea",
+    "display_name": "【自上而下证伪】反事实推演树的剪枝效率验证：针对复杂决策节点，构建'反事实模拟器'。当AGI提出一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下证伪】反事实推演树的剪枝效率验证：针对复杂决策节点，构建'反事实模拟器'。当AGI提出一个假设时，系统必须自动生成N个'如果...会怎样'的负面场景进",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 343
+  }
+}

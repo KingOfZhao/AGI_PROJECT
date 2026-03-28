@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态语境_参数双向锚定系统_利用认知科_ebb72e",
+  "file": "skills/auto_动态语境_参数双向锚定系统_利用认知科_ebb72e.py",
+  "description": "【动态语境-参数双向锚定系统】利用认知科学的'变量引用解析图'技术，解决代码生成中'意图漂移'的问题。当用户说'处理一下这个文件，别太大了'，系统不仅生成代码，还构建一个'意图-参数映射图'，将'别太大'锚定到具体的参数（如file_size_limit）并进行反向校验。如果生成的代码中未包含该参数的边界检查，系统会自动触发'证伪机制'，提示用户或自动修正，实现代码参数与用户心理模型的动态对齐。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.528748",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_150_O2_2341",
+  "design_spec": {
+    "name": "auto_动态语境_参数双向锚定系统_利用认知科_ebb72e",
+    "display_name": "【动态语境-参数双向锚定系统】利用认知科学的'变量引用解析图'技术，解决代码生成中'意图漂移'的问题",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态语境-参数双向锚定系统】利用认知科学的'变量引用解析图'技术，解决代码生成中'意图漂移'的问题。当用户说'处理一下这个文件，别太大了'，系统不仅生成代码，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

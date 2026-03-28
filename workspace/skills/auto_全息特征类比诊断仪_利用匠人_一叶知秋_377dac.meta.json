@@ -1,0 +1,30 @@
+{
+  "name": "auto_全息特征类比诊断仪_利用匠人_一叶知秋_377dac",
+  "file": "skills/auto_全息特征类比诊断仪_利用匠人_一叶知秋_377dac.py",
+  "description": "【全息特征类比诊断仪】利用匠人‘一叶知秋’的类比思维解决AI小样本问题。当遇到罕见故障（样本<5），系统不再依赖统计学习，而是将故障信号（日志/堆栈）映射为‘感官特征’（如波形尖锐度、频率异常），并在已有Skill库中寻找‘同构’的已知故障（如将网络丢包类比为木材内部的暗裂），利用已知解决方案进行试探性修复。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_117",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:40:33.881046",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_117_O5_6125",
+  "design_spec": {
+    "name": "auto_全息特征类比诊断仪_利用匠人_一叶知秋_377dac",
+    "display_name": "【全息特征类比诊断仪】利用匠人‘一叶知秋’的类比思维解决AI小样本问题。当遇到罕见故障（样本<5），",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【全息特征类比诊断仪】利用匠人‘一叶知秋’的类比思维解决AI小样本问题。当遇到罕见故障（样本<5），系统不再依赖统计学习，而是将故障信号（日志/堆栈）映射为‘感",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

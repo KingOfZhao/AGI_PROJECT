@@ -1,0 +1,30 @@
+{
+  "name": "auto_神经符号化技能原子库_将复杂的ai任务_d1d741",
+  "file": "skills/auto_神经符号化技能原子库_将复杂的ai任务_d1d741.py",
+  "description": "【神经符号化技能原子库】将复杂的AI任务拆解为类似工艺工序的‘原子化代码片段’。当AI遇到未知任务时，不再尝试一次性生成庞大代码，而是检索并尝试组合这些经过验证的‘原子Skill’。如果组合失败，系统仅对失效的特定原子单元进行‘微调’或重写，从而实现类似工匠‘修整局部’的高效迭代。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.202274",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O3_6106",
+  "design_spec": {
+    "name": "auto_神经符号化技能原子库_将复杂的ai任务_d1d741",
+    "display_name": "【神经符号化技能原子库】将复杂的AI任务拆解为类似工艺工序的‘原子化代码片段’。当AI遇到未知任务时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【神经符号化技能原子库】将复杂的AI任务拆解为类似工艺工序的‘原子化代码片段’。当AI遇到未知任务时，不再尝试一次性生成庞大代码，而是检索并尝试组合这些经过验证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

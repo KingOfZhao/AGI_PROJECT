@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_重叠固化为真实节点_如何设计_环_2d1862",
+  "file": "skills/auto_针对_重叠固化为真实节点_如何设计_环_2d1862.py",
+  "description": "针对'重叠固化为真实节点'，如何设计'环境压力测试'沙盒？当新节点形成时，自动构建变异的高压环境（如极端市场波动、物理法则改变），测试该节点的鲁棒性和边界条件，只有通过测试的节点才能标记为'可实践知识'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "robust_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.703157",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_27_Q5_1_4907",
+  "design_spec": {
+    "name": "auto_针对_重叠固化为真实节点_如何设计_环_2d1862",
+    "display_name": "针对'重叠固化为真实节点'，如何设计'环境压力测试'沙盒？当新节点形成时，自动构建变异的高压环境（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'重叠固化为真实节点'，如何设计'环境压力测试'沙盒？当新节点形成时，自动构建变异的高压环境（如极端市场波动、物理法则改变），测试该节点的鲁棒性和边界条件，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

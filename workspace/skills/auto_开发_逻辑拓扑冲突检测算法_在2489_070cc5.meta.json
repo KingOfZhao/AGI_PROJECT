@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_逻辑拓扑冲突检测算法_在2489_070cc5",
+  "file": "skills/auto_开发_逻辑拓扑冲突检测算法_在2489_070cc5.py",
+  "description": "开发'逻辑拓扑冲突检测算法'。在2489个节点的网络中，自动识别逻辑互斥的节点对（例如：节点A主张'甲导致乙'，节点B主张'甲阻碍乙'）。该算法需结合RAG检索与符号逻辑推理，构建局部冲突图，并标记出必须由人类进行'仲裁'的矛盾点，而非试图由AI自行掩盖矛盾。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_94",
+    "logic_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:50:15.561281",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_94_Q3_3_9028",
+  "design_spec": {
+    "name": "auto_开发_逻辑拓扑冲突检测算法_在2489_070cc5",
+    "display_name": "开发'逻辑拓扑冲突检测算法'。在2489个节点的网络中，自动识别逻辑互斥的节点对（例如：节点A主张'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'逻辑拓扑冲突检测算法'。在2489个节点的网络中，自动识别逻辑互斥的节点对（例如：节点A主张'甲导致乙'，节点B主张'甲阻碍乙'）。该算法需结合RAG检索",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 362
+  }
+}

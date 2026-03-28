@@ -1,0 +1,30 @@
+{
+  "name": "auto_从模糊意图到api调用的自动路由与编排_b1cf54",
+  "file": "skills/auto_从模糊意图到api调用的自动路由与编排_b1cf54.py",
+  "description": "从模糊意图到API调用的自动路由与编排。用户意图通常包含动作（如‘发送消息’），但实现需要具体的API链式调用。如何构建一个执行引擎，能够根据意图动态规划API调用路径，并处理调用失败后的回滚与重试？这涉及将静态的API文档转化为动态的、可执行的‘技能树’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "api_orchestration",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.267454",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q6_3_4241",
+  "design_spec": {
+    "name": "auto_从模糊意图到api调用的自动路由与编排_b1cf54",
+    "display_name": "从模糊意图到API调用的自动路由与编排。用户意图通常包含动作（如‘发送消息’），但实现需要具体的AP",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "从模糊意图到API调用的自动路由与编排。用户意图通常包含动作（如‘发送消息’），但实现需要具体的API链式调用。如何构建一个执行引擎，能够根据意图动态规划API",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

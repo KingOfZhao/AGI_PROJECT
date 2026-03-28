@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_通过人类物理交互进行预训练_的_bf2a83",
+  "file": "skills/auto_如何设计_通过人类物理交互进行预训练_的_bf2a83.py",
+  "description": "如何设计‘通过人类物理交互进行预训练’的神经网络架构，使其能够从视频的细微像素变化中推断出不可见的力学属性（如粘稠度、张力）？这需要建立一个跨模态的潜在空间，让AI能像人类一样‘看’出材料的物理特性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "deep_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.753894",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_70_Q2_0_4188",
+  "design_spec": {
+    "name": "auto_如何设计_通过人类物理交互进行预训练_的_bf2a83",
+    "display_name": "如何设计‘通过人类物理交互进行预训练’的神经网络架构，使其能够从视频的细微像素变化中推断出不可见的力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计‘通过人类物理交互进行预训练’的神经网络架构，使其能够从视频的细微像素变化中推断出不可见的力学属性（如粘稠度、张力）？这需要建立一个跨模态的潜在空间，让",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

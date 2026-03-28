@@ -1,0 +1,30 @@
+{
+  "name": "auto_连接_物理引擎验证层_td_52_q9_ab4136",
+  "file": "skills/auto_连接_物理引擎验证层_td_52_q9_ab4136.py",
+  "description": "连接'物理引擎验证层'(td_52_Q9_2_705)与'高维数模转换接口'(bu_52_P1_1850)。不仅将物理世界的隐性知识（如陶艺手感）数字化，还立即在内部物理引擎中进行反事实推理（如'如果温度升高10%会怎样？'），并将验证结果反向拟合为新的数字节点，形成'感知-建模-仿真-修正'的极速闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.136770",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_53_E5_7060",
+  "design_spec": {
+    "name": "auto_连接_物理引擎验证层_td_52_q9_ab4136",
+    "display_name": "连接'物理引擎验证层'(td_52_Q9_2_705)与'高维数模转换接口'(bu_52_P1_18",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "连接'物理引擎验证层'(td_52_Q9_2_705)与'高维数模转换接口'(bu_52_P1_1850)。不仅将物理世界的隐性知识（如陶艺手感）数字化，还立即",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 265
+  }
+}

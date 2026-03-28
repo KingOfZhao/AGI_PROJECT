@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知动机捕捉器_在人机共生交互中_19ce3a",
+  "file": "skills/auto_构建_认知动机捕捉器_在人机共生交互中_19ce3a.py",
+  "description": "构建'认知动机捕捉器'。在人机共生交互中，系统监测人类反复提及或实践的模式（Riff）。当某个跨域模式（如'分形思想'在音乐和算法中同时出现）被高频调用时，系统自动将其'切片'、'打包装箱'为一个高层级的'认知动机'节点，并赋予其唯一的ID。这实现了知识从流体数据到固体结晶的自动化过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.442819",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_142_O3_3011",
+  "design_spec": {
+    "name": "auto_构建_认知动机捕捉器_在人机共生交互中_19ce3a",
+    "display_name": "构建'认知动机捕捉器'。在人机共生交互中，系统监测人类反复提及或实践的模式（Riff）。当某个跨域模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知动机捕捉器'。在人机共生交互中，系统监测人类反复提及或实践的模式（Riff）。当某个跨域模式（如'分形思想'在音乐和算法中同时出现）被高频调用时，系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

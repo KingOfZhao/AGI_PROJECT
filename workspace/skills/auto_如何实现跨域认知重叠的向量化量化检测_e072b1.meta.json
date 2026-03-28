@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现跨域认知重叠的向量化量化检测_e072b1",
+  "file": "skills/auto_如何实现跨域认知重叠的向量化量化检测_e072b1.py",
+  "description": "如何实现跨域认知重叠的向量化量化检测？'左右跨域重叠'是创新的核心。本问题要求开发一种非欧几里得距离的度量算法，能识别出语义表面不相关（如'小摊贩库存管理'与'CPU缓存置换'）但在深层结构上具有同构性的节点，从而触发新概念的生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.460311",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_17_Q2_3_3293",
+  "design_spec": {
+    "name": "auto_如何实现跨域认知重叠的向量化量化检测_e072b1",
+    "display_name": "如何实现跨域认知重叠的向量化量化检测？'左右跨域重叠'是创新的核心。本问题要求开发一种非欧几里得距离",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现跨域认知重叠的向量化量化检测？'左右跨域重叠'是创新的核心。本问题要求开发一种非欧几里得距离的度量算法，能识别出语义表面不相关（如'小摊贩库存管理'与'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

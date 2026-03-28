@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对人机协作中必然存在的时间差_late_40b6b7",
+  "file": "skills/auto_针对人机协作中必然存在的时间差_late_40b6b7.py",
+  "description": "针对人机协作中必然存在的时间差（Latency）与认知差，构建的一套缓冲与自适应系统。该机制包含两个核心维度：1) 时间弹性：在人类验证延迟期间，系统通过‘认知暂存’、‘概率衰减’及‘认知债务账本’管理未验证的假设；2) 认知弹性：实时监测人类的生理与行为指标（如修正次数、回复延迟），动态调整AI输出的信息密度，防止人类‘认知过载’。它通过量化预测与实践的偏差，维持人机交互闭环的动态平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.846201",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_115_P3_2167",
+  "design_spec": {
+    "name": "auto_针对人机协作中必然存在的时间差_late_40b6b7",
+    "display_name": "针对人机协作中必然存在的时间差（Latency）与认知差，构建的一套缓冲与自适应系统。该机制包含两个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对人机协作中必然存在的时间差（Latency）与认知差，构建的一套缓冲与自适应系统。该机制包含两个核心维度：1) 时间弹性：在人类验证延迟期间，系统通过‘认知",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

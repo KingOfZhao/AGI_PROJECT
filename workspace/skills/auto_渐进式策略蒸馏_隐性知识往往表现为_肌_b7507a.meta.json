@@ -1,0 +1,30 @@
+{
+  "name": "auto_渐进式策略蒸馏_隐性知识往往表现为_肌_b7507a",
+  "file": "skills/auto_渐进式策略蒸馏_隐性知识往往表现为_肌_b7507a.py",
+  "description": "【渐进式策略蒸馏】隐性知识往往表现为'肌肉记忆'。能否通过模仿学习，从大师的操作轨迹中提取出状态-动作对，并将其压缩为可执行的策略网络，且该策略能解释'为什么要在这个时刻加大力度'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "reinforcement_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.414332",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q7_0_869",
+  "design_spec": {
+    "name": "auto_渐进式策略蒸馏_隐性知识往往表现为_肌_b7507a",
+    "display_name": "【渐进式策略蒸馏】隐性知识往往表现为'肌肉记忆'。能否通过模仿学习，从大师的操作轨迹中提取出状态-动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【渐进式策略蒸馏】隐性知识往往表现为'肌肉记忆'。能否通过模仿学习，从大师的操作轨迹中提取出状态-动作对，并将其压缩为可执行的策略网络，且该策略能解释'为什么要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

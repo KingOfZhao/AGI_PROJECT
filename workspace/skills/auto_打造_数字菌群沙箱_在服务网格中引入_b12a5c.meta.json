@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_数字菌群沙箱_在服务网格中引入_b12a5c",
+  "file": "skills/auto_打造_数字菌群沙箱_在服务网格中引入_b12a5c.py",
+  "description": "打造'数字菌群沙箱'。在服务网格中引入'益生菌策略'和'病原体检测'。对外部依赖不仅进行静态扫描，更在运行时通过'拟态环境'（蜜罐）诱捕其异常行为。允许'有益'的第三方服务获得临时'消化酶'（数据访问权），但必须经过'肠道黏膜'（API网关策略）的严格过滤，且随时准备'腹泻'（熔断断开）以排毒。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.635592",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_106_O4_4121",
+  "design_spec": {
+    "name": "auto_打造_数字菌群沙箱_在服务网格中引入_b12a5c",
+    "display_name": "打造'数字菌群沙箱'。在服务网格中引入'益生菌策略'和'病原体检测'。对外部依赖不仅进行静态扫描，更",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造'数字菌群沙箱'。在服务网格中引入'益生菌策略'和'病原体检测'。对外部依赖不仅进行静态扫描，更在运行时通过'拟态环境'（蜜罐）诱捕其异常行为。允许'有益'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

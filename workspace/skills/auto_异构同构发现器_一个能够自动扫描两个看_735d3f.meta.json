@@ -1,0 +1,30 @@
+{
+  "name": "auto_异构同构发现器_一个能够自动扫描两个看_735d3f",
+  "file": "skills/auto_异构同构发现器_一个能够自动扫描两个看_735d3f.py",
+  "description": "【异构同构发现器】一个能够自动扫描两个看似无关领域（如‘蜂群行为’与‘分布式计算’），并提取其共同逻辑骨架的工具。它不仅指出相似性，还生成‘迁移映射表’，建议如何将领域A的优化策略（如蚁群觅食路径）迁移到领域B（如网络路由优化）。极大加速了跨学科创新的效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.037477",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_132_O4_3421",
+  "design_spec": {
+    "name": "auto_异构同构发现器_一个能够自动扫描两个看_735d3f",
+    "display_name": "【异构同构发现器】一个能够自动扫描两个看似无关领域（如‘蜂群行为’与‘分布式计算’），并提取其共同逻",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【异构同构发现器】一个能够自动扫描两个看似无关领域（如‘蜂群行为’与‘分布式计算’），并提取其共同逻辑骨架的工具。它不仅指出相似性，还生成‘迁移映射表’，建议如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

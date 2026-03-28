@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_非结构化意图解析_td_108_8a9317",
+  "file": "skills/auto_整合_非结构化意图解析_td_108_8a9317.py",
+  "description": "整合'非结构化意图解析'（td_108_Q1_3_3795）、'多模态传感器融合'（td_107_Q1_2_5156）与'工业隐喻映射'（td_108_Q2_1_4814）。允许用户使用模糊的自然语言（如'更有力一点'）直接控制复杂的工业设备或机器人，引擎自动将语义映射为具体的电机扭矩参数或轨迹调整。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.782793",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_109_E3_1122",
+  "design_spec": {
+    "name": "auto_整合_非结构化意图解析_td_108_8a9317",
+    "display_name": "整合'非结构化意图解析'（td_108_Q1_3_3795）、'多模态传感器融合'（td_107_Q",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'非结构化意图解析'（td_108_Q1_3_3795）、'多模态传感器融合'（td_107_Q1_2_5156）与'工业隐喻映射'（td_108_Q2_1",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

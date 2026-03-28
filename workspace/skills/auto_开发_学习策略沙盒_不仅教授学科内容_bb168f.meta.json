@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_学习策略沙盒_不仅教授学科内容_bb168f",
+  "file": "skills/auto_开发_学习策略沙盒_不仅教授学科内容_bb168f.py",
+  "description": "开发‘学习策略沙盒’。不仅教授学科内容，更强制要求学生像游戏分析师一样拆解学科逻辑。工具允许学生查看底层的数据结构（如语法规则的逻辑树、物理公式的适用边界），鼓励学生‘卡BUG’（寻找特例）和‘写宏’（总结方法论）。通过让学生设计‘针对该学科的通关攻略’或‘作弊器’（思维导图工具），反向验证其对知识的掌握程度。最高阶的学习是‘设计游戏’而非‘玩游戏’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.731424",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_27_O5_7417",
+  "design_spec": {
+    "name": "auto_开发_学习策略沙盒_不仅教授学科内容_bb168f",
+    "display_name": "开发‘学习策略沙盒’。不仅教授学科内容，更强制要求学生像游戏分析师一样拆解学科逻辑。工具允许学生查看",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘学习策略沙盒’。不仅教授学科内容，更强制要求学生像游戏分析师一样拆解学科逻辑。工具允许学生查看底层的数据结构（如语法规则的逻辑树、物理公式的适用边界），鼓",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

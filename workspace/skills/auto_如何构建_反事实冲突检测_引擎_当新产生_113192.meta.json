@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_反事实冲突检测_引擎_当新产生_113192",
+  "file": "skills/auto_如何构建_反事实冲突检测_引擎_当新产生_113192.py",
+  "description": "如何构建‘反事实冲突检测’引擎？当新产生的‘真实节点’与现有的高层理论发生冲突时，系统应自动推导：是底层节点异常，还是顶层理论需要修正？这涉及贝叶斯网络中的置信度传播算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.697982",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_99_Q6_2_5144",
+  "design_spec": {
+    "name": "auto_如何构建_反事实冲突检测_引擎_当新产生_113192",
+    "display_name": "如何构建‘反事实冲突检测’引擎？当新产生的‘真实节点’与现有的高层理论发生冲突时，系统应自动推导：是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建‘反事实冲突检测’引擎？当新产生的‘真实节点’与现有的高层理论发生冲突时，系统应自动推导：是底层节点异常，还是顶层理论需要修正？这涉及贝叶斯网络中的置信",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

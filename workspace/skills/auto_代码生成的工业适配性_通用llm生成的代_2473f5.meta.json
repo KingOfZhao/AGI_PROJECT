@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码生成的工业适配性_通用llm生成的代_2473f5",
+  "file": "skills/auto_代码生成的工业适配性_通用llm生成的代_2473f5.py",
+  "description": "代码生成的工业适配性：通用LLM生成的代码往往缺乏工业安全规范。如何将'工业安全标准'（如急停逻辑、冗余校验）作为'硬约束节点'嵌入代码生成过程？实验需验证生成的PLC或机器人控制代码是否100%符合预设的安全逻辑，任何违反安全节点的代码都必须被证伪并重写。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.564035",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q8_1_4130",
+  "design_spec": {
+    "name": "auto_代码生成的工业适配性_通用llm生成的代_2473f5",
+    "display_name": "代码生成的工业适配性：通用LLM生成的代码往往缺乏工业安全规范。如何将'工业安全标准'（如急停逻辑、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "代码生成的工业适配性：通用LLM生成的代码往往缺乏工业安全规范。如何将'工业安全标准'（如急停逻辑、冗余校验）作为'硬约束节点'嵌入代码生成过程？实验需验证生成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

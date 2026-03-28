@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一个连接_模糊意图_与_物理现实_的_942fbb",
+  "file": "skills/auto_构建一个连接_模糊意图_与_物理现实_的_942fbb.py",
+  "description": "构建一个连接'模糊意图'与'物理现实'的桥梁层。该概念强调在真实执行前，通过数学验证器和逻辑沙盒进行'预犯错'。它将自然语言意图量化为可测量的目标函数，在代码生成阶段即预测其状态空间轨迹，并在隔离环境中运行反例生成器。通过这种'虚实映射'，确保AI输出的'实践清单'在进入人类物理验证环节前，已经通过了逻辑与数学的自洽性过滤。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.520390",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_5_P2_4829",
+  "design_spec": {
+    "name": "auto_构建一个连接_模糊意图_与_物理现实_的_942fbb",
+    "display_name": "构建一个连接'模糊意图'与'物理现实'的桥梁层。该概念强调在真实执行前，通过数学验证器和逻辑沙盒进行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一个连接'模糊意图'与'物理现实'的桥梁层。该概念强调在真实执行前，通过数学验证器和逻辑沙盒进行'预犯错'。它将自然语言意图量化为可测量的目标函数，在代码生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

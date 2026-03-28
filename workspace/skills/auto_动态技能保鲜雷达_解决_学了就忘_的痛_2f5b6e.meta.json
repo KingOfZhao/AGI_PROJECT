@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态技能保鲜雷达_解决_学了就忘_的痛_2f5b6e",
+  "file": "skills/auto_动态技能保鲜雷达_解决_学了就忘_的痛_2f5b6e.py",
+  "description": "【动态技能保鲜雷达】解决‘学了就忘’的痛点。系统不仅追踪用户学了什么，更基于‘认知活跃度’模型计算每个技能节点的‘半衰期’。当检测到某核心技能节点即将进入‘休眠态’（遗忘阈值）时，自动触发‘微唤醒’任务（如一道小测验或一个实战场景），在最小时间成本下维持技能网络的活性，实现终身学习的自动化管理。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.059504",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_59_O6_6653",
+  "design_spec": {
+    "name": "auto_动态技能保鲜雷达_解决_学了就忘_的痛_2f5b6e",
+    "display_name": "【动态技能保鲜雷达】解决‘学了就忘’的痛点。系统不仅追踪用户学了什么，更基于‘认知活跃度’模型计算每",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态技能保鲜雷达】解决‘学了就忘’的痛点。系统不仅追踪用户学了什么，更基于‘认知活跃度’模型计算每个技能节点的‘半衰期’。当检测到某核心技能节点即将进入‘休眠",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

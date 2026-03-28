@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生循环中的_概念结晶_触发机制_在_7d41cb",
+  "file": "skills/auto_人机共生循环中的_概念结晶_触发机制_在_7d41cb.py",
+  "description": "人机共生循环中的‘概念结晶’触发机制。在AI整理实践清单→人类实践→反馈数据的过程中，何时表明一个新的‘概念’已经成熟，可以被固化为一个新的真实节点？如何设计异常检测算法，从人类的实践反馈流（非结构化文本/行为数据）中识别出高频出现的模式，并自动提议生成新节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "流式处理/NLP",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.707787",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q4_1_2583",
+  "design_spec": {
+    "name": "auto_人机共生循环中的_概念结晶_触发机制_在_7d41cb",
+    "display_name": "人机共生循环中的‘概念结晶’触发机制。在AI整理实践清单→人类实践→反馈数据的过程中，何时表明一个新",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生循环中的‘概念结晶’触发机制。在AI整理实践清单→人类实践→反馈数据的过程中，何时表明一个新的‘概念’已经成熟，可以被固化为一个新的真实节点？如何设计异",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

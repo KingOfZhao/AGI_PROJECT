@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_模态置信度加权算法_根据上下文环_4d943a",
+  "file": "skills/auto_开发_模态置信度加权算法_根据上下文环_4d943a.py",
+  "description": "开发'模态置信度加权算法'，根据上下文环境动态调整不同感官通道的权重，或引入'冲突消解沙箱'进行预演。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.741899",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_139_G2_9427",
+  "design_spec": {
+    "name": "auto_开发_模态置信度加权算法_根据上下文环_4d943a",
+    "display_name": "开发'模态置信度加权算法'，根据上下文环境动态调整不同感官通道的权重，或引入'冲突消解沙箱'进行预演",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'模态置信度加权算法'，根据上下文环境动态调整不同感官通道的权重，或引入'冲突消解沙箱'进行预演。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

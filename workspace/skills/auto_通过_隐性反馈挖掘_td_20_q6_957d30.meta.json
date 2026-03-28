@@ -1,0 +1,30 @@
+{
+  "name": "auto_通过_隐性反馈挖掘_td_20_q6_957d30",
+  "file": "skills/auto_通过_隐性反馈挖掘_td_20_q6_957d30.py",
+  "description": "通过‘隐性反馈挖掘’（td_20_Q6）捕捉人类潜意识偏好，结合‘价值对齐与冲突检测’（td_21_Q6）处理显式纠错。系统将构建一个双向渗透层：既能将人类价值观内化为AI的约束条件，又能将AI的逻辑推演外化为人类可理解的‘解释性清单’，实现真正的认知共生。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.515238",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_22_E4_1908",
+  "design_spec": {
+    "name": "auto_通过_隐性反馈挖掘_td_20_q6_957d30",
+    "display_name": "通过‘隐性反馈挖掘’（td_20_Q6）捕捉人类潜意识偏好，结合‘价值对齐与冲突检测’（td_21_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "通过‘隐性反馈挖掘’（td_20_Q6）捕捉人类潜意识偏好，结合‘价值对齐与冲突检测’（td_21_Q6）处理显式纠错。系统将构建一个双向渗透层：既能将人类价值",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

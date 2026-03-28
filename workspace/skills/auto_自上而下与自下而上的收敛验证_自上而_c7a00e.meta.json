@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下与自下而上的收敛验证_自上而_c7a00e",
+  "file": "skills/auto_自上而下与自下而上的收敛验证_自上而_c7a00e.py",
+  "description": "【自上而下与自下而上的收敛验证】'自上而下拆解'的目标与'自下而上归纳'的结果，在什么误差范围内可以被认为是'重合'的？如果拆解的子任务与归纳的原始数据无法对齐，系统应如何判定是目标错误（证伪）还是数据不足？这需要一个动态的置信度校准机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "agi_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.148032",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_49_Q10_1_9922",
+  "design_spec": {
+    "name": "auto_自上而下与自下而上的收敛验证_自上而_c7a00e",
+    "display_name": "【自上而下与自下而上的收敛验证】'自上而下拆解'的目标与'自下而上归纳'的结果，在什么误差范围内可以",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下与自下而上的收敛验证】'自上而下拆解'的目标与'自下而上归纳'的结果，在什么误差范围内可以被认为是'重合'的？如果拆解的子任务与归纳的原始数据无法对齐",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 218
+  }
+}

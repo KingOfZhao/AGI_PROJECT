@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索跨域迁移_左右碰撞_的自动化实现_能_8d15e9",
+  "file": "skills/auto_探索跨域迁移_左右碰撞_的自动化实现_能_8d15e9.py",
+  "description": "探索跨域迁移（左右碰撞）的自动化实现：能否基于节点在隐空间的高维聚类特征，自动计算两个看似不相关领域（如'烹饪'与'化学催化'）的'概念重叠度'？并基于此重叠度提出具体的迁移假设（例如：将烹饪中的'美拉德反应'控制参数迁移至某化学合成节点）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "表征学习/迁移学习",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:28.965274",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q3_2_9566",
+  "design_spec": {
+    "name": "auto_探索跨域迁移_左右碰撞_的自动化实现_能_8d15e9",
+    "display_name": "探索跨域迁移（左右碰撞）的自动化实现：能否基于节点在隐空间的高维聚类特征，自动计算两个看似不相关领域",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索跨域迁移（左右碰撞）的自动化实现：能否基于节点在隐空间的高维聚类特征，自动计算两个看似不相关领域（如'烹饪'与'化学催化'）的'概念重叠度'？并基于此重叠度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

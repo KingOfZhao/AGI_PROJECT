@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知缝合算法_研究如何将两个冲突_ca05f9",
+  "file": "skills/auto_开发_认知缝合算法_研究如何将两个冲突_ca05f9.py",
+  "description": "开发'认知缝合算法'：研究如何将两个冲突节点的上下文进行剥离和重组，生成兼容目标域的变体节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.738570",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_27_G1_5081",
+  "design_spec": {
+    "name": "auto_开发_认知缝合算法_研究如何将两个冲突_ca05f9",
+    "display_name": "开发'认知缝合算法'：研究如何将两个冲突节点的上下文进行剥离和重组，生成兼容目标域的变体节点。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知缝合算法'：研究如何将两个冲突节点的上下文进行剥离和重组，生成兼容目标域的变体节点。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于物理破坏模拟的对抗性生成网络_不_e224a1",
+  "file": "skills/auto_基于物理破坏模拟的对抗性生成网络_不_e224a1.py",
+  "description": "【基于物理破坏模拟的对抗性生成网络】：不仅仅在数据层面生成对抗样本，而是在‘物理属性’层面生成对抗性环境参数（如极端湿度、材料微裂纹）。AI在生成设计方案时，另一个‘破坏者AI’同步生成该方案在最恶劣工况下的破坏模拟。通过这种‘设计-破坏’的博弈，生成具有极高鲁棒性的工艺参数组合，彻底根治工艺设计中的‘幸存者偏差’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.524031",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_147_O2_2182",
+  "design_spec": {
+    "name": "auto_基于物理破坏模拟的对抗性生成网络_不_e224a1",
+    "display_name": "【基于物理破坏模拟的对抗性生成网络】：不仅仅在数据层面生成对抗样本，而是在‘物理属性’层面生成对抗性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于物理破坏模拟的对抗性生成网络】：不仅仅在数据层面生成对抗样本，而是在‘物理属性’层面生成对抗性环境参数（如极端湿度、材料微裂纹）。AI在生成设计方案时，另",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

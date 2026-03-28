@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_隐喻失效_边界探测_当使用_38407b",
+  "file": "skills/auto_跨域迁移中的_隐喻失效_边界探测_当使用_38407b.py",
+  "description": "跨域迁移中的'隐喻失效'边界探测：当使用隐喻（如'大脑像计算机'）进行跨域教学或迁移时，AI如何精确识别隐喻在何处失效（如'大脑没有风扇，无法通过散热解决过载'）？目标是构建一个'隐喻边界探测器'，在知识迁移过程中自动标记出源领域逻辑在目标领域不成立的特定属性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_76",
+    "linguistics_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:35:30.444051",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_76_Q5_3_8921",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_隐喻失效_边界探测_当使用_38407b",
+    "display_name": "跨域迁移中的'隐喻失效'边界探测：当使用隐喻（如'大脑像计算机'）进行跨域教学或迁移时，AI如何精确",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的'隐喻失效'边界探测：当使用隐喻（如'大脑像计算机'）进行跨域教学或迁移时，AI如何精确识别隐喻在何处失效（如'大脑没有风扇，无法通过散热解决过载'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

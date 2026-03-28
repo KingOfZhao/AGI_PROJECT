@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽性验证_ai能否在没有人类干预_0b0ac1",
+  "file": "skills/auto_认知自洽性验证_ai能否在没有人类干预_0b0ac1.py",
+  "description": "【认知自洽性验证】AI能否在没有人类干预的情况下，检测出其自身知识库（1425节点）中的逻辑矛盾？例如，节点A声称'水在100度沸腾'，节点B（高压烹饪节点）暗示'水在100度以上沸腾'，AI需提出修正方案或创建'环境变量'节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.902113",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_54_Q4_0_7256",
+  "design_spec": {
+    "name": "auto_认知自洽性验证_ai能否在没有人类干预_0b0ac1",
+    "display_name": "【认知自洽性验证】AI能否在没有人类干预的情况下，检测出其自身知识库（1425节点）中的逻辑矛盾？例",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知自洽性验证】AI能否在没有人类干预的情况下，检测出其自身知识库（1425节点）中的逻辑矛盾？例如，节点A声称'水在100度沸腾'，节点B（高压烹饪节点）暗",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 243
+  }
+}

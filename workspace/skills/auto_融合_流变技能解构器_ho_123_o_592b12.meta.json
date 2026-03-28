@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_流变技能解构器_ho_123_o_592b12",
+  "file": "skills/auto_融合_流变技能解构器_ho_123_o_592b12.py",
+  "description": "融合'流变技能解构器'（ho_123_O5_2496）与'语义边界固化'（td_123_Q1_3_7221）。将静态的JSON Schema映射转变为动态的'原子动作流'映射。当用户意图发生微小变化（如从'轻轻拿'变为'快速抓'）时，系统不是重新检索Skill，而是直接调整底层'肌肉收缩'与'关节刚度'参数流，实现零延迟的意图响应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.808559",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_124_E5_4099",
+  "design_spec": {
+    "name": "auto_融合_流变技能解构器_ho_123_o_592b12",
+    "display_name": "融合'流变技能解构器'（ho_123_O5_2496）与'语义边界固化'（td_123_Q1_3_7",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'流变技能解构器'（ho_123_O5_2496）与'语义边界固化'（td_123_Q1_3_7221）。将静态的JSON Schema映射转变为动态的'原",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 339
+  }
+}

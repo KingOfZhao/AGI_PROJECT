@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_心流状态锁相环_利用可穿戴设备实_64d166",
+  "file": "skills/auto_开发_心流状态锁相环_利用可穿戴设备实_64d166.py",
+  "description": "开发'心流状态锁相环'。利用可穿戴设备实时采集生理信号（心率变异性、皮电反应）和行为数据，AI实时分析'身心分离度'（类似于模态未对齐）。当检测到焦虑或动作变形（模态冲突）时，AI通过环境调节（灯光、音乐）或微小的触觉反馈，引导用户重新进入'多模态对齐'的心流状态，极大提升技能练习效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.370819",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O3_3383",
+  "design_spec": {
+    "name": "auto_开发_心流状态锁相环_利用可穿戴设备实_64d166",
+    "display_name": "开发'心流状态锁相环'。利用可穿戴设备实时采集生理信号（心率变异性、皮电反应）和行为数据，AI实时分",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'心流状态锁相环'。利用可穿戴设备实时采集生理信号（心率变异性、皮电反应）和行为数据，AI实时分析'身心分离度'（类似于模态未对齐）。当检测到焦虑或动作变形",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

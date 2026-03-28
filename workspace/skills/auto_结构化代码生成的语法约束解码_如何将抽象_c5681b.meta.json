@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构化代码生成的语法约束解码_如何将抽象_c5681b",
+  "file": "skills/auto_结构化代码生成的语法约束解码_如何将抽象_c5681b.py",
+  "description": "结构化代码生成的语法约束解码：如何将抽象语法树（AST）的约束直接集成到LLM的解码过程中，确保生成的代码在概率上不仅通顺，而且在结构上严格符合目标语言的语法规范，避免产生'幻觉'代码？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.245653",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q6_1_9079",
+  "design_spec": {
+    "name": "auto_结构化代码生成的语法约束解码_如何将抽象_c5681b",
+    "display_name": "结构化代码生成的语法约束解码：如何将抽象语法树（AST）的约束直接集成到LLM的解码过程中，确保生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结构化代码生成的语法约束解码：如何将抽象语法树（AST）的约束直接集成到LLM的解码过程中，确保生成的代码在概率上不仅通顺，而且在结构上严格符合目标语言的语法规",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 254
+  }
+}

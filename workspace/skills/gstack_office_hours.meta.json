@@ -1,0 +1,39 @@
+{
+  "name": "gstack/office-hours",
+  "slug": "gstack_office_hours",
+  "description": "YC Office Hours — two modes. Startup mode: six forcing questions that expose demand reality, status quo, desperate specificity, narrowest wedge, observation, and future-fit. Builder mode: design thinking brainstorming for side projects, hackathons, learning, and open source. Saves a design doc. Use when asked to \"brainstorm this\", \"I have an idea\", \"help me think through this\", \"office hours\", or \"is this worth building\". Proactively suggest when the user describes a new product idea or is explo",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "product-planning",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/office-hours",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "2.0.0",
+  "category": "product-planning",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Grep",
+    "Glob",
+    "Write",
+    "Edit",
+    "AskUserQuestion",
+    "WebSearch"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)",
+    "WARNING: external_network — 存在外部网络请求"
+  ],
+  "created_at": "2026-03-25T15:32:03.540561",
+  "imported_by": "gstack_skill_importer"
+}

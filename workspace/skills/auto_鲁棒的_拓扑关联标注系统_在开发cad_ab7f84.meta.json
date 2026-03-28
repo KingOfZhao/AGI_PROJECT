@@ -1,0 +1,30 @@
+{
+  "name": "auto_鲁棒的_拓扑关联标注系统_在开发cad_ab7f84",
+  "file": "skills/auto_鲁棒的_拓扑关联标注系统_在开发cad_ab7f84.py",
+  "description": "鲁棒的'拓扑关联标注系统'。在开发CAD查看器或轻量化编辑器时，利用GlobalKey机制绑定标注实体与几何实体。当视图发生剧烈变换（如剖切、爆炸图）导致Widget树重组时，确保尺寸线和引线依然正确吸附在原本的几何要素上，防止跟丢。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.570222",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O5_5454",
+  "design_spec": {
+    "name": "auto_鲁棒的_拓扑关联标注系统_在开发cad_ab7f84",
+    "display_name": "鲁棒的'拓扑关联标注系统'。在开发CAD查看器或轻量化编辑器时，利用GlobalKey机制绑定标注实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "鲁棒的'拓扑关联标注系统'。在开发CAD查看器或轻量化编辑器时，利用GlobalKey机制绑定标注实体与几何实体。当视图发生剧烈变换（如剖切、爆炸图）导致Wid",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

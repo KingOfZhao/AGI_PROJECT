@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种高阶推理能力_超越了表层的语义相似性_fd40be",
+  "file": "skills/auto_一种高阶推理能力_超越了表层的语义相似性_fd40be.py",
+  "description": "一种高阶推理能力，超越了表层的语义相似性，专注于挖掘深层的数学或逻辑同构性。该引擎能够识别源域（如图书馆管理）与目标域（如内存管理）之间的结构映射关系，并将经过验证的深层机制（如索引、借还流程）无损地迁移到新领域。它利用几何约束求解、范式迁移等算法，将一个领域的“解题思路”抽象为通用的“思维模板”，从而解决全新环境下的复杂问题，实现从“举一反三”到“跨域重构”的跃迁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.334042",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_3_P3_5960",
+  "design_spec": {
+    "name": "auto_一种高阶推理能力_超越了表层的语义相似性_fd40be",
+    "display_name": "一种高阶推理能力，超越了表层的语义相似性，专注于挖掘深层的数学或逻辑同构性。该引擎能够识别源域（如图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种高阶推理能力，超越了表层的语义相似性，专注于挖掘深层的数学或逻辑同构性。该引擎能够识别源域（如图书馆管理）与目标域（如内存管理）之间的结构映射关系，并将经过",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

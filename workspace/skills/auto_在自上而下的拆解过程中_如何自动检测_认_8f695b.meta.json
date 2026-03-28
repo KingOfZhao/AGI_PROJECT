@@ -1,0 +1,30 @@
+{
+  "name": "auto_在自上而下的拆解过程中_如何自动检测_认_8f695b",
+  "file": "skills/auto_在自上而下的拆解过程中_如何自动检测_认_8f695b.py",
+  "description": "在自上而下的拆解过程中，如何自动检测'认知边界'？即当AI试图解决一个复杂问题（如'开发APP'）时，如何算法化地识别出当前知识库中缺失的中间节点（如'API接口设计'），而不是生成幻觉或无意义的拆解？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.556067",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q3_2_2116",
+  "design_spec": {
+    "name": "auto_在自上而下的拆解过程中_如何自动检测_认_8f695b",
+    "display_name": "在自上而下的拆解过程中，如何自动检测'认知边界'？即当AI试图解决一个复杂问题（如'开发APP'）时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在自上而下的拆解过程中，如何自动检测'认知边界'？即当AI试图解决一个复杂问题（如'开发APP'）时，如何算法化地识别出当前知识库中缺失的中间节点（如'API接",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

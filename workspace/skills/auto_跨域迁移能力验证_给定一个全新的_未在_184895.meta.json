@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移能力验证_给定一个全新的_未在_184895",
+  "file": "skills/auto_跨域迁移能力验证_给定一个全新的_未在_184895.py",
+  "description": "【跨域迁移能力验证】给定一个全新的、未在训练数据中出现的游戏规则文档（如一个复杂的桌面游戏），AI能否在无需人类干预的情况下，生成一个能够运行该游戏的完整Python代码实现，并且生成的代码能够通过预定义的100个随机游戏局面测试？这测试的是AI从抽象文本规则映射到具体可执行逻辑（真实节点）的构建能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.835290",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_46_Q1_2_4231",
+  "design_spec": {
+    "name": "auto_跨域迁移能力验证_给定一个全新的_未在_184895",
+    "display_name": "【跨域迁移能力验证】给定一个全新的、未在训练数据中出现的游戏规则文档（如一个复杂的桌面游戏），AI能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移能力验证】给定一个全新的、未在训练数据中出现的游戏规则文档（如一个复杂的桌面游戏），AI能否在无需人类干预的情况下，生成一个能够运行该游戏的完整Pyt",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 349
+  }
+}

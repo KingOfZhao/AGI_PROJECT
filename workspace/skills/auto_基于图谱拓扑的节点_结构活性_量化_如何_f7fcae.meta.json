@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于图谱拓扑的节点_结构活性_量化_如何_f7fcae",
+  "file": "skills/auto_基于图谱拓扑的节点_结构活性_量化_如何_f7fcae.py",
+  "description": "基于图谱拓扑的节点'结构活性'量化：如何通过计算节点在网络中的介数中心性与入度增长率，来区分'高价值枢纽节点'与'待淘汰孤立节点'？需建立一个数学模型，当节点长时间（如>3个实践周期）未作为中间件被下游节点调用，且无新入度产生时，判定其进入结构老化状态。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "GraphTheory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.386998",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_128_Q1_0_3176",
+  "design_spec": {
+    "name": "auto_基于图谱拓扑的节点_结构活性_量化_如何_f7fcae",
+    "display_name": "基于图谱拓扑的节点'结构活性'量化：如何通过计算节点在网络中的介数中心性与入度增长率，来区分'高价值",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于图谱拓扑的节点'结构活性'量化：如何通过计算节点在网络中的介数中心性与入度增长率，来区分'高价值枢纽节点'与'待淘汰孤立节点'？需建立一个数学模型，当节点长",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

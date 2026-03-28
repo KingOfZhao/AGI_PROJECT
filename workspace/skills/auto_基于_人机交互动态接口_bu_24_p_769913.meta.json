@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机交互动态接口_bu_24_p_769913",
+  "file": "skills/auto_基于_人机交互动态接口_bu_24_p_769913.py",
+  "description": "基于'人机交互动态接口'(bu_24_P2_9415)、'不确定性盲区'(em_24_E4_6062)与'认知阻力算法'(ho_24_O1_637)。系统不再是被动等待指令，而是主动监测人类认知的舒适区与盲区。当面临高风险或高认知阻力决策时，系统会主动请求人类介入，并根据人类的反馈调整自身的生成策略，实现真正的'人机回环'协作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.980568",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_25_E4_189",
+  "design_spec": {
+    "name": "auto_基于_人机交互动态接口_bu_24_p_769913",
+    "display_name": "基于'人机交互动态接口'(bu_24_P2_9415)、'不确定性盲区'(em_24_E4_6062",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'人机交互动态接口'(bu_24_P2_9415)、'不确定性盲区'(em_24_E4_6062)与'认知阻力算法'(ho_24_O1_637)。系统不再是",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

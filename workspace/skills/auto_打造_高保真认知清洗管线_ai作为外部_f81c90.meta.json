@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_高保真认知清洗管线_ai作为外部_f81c90",
+  "file": "skills/auto_打造_高保真认知清洗管线_ai作为外部_f81c90.py",
+  "description": "打造'高保真认知清洗管线'。AI作为外部预处理层，在信息进入人类大脑'长期记忆库'之前，自动标记信息源的可信度（Source Credibility），识别逻辑谬误（Logical Fallacies），并对情绪化语言进行'降噪处理'。人类专注于验证AI清洗过的'净数据'，从而提升决策质量。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.351861",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O4_945",
+  "design_spec": {
+    "name": "auto_打造_高保真认知清洗管线_ai作为外部_f81c90",
+    "display_name": "打造'高保真认知清洗管线'。AI作为外部预处理层，在信息进入人类大脑'长期记忆库'之前，自动标记信息",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造'高保真认知清洗管线'。AI作为外部预处理层，在信息进入人类大脑'长期记忆库'之前，自动标记信息源的可信度（Source Credibility），识别逻辑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

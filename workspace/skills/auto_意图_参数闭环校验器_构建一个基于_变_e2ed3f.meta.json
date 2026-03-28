@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图_参数闭环校验器_构建一个基于_变_e2ed3f",
+  "file": "skills/auto_意图_参数闭环校验器_构建一个基于_变_e2ed3f.py",
+  "description": "【意图-参数闭环校验器】构建一个基于‘变量引用解析图’的参数约束系统。当用户在多轮对话中使用模糊代词（‘把它弄小点’）时，系统利用B的锚定技术锁定对象，同时利用A的约束转化机制，将‘弄小点’结合上下文（如当前窗口大小或图片分辨率）转化为具体的数值参数（如‘resize to 800x600’）。系统还能反向验证：如果参数调整导致违背之前设定的隐含约束（如‘不要破坏长宽比’），则自动拒绝并请求确认。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.854885",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_103_O4_4829",
+  "design_spec": {
+    "name": "auto_意图_参数闭环校验器_构建一个基于_变_e2ed3f",
+    "display_name": "【意图-参数闭环校验器】构建一个基于‘变量引用解析图’的参数约束系统。当用户在多轮对话中使用模糊代词",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图-参数闭环校验器】构建一个基于‘变量引用解析图’的参数约束系统。当用户在多轮对话中使用模糊代词（‘把它弄小点’）时，系统利用B的锚定技术锁定对象，同时利用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 335
+  }
+}

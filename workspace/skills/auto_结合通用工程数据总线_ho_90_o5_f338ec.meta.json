@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合通用工程数据总线_ho_90_o5_f338ec",
+  "file": "skills/auto_结合通用工程数据总线_ho_90_o5_f338ec.py",
+  "description": "结合通用工程数据总线（ho_90_O5）、自适应装配仿真视图（ho_90_O2）与CAD元数据提取。打通从底层二进制几何数据到顶层移动端交互视图的全链路，使得复杂的工业设计不仅能被AI'理解'结构，还能在移动端进行基于物理约束的动态交互演示，极大加速工程现场的决策与协作效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.702430",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_91_E5_6",
+  "design_spec": {
+    "name": "auto_结合通用工程数据总线_ho_90_o5_f338ec",
+    "display_name": "结合通用工程数据总线（ho_90_O5）、自适应装配仿真视图（ho_90_O2）与CAD元数据提取。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合通用工程数据总线（ho_90_O5）、自适应装配仿真视图（ho_90_O2）与CAD元数据提取。打通从底层二进制几何数据到顶层移动端交互视图的全链路，使得复",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 336
+  }
+}

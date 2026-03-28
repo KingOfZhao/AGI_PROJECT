@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种融合非结构化物理信号_肌电_惯性_视_568e52",
+  "file": "skills/auto_一种融合非结构化物理信号_肌电_惯性_视_568e52.py",
+  "description": "一种融合非结构化物理信号（肌电、惯性、视频）与专家经验，通过强化学习提取'反直觉物理技巧'并将其数字化为高维向量节点的认知协议。该系统不仅能记录动作，还能捕捉'平刀法到滚刀法'的演进漂移，实现物理技能向数字世界的'神经缝合'与增量式固化，解决隐性知识难以显性化的难题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.948560",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_108_P2_869",
+  "design_spec": {
+    "name": "auto_一种融合非结构化物理信号_肌电_惯性_视_568e52",
+    "display_name": "一种融合非结构化物理信号（肌电、惯性、视频）与专家经验，通过强化学习提取'反直觉物理技巧'并将其数字",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种融合非结构化物理信号（肌电、惯性、视频）与专家经验，通过强化学习提取'反直觉物理技巧'并将其数字化为高维向量节点的认知协议。该系统不仅能记录动作，还能捕捉'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_跨域技能迁移_即检测新意图与_7751ac",
+  "file": "skills/auto_如何实现_跨域技能迁移_即检测新意图与_7751ac.py",
+  "description": "如何实现“跨域技能迁移”？即检测新意图与现有2368个SKILL节点的拓扑重叠度，若重叠度>0.7，则直接复用现有代码架构；若<0.3，则触发“自下而上”的归纳构建流程。这需要解决向量空间中的语义距离计算与逻辑结构匹配的对齐问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.742524",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_141_Q5_1_693",
+  "design_spec": {
+    "name": "auto_如何实现_跨域技能迁移_即检测新意图与_7751ac",
+    "display_name": "如何实现“跨域技能迁移”？即检测新意图与现有2368个SKILL节点的拓扑重叠度，若重叠度>0.7，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现“跨域技能迁移”？即检测新意图与现有2368个SKILL节点的拓扑重叠度，若重叠度>0.7，则直接复用现有代码架构；若<0.3，则触发“自下而上”的归纳",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 242
+  }
+}

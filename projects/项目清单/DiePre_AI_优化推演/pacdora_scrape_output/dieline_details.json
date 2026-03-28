@@ -1,0 +1,4432 @@
+[
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-tuck-end-boxes-double-tray-dieline-100010",
+    "num": "100010",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-tuck-end-boxes-double-tray-dieline-100010",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=6",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=6&bleed=3&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=7&width=60&height=160&length=120",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~3mm)",
+        "(0.2~3mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "制造尺寸120 × 60 × 160 mm内尺寸119.4 × 59.4 × 158.9 mm外尺寸120.4 × 60.4 × 160.9 mm",
+        "制造尺寸120 × 60 × 160 mm",
+        "制造尺寸",
+        "120 × 60 × 160 mm",
+        "内尺寸119.4 × 59.4 × 158.9 mm",
+        "内尺寸",
+        "119.4 × 59.4 × 158.9 mm",
+        "外尺寸120.4 × 60.4 × 160.9 mm",
+        "外尺寸",
+        "120.4 × 60.4 × 160.9 mm",
+        "120 mm160 mm60 mm",
+        "120 mm160 mm60 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "白卡纸",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "386.7024424612494",
+          "height": "320.2024424612494",
+          "pathCount": 37,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M16,240.25  L16,14.25  L16.5,14.25  L16.5,11  Q16.5,6.4436507,19.721825,3.2218256  Q22.943649,0,27.5,0  L130.5,0  Q135.05634,0,138.27817,3.22182536  Q141.5,6.4436574,141.5,11  L141.5,14.25  L142,14.2",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M16,240.25  L16,14.25  L16.5,14.25  L16.5,11  Q16.5,6.4436507,19.721825,3.2218256  Q22.943649,0,27.5,0  L130.5,0  Q135.05634,0,138.27817,3.22182536  Q141.5,6.4436574,141.5,11  L141.5,14.25  L142,14.2",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.25  L136,74.25  L136,234.25  L16,234.25  L16,74.75  L16,74.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M136,74.25  A0.65,0.65 0 0,0 137.0653311931459,74.75  L195.70000000000002,74.75  L196.00000000000003,74.75  L196.00000000000003,234.75  A0.65,0.65 0 0,0 194.93466880685412,234.25  L136.3,234.25  L136",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M196,74.75  L316,74.75  L316,234.75  L196,234.75  L196,74.75  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M316,74.75  L316.3,74.75  L375.5,74.75  L375.5,234.25  L317.0653311931459,234.25  A0.65,0.65 0 0,0 316,234.75  L316,74.75  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.25  L16,14.25  L16.5,14.25  L23.5,14.25  A0.5,0.5 0 0,1 24,14.75  L24,15  L128,15  L128,14.75  A0.5,0.5 0 0,1 128.5,14.25  L135.5,14.25  L136,14.25  L136,74.25  L16,74.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16.5,14.25  L16.5,8  A8,8 0 0,1 24.5,0  L127.5,0  A8,8 0 0,1 135.5,8  L135.5,14.25  L128.5,14.25  A0.5,0.5 0 0,0 128,14.75  L128,15  L24,15  L24,14.75  A0.5,0.5 0 0,0 23.5,14.25  L16.5,14.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 27,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M16,240.25  L16,14.25  L16.5,14.25  L16.5,11  Q16.5,6.4436507,19.721825,3.2218256  Q22.943649,0,27.5,0  L130.5,0  Q135.05634,0,138.27817,3.22182536  Q141.5,6.4436574,141.5,11  L141.5,14.25  L142,14.2",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.25  L136,74.25  L136,234.25  L16,234.25  L16,74.75  L16,74.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M136,74.25  A0.65,0.65 0 0,0 137.0653311931459,74.75  L195.70000000000002,74.75  L196.00000000000003,74.75  L196.00000000000003,234.75  A0.65,0.65 0 0,0 194.93466880685412,234.25  L136.3,234.25  L136",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M196,74.75  L316,74.75  L316,234.75  L196,234.75  L196,74.75  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M316,74.75  L316.3,74.75  L375.5,74.75  L375.5,234.25  L317.0653311931459,234.25  A0.65,0.65 0 0,0 316,234.75  L316,74.75  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.25  L16,14.25  L16.5,14.25  L23.5,14.25  A0.5,0.5 0 0,1 24,14.75  L24,15  L128,15  L128,14.75  A0.5,0.5 0 0,1 128.5,14.25  L135.5,14.25  L136,14.25  L136,74.25  L16,74.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16.5,14.25  L16.5,8  A8,8 0 0,1 24.5,0  L127.5,0  A8,8 0 0,1 135.5,8  L135.5,14.25  L128.5,14.25  A0.5,0.5 0 0,0 128,14.75  L128,15  L24,15  L24,14.75  A0.5,0.5 0 0,0 23.5,14.25  L16.5,14.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M316,234.75  L316,294.75  L315.5,294.75  L308.5,294.75  A0.5,0.5 0 0,1 308,294.25  L308,294  L204,294  L204,294.25  A0.5,0.5 0 0,1 203.5,294.75  L196.5,294.75  L196,294.75  L196,234.75  L316,234.75  ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-flip-top-boxes-mailer-dieline-150010",
+    "num": "150010",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-flip-top-boxes-mailer-dieline-150010",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=1&bleed=5&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=1&width=202&height=62&length=315",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~5mm)",
+        "(0.2~5mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸315 × 202 × 62 mm内尺寸300 × 200 × 60 mm外尺寸316 × 204.5 × 63 mm",
+        "制造尺寸315 × 202 × 62 mm内尺寸300 × 200 × 60 mm外尺寸316 × 204.5 × 63 mm",
+        "制造尺寸315 × 202 × 62 mm",
+        "制造尺寸",
+        "315 × 202 × 62 mm",
+        "内尺寸300 × 200 × 60 mm",
+        "内尺寸",
+        "300 × 200 × 60 mm",
+        "外尺寸316 × 204.5 × 63 mm",
+        "外尺寸",
+        "316 × 204.5 × 63 mm",
+        "315 mm62 mm202 mm",
+        "315 mm62 mm202 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "瓦楞纸E(三层)",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "597.3128229215595",
+          "height": "611.3128229215595",
+          "pathCount": 57,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M98,71  L117.77677,71  L88.159599,81.77977  Q82.233917,83.936539,78.616959,89.102097  Q74.999992,94.267662,75,100.573624  L75,237.89885  Q75.000008,244.30092,78.71769,249.51292  Q82.435371,254.72491,",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M98,71  L117.77677,71  L88.159599,81.77977  Q82.233917,83.936539,78.616959,89.102097  Q74.999992,94.267662,75,100.573624  L75,237.89885  Q75.000008,244.30092,78.71769,249.51292  Q82.435371,254.72491,",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M135.5,62  L440.5,62  L440.5,265.5  L135.5,265.5  L135.5,62  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M135.5,265.5  A1.5,1.5 0 0,0 134.48835223168572,264.081722136601  L85.11647768314263,247.0816224096644  A15,15 0 0,1 74.99999999999999,232.89884377567464  L74.99999999999999,95.57362355356548  A15,15",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M440.5,265.5  L440.5,62.00000000000003  A1.5,1.5 0 0,0 441.4869697850115,63.40953893117889  L491.13030214988504,81.47823424177686  A15,15 0 0,1 501,95.57362355356548  L501,232.89884377567464  A15,15 ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M132,2.5  L134.5,0  L441.5,0  L444,2.5  L444,61  L441.5,61  A1,1 0 0,0 440.5,62  L135.5,62  A1,1 0 0,0 134.5,61  L132,61  L132,2.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M132,61  L93,61  A13,13 0 0,1 80,48  A52,45.5 0 0,1 132,2.5  L132,61  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M444,61  L444,2.5  A52,45.5 0 0,1 496,48  A13,13 0 0,1 483,61  L444,61  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 47,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M98,71  L117.77677,71  L88.159599,81.77977  Q82.233917,83.936539,78.616959,89.102097  Q74.999992,94.267662,75,100.573624  L75,237.89885  Q75.000008,244.30092,78.71769,249.51292  Q82.435371,254.72491,",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M135.5,62  L440.5,62  L440.5,265.5  L135.5,265.5  L135.5,62  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M135.5,265.5  A1.5,1.5 0 0,0 134.48835223168572,264.081722136601  L85.11647768314263,247.0816224096644  A15,15 0 0,1 74.99999999999999,232.89884377567464  L74.99999999999999,95.57362355356548  A15,15",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M440.5,265.5  L440.5,62.00000000000003  A1.5,1.5 0 0,0 441.4869697850115,63.40953893117889  L491.13030214988504,81.47823424177686  A15,15 0 0,1 501,95.57362355356548  L501,232.89884377567464  A15,15 ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M132,2.5  L134.5,0  L441.5,0  L444,2.5  L444,61  L441.5,61  A1,1 0 0,0 440.5,62  L135.5,62  A1,1 0 0,0 134.5,61  L132,61  L132,2.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M132,61  L93,61  A13,13 0 0,1 80,48  A52,45.5 0 0,1 132,2.5  L132,61  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M444,61  L444,2.5  A52,45.5 0 0,1 496,48  A13,13 0 0,1 483,61  L444,61  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M130.5,327.5  A1.5,1.5 0 0,0 132,326  L132,266.5  L134.5,266.5  A1,1 0 0,0 135.5,265.5  L440.5,265.5  A1,1 0 0,0 441.5,266.5  L444,266.5  L444,326  A1.5,1.5 0 0,0 445.5,327.5  L130.5,327.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "#333333"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-tuck-end-boxes-auto-bottome-snap-lock-dieline-102010",
+    "num": "102010",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-tuck-end-boxes-auto-bottome-snap-lock-dieline-102010",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=9",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=9&bleed=3&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=9&width=60.6&height=161.1&length=120.6",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~3mm)",
+        "(0.2~3mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸120.6 × 60.6 × 161.1 mm内尺寸120 × 60 × 160 mm外尺寸121 × 61 × 162 mm",
+        "制造尺寸120.6 × 60.6 × 161.1 mm内尺寸120 × 60 × 160 mm外尺寸121 × 61 × 162 mm",
+        "制造尺寸120.6 × 60.6 × 161.1 mm",
+        "制造尺寸",
+        "120.6 × 60.6 × 161.1 mm",
+        "内尺寸120 × 60 × 160 mm",
+        "内尺寸",
+        "120 × 60 × 160 mm",
+        "外尺寸121 × 61 × 162 mm",
+        "外尺寸",
+        "121 × 61 × 162 mm",
+        "120.6 mm161.1 mm60.6 mm",
+        "120.6 mm161.1 mm60.6 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "白卡纸",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "388.16009863785814",
+          "height": "292.51009863785816",
+          "pathCount": 37,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M16,241.75  L16,14.25  L16.5,14.25  L16.5,11  Q16.5,6.4436507,19.721825,3.2218256  Q22.943649,0,27.5,0  L131.10001,0  Q135.65636,0,138.87819,3.22182536  Q142.10001,6.4436424,142.10001,11  L142.10001,",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M16,241.75  L16,14.25  L16.5,14.25  L16.5,11  Q16.5,6.4436507,19.721825,3.2218256  Q22.943649,0,27.5,0  L131.10001,0  Q135.65636,0,138.87819,3.22182536  Q142.10001,6.4436424,142.10001,11  L142.10001,",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.85  L136.6,74.85  L136.6,235.75  A0.5,0.5 0 0,0 136.2,235.95  L16.39999999999999,235.95  A0.5,0.5 0 0,0 15.999999999999991,235.75  L15.999999999999991,75.35  L15.999999999999991,74.85  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M136.6,74.85  A0.65,0.65 0 0,0 137.6653311931459,75.35  L196.9,75.35  L197.20000000000002,75.35  L197.20000000000002,235.75  A0.5,0.5 0 0,0 196.8,235.95  L137.00691704683265,235.95  L136.954183965655",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M197.2,75.35  L317.79999999999995,75.35  L317.79999999999995,235.75  A0.5,0.5 0 0,0 317.443774391851,235.8991391784498  L317.3936795384053,235.95000000000002  L197.60632046159466,235.95000000000002  ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M317.79999999999995,75.35  L318.09999999999997,75.35  L377.9,75.35  L377.9,235.95  L318.2,235.95  A0.5,0.5 0 0,0 317.8,235.75  L317.8,75.35  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.85  L16,14.249999999999993  L16.5,14.249999999999993  L23.5,14.249999999999993  A0.5,0.5 0 0,1 24,14.749999999999993  L24,14.999999999999993  L128.6,14.999999999999993  L128.6,14.7499999999999",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16.5,14.249999999999993  L16.5,7.999999999999993  A8,8 0 0,1 24.5,-7.105427357601002e-15  L128.1,-7.105427357601002e-15  A8,8 0 0,1 136.1,7.999999999999993  L136.1,14.249999999999993  L129.1,14.2499",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 27,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M16,241.75  L16,14.25  L16.5,14.25  L16.5,11  Q16.5,6.4436507,19.721825,3.2218256  Q22.943649,0,27.5,0  L131.10001,0  Q135.65636,0,138.87819,3.22182536  Q142.10001,6.4436424,142.10001,11  L142.10001,",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.85  L136.6,74.85  L136.6,235.75  A0.5,0.5 0 0,0 136.2,235.95  L16.39999999999999,235.95  A0.5,0.5 0 0,0 15.999999999999991,235.75  L15.999999999999991,75.35  L15.999999999999991,74.85  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M136.6,74.85  A0.65,0.65 0 0,0 137.6653311931459,75.35  L196.9,75.35  L197.20000000000002,75.35  L197.20000000000002,235.75  A0.5,0.5 0 0,0 196.8,235.95  L137.00691704683265,235.95  L136.954183965655",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M197.2,75.35  L317.79999999999995,75.35  L317.79999999999995,235.75  A0.5,0.5 0 0,0 317.443774391851,235.8991391784498  L317.3936795384053,235.95000000000002  L197.60632046159466,235.95000000000002  ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M317.79999999999995,75.35  L318.09999999999997,75.35  L377.9,75.35  L377.9,235.95  L318.2,235.95  A0.5,0.5 0 0,0 317.8,235.75  L317.8,75.35  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16,74.85  L16,14.249999999999993  L16.5,14.249999999999993  L23.5,14.249999999999993  A0.5,0.5 0 0,1 24,14.749999999999993  L24,14.999999999999993  L128.6,14.999999999999993  L128.6,14.7499999999999",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M16.5,14.249999999999993  L16.5,7.999999999999993  A8,8 0 0,1 24.5,-7.105427357601002e-15  L128.1,-7.105427357601002e-15  A8,8 0 0,1 136.1,7.999999999999993  L136.1,14.249999999999993  L129.1,14.2499",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M137.6653311931459,75.35  A0.65,0.65 0 0,0 137.7857233773844,75.21810387518182  L140.10000000000002,71.85  L141.10000000000002,37.349999999999994  L180.04589920734824,37.349999999999994  A9,9 0 0,1 1",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-flip-top-boxes-pizza-dieline-156210",
+    "num": "156210",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-flip-top-boxes-pizza-dieline-156210",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=794",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=794&bleed=5&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=771&width=207&height=52&length=205",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  瓦楞纸E(三层)",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~3mm)",
+        "(0.2~3mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸205 × 207 × 52 mm内尺寸200 × 199 × 50 mm外尺寸206 × 208 × 53 mm",
+        "制造尺寸205 × 207 × 52 mm内尺寸200 × 199 × 50 mm外尺寸206 × 208 × 53 mm",
+        "制造尺寸205 × 207 × 52 mm",
+        "制造尺寸",
+        "205 × 207 × 52 mm",
+        "内尺寸200 × 199 × 50 mm",
+        "内尺寸",
+        "200 × 199 × 50 mm",
+        "外尺寸206 × 208 × 53 mm",
+        "外尺寸",
+        "206 × 208 × 53 mm",
+        "205 mm52 mm207 mm",
+        "205 mm52 mm207 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "瓦楞纸E(三层)",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "330.26397369657116",
+          "height": "639.2639736965712",
+          "pathCount": 46,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M0,29  L51.25,29  L51.25,3.75  L94.614838,3.75  L96.114838,0  L139.88516,0  L141.38516,3.75  L176.61484,3.75  L178.11484,0  L221.88516,0  L223.38516,3.75  L266.75,3.75  L266.75,29  L318,29  L318,377.",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M0,29  L51.25,29  L51.25,3.75  L94.614838,3.75  L96.114838,0  L139.88516,0  L141.38516,3.75  L176.61484,3.75  L178.11484,0  L221.88516,0  L223.38516,3.75  L266.75,3.75  L266.75,29  L318,29  L318,377.",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M51.25,53.5  L51.25,3.75  L93,3.75  L94.5,0  L131.5,0  L133,3.75  L175,3.75  L176.5,0  L213.5,0  L215,3.75  L256.75,3.75  L256.75,53.5  L51.25,53.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,110.5  L49.75,58.5  L258.25,58.5  L258.25,110.5  L213,110.5  L177,110.5  L131,110.5  L95,110.5  L49.75,110.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,110.5  L95,110.5  A2.5,2.5 0 0,0 92.5,113  L92.5,113  A2.5,2.5 0 0,0 95,115.5  L131,115.5  A2.5,2.5 0 0,0 133.5,113  L133.5,113  A2.5,2.5 0 0,0 131,110.5  L177,110.5  A2.5,2.5 0 0,0 174.5,113 ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,315.5  L258.25,315.5  L258.25,367.5  L49.75,367.5  L49.75,315.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,367.5  L258.25,367.5  L256,369  L256,566.5  L161.5,566.5  A7.5,7.5 0 0,1 146.5,566.5  L52,566.5  L52,369  L49.75,367.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M52,566.5  L146.5,566.5  A7.5,7.5 0 0,0 161.5,566.5  L256,566.5  L241.21177940819976,607.130302149885  A15,15 0 0,1 227.11639009641112,617  L80.88360990358885,617  A15,15 0 0,1 66.78822059180023,607.",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 36,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M0,29  L51.25,29  L51.25,3.75  L94.614838,3.75  L96.114838,0  L139.88516,0  L141.38516,3.75  L176.61484,3.75  L178.11484,0  L221.88516,0  L223.38516,3.75  L266.75,3.75  L266.75,29  L318,29  L318,377.",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M51.25,53.5  L51.25,3.75  L93,3.75  L94.5,0  L131.5,0  L133,3.75  L175,3.75  L176.5,0  L213.5,0  L215,3.75  L256.75,3.75  L256.75,53.5  L51.25,53.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,110.5  L49.75,58.5  L258.25,58.5  L258.25,110.5  L213,110.5  L177,110.5  L131,110.5  L95,110.5  L49.75,110.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,110.5  L95,110.5  A2.5,2.5 0 0,0 92.5,113  L92.5,113  A2.5,2.5 0 0,0 95,115.5  L131,115.5  A2.5,2.5 0 0,0 133.5,113  L133.5,113  A2.5,2.5 0 0,0 131,110.5  L177,110.5  A2.5,2.5 0 0,0 174.5,113 ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,315.5  L258.25,315.5  L258.25,367.5  L49.75,367.5  L49.75,315.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M49.75,367.5  L258.25,367.5  L256,369  L256,566.5  L161.5,566.5  A7.5,7.5 0 0,1 146.5,566.5  L52,566.5  L52,369  L49.75,367.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M52,566.5  L146.5,566.5  A7.5,7.5 0 0,0 161.5,566.5  L256,566.5  L241.21177940819976,607.130302149885  A15,15 0 0,1 227.11639009641112,617  L80.88360990358885,617  A15,15 0 0,1 66.78822059180023,607.",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M52,369  L52,566.5  L11.369697850114967,551.7117794081997  A15,15 0 0,1 1.4999999999999982,537.6163900964111  L1.4999999999999982,397.8836099035889  A15,15 0 0,1 11.369697850114967,383.78822059180027",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "#333333"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-tuck-end-boxes-back-open-dieline-102680",
+    "num": "102680",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-tuck-end-boxes-back-open-dieline-102680",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=1007",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=1007&bleed=3&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=978&width=35.6&height=121.6&length=35.6",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~0.5mm)",
+        "(0.2~0.5mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸35.6 × 35.6 × 121.6 mm内尺寸35 × 35 × 120 mm外尺寸36 × 36 × 122 mm",
+        "制造尺寸35.6 × 35.6 × 121.6 mm内尺寸35 × 35 × 120 mm外尺寸36 × 36 × 122 mm",
+        "制造尺寸35.6 × 35.6 × 121.6 mm",
+        "制造尺寸",
+        "35.6 × 35.6 × 121.6 mm",
+        "内尺寸35 × 35 × 120 mm",
+        "内尺寸",
+        "35 × 35 × 120 mm",
+        "外尺寸36 × 36 × 122 mm",
+        "外尺寸",
+        "36 × 36 × 122 mm",
+        "35.6 mm121.6 mm35.6 mm",
+        "35.6 mm121.6 mm35.6 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "102680盒子样机盒子运输盒样机运输盒小型运输盒运输用盒子化妆品盒化妆品收纳盒化妆品包装盒化妆品盒包装化妆品礼盒长方形高型精华液酒精个人护理办公室插口盒",
+        "长方形",
+        "高型"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "白卡纸",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "168.35899483325503",
+          "height": "245.45899483325502",
+          "pathCount": 54,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M2.22354257,62.971718  L18.799999,58.530067  L18.799999,5.875  Q18.799999,3.44149494,20.520746,1.7207477  Q22.241493,0,24.674999,0  L52.525002,0  Q54.9585,0,56.679249,1.7207477  Q58.400002,3.44150043",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M2.22354257,62.971718  L18.799999,58.530067  L18.799999,5.875  Q18.799999,3.44149494,20.520746,1.7207477  Q22.241493,0,24.674999,0  L52.525002,0  Q54.9585,0,56.679249,1.7207477  Q58.400002,3.44150043",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,62.869495625273984  L17.8,58.1  L17.8,178.7  L0,173.930504374726  L0,62.869495625273984  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M17.8,58.1  L53.400000000000006,58.1  L53.400000000000006,178.7  L17.800000000000004,178.7  L17.800000000000004,58.099999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M53.400000000000006,58.1  L54.400000000000006,58.1  L87.93466880685409,58.1  Q88.11524758648274,58.25,88.35,58.25  A0.65,0.65 0 0,0 89,57.6  L89,179.2  A0.65,0.65 0 0,0 88.35,178.54999999999998  Q88.",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M89,57.6  L124.6,57.6  L124.6,179.2  L89,179.2  L89,57.599999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M124.6,57.6  A0.65,0.65 0 0,0 125.25,58.25  Q125.48475241351726,58.25,125.6653311931459,58.1  L159.7,58.1  L159.7,178.7  L125.6653311931459,178.7  Q125.48475241351726,178.54999999999998,125.25,178.54",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M54.400000000000006,58.1  L54.400000000000006,54.1  L57.400000000000006,51.1  L58.8140111706686,44.97524472828068  A5,5 0 0,1 63.685861494594775,41.1  L84.5,41.1  L85.5,54.6  L87.81427662261562,57.96",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 44,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M2.22354257,62.971718  L18.799999,58.530067  L18.799999,5.875  Q18.799999,3.44149494,20.520746,1.7207477  Q22.241493,0,24.674999,0  L52.525002,0  Q54.9585,0,56.679249,1.7207477  Q58.400002,3.44150043",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,62.869495625273984  L17.8,58.1  L17.8,178.7  L0,173.930504374726  L0,62.869495625273984  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M17.8,58.1  L53.400000000000006,58.1  L53.400000000000006,178.7  L17.800000000000004,178.7  L17.800000000000004,58.099999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M53.400000000000006,58.1  L54.400000000000006,58.1  L87.93466880685409,58.1  Q88.11524758648274,58.25,88.35,58.25  A0.65,0.65 0 0,0 89,57.6  L89,179.2  A0.65,0.65 0 0,0 88.35,178.54999999999998  Q88.",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M89,57.6  L124.6,57.6  L124.6,179.2  L89,179.2  L89,57.599999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M124.6,57.6  A0.65,0.65 0 0,0 125.25,58.25  Q125.48475241351726,58.25,125.6653311931459,58.1  L159.7,58.1  L159.7,178.7  L125.6653311931459,178.7  Q125.48475241351726,178.54999999999998,125.25,178.54",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M54.400000000000006,58.1  L54.400000000000006,54.1  L57.400000000000006,51.1  L58.8140111706686,44.97524472828068  A5,5 0 0,1 63.685861494594775,41.1  L84.5,41.1  L85.5,54.6  L87.81427662261562,57.96",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M87.93466880685409,178.7  Q87.86532676860247,178.7575998229644,87.81427662261562,178.83189612481817  L85.5,182.2  L84.5,195.7  L63.685861494594775,195.7  A5,5 0 0,1 58.8140111706686,191.8247552717193",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "#333333"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-flip-top-boxes-mailer-dieline-150011",
+    "num": "150011",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-flip-top-boxes-mailer-dieline-150011",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=107",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=107&bleed=5&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=74&width=202&height=62&length=315",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~5mm)",
+        "(0.2~5mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸315 × 202 × 62 mm内尺寸300 × 200 × 60 mm外尺寸316 × 204.5 × 63 mm",
+        "制造尺寸315 × 202 × 62 mm内尺寸300 × 200 × 60 mm外尺寸316 × 204.5 × 63 mm",
+        "制造尺寸315 × 202 × 62 mm",
+        "制造尺寸",
+        "315 × 202 × 62 mm",
+        "内尺寸300 × 200 × 60 mm",
+        "内尺寸",
+        "300 × 200 × 60 mm",
+        "外尺寸316 × 204.5 × 63 mm",
+        "外尺寸",
+        "316 × 204.5 × 63 mm",
+        "315 mm62 mm202 mm",
+        "315 mm62 mm202 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "瓦楞纸E(三层)",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "610.8196336308126",
+          "height": "596.8196336308126",
+          "pathCount": 57,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M529,98  L529,117.77677  L518.22021,88.159615  Q516.06348,82.233948,510.89792,78.616982  Q505.73239,75.000031,499.42639,75  L362.10117,75  Q355.6991,75.000008,350.48709,78.717697  Q345.27505,82.43540",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M529,98  L529,117.77677  L518.22021,88.159615  Q516.06348,82.233948,510.89792,78.616982  Q505.73239,75.000031,499.42639,75  L362.10117,75  Q355.6991,75.000008,350.48709,78.717697  Q345.27505,82.43540",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M324.5,135.5  L528,135.5  L528,440.5  L324.5,440.5  L324.5,135.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M324.5,135.5  A1.5,1.5 0 0,0 325.918277863399,134.48835223168572  L342.9183775903356,85.11647768314263  A15,15 0 0,1 357.10115622432534,74.99999999999999  L494.4263764464345,74.99999999999999  A15,15",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M324.5,440.5  L528,440.5  A1.5,1.5 0 0,0 526.5904610688211,441.4869697850115  L508.5217657582231,491.13030214988504  A15,15 0 0,1 494.4263764464345,501  L357.10115622432534,501  A15,15 0 0,1 342.9183",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M528,135.5  A1,1 0 0,0 529,134.5  L529,132  L587.5,132  L590,134.5  L590,441.5  L587.5,444  L529,444  L529,441.5  A1,1 0 0,0 528,440.5  L528,135.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M529,132  L529,93  A13,13 0 0,1 542,80  A45.5,52 0 0,1 587.5,132  L529,132  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M529,444  L587.5,444  A45.5,52 0 0,1 542,496  A13,13 0 0,1 529,483  L529,444  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 47,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M529,98  L529,117.77677  L518.22021,88.159615  Q516.06348,82.233948,510.89792,78.616982  Q505.73239,75.000031,499.42639,75  L362.10117,75  Q355.6991,75.000008,350.48709,78.717697  Q345.27505,82.43540",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M324.5,135.5  L528,135.5  L528,440.5  L324.5,440.5  L324.5,135.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M324.5,135.5  A1.5,1.5 0 0,0 325.918277863399,134.48835223168572  L342.9183775903356,85.11647768314263  A15,15 0 0,1 357.10115622432534,74.99999999999999  L494.4263764464345,74.99999999999999  A15,15",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M324.5,440.5  L528,440.5  A1.5,1.5 0 0,0 526.5904610688211,441.4869697850115  L508.5217657582231,491.13030214988504  A15,15 0 0,1 494.4263764464345,501  L357.10115622432534,501  A15,15 0 0,1 342.9183",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M528,135.5  A1,1 0 0,0 529,134.5  L529,132  L587.5,132  L590,134.5  L590,441.5  L587.5,444  L529,444  L529,441.5  A1,1 0 0,0 528,440.5  L528,135.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M529,132  L529,93  A13,13 0 0,1 542,80  A45.5,52 0 0,1 587.5,132  L529,132  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M529,444  L587.5,444  A45.5,52 0 0,1 542,496  A13,13 0 0,1 529,483  L529,444  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M262.5,130.5  A1.5,1.5 0 0,0 264,132  L323.5,132  L323.5,134.5  A1,1 0 0,0 324.5,135.5  L324.5,440.5  A1,1 0 0,0 323.5,441.5  L323.5,444  L264,444  A1.5,1.5 0 0,0 262.5,445.5  L262.5,130.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "#333333"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-boxes-with-lid-corrugated-shoe-dieline-160010",
+    "num": "160010",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-boxes-with-lid-corrugated-shoe-dieline-160010",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=48",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=48&bleed=5&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=4&width=204&height=61&length=302",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸E(三层)",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~9mm)",
+        "(0.2~9mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸302 × 204 × 61 mm内尺寸300 × 200 × 60 mm外尺寸309 × 213.5 × 63 mm",
+        "制造尺寸302 × 204 × 61 mm内尺寸300 × 200 × 60 mm外尺寸309 × 213.5 × 63 mm",
+        "制造尺寸302 × 204 × 61 mm",
+        "制造尺寸",
+        "302 × 204 × 61 mm",
+        "内尺寸300 × 200 × 60 mm",
+        "内尺寸",
+        "300 × 200 × 60 mm",
+        "外尺寸309 × 213.5 × 63 mm",
+        "外尺寸",
+        "309 × 213.5 × 63 mm",
+        "302 mm61 mm204 mm",
+        "302 mm61 mm204 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "瓦楞纸E(三层)",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "924.8711985688731",
+          "height": "360.4355992844365",
+          "pathCount": 47,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M62.5,5.25  L0,5.25  L0,341.25  L434,341.25  L434,5.25  L62.5,5.25  Z  M503,0  L439,0  L439,346.5  L882,346.5  L882,0  L503,0  Z ",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M62.5,5.25  L0,5.25  L0,341.25  L434,341.25  L434,5.25  L62.5,5.25  Z  M503,0  L439,0  L439,346.5  L882,346.5  L882,0  L503,0  Z ",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,5.25  L59.5,5.25  L59.5,65.75  Q59.5,67.25,61,67.25  L0,67.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,67.25  L61,67.25  L61,269.25  L0,269.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,269.25  L61,269.25  Q59.5,269.25,59.5,270.75  L59.5,331.25  L0,331.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M62.41421356237309,66.25  Q62.5,66.00735931288071,62.5,65.75  L62.5,5.25  L361.5,5.25  L361.5,65.75  Q361.5,66.00735931288071,361.5857864376269,66.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M61,67.25  M61,67.25  Q62.06066017177982,67.25,62.41421356237309,66.25  L361.5857864376269,66.25  Q361.93933982822017,67.25,363,67.25  L363,269.25  Q361.93933982822017,269.25,361.5857864376269,270.25",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M361.5857864376269,270.25  Q361.5,270.49264068711926,361.5,270.75  L361.5,331.25  L62.5,331.25  L62.5,270.75  Q62.5,270.49264068711926,62.41421356237309,270.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 37,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M62.5,5.25  L0,5.25  L0,341.25  L434,341.25  L434,5.25  L62.5,5.25  Z  M503,0  L439,0  L439,346.5  L882,346.5  L882,0  L503,0  Z ",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,5.25  L59.5,5.25  L59.5,65.75  Q59.5,67.25,61,67.25  L0,67.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,67.25  L61,67.25  L61,269.25  L0,269.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,269.25  L61,269.25  Q59.5,269.25,59.5,270.75  L59.5,331.25  L0,331.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M62.41421356237309,66.25  Q62.5,66.00735931288071,62.5,65.75  L62.5,5.25  L361.5,5.25  L361.5,65.75  Q361.5,66.00735931288071,361.5857864376269,66.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M61,67.25  M61,67.25  Q62.06066017177982,67.25,62.41421356237309,66.25  L361.5857864376269,66.25  Q361.93933982822017,67.25,363,67.25  L363,269.25  Q361.93933982822017,269.25,361.5857864376269,270.25",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M361.5857864376269,270.25  Q361.5,270.49264068711926,361.5,270.75  L361.5,331.25  L62.5,331.25  L62.5,270.75  Q62.5,270.49264068711926,62.41421356237309,270.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M363,67.25  Q364.5,67.25,364.5,65.75  L364.5,5.25  L424,5.25  L424,67.25  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/gable-box-with-window-dieline-112290",
+    "num": "112290",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=gable-box-with-window-dieline-112290",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=8408",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=8408&bleed=3&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=8483&width=150&height=180&length=300",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  白卡纸",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~5mm)",
+        "(0.2~5mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "制造尺寸300 × 150 × 180 mm内尺寸299.4 × 149.4 × 179.4 mm外尺寸300.4 × 150.4 × 180.9 mm",
+        "制造尺寸300 × 150 × 180 mm",
+        "制造尺寸",
+        "300 × 150 × 180 mm",
+        "内尺寸299.4 × 149.4 × 179.4 mm",
+        "内尺寸",
+        "299.4 × 149.4 × 179.4 mm",
+        "外尺寸300.4 × 150.4 × 180.9 mm",
+        "外尺寸",
+        "300.4 × 150.4 × 180.9 mm",
+        "300 mm180 mm150 mm",
+        "300 mm180 mm150 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "白卡纸",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "969.4172473867596",
+          "height": "471.51978776520343",
+          "pathCount": 48,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M45.117695,163.77049  L70,77.575645  L70,31  Q70,24.372578,74.686287,19.686291  Q79.372574,15,86,15  Q92.627419,15,97.313705,19.686291  Q99.168526,21.541111,100.289215,23.700022  L112.96207,1.7500002",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M45.117695,163.77049  L70,77.575645  L70,31  Q70,24.372578,74.686287,19.686291  Q79.372574,15,86,15  Q92.627419,15,97.313705,19.686291  Q99.168526,21.541111,100.289215,23.700022  L112.96207,1.7500002",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,341.40254037844386  L0,329.34482671904334  L0,173.66025403784437  L45,161.60254037844385  L45,341.40254037844386  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,161.60254037844385  L345,161.60254037844385  L345,341.40254037844386  A0.5,0.5 0 0,0 344.6,341.60254037844385  L45.400000000000034,341.60254037844385  A0.5,0.5 0 0,0 45.000000000000036,341.402540",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M345,161.60254037844385  L495,161.60254037844385  L495,341.40254037844386  A0.5,0.5 0 0,0 494.6,341.60254037844385  L345.40000000000003,341.60254037844385  A0.5,0.5 0 0,0 345.00000000000006,341.40254",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M495,161.60254037844385  L795,161.60254037844385  L795,341.40254037844386  A0.5,0.5 0 0,0 794.6,341.60254037844385  L495.40000000000003,341.60254037844385  A0.5,0.5 0 0,0 495.00000000000006,341.40254",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M795,161.60254037844385  L944.5,161.60254037844385  L944.5,341.60254037844385  L795.4,341.60254037844385  A0.5,0.5 0 0,0 795,341.40254037844386  L795,161.60254037844385  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,161.60254037844385  L70,74.99999999999999  L145,74.99999999999999  L245,74.99999999999999  L320,74.99999999999999  L344.5669872981078,161.35254037844385  A0.5,0.5 0 0,0 345,161.60254037844385  L4",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 38,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M45.117695,163.77049  L70,77.575645  L70,31  Q70,24.372578,74.686287,19.686291  Q79.372574,15,86,15  Q92.627419,15,97.313705,19.686291  Q99.168526,21.541111,100.289215,23.700022  L112.96207,1.7500002",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,341.40254037844386  L0,329.34482671904334  L0,173.66025403784437  L45,161.60254037844385  L45,341.40254037844386  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,161.60254037844385  L345,161.60254037844385  L345,341.40254037844386  A0.5,0.5 0 0,0 344.6,341.60254037844385  L45.400000000000034,341.60254037844385  A0.5,0.5 0 0,0 45.000000000000036,341.402540",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M345,161.60254037844385  L495,161.60254037844385  L495,341.40254037844386  A0.5,0.5 0 0,0 494.6,341.60254037844385  L345.40000000000003,341.60254037844385  A0.5,0.5 0 0,0 345.00000000000006,341.40254",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M495,161.60254037844385  L795,161.60254037844385  L795,341.40254037844386  A0.5,0.5 0 0,0 794.6,341.60254037844385  L495.40000000000003,341.60254037844385  A0.5,0.5 0 0,0 495.00000000000006,341.40254",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M795,161.60254037844385  L944.5,161.60254037844385  L944.5,341.60254037844385  L795.4,341.60254037844385  A0.5,0.5 0 0,0 795,341.40254037844386  L795,161.60254037844385  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,161.60254037844385  L70,74.99999999999999  L145,74.99999999999999  L245,74.99999999999999  L320,74.99999999999999  L344.5669872981078,161.35254037844385  A0.5,0.5 0 0,0 345,161.60254037844385  L4",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M70,74.99999999999999  L70,27.999999999999986  A13,13 0 0,1 96,27.999999999999986  A0.25,0.25 0 0,0 96.4665063509461,28.124999999999986  L112.56014510460692,0.2499999999999858  A0.5,0.5 0 0,1 112.993",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "#333333"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-tray-boxes-dieline-128020",
+    "num": "128020",
+    "intercepted_resources": [
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-tray-boxes-dieline-128020",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=1762",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=1762&bleed=3&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=1794&width=241.6&height=61&length=341.6",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~3mm) 选择材质  白卡纸",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~3mm)",
+        "(0.2~3mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸341.6 × 241.6 × 61 mm内尺寸300 × 200 × 60 mm外尺寸342.5 × 244 × 62.4 mm",
+        "制造尺寸341.6 × 241.6 × 61 mm内尺寸300 × 200 × 60 mm外尺寸342.5 × 244 × 62.4 mm",
+        "制造尺寸341.6 × 241.6 × 61 mm",
+        "制造尺寸",
+        "341.6 × 241.6 × 61 mm",
+        "内尺寸300 × 200 × 60 mm",
+        "内尺寸",
+        "300 × 200 × 60 mm",
+        "外尺寸342.5 × 244 × 62.4 mm",
+        "外尺寸",
+        "342.5 × 244 × 62.4 mm",
+        "341.6 mm61 mm241.6 mm",
+        "341.6 mm61 mm241.6 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "白卡纸",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "1058.7876474870832",
+          "height": "794.5438337435415",
+          "pathCount": 83,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M7.3967495,127  L0.10222240000000005,154.22354  L0,154.60504  L0,773.20001  L348.5,773.20001  L348.5,154.60504  L341.10324,127  L7.3967495,127  Z  M364.5,173.5  L425,173.5  L425,166.5  Q425,161.11526",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M7.3967495,127  L0.10222240000000005,154.22354  L0,154.60504  L0,773.20001  L348.5,773.20001  L348.5,154.60504  L341.10324,127  L7.3967495,127  Z  M364.5,173.5  L425,173.5  L425,166.5  Q425,161.11526",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,152  L6.698729810778067,127  L335.80127018922195,127  L342.5,152  L0,152  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,396.6  L0,152  L342.5,152  L342.5,396.6  L0,396.6  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,459.6  L0,396.6  L342.5,396.6  L342.5,459.6  L0,459.6  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,704.7  L0,459.6  L342.5,459.6  L342.5,704.7  L0,704.7  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,767.2  L0,704.7  L342.5,704.7  L342.5,767.2  L0,767.2  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M525.7,12  L525.7,9  A9,9 0 0,1 534.7,0  L818.9000000000001,0  A9,9 0 0,1 827.9000000000001,9  L827.9000000000001,12  L525.7,12  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 73,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M7.3967495,127  L0.10222240000000005,154.22354  L0,154.60504  L0,773.20001  L348.5,773.20001  L348.5,154.60504  L341.10324,127  L7.3967495,127  Z  M364.5,173.5  L425,173.5  L425,166.5  Q425,161.11526",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,152  L6.698729810778067,127  L335.80127018922195,127  L342.5,152  L0,152  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,396.6  L0,152  L342.5,152  L342.5,396.6  L0,396.6  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,459.6  L0,396.6  L342.5,396.6  L342.5,459.6  L0,459.6  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,704.7  L0,459.6  L342.5,459.6  L342.5,704.7  L0,704.7  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M0,767.2  L0,704.7  L342.5,704.7  L342.5,767.2  L0,767.2  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M525.7,12  L525.7,9  A9,9 0 0,1 534.7,0  L818.9000000000001,0  A9,9 0 0,1 827.9000000000001,9  L827.9000000000001,12  L525.7,12  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M525.7,12  L525.7,70.5  L404.70000000000005,70.5  L404.70000000000005,16  A2,2 0 0,1 406.70000000000005,14  L420.90000000000003,14  A2,2 0 0,1 422.90000000000003,16  L422.90000000000003,44  A1,1 0 0,",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-cartons-0201-dieline-200010",
+    "num": "200010",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-cartons-0201-dieline-200010",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=3",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=3&bleed=5&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=2&width=214&height=278&length=434",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~9mm) 选择材质  瓦楞纸B(三层)",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~9mm)",
+        "(0.2~9mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸434 × 214 × 278 mm内尺寸430 × 210 × 270 mm外尺寸436 × 216 × 282 mm",
+        "制造尺寸434 × 214 × 278 mm内尺寸430 × 210 × 270 mm外尺寸436 × 216 × 282 mm",
+        "制造尺寸434 × 214 × 278 mm",
+        "制造尺寸",
+        "434 × 214 × 278 mm",
+        "内尺寸430 × 210 × 270 mm",
+        "内尺寸",
+        "430 × 210 × 270 mm",
+        "外尺寸436 × 216 × 282 mm",
+        "外尺寸",
+        "436 × 216 × 282 mm",
+        "434 mm278 mm214 mm",
+        "434 mm278 mm214 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "瓦楞纸B(三层)",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "1375.4094076655051",
+          "height": "529.4094076655052",
+          "pathCount": 37,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M48,0  L48,109.99998  L45,109.99996  L45,393.99985  L48,393.99994  L48,504  L1347,504  L1347,394  L1350,394  L1350,110  L1347,110  L1347,0  L48,0  Z ",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M48,0  L48,109.99998  L45,109.99996  L45,393.99985  L48,393.99994  L48,504  L1347,504  L1347,394  L1350,394  L1350,110  L1347,110  L1347,0  L48,0  Z ",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,110  A3,3 0 0,0 47.82842712474619,108  L47.82842712474619,108  L476.1715728752538,108  L476.1715728752538,108  A3,3 0 0,0 479,110  L479,384  A3,3 0 0,0 476.1715728752538,386  L476.1715728752538,3",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M479,110  L693,110  L693,384  L479,384  L479,110  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M693,110  A3,3 0 0,0 695.8284271247462,108  L695.8284271247462,108  L1124.1715728752538,108  L1124.1715728752538,108  A3,3 0 0,0 1127,110  L1127,384  A3,3 0 0,0 1124.1715728752538,386  L1124.17157287",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M1127,110  L1340,110  L1340,384  L1127,384  L1127,110  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,384  L0,371.9422863405995  L0,122.05771365940052  L45,110  L45,384  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M479,110  A3,3 0 0,0 482,107  L482,0  L690,0  L690,107  A3,3 0 0,0 693,110  L479,110  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 27,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M48,0  L48,109.99998  L45,109.99996  L45,393.99985  L48,393.99994  L48,504  L1347,504  L1347,394  L1350,394  L1350,110  L1347,110  L1347,0  L48,0  Z ",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,110  A3,3 0 0,0 47.82842712474619,108  L47.82842712474619,108  L476.1715728752538,108  L476.1715728752538,108  A3,3 0 0,0 479,110  L479,384  A3,3 0 0,0 476.1715728752538,386  L476.1715728752538,3",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M479,110  L693,110  L693,384  L479,384  L479,110  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M693,110  A3,3 0 0,0 695.8284271247462,108  L695.8284271247462,108  L1124.1715728752538,108  L1124.1715728752538,108  A3,3 0 0,0 1127,110  L1127,384  A3,3 0 0,0 1124.1715728752538,386  L1124.17157287",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M1127,110  L1340,110  L1340,384  L1127,384  L1127,110  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M45,384  L0,371.9422863405995  L0,122.05771365940052  L45,110  L45,384  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M479,110  A3,3 0 0,0 482,107  L482,0  L690,0  L690,107  A3,3 0 0,0 693,110  L479,110  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M479,384  L693,384  A3,3 0 0,0 690,387  L690,494  L482,494  L482,387  A3,3 0 0,0 479,384  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-flip-top-boxes-double-snap-lock-auto-bottom-filp-top-dieline-153080",
+    "num": "153080",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-flip-top-boxes-double-snap-lock-auto-bottom-filp-top-dieline-153080",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=488",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=488&bleed=5&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=420&width=201&height=61&length=306",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~5mm) 选择材质  瓦楞纸E(三层)",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~5mm)",
+        "(0.2~5mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸306 × 201 × 61 mm内尺寸304 × 199 × 58 mm外尺寸307 × 202 × 62 mm",
+        "制造尺寸306 × 201 × 61 mm内尺寸304 × 199 × 58 mm外尺寸307 × 202 × 62 mm",
+        "制造尺寸306 × 201 × 61 mm",
+        "制造尺寸",
+        "306 × 201 × 61 mm",
+        "内尺寸304 × 199 × 58 mm",
+        "内尺寸",
+        "304 × 199 × 58 mm",
+        "外尺寸307 × 202 × 62 mm",
+        "外尺寸",
+        "307 × 202 × 62 mm",
+        "306 mm61 mm201 mm",
+        "306 mm61 mm201 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "瓦楞纸E(三层)",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "644.3616721465477",
+          "height": "583.3616721465477",
+          "pathCount": 51,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M151.5,31  L213,31  L213,3.75  L253.61484,3.75  L255.11484,0  L296.40314,0  L299.40314,3.75  L333.61484,3.75  L335.11484,0  L376.40314,0  L379.40314,3.75  L421,3.75  L421,31  L482.5,31  L482.5,112.49",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M151.5,31  L213,31  L213,3.75  L253.61484,3.75  L255.11484,0  L296.40314,0  L299.40314,3.75  L333.61484,3.75  L335.11484,0  L376.40314,0  L379.40314,3.75  L421,3.75  L421,31  L482.5,31  L482.5,112.49",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M211.5,128.5  L211.5,67.5  L412.5,67.5  L412.5,128.5  L211.5,128.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M211.5,434.5  L412.5,434.5  L412.5,495.5  L211.5,495.5  L211.5,434.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M211.5,128.5  L412.5,128.5  L412.5,434.5  L211.5,434.5  L211.5,128.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M151.5,130  L151.5,31  L208.5,31  L208.5,127  L208.5,128.5  A1.5,1.5 0 0,0 210,130  L151.5,130  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M151.5,433  L210,433  A1.5,1.5 0 0,0 208.5,434.5  L208.5,436  L208.5,532  L151.5,532  L151.5,433  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M472.5,130  L414,130  A1.5,1.5 0 0,0 415.5,128.5  L415.5,127  L415.5,31  L472.5,31  L472.5,130  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 41,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M151.5,31  L213,31  L213,3.75  L253.61484,3.75  L255.11484,0  L296.40314,0  L299.40314,3.75  L333.61484,3.75  L335.11484,0  L376.40314,0  L379.40314,3.75  L421,3.75  L421,31  L482.5,31  L482.5,112.49",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M211.5,128.5  L211.5,67.5  L412.5,67.5  L412.5,128.5  L211.5,128.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M211.5,434.5  L412.5,434.5  L412.5,495.5  L211.5,495.5  L211.5,434.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M211.5,128.5  L412.5,128.5  L412.5,434.5  L211.5,434.5  L211.5,128.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M151.5,130  L151.5,31  L208.5,31  L208.5,127  L208.5,128.5  A1.5,1.5 0 0,0 210,130  L151.5,130  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M151.5,433  L210,433  A1.5,1.5 0 0,0 208.5,434.5  L208.5,436  L208.5,532  L151.5,532  L151.5,433  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M472.5,130  L414,130  A1.5,1.5 0 0,0 415.5,128.5  L415.5,127  L415.5,31  L472.5,31  L472.5,130  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M472.5,433  L472.5,532  L415.5,532  L415.5,436  L415.5,434.5  A1.5,1.5 0 0,0 414,433  L472.5,433  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "#333333"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [
+        "标签:153080翻盖盒双扣锁自动底翻盖盒插入式前盖盒纸礼盒折叠盒多边形盒",
+        "153080翻盖盒双扣锁自动底翻盖盒插入式前盖盒纸礼盒折叠盒多边形盒",
+        "双扣锁自动底翻盖盒",
+        "插入式前盖盒"
+      ],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-tuck-end-boxes-lock-insert-dieline-102615",
+    "num": "102615",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-tuck-end-boxes-lock-insert-dieline-102615",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=886",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=886&bleed=3&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=850&width=25.6&height=121.6&length=35.6",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~0.5mm) 选择材质  白卡纸",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~0.5mm)",
+        "(0.2~0.5mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸35.6 × 25.6 × 121.6 mm内尺寸35 × 25 × 120 mm外尺寸36 × 26 × 122 mm",
+        "制造尺寸35.6 × 25.6 × 121.6 mm内尺寸35 × 25 × 120 mm外尺寸36 × 26 × 122 mm",
+        "制造尺寸35.6 × 25.6 × 121.6 mm",
+        "制造尺寸",
+        "35.6 × 25.6 × 121.6 mm",
+        "内尺寸35 × 25 × 120 mm",
+        "内尺寸",
+        "35 × 25 × 120 mm",
+        "外尺寸36 × 26 × 122 mm",
+        "外尺寸",
+        "36 × 26 × 122 mm",
+        "35.6 mm121.6 mm25.6 mm",
+        "35.6 mm121.6 mm25.6 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "高型"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "白卡纸",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "176.85612963832784",
+          "height": "198.35612963832784",
+          "pathCount": 42,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M50.505043,35.349998  L37.70504,38.779751  L9.9999981,38.779751  Q5.8578618,38.779755,2.928931952,41.708683  Q-5.00000000069889e-7,44.637615,0,48.779751  L0,148.52025  Q0,152.66238,2.928931952,155.59",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M50.505043,35.349998  L37.70504,38.779751  L9.9999981,38.779751  Q5.8578618,38.779755,2.928931952,41.708683  Q-5.00000000069889e-7,44.637615,0,48.779751  L0,148.52025  Q0,152.66238,2.928931952,155.59",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M35.1,38.77974966311837  L47.900000000000006,35.35  L47.900000000000006,155.95  L35.10000000000001,152.52025033688162  L35.10000000000001,38.779749663118366  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M35.1,152.52025033688162  L7,152.52025033688162  A7,7 0 0,1 0,145.52025033688162  L0,45.779749663118366  A7,7 0 0,1 7,38.779749663118366  L35.1,38.779749663118366  L35.1,152.52025033688162  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M47.900000000000006,35.35  L83.5,35.35  L83.5,155.95  L47.9,155.95  L47.9,35.349999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M83.5,35.35  L83.8,35.35  L108.03466880685409,35.35  Q108.21524758648273,35.5,108.44999999999999,35.5  A0.65,0.65 0 0,0 109.1,34.85  L109.1,156.45  A0.65,0.65 0 0,0 108.44999999999999,155.79999999999",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M109.1,34.85  L144.7,34.85  L144.7,156.45  L109.1,156.45  L109.1,34.849999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M144.7,34.85  A0.65,0.65 0 0,0 145.35,35.5  Q145.58475241351724,35.5,145.7653311931459,35.35  L169.79999999999998,35.35  L169.79999999999998,155.95  L145.7653311931459,155.95  Q145.58475241351724,155",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 32,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M50.505043,35.349998  L37.70504,38.779751  L9.9999981,38.779751  Q5.8578618,38.779755,2.928931952,41.708683  Q-5.00000000069889e-7,44.637615,0,48.779751  L0,148.52025  Q0,152.66238,2.928931952,155.59",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M35.1,38.77974966311837  L47.900000000000006,35.35  L47.900000000000006,155.95  L35.10000000000001,152.52025033688162  L35.10000000000001,38.779749663118366  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M35.1,152.52025033688162  L7,152.52025033688162  A7,7 0 0,1 0,145.52025033688162  L0,45.779749663118366  A7,7 0 0,1 7,38.779749663118366  L35.1,38.779749663118366  L35.1,152.52025033688162  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M47.900000000000006,35.35  L83.5,35.35  L83.5,155.95  L47.9,155.95  L47.9,35.349999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M83.5,35.35  L83.8,35.35  L108.03466880685409,35.35  Q108.21524758648273,35.5,108.44999999999999,35.5  A0.65,0.65 0 0,0 109.1,34.85  L109.1,156.45  A0.65,0.65 0 0,0 108.44999999999999,155.79999999999",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M109.1,34.85  L144.7,34.85  L144.7,156.45  L109.1,156.45  L109.1,34.849999999999994  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M144.7,34.85  A0.65,0.65 0 0,0 145.35,35.5  Q145.58475241351724,35.5,145.7653311931459,35.35  L169.79999999999998,35.35  L169.79999999999998,155.95  L145.7653311931459,155.95  Q145.58475241351724,155",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M83.8,35.35  L83.8,31.35  L85.8,29.35  L88.16061595426379,19.125048945656136  A1,1 0 0,1 89.13498601904902,18.35  L105.6,18.35  L106.6,32.85  L107.8813099758324,35.164788272355025  Q107.9405591858488",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  },
+  {
+    "url": "https://www.pacdora.cn/dielines-detail/custom-dimensions-flip-top-boxes-arc-dieline-153070",
+    "num": "153070",
+    "intercepted_resources": [
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/permissions",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/cn/plans",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/users/experience_user",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.ahrefs.com/api/event",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://oss.pacdora.cn/frontend/web-assets/abfed86b-44b8-408e-aac3-bc13cc98121a.hdr",
+        "type": "3d_model",
+        "status": 200,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/materials/science?pageSize=1000&scienceType=1",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/details?nameKey=custom-dimensions-flip-top-boxes-arc-dieline-153070",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/models/preview?id=742",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/project/knife?id=742&bleed=5&export_type=model",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=665ecda22f927a038d19c25c",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/modes/category/cal?cate_id=718&width=202&height=202&length=205",
+        "type": "api_call",
+        "status": 200
+      },
+      {
+        "url": "https://www.pacdora.cn/api/v2/pay/unified/checkPro",
+        "type": "api_call",
+        "status": 200
+      }
+    ],
+    "page_title": "",
+    "dimensions_panel": {
+      "inputs": [],
+      "labels": [
+        "样机基础高级更多",
+        "高级",
+        "高级",
+        "高级",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)尺寸类型 制造尺寸 内尺寸 外尺寸",
+        "自定义尺寸  mm  in 长度mm宽度mm高度mm自定义厚度 (0.2~4mm) 选择材质  瓦楞纸E(三层)",
+        "自定义尺寸  mm  in",
+        "mm  in",
+        "mm",
+        "长度mm宽度mm高度mm",
+        "长度mm",
+        "长度",
+        "mm",
+        "mm",
+        "宽度mm",
+        "宽度",
+        "mm",
+        "mm",
+        "高度mm",
+        "高度",
+        "mm",
+        "mm",
+        "自定义厚度 (0.2~4mm)",
+        "(0.2~4mm)",
+        "尺寸类型",
+        "制造尺寸 内尺寸 外尺寸",
+        "制造尺寸",
+        "内尺寸",
+        "外尺寸",
+        "出血线割线折线制造尺寸205 × 202 × 202 mm内尺寸200 × 200 × 200 mm外尺寸206 × 203 × 203 mm",
+        "制造尺寸205 × 202 × 202 mm内尺寸200 × 200 × 200 mm外尺寸206 × 203 × 203 mm",
+        "制造尺寸205 × 202 × 202 mm",
+        "制造尺寸",
+        "205 × 202 × 202 mm",
+        "内尺寸200 × 200 × 200 mm",
+        "内尺寸",
+        "200 × 200 × 200 mm",
+        "外尺寸206 × 203 × 203 mm",
+        "外尺寸",
+        "206 × 203 × 203 mm",
+        "205 mm202 mm202 mm",
+        "205 mm202 mm202 mm",
+        "也称为刀版尺寸，是结构图上标记的尺寸。",
+        "指产品的体积尺寸，即包装能容纳多少。通常在添加缓冲材料后，一个产品的外径长度、宽度和高度通常是包装盒的最小内尺寸。",
+        "指外包装的体积尺寸，即包装占用的空间。产品运输和容器通常指的是包装盒的外尺寸。",
+        "通常，外尺寸 > 制造尺寸 > 内尺寸。",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "以下是盒子、袋子和瓶子常见的长度、宽度和高度。",
+        "如果我们提供的当前包装尺寸不符合您的需求，请通过电子邮件联系我们：customer@pacdora.com",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。",
+        "牛皮纸是一种坚固、耐水的包装纸，呈褐黄色，用途广泛。主要质量要求是柔韧性和坚固性，高抗破裂性，可以承受更大的张力和压力而不破裂。"
+      ],
+      "sliders": []
+    },
+    "material_options": [
+      "瓦楞纸E(三层)",
+      "材质介绍",
+      "瓦楞纸板",
+      "白卡纸",
+      "白卡纸板",
+      "牛皮纸",
+      "涂布纸",
+      "material"
+    ],
+    "canvas_info": [
+      {
+        "index": 0,
+        "width": 250,
+        "height": 250,
+        "clientWidth": 250,
+        "clientHeight": 250,
+        "hasWebGL": true,
+        "renderer": "WebKit WebGL",
+        "parentClass": "mode-viewer"
+      }
+    ],
+    "svg_dieline": {
+      "embedded_svgs": [
+        {
+          "viewBox": "",
+          "width": "632.9777360263034",
+          "height": "883.5777360263035",
+          "pathCount": 41,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M0.17037109999999966,230.7059  L7.862095399999999,202  L197.57634,202  L198.7,206.19354  L198.7,25  L200.2,25  L200.2,18  Q200.2,10.5441575,205.47208,5.27207804  Q210.74416,0,218.2,0  L394.20001,0  Q",
+              "stroke": "#333333",
+              "strokeDasharray": "",
+              "class": "svg-cutting"
+            },
+            {
+              "tag": "path",
+              "d": " M0.17037109999999966,230.7059  L7.862095399999999,202  L197.57634,202  L198.7,206.19354  L198.7,25  L200.2,25  L200.2,18  Q200.2,10.5441575,205.47208,5.27207804  Q210.74416,0,218.2,0  L394.20001,0  Q",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M200.2,429.3  A1.8,1.8 0 0,0 202,427.5  L400.4,427.5  A1.8,1.8 0 0,0 402.2,429.3  L402.2,629.5  L200.2,629.5  L200.2,429.3  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M200.2,429.3  L200.2,629.5  A1.8,1.8 0 0,0 197.40501256289338,628  L197.40501256289338,628  L1.5000000000000284,628  L1.5000000000000284,628  A198.7,198.7 0 0,1 200.20000000000002,429.3  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M1.5,628  L197.40501256289335,628  A1.8,1.8 0 0,0 196.66133351267965,629.0341257188155  L190.23969685313043,653  L8.198729810778076,653  L1.5000000000000089,628  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M402.2,429.3  A198.7,198.7 0 0,1 600.8999999999999,628  L600.8999999999999,628  L404.9949874371066,628  L404.9949874371066,628  A1.8,1.8 0 0,0 402.2,629.5  L402.2,429.3  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M600.9,628  L594.201270189222,653  L412.1603031468695,653  L405.7386664873203,629.0341257188155  A1.8,1.8 0 0,0 404.9949874371066,628  L600.9,628  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M200.2,629.5  L402.2,629.5  L402.2,830  L335.2,830  L267.2,830  L200.2,830  L200.2,629.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#333333",
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "var(--primary-color)"
+          ]
+        },
+        {
+          "viewBox": "0 0 1 1",
+          "width": "1px",
+          "height": "1px",
+          "pathCount": 31,
+          "samplePaths": [
+            {
+              "tag": "path",
+              "d": " M0.17037109999999966,230.7059  L7.862095399999999,202  L197.57634,202  L198.7,206.19354  L198.7,25  L200.2,25  L200.2,18  Q200.2,10.5441575,205.47208,5.27207804  Q210.74416,0,218.2,0  L394.20001,0  Q",
+              "stroke": "#46ba00",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M200.2,429.3  A1.8,1.8 0 0,0 202,427.5  L400.4,427.5  A1.8,1.8 0 0,0 402.2,429.3  L402.2,629.5  L200.2,629.5  L200.2,429.3  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M200.2,429.3  L200.2,629.5  A1.8,1.8 0 0,0 197.40501256289338,628  L197.40501256289338,628  L1.5000000000000284,628  L1.5000000000000284,628  A198.7,198.7 0 0,1 200.20000000000002,429.3  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M1.5,628  L197.40501256289335,628  A1.8,1.8 0 0,0 196.66133351267965,629.0341257188155  L190.23969685313043,653  L8.198729810778076,653  L1.5000000000000089,628  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M402.2,429.3  A198.7,198.7 0 0,1 600.8999999999999,628  L600.8999999999999,628  L404.9949874371066,628  L404.9949874371066,628  A1.8,1.8 0 0,0 402.2,629.5  L402.2,429.3  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M600.9,628  L594.201270189222,653  L412.1603031468695,653  L405.7386664873203,629.0341257188155  A1.8,1.8 0 0,0 404.9949874371066,628  L600.9,628  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M200.2,629.5  L402.2,629.5  L402.2,830  L335.2,830  L267.2,830  L200.2,830  L200.2,629.5  Z ",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            },
+            {
+              "tag": "path",
+              "d": " M267.2,830  L335.2,830  L336.9179587349015,832.1474484186268  A1,1 0 0,1 337.08300699855306,832.936064823575  L332.37808853738613,850.0365142643493  A4,4 0 0,1 329.31269317958396,852.3878945994217  L",
+              "stroke": "none",
+              "strokeDasharray": "",
+              "class": ""
+            }
+          ],
+          "strokeColors": [
+            "#46ba00",
+            "none",
+            "#2028b0",
+            "#fa0000",
+            "#333333"
+          ]
+        }
+      ],
+      "svg_images": [
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/7dde7cbb-ce2b-4b2d-94aa-9ce1241d52d5.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/8f55a4fe-45a3-4945-bc54-a93e39e2f049.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "src": "https://oss.pacdora.cn/frontend/web-assets/567b7faf-5143-4132-ac83-08360cf70471.svg",
+          "alt": "",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "total_svg_elements": 13
+    },
+    "panel_mapping": {
+      "panel_labels": [
+        "153070翻盖盒弧形锁扣插入插舌前盖盒纸运输箱礼盒折叠盒多边形盒DIY盒子",
+        "插舌前盖盒"
+      ],
+      "tab_labels": [
+        "mm  in",
+        "分享"
+      ],
+      "vue_data": {
+        "hasVueApp": true
+      }
+    },
+    "breadcrumb": [],
+    "download_options": [],
+    "related_items": [],
+    "error": null,
+    "has_demo_project": false
+  }
+]

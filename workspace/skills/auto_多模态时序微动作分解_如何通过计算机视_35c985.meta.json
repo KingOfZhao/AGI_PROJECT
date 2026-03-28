@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态时序微动作分解_如何通过计算机视_35c985",
+  "file": "skills/auto_多模态时序微动作分解_如何通过计算机视_35c985.py",
+  "description": "【多模态时序微动作分解】如何通过计算机视觉（CV）从非结构化的手工艺视频（如陶艺拉坯）中，自动剔除无效帧并提取具有力学意义的‘关键原子动作’？这不仅仅是物体检测，而是需要建立‘手部姿态-工具形变-材料状态’的三元组时序关联，将连续流切的隐性经验转化为离散化的操作节点，解决隐性知识难以被数字化的入口问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.497815",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_22_Q1_2_9071",
+  "design_spec": {
+    "name": "auto_多模态时序微动作分解_如何通过计算机视_35c985",
+    "display_name": "【多模态时序微动作分解】如何通过计算机视觉（CV）从非结构化的手工艺视频（如陶艺拉坯）中，自动剔除无",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态时序微动作分解】如何通过计算机视觉（CV）从非结构化的手工艺视频（如陶艺拉坯）中，自动剔除无效帧并提取具有力学意义的‘关键原子动作’？这不仅仅是物体检测",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 382
+  }
+}

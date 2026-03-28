@@ -1,0 +1,30 @@
+{
+  "name": "auto_验证_人机共生_中的指令遵循精度_构建一_2c7c6e",
+  "file": "skills/auto_验证_人机共生_中的指令遵循精度_构建一_2c7c6e.py",
+  "description": "验证'人机共生'中的指令遵循精度。构建一个包含多重逻辑约束的Prompt（如：'用Python写一个爬虫，但禁止使用requests库，且代码必须包含异常处理，输出格式必须是YAML'）。AI的输出必须同时满足所有约束。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_86",
+    "nlp_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:02:52.167357",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_86_Q4_2_3982",
+  "design_spec": {
+    "name": "auto_验证_人机共生_中的指令遵循精度_构建一_2c7c6e",
+    "display_name": "验证'人机共生'中的指令遵循精度。构建一个包含多重逻辑约束的Prompt（如：'用Python写一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "验证'人机共生'中的指令遵循精度。构建一个包含多重逻辑约束的Prompt（如：'用Python写一个爬虫，但禁止使用requests库，且代码必须包含异常处理，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 120
+  }
+}

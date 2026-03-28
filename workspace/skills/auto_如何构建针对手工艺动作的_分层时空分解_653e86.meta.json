@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建针对手工艺动作的_分层时空分解_653e86",
+  "file": "skills/auto_如何构建针对手工艺动作的_分层时空分解_653e86.py",
+  "description": "如何构建针对手工艺动作的'分层时空分解'算法，将人类专家的连续视频流拆解为具有语义逻辑的原子动作（如'推、拉、提、按'）序列？关键在于处理速度的微小非线性变化（如犹豫或加速），将这些隐性节奏显性化为时间轴上的关键帧节点，而非简单的动作捕捉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.008560",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q2_2_7850",
+  "design_spec": {
+    "name": "auto_如何构建针对手工艺动作的_分层时空分解_653e86",
+    "display_name": "如何构建针对手工艺动作的'分层时空分解'算法，将人类专家的连续视频流拆解为具有语义逻辑的原子动作（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建针对手工艺动作的'分层时空分解'算法，将人类专家的连续视频流拆解为具有语义逻辑的原子动作（如'推、拉、提、按'）序列？关键在于处理速度的微小非线性变化（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 367
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建基于_最小能量原则_的路径证伪机_34b779",
+  "file": "skills/auto_如何构建基于_最小能量原则_的路径证伪机_34b779.py",
+  "description": "如何构建基于'最小能量原则'的路径证伪机制？在多种解决方案并存的节点网络中，AI应优先推荐实践成本最低的路径。若推荐路径的实践成功率或能耗劣于通过随机游走或人类直觉选择的路径，则需对推荐算法进行证伪修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "operations_research",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.470292",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_72_Q7_1_5545",
+  "design_spec": {
+    "name": "auto_如何构建基于_最小能量原则_的路径证伪机_34b779",
+    "display_name": "如何构建基于'最小能量原则'的路径证伪机制？在多种解决方案并存的节点网络中，AI应优先推荐实践成本最",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建基于'最小能量原则'的路径证伪机制？在多种解决方案并存的节点网络中，AI应优先推荐实践成本最低的路径。若推荐路径的实践成功率或能耗劣于通过随机游走或人类",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

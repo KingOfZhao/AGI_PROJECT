@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发一种_生成式参数化空间骨架_系统_利_822af7",
+  "file": "skills/auto_开发一种_生成式参数化空间骨架_系统_利_822af7.py",
+  "description": "开发一种'生成式参数化空间骨架'系统。利用神经网络的潜在空间来驱动建筑设计软件（如Rhino/Grasshopper）。设计师不再手动调整每根梁柱，而是训练一个'风格化骨干网络'，输入功能约束（如承重、采光），网络自动生成具有特定建筑风格的拓扑结构。这允许AI理解'哥特式'或'极简主义'不仅仅是视觉纹理，而是结构力流的深层逻辑，实现从结构力学到美学形式的端到端生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.973559",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O1_6848",
+  "design_spec": {
+    "name": "auto_开发一种_生成式参数化空间骨架_系统_利_822af7",
+    "display_name": "开发一种'生成式参数化空间骨架'系统。利用神经网络的潜在空间来驱动建筑设计软件（如Rhino/Gra",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发一种'生成式参数化空间骨架'系统。利用神经网络的潜在空间来驱动建筑设计软件（如Rhino/Grasshopper）。设计师不再手动调整每根梁柱，而是训练一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

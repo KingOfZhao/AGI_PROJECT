@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽_的自动化闭环检测_针对小摊贩_ce4a56",
+  "file": "skills/auto_认知自洽_的自动化闭环检测_针对小摊贩_ce4a56.py",
+  "description": "‘认知自洽’的自动化闭环检测。针对小摊贩等非结构化领域，如何定义‘闭环’？系统需具备监测‘实践-反馈’回路的能力。即：当AI输出一个策略，人类实施后，系统必须能识别‘实施结果’并将其映射回原节点。挑战在于如何从非结构化的现实反馈（如‘今天生意不好’）中提取特征，更新节点的‘成功率’参数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "nlp_ml",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.841336",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q8_2_9854",
+  "design_spec": {
+    "name": "auto_认知自洽_的自动化闭环检测_针对小摊贩_ce4a56",
+    "display_name": "‘认知自洽’的自动化闭环检测。针对小摊贩等非结构化领域，如何定义‘闭环’？系统需具备监测‘实践-反馈",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘认知自洽’的自动化闭环检测。针对小摊贩等非结构化领域，如何定义‘闭环’？系统需具备监测‘实践-反馈’回路的能力。即：当AI输出一个策略，人类实施后，系统必须能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 234
+  }
+}

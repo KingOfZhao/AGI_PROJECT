@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_神经_空间生成式设计引擎_利用v_21f801",
+  "file": "skills/auto_提出_神经_空间生成式设计引擎_利用v_21f801.py",
+  "description": "提出'神经-空间生成式设计引擎'。利用VAE或Diffusion Model学习建筑平面图的潜空间分布，将功能需求（如采光、动线）映射为潜空间中的向量算子。建筑师不再直接画图，而是通过调整潜空间的'语义滑块'（如'私密性'、'交互密度'）来实时生成符合结构逻辑的动态空间布局。这使得非专业人士也能通过自然语言构建复杂建筑方案，极大降低设计门槛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.803499",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_118_O1_9660",
+  "design_spec": {
+    "name": "auto_提出_神经_空间生成式设计引擎_利用v_21f801",
+    "display_name": "提出'神经-空间生成式设计引擎'。利用VAE或Diffusion Model学习建筑平面图的潜空间分",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'神经-空间生成式设计引擎'。利用VAE或Diffusion Model学习建筑平面图的潜空间分布，将功能需求（如采光、动线）映射为潜空间中的向量算子。建筑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 237
+  }
+}

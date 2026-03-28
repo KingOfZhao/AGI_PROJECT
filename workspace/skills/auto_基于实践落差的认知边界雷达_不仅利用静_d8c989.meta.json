@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于实践落差的认知边界雷达_不仅利用静_d8c989",
+  "file": "skills/auto_基于实践落差的认知边界雷达_不仅利用静_d8c989.py",
+  "description": "【基于实践落差的认知边界雷达】不仅利用静态向量的稀疏性，更结合‘意图-执行’的动态落差来探测认知空洞。当系统生成的意图在高维空间有投影，但执行层反馈的置信度在局部区域骤降（类似学徒手抖），且伴随高错误率时，标记该区域为‘高风险认知空洞’，并主动触发‘拜师请求’（人类介入），而非盲目生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.321765",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_45_O4_8050",
+  "design_spec": {
+    "name": "auto_基于实践落差的认知边界雷达_不仅利用静_d8c989",
+    "display_name": "【基于实践落差的认知边界雷达】不仅利用静态向量的稀疏性，更结合‘意图-执行’的动态落差来探测认知空洞",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于实践落差的认知边界雷达】不仅利用静态向量的稀疏性，更结合‘意图-执行’的动态落差来探测认知空洞。当系统生成的意图在高维空间有投影，但执行层反馈的置信度在局",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 259
+  }
+}

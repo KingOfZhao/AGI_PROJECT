@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知光谱仪_将模糊的自然语言知识_ae91d9",
+  "file": "skills/auto_构建_认知光谱仪_将模糊的自然语言知识_ae91d9.py",
+  "description": "构建'认知光谱仪'：将模糊的自然语言知识转化为可执行代码（Skill）的自动化转化率研究。目前有1497个SKILL，但大量知识仍是非结构化文本。验证：能否通过LLM的Function Calling能力，自动将'如何做红烧肉'的文本节点转化为包含'ingredients', 'steps', 'duration'的结构化JSON对象，且成功率超过85%。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_84",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:20:23.825945",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_84_Q5_2_8764",
+  "design_spec": {
+    "name": "auto_构建_认知光谱仪_将模糊的自然语言知识_ae91d9",
+    "display_name": "构建'认知光谱仪'：将模糊的自然语言知识转化为可执行代码（Skill）的自动化转化率研究。目前有14",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知光谱仪'：将模糊的自然语言知识转化为可执行代码（Skill）的自动化转化率研究。目前有1497个SKILL，但大量知识仍是非结构化文本。验证：能否通过",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

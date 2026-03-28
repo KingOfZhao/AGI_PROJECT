@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身纠错反馈系统_将rlhf中的_代码_7d4052",
+  "file": "skills/auto_具身纠错反馈系统_将rlhf中的_代码_7d4052.py",
+  "description": "【具身纠错反馈系统】将RLHF中的'代码执行反馈'机制迁移到传统技艺教学中。利用计算机视觉捕捉学徒的动作轨迹，将其与大师的'标准动作向量'进行对比。系统不评价成品外观，而是像编译器报错一样，实时指出'手势角度偏差15度'或'力度曲线不平滑'，强制学徒进行'动作迭代'，直至形成符合标准的'肌肉记忆真实节点'。这解决了传统工艺难以量化教学的痛点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_38",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T05:24:13.095520",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_38_O1_4055",
+  "design_spec": {
+    "name": "auto_具身纠错反馈系统_将rlhf中的_代码_7d4052",
+    "display_name": "【具身纠错反馈系统】将RLHF中的'代码执行反馈'机制迁移到传统技艺教学中。利用计算机视觉捕捉学徒的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身纠错反馈系统】将RLHF中的'代码执行反馈'机制迁移到传统技艺教学中。利用计算机视觉捕捉学徒的动作轨迹，将其与大师的'标准动作向量'进行对比。系统不评价成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

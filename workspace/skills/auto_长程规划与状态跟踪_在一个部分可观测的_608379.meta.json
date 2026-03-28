@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程规划与状态跟踪_在一个部分可观测的_608379",
+  "file": "skills/auto_长程规划与状态跟踪_在一个部分可观测的_608379.py",
+  "description": "【长程规划与状态跟踪】在一个部分可观测的马尔可夫决策过程（POMDP）环境中（如文本冒险游戏或简化的物流调度任务），AI能否在连续100轮交互中，始终维护一个正确的内部状态笔记（Memory），并根据该笔记做出导致最终胜利的决策链？这验证了AI是否具备“持续碰撞”中的记忆固化能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "agi_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.855553",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_46_Q2_2_4231",
+  "design_spec": {
+    "name": "auto_长程规划与状态跟踪_在一个部分可观测的_608379",
+    "display_name": "【长程规划与状态跟踪】在一个部分可观测的马尔可夫决策过程（POMDP）环境中（如文本冒险游戏或简化的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【长程规划与状态跟踪】在一个部分可观测的马尔可夫决策过程（POMDP）环境中（如文本冒险游戏或简化的物流调度任务），AI能否在连续100轮交互中，始终维护一个正",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 356
+  }
+}

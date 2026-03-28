@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计一种面向工业场景的_元技能_生成_bcea08",
+  "file": "skills/auto_如何设计一种面向工业场景的_元技能_生成_bcea08.py",
+  "description": "如何设计一种面向工业场景的‘元技能’生成器？即给定一个新的未知设备，系统能否通过阅读说明书（自上而下）和试探性操作（自下而上），自动生成该设备的‘操作技能树’，并评估其与现有1630个技能节点的重叠度，避免重复造轮子。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.703754",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_95_Q9_3_1359",
+  "design_spec": {
+    "name": "auto_如何设计一种面向工业场景的_元技能_生成_bcea08",
+    "display_name": "如何设计一种面向工业场景的‘元技能’生成器？即给定一个新的未知设备，系统能否通过阅读说明书（自上而下",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计一种面向工业场景的‘元技能’生成器？即给定一个新的未知设备，系统能否通过阅读说明书（自上而下）和试探性操作（自下而上），自动生成该设备的‘操作技能树’，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 321
+  }
+}

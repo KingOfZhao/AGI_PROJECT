@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_微观操作经验_的宏观泛化能力_如果_393746",
+  "file": "skills/auto_构建_微观操作经验_的宏观泛化能力_如果_393746.py",
+  "description": "构建‘微观操作经验’的宏观泛化能力。如果系统学会了‘拧A型号螺丝’的Skill，能否通过节点拆解（力矩、旋入角度、材质），自动合成‘拧B型号异形螺丝’的新Skill？这是验证结构化网络是否具备‘举一反三’能力的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "Few-Shot Learning / Robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.859257",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_48_Q6_1_4889",
+  "design_spec": {
+    "name": "auto_构建_微观操作经验_的宏观泛化能力_如果_393746",
+    "display_name": "构建‘微观操作经验’的宏观泛化能力。如果系统学会了‘拧A型号螺丝’的Skill，能否通过节点拆解（力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘微观操作经验’的宏观泛化能力。如果系统学会了‘拧A型号螺丝’的Skill，能否通过节点拆解（力矩、旋入角度、材质），自动合成‘拧B型号异形螺丝’的新Ski",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 235
+  }
+}

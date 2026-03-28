@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_自适应成长引擎_不再是简单的难度_6187fa",
+  "file": "skills/auto_构建_自适应成长引擎_不再是简单的难度_6187fa.py",
+  "description": "构建'自适应成长引擎'。不再是简单的难度分级，而是基于多模态数据(眼动、操作延迟、错误模式)实时解构用户的认知负荷。AI不仅调整题目难度，还能动态改变'信息呈现密度'和'辅助脚手架'的强度。例如，当检测到用户认知过载时，不仅降低数值难度，还自动切换至'具体形象模式'(提供可视化辅助)，模拟游戏中的Buff效果，实现从'单纯做题'到'认知状态管理'的转变。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.364486",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O1_3767",
+  "design_spec": {
+    "name": "auto_构建_自适应成长引擎_不再是简单的难度_6187fa",
+    "display_name": "构建'自适应成长引擎'。不再是简单的难度分级，而是基于多模态数据(眼动、操作延迟、错误模式)实时解构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'自适应成长引擎'。不再是简单的难度分级，而是基于多模态数据(眼动、操作延迟、错误模式)实时解构用户的认知负荷。AI不仅调整题目难度，还能动态改变'信息呈现",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 253
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对工业制造中的多阶段工艺_如热处理_28e7fc",
+  "file": "skills/auto_针对工业制造中的多阶段工艺_如热处理_28e7fc.py",
+  "description": "针对工业制造中的多阶段工艺（如热处理->机加工->装配），如何建立“跨域因果链”，识别出最终产品缺陷与上游工艺参数之间的真实关联？这要求系统不能仅依赖相关性，必须具备反事实推理能力，以避免学习到伪关联（例如：由于维护周期导致的虚假关联）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.504889",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_5_Q3_3_6565",
+  "design_spec": {
+    "name": "auto_针对工业制造中的多阶段工艺_如热处理_28e7fc",
+    "display_name": "针对工业制造中的多阶段工艺（如热处理->机加工->装配），如何建立“跨域因果链”，识别出最终产品缺陷",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对工业制造中的多阶段工艺（如热处理->机加工->装配），如何建立“跨域因果链”，识别出最终产品缺陷与上游工艺参数之间的真实关联？这要求系统不能仅依赖相关性，必",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 411
+  }
+}

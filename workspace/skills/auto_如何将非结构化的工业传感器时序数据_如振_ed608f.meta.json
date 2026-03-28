@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将非结构化的工业传感器时序数据_如振_ed608f",
+  "file": "skills/auto_如何将非结构化的工业传感器时序数据_如振_ed608f.py",
+  "description": "如何将非结构化的工业传感器时序数据（如振动、温度、电流）转化为具备因果逻辑的'真实节点'？这不仅仅是特征提取，而是要建立'工况-信号-物理机理'的三元组结构。实验需验证AI能否在无人干预下，从海量数据中自动聚类出'轴承磨损'这一概念节点，并将其与'异常振动频率'信号锁定，形成可被工程师验证的因果链条，而非仅仅是统计相关性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "industrial_iot",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.560774",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q1_1_4130",
+  "design_spec": {
+    "name": "auto_如何将非结构化的工业传感器时序数据_如振_ed608f",
+    "display_name": "如何将非结构化的工业传感器时序数据（如振动、温度、电流）转化为具备因果逻辑的'真实节点'？这不仅仅是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将非结构化的工业传感器时序数据（如振动、温度、电流）转化为具备因果逻辑的'真实节点'？这不仅仅是特征提取，而是要建立'工况-信号-物理机理'的三元组结构。实",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_ai能否针对一个复杂的宏观事件_如_某次_ee4e02",
+  "file": "skills/auto_ai能否针对一个复杂的宏观事件_如_某次_ee4e02.py",
+  "description": "AI能否针对一个复杂的宏观事件（如'某次股市暴跌'），构建出包含至少3个层级的因果链条图，并标注出哪些节点是已证实的真实节点，哪些节点是推测性假设？这验证了自上而下拆解与真实节点固化的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_9",
+    "causal_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:23:18.121068",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_9_Q8_0_9057",
+  "design_spec": {
+    "name": "auto_ai能否针对一个复杂的宏观事件_如_某次_ee4e02",
+    "display_name": "AI能否针对一个复杂的宏观事件（如'某次股市暴跌'），构建出包含至少3个层级的因果链条图，并标注出哪",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "AI能否针对一个复杂的宏观事件（如'某次股市暴跌'），构建出包含至少3个层级的因果链条图，并标注出哪些节点是已证实的真实节点，哪些节点是推测性假设？这验证了自上",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 313
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳_如何设计基于信息熵的_真_9b09c9",
+  "file": "skills/auto_自下而上归纳_如何设计基于信息熵的_真_9b09c9.py",
+  "description": "【自下而上归纳】如何设计基于信息熵的'真实节点'动态聚类算法，以便从416个离散SKILL节点中自动涌现出更高层级的抽象概念节点？当前SKILL节点可能存在大量冗余或强相关性（如'切菜'与'备菜'），需要一种算法能够测量节点间的语义与实践重叠度，当重叠度超过阈值时自动融合为单一父节点，从而实现认知网络的向上生长与结构化减熵。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.750068",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_20_Q1_1_7887",
+  "design_spec": {
+    "name": "auto_自下而上归纳_如何设计基于信息熵的_真_9b09c9",
+    "display_name": "【自下而上归纳】如何设计基于信息熵的'真实节点'动态聚类算法，以便从416个离散SKILL节点中自动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳】如何设计基于信息熵的'真实节点'动态聚类算法，以便从416个离散SKILL节点中自动涌现出更高层级的抽象概念节点？当前SKILL节点可能存在大量",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 266
+  }
+}

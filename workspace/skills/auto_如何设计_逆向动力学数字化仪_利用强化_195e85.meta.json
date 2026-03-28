@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_逆向动力学数字化仪_利用强化_195e85",
+  "file": "skills/auto_如何设计_逆向动力学数字化仪_利用强化_195e85.py",
+  "description": "如何设计'逆向动力学数字化仪'，利用强化学习（RL）在模拟环境中通过'试错'反推人类专家的隐性策略参数？例如，在模拟焊接中，AI通过最大化焊缝强度来反推'运条速度'与'电弧高度'的非线性耦合关系，将人类的'稳'转化为具体的参数曲线。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_12",
+    "robotics_rl",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:33:04.195061",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_12_Q2_2_9260",
+  "design_spec": {
+    "name": "auto_如何设计_逆向动力学数字化仪_利用强化_195e85",
+    "display_name": "如何设计'逆向动力学数字化仪'，利用强化学习（RL）在模拟环境中通过'试错'反推人类专家的隐性策略参",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'逆向动力学数字化仪'，利用强化学习（RL）在模拟环境中通过'试错'反推人类专家的隐性策略参数？例如，在模拟焊接中，AI通过最大化焊缝强度来反推'运条速",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

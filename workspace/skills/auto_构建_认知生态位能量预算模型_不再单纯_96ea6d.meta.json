@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知生态位能量预算模型_不再单纯_96ea6d",
+  "file": "skills/auto_构建_认知生态位能量预算模型_不再单纯_96ea6d.py",
+  "description": "构建'认知生态位能量预算模型'。不再单纯计算通用的ROI，而是引入生态学的'代谢标度律'。AI系统将根据任务环境（生态位）的富集程度，动态调整自身认知节点的'代谢率'。在低资源（低算力/低数据）环境下，自动进入'冬眠/低功耗模式'，仅保留核心生存节点；在高价值环境中，则激进地扩展高能耗的复杂节点。实现AI系统在资源约束下的自适应生存策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.461939",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_90_O1_6940",
+  "design_spec": {
+    "name": "auto_构建_认知生态位能量预算模型_不再单纯_96ea6d",
+    "display_name": "构建'认知生态位能量预算模型'。不再单纯计算通用的ROI，而是引入生态学的'代谢标度律'。AI系统将",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知生态位能量预算模型'。不再单纯计算通用的ROI，而是引入生态学的'代谢标度律'。AI系统将根据任务环境（生态位）的富集程度，动态调整自身认知节点的'代",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 226
+  }
+}

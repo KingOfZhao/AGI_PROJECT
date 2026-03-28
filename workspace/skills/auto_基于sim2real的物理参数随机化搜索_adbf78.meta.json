@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于sim2real的物理参数随机化搜索_adbf78",
+  "file": "skills/auto_基于sim2real的物理参数随机化搜索_adbf78.py",
+  "description": "基于Sim2Real的物理参数随机化搜索。手工艺中的环境参数（温度、湿度）是隐性变量。本问题要求在仿真环境中构建参数化模型，通过大规模随机搜索找到适应特定工艺的参数边界。核心是验证AI能否在物理引擎中自动发现那些人类'凭感觉'掌握的环境容忍度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "digital_twin",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:17.937745",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q5_0_7270",
+  "design_spec": {
+    "name": "auto_基于sim2real的物理参数随机化搜索_adbf78",
+    "display_name": "基于Sim2Real的物理参数随机化搜索。手工艺中的环境参数（温度、湿度）是隐性变量。本问题要求在仿",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于Sim2Real的物理参数随机化搜索。手工艺中的环境参数（温度、湿度）是隐性变量。本问题要求在仿真环境中构建参数化模型，通过大规模随机搜索找到适应特定工艺的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

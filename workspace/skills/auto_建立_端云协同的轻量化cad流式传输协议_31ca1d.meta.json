@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_端云协同的轻量化cad流式传输协议_31ca1d",
+  "file": "skills/auto_建立_端云协同的轻量化cad流式传输协议_31ca1d.py",
+  "description": "建立'端云协同的轻量化CAD流式传输协议'。借鉴Platform Channels的消息机制，设计一种基于WebAssembly的轻量级几何内核。在移动端仅接收并渲染STEP数据的视觉层（类似Texture），而将重型布尔运算放在云端（类似Native Backend），实现移动端操作GB级CAD模型的零延迟体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.673455",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_121_O4_9125",
+  "design_spec": {
+    "name": "auto_建立_端云协同的轻量化cad流式传输协议_31ca1d",
+    "display_name": "建立'端云协同的轻量化CAD流式传输协议'。借鉴Platform Channels的消息机制，设计一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'端云协同的轻量化CAD流式传输协议'。借鉴Platform Channels的消息机制，设计一种基于WebAssembly的轻量级几何内核。在移动端仅接收",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

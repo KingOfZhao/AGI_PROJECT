@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对794个现有skill_如何构建一个_b68052",
+  "file": "skills/auto_针对794个现有skill_如何构建一个_b68052.py",
+  "description": "针对794个现有SKILL，如何构建一个'组合爆炸实验室'，自动生成SKILL的排列组合清单，并预测组合后的涌现属性？例如：'写作'(Skill A) + '代码'(Skill B) -> '代码叙事'(New Skill C)。关键在于预测C的执行效率是否优于A与B的简单叠加。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "复杂系统/技能组合",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:28.981092",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q5_2_9566",
+  "design_spec": {
+    "name": "auto_针对794个现有skill_如何构建一个_b68052",
+    "display_name": "针对794个现有SKILL，如何构建一个'组合爆炸实验室'，自动生成SKILL的排列组合清单，并预测",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对794个现有SKILL，如何构建一个'组合爆炸实验室'，自动生成SKILL的排列组合清单，并预测组合后的涌现属性？例如：'写作'(Skill A) + '代",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

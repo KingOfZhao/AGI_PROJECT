@@ -1,0 +1,154 @@
+{
+  "架构名称": "DiePre AI v3.0 — 统一约束求解器 + 成长性闭环",
+  "评分": 91,
+  "版本": "v3.0",
+  "推演引擎": "Claude Opus 4.6",
+  "推演方法": "六向碰撞 + 反贼检测 + 王朝循环制",
+  "循环": "2×5=10轮",
+  "日期": "2026-03-26",
+  "固定骨架": {
+    "物理定律": {
+      "总数": 15,
+      "已实现": 2,
+      "P0级": ["F1 Gaussian曲率K=0", "F2 面积守恒", "F4 RSS误差堆叠", "F6 Euler柱屈曲", "F8 Hooke弹性", "F13 弹性回弹", "F15 弯曲补偿BA"],
+      "P1级": ["F3 Haga折叠", "F5 Kelvin-Voigt蠕变", "F7 复合梁理论", "F9 Fick扩散"],
+      "P2级": ["F10 Kirsch应力集中", "F11 Coffin-Manson疲劳", "F12 WLF时温等效", "F14 热力学第二定律"]
+    },
+    "行业标准": {
+      "总数": 20,
+      "已集成": 4,
+      "关键缺口": ["S3 IADD钢规公差", "S11 GB/T 6543", "S15 CPK≥1.33"]
+    },
+    "工序规则": {
+      "总数": 12,
+      "已编码": 5,
+      "关键缺失": ["P3 裱合→MC平衡等待", "P4 多层模切刀寿命", "P9 内外MC不同步", "P11 CR是机器参数"]
+    },
+    "总约束": 47
+  },
+  "可变穷举": {
+    "材料": {
+      "大类": 10,
+      "具体材料": 51,
+      "前端": "级联选择器(Cascader)"
+    },
+    "盒型": {
+      "当前": 6,
+      "Phase0": 18,
+      "Phase1": 80,
+      "Phase2": 202,
+      "前端": "FEFCO图谱Visual Selector"
+    },
+    "胶种": 6,
+    "内结构": {
+      "大类": 4,
+      "子类型": ["隔板", "内衬/托盘", "缓冲/固定", "功能结构"]
+    },
+    "机器参数": {
+      "工序": 5,
+      "采集维度": ["型号", "CPK", "压力", "速度", "精度"]
+    }
+  },
+  "核心创新": [
+    {
+      "名称": "统一约束求解器(Unified Constraint Solver)",
+      "描述": "所有物理/标准/工艺约束注册到计算DAG，变量改变→拓扑排序→级联重算",
+      "替代": "rss_engine.py + impact_engine.py + process_chain_engine.py + mc_gap_simulator.py",
+      "优势": "新增约束只需register，不修改现有代码"
+    },
+    {
+      "名称": "FEFCO参数化模板引擎",
+      "描述": "装饰器注册每个FEFCO编码，自动生成2D展开+3D折叠+折痕+粘口",
+      "覆盖": "6→80→202种FEFCO编码"
+    },
+    {
+      "名称": "MC间隙动态模拟",
+      "描述": "内外材料膨胀系数不同→间隙随MC变化→动态曲线+告警",
+      "公式": "ΔG(MC) = L_outer × α_outer × ΔMC - L_inner × α_inner × ΔMC"
+    },
+    {
+      "名称": "响应式计算图",
+      "描述": "滑块拖动→Pinia store→约束求解器→3D更新，全链路<100ms",
+      "实现": "watchEffect + requestAnimationFrame + debounce(16ms)"
+    },
+    {
+      "名称": "WASM离线计算",
+      "描述": "RSS/折痕/嵌套核心计算编译为WASM，断网可用",
+      "性能": "API调用50ms → WASM本地1ms"
+    },
+    {
+      "名称": "成长性闭环",
+      "描述": "实测→校准→收敛(σ<0.01mm)→升级为固定规则",
+      "来源": "diepre_growth_framework.py ConvergenceTracker"
+    }
+  ],
+  "模块清单": {
+    "新增后端": [
+      {"文件": "constraint_solver.py", "功能": "统一约束求解器+DAG+增量计算", "优先级": "P1"},
+      {"文件": "physics_engine.py", "功能": "15条物理定律约束实现", "优先级": "P0"},
+      {"文件": "standard_compliance.py", "功能": "20条行业标准合规检查", "优先级": "P0"},
+      {"文件": "material_db_service.py", "功能": "统一材料数据源", "优先级": "P0"},
+      {"文件": "fefco_template_engine.py", "功能": "FEFCO参数化模板", "优先级": "P1"},
+      {"文件": "mc_gap_simulator.py", "功能": "MC间隙动态模拟", "优先级": "P1"},
+      {"文件": "unfold_engine.py", "功能": "3D→2D展开(K=0约束)", "优先级": "P1"},
+      {"文件": "fold_engine.py", "功能": "2D→3D折叠(厚度+补偿)", "优先级": "P1"},
+      {"文件": "process_scheduler.py", "功能": "排产约束(P3等待+P4刀寿命)", "优先级": "P1"},
+      {"文件": "assembly_engine.py", "功能": "装配序列推演", "优先级": "P1"}
+    ],
+    "新增前端": [
+      {"文件": "ErrorBudgetPanel.vue", "功能": "9滑块RSS实时联动", "优先级": "P0"},
+      {"文件": "MaterialCascader.vue", "功能": "级联材料选择器", "优先级": "P0"},
+      {"文件": "ProcessChain.vue", "功能": "工序链可视化", "优先级": "P1"},
+      {"文件": "InternalStructure.vue", "功能": "内结构设计器", "优先级": "P1"},
+      {"文件": "AssemblyValidator.vue", "功能": "装配模拟+碰撞检测", "优先级": "P1"},
+      {"文件": "MachineProfileEditor.vue", "功能": "工厂设备参数录入", "优先级": "P1"},
+      {"文件": "RiskHeatmap.vue", "功能": "35类灾难热力图", "优先级": "P2"},
+      {"文件": "ConvergenceDashboard.vue", "功能": "收敛报告", "优先级": "P3"}
+    ],
+    "新增API": [
+      {"路由": "/api/reasoning/unfold", "方法": "POST", "功能": "3D→2D展开"},
+      {"路由": "/api/reasoning/fold", "方法": "POST", "功能": "2D→3D折叠"},
+      {"路由": "/api/materials/cascade", "方法": "GET", "功能": "级联材料数据"},
+      {"路由": "/api/machines", "方法": "CRUD", "功能": "机器参数管理"},
+      {"路由": "/api/internal-structures", "方法": "CRUD", "功能": "内结构模板"},
+      {"路由": "/api/assembly/validate", "方法": "POST", "功能": "装配校验"},
+      {"路由": "/api/assembly/mc-simulation", "方法": "POST", "功能": "MC间隙模拟"}
+    ],
+    "新增数据库表": [
+      "machines", "machine_wear_logs", "internal_structures",
+      "nesting_configs", "assembly_records", "material_combos", "error_budgets"
+    ]
+  },
+  "实施路线图": {
+    "Phase0_1至2周": [
+      "material_db_service.py",
+      "ErrorBudgetPanel.vue",
+      "MaterialCascader.vue",
+      "3D ExtrudeGeometry厚度渲染",
+      "Alembic迁移初始化",
+      "physics_engine.py (F1/F2/F13/F15)"
+    ],
+    "Phase1_3至4周": [
+      "constraint_solver.py",
+      "fefco_template_engine.py (→80种)",
+      "ProcessChain/InternalStructure/AssemblyValidator.vue",
+      "mc_gap_simulator.py",
+      "machines表+MachineProfileEditor.vue",
+      "unfold_engine.py + fold_engine.py"
+    ],
+    "Phase2_5至6周": [
+      "2D⇄3D双向同步",
+      "GSAP折叠动画",
+      "RiskHeatmap.vue",
+      "PostgreSQL迁移",
+      "WebSocket实时推送",
+      "WASM计算器"
+    ],
+    "Phase3_持续": [
+      "实测数据回传通道",
+      "自动参数校准",
+      "收敛报告Dashboard",
+      "多用户协作"
+    ]
+  }
+}

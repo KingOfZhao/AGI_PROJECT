@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生迭代效率测试_构建一个闭环系统_9f5225",
+  "file": "skills/auto_人机共生迭代效率测试_构建一个闭环系统_9f5225.py",
+  "description": "人机共生迭代效率测试：构建一个闭环系统，AI生成工艺参数变体 -> 人类工匠快速试错 -> 人类反馈（好/坏）。验证此过程是否能比传统师徒制更快地收敛到新的'真实节点'，即验证'左右碰撞'（人机交互）是否能加速隐性知识显性化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.807590",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_122_Q5_2_7214",
+  "design_spec": {
+    "name": "auto_人机共生迭代效率测试_构建一个闭环系统_9f5225",
+    "display_name": "人机共生迭代效率测试：构建一个闭环系统，AI生成工艺参数变体 -> 人类工匠快速试错 -> 人类反馈",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生迭代效率测试：构建一个闭环系统，AI生成工艺参数变体 -> 人类工匠快速试错 -> 人类反馈（好/坏）。验证此过程是否能比传统师徒制更快地收敛到新的'真",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

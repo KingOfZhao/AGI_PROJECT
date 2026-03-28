@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上构建_如何从工业时序传感器数据_1009ac",
+  "file": "skills/auto_自下而上构建_如何从工业时序传感器数据_1009ac.py",
+  "description": "【自下而上构建】如何从工业时序传感器数据（如振动、温度流）中自动化抽取“异常模式原型”并转化为结构化的‘感知-行动’节点？当前系统多处理静态文本或离散技能，缺乏对连续物理世界高频数据的压缩与符号化能力。此问题旨在解决将物理世界的‘模糊感觉’转化为AGI网络中可计算的‘清晰节点’，实现从数据流到知识节点的自动沉淀。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "industrial_iot",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.661243",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q1_1_6206",
+  "design_spec": {
+    "name": "auto_自下而上构建_如何从工业时序传感器数据_1009ac",
+    "display_name": "【自下而上构建】如何从工业时序传感器数据（如振动、温度流）中自动化抽取“异常模式原型”并转化为结构化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上构建】如何从工业时序传感器数据（如振动、温度流）中自动化抽取“异常模式原型”并转化为结构化的‘感知-行动’节点？当前系统多处理静态文本或离散技能，缺乏",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

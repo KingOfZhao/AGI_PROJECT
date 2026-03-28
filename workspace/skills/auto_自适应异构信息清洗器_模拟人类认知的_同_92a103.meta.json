@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应异构信息清洗器_模拟人类认知的_同_92a103",
+  "file": "skills/auto_自适应异构信息清洗器_模拟人类认知的_同_92a103.py",
+  "description": "自适应异构信息清洗器。模拟人类认知的'同化-顺应'机制。当AI面对全新领域的未结构化信息（如混乱的社交媒体言论或异域文化习俗）时，不再仅做简单的Tokenizer处理，而是先尝试用已有模型进行'强行匹配'（同化），对于匹配度低的'异常数据'（Residue），不视为噪声丢弃，而是标记为'认知冲突点'。系统自动生成'图式修改建议'提交给人类，请求更新认知框架。这实现了从'被动处理数据'到'主动进化模型'的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.701974",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O3_493",
+  "design_spec": {
+    "name": "auto_自适应异构信息清洗器_模拟人类认知的_同_92a103",
+    "display_name": "自适应异构信息清洗器。模拟人类认知的'同化-顺应'机制。当AI面对全新领域的未结构化信息（如混乱的社",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自适应异构信息清洗器。模拟人类认知的'同化-顺应'机制。当AI面对全新领域的未结构化信息（如混乱的社交媒体言论或异域文化习俗）时，不再仅做简单的Tokenize",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

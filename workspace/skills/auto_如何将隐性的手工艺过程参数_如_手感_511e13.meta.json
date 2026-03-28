@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将隐性的手工艺过程参数_如_手感_511e13",
+  "file": "skills/auto_如何将隐性的手工艺过程参数_如_手感_511e13.py",
+  "description": "如何将隐性的手工艺过程参数（如‘手感’、‘火候’）映射为AGI系统中的高维‘真实节点’？这些节点必须包含可执行的参数范围（如：压力=[5N, 8N]）和边界条件。核心挑战在于将模糊的感觉转化为可证伪的数字边界，使其成为‘自下而上归纳构建’的坚实基础。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.350838",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q3_0_142",
+  "design_spec": {
+    "name": "auto_如何将隐性的手工艺过程参数_如_手感_511e13",
+    "display_name": "如何将隐性的手工艺过程参数（如‘手感’、‘火候’）映射为AGI系统中的高维‘真实节点’？这些节点必须",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将隐性的手工艺过程参数（如‘手感’、‘火候’）映射为AGI系统中的高维‘真实节点’？这些节点必须包含可执行的参数范围（如：压力=[5N, 8N]）和边界条件",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

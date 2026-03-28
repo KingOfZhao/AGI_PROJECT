@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立异构节点间的_跨域碰撞_索引机制_b31614",
+  "file": "skills/auto_如何建立异构节点间的_跨域碰撞_索引机制_b31614.py",
+  "description": "如何建立异构节点间的'跨域碰撞'索引机制？为了实现AGI的创新能力，系统需要发现看似无关节点间的深层联系（如'生物学'与'建筑设计'）。本问题要求构建一个多维索引，不依赖关键词匹配，而是基于结构同构性或功能相似性，使系统能在高维空间中快速检索到潜在的'碰撞对象'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "information_retrieval",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.742082",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_70_Q4_1_101",
+  "design_spec": {
+    "name": "auto_如何建立异构节点间的_跨域碰撞_索引机制_b31614",
+    "display_name": "如何建立异构节点间的'跨域碰撞'索引机制？为了实现AGI的创新能力，系统需要发现看似无关节点间的深层",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立异构节点间的'跨域碰撞'索引机制？为了实现AGI的创新能力，系统需要发现看似无关节点间的深层联系（如'生物学'与'建筑设计'）。本问题要求构建一个多维索",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 414
+  }
+}

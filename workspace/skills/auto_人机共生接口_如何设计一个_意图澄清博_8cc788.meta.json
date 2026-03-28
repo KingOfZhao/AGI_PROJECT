@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生接口_如何设计一个_意图澄清博_8cc788",
+  "file": "skills/auto_人机共生接口_如何设计一个_意图澄清博_8cc788.py",
+  "description": "【人机共生接口】如何设计一个'意图澄清博弈'协议，使得AI能够识别出意图中的'高熵'区域，并主动向人类提出'是/否'或选择题（如'这里的高性能是指延迟低还是吞吐量大？'），以最小化交互次数来最大化信息增益？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.812364",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q7_3_4004",
+  "design_spec": {
+    "name": "auto_人机共生接口_如何设计一个_意图澄清博_8cc788",
+    "display_name": "【人机共生接口】如何设计一个'意图澄清博弈'协议，使得AI能够识别出意图中的'高熵'区域，并主动向人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生接口】如何设计一个'意图澄清博弈'协议，使得AI能够识别出意图中的'高熵'区域，并主动向人类提出'是/否'或选择题（如'这里的高性能是指延迟低还是吞吐",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

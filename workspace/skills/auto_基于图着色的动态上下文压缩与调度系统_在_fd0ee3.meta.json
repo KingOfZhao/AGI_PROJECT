@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于图着色的动态上下文压缩与调度系统_在_fd0ee3",
+  "file": "skills/auto_基于图着色的动态上下文压缩与调度系统_在_fd0ee3.py",
+  "description": "基于图着色的动态上下文压缩与调度系统。在LLM处理超长文本时，不使用简单的滑动窗口，而是利用寄存器分配算法中的活跃性分析和图着色策略，决定哪些历史Token应该保留在‘显存’（高精度注意力）中，哪些应被‘溢出’（总结压缩存档），从而最大化有限窗口的信息密度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.414074",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_69_O4_1357",
+  "design_spec": {
+    "name": "auto_基于图着色的动态上下文压缩与调度系统_在_fd0ee3",
+    "display_name": "基于图着色的动态上下文压缩与调度系统。在LLM处理超长文本时，不使用简单的滑动窗口，而是利用寄存器分",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于图着色的动态上下文压缩与调度系统。在LLM处理超长文本时，不使用简单的滑动窗口，而是利用寄存器分配算法中的活跃性分析和图着色策略，决定哪些历史Token应该",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

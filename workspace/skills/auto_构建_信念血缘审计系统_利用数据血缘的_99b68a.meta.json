@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_信念血缘审计系统_利用数据血缘的_99b68a",
+  "file": "skills/auto_构建_信念血缘审计系统_利用数据血缘的_99b68a.py",
+  "description": "构建'信念血缘审计系统'。利用数据血缘的严格追踪技术，对人类看似灵光一现的'直觉'进行逆向工程。当人类产生一个新想法时，系统自动检索其'上游数据'（源自哪本书、哪次对话、哪种偏见），并标记可能的'数据污染'（逻辑谬误）。这能将模糊的内省转化为精确的调试过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.164310",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O2_9016",
+  "design_spec": {
+    "name": "auto_构建_信念血缘审计系统_利用数据血缘的_99b68a",
+    "display_name": "构建'信念血缘审计系统'。利用数据血缘的严格追踪技术，对人类看似灵光一现的'直觉'进行逆向工程。当人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'信念血缘审计系统'。利用数据血缘的严格追踪技术，对人类看似灵光一现的'直觉'进行逆向工程。当人类产生一个新想法时，系统自动检索其'上游数据'（源自哪本书、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

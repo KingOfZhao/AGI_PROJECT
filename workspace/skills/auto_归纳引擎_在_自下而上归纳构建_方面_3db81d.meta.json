@@ -1,0 +1,30 @@
+{
+  "name": "auto_归纳引擎_在_自下而上归纳构建_方面_3db81d",
+  "file": "skills/auto_归纳引擎_在_自下而上归纳构建_方面_3db81d.py",
+  "description": "【归纳引擎】在‘自下而上归纳构建’方面，如何让AI监控自身的操作日志，识别出重复出现的‘操作序列模式’（如：打开浏览器->搜索->复制->粘贴），并将其自动封装为一个新的宏技能节点？这是技能生成的核心机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_13",
+    "Process Mining/Automation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:51:57.936638",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_13_Q6_2_4585",
+  "design_spec": {
+    "name": "auto_归纳引擎_在_自下而上归纳构建_方面_3db81d",
+    "display_name": "【归纳引擎】在‘自下而上归纳构建’方面，如何让AI监控自身的操作日志，识别出重复出现的‘操作序列模式",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【归纳引擎】在‘自下而上归纳构建’方面，如何让AI监控自身的操作日志，识别出重复出现的‘操作序列模式’（如：打开浏览器->搜索->复制->粘贴），并将其自动封装",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 337
+  }
+}

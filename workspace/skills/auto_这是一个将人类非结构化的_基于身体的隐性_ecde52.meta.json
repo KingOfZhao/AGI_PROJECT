@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个将人类非结构化的_基于身体的隐性_ecde52",
+  "file": "skills/auto_这是一个将人类非结构化的_基于身体的隐性_ecde52.py",
+  "description": "这是一个将人类非结构化的、基于身体的隐性知识（如手工艺中的'手感'、'力度'）转化为结构化、可计算数据的系统。它不仅仅记录视频，而是通过融合计算机视觉（微动作分解）和触觉传感（力觉映射），构建一个包含时间序列、空间坐标和力学矢量的多维状态空间。该概念的核心在于解决人类主观感受与机器客观参数之间的量化鸿沟，实现'指尖经验'的数字化复刻。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.848354",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_103_P1_991",
+  "design_spec": {
+    "name": "auto_这是一个将人类非结构化的_基于身体的隐性_ecde52",
+    "display_name": "这是一个将人类非结构化的、基于身体的隐性知识（如手工艺中的'手感'、'力度'）转化为结构化、可计算数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个将人类非结构化的、基于身体的隐性知识（如手工艺中的'手感'、'力度'）转化为结构化、可计算数据的系统。它不仅仅记录视频，而是通过融合计算机视觉（微动作分",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 206
+  }
+}

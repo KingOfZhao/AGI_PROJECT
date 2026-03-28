@@ -1,0 +1,30 @@
+{
+  "name": "auto_介质敏感的节点动态降级机制_建立一套_2dbef3",
+  "file": "skills/auto_介质敏感的节点动态降级机制_建立一套_2dbef3.py",
+  "description": "【介质敏感的节点动态降级机制】建立一套‘上下文摩擦力’评估系统。当AI试图将一个领域的Skill（如Python算法）迁移到另一个领域（如Java或嵌入式）时，系统自动检测‘介质硬度’（运行环境限制、库依赖差异）。如果摩擦力过大，自动将‘高级真实节点’降级为‘基础原子节点’重新组合，就像不能整块移植浮雕，但可以分解为‘线条’和‘打孔’在软木上重构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_117",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:40:33.880110",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_117_O3_6125",
+  "design_spec": {
+    "name": "auto_介质敏感的节点动态降级机制_建立一套_2dbef3",
+    "display_name": "【介质敏感的节点动态降级机制】建立一套‘上下文摩擦力’评估系统。当AI试图将一个领域的Skill（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【介质敏感的节点动态降级机制】建立一套‘上下文摩擦力’评估系统。当AI试图将一个领域的Skill（如Python算法）迁移到另一个领域（如Java或嵌入式）时，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

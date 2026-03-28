@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_代码上下文感知_的意图补全机制_f55bb1",
+  "file": "skills/auto_如何实现_代码上下文感知_的意图补全机制_f55bb1.py",
+  "description": "如何实现'代码上下文感知'的意图补全机制？模糊意图往往省略了上下文（如'优化它'）。本问题要求验证：系统是否能利用现有的AST（抽象语法树）和项目依赖图，结合当前光标位置，推断出'它'指代的特定函数或变量，并将模糊意图锚定为具体的代码节点ID。这需要解决自然语言指代消解与代码符号空间的映射问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.252386",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_16_Q2_1_8514",
+  "design_spec": {
+    "name": "auto_如何实现_代码上下文感知_的意图补全机制_f55bb1",
+    "display_name": "如何实现'代码上下文感知'的意图补全机制？模糊意图往往省略了上下文（如'优化它'）。本问题要求验证：",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'代码上下文感知'的意图补全机制？模糊意图往往省略了上下文（如'优化它'）。本问题要求验证：系统是否能利用现有的AST（抽象语法树）和项目依赖图，结合当",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

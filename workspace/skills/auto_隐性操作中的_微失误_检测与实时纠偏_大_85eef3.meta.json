@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐性操作中的_微失误_检测与实时纠偏_大_85eef3",
+  "file": "skills/auto_隐性操作中的_微失误_检测与实时纠偏_大_85eef3.py",
+  "description": "隐性操作中的‘微失误’检测与实时纠偏：大师的隐性知识很大程度上体现在‘纠错’上（如切肉切歪了如何顺势力挽狂澜）。如何从连续数据流中识别出哪些是‘常规操作’，哪些是‘即时纠偏’，并将其转化为‘异常处理’类型的真实节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "anomaly_detection",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.574220",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_130_Q6_0_5352",
+  "design_spec": {
+    "name": "auto_隐性操作中的_微失误_检测与实时纠偏_大_85eef3",
+    "display_name": "隐性操作中的‘微失误’检测与实时纠偏：大师的隐性知识很大程度上体现在‘纠错’上（如切肉切歪了如何顺势",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "隐性操作中的‘微失误’检测与实时纠偏：大师的隐性知识很大程度上体现在‘纠错’上（如切肉切歪了如何顺势力挽狂澜）。如何从连续数据流中识别出哪些是‘常规操作’，哪些",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 319
+  }
+}

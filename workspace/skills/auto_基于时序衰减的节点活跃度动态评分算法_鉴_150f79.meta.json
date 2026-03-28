@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于时序衰减的节点活跃度动态评分算法_鉴_150f79",
+  "file": "skills/auto_基于时序衰减的节点活跃度动态评分算法_鉴_150f79.py",
+  "description": "基于时序衰减的节点活跃度动态评分算法：鉴于已有2467个节点，如何设计一个时间窗口函数，使得节点的'能量值'随时间推移自动衰减，仅在被人机交互（如调用、修正、证伪）命中时获得'能量注入'？目标是通过实验确定半衰期参数（T_half），使得系统自动识别出'僵尸节点'（长期未用且无修正），区分'沉淀资产'与'历史包袱'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "algorithm_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:15.998006",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_93_Q1_0_5450",
+  "design_spec": {
+    "name": "auto_基于时序衰减的节点活跃度动态评分算法_鉴_150f79",
+    "display_name": "基于时序衰减的节点活跃度动态评分算法：鉴于已有2467个节点，如何设计一个时间窗口函数，使得节点的'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于时序衰减的节点活跃度动态评分算法：鉴于已有2467个节点，如何设计一个时间窗口函数，使得节点的'能量值'随时间推移自动衰减，仅在被人机交互（如调用、修正、证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 248
+  }
+}

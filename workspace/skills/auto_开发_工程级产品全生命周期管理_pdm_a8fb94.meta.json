@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_工程级产品全生命周期管理_pdm_a8fb94",
+  "file": "skills/auto_开发_工程级产品全生命周期管理_pdm_a8fb94.py",
+  "description": "开发'工程级产品全生命周期管理(PDM)移动端看板'。利用Flutter的状态管理树来映射CAD的BOM装配树。不同于普通的列表展示，该能力使得移动端能实时模拟'工程变更指令(ECO)'的级联影响。当用户在App端修改某零件参数时，利用Flutter的Reactive机制，UI能即时高亮显示所有受影响的其他零件和装配关系，实现'所见即所得'的工程变更冲击分析。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_86",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:02:52.190289",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_86_O2_1496",
+  "design_spec": {
+    "name": "auto_开发_工程级产品全生命周期管理_pdm_a8fb94",
+    "display_name": "开发'工程级产品全生命周期管理(PDM)移动端看板'。利用Flutter的状态管理树来映射CAD的B",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'工程级产品全生命周期管理(PDM)移动端看板'。利用Flutter的状态管理树来映射CAD的BOM装配树。不同于普通的列表展示，该能力使得移动端能实时模拟",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

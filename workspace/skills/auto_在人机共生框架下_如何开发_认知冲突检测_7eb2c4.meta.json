@@ -1,0 +1,30 @@
+{
+  "name": "auto_在人机共生框架下_如何开发_认知冲突检测_7eb2c4",
+  "file": "skills/auto_在人机共生框架下_如何开发_认知冲突检测_7eb2c4.py",
+  "description": "在人机共生框架下，如何开发'认知冲突检测与融合机制'？当AI结构化网络预测的'最优路径'与人类直觉行为冲突时，系统不应仅服从，而应生成'询问节点'。实验需验证AI是否能识别出'人类违规操作'实际上是发现了AI模型盲区（Edge Case）的时刻。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_12",
+    "human_ai_symbiosis",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:33:04.197093",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_12_Q4_2_9260",
+  "design_spec": {
+    "name": "auto_在人机共生框架下_如何开发_认知冲突检测_7eb2c4",
+    "display_name": "在人机共生框架下，如何开发'认知冲突检测与融合机制'？当AI结构化网络预测的'最优路径'与人类直觉行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在人机共生框架下，如何开发'认知冲突检测与融合机制'？当AI结构化网络预测的'最优路径'与人类直觉行为冲突时，系统不应仅服从，而应生成'询问节点'。实验需验证A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 232
+  }
+}

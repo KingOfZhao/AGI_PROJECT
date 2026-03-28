@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态理论修正机制_建立一套双向校准系统_84d8f5",
+  "file": "skills/auto_动态理论修正机制_建立一套双向校准系统_84d8f5.py",
+  "description": "【动态理论修正机制】建立一套双向校准系统。当实测数据与顶层逻辑冲突时，不直接覆盖逻辑，而是生成一个‘特例补丁’挂载在逻辑节点下。随着特例数量增加，系统自动归纳新的‘中层理论’来解释这些偏差，从而实现理论的渐进式进化，模拟人类技能从‘循规蹈矩’到‘随心所欲’的升华过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.162257",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_66_O4_6917",
+  "design_spec": {
+    "name": "auto_动态理论修正机制_建立一套双向校准系统_84d8f5",
+    "display_name": "【动态理论修正机制】建立一套双向校准系统。当实测数据与顶层逻辑冲突时，不直接覆盖逻辑，而是生成一个‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态理论修正机制】建立一套双向校准系统。当实测数据与顶层逻辑冲突时，不直接覆盖逻辑，而是生成一个‘特例补丁’挂载在逻辑节点下。随着特例数量增加，系统自动归纳新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

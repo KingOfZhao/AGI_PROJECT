@@ -1,0 +1,35 @@
+{
+  "name": "gstack/retro",
+  "slug": "gstack_retro",
+  "description": "Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware: breaks down per-person contributions with praise and growth areas. Use when asked to \"weekly retro\", \"what did we ship\", or \"engineering retrospective\". Proactively suggest at the end of a work week or sprint.",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "retrospective",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/retro",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "2.0.0",
+  "category": "retrospective",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Glob",
+    "AskUserQuestion"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)"
+  ],
+  "created_at": "2026-03-25T15:32:03.541747",
+  "imported_by": "gstack_skill_importer"
+}

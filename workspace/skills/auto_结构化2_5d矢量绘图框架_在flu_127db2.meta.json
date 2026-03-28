@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构化2_5d矢量绘图框架_在flu_127db2",
+  "file": "skills/auto_结构化2_5d矢量绘图框架_在flu_127db2.py",
+  "description": "'结构化2.5D矢量绘图框架'。在Flutter中引入CAD级别的非破坏性布尔运算图层。用户绘制的矢量图不再是扁平的Path，而是保留了'圆角矩形'减去'圆柱孔'这种参数化特征的CSG树。这使得Flutter应用可以成为轻量级的CAD设计工具，且绘制的图形支持实时的参数修改（如修改孔的半径）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.777862",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_109_O3_5875",
+  "design_spec": {
+    "name": "auto_结构化2_5d矢量绘图框架_在flu_127db2",
+    "display_name": "'结构化2.5D矢量绘图框架'。在Flutter中引入CAD级别的非破坏性布尔运算图层。用户绘制的矢",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'结构化2.5D矢量绘图框架'。在Flutter中引入CAD级别的非破坏性布尔运算图层。用户绘制的矢量图不再是扁平的Path，而是保留了'圆角矩形'减去'圆柱孔",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 359
+  }
+}

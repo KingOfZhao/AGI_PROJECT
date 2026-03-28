@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知原子化_基于322个现有技能节点_01bc1f",
+  "file": "skills/auto_认知原子化_基于322个现有技能节点_01bc1f.py",
+  "description": "【认知原子化】基于322个现有技能节点，如何构建一套算法自动提取跨技能的‘最小可复用单元’（MRUs）？例如，‘代码重构’与‘文章改写’共享‘结构保留-内容变换’的原子逻辑。目标是通过图神经网络（GNN）分析技能节点的嵌入向量，识别高重叠度的潜在原子节点，将451个节点压缩至更底层的认知原语。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_13",
+    "Cognitive Science/Data Mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:51:57.932919",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_13_Q1_2_4585",
+  "design_spec": {
+    "name": "auto_认知原子化_基于322个现有技能节点_01bc1f",
+    "display_name": "【认知原子化】基于322个现有技能节点，如何构建一套算法自动提取跨技能的‘最小可复用单元’（MRUs",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知原子化】基于322个现有技能节点，如何构建一套算法自动提取跨技能的‘最小可复用单元’（MRUs）？例如，‘代码重构’与‘文章改写’共享‘结构保留-内容变换",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

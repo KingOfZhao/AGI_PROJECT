@@ -1,0 +1,30 @@
+{
+  "name": "auto_模块化认知隔离与热修复机制_该能力借_765f76",
+  "file": "skills/auto_模块化认知隔离与热修复机制_该能力借_765f76.py",
+  "description": "【模块化认知隔离与热修复机制】。该能力借鉴榫卯结构，将AI的认知链条设计为‘可拆卸’的模块化组装。当人类对某一中间结果证伪（如‘这个生成的UI风格不对’）时，系统不会崩溃或重新随机生成，而是能像修家具一样，精准定位到负责‘风格’的那个‘榫卯节点’，将其‘拆下’（隔离），仅对该节点进行重规划，再‘拼装’回去。这极大提升了人机共生的效率和系统的可解释性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.753553",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_74_O5_297",
+  "design_spec": {
+    "name": "auto_模块化认知隔离与热修复机制_该能力借_765f76",
+    "display_name": "【模块化认知隔离与热修复机制】。该能力借鉴榫卯结构，将AI的认知链条设计为‘可拆卸’的模块化组装。当",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【模块化认知隔离与热修复机制】。该能力借鉴榫卯结构，将AI的认知链条设计为‘可拆卸’的模块化组装。当人类对某一中间结果证伪（如‘这个生成的UI风格不对’）时，系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

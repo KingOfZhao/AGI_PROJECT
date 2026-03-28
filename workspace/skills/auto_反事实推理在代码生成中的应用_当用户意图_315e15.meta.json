@@ -1,0 +1,30 @@
+{
+  "name": "auto_反事实推理在代码生成中的应用_当用户意图_315e15",
+  "file": "skills/auto_反事实推理在代码生成中的应用_当用户意图_315e15.py",
+  "description": "反事实推理在代码生成中的应用。当用户意图与现有‘真实节点’发生冲突时（例如用户要求‘无阻塞的同步IO’），系统应如何通过‘自上而下’的拆解来识别逻辑悖论，并生成解释性提问引导用户修正意图？这要求系统具备检测自身知识库边界和逻辑矛盾的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cognitive_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.269056",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q7_3_4241",
+  "design_spec": {
+    "name": "auto_反事实推理在代码生成中的应用_当用户意图_315e15",
+    "display_name": "反事实推理在代码生成中的应用。当用户意图与现有‘真实节点’发生冲突时（例如用户要求‘无阻塞的同步IO",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "反事实推理在代码生成中的应用。当用户意图与现有‘真实节点’发生冲突时（例如用户要求‘无阻塞的同步IO’），系统应如何通过‘自上而下’的拆解来识别逻辑悖论，并生成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 245
+  }
+}

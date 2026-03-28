@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应认知压缩引擎_该能力能够根据数据的_95e0ad",
+  "file": "skills/auto_自适应认知压缩引擎_该能力能够根据数据的_95e0ad.py",
+  "description": "自适应认知压缩引擎。该能力能够根据数据的访问频率（类似记忆强度）和上下文相关性，自动在'高精度范式化存储'与'高可用反范式化组块'之间转换。对于高频访问的知识节点，自动进行冗余预计算（组块化）；对于低频噪声数据，自动进行衰减或归档（遗忘），从而构建一个既符合逻辑一致性又具备人类调用效率的动态知识库。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.774109",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_20_O1_1125",
+  "design_spec": {
+    "name": "auto_自适应认知压缩引擎_该能力能够根据数据的_95e0ad",
+    "display_name": "自适应认知压缩引擎。该能力能够根据数据的访问频率（类似记忆强度）和上下文相关性，自动在'高精度范式化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自适应认知压缩引擎。该能力能够根据数据的访问频率（类似记忆强度）和上下文相关性，自动在'高精度范式化存储'与'高可用反范式化组块'之间转换。对于高频访问的知识节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 339
+  }
+}

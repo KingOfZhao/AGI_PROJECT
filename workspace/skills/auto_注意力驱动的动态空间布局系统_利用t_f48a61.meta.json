@@ -1,0 +1,30 @@
+{
+  "name": "auto_注意力驱动的动态空间布局系统_利用t_f48a61",
+  "file": "skills/auto_注意力驱动的动态空间布局系统_利用t_f48a61.py",
+  "description": "‘注意力驱动的动态空间布局系统’。利用Transformer模型分析建筑物内人流的大数据轨迹，预测不同时段、不同事件下的‘注意力热点’。系统不仅仅是静态规划，而是生成动态的、可调节的空间隔断或导视系统。例如，在机场高峰期，模型自动调整数字路牌或物理闸机（机器人墙体），优化人流如同模型优化Token权重，实现物理空间的Self-Attention。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.450528",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O3_688",
+  "design_spec": {
+    "name": "auto_注意力驱动的动态空间布局系统_利用t_f48a61",
+    "display_name": "‘注意力驱动的动态空间布局系统’。利用Transformer模型分析建筑物内人流的大数据轨迹，预测不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘注意力驱动的动态空间布局系统’。利用Transformer模型分析建筑物内人流的大数据轨迹，预测不同时段、不同事件下的‘注意力热点’。系统不仅仅是静态规划，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

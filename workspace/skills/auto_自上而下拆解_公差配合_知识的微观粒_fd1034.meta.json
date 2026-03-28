@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解_公差配合_知识的微观粒_fd1034",
+  "file": "skills/auto_自上而下拆解_公差配合_知识的微观粒_fd1034.py",
+  "description": "【自上而下拆解】‘公差配合’知识的微观粒度拆解与成本函数映射。传统公差知识是静态的（如H7/g6），但在AGI语境下，公差是成本与良率的博弈。如何将‘公差标准’拆解为‘加工能力-测量误差-装配成功率’的可计算概率图模型，并使其能与供应链价格表联动，实现‘给定成本目标，自动生成最优公差方案’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "precision_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.698190",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_110_Q4_3_6085",
+  "design_spec": {
+    "name": "auto_自上而下拆解_公差配合_知识的微观粒_fd1034",
+    "display_name": "【自上而下拆解】‘公差配合’知识的微观粒度拆解与成本函数映射。传统公差知识是静态的（如H7/g6），",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下拆解】‘公差配合’知识的微观粒度拆解与成本函数映射。传统公差知识是静态的（如H7/g6），但在AGI语境下，公差是成本与良率的博弈。如何将‘公差标准’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

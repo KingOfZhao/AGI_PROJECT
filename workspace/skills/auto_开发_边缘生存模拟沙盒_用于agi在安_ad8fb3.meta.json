@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_边缘生存模拟沙盒_用于agi在安_ad8fb3",
+  "file": "skills/auto_开发_边缘生存模拟沙盒_用于agi在安_ad8fb3.py",
+  "description": "开发'边缘生存模拟沙盒'。用于AGI在安全环境下的'野外生存'训练。不仅模拟经济交易，还引入生态变量（如环境突变、资源枯竭模拟）。重点测试AI能否像边缘物种一样调整'生态位宽度'（Niche Breadth）——即在专业卖烤肠（窄生态位）和根据天气改卖雨伞（宽生态位）之间动态切换的能力。这能赋予AGI极强的反脆弱性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.785726",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_131_O2_9502",
+  "design_spec": {
+    "name": "auto_开发_边缘生存模拟沙盒_用于agi在安_ad8fb3",
+    "display_name": "开发'边缘生存模拟沙盒'。用于AGI在安全环境下的'野外生存'训练。不仅模拟经济交易，还引入生态变量",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'边缘生存模拟沙盒'。用于AGI在安全环境下的'野外生存'训练。不仅模拟经济交易，还引入生态变量（如环境突变、资源枯竭模拟）。重点测试AI能否像边缘物种一样",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

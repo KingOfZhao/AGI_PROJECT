@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机共生_理念_如何构建一个双向验_00251f",
+  "file": "skills/auto_基于_人机共生_理念_如何构建一个双向验_00251f.py",
+  "description": "基于‘人机共生’理念，如何构建一个双向验证接口：AI根据传感器数据生成‘实践清单’建议人类操作，人类通过语音或动作修正操作，AI实时将修正反哺给物理引擎？核心在于解决人类模糊指令（如‘稍微拧紧点’）到物理参数的实时映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "human_machine_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.101568",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q6_3_8567",
+  "design_spec": {
+    "name": "auto_基于_人机共生_理念_如何构建一个双向验_00251f",
+    "display_name": "基于‘人机共生’理念，如何构建一个双向验证接口：AI根据传感器数据生成‘实践清单’建议人类操作，人类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘人机共生’理念，如何构建一个双向验证接口：AI根据传感器数据生成‘实践清单’建议人类操作，人类通过语音或动作修正操作，AI实时将修正反哺给物理引擎？核心在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 312
+  }
+}

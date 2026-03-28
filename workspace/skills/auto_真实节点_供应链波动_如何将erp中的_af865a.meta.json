@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点_供应链波动_如何将erp中的_af865a",
+  "file": "skills/auto_真实节点_供应链波动_如何将erp中的_af865a.py",
+  "description": "【真实节点-供应链波动】如何将ERP中的‘物料齐套率’与‘急单插入’事件转化为生产线的‘动态节拍调整’节点？这涉及到将离散的供应链事件映射为连续的生产节拍变化，是AGI进行全局调度的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "supply_chain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.456373",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q10_1_9813",
+  "design_spec": {
+    "name": "auto_真实节点_供应链波动_如何将erp中的_af865a",
+    "display_name": "【真实节点-供应链波动】如何将ERP中的‘物料齐套率’与‘急单插入’事件转化为生产线的‘动态节拍调整",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点-供应链波动】如何将ERP中的‘物料齐套率’与‘急单插入’事件转化为生产线的‘动态节拍调整’节点？这涉及到将离散的供应链事件映射为连续的生产节拍变化，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

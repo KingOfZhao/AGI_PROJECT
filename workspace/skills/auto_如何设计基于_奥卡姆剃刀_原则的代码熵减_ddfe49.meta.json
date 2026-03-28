@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计基于_奥卡姆剃刀_原则的代码熵减_ddfe49",
+  "file": "skills/auto_如何设计基于_奥卡姆剃刀_原则的代码熵减_ddfe49.py",
+  "description": "如何设计基于'奥卡姆剃刀'原则的代码熵减验证机制？当AI通过归纳构建新节点时，如果存在多个解释相同现象的候选节点，系统应自动计算各节点的'结构复杂度'（代码行数、依赖深度）。优先选择复杂度最低且拟合度损失在可接受范围内的节点。若新节点比旧节点复杂但精度提升微乎其微（<1%），则拒绝更新，防止模型过度膨胀。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "model_optimization",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.780226",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q5_3_4211",
+  "design_spec": {
+    "name": "auto_如何设计基于_奥卡姆剃刀_原则的代码熵减_ddfe49",
+    "display_name": "如何设计基于'奥卡姆剃刀'原则的代码熵减验证机制？当AI通过归纳构建新节点时，如果存在多个解释相同现",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计基于'奥卡姆剃刀'原则的代码熵减验证机制？当AI通过归纳构建新节点时，如果存在多个解释相同现象的候选节点，系统应自动计算各节点的'结构复杂度'（代码行数",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

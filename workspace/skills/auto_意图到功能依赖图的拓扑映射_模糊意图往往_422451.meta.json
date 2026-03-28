@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图到功能依赖图的拓扑映射_模糊意图往往_422451",
+  "file": "skills/auto_意图到功能依赖图的拓扑映射_模糊意图往往_422451.py",
+  "description": "意图到功能依赖图的拓扑映射：模糊意图往往缺乏对系统依赖的考量。本子问题要求将意图转化为‘功能依赖图’而非直接转化为代码行。验证AI能否识别意图背后的拓扑结构，识别节点间的依赖关系（如模块A必须在模块B之前初始化），这是‘结构化认知网络’在代码域的具体体现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.058297",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_93_Q3_3_2789",
+  "design_spec": {
+    "name": "auto_意图到功能依赖图的拓扑映射_模糊意图往往_422451",
+    "display_name": "意图到功能依赖图的拓扑映射：模糊意图往往缺乏对系统依赖的考量。本子问题要求将意图转化为‘功能依赖图’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "意图到功能依赖图的拓扑映射：模糊意图往往缺乏对系统依赖的考量。本子问题要求将意图转化为‘功能依赖图’而非直接转化为代码行。验证AI能否识别意图背后的拓扑结构，识",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

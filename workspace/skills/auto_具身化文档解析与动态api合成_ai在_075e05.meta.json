@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身化文档解析与动态api合成_ai在_075e05",
+  "file": "skills/auto_具身化文档解析与动态api合成_ai在_075e05.py",
+  "description": "【具身化文档解析与动态API合成】AI在阅读从未见过的API文档时，不仅仅是理解字面意思，而是将其视为一个‘动态语境锚定’任务。系统模拟一个虚拟的运行环境，将API参数视为‘待锚定的代词’，通过模拟调用（思维链）来验证参数与功能的对应关系。这能实现从文档直接到可执行代码的‘零样本’工具生成，且能自动处理文档中的歧义。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.063185",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_59_O3_9658",
+  "design_spec": {
+    "name": "auto_具身化文档解析与动态api合成_ai在_075e05",
+    "display_name": "【具身化文档解析与动态API合成】AI在阅读从未见过的API文档时，不仅仅是理解字面意思，而是将其视",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身化文档解析与动态API合成】AI在阅读从未见过的API文档时，不仅仅是理解字面意思，而是将其视为一个‘动态语境锚定’任务。系统模拟一个虚拟的运行环境，将A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能节点的可执行代码覆盖率与运行时异常监_11bd72",
+  "file": "skills/auto_技能节点的可执行代码覆盖率与运行时异常监_11bd72.py",
+  "description": "技能节点的可执行代码覆盖率与运行时异常监控：针对1504个SKILL节点，如何自动化检测其底层代码/提示词在当前环境下的有效性？这包括单元测试生成与静态代码分析。如果某个SKILL依赖的API已失效或环境变量已更改，该节点应立即被标记为'损坏'。这是保证'真实节点'可实践性的底线。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.234936",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_85_Q4_2_8549",
+  "design_spec": {
+    "name": "auto_技能节点的可执行代码覆盖率与运行时异常监_11bd72",
+    "display_name": "技能节点的可执行代码覆盖率与运行时异常监控：针对1504个SKILL节点，如何自动化检测其底层代码/",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "技能节点的可执行代码覆盖率与运行时异常监控：针对1504个SKILL节点，如何自动化检测其底层代码/提示词在当前环境下的有效性？这包括单元测试生成与静态代码分析",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

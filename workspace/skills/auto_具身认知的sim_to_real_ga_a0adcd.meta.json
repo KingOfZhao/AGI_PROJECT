@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身认知的sim_to_real_ga_a0adcd",
+  "file": "skills/auto_具身认知的sim_to_real_ga_a0adcd.py",
+  "description": "【具身认知的Sim-to-Real Gap】在虚拟环境中训练的‘完美技能节点’，在现实机器人上执行时，如何处理‘微小的物理偏差’？例如，虚拟练字完美，但现实中纸张吸墨率不同。探究是否可以通过‘最后一步的人类微调’来固化这个节点，实现真正的共生。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_117",
+    "robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:40:33.879068",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_117_Q7_2_2036",
+  "design_spec": {
+    "name": "auto_具身认知的sim_to_real_ga_a0adcd",
+    "display_name": "【具身认知的Sim-to-Real Gap】在虚拟环境中训练的‘完美技能节点’，在现实机器人上执行时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身认知的Sim-to-Real Gap】在虚拟环境中训练的‘完美技能节点’，在现实机器人上执行时，如何处理‘微小的物理偏差’？例如，虚拟练字完美，但现实中纸",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 229
+  }
+}

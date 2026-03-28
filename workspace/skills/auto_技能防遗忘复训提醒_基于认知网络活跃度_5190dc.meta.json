@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能防遗忘复训提醒_基于认知网络活跃度_5190dc",
+  "file": "skills/auto_技能防遗忘复训提醒_基于认知网络活跃度_5190dc.py",
+  "description": "【技能防遗忘复训提醒】基于认知网络活跃度的智能复训系统。系统监测特定技能节点的‘时间戳’和‘调用频率’，当计算出的‘活跃度熵’低于临界值时（即即将遗忘），自动生成针对性的‘微训练’任务，用最小的成本激活该神经通路，防止技能退化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.744951",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_61_O6_69",
+  "design_spec": {
+    "name": "auto_技能防遗忘复训提醒_基于认知网络活跃度_5190dc",
+    "display_name": "【技能防遗忘复训提醒】基于认知网络活跃度的智能复训系统。系统监测特定技能节点的‘时间戳’和‘调用频率",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【技能防遗忘复训提醒】基于认知网络活跃度的智能复训系统。系统监测特定技能节点的‘时间戳’和‘调用频率’，当计算出的‘活跃度熵’低于临界值时（即即将遗忘），自动生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

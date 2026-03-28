@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_自适应物理环境生成器_传统的建筑_815c26",
+  "file": "skills/auto_开发_自适应物理环境生成器_传统的建筑_815c26.py",
+  "description": "开发'自适应物理环境生成器'。传统的建筑设计是静态的，而这个系统根据环境数据（风、光、热）动态生成建筑外壳。类似于NAS寻找最优网络结构，该系统使用强化学习寻找最优的建筑多孔结构，以最大化自然通风（功能）同时最小化材料使用（约束）。生成的建筑形式可能前所未见，但完全符合物理功能逻辑，实现真正的'性能驱动设计'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.975594",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O3_6848",
+  "design_spec": {
+    "name": "auto_开发_自适应物理环境生成器_传统的建筑_815c26",
+    "display_name": "开发'自适应物理环境生成器'。传统的建筑设计是静态的，而这个系统根据环境数据（风、光、热）动态生成建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'自适应物理环境生成器'。传统的建筑设计是静态的，而这个系统根据环境数据（风、光、热）动态生成建筑外壳。类似于NAS寻找最优网络结构，该系统使用强化学习寻找",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -5,6 +5,15 @@ Round 2: 多语言代码能力验证
 Round 3: 安全/性能/边界测试
 Round 4: 最终评分
 """
+
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 

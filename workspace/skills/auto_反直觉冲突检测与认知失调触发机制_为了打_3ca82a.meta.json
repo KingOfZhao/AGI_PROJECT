@@ -1,0 +1,30 @@
+{
+  "name": "auto_反直觉冲突检测与认知失调触发机制_为了打_3ca82a",
+  "file": "skills/auto_反直觉冲突检测与认知失调触发机制_为了打_3ca82a.py",
+  "description": "反直觉冲突检测与认知失调触发机制：为了打破人类寿命限制导致的狭隘性，系统需主动寻找与用户现有认知网络（基于3943节点构建的用户画像）相矛盾的信息。如何设计一个'冲突检索器'，使其推荐的'证伪材料'能引发用户认知重构而非单纯排斥？目标是提高用户的认知弹性得分。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "psychology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.537313",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_149_Q4_2_2045",
+  "design_spec": {
+    "name": "auto_反直觉冲突检测与认知失调触发机制_为了打_3ca82a",
+    "display_name": "反直觉冲突检测与认知失调触发机制：为了打破人类寿命限制导致的狭隘性，系统需主动寻找与用户现有认知网络",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "反直觉冲突检测与认知失调触发机制：为了打破人类寿命限制导致的狭隘性，系统需主动寻找与用户现有认知网络（基于3943节点构建的用户画像）相矛盾的信息。如何设计一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

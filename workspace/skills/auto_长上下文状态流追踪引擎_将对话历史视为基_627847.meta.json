@@ -1,0 +1,30 @@
+{
+  "name": "auto_长上下文状态流追踪引擎_将对话历史视为基_627847",
+  "file": "skills/auto_长上下文状态流追踪引擎_将对话历史视为基_627847.py",
+  "description": "长上下文状态流追踪引擎。将对话历史视为基本块，将实体视为变量。利用编译器的数据流分析（如活跃变量分析）来优化LLM的KV Cache管理，精准判断哪些历史实体在当前上下文中是‘活跃’的，哪些可以‘死代码消除’，从而在有限窗口中维持超长对话的逻辑自洽性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.780404",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_109_O2_447",
+  "design_spec": {
+    "name": "auto_长上下文状态流追踪引擎_将对话历史视为基_627847",
+    "display_name": "长上下文状态流追踪引擎。将对话历史视为基本块，将实体视为变量。利用编译器的数据流分析（如活跃变量分析",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "长上下文状态流追踪引擎。将对话历史视为基本块，将实体视为变量。利用编译器的数据流分析（如活跃变量分析）来优化LLM的KV Cache管理，精准判断哪些历史实体在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 332
+  }
+}

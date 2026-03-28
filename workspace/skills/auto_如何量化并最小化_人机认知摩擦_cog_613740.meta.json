@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何量化并最小化_人机认知摩擦_cog_613740",
+  "file": "skills/auto_如何量化并最小化_人机认知摩擦_cog_613740.py",
+  "description": "如何量化并最小化'人机认知摩擦'（Cognitive Friction）？在人机共生环节，AI生成的'实践清单'往往过于抽象或过于冗长。需建立模型预测人类用户执行某项清单的'认知负荷'（基于节点复杂度与指令长度），并自动进行降维处理，确保人类能在一个注意力单元内完成证伪动作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.513603",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q3_0_6230",
+  "design_spec": {
+    "name": "auto_如何量化并最小化_人机认知摩擦_cog_613740",
+    "display_name": "如何量化并最小化'人机认知摩擦'（Cognitive Friction）？在人机共生环节，AI生成的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何量化并最小化'人机认知摩擦'（Cognitive Friction）？在人机共生环节，AI生成的'实践清单'往往过于抽象或过于冗长。需建立模型预测人类用户执",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 257
+  }
+}

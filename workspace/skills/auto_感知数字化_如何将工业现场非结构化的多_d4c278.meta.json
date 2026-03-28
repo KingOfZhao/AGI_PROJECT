@@ -1,0 +1,30 @@
+{
+  "name": "auto_感知数字化_如何将工业现场非结构化的多_d4c278",
+  "file": "skills/auto_感知数字化_如何将工业现场非结构化的多_d4c278.py",
+  "description": "【感知数字化】如何将工业现场非结构化的多模态数据（如工人操作的震动声音、焊枪火花视觉、电流电压时序）融合，构建一个能够映射到已有671个技能节点的高维向量空间？这不仅仅是特征提取，而是要解决异构数据在‘认知网络’中的统一表达问题，确保物理世界的微小变化能映射为向量空间的距离变化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "multimodal_fusion",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.264413",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q1_1_9997",
+  "design_spec": {
+    "name": "auto_感知数字化_如何将工业现场非结构化的多_d4c278",
+    "display_name": "【感知数字化】如何将工业现场非结构化的多模态数据（如工人操作的震动声音、焊枪火花视觉、电流电压时序）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【感知数字化】如何将工业现场非结构化的多模态数据（如工人操作的震动声音、焊枪火花视觉、电流电压时序）融合，构建一个能够映射到已有671个技能节点的高维向量空间？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 321
+  }
+}

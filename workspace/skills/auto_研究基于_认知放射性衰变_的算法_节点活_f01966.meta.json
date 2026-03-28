@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究基于_认知放射性衰变_的算法_节点活_f01966",
+  "file": "skills/auto_研究基于_认知放射性衰变_的算法_节点活_f01966.py",
+  "description": "研究基于‘认知放射性衰变’的算法，节点活跃度随时间指数衰减，必须通过‘再验证’（重新调用并证伪）来重置其半衰期。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.042452",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_132_G1_9403",
+  "design_spec": {
+    "name": "auto_研究基于_认知放射性衰变_的算法_节点活_f01966",
+    "display_name": "研究基于‘认知放射性衰变’的算法，节点活跃度随时间指数衰减，必须通过‘再验证’（重新调用并证伪）来重",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究基于‘认知放射性衰变’的算法，节点活跃度随时间指数衰减，必须通过‘再验证’（重新调用并证伪）来重置其半衰期。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态生态系统均衡模型_该能力不再_3fe520",
+  "file": "skills/auto_构建_动态生态系统均衡模型_该能力不再_3fe520.py",
+  "description": "构建‘动态生态系统均衡模型’。该能力不再将经济均衡视为静态点，而是视为类似生态演替的动态波动区间。融合能力能实时监测市场‘拥挤效应’（竞争加剧）和‘资源枯竭’（流量见顶），像预测生态系统崩溃点一样预测市场红海的到来。它能为企业在市场饱和前提供基于生态位分化的转型路径，避免在单一维度上死磕边际收益递减。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.115901",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_36_O1_9806",
+  "design_spec": {
+    "name": "auto_构建_动态生态系统均衡模型_该能力不再_3fe520",
+    "display_name": "构建‘动态生态系统均衡模型’。该能力不再将经济均衡视为静态点，而是视为类似生态演替的动态波动区间。融",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘动态生态系统均衡模型’。该能力不再将经济均衡视为静态点，而是视为类似生态演替的动态波动区间。融合能力能实时监测市场‘拥挤效应’（竞争加剧）和‘资源枯竭’（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 229
+  }
+}

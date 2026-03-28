@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_神经符号防御网_ho_50_o2_90b675",
+  "file": "skills/auto_融合_神经符号防御网_ho_50_o2_90b675.py",
+  "description": "融合'神经符号防御网'（ho_50_O2_9610）与'红队攻击生成器'（td_49_Q5_2_1985），系统可构建一套内生的免疫系统。强类型系统作为'白细胞'定义自我边界，红队生成器作为'病原体'模拟攻击。当生成的内容违背类型约束（逻辑自洽性）或被红队攻破（物理真实性）时，自动触发阻断或修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_51",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:49:54.193768",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_51_E2_2266",
+  "design_spec": {
+    "name": "auto_融合_神经符号防御网_ho_50_o2_90b675",
+    "display_name": "融合'神经符号防御网'（ho_50_O2_9610）与'红队攻击生成器'（td_49_Q5_2_19",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'神经符号防御网'（ho_50_O2_9610）与'红队攻击生成器'（td_49_Q5_2_1985），系统可构建一套内生的免疫系统。强类型系统作为'白细胞",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

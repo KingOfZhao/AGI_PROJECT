@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于向量拓扑学的_概念碰撞_检测算法实现_a0e4a6",
+  "file": "skills/auto_基于向量拓扑学的_概念碰撞_检测算法实现_a0e4a6.py",
+  "description": "基于向量拓扑学的'概念碰撞'检测算法实现：现有3791个节点在向量空间中多呈孤立或随机分布。如何设计一种基于流形学习或密度峰值聚类的算法，自动识别两个在语义上看似无关（距离远）但在结构逻辑上相似（拓扑同构）的节点簇，并主动生成'跨域重叠'的连接边？此算法需能量化碰撞的'潜在能量'，优先推荐高价值碰撞对。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.352321",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q1_1_1710",
+  "design_spec": {
+    "name": "auto_基于向量拓扑学的_概念碰撞_检测算法实现_a0e4a6",
+    "display_name": "基于向量拓扑学的'概念碰撞'检测算法实现：现有3791个节点在向量空间中多呈孤立或随机分布。如何设计",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于向量拓扑学的'概念碰撞'检测算法实现：现有3791个节点在向量空间中多呈孤立或随机分布。如何设计一种基于流形学习或密度峰值聚类的算法，自动识别两个在语义上看",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

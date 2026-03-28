@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_元技能_meta_skill_c5a552",
+  "file": "skills/auto_如何实现_元技能_meta_skill_c5a552.py",
+  "description": "如何实现'元技能'（Meta-Skill）的自动提取？即从794个具体SKILL中，通过观察它们的执行日志，归纳出通用的'思维模型'（如'第一性原理'、'二分法'）。这需要系统具备从具体操作中抽象出高阶策略的能力，是自下而上构建的核心。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "元学习/归纳逻辑",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:28.990084",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q8_2_9566",
+  "design_spec": {
+    "name": "auto_如何实现_元技能_meta_skill_c5a552",
+    "display_name": "如何实现'元技能'（Meta-Skill）的自动提取？即从794个具体SKILL中，通过观察它们的执",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'元技能'（Meta-Skill）的自动提取？即从794个具体SKILL中，通过观察它们的执行日志，归纳出通用的'思维模型'（如'第一性原理'、'二分法",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

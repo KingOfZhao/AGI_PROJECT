@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_个人经验向量化_ho_37_o3_eb4963",
+  "file": "skills/auto_结合_个人经验向量化_ho_37_o3_eb4963.py",
+  "description": "结合【个人经验向量化】(ho_37_O3_328)与【思维正则化伴侣】(ho_37_O3_328)、【逻辑切片溯源】(ho_38_O5_8031)。模拟人类大脑的快慢双系统（System 1/2）。向量检索提供基于直觉的快速“最近邻”响应，而逻辑切片与正则化伴侣作为“监管者”，强制系统在关键决策点出示证据链并接受反事实检验，实现直觉发散与逻辑收敛的完美平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_39",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T06:51:21.218149",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_39_E4_9385",
+  "design_spec": {
+    "name": "auto_结合_个人经验向量化_ho_37_o3_eb4963",
+    "display_name": "结合【个人经验向量化】(ho_37_O3_328)与【思维正则化伴侣】(ho_37_O3_328)、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合【个人经验向量化】(ho_37_O3_328)与【思维正则化伴侣】(ho_37_O3_328)、【逻辑切片溯源】(ho_38_O5_8031)。模拟人类大脑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 493
+  }
+}

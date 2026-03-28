@@ -1,0 +1,30 @@
+{
+  "name": "auto_自然语言结构化映射_如何构建一个高鲁棒_be7c57",
+  "file": "skills/auto_自然语言结构化映射_如何构建一个高鲁棒_be7c57.py",
+  "description": "【自然语言结构化映射】如何构建一个高鲁棒性的语义解析器，将非结构化、充满歧义的NL（自然语言）指令转化为抽象语法树（AST）或中间表示（IR），同时保留原始意图的上下文依赖？这涉及从'模糊意图'到'严格逻辑'的首次跨越，是代码生成的入口。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "nlp_compiler",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.102275",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q1_1_8386",
+  "design_spec": {
+    "name": "auto_自然语言结构化映射_如何构建一个高鲁棒_be7c57",
+    "display_name": "【自然语言结构化映射】如何构建一个高鲁棒性的语义解析器，将非结构化、充满歧义的NL（自然语言）指令转",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自然语言结构化映射】如何构建一个高鲁棒性的语义解析器，将非结构化、充满歧义的NL（自然语言）指令转化为抽象语法树（AST）或中间表示（IR），同时保留原始意图",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

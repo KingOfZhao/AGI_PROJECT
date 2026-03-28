@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实践清单的粒度自适应_算法_ai在_6e3276",
+  "file": "skills/auto_构建_实践清单的粒度自适应_算法_ai在_6e3276.py",
+  "description": "构建'实践清单的粒度自适应'算法。AI在拆解任务时，如何根据执行者（人类）的实时反馈动态调整指令粒度？如果人类执行顺畅，指令应抽象化（'做完这道菜'）；如果人类卡顿，指令应瞬间原子化（'拿起盐罐，倾斜30度'）。这需要实时监测人类状态的接口。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "adaptive_ui",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.150100",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_7_Q9_3_6484",
+  "design_spec": {
+    "name": "auto_构建_实践清单的粒度自适应_算法_ai在_6e3276",
+    "display_name": "构建'实践清单的粒度自适应'算法。AI在拆解任务时，如何根据执行者（人类）的实时反馈动态调整指令粒度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'实践清单的粒度自适应'算法。AI在拆解任务时，如何根据执行者（人类）的实时反馈动态调整指令粒度？如果人类执行顺畅，指令应抽象化（'做完这道菜'）；如果人类",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

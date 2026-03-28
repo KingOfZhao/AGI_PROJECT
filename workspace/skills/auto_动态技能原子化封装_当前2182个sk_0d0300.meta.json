@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态技能原子化封装_当前2182个sk_0d0300",
+  "file": "skills/auto_动态技能原子化封装_当前2182个sk_0d0300.py",
+  "description": "【动态技能原子化封装】当前2182个SKILL如何与3372个知识节点动态绑定以形成“迁移胶囊”？问题在于静态技能标签无法适应新领域。需要开发一种机制，根据目标领域的上下文，自动剥离源技能的“环境依赖项”（如摆摊时的“叫卖”剥离为“高频次低延迟的广播协议”），生成可迁移的最小执行单元。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.779798",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q2_3_5248",
+  "design_spec": {
+    "name": "auto_动态技能原子化封装_当前2182个sk_0d0300",
+    "display_name": "【动态技能原子化封装】当前2182个SKILL如何与3372个知识节点动态绑定以形成“迁移胶囊”？问",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态技能原子化封装】当前2182个SKILL如何与3372个知识节点动态绑定以形成“迁移胶囊”？问题在于静态技能标签无法适应新领域。需要开发一种机制，根据目标",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

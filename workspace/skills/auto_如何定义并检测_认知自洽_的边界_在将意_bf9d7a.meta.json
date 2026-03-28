@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何定义并检测_认知自洽_的边界_在将意_bf9d7a",
+  "file": "skills/auto_如何定义并检测_认知自洽_的边界_在将意_bf9d7a.py",
+  "description": "如何定义并检测'认知自洽'的边界？在将意图转化为代码时，系统需判断当前需求是否超出了AI的'真实节点'覆盖范围。需要开发一个'不确定性估算器'，当用户意图与现有节点网络的语义距离过远，或逻辑存在内部矛盾时，系统应主动触发'人类干预请求'（Human-in-the-loop），而非强行生成幻觉代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.646161",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_111_Q4_1_2949",
+  "design_spec": {
+    "name": "auto_如何定义并检测_认知自洽_的边界_在将意_bf9d7a",
+    "display_name": "如何定义并检测'认知自洽'的边界？在将意图转化为代码时，系统需判断当前需求是否超出了AI的'真实节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何定义并检测'认知自洽'的边界？在将意图转化为代码时，系统需判断当前需求是否超出了AI的'真实节点'覆盖范围。需要开发一个'不确定性估算器'，当用户意图与现有",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 326
+  }
+}

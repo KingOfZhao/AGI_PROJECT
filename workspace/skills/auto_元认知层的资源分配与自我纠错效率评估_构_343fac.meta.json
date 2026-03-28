@@ -1,0 +1,30 @@
+{
+  "name": "auto_元认知层的资源分配与自我纠错效率评估_构_343fac",
+  "file": "skills/auto_元认知层的资源分配与自我纠错效率评估_构_343fac.py",
+  "description": "元认知层的资源分配与自我纠错效率评估。构建一个‘元认知’监控节点，评估其他子系统的证伪效率。如果某个认知分支（如某种特定类型的技能学习）长期产出低质量节点，元认知层应切断对该分支的算力分配，实现‘自我手术’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "系统架构与资源管理",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.068122",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_67_Q9_1_6033",
+  "design_spec": {
+    "name": "auto_元认知层的资源分配与自我纠错效率评估_构_343fac",
+    "display_name": "元认知层的资源分配与自我纠错效率评估。构建一个‘元认知’监控节点，评估其他子系统的证伪效率。如果某个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "元认知层的资源分配与自我纠错效率评估。构建一个‘元认知’监控节点，评估其他子系统的证伪效率。如果某个认知分支（如某种特定类型的技能学习）长期产出低质量节点，元认",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

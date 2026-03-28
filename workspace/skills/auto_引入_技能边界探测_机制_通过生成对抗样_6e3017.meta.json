@@ -1,0 +1,30 @@
+{
+  "name": "auto_引入_技能边界探测_机制_通过生成对抗样_6e3017",
+  "file": "skills/auto_引入_技能边界探测_机制_通过生成对抗样_6e3017.py",
+  "description": "引入'技能边界探测'机制，通过生成对抗样本自动测试新固化Skill的鲁棒性，作为存入节点库的准入标准。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.254649",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_102_G2_5845",
+  "design_spec": {
+    "name": "auto_引入_技能边界探测_机制_通过生成对抗样_6e3017",
+    "display_name": "引入'技能边界探测'机制，通过生成对抗样本自动测试新固化Skill的鲁棒性，作为存入节点库的准入标准",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "引入'技能边界探测'机制，通过生成对抗样本自动测试新固化Skill的鲁棒性，作为存入节点库的准入标准。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 197
+  }
+}

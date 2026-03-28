@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态上下文窗口的拓扑结构_意图往往依赖长_e3cea4",
+  "file": "skills/auto_动态上下文窗口的拓扑结构_意图往往依赖长_e3cea4.py",
+  "description": "动态上下文窗口的拓扑结构。意图往往依赖长尾记忆和非结构化环境信息。如何从现有2852个节点中动态检索并构建一个‘最小充分上下文图’，使得LLM能基于此图生成代码，同时忽略无关的数千个节点噪点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.842532",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_113_Q2_3_4935",
+  "design_spec": {
+    "name": "auto_动态上下文窗口的拓扑结构_意图往往依赖长_e3cea4",
+    "display_name": "动态上下文窗口的拓扑结构。意图往往依赖长尾记忆和非结构化环境信息。如何从现有2852个节点中动态检索",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态上下文窗口的拓扑结构。意图往往依赖长尾记忆和非结构化环境信息。如何从现有2852个节点中动态检索并构建一个‘最小充分上下文图’，使得LLM能基于此图生成代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 248
+  }
+}

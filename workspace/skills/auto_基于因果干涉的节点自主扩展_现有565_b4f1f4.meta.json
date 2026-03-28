@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于因果干涉的节点自主扩展_现有565_b4f1f4",
+  "file": "skills/auto_基于因果干涉的节点自主扩展_现有565_b4f1f4.py",
+  "description": "基于因果干涉的节点自主扩展: 现有565个节点构成了静态知识图谱，AI如何在没有外部输入的情况下，通过图拓扑结构发现'结构洞'（Structural Holes）并自动生成假设性新节点？例如，节点A（烤肉技巧）和节点B（客户排队心理）之间缺乏直接联系，AI应能生成假设节点C（香气营销学）并提出验证路径。本问题旨在解决知识网络的结构性盲区自动发现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_18",
+    "cognitive_graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:37:35.679382",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_18_Q1_2_2888",
+  "design_spec": {
+    "name": "auto_基于因果干涉的节点自主扩展_现有565_b4f1f4",
+    "display_name": "基于因果干涉的节点自主扩展: 现有565个节点构成了静态知识图谱，AI如何在没有外部输入的情况下，通",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于因果干涉的节点自主扩展: 现有565个节点构成了静态知识图谱，AI如何在没有外部输入的情况下，通过图拓扑结构发现'结构洞'（Structural Holes",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

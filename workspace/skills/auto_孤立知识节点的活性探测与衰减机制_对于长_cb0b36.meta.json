@@ -1,0 +1,30 @@
+{
+  "name": "auto_孤立知识节点的活性探测与衰减机制_对于长_cb0b36",
+  "file": "skills/auto_孤立知识节点的活性探测与衰减机制_对于长_cb0b36.py",
+  "description": "孤立知识节点的活性探测与衰减机制：对于长时间未被任何实践（人机交互）调用或未被推理链引用的‘休眠节点’，如何设计算法自动生成探测性问题（Probing Questions）向人类用户发起询问？如果用户反馈该知识已过时或错误，则触发证伪。此机制旨在解决知识随时间腐化的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "knowledge_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.817341",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q2_3_4569",
+  "design_spec": {
+    "name": "auto_孤立知识节点的活性探测与衰减机制_对于长_cb0b36",
+    "display_name": "孤立知识节点的活性探测与衰减机制：对于长时间未被任何实践（人机交互）调用或未被推理链引用的‘休眠节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "孤立知识节点的活性探测与衰减机制：对于长时间未被任何实践（人机交互）调用或未被推理链引用的‘休眠节点’，如何设计算法自动生成探测性问题（Probing Ques",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

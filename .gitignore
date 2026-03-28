@@ -54,3 +54,11 @@ workspace/__pycache__/
 
 # Verification results
 verification_results/
+
+# Cloned external repos (not part of this project)
+awesome-openclaw-skills/
+pcm/
+gstack/
+
+# OpenClaw imported skills (large, auto-generated)
+workspace/skills/openclaw/

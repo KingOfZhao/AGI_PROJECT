@@ -1,0 +1,30 @@
+{
+  "name": "auto_1359个skill节点的_执行能耗_与_834e56",
+  "file": "skills/auto_1359个skill节点的_执行能耗_与_834e56.py",
+  "description": "1359个SKILL节点的'执行能耗'与'成功率'的动态ROI（投资回报率）监控。针对可执行技能节点，淘汰机制不应仅看成功率，还需看'计算成本'。一个成功率为99%但消耗90%算力的SKILL，与一个成功率为80%但消耗1%算力的SKILL相比，后者可能更具进化优势。需要建立多维度的ROI评估模型，作为淘汰低效技能的依据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "resource_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.798846",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q7_2_645",
+  "design_spec": {
+    "name": "auto_1359个skill节点的_执行能耗_与_834e56",
+    "display_name": "1359个SKILL节点的'执行能耗'与'成功率'的动态ROI（投资回报率）监控。针对可执行技能节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "1359个SKILL节点的'执行能耗'与'成功率'的动态ROI（投资回报率）监控。针对可执行技能节点，淘汰机制不应仅看成功率，还需看'计算成本'。一个成功率为9",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

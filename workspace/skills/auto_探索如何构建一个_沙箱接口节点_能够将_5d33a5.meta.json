@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索如何构建一个_沙箱接口节点_能够将_5d33a5",
+  "file": "skills/auto_探索如何构建一个_沙箱接口节点_能够将_5d33a5.py",
+  "description": "探索如何构建一个'沙箱接口节点'，能够将形式化逻辑自动转化为Gazebo或Docker内的仿真状态变更，实现真正的'具身证伪'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.286747",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_62_G1_81",
+  "design_spec": {
+    "name": "auto_探索如何构建一个_沙箱接口节点_能够将_5d33a5",
+    "display_name": "探索如何构建一个'沙箱接口节点'，能够将形式化逻辑自动转化为Gazebo或Docker内的仿真状态变",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索如何构建一个'沙箱接口节点'，能够将形式化逻辑自动转化为Gazebo或Docker内的仿真状态变更，实现真正的'具身证伪'。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

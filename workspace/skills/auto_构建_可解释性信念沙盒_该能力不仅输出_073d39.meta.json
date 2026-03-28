@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_可解释性信念沙盒_该能力不仅输出_073d39",
+  "file": "skills/auto_构建_可解释性信念沙盒_该能力不仅输出_073d39.py",
+  "description": "构建'可解释性信念沙盒'。该能力不仅输出AI的判断结果，同时生成该判断的'认知血缘图'——即从原始传感器数据到概念抽象再到最终决策的完整拓扑。人类可以像审查SQL代码一样审查AI的'思考路径'，并对中间的特定转换节点（认知偏见）进行修改或加权的干预。这实现了人机共生的核心：人类通过修改'认知ETL'来教育AI，而非仅仅标注数据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.360520",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_146_O3_9699",
+  "design_spec": {
+    "name": "auto_构建_可解释性信念沙盒_该能力不仅输出_073d39",
+    "display_name": "构建'可解释性信念沙盒'。该能力不仅输出AI的判断结果，同时生成该判断的'认知血缘图'——即从原始传",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'可解释性信念沙盒'。该能力不仅输出AI的判断结果，同时生成该判断的'认知血缘图'——即从原始传感器数据到概念抽象再到最终决策的完整拓扑。人类可以像审查SQ",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

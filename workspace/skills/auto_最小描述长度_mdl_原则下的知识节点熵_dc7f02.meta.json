@@ -1,0 +1,30 @@
+{
+  "name": "auto_最小描述长度_mdl_原则下的知识节点熵_dc7f02",
+  "file": "skills/auto_最小描述长度_mdl_原则下的知识节点熵_dc7f02.py",
+  "description": "最小描述长度(MDL)原则下的知识节点熵减验证：在'重叠固化为真实节点'的过程中，计算新节点生成后的系统整体复杂度。若新节点的加入导致描述长度增加且未显著降低预测误差，则视为'过拟合噪音'予以剔除。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "信息论/AGI架构",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.154380",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_14_Q5_3_9530",
+  "design_spec": {
+    "name": "auto_最小描述长度_mdl_原则下的知识节点熵_dc7f02",
+    "display_name": "最小描述长度(MDL)原则下的知识节点熵减验证：在'重叠固化为真实节点'的过程中，计算新节点生成后的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "最小描述长度(MDL)原则下的知识节点熵减验证：在'重叠固化为真实节点'的过程中，计算新节点生成后的系统整体复杂度。若新节点的加入导致描述长度增加且未显著降低预",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 392
+  }
+}

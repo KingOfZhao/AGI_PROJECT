@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_边际价值驱动的知识迁徙引擎_ai_a70c5d",
+  "file": "skills/auto_构建_边际价值驱动的知识迁徙引擎_ai_a70c5d.py",
+  "description": "构建'边际价值驱动的知识迁徙引擎'。AI在处理复杂问题时，实时计算当前知识路径的'边际代谢率'。当深入挖掘某个知识树分支的'认知ROI'低于寻找新分支的平均期望成本时（类似动物离开贫瘠的觅食地），AI强制中断当前的推理逻辑，进行跨域跳跃或重置假设。这解决了AI在死胡同里无限消耗算力的'沉没成本'谬误。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.696122",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_148_O3_4110",
+  "design_spec": {
+    "name": "auto_构建_边际价值驱动的知识迁徙引擎_ai_a70c5d",
+    "display_name": "构建'边际价值驱动的知识迁徙引擎'。AI在处理复杂问题时，实时计算当前知识路径的'边际代谢率'。当深",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'边际价值驱动的知识迁徙引擎'。AI在处理复杂问题时，实时计算当前知识路径的'边际代谢率'。当深入挖掘某个知识树分支的'认知ROI'低于寻找新分支的平均期望",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

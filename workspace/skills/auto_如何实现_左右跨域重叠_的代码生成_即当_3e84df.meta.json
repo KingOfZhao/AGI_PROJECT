@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_左右跨域重叠_的代码生成_即当_3e84df",
+  "file": "skills/auto_如何实现_左右跨域重叠_的代码生成_即当_3e84df.py",
+  "description": "如何实现'左右跨域重叠'的代码生成？即当模糊意图涉及未知领域时，系统能否识别出其与已知领域的结构同构性（例如将'管理员工'的逻辑迁移到'管理容器'），并利用此模版生成代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.553651",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q5_1_3870",
+  "design_spec": {
+    "name": "auto_如何实现_左右跨域重叠_的代码生成_即当_3e84df",
+    "display_name": "如何实现'左右跨域重叠'的代码生成？即当模糊意图涉及未知领域时，系统能否识别出其与已知领域的结构同构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'左右跨域重叠'的代码生成？即当模糊意图涉及未知领域时，系统能否识别出其与已知领域的结构同构性（例如将'管理员工'的逻辑迁移到'管理容器'），并利用此模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

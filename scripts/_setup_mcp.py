@@ -5,6 +5,15 @@
 让本地AGI模型可被Claude for VSCode (Windsurf) 调用。
 同时将Claude自身的能力作为proven节点注入认知格。
 """
+
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
 import sys, os, json, sqlite3, time
 from pathlib import Path
 

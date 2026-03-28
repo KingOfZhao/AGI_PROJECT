@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_可视化逻辑回溯_ho_122_o_fb87cd",
+  "file": "skills/auto_结合_可视化逻辑回溯_ho_122_o_fb87cd.py",
+  "description": "结合'可视化逻辑回溯'（ho_122_O3）、'长程因果链归纳'（td_122_Q8）与'Sim2Real验证'（gap_122_G1）。当代码或工艺出现Bug，系统不再仅仅报错，而是像侦探一样，回溯操作历史，自动构建因果链，高亮显示'关键转折点'（那个导致崩盘的微小操作），并在虚拟环境中重演验证，给出确凿的修复证据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.044344",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_123_E5_6221",
+  "design_spec": {
+    "name": "auto_结合_可视化逻辑回溯_ho_122_o_fb87cd",
+    "display_name": "结合'可视化逻辑回溯'（ho_122_O3）、'长程因果链归纳'（td_122_Q8）与'Sim2R",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'可视化逻辑回溯'（ho_122_O3）、'长程因果链归纳'（td_122_Q8）与'Sim2Real验证'（gap_122_G1）。当代码或工艺出现Bug",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

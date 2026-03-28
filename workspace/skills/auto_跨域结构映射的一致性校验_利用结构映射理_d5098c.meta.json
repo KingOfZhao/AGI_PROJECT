@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域结构映射的一致性校验_利用结构映射理_d5098c",
+  "file": "skills/auto_跨域结构映射的一致性校验_利用结构映射理_d5098c.py",
+  "description": "跨域结构映射的一致性校验：利用结构映射理论，检验AI是否能在两个看似无关的领域（如'流体力学'与'电流传导'）之间建立正确的类比映射。验证重点在于映射关系是否保留了高阶因果结构，而非表面特征的相似。如果AI能成功将已知领域的验证逻辑迁移到新领域，则新领域的知识节点构建速度将显著提升。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.745347",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_74_Q6_3_3694",
+  "design_spec": {
+    "name": "auto_跨域结构映射的一致性校验_利用结构映射理_d5098c",
+    "display_name": "跨域结构映射的一致性校验：利用结构映射理论，检验AI是否能在两个看似无关的领域（如'流体力学'与'电",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域结构映射的一致性校验：利用结构映射理论，检验AI是否能在两个看似无关的领域（如'流体力学'与'电流传导'）之间建立正确的类比映射。验证重点在于映射关系是否保",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_逻辑一致性校验_在584个节点构成的知_0f438d",
+  "file": "skills/auto_逻辑一致性校验_在584个节点构成的知_0f438d.py",
+  "description": "【逻辑一致性校验】在584个节点构成的知识图谱中，随机抽取存在依赖关系的链条（A->B->C）。修改根节点A的一个核心属性，验证AI能否自动传播这一变更至叶节点C，并检测中间的逻辑断层。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_19",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:55:24.723901",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_19_Q3_0_7926",
+  "design_spec": {
+    "name": "auto_逻辑一致性校验_在584个节点构成的知_0f438d",
+    "display_name": "【逻辑一致性校验】在584个节点构成的知识图谱中，随机抽取存在依赖关系的链条（A->B->C）。修改",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【逻辑一致性校验】在584个节点构成的知识图谱中，随机抽取存在依赖关系的链条（A->B->C）。修改根节点A的一个核心属性，验证AI能否自动传播这一变更至叶节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 359
+  }
+}

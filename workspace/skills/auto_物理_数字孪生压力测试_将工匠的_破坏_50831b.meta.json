@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理_数字孪生压力测试_将工匠的_破坏_50831b",
+  "file": "skills/auto_物理_数字孪生压力测试_将工匠的_破坏_50831b.py",
+  "description": "【物理-数字孪生压力测试】将工匠的‘破坏性直觉’转化为AI的‘对抗性生成策略’。工匠知道哪里最容易崩裂（如焊缝、转角），AI应学习在代码的逻辑连接点、数据类型转换处生成高强度的‘边缘案例’。新能力不仅是生成随机噪点，而是模拟‘真实物理世界的磨损’（如网络延迟模拟物理疲劳、数据溢出模拟材料过载），构建更逼真的对抗网络。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.247982",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_85_O3_3096",
+  "design_spec": {
+    "name": "auto_物理_数字孪生压力测试_将工匠的_破坏_50831b",
+    "display_name": "【物理-数字孪生压力测试】将工匠的‘破坏性直觉’转化为AI的‘对抗性生成策略’。工匠知道哪里最容易崩",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【物理-数字孪生压力测试】将工匠的‘破坏性直觉’转化为AI的‘对抗性生成策略’。工匠知道哪里最容易崩裂（如焊缝、转角），AI应学习在代码的逻辑连接点、数据类型转",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

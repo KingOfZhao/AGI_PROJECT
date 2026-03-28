@@ -1,0 +1,30 @@
+{
+  "name": "auto_突触塑性智能路由协议_超越简单的ro_86ac78",
+  "file": "skills/auto_突触塑性智能路由协议_超越简单的ro_86ac78.py",
+  "description": "'突触塑性智能路由协议'。超越简单的Round-Robin或权重轮询，引入'赫布学习规则'（Hebbian Theory）。如果服务A和服务B经常一起协作处理某类复杂请求成功，路由层将建立它们之间的'超高速通道'（专用连接池）。反之，对于长期闲置的'认知微服务'，系统自动进行'突触修剪'（回收资源至冷备状态），从而在人机共生中实现资源利用的极致优化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.597690",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_130_O4_7115",
+  "design_spec": {
+    "name": "auto_突触塑性智能路由协议_超越简单的ro_86ac78",
+    "display_name": "'突触塑性智能路由协议'。超越简单的Round-Robin或权重轮询，引入'赫布学习规则'（Hebb",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'突触塑性智能路由协议'。超越简单的Round-Robin或权重轮询，引入'赫布学习规则'（Hebbian Theory）。如果服务A和服务B经常一起协作处理某",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

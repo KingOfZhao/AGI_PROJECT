@@ -1,0 +1,30 @@
+{
+  "name": "auto_主体间性不变量提取引擎_利用哲学中_9f88ab",
+  "file": "skills/auto_主体间性不变量提取引擎_利用哲学中_9f88ab.py",
+  "description": "【主体间性不变量提取引擎】。利用哲学中‘现象学还原’的思路，开发一种算法，专门用于剥离技能数据中的‘私有属性’（即工匠的个人习惯噪声），仅保留‘公共物理属性’（即客观操作逻辑）。这不仅仅是数据的归一化，而是构建一个‘通用身体模型’，使得AI能够理解‘虽然我不是那个工匠，但我知道他在在这个物理点上施加了必然的力’。这能解决不同体型机器人复用同一技能时的‘排异反应’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.033849",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_123_O1_2496",
+  "design_spec": {
+    "name": "auto_主体间性不变量提取引擎_利用哲学中_9f88ab",
+    "display_name": "【主体间性不变量提取引擎】。利用哲学中‘现象学还原’的思路，开发一种算法，专门用于剥离技能数据中的‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【主体间性不变量提取引擎】。利用哲学中‘现象学还原’的思路，开发一种算法，专门用于剥离技能数据中的‘私有属性’（即工匠的个人习惯噪声），仅保留‘公共物理属性’（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

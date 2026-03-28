@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移能力的压力测试_真实的_真实节点_e84b41",
+  "file": "skills/auto_跨域迁移能力的压力测试_真实的_真实节点_e84b41.py",
+  "description": "跨域迁移能力的压力测试：真实的'真实节点'应具备跨域活性。如何自动化生成'跨界测试题'？例如，将'小摊贩的库存管理'节点应用于'GPU显存管理'。若节点无法在至少2个不同领域的测试中迁移，应降低其权重或标记为'狭隘节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "meta_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:28.740496",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q5_0_7480",
+  "design_spec": {
+    "name": "auto_跨域迁移能力的压力测试_真实的_真实节点_e84b41",
+    "display_name": "跨域迁移能力的压力测试：真实的'真实节点'应具备跨域活性。如何自动化生成'跨界测试题'？例如，将'小",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移能力的压力测试：真实的'真实节点'应具备跨域活性。如何自动化生成'跨界测试题'？例如，将'小摊贩的库存管理'节点应用于'GPU显存管理'。若节点无法在至",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

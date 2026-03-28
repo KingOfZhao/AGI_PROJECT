@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点固化过程中的_幻觉代码_检测_在_fbe2fc",
+  "file": "skills/auto_真实节点固化过程中的_幻觉代码_检测_在_fbe2fc.py",
+  "description": "真实节点固化过程中的'幻觉代码'检测：在将新知识固化为'真实节点'前，必须剔除看起来正确但实际不可运行的'幻觉代码'。如何构建一个沙箱环境，结合静态分析和动态模糊测试，以最小成本验证代码节点的'真实性'（即可执行性）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.338848",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_133_Q9_3_2220",
+  "design_spec": {
+    "name": "auto_真实节点固化过程中的_幻觉代码_检测_在_fbe2fc",
+    "display_name": "真实节点固化过程中的'幻觉代码'检测：在将新知识固化为'真实节点'前，必须剔除看起来正确但实际不可运",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "真实节点固化过程中的'幻觉代码'检测：在将新知识固化为'真实节点'前，必须剔除看起来正确但实际不可运行的'幻觉代码'。如何构建一个沙箱环境，结合静态分析和动态模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 248
+  }
+}

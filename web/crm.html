@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AGI v13 CRM</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script>tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{400:'#818cf8',500:'#6366f1',600:'#4f46e5'},surf:{0:'#0a0a0f',1:'#12121a',2:'#1a1a25',3:'#222230'}}}}}</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{font-family:'Inter',system-ui,sans-serif}body{background:#0a0a0f}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
+.gl{background:rgba(255,255,255,.03);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.06)}
+.ch:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(99,102,241,.15)}
+.fi{animation:fi .3s ease}@keyframes fi{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.pd{animation:pd 2s infinite}@keyframes pd{0%,100%{opacity:1}50%{opacity:.4}}
+</style>
+</head>
+<body class="text-gray-200 dark">
+<div id="app" class="flex h-screen overflow-hidden">
+
+<!-- Sidebar -->
+<nav class="w-60 bg-surf-1 border-r border-white/5 flex flex-col shrink-0">
+<div class="p-4 border-b border-white/5 flex items-center gap-3">
+  <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-purple-600 flex items-center justify-center text-white font-bold">A</div>
+  <div><div class="text-white font-bold text-sm">AGI v13</div><div class="text-[10px] text-gray-600">CRM 管理系统</div></div>
+</div>
+<div class="flex-1 py-3 overflow-y-auto text-[13px]" id="nav-list"></div>
+<div class="p-3 border-t border-white/5"><div id="user-bar" class="text-[10px] text-gray-500 cursor-pointer hover:text-white" onclick="loginUser()">点击登录</div><div class="flex items-center gap-2 mt-1 text-[10px] text-gray-600"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 pd"></span>运行中 · v13.3</div></div>
+</nav>
+
+<!-- Main -->
+<main class="flex-1 overflow-y-auto" id="main"></main>
+</div>
+
+<div id="modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-center justify-center" onclick="if(event.target===this)closeModal()">
+<div class="gl rounded-2xl p-6 w-full max-w-lg mx-4"><h3 class="text-lg font-bold text-white mb-4" id="mtitle"></h3><div id="mbody"></div>
+<div class="flex justify-end gap-2 mt-4"><button onclick="closeModal()" class="px-4 py-2 text-sm text-gray-400 hover:text-white">取消</button><button onclick="saveModal()" class="px-4 py-2 bg-brand-600 hover:bg-brand-500 text-white text-sm rounded-lg">保存</button></div></div></div>
+
+<script src="data/crm_data.js"></script>
+<script>
+// NAV
+const PAGES=[
+  {id:'dashboard',icon:'M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z',label:'总览仪表盘',group:'主面板'},
+  {id:'projects',icon:'M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z',label:'项目管理',group:'主面板'},
+  {id:'deduction',icon:'M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z',label:'待推演列表',group:'推演任务',badge:()=>DATA.deductions.filter(d=>d.status!=='done').length},
+  {id:'todos',icon:'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4',label:'待完成列表',group:'推演任务',badge:()=>DATA.todos.filter(t=>t.status!=='done').length},
+  {id:'skills',icon:'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z',label:'Skill 技能库',group:'资源'},
+  {id:'model',icon:'M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z',label:'本地模型能力',group:'资源'},
+  {id:'progress',icon:'M13 7h8m0 0v8m0-8l-8 8-4-4-6 6',label:'进度追踪',group:'资源'},
+  {id:'problems',icon:'M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z',label:'阻塞问题',group:'协作',badge:()=>DATA.problems.filter(p=>p.status==='open').length},
+  {id:'workflows',icon:'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 8a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zm12 0a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z',label:'工作流编排',group:'协作'},
+  {id:'wechat',icon:'M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z',label:'微信网关',group:'微信',badge:()=>(window._wxGateways||[]).filter(g=>g.status==='running').length},
+];
+let curPage='dashboard';
+
+function buildNav(){
+  let html='',lastG='';
+  PAGES.forEach(p=>{
+    if(p.group!==lastG){lastG=p.group;html+=`<div class="px-3 mt-3 mb-1 text-[10px] uppercase tracking-wider text-gray-600 font-semibold">${p.group}</div>`}
+    const b=p.badge?p.badge():0;
+    html+=`<button data-nav="${p.id}" onclick="go('${p.id}')" class="nb w-full flex items-center gap-2.5 px-3 py-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-lg mx-1 transition">
+      <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${p.icon}"/></svg>
+      <span class="flex-1 text-left">${p.label}</span>
+      ${b?`<span class="text-[10px] px-1.5 py-0.5 rounded-full bg-brand-600/30 text-brand-300">${b}</span>`:''}
+    </button>`;
+  });
+  document.getElementById('nav-list').innerHTML=html;
+}
+
+function go(id){curPage=id;if(id==='wechat')wxRefresh();if(id==='problems')pbRefresh();render();document.querySelectorAll('.nb').forEach(b=>{b.classList.toggle('text-white',b.dataset.nav===id);b.classList.toggle('bg-white/5',b.dataset.nav===id);b.classList.toggle('text-gray-400',b.dataset.nav!==id)})}
+
+// SVG helpers
+const ic=(d,cls='w-4 h-4')=>`<svg class="${cls}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${d}"/></svg>`;
+
+// RENDER
+function render(){
+  const m=document.getElementById('main');
+  m.innerHTML=`<div class="p-6 fi">${window['render_'+curPage]()}</div>`;
+  buildNav();
+  document.querySelector(`[data-nav="${curPage}"]`)?.classList.add('text-white','bg-white/5');
+  if(curPage==='dashboard')setTimeout(initDashCharts,50);
+  if(curPage==='model')setTimeout(initModelCharts,50);
+}
+
+// ====== DASHBOARD ======
+function render_dashboard(){
+  const kpi=(l,v,sub)=>`<div class="gl rounded-xl p-4 ch transition"><div class="text-[10px] text-gray-500 mb-1">${l}</div><div class="text-2xl font-bold text-white">${v}</div><div class="mt-2 text-xs text-gray-500">${sub}</div></div>`;
+  let h=`<h2 class="text-xl font-bold text-white mb-1">总览仪表盘</h2><p class="text-xs text-gray-500 mb-5">AGI v13 认知格系统 · 实时状态</p>`;
+  h+=`<div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-5">`;
+  h+=kpi('认知节点','1,205',pb(60)+'<span class="text-[10px] text-gray-600 ml-2">/ 2000</span>');
+  h+=kpi('技能库','6,011','<span class="text-emerald-400">2624自有</span> + <span class="text-blue-400">3387开源</span>');
+  h+=kpi('95维均分','84.2','<span class="text-emerald-400">+0.1</span> 超越 Opus 84.1');
+  h+=kpi('超越策略','84%',pb(84));
+  h+=`</div>`;
+  h+=`<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">`;
+  h+=`<div class="gl rounded-xl p-4"><h3 class="text-xs font-semibold text-white mb-3">8大超越策略</h3><canvas id="c1" height="180"></canvas></div>`;
+  h+=`<div class="gl rounded-xl p-4"><h3 class="text-xs font-semibold text-white mb-3">项目进度分布</h3><canvas id="c2" height="180"></canvas></div></div>`;
+  // Deduction results
+  h+=`<div class="grid grid-cols-1 lg:grid-cols-3 gap-4">`;
+  h+=`<div class="lg:col-span-2 gl rounded-xl p-4"><h3 class="text-xs font-semibold text-white mb-3">极致推演成果 (Claude Opus 4)</h3><div class="space-y-2">`;
+  DATA.deductionResults.forEach(r=>{
+    h+=`<div class="flex items-center gap-3 p-2.5 bg-white/[.02] rounded-lg"><div class="w-7 h-7 rounded-lg bg-brand-600/20 flex items-center justify-center text-brand-400 text-[10px] font-bold">${r.round}</div><div class="flex-1"><div class="text-xs text-white">${r.name}</div><div class="text-[10px] text-gray-600">${r.laws}</div></div><span class="text-[10px] text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded">${r.test} PASS</span></div>`;
+  });
+  h+=`</div></div>`;
+  // Milestones
+  h+=`<div class="gl rounded-xl p-4"><h3 class="text-xs font-semibold text-white mb-3">里程碑</h3><div class="space-y-3">`;
+  DATA.milestones.forEach(m=>{
+    const col=m.pct>=100?'bg-emerald-500':m.pct>10?'bg-brand-500':'bg-gray-700';
+    h+=`<div><div class="flex justify-between text-[10px] mb-1"><span class="text-gray-400">${m.name}</span><span class="${m.pct>=100?'text-emerald-400':'text-gray-500'}">${m.pct}%</span></div><div class="h-1.5 bg-white/5 rounded-full"><div class="h-1.5 ${col} rounded-full" style="width:${m.pct}%"></div></div></div>`;
+  });
+  h+=`</div></div></div>`;
+  return h;
+}
+
+// ====== PROJECTS ======
+function render_projects(){
+  let h=`<div class="flex items-center justify-between mb-5"><div><h2 class="text-xl font-bold text-white">项目管理</h2><p class="text-xs text-gray-500 mt-1">${DATA.projects.length} 个项目</p></div><button onclick="addProject()" class="px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white text-xs rounded-lg">+ 新建项目</button></div>`;
+  h+=`<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">`;
+  DATA.projects.forEach(p=>{
+    const pdesc=p.desc||p.description||'';
+    h+=`<div class="gl rounded-xl p-4 ch transition cursor-pointer" onclick="editProject('${p.id}')">
+      <div class="flex items-center gap-2 mb-2"><div class="w-2.5 h-2.5 rounded-full" style="background:${p.color}"></div><h3 class="text-white font-semibold text-sm flex-1">${p.name}</h3><span class="text-[10px] px-1.5 py-0.5 rounded-full ${p.status==='active'?'bg-emerald-500/20 text-emerald-400':'bg-gray-700/40 text-gray-500'}">${p.status==='active'?'进行中':'规划中'}</span></div>
+      <p class="text-[11px] text-gray-500 mb-2">${pdesc}</p>
+      ${p.ultimate_goal?`<div class="text-[9px] text-brand-400 mb-1">终极: ${p.ultimate_goal}</div>`:''}
+      ${p.short_term_goal?`<div class="text-[9px] text-emerald-400 mb-2">短期: ${p.short_term_goal}</div>`:''}
+      <div class="flex items-center gap-2 mb-2"><div class="flex-1 h-1.5 bg-white/5 rounded-full"><div class="h-1.5 rounded-full" style="width:${p.progress}%;background:${p.color}"></div></div><span class="text-[10px] text-gray-400">${p.progress}%</span></div>
+      <div class="flex gap-1 flex-wrap">${(p.tags||[]).map(t=>`<span class="text-[9px] px-1.5 py-0.5 bg-white/5 text-gray-500 rounded">${t}</span>`).join('')}</div>
+    </div>`;
+  });
+  h+=`</div>`;
+  return h;
+}
+
+// ====== DEDUCTION ======
+function render_deduction(){
+  const pc={critical:'border-l-red-500',high:'border-l-amber-500',medium:'border-l-blue-500'};
+  const pl={critical:'紧急',high:'高',medium:'中'};
+  const sc={queued:'text-gray-400 bg-gray-500/10',running:'text-blue-400 bg-blue-500/10',done:'text-emerald-400 bg-emerald-500/10'};
+  const sl={queued:'排队中',running:'推演中',done:'已完成'};
+  const dedCount=DATA.deductions.length;
+  const qCount=DATA.deductions.filter(d=>d.status==='queued').length;
+  const rCount=DATA.deductions.filter(d=>d.status==='running').length;
+  const doneCount=DATA.deductions.filter(d=>d.status==='done').length;
+  const expandCount=DATA.deductions.filter(d=>(d.description||d.desc||'').includes('[\u81ea\u52a8\u62d3\u5c55]')).length;
+  const qs=DATA.queue_settings||{};
+  let h=`<div class="flex items-center justify-between mb-5"><div><h2 class="text-xl font-bold text-white">待推演列表 <span class="text-sm text-gray-500 font-normal">${dedCount}计划 | ${qCount}排队 | ${rCount}推演中 | ${doneCount}完成</span></h2><p class="text-xs text-gray-500 mt-1">ULDS v2.1 极致推演队列 · 问题与答案之间只有接近一条道路</p></div><div class="flex gap-2"><button onclick="showQueueSettings()" class="px-3 py-1.5 bg-white/10 hover:bg-white/20 text-gray-300 text-xs rounded-lg">⚙ 队列设定</button><button onclick="addDeduction()" class="px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white text-xs rounded-lg">+ 添加推演</button></div></div>`;
+  // Queue settings summary
+  if(qs.priority_project||qs.new_problems_position==='prepend'){
+    h+=`<div class="gl rounded-lg px-3 py-2 mb-3 flex items-center gap-3 text-[10px]">`;
+    if(qs.priority_project){const pp=DATA.projects.find(p=>p.id===qs.priority_project);h+=`<span class="text-brand-400">优先项目: ${pp?pp.name:qs.priority_project}</span>`}
+    if(qs.auto_expand)h+=`<span class="text-cyan-400">自动拓展:开(每计划最多${qs.max_expand_per_plan||3}个)</span>`;
+    if(qs.new_problems_position==='prepend')h+=`<span class="text-amber-400">问题计划优先</span>`;
+    h+=`${expandCount?`<span class="text-gray-500">已拓展${expandCount}个计划</span>`:''}</div>`;
+  }
+  // Filters: priority + project
+  h+=`<div class="flex gap-1 mb-2 flex-wrap">${['all','critical','high','medium'].map(f=>`<button onclick="filterDed('${f}')" class="df px-2.5 py-1 text-[10px] rounded-lg bg-white/5 text-gray-400 hover:text-white transition" data-f="${f}">${f==='all'?'全部':pl[f]||f}</button>`).join('')}`;
+  h+=`<select onchange="filterDedProj(this.value)" class="ml-2 px-2 py-1 text-[10px] bg-white/5 border border-white/10 rounded-lg text-gray-400"><option value="all">全部项目</option>${DATA.projects.map(p=>`<option value="${p.id}">${p.name}</option>`).join('')}</select></div>`;
+  h+=`<div class="space-y-2" id="dlist">`;
+  DATA.deductions.forEach(d=>{
+    const pj=DATA.projects.find(p=>p.id===d.project||p.id===d.project_id);
+    const modelLabel={'glm5':'GLM-5','glm5_turbo':'GLM-5T','glm47':'GLM-4.7','ollama_local':'Ollama'};
+    h+=`<div class="gl rounded-xl p-3 border-l-4 ${pc[d.priority]||''} ch transition dd" data-pri="${d.priority}" data-proj="${d.project||d.project_id||''}">
+      <div class="flex items-center gap-3">
+        <div class="flex-1"><div class="flex items-center gap-2 flex-wrap"><span class="text-sm text-white font-medium">${d.title}</span><span class="text-[10px] px-1.5 py-0.5 rounded ${sc[d.status]||''}">${sl[d.status]||d.status}</span>${d.model?`<span class="text-[9px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400">${modelLabel[d.model]||d.model}</span>`:''}</div>
+        <p class="text-[11px] text-gray-500 mt-0.5">${d.desc||''}</p>
+        <div class="flex items-center gap-2 mt-1.5 flex-wrap">${d.laws?`<span class="text-[10px] text-brand-400 bg-brand-500/10 px-1.5 py-0.5 rounded">${d.laws}</span>`:''}
+          ${d.strategies?`<span class="text-[10px] text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded">${d.strategies}</span>`:''}
+          ${pj?`<span class="text-[10px] text-gray-600">${pj.name}</span>`:''}
+          ${d.rounds?`<span class="text-[9px] text-gray-600">${d.rounds}轮</span>`:''}</div></div>
+        <button onclick="toggleDedStatus('${d.id}')" class="p-1.5 hover:bg-white/10 rounded-lg text-gray-500 hover:text-brand-400 transition" title="切换状态">▶</button>
+        <button onclick="removeDed('${d.id}')" class="p-1.5 hover:bg-white/10 rounded-lg text-gray-500 hover:text-red-400 transition" title="删除">✕</button>
+      </div></div>`;
+  });
+  h+=`</div>`;
+  return h;
+}
+
+// ====== TODOS ======
+function render_todos(){
+  const cols={pending:[],progress:[],done:[]};
+  DATA.todos.forEach(t=>cols[t.status]?cols[t.status].push(t):cols.pending.push(t));
+  const pri={high:'border-l-red-500',medium:'border-l-amber-500',low:'border-l-gray-600'};
+  const renderCol=(items,label,dot)=>{
+    let h=`<div><div class="flex items-center gap-2 mb-3"><span class="w-2 h-2 rounded-full ${dot}"></span><span class="text-xs font-medium text-gray-300">${label}</span><span class="text-[10px] text-gray-600 ml-auto">${items.length}</span></div><div class="space-y-2 min-h-[120px]">`;
+    items.forEach(t=>{
+      const pj=DATA.projects.find(p=>p.id===t.project);
+      h+=`<div class="gl rounded-lg p-2.5 border-l-2 ${pri[t.priority]||''} ch transition">
+        <div class="flex items-center gap-2"><input type="checkbox" ${t.status==='done'?'checked':''} onchange="cycleTodo('${t.id}')" class="accent-brand-500 w-3 h-3"><span class="text-xs ${t.status==='done'?'text-gray-600 line-through':'text-white'}">${t.title}</span></div>
+        ${pj?`<div class="text-[9px] text-gray-600 mt-1 ml-5">${pj.name}</div>`:''}
+      </div>`;
+    });
+    h+=`</div></div>`;return h;
+  };
+  let h=`<div class="flex items-center justify-between mb-5"><div><h2 class="text-xl font-bold text-white">待完成列表</h2><p class="text-xs text-gray-500 mt-1">看板视图</p></div><button onclick="addTodo()" class="px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white text-xs rounded-lg">+ 添加任务</button></div>`;
+  h+=`<div class="grid grid-cols-1 md:grid-cols-3 gap-4">`;
+  h+=renderCol(cols.pending,'待处理','bg-amber-500');
+  h+=renderCol(cols.progress,'进行中','bg-blue-500');
+  h+=renderCol(cols.done,'已完成','bg-emerald-500');
+  h+=`</div>`;
+  return h;
+}
+
+// ====== SKILLS ======
+function render_skills(){
+  const total=DATA.skills.reduce((a,s)=>a+s.count,0);
+  let h=`<div class="flex items-center justify-between mb-5"><div><h2 class="text-xl font-bold text-white">Skill 技能库</h2><p class="text-xs text-gray-500 mt-1">${total.toLocaleString()} 技能 · 多源聚合</p></div><input id="ssearch" oninput="filterSkills()" placeholder="搜索技能..." class="px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-xs text-white placeholder-gray-600 w-52 focus:outline-none focus:border-brand-500"></div>`;
+  h+=`<div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-5">`;
+  h+=`<div class="gl rounded-lg p-3 text-center"><div class="text-lg font-bold text-white">2,624</div><div class="text-[10px] text-gray-500">自有技能</div></div>`;
+  h+=`<div class="gl rounded-lg p-3 text-center"><div class="text-lg font-bold text-blue-400">4,717</div><div class="text-[10px] text-gray-500">OpenClaw</div></div>`;
+  h+=`<div class="gl rounded-lg p-3 text-center"><div class="text-lg font-bold text-purple-400">29</div><div class="text-[10px] text-gray-500">gstack</div></div>`;
+  h+=`<div class="gl rounded-lg p-3 text-center"><div class="text-lg font-bold text-emerald-400">64%</div><div class="text-[10px] text-gray-500">有效率</div></div></div>`;
+  h+=`<div class="grid grid-cols-1 lg:grid-cols-2 gap-3 slist">`;
+  DATA.skills.forEach(s=>{
+    h+=`<div class="gl rounded-xl p-4 ch transition sk" data-kw="${s.category} ${s.items.join(' ')} ${s.desc||''}">
+      <div class="flex items-center gap-2 mb-1"><div class="w-2.5 h-2.5 rounded-full" style="background:${s.color||'#666'}"></div><span class="text-sm text-white font-medium flex-1">${s.category}</span><span class="text-[10px] text-gray-500">${s.source}</span><span class="text-sm font-bold text-white">${s.count.toLocaleString()}</span></div>
+      ${s.desc?`<p class="text-[10px] text-gray-500 mb-2 ml-4">${s.desc}</p>`:''}
+      <div class="flex flex-wrap gap-1 ml-4">${s.items.map(i=>`<span class="text-[9px] px-1.5 py-0.5 bg-white/5 text-gray-400 rounded-full">${i}</span>`).join('')}</div>
+    </div>`;
+  });
+  h+=`</div>`;
+  return h;
+}
+
+// ====== MODEL ======
+function render_model(){
+  let h=`<h2 class="text-xl font-bold text-white mb-1">本地模型能力</h2><p class="text-xs text-gray-500 mb-5">君臣佐使 v4.0 + GLM-5 Turbo · 95维能力矩阵</p>`;
+  h+=`<div class="grid grid-cols-2 lg:grid-cols-5 gap-3 mb-5">`;
+  DATA.models.forEach(m=>{h+=`<div class="gl rounded-xl p-3 border-l-4 border-${m.color}-500"><div class="text-[10px] text-${m.color}-400 font-semibold mb-0.5">${m.role}</div><div class="text-white font-bold text-sm">${m.name}</div><div class="text-[10px] text-gray-500 mt-1">${m.desc}</div><div class="mt-1.5"><label class="flex items-center gap-1 text-[9px] text-gray-500"><input type="checkbox" ${m.enabled?'checked':''} onchange="toggleModel('${m.id}')" class="accent-brand-500 w-3 h-3">启用</label></div></div>`});
+  h+=`</div>`;
+  // Call chain visualization
+  h+=`<div class="gl rounded-xl p-4 mb-5"><h3 class="text-xs font-semibold text-white mb-3">调用链路 (问题处理流程)</h3><div class="flex items-center gap-1 overflow-x-auto pb-2">`;
+  const chain=[{n:'用户提问',c:'bg-white/10'},{n:'Ollama路由',c:'bg-red-500/30'},{n:'GLM-5 Turbo快速分析',c:'bg-cyan-500/30'},{n:'GLM-5深度推理',c:'bg-blue-500/30'},{n:'GLM-4.7代码生成',c:'bg-green-500/30'},{n:'Ollama幻觉校验',c:'bg-red-500/30'},{n:'零回避扫描',c:'bg-amber-500/30'},{n:'返回结果',c:'bg-white/10'}];
+  chain.forEach((s,i)=>{h+=`<div class="flex items-center shrink-0"><div class="${s.c} rounded-lg px-3 py-2 text-[10px] text-white text-center min-w-[80px]">${s.n}</div>${i<chain.length-1?'<div class="text-gray-600 px-0.5">→</div>':''}</div>`});
+  h+=`</div></div>`;
+  h+=`<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5"><div class="gl rounded-xl p-4"><h3 class="text-xs font-semibold text-white mb-3">能力雷达图</h3><canvas id="c3" height="250"></canvas></div>`;
+  h+=`<div class="gl rounded-xl p-4"><h3 class="text-xs font-semibold text-white mb-3">vs 世界前三</h3><canvas id="c4" height="250"></canvas></div></div>`;
+  h+=`<div class="gl rounded-xl p-4"><h3 class="text-xs font-semibold text-white mb-3">能力详情</h3><div class="overflow-x-auto"><table class="w-full text-xs"><thead><tr class="text-[10px] text-gray-500 border-b border-white/5"><th class="py-2 text-left">维度</th><th class="py-2 text-center">本地</th><th class="py-2 text-center">Opus 4</th><th class="py-2 text-center">GPT-5</th><th class="py-2 text-center">差距</th><th class="py-2 text-center">目标</th></tr></thead><tbody>`;
+  DATA.capabilities.forEach(c=>{
+    const d=c.local-c.opus,dc=d>0?'text-emerald-400':d<0?'text-red-400':'text-gray-500';
+    h+=`<tr class="border-b border-white/[.03] hover:bg-white/[.02]"><td class="py-2 text-gray-300">${c.dim}</td><td class="py-2 text-center"><div class="flex items-center justify-center gap-1.5"><div class="w-12 h-1 bg-white/5 rounded-full"><div class="h-1 bg-brand-500 rounded-full" style="width:${c.local}%"></div></div><span class="text-white font-medium">${c.local}</span></div></td><td class="py-2 text-center text-gray-400">${c.opus}</td><td class="py-2 text-center text-gray-400">${c.gpt5}</td><td class="py-2 text-center ${dc}">${d>0?'+':''}${d}</td><td class="py-2 text-center text-brand-400">${c.target}</td></tr>`;
+  });
+  h+=`</tbody></table></div></div>`;
+  return h;
+}
+
+// ====== PROGRESS ======
+function render_progress(){
+  let h=`<h2 class="text-xl font-bold text-white mb-1">进度追踪</h2><p class="text-xs text-gray-500 mb-5">短期·长期目标</p>`;
+  h+=`<div class="gl rounded-xl p-5 mb-5"><h3 class="text-xs font-semibold text-white mb-4">短期目标 (2026-Q1)</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-5">`;
+  h+=`<div><h4 class="text-[10px] text-brand-400 font-semibold mb-3">代码能力</h4><div class="space-y-3">`;
+  DATA.codeGoals.forEach(g=>{const p=Math.min(g.current/g.target*100,100);h+=`<div><div class="flex justify-between text-[10px] mb-1"><span class="text-gray-400">${g.name}</span><span class="text-white">${g.current} / ${g.target}</span></div>${pb(p)}</div>`});
+  h+=`</div></div><div><h4 class="text-[10px] text-emerald-400 font-semibold mb-3">系统能力</h4><div class="space-y-3">`;
+  DATA.sysGoals.forEach(g=>{const p=g.invert?Math.min(g.target/g.current*100,100):Math.min(g.current/g.target*100,100);h+=`<div><div class="flex justify-between text-[10px] mb-1"><span class="text-gray-400">${g.name}</span><span class="text-white">${g.current} / ${g.target}</span></div>${pb(p,'bg-emerald-500')}</div>`});
+  h+=`</div></div></div></div>`;
+  // Quarterly
+  const quarters=[{q:'Q1',title:'极致推演',s:'进行中',col:'brand',items:['ULDS v2.1','王朝治理','技能锚定']},{q:'Q2',title:'深度代码',s:'计划中',col:'blue',items:['SWE-Bench 55%','多语言75+','200K上下文']},{q:'Q3',title:'Agent自治',s:'规划中',col:'purple',items:['工具锻造','自主学习','多Agent']},{q:'Q4',title:'跨域迁移',s:'远期',col:'amber',items:['工业','医疗','商业']}];
+  h+=`<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">`;
+  quarters.forEach(q=>{h+=`<div class="gl rounded-xl p-4"><div class="text-[10px] text-${q.col}-400 font-semibold mb-1">${q.q}: ${q.title}</div><div class="text-gray-400 font-bold text-sm mb-2">${q.s}</div><ul class="text-[10px] text-gray-500 space-y-0.5">${q.items.map(i=>`<li>· ${i}</li>`).join('')}</ul></div>`});
+  h+=`</div>`;
+  h+=`<div class="gl rounded-xl p-5"><h3 class="text-xs font-semibold text-white mb-4">8大超越策略</h3><div class="space-y-2.5">`;
+  DATA.strategies.forEach(s=>{h+=`<div class="flex items-center gap-3"><span class="text-[10px] text-gray-400 w-28 shrink-0">${s.name}</span><div class="flex-1 h-2 bg-white/5 rounded-full"><div class="h-2 rounded-full ${s.pct>=90?'bg-emerald-500':s.pct>=75?'bg-brand-500':'bg-amber-500'}" style="width:${s.pct}%"></div></div><span class="text-[10px] text-white w-8 text-right">${s.pct}%</span></div>`});
+  h+=`</div></div>`;
+  return h;
+}
+
+// ====== PROBLEMS (API-connected) ======
+window._pbProjects=[];window._pbProblems=[];window._pbFilter='all';window._pbProjFilter='';
+const PB_API=location.port==='8890'?'':('http://localhost:8890');
+async function pbApi(method,path,body){
+  try{
+    const opts={method,headers:{'Content-Type':'application/json'}};
+    if(body)opts.body=JSON.stringify(body);
+    const r=await fetch(PB_API+path,opts);return await r.json();
+  }catch(e){return {error:'API不可用,请启动: python3 scripts/wechat_manager.py'}}
+}
+async function pbRefresh(){
+  const [probs,projs]=await Promise.all([pbApi('GET','/api/problems'),pbApi('GET','/api/projects')]);
+  if(Array.isArray(probs))window._pbProblems=probs;
+  if(Array.isArray(projs))window._pbProjects=projs;
+  // 同步到DATA以兼容旧逻辑
+  if(Array.isArray(probs))DATA.problems=probs;
+  if(Array.isArray(projs)&&projs.length)DATA.projects=projs;
+}
+function render_problems(){
+  const problems=window._pbProblems||DATA.problems;
+  const projects=window._pbProjects.length?window._pbProjects:DATA.projects;
+  const pf=window._pbProjFilter;
+  const filtered=pf?problems.filter(p=>p.project_id===pf):problems;
+  const sev={critical:'border-l-red-500',high:'border-l-amber-500',medium:'border-l-blue-500',low:'border-l-gray-500'};
+  const stL={open:'待解决',pending_verify:'待验证',pending_deduction:'待推演',deduced:'已推演',resolved:'已解决'};
+  const stC={open:'text-red-400 bg-red-500/10',pending_verify:'text-amber-400 bg-amber-500/10',pending_deduction:'text-blue-400 bg-blue-500/10',deduced:'text-cyan-400 bg-cyan-500/10',resolved:'text-emerald-400 bg-emerald-500/10'};
+  const counts={};filtered.forEach(p=>{counts[p.status]=(counts[p.status]||0)+1});
+
+  let h=`<div class="flex items-center justify-between mb-5"><div><h2 class="text-xl font-bold text-white">阻塞问题</h2><p class="text-xs text-gray-500 mt-1">数据源: SQLite 数据库 · ${problems.length} 个问题 · 微信发 /问题 也可查询</p></div>
+  <div class="flex gap-2"><button onclick="pbRefresh().then(()=>render())" class="px-3 py-1.5 text-gray-400 hover:text-white text-xs rounded-lg border border-white/10">刷新</button>
+  <button onclick="addProblem()" class="px-3 py-1.5 bg-red-600 hover:bg-red-500 text-white text-xs rounded-lg">+ 新增问题</button></div></div>`;
+
+  // Project filter
+  h+=`<div class="flex gap-2 mb-3 items-center flex-wrap">`;
+  h+=`<span class="text-[10px] text-gray-600">项目:</span>`;
+  h+=`<button onclick="window._pbProjFilter='';render()" class="px-2 py-0.5 text-[10px] rounded ${!pf?'bg-brand-600/30 text-white':'bg-white/5 text-gray-400 hover:text-white'}">全部</button>`;
+  projects.forEach(pj=>{
+    const cnt=problems.filter(p=>p.project_id===pj.id).length;
+    if(cnt)h+=`<button onclick="window._pbProjFilter='${pj.id}';render()" class="px-2 py-0.5 text-[10px] rounded ${pf===pj.id?'bg-brand-600/30 text-white':'bg-white/5 text-gray-400 hover:text-white'}">${pj.name} ${cnt}</button>`;
+  });
+  h+=`</div>`;
+
+  // Status filter
+  h+=`<div class="flex gap-1 mb-3 flex-wrap">`;
+  const sf=window._pbFilter;
+  ['all','open','pending_verify','pending_deduction','resolved'].forEach(f=>{
+    const cnt=f==='all'?filtered.length:(counts[f]||0);
+    h+=`<button onclick="window._pbFilter='${f}';render()" class="px-2.5 py-1 text-[10px] rounded-lg ${sf===f?'bg-brand-600/30 text-white':'bg-white/5 text-gray-400 hover:text-white'} transition">${f==='all'?'全部':stL[f]||f} ${cnt}</button>`;
+  });
+  h+=`</div>`;
+
+  const shown=sf==='all'?filtered:filtered.filter(p=>p.status===sf);
+  if(!shown.length){
+    h+='<div class="gl rounded-xl p-8 text-center text-gray-500 text-sm">无匹配的问题</div>';
+    return h;
+  }
+  h+='<div class="space-y-2">';
+  shown.forEach(p=>{
+    const pj=projects.find(x=>x.id===p.project_id);
+    h+=`<div class="gl rounded-xl p-4 border-l-4 ${sev[p.severity]||'border-l-gray-600'} ch transition">
+      <div class="flex items-center gap-3"><div class="flex-1">
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-[10px] text-gray-600 font-mono">#${p.id}</span>
+          <span class="text-sm text-white font-medium">${p.title}</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded ${stC[p.status]||'bg-white/10 text-gray-400'}">${stL[p.status]||p.status}</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded bg-white/5 text-gray-500">${p.severity}</span>
+        </div>
+        <p class="text-[11px] text-gray-500 mt-0.5">${p.description||''}</p>
+        <div class="flex items-center gap-3 mt-1.5">
+          ${pj?`<span class="text-[10px] text-gray-600">📁 ${pj.name}</span>`:''}
+          ${p.suggested_solution?`<span class="text-[10px] text-brand-400">建议: ${p.suggested_solution.substring(0,60)}</span>`:''}
+          ${p.created_at?`<span class="text-[9px] text-gray-700">${new Date(p.created_at).toLocaleDateString('zh-CN')}</span>`:''}
+        </div>
+        ${p.user_solution?`<div class="text-[10px] text-emerald-400 mt-1 bg-emerald-500/5 px-2 py-1 rounded">✅ 解决方案: ${p.user_solution}</div>`:''}
+      </div>
+      <div class="flex flex-col gap-1 shrink-0">
+        ${p.status==='open'?`<button onclick="solveProblem(${p.id})" class="px-2.5 py-1 text-[10px] bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg">✅ 解决</button>`:''}
+        ${p.status!=='open'&&p.status!=='resolved'?`<button onclick="solveProblem(${p.id})" class="px-2.5 py-1 text-[10px] bg-emerald-600/80 hover:bg-emerald-500 text-white rounded-lg">✅ 解决</button>`:''}
+      </div>
+      </div></div>`;
+  });
+  h+='</div>';
+  return h;
+}
+
+// ====== WORKFLOWS ======
+function render_workflows(){
+  const typeC={system:'bg-gray-600',glm5:'bg-blue-500',glm5_turbo:'bg-cyan-500',ollama:'bg-red-500'};
+  let h=`<div class="flex items-center justify-between mb-5"><div><h2 class="text-xl font-bold text-white">工作流编排</h2><p class="text-xs text-gray-500 mt-1">可视化SKILL调用链路</p></div><button onclick="addWorkflow()" class="px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white text-xs rounded-lg">+ 新建工作流</button></div>`;
+  DATA.workflows.forEach(wf=>{
+    const pj=DATA.projects.find(x=>x.id===wf.project);
+    h+=`<div class="gl rounded-xl p-5 mb-4 ch transition">
+      <div class="flex items-center gap-2 mb-3"><h3 class="text-sm text-white font-semibold flex-1">${wf.name}</h3>
+        <span class="text-[10px] px-1.5 py-0.5 rounded ${wf.status==='active'?'bg-emerald-500/20 text-emerald-400':'bg-gray-600/20 text-gray-400'}">${wf.status==='active'?'运行中':'草稿'}</span>
+        ${pj?`<span class="text-[10px] text-gray-600">${pj.name}</span>`:''}</div>
+      <div class="flex items-center gap-1 overflow-x-auto pb-2">`;
+    const steps=wf.steps||[];
+    steps.forEach((s,i)=>{
+      h+=`<div class="flex items-center shrink-0">`;
+      h+=`<div class="gl rounded-lg px-3 py-2 text-center min-w-[100px]"><div class="w-2 h-2 rounded-full mx-auto mb-1 ${typeC[s.type]||'bg-gray-500'}"></div><div class="text-[10px] text-white font-medium">${s.skill}</div><div class="text-[8px] text-gray-600">${s.type}</div></div>`;
+      if(i<steps.length-1) h+=`<div class="text-gray-600 px-1">→</div>`;
+      h+=`</div>`;
+    });
+    h+=`</div></div>`;
+  });
+  if(!DATA.workflows.length) h+='<div class="gl rounded-xl p-8 text-center text-gray-500 text-sm">暂无工作流</div>';
+  return h;
+}
+
+// Helpers
+function pb(pct,col='bg-brand-500'){return `<div class="flex-1 h-1.5 bg-white/5 rounded-full"><div class="h-1.5 ${col} rounded-full" style="width:${pct}%"></div></div>`}
+
+// ====== CHARTS ======
+let ch={};
+function initDashCharts(){
+  if(ch.c1)ch.c1.destroy();if(ch.c2)ch.c2.destroy();
+  const e1=document.getElementById('c1');if(!e1)return;
+  ch.c1=new Chart(e1,{type:'bar',data:{labels:DATA.strategies.map(s=>s.name.split(' ')[0]),datasets:[{data:DATA.strategies.map(s=>s.pct),backgroundColor:DATA.strategies.map(s=>s.pct>=90?'rgba(16,185,129,.6)':s.pct>=75?'rgba(99,102,241,.6)':'rgba(245,158,11,.6)'),borderRadius:5,barThickness:24}]},options:{responsive:true,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:100,grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#555',font:{size:9}}},x:{grid:{display:false},ticks:{color:'#555',font:{size:9}}}}}});
+  const e2=document.getElementById('c2');if(!e2)return;
+  ch.c2=new Chart(e2,{type:'doughnut',data:{labels:DATA.projects.map(p=>p.name),datasets:[{data:DATA.projects.map(p=>p.progress),backgroundColor:DATA.projects.map(p=>p.color),borderWidth:0,spacing:2}]},options:{responsive:true,cutout:'60%',plugins:{legend:{position:'right',labels:{color:'#888',font:{size:9},padding:6,boxWidth:10}}}}});
+}
+function initModelCharts(){
+  if(ch.c3)ch.c3.destroy();if(ch.c4)ch.c4.destroy();
+  const dims=['代码生成','系统设计','算法','自治','多语言','成本','自成长','幻觉控制'];
+  const e3=document.getElementById('c3');if(!e3)return;
+  ch.c3=new Chart(e3,{type:'radar',data:{labels:dims,datasets:[{label:'本地',data:[82,75,70,40,60,95,92,80],borderColor:'#6366f1',backgroundColor:'rgba(99,102,241,.1)',pointBackgroundColor:'#6366f1'},{label:'Opus 4',data:[92,88,85,60,80,40,10,85],borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.05)',pointBackgroundColor:'#ef4444'}]},options:{responsive:true,scales:{r:{beginAtZero:true,max:100,grid:{color:'rgba(255,255,255,.05)'},ticks:{display:false},pointLabels:{color:'#888',font:{size:9}}}},plugins:{legend:{labels:{color:'#888',font:{size:10}}}}}});
+  const e4=document.getElementById('c4');if(!e4)return;
+  const top7=DATA.capabilities.slice(0,7);
+  ch.c4=new Chart(e4,{type:'bar',data:{labels:top7.map(c=>c.dim),datasets:[{label:'本地',data:top7.map(c=>c.local),backgroundColor:'rgba(99,102,241,.7)',borderRadius:3,barPercentage:.25},{label:'Opus 4',data:top7.map(c=>c.opus),backgroundColor:'rgba(239,68,68,.5)',borderRadius:3,barPercentage:.25},{label:'GPT-5',data:top7.map(c=>c.gpt5),backgroundColor:'rgba(16,185,129,.5)',borderRadius:3,barPercentage:.25}]},options:{responsive:true,indexAxis:'y',scales:{x:{beginAtZero:true,max:100,grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#555',font:{size:9}}},y:{grid:{display:false},ticks:{color:'#888',font:{size:9}}}},plugins:{legend:{labels:{color:'#888',font:{size:9}}}}}});
+}
+
+// ====== ACTIONS ======
+let modalCb=null;
+function openModal(title,body,cb){document.getElementById('modal').classList.remove('hidden');document.getElementById('mtitle').textContent=title;document.getElementById('mbody').innerHTML=body;modalCb=cb}
+function closeModal(){document.getElementById('modal').classList.add('hidden');modalCb=null}
+function saveModal(){if(modalCb)modalCb();closeModal();render()}
+
+function inp(id,label,val=''){return`<label class="block mb-3"><span class="text-xs text-gray-400">${label}</span><input id="${id}" value="${val}" class="w-full mt-1 px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-sm text-white focus:outline-none focus:border-brand-500"></label>`}
+function sel(id,label,opts,val=''){return`<label class="block mb-3"><span class="text-xs text-gray-400">${label}</span><select id="${id}" class="w-full mt-1 px-3 py-2 bg-surf-2 border border-white/10 rounded-lg text-sm text-white focus:outline-none focus:border-brand-500">${opts.map(o=>`<option value="${o[0]}" ${o[0]===val?'selected':''}>${o[1]}</option>`).join('')}</select></label>`}
+
+function addProject(){
+  openModal('新建项目',
+    inp('ap_name','项目名称')+inp('ap_desc','描述')+inp('ap_tags','标签(逗号分隔)')+sel('ap_status','状态',[['active','进行中'],['planning','规划中']]),
+    ()=>{const n=document.getElementById('ap_name').value;if(!n)return;DATA.projects.push({id:'p'+Date.now(),name:n,desc:document.getElementById('ap_desc').value,status:document.getElementById('ap_status').value,progress:0,color:'#'+Math.floor(Math.random()*16777215).toString(16),tags:document.getElementById('ap_tags').value.split(',').map(t=>t.trim()).filter(Boolean)});saveData()});
+}
+function editProject(id){
+  const p=DATA.projects.find(x=>x.id===id);if(!p)return;
+  const pdesc=p.desc||p.description||'';
+  openModal('编辑: '+p.name,
+    inp('ep_name','名称',p.name)+inp('ep_desc','描述',pdesc)+inp('ep_goal','终极目标',p.ultimate_goal||'')+inp('ep_short','短期目标',p.short_term_goal||'')+inp('ep_prog','进度%',p.progress)+sel('ep_status','状态',[['active','进行中'],['planning','规划中']],p.status),
+    ()=>{p.name=document.getElementById('ep_name').value;p.desc=document.getElementById('ep_desc').value;p.description=p.desc;p.ultimate_goal=document.getElementById('ep_goal').value;p.short_term_goal=document.getElementById('ep_short').value;p.progress=parseInt(document.getElementById('ep_prog').value)||0;p.status=document.getElementById('ep_status').value;saveData()});
+}
+function addDeduction(){
+  const projOpts=DATA.projects.map(p=>[p.id,p.name]);
+  const modelOpts=[['glm5','GLM-5'],['glm5_turbo','GLM-5 Turbo'],['glm47','GLM-4.7'],['ollama_local','Ollama本地']];
+  openModal('添加推演任务',
+    inp('ad_title','推演主题')+inp('ad_desc','描述')+inp('ad_laws','ULDS规律(如L1+L4)')+inp('ad_strat','超越策略(如S4+S7)')+sel('ad_pri','优先级',[['critical','紧急'],['high','高'],['medium','中']])+sel('ad_model','推演模型',modelOpts)+sel('ad_proj','所属项目',projOpts),
+    ()=>{const t=document.getElementById('ad_title').value;if(!t)return;DATA.deductions.push({id:'d'+Date.now(),title:t,desc:document.getElementById('ad_desc').value,priority:document.getElementById('ad_pri').value,status:'queued',laws:document.getElementById('ad_laws').value,strategies:document.getElementById('ad_strat').value,model:document.getElementById('ad_model').value,project:document.getElementById('ad_proj').value});saveData()});
+}
+function toggleDedStatus(id){const d=DATA.deductions.find(x=>x.id===id);if(!d)return;d.status=d.status==='queued'?'running':d.status==='running'?'done':'queued';saveData();render()}
+function removeDed(id){DATA.deductions=DATA.deductions.filter(d=>d.id!==id);saveData();render()}
+
+function addTodo(){
+  const projOpts=DATA.projects.map(p=>[p.id,p.name]);
+  openModal('添加任务',
+    inp('at_title','任务名称')+sel('at_pri','优先级',[['high','高'],['medium','中'],['low','低']])+sel('at_proj','所属项目',projOpts),
+    ()=>{const t=document.getElementById('at_title').value;if(!t)return;DATA.todos.push({id:'t'+Date.now(),title:t,status:'pending',priority:document.getElementById('at_pri').value,project:document.getElementById('at_proj').value});saveData()});
+}
+function cycleTodo(id){const t=DATA.todos.find(x=>x.id===id);if(!t)return;t.status=t.status==='pending'?'progress':t.status==='progress'?'done':'pending';saveData();render()}
+
+function filterDed(f){document.querySelectorAll('.dd').forEach(el=>{el.style.display=(f==='all'||el.dataset.pri===f)?'':'none'});document.querySelectorAll('.df').forEach(b=>{b.classList.toggle('text-white',b.dataset.f===f);b.classList.toggle('bg-brand-600/30',b.dataset.f===f)})}
+function filterDedProj(pid){document.querySelectorAll('.dd').forEach(el=>{el.style.display=(pid==='all'||el.dataset.proj===pid)?'':'none'})}
+function toggleModel(id){const m=DATA.models.find(x=>x.id===id);if(m)m.enabled=!m.enabled;saveData();render()}
+function filterSkills(){const q=(document.getElementById('ssearch')?.value||'').toLowerCase();document.querySelectorAll('.sk').forEach(el=>{el.style.display=(!q||el.dataset.kw.toLowerCase().includes(q))?'':'none'})}
+
+// Problem actions (API-backed)
+function addProblem(){
+  const projects=window._pbProjects.length?window._pbProjects:DATA.projects;
+  const projOpts=projects.map(p=>[p.id,p.name]);
+  // 默认选中予人玫瑰
+  openModal('新增问题',
+    inp('pp_title','问题标题')+inp('pp_desc','问题描述(可选)')+sel('pp_sev','严重程度',[['critical','严重'],['high','高'],['medium','中'],['low','低']],'medium')+sel('pp_proj','所属项目',projOpts,window._pbProjFilter||'p_rose'),
+    async()=>{
+      const t=document.getElementById('pp_title').value;
+      if(!t){alert('请输入问题标题');return}
+      const res=await pbApi('POST','/api/problems',{
+        title:t,
+        description:document.getElementById('pp_desc').value,
+        severity:document.getElementById('pp_sev').value,
+        project_id:document.getElementById('pp_proj').value
+      });
+      if(res.error){alert(res.error);return}
+      closeModal();await pbRefresh();render();
+    });
+}
+function solveProblem(id){
+  const p=window._pbProblems.find(x=>x.id===id);
+  if(!p)return;
+  openModal(`解决问题 #${id}`,
+    `<div class="text-xs text-white mb-2">${p.title}</div>`
+    +inp('sp_sol','解决方案',p.user_solution||''),
+    async()=>{
+      const sol=document.getElementById('sp_sol').value;
+      if(!sol){alert('请输入解决方案');return}
+      const res=await pbApi('POST','/api/problems/'+id+'/resolve',{solution:sol});
+      if(res.error){alert(res.error);return}
+      closeModal();await pbRefresh();render();
+    });
+}
+
+// Queue settings
+function showQueueSettings(){
+  const qs=DATA.queue_settings||{};
+  const projOpts=[['','无(默认优先级)']].concat(DATA.projects.map(p=>[p.id,p.name]));
+  openModal('推演队列设定',
+    sel('qs_proj','优先推演项目',projOpts,qs.priority_project||'')
+    +sel('qs_pos','新问题产生的计划位置',[['append','追加到队列末尾'],['prepend','优先推演(插入队首)']],qs.new_problems_position||'append')
+    +sel('qs_expand','自动拓展推演方向',[['1','开启'],['0','关闭']],String(qs.auto_expand||1))
+    +inp('qs_max','每计划最大拓展数',qs.max_expand_per_plan||3)
+    +sel('qs_order','推演排序',[['priority','按优先级'],['project','按项目'],['created','按创建时间']],qs.deduction_order||'priority'),
+    ()=>{DATA.queue_settings={id:'default',priority_project:document.getElementById('qs_proj').value||null,new_problems_position:document.getElementById('qs_pos').value,auto_expand:parseInt(document.getElementById('qs_expand').value),max_expand_per_plan:parseInt(document.getElementById('qs_max').value)||3,deduction_order:document.getElementById('qs_order').value};saveData()});
+}
+
+// Workflow actions
+function addWorkflow(){
+  const projOpts=DATA.projects.map(p=>[p.id,p.name]);
+  openModal('新建工作流',
+    inp('wf_name','工作流名称')+inp('wf_steps','步骤(逗号分隔skill名)')+sel('wf_proj','所属项目',projOpts),
+    ()=>{const n=document.getElementById('wf_name').value;if(!n)return;const steps=document.getElementById('wf_steps').value.split(',').map((s,i)=>({id:'s'+(i+1),skill:s.trim(),type:'glm5'}));DATA.workflows.push({id:'wf'+Date.now(),name:n,project:document.getElementById('wf_proj').value,steps,status:'draft'});saveData()});
+}
+
+// ====== WECHAT GATEWAY ======
+const WX_API=location.port==='8890'?'':('http://localhost:8890');
+window._wxGateways=[];
+async function wxApi(method,path,body){
+  try{
+    const opts={method,headers:{'Content-Type':'application/json'}};
+    if(body)opts.body=JSON.stringify(body);
+    const r=await fetch(WX_API+'/api/gateways'+path,opts);
+    return await r.json();
+  }catch(e){return {error:'API不可用,请先启动: python3 scripts/wechat_manager.py'}}
+}
+async function wxFetchData(){
+  const data=await wxApi('GET','');
+  if(Array.isArray(data)){window._wxGateways=data}
+}
+async function wxRefresh(){
+  await wxFetchData();
+  if(curPage==='wechat')render();
+}
+async function wxCreate(){
+  openModal('创建微信网关',
+    inp('wx_name','网关名称(如: 我的助手)'),
+    async()=>{
+      const n=document.getElementById('wx_name').value;
+      if(!n)return;
+      await wxApi('POST','',{name:n});
+      closeModal();await wxRefresh();
+    });
+}
+async function wxDelete(id){if(confirm('确定删除此网关?')){await wxApi('DELETE','/'+id);await wxRefresh()}}
+async function wxRename(id){
+  const gw=window._wxGateways.find(g=>g.id===id);
+  openModal('重命名网关',
+    inp('wx_rn',gw?gw.name:''),
+    async()=>{
+      const n=document.getElementById('wx_rn').value;
+      if(!n)return;
+      await wxApi('POST','/'+id+'/rename',{name:n});
+      closeModal();await wxRefresh();
+    });
+}
+async function wxGetQR(id){
+  const el=document.getElementById('qr_'+id);
+  if(el)el.innerHTML='<div class="text-xs text-yellow-400 pd">正在获取二维码...</div>';
+  const data=await wxApi('GET','/'+id+'/qrcode');
+  if(data.error){
+    if(el)el.innerHTML=`<div class="text-xs text-red-400">${data.error}</div>`;
+    return;
+  }
+  if(el&&data.qrcode_url){
+    el.innerHTML=`<div class="text-center"><div class="text-xs text-emerald-400 mb-2">请用微信扫描二维码</div><div class="bg-white p-2 rounded-lg inline-block"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(data.qrcode_url)}" class="w-48 h-48"/></div><div class="text-[10px] text-gray-500 mt-2 break-all max-w-xs">${data.qrcode_url}</div><div class="text-[10px] text-yellow-400 mt-1 pd">等待扫码确认...</div></div>`;
+    // 轮询状态直到成功(只更新数据,不重渲染页面)
+    let polls=0;
+    const poll=setInterval(async()=>{
+      polls++;if(polls>60){clearInterval(poll);return}
+      await wxFetchData();
+      const gw=window._wxGateways.find(g=>g.id===id);
+      if(gw&&gw.status!=='qrcode'){clearInterval(poll);render()}
+    },3000);
+  }
+}
+async function wxStart(id){await wxApi('POST','/'+id+'/start');await wxRefresh()}
+async function wxStop(id){await wxApi('POST','/'+id+'/stop');await wxRefresh()}
+
+function render_wechat(){
+  const gws=window._wxGateways||[];
+  const stColor={'running':'bg-emerald-500','stopped':'bg-gray-600','qrcode':'bg-yellow-500','error':'bg-red-500'};
+  const stLabel={'running':'运行中','stopped':'已停止','qrcode':'等待扫码','error':'异常'};
+  const stText={'running':'text-emerald-400','stopped':'text-gray-400','qrcode':'text-yellow-400','error':'text-red-400'};
+
+  let h=`<div class="flex items-center justify-between mb-5">
+    <div><h2 class="text-xl font-bold text-white">微信网关管理</h2>
+    <p class="text-xs text-gray-500 mt-1">基于腾讯 iLink 协议直连 · ${gws.length} 个网关</p></div>
+    <div class="flex gap-2">
+      <button onclick="wxRefresh()" class="px-3 py-1.5 text-gray-400 hover:text-white text-xs rounded-lg border border-white/10 hover:border-white/20">刷新</button>
+      <button onclick="wxCreate()" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs rounded-lg">+ 新建网关</button>
+    </div>
+  </div>`;
+
+  if(!gws.length){
+    h+=`<div class="gl rounded-xl p-8 text-center">
+      <div class="text-4xl mb-3">💬</div>
+      <div class="text-white font-semibold mb-2">尚未创建微信网关</div>
+      <p class="text-xs text-gray-500 mb-4">点击"新建网关"创建一个,然后扫码绑定微信账号</p>
+      <button onclick="wxCreate()" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-sm rounded-lg">创建第一个网关</button>
+      <div class="mt-6 text-[10px] text-gray-600">确保已启动管理服务: <code class="bg-white/5 px-1.5 py-0.5 rounded">python3 scripts/wechat_manager.py</code></div>
+    </div>`;
+    return h;
+  }
+
+  h+=`<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">`;
+  gws.forEach(gw=>{
+    const sc=stColor[gw.status]||'bg-gray-600';
+    const sl=stLabel[gw.status]||gw.status;
+    const st=stText[gw.status]||'text-gray-400';
+
+    h+=`<div class="gl rounded-xl p-5 ch transition">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 rounded-xl bg-emerald-600/20 flex items-center justify-center text-xl">💬</div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2">
+            <h3 class="text-white font-semibold text-sm">${gw.name}</h3>
+            <button onclick="wxRename('${gw.id}')" class="text-gray-600 hover:text-gray-400">${ic('M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z','w-3 h-3')}</button>
+          </div>
+          <div class="flex items-center gap-1.5 mt-0.5"><span class="w-1.5 h-1.5 rounded-full ${sc} ${gw.status==='running'?'pd':''}"></span><span class="text-[10px] ${st}">${sl}</span></div>
+        </div>
+        <button onclick="wxDelete('${gw.id}')" class="text-gray-700 hover:text-red-400 transition" title="删除">${ic('M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16','w-4 h-4')}</button>
+      </div>
+
+      <div class="grid grid-cols-3 gap-2 mb-3 text-center">
+        <div class="bg-white/[.03] rounded-lg p-2"><div class="text-[10px] text-gray-600">消息数</div><div class="text-sm font-bold text-white">${gw.message_count||0}</div></div>
+        <div class="bg-white/[.03] rounded-lg p-2"><div class="text-[10px] text-gray-600">Token</div><div class="text-sm font-bold ${gw.has_token?'text-emerald-400':'text-gray-600'}">${gw.has_token?'已绑定':'未绑定'}</div></div>
+        <div class="bg-white/[.03] rounded-lg p-2"><div class="text-[10px] text-gray-600">最后活跃</div><div class="text-[10px] font-medium text-gray-400">${gw.last_active?new Date(gw.last_active).toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'}):'--'}</div></div>
+      </div>
+
+      ${gw.error_msg?`<div class="text-[10px] text-red-400 bg-red-400/10 rounded-lg px-3 py-1.5 mb-3">${gw.error_msg}</div>`:''}
+
+      <div id="qr_${gw.id}" class="mb-3"></div>
+
+      <div class="flex gap-2 flex-wrap">
+        ${gw.status==='stopped'&&gw.has_token?`<button onclick="wxStart('${gw.id}')" class="flex-1 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs rounded-lg">▶ 启动</button>`:''}
+        ${gw.status==='running'?`<button onclick="wxStop('${gw.id}')" class="flex-1 px-3 py-1.5 bg-red-600/80 hover:bg-red-500 text-white text-xs rounded-lg">■ 停止</button>`:''}
+        ${!gw.has_token||gw.status==='error'?`<button onclick="wxGetQR('${gw.id}')" class="flex-1 px-3 py-1.5 bg-brand-600 hover:bg-brand-500 text-white text-xs rounded-lg">📱 获取二维码</button>`:''}
+        ${gw.status==='stopped'&&gw.has_token?`<button onclick="wxGetQR('${gw.id}')" class="px-3 py-1.5 text-gray-400 hover:text-white text-xs rounded-lg border border-white/10">重新绑定</button>`:''}
+        <button onclick="wxViewChats('${gw.id}','${gw.name}')" class="px-3 py-1.5 text-gray-400 hover:text-white text-xs rounded-lg border border-white/10 hover:border-brand-500/50">💬 对话记录</button>
+      </div>
+
+      <div class="mt-3 text-[9px] text-gray-700">ID: ${gw.id} · 创建: ${new Date(gw.created_at).toLocaleDateString('zh-CN')}</div>
+    </div>`;
+  });
+  h+=`</div>`;
+
+  h+=`<div class="mt-6 gl rounded-xl p-4">
+    <h3 class="text-xs font-semibold text-white mb-2">使用说明</h3>
+    <div class="text-[11px] text-gray-500 space-y-1">
+      <p>1. 启动管理服务: <code class="bg-white/5 px-1 rounded">python3 scripts/wechat_manager.py</code></p>
+      <p>2. 点击"新建网关"创建网关实例,设置名称</p>
+      <p>3. 点击"获取二维码",用 iOS 微信 8.0.70+ 扫码绑定(需开启 ClawBot 插件)</p>
+      <p>4. 扫码成功后点击"启动",网关开始接收消息并由 AGI 自动回复</p>
+      <p>5. 每个网关绑定一个微信号,可创建多个网关管理多个微信号</p>
+    </div>
+  </div>`;
+  return h;
+}
+
+// ====== CHAT HISTORY VIEWER ======
+window._wxChatGwId='';window._wxChatGwName='';window._wxChatUsers=[];window._wxChatCurUser='';window._wxChatMsgs=[];
+async function wxViewChats(gwId,gwName){
+  window._wxChatGwId=gwId;window._wxChatGwName=gwName;
+  window._wxChatUsers=[];window._wxChatCurUser='';window._wxChatMsgs=[];
+  const data=await wxApi('GET','/'+gwId+'/chats');
+  if(data.error){alert(data.error);return}
+  window._wxChatUsers=Array.isArray(data)?data:[];
+  _renderChatPanel();
+}
+function _renderChatPanel(){
+  const el=document.getElementById('main');
+  const users=window._wxChatUsers;
+  const cur=window._wxChatCurUser;
+  const msgs=window._wxChatMsgs;
+  let h=`<div class="p-6 fi">`;
+  h+=`<div class="flex items-center gap-3 mb-5">
+    <button onclick="go('wechat')" class="text-gray-400 hover:text-white">${ic('M10 19l-7-7m0 0l7-7m-7 7h18','w-5 h-5')}</button>
+    <div class="flex-1"><h2 class="text-xl font-bold text-white">${window._wxChatGwName} - 对话记录</h2>
+    <p class="text-xs text-gray-500 mt-0.5">${users.length} 个对话 · 数据保留3天 · 存储于 Redis</p></div>
+    <button onclick="wxRefreshChats()" class="px-3 py-1.5 text-gray-400 hover:text-white text-xs rounded-lg border border-white/10 hover:border-white/20 flex items-center gap-1">${ic('M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15','w-3.5 h-3.5')} 刷新</button>
+  </div>`;
+
+  if(!users.length){
+    h+=`<div class="gl rounded-xl p-8 text-center"><div class="text-3xl mb-2">💬</div><div class="text-gray-400">暂无对话记录</div><div class="text-[10px] text-gray-600 mt-1">网关运行后收到的消息会自动记录</div></div>`;
+    h+=`</div>`;el.innerHTML=h;return;
+  }
+
+  h+=`<div class="flex gap-4" style="height:calc(100vh - 140px)">`;
+  // 左侧用户列表
+  h+=`<div class="w-64 shrink-0 gl rounded-xl overflow-hidden flex flex-col">`;
+  h+=`<div class="p-3 border-b border-white/5 text-xs font-semibold text-gray-400">对话列表</div>`;
+  h+=`<div class="flex-1 overflow-y-auto">`;
+  users.forEach(u=>{
+    const uid=u.user_id;
+    const shortId=uid.length>12?uid.slice(0,6)+'...'+uid.slice(-4):uid;
+    const lastMsg=u.messages&&u.messages.length?u.messages[u.messages.length-1]:null;
+    const lastText=lastMsg?lastMsg.text:'';const lastTime=lastMsg?lastMsg.t:'';
+    const active=cur===uid;
+    h+=`<div onclick="wxSelectUser('${uid}')" class="px-3 py-2.5 cursor-pointer transition border-b border-white/[.03] ${active?'bg-brand-600/20 border-l-2 border-l-brand-500':'hover:bg-white/[.03]'}">
+      <div class="flex items-center justify-between">
+        <span class="text-xs ${active?'text-white font-semibold':'text-gray-300'}">${shortId}</span>
+        <span class="text-[9px] text-gray-600">${u.count||0}条</span>
+      </div>
+      <div class="text-[10px] text-gray-600 mt-0.5 truncate">${lastText?lastText.slice(0,30):''}</div>
+      ${lastTime?`<div class="text-[9px] text-gray-700 mt-0.5">${new Date(lastTime).toLocaleString('zh-CN',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}</div>`:''}
+    </div>`;
+  });
+  h+=`</div></div>`;
+
+  // 右侧消息区
+  h+=`<div class="flex-1 gl rounded-xl overflow-hidden flex flex-col">`;
+  if(!cur){
+    h+=`<div class="flex-1 flex items-center justify-center text-gray-600 text-sm">← 选择一个对话查看</div>`;
+  }else{
+    h+=`<div class="p-3 border-b border-white/5 flex items-center justify-between">
+      <div><span class="text-xs font-semibold text-white">${cur.length>20?cur.slice(0,10)+'...'+cur.slice(-6):cur}</span></div>
+      <span class="text-[10px] text-gray-600">${msgs.length} 条消息</span>
+    </div>`;
+    h+=`<div id="chat_scroll" class="flex-1 overflow-y-auto p-4 space-y-3">`;
+    msgs.forEach(m=>{
+      const isUser=m.d==='in';
+      const time=m.t?new Date(m.t).toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit',second:'2-digit'}):'';
+      if(isUser){
+        h+=`<div class="flex justify-end"><div class="max-w-[75%]"><div class="bg-brand-600/30 text-white text-xs px-3 py-2 rounded-xl rounded-tr-sm whitespace-pre-wrap">${_escHtml(m.text)}</div><div class="text-[9px] text-gray-600 mt-0.5 text-right">${time}</div></div></div>`;
+      }else{
+        h+=`<div class="flex justify-start"><div class="max-w-[75%]"><div class="bg-white/[.06] text-gray-200 text-xs px-3 py-2 rounded-xl rounded-tl-sm whitespace-pre-wrap">${_escHtml(m.text)}</div><div class="text-[9px] text-gray-600 mt-0.5">${time} · AGI</div></div></div>`;
+      }
+    });
+    h+=`</div>`;
+  }
+  h+=`</div></div>`;
+  h+=`</div>`;el.innerHTML=h;
+  // 滚动到底部
+  const sc=document.getElementById('chat_scroll');
+  if(sc)sc.scrollTop=sc.scrollHeight;
+}
+function _escHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+async function wxRefreshChats(){
+  const gwId=window._wxChatGwId;
+  if(!gwId)return;
+  const data=await wxApi('GET','/'+gwId+'/chats');
+  if(Array.isArray(data))window._wxChatUsers=data;
+  // 如果当前选中了用户,也刷新其消息
+  const cur=window._wxChatCurUser;
+  if(cur){
+    const u=data.find(x=>x.user_id===cur);
+    if(u&&u.messages)window._wxChatMsgs=u.messages;
+    else{
+      const msgs=await wxApi('GET','/'+gwId+'/chats/'+encodeURIComponent(cur)+'?limit=100');
+      window._wxChatMsgs=Array.isArray(msgs)?msgs:[];
+    }
+  }
+  _renderChatPanel();
+}
+async function wxSelectUser(uid){
+  window._wxChatCurUser=uid;
+  // 从已加载的数据中取消息
+  const u=window._wxChatUsers.find(x=>x.user_id===uid);
+  if(u&&u.messages){window._wxChatMsgs=u.messages}
+  else{
+    const data=await wxApi('GET','/'+window._wxChatGwId+'/chats/'+encodeURIComponent(uid)+'?limit=100');
+    window._wxChatMsgs=Array.isArray(data)?data:[];
+  }
+  _renderChatPanel();
+}
+
+// User login
+function loginUser(){
+  openModal('登录',
+    inp('ul_name','输入您的名字'),
+    ()=>{const n=document.getElementById('ul_name').value;if(!n)return;DATA.currentUser={name:n,id:'u'+Date.now()};saveData();updateUserBar()});
+}
+function updateUserBar(){
+  const bar=document.getElementById('user-bar');
+  if(DATA.currentUser){bar.innerHTML=`<span class="text-brand-400">${DATA.currentUser.name}</span> · <span class="cursor-pointer hover:text-white" onclick="DATA.currentUser=null;saveData();updateUserBar()">登出</span>`}
+  else{bar.innerHTML='<span class="cursor-pointer hover:text-white" onclick="loginUser()">点击登录</span>'}
+}
+
+// INIT
+async function initApp(){
+  loadSaved();
+  await loadFromDB();
+  buildNav();
+  go('dashboard');
+  updateUserBar();
+}
+initApp();
+</script>
+
+<!-- ====== 浮动 AI 对话框 ====== -->
+<div id="oc-btn" onclick="ocToggle()" title="与 OpenClaw 对话"
+  style="position:fixed;bottom:24px;right:24px;z-index:9999;
+    width:52px;height:52px;border-radius:50%;
+    background:linear-gradient(135deg,#6366f1,#8b5cf6);
+    cursor:pointer;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 4px 20px rgba(99,102,241,.5);transition:transform .2s">
+  <span style="font-size:24px">🦞</span>
+</div>
+
+<div id="oc-panel" style="display:none;position:fixed;bottom:88px;right:24px;z-index:9998;
+  width:380px;height:500px;border-radius:16px;overflow:hidden;
+  background:#1a1a2e;border:1px solid rgba(255,255,255,.1);
+  box-shadow:0 8px 40px rgba(0,0,0,.6);display:none;flex-direction:column">
+
+  <!-- 标题栏 -->
+  <div style="padding:12px 16px;background:rgba(99,102,241,.2);border-bottom:1px solid rgba(255,255,255,.08);
+    display:flex;align-items:center;justify-content:space-between">
+    <div style="display:flex;align-items:center;gap:8px">
+      <span>🦞</span>
+      <span style="color:#fff;font-size:13px;font-weight:600">OpenClaw AGI</span>
+      <span id="oc-status" style="width:7px;height:7px;border-radius:50%;background:#6b7280;display:inline-block"></span>
+    </div>
+    <button onclick="ocToggle()" style="background:none;border:none;color:#9ca3af;cursor:pointer;font-size:18px;line-height:1">×</button>
+  </div>
+
+  <!-- 消息区 -->
+  <div id="oc-msgs" style="flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px;
+    scrollbar-width:thin;scrollbar-color:#333 transparent">
+    <div style="text-align:center;color:#4b5563;font-size:11px;padding:8px 0">
+      已连接 AGI 7步链 · 知识库 45K 字
+    </div>
+  </div>
+
+  <!-- 输入区 -->
+  <div style="padding:10px;border-top:1px solid rgba(255,255,255,.08);display:flex;gap:8px">
+    <input id="oc-input" type="text" placeholder="问点什么…"
+      onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();ocSend()}"
+      style="flex:1;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);
+        border-radius:8px;padding:8px 12px;color:#fff;font-size:13px;outline:none">
+    <button onclick="ocSend()" id="oc-send-btn"
+      style="background:#6366f1;border:none;border-radius:8px;padding:8px 14px;
+        color:#fff;cursor:pointer;font-size:13px;white-space:nowrap">发送</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  const BRIDGE = 'http://127.0.0.1:9801/v1';
+  let _open = false;
+  let _history = [];
+  let _busy = false;
+
+  function ocToggle(){
+    _open = !_open;
+    const panel = document.getElementById('oc-panel');
+    panel.style.display = _open ? 'flex' : 'none';
+    if(_open){ checkBridge(); document.getElementById('oc-input').focus(); }
+  }
+  window.ocToggle = ocToggle;
+
+  async function checkBridge(){
+    const dot = document.getElementById('oc-status');
+    try{
+      const r = await fetch(BRIDGE.replace('/v1','') + '/health', {signal: AbortSignal.timeout(3000)});
+      const d = await r.json();
+      dot.style.background = d.status==='ok' ? '#10b981' : '#ef4444';
+    }catch(e){ dot.style.background = '#ef4444'; }
+  }
+
+  function addMsg(role, text){
+    const box = document.getElementById('oc-msgs');
+    const isUser = role === 'user';
+    const div = document.createElement('div');
+    div.style.cssText = `display:flex;justify-content:${isUser?'flex-end':'flex-start'}`;
+    div.innerHTML = `<div style="max-width:85%;padding:8px 12px;border-radius:${isUser?'12px 12px 2px 12px':'12px 12px 12px 2px'};
+      background:${isUser?'#6366f1':'rgba(255,255,255,.07)'};
+      color:${isUser?'#fff':'#e5e7eb'};font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word">${text}</div>`;
+    box.appendChild(div);
+    box.scrollTop = box.scrollHeight;
+    return div;
+  }
+
+  async function ocSend(){
+    if(_busy) return;
+    const inp = document.getElementById('oc-input');
+    const msg = inp.value.trim();
+    if(!msg) return;
+    inp.value = '';
+    _busy = true;
+    document.getElementById('oc-send-btn').textContent = '…';
+
+    addMsg('user', msg);
+    _history.push({role:'user', content:msg});
+
+    const thinkDiv = addMsg('assistant', '🦞 思考中…');
+
+    try{
+      const r = await fetch(BRIDGE + '/chat/completions', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({model:'agi-chain-v13', messages: _history, stream:false}),
+        signal: AbortSignal.timeout(300000)
+      });
+      const d = await r.json();
+      const reply = (d.choices||[{}])[0].message?.content || '（无响应）';
+      _history.push({role:'assistant', content:reply});
+      thinkDiv.querySelector('div').textContent = reply;
+    }catch(e){
+      thinkDiv.querySelector('div').style.color = '#ef4444';
+      thinkDiv.querySelector('div').textContent = '连接失败: ' + e.message + '\n请确认 Bridge(:9801) 已运行';
+    }
+    _busy = false;
+    document.getElementById('oc-send-btn').textContent = '发送';
+  }
+  window.ocSend = ocSend;
+})();
+</script>
+</body>
+</html>

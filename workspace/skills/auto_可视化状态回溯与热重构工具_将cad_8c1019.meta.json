@@ -1,0 +1,30 @@
+{
+  "name": "auto_可视化状态回溯与热重构工具_将cad_8c1019",
+  "file": "skills/auto_可视化状态回溯与热重构工具_将cad_8c1019.py",
+  "description": "‘可视化状态回溯与热重构工具’。将CAD的‘特征树/历史记录’概念引入Flutter状态管理。当前Flutter状态管理（如Provider/Bloc）主要关注当前状态，缺乏‘时间维度的结构化历史’。融合能力是将每一次状态变更记录为历史树上的一个‘特征节点’，允许开发者像CAD回退特征一样，直观地‘剪断’或‘修改’历史树中的某次操作，并自动触发后续状态的级联重生成，而非简单的Time-travel调试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.359852",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O2_9168",
+  "design_spec": {
+    "name": "auto_可视化状态回溯与热重构工具_将cad_8c1019",
+    "display_name": "‘可视化状态回溯与热重构工具’。将CAD的‘特征树/历史记录’概念引入Flutter状态管理。当前F",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘可视化状态回溯与热重构工具’。将CAD的‘特征树/历史记录’概念引入Flutter状态管理。当前Flutter状态管理（如Provider/Bloc）主要关注",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

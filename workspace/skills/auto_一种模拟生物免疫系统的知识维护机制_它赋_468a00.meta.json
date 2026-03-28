@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种模拟生物免疫系统的知识维护机制_它赋_468a00",
+  "file": "skills/auto_一种模拟生物免疫系统的知识维护机制_它赋_468a00.py",
+  "description": "一种模拟生物免疫系统的知识维护机制。它赋予每个认知节点‘半衰期’属性，根据外部环境变化（如GitHub commits, 新论文）和内部调用成功率动态计算节点的活性。当检测到‘概念漂移’或‘噪声’时，系统不直接删除节点，而是将其降级为‘历史存档’或触发‘自身免疫反应’（类似于数字组织相容性检查），自动生成测试用例来攻击旧知识，从而实现知识库的自我净化与更新。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.763044",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_24_P4_9415",
+  "design_spec": {
+    "name": "auto_一种模拟生物免疫系统的知识维护机制_它赋_468a00",
+    "display_name": "一种模拟生物免疫系统的知识维护机制。它赋予每个认知节点‘半衰期’属性，根据外部环境变化（如GitHu",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种模拟生物免疫系统的知识维护机制。它赋予每个认知节点‘半衰期’属性，根据外部环境变化（如GitHub commits, 新论文）和内部调用成功率动态计算节点的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_在手工艺教学对话中_如何利用大语言模型_370f89",
+  "file": "skills/auto_在手工艺教学对话中_如何利用大语言模型_370f89.py",
+  "description": "在手工艺教学对话中，如何利用大语言模型（LLM）检测人类语言中的“模糊语义指涉”（如“稍微厚一点”、“感觉不对”）并将其锚定到具体的状态空间向量？此问题解决自然语言到物理状态的映射，是人机共生的关键接口。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "nlp_cognitive",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.264090",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_45_Q2_0_4766",
+  "design_spec": {
+    "name": "auto_在手工艺教学对话中_如何利用大语言模型_370f89",
+    "display_name": "在手工艺教学对话中，如何利用大语言模型（LLM）检测人类语言中的“模糊语义指涉”（如“稍微厚一点”、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在手工艺教学对话中，如何利用大语言模型（LLM）检测人类语言中的“模糊语义指涉”（如“稍微厚一点”、“感觉不对”）并将其锚定到具体的状态空间向量？此问题解决自然",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

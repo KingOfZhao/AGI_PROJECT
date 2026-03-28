@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_自上而下拆解_过程中_如何检测并淘汰_fed102",
+  "file": "skills/auto_在_自上而下拆解_过程中_如何检测并淘汰_fed102.py",
+  "description": "在'自上而下拆解'过程中，如何检测并淘汰'伪自洽'的抽象节点？有些节点在逻辑上完美（如繁琐的形而上学概念），但在'自下而上'的实践中永远无法映射到具体感知数据。如何设计算法检测'入度极高但出度为零（或极低）'的'叶脉堵塞'现象，自动标记那些无法指导实践的空谈节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "epistemology",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.412180",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q4_0_1342",
+  "design_spec": {
+    "name": "auto_在_自上而下拆解_过程中_如何检测并淘汰_fed102",
+    "display_name": "在'自上而下拆解'过程中，如何检测并淘汰'伪自洽'的抽象节点？有些节点在逻辑上完美（如繁琐的形而上学",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'自上而下拆解'过程中，如何检测并淘汰'伪自洽'的抽象节点？有些节点在逻辑上完美（如繁琐的形而上学概念），但在'自下而上'的实践中永远无法映射到具体感知数据。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

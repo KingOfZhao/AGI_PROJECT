@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_左右跨域重叠_ai能否自动识别两_4394b2",
+  "file": "skills/auto_针对_左右跨域重叠_ai能否自动识别两_4394b2.py",
+  "description": "针对'左右跨域重叠'，AI能否自动识别两个看似无关领域的'同构结构'（Isomorphism）并生成迁移方案？例如，将'免疫系统'的防御机制迁移到'网络安全'架构中，不仅仅是比喻，而是结构化的参数映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "创新工程",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.811499",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_71_Q5_2_8925",
+  "design_spec": {
+    "name": "auto_针对_左右跨域重叠_ai能否自动识别两_4394b2",
+    "display_name": "针对'左右跨域重叠'，AI能否自动识别两个看似无关领域的'同构结构'（Isomorphism）并生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'左右跨域重叠'，AI能否自动识别两个看似无关领域的'同构结构'（Isomorphism）并生成迁移方案？例如，将'免疫系统'的防御机制迁移到'网络安全'架",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

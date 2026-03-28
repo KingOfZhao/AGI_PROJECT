@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一个跨越_物理真实_与_数字仿真_的_87d52d",
+  "file": "skills/auto_构建一个跨越_物理真实_与_数字仿真_的_87d52d.py",
+  "description": "构建一个跨越“物理真实”与“数字仿真”的闭环认知系统。不仅仅依赖大数据训练，而是利用力觉、视觉等高维传感器数据（Q1, Q2），通过对比学习（Q6）强制对齐物理实体与数字模型。引入“阻力因式”和“反仿真”机制（P5, Q10），主动寻找数字模型在物理世界中的失效点（幻觉消除），从而将模糊的物理手感转化为可计算、可复现的精确操作指令，实现从“唯心仿真”向“唯物认知”的跃迁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.369208",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_97_P1_7461",
+  "design_spec": {
+    "name": "auto_构建一个跨越_物理真实_与_数字仿真_的_87d52d",
+    "display_name": "构建一个跨越“物理真实”与“数字仿真”的闭环认知系统。不仅仅依赖大数据训练，而是利用力觉、视觉等高维",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一个跨越“物理真实”与“数字仿真”的闭环认知系统。不仅仅依赖大数据训练，而是利用力觉、视觉等高维传感器数据（Q1, Q2），通过对比学习（Q6）强制对齐物理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 252
+  }
+}

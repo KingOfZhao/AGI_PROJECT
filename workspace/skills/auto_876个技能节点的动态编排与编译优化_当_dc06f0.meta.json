@@ -1,0 +1,30 @@
+{
+  "name": "auto_876个技能节点的动态编排与编译优化_当_dc06f0",
+  "file": "skills/auto_876个技能节点的动态编排与编译优化_当_dc06f0.py",
+  "description": "876个技能节点的动态编排与编译优化：当前SKILL节点离散存在，解决问题往往需要组合。如何设计一个'认知编译器'，能将抽象目标（如'开发一款APP'）自动编译成一串依赖关系最优的SKILL执行链，并能在执行过程中根据环境反馈动态重编译？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:53.900086",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_49_Q6_2_1985",
+  "design_spec": {
+    "name": "auto_876个技能节点的动态编排与编译优化_当_dc06f0",
+    "display_name": "876个技能节点的动态编排与编译优化：当前SKILL节点离散存在，解决问题往往需要组合。如何设计一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "876个技能节点的动态编排与编译优化：当前SKILL节点离散存在，解决问题往往需要组合。如何设计一个'认知编译器'，能将抽象目标（如'开发一款APP'）自动编译",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 447
+  }
+}

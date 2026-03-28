@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_长文本逻辑一致性守护系统_将nl_d43e3a",
+  "file": "skills/auto_开发_长文本逻辑一致性守护系统_将nl_d43e3a.py",
+  "description": "开发'长文本逻辑一致性守护系统'。将NLP中的指代链转化为SSA图，利用编译器的活性分析和到达定值分析来检测文本逻辑中的漏洞（如'虽然前文未提及，但后文突然出现了这个概念'或'前后属性矛盾'）。这能赋予AI'逻辑审计'能力，识别假新闻或逻辑混乱的论述。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.576701",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_37_O2_3207",
+  "design_spec": {
+    "name": "auto_开发_长文本逻辑一致性守护系统_将nl_d43e3a",
+    "display_name": "开发'长文本逻辑一致性守护系统'。将NLP中的指代链转化为SSA图，利用编译器的活性分析和到达定值分",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'长文本逻辑一致性守护系统'。将NLP中的指代链转化为SSA图，利用编译器的活性分析和到达定值分析来检测文本逻辑中的漏洞（如'虽然前文未提及，但后文突然出现",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 259
+  }
+}

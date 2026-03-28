@@ -1,0 +1,53 @@
+{
+  "name": "自性编码链 v1",
+  "description": "优化本地模型编码能力。链式调用：CoT生成初始代码 → 自批判审查 → 多轮精炼，最终输出生产级Python代码。支持Ollama本地模型（qwen2.5-coder、llama3、deepseek-coder等）。",
+  "tags": [
+    "编码能力",
+    "链式调用",
+    "本地模型",
+    "代码生成",
+    "自批判",
+    "CoT",
+    "链式编码",
+    "编码链",
+    "代码优化",
+    "本地模型编码"
+  ],
+  "category": "coding",
+  "file": "workspace/skills/local_llm_coding_chain_v1.py",
+  "source": "local",
+  "safety_level": "safe",
+  "created_at": "2026-03-25T16:31:00.000000",
+  "forged_by": "user_skill_chain",
+  "version": "v1",
+  "design_spec": {
+    "name": "local_llm_coding_chain_v1",
+    "display_name": "自性编码链 v1",
+    "description": "链式调用本地LLM生成、批判、精炼代码，提升编码质量",
+    "functions": [
+      {
+        "name": "generate_code",
+        "purpose": "CoT链式生成初始代码",
+        "params": "task (str): 编码任务描述",
+        "returns": "str: 生成的Python代码"
+      },
+      {
+        "name": "critique_and_refine",
+        "purpose": "自批判审查并精炼代码",
+        "params": "code (str): 待审查代码",
+        "returns": "str: 优化后的代码"
+      },
+      {
+        "name": "run_full_chain",
+        "purpose": "启动完整链式调用（生成→批判→精炼×N轮）",
+        "params": "task (str): 编码任务, iterations (int): 精炼轮数",
+        "returns": "str: 最终优化代码"
+      }
+    ],
+    "dependencies": ["requests"],
+    "tags": ["编码能力", "链式调用", "本地模型"],
+    "estimated_lines": 95,
+    "chain_position": 1,
+    "chain_family": "自性技能链"
+  }
+}

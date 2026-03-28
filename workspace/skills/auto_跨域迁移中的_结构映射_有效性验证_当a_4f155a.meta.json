@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_结构映射_有效性验证_当a_4f155a",
+  "file": "skills/auto_跨域迁移中的_结构映射_有效性验证_当a_4f155a.py",
+  "description": "跨域迁移中的'结构映射'有效性验证：当AI将'小摊贩的库存管理'（源域）迁移到'大型仓储物流'（目标域）时，如何验证这种迁移不是生搬硬套？需要设计一个'结构保真度'评分算法，检测迁移后的知识图谱子图是否保持了原图的拓扑约束关系（如FIFO原则在两种场景下的结构同构性）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.703194",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q3_3_1447",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_结构映射_有效性验证_当a_4f155a",
+    "display_name": "跨域迁移中的'结构映射'有效性验证：当AI将'小摊贩的库存管理'（源域）迁移到'大型仓储物流'（目标",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的'结构映射'有效性验证：当AI将'小摊贩的库存管理'（源域）迁移到'大型仓储物流'（目标域）时，如何验证这种迁移不是生搬硬套？需要设计一个'结构保真",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

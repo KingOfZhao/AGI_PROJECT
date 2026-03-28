@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_多节奏知识代谢引擎_为不同类型的_f51e4c",
+  "file": "skills/auto_开发_多节奏知识代谢引擎_为不同类型的_f51e4c.py",
+  "description": "开发'多节奏知识代谢引擎'。为不同类型的知识节点设定不同的'节拍器'（Time Window）。例如，具体的API调用参数是'十六分音符'（极短半衰期，快速衰减），而设计模式是'全音符'（长半衰期）。系统像指挥家一样协调这些不同周期的衰减，在特定的'强拍'（Scheduled Review）进行'知识合奏'（Cross-domain collision），从而避免一刀切的遗忘机制导致的结构性失忆。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_100",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:43:01.616076",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_100_O4_5700",
+  "design_spec": {
+    "name": "auto_开发_多节奏知识代谢引擎_为不同类型的_f51e4c",
+    "display_name": "开发'多节奏知识代谢引擎'。为不同类型的知识节点设定不同的'节拍器'（Time Window）。例如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'多节奏知识代谢引擎'。为不同类型的知识节点设定不同的'节拍器'（Time Window）。例如，具体的API调用参数是'十六分音符'（极短半衰期，快速衰减",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

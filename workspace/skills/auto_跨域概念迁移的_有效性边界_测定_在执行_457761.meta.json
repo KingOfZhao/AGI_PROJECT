@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域概念迁移的_有效性边界_测定_在执行_457761",
+  "file": "skills/auto_跨域概念迁移的_有效性边界_测定_在执行_457761.py",
+  "description": "跨域概念迁移的‘有效性边界’测定：在执行‘左右跨域重叠’时，如何自动划定借用概念的适用范围？例如将‘生物进化论’迁移到‘产品迭代’时，系统需自动生成一系列‘压力测试’，确定在什么参数条件下该类比失效（如缺乏基因突变机制时）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.282147",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_47_Q5_1_2682",
+  "design_spec": {
+    "name": "auto_跨域概念迁移的_有效性边界_测定_在执行_457761",
+    "display_name": "跨域概念迁移的‘有效性边界’测定：在执行‘左右跨域重叠’时，如何自动划定借用概念的适用范围？例如将‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域概念迁移的‘有效性边界’测定：在执行‘左右跨域重叠’时，如何自动划定借用概念的适用范围？例如将‘生物进化论’迁移到‘产品迭代’时，系统需自动生成一系列‘压力",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

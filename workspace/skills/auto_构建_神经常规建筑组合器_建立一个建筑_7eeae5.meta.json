@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_神经常规建筑组合器_建立一个建筑_7eeae5",
+  "file": "skills/auto_构建_神经常规建筑组合器_建立一个建筑_7eeae5.py",
+  "description": "构建'神经常规建筑组合器'。建立一个建筑功能的'神经模块库'（如'卫生间模块'、'办公核心模块'，类似于编程中的函数库）。AI通过组合这些预训练好的、性能有保证的模块，像搭积木一样快速组装出超高层建筑或大型园区，并自动处理模块间的'接口'问题（管线、动线）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.525563",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_5_O5_7067",
+  "design_spec": {
+    "name": "auto_构建_神经常规建筑组合器_建立一个建筑_7eeae5",
+    "display_name": "构建'神经常规建筑组合器'。建立一个建筑功能的'神经模块库'（如'卫生间模块'、'办公核心模块'，类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'神经常规建筑组合器'。建立一个建筑功能的'神经模块库'（如'卫生间模块'、'办公核心模块'，类似于编程中的函数库）。AI通过组合这些预训练好的、性能有保证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 342
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_高维认知空间的拓扑结构稳定性分析_当系统_276766",
+  "file": "skills/auto_高维认知空间的拓扑结构稳定性分析_当系统_276766.py",
+  "description": "高维认知空间的拓扑结构稳定性分析：当系统节点从3943扩展至100万时，当前的认知网络拓扑是否会发生相变（Phase Transition）？需验证在节点密度增加时，'重叠固化为真实节点'的路径长度是否遵循小世界网络特性，以确保认知搜索的效率不会随规模扩大而指数级下降。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "network_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.539390",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_149_Q5_2_2045",
+  "design_spec": {
+    "name": "auto_高维认知空间的拓扑结构稳定性分析_当系统_276766",
+    "display_name": "高维认知空间的拓扑结构稳定性分析：当系统节点从3943扩展至100万时，当前的认知网络拓扑是否会发生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "高维认知空间的拓扑结构稳定性分析：当系统节点从3943扩展至100万时，当前的认知网络拓扑是否会发生相变（Phase Transition）？需验证在节点密度增",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

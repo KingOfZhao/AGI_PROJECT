@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能合并_如何验证skill节点之间的_361b0d",
+  "file": "skills/auto_技能合并_如何验证skill节点之间的_361b0d.py",
+  "description": "【技能合并】如何验证SKILL节点之间的'组合爆炸'问题是否可控？随着节点数从601增长到数万，节点间的组合可能产生天文数字级的可能性。需要验证当前的架构是否具备'剪枝'能力，即如何快速排除那些逻辑上不兼容或物理上不可行的SKILL组合，确保算力聚焦于高潜力路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "computer_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.756329",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_20_Q10_1_7887",
+  "design_spec": {
+    "name": "auto_技能合并_如何验证skill节点之间的_361b0d",
+    "display_name": "【技能合并】如何验证SKILL节点之间的'组合爆炸'问题是否可控？随着节点数从601增长到数万，节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【技能合并】如何验证SKILL节点之间的'组合爆炸'问题是否可控？随着节点数从601增长到数万，节点间的组合可能产生天文数字级的可能性。需要验证当前的架构是否具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

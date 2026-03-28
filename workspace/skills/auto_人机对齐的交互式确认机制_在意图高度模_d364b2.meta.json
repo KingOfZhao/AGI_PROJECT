@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机对齐的交互式确认机制_在意图高度模_d364b2",
+  "file": "skills/auto_人机对齐的交互式确认机制_在意图高度模_d364b2.py",
+  "description": "人机对齐的交互式确认机制: 在意图高度模糊时（如'优化一下这个函数'），系统应如何计算'模糊度分数'，并自动生成二选一或填空式的结构化问卷，引导人类进行低成本但高价值的意图细化？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "interaction_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.885292",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_48_Q7_3_999",
+  "design_spec": {
+    "name": "auto_人机对齐的交互式确认机制_在意图高度模_d364b2",
+    "display_name": "人机对齐的交互式确认机制: 在意图高度模糊时（如'优化一下这个函数'），系统应如何计算'模糊度分数'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机对齐的交互式确认机制: 在意图高度模糊时（如'优化一下这个函数'），系统应如何计算'模糊度分数'，并自动生成二选一或填空式的结构化问卷，引导人类进行低成本但",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 270
+  }
+}

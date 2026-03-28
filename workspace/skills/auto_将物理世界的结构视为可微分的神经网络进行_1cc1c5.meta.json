@@ -1,0 +1,30 @@
+{
+  "name": "auto_将物理世界的结构视为可微分的神经网络进行_1cc1c5",
+  "file": "skills/auto_将物理世界的结构视为可微分的神经网络进行_1cc1c5.py",
+  "description": "将物理世界的结构视为可微分的神经网络进行优化。该模式结合了生成式AI的创造力与物理定律的约束力，利用深度学习中的‘反向传播’思想，直接对建筑形态、机器人控制策略等物理参数进行微分求解。它通过微观的过程-结果反馈（TD算法）来调整宏观的物理构型，实现了从‘设计’到‘演化’的范式转变。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_137",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:30:43.023503",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_137_P5_2021",
+  "design_spec": {
+    "name": "auto_将物理世界的结构视为可微分的神经网络进行_1cc1c5",
+    "display_name": "将物理世界的结构视为可微分的神经网络进行优化。该模式结合了生成式AI的创造力与物理定律的约束力，利用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将物理世界的结构视为可微分的神经网络进行优化。该模式结合了生成式AI的创造力与物理定律的约束力，利用深度学习中的‘反向传播’思想，直接对建筑形态、机器人控制策略",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 329
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生清单验证_验证_ai梳理实践清_80637f",
+  "file": "skills/auto_人机共生清单验证_验证_ai梳理实践清_80637f.py",
+  "description": "【人机共生清单验证】验证'AI梳理实践清单'的质量。给定一个模糊的人类实践目标（如'我想提高团队的代码质量'），AI生成的清单不能是通用建议（如'多写注释'），而必须是映射到具体Skill或Node的可执行动作（如'执行Skill_ID:Lint_Checker_Frequency_Modifier'）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "management",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.427662",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_79_Q6_0_9455",
+  "design_spec": {
+    "name": "auto_人机共生清单验证_验证_ai梳理实践清_80637f",
+    "display_name": "【人机共生清单验证】验证'AI梳理实践清单'的质量。给定一个模糊的人类实践目标（如'我想提高团队的代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生清单验证】验证'AI梳理实践清单'的质量。给定一个模糊的人类实践目标（如'我想提高团队的代码质量'），AI生成的清单不能是通用建议（如'多写注释'），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

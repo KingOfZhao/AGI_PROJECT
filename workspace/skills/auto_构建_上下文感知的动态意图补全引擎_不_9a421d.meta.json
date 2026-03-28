@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_上下文感知的动态意图补全引擎_不_9a421d",
+  "file": "skills/auto_构建_上下文感知的动态意图补全引擎_不_9a421d.py",
+  "description": "构建‘上下文感知的动态意图补全引擎’。不同于传统的Slot Filling，该能力引入‘实践权重’机制。当解析模糊指令时，系统会根据‘最近实践记录’和‘环境约束’自动填充缺失参数。例如，解析‘修一下那个bug’时，结合光标位置、最近日志报错和开发者画像，自动生成包含文件路径、行号的精准JSON，而不仅仅是字面解析。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.528030",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_55_O1_9984",
+  "design_spec": {
+    "name": "auto_构建_上下文感知的动态意图补全引擎_不_9a421d",
+    "display_name": "构建‘上下文感知的动态意图补全引擎’。不同于传统的Slot Filling，该能力引入‘实践权重’机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘上下文感知的动态意图补全引擎’。不同于传统的Slot Filling，该能力引入‘实践权重’机制。当解析模糊指令时，系统会根据‘最近实践记录’和‘环境约束",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 460
+  }
+}

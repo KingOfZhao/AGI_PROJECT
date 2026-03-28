@@ -1,0 +1,30 @@
+{
+  "name": "auto_神经信号_触觉映射_针对无法通过视觉观_2ef16a",
+  "file": "skills/auto_神经信号_触觉映射_针对无法通过视觉观_2ef16a.py",
+  "description": "【神经信号-触觉映射】针对无法通过视觉观测的‘手感’（如揉面团时的粘滞感），如何建立EMG（肌电信号）或fNIRS（脑血氧信号）与触觉传感器数据之间的映射函数？目标是构建一个‘触觉幽灵’模型，使AI仅凭生物信号就能推断当前操作的物理状态（如材料湿度、粘度）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "neuroscience",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.725480",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q2_2_8819",
+  "design_spec": {
+    "name": "auto_神经信号_触觉映射_针对无法通过视觉观_2ef16a",
+    "display_name": "【神经信号-触觉映射】针对无法通过视觉观测的‘手感’（如揉面团时的粘滞感），如何建立EMG（肌电信号",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【神经信号-触觉映射】针对无法通过视觉观测的‘手感’（如揉面团时的粘滞感），如何建立EMG（肌电信号）或fNIRS（脑血氧信号）与触觉传感器数据之间的映射函数？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 338
+  }
+}

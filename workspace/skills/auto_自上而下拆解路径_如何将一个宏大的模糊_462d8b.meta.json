@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解路径_如何将一个宏大的模糊_462d8b",
+  "file": "skills/auto_自上而下拆解路径_如何将一个宏大的模糊_462d8b.py",
+  "description": "【自上而下拆解路径】如何将一个宏大的模糊目标（如‘解决气候变化’）自动拆解为至少包含现有588个技能节点路径的‘可执行实践清单’？关键在于解决‘语义粒度’的不匹配问题——宏大目标通常是抽象的，而技能节点是具体的。需要开发一个递归式的意图识别与任务分解引擎，直到分解出的子任务能直接映射到现有的Skill ID上。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "agi_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.685829",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_27_Q4_0_8930",
+  "design_spec": {
+    "name": "auto_自上而下拆解路径_如何将一个宏大的模糊_462d8b",
+    "display_name": "【自上而下拆解路径】如何将一个宏大的模糊目标（如‘解决气候变化’）自动拆解为至少包含现有588个技能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下拆解路径】如何将一个宏大的模糊目标（如‘解决气候变化’）自动拆解为至少包含现有588个技能节点路径的‘可执行实践清单’？关键在于解决‘语义粒度’的不匹",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 459
+  }
+}

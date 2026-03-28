@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图形式化与本体映射_如何构建一个动态_b5b5e2",
+  "file": "skills/auto_意图形式化与本体映射_如何构建一个动态_b5b5e2.py",
+  "description": "意图形式化与本体映射: 如何构建一个动态本体映射器，将高维、模糊的人类自然语言意图（如'做一个好用的后台'）实时转化为低维、结构化的中间表示（IR）？这需要解决自然语言中的省略、歧义和多义性问题，生成无歧义的逻辑结构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "nlp_ontology",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.876442",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_48_Q1_3_999",
+  "design_spec": {
+    "name": "auto_意图形式化与本体映射_如何构建一个动态_b5b5e2",
+    "display_name": "意图形式化与本体映射: 如何构建一个动态本体映射器，将高维、模糊的人类自然语言意图（如'做一个好用的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "意图形式化与本体映射: 如何构建一个动态本体映射器，将高维、模糊的人类自然语言意图（如'做一个好用的后台'）实时转化为低维、结构化的中间表示（IR）？这需要解决",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

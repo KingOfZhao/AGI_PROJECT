@@ -1,0 +1,30 @@
+{
+  "name": "auto_死锁检测与自我解耦_在解决复杂问题时_d7b75b",
+  "file": "skills/auto_死锁检测与自我解耦_在解决复杂问题时_d7b75b.py",
+  "description": "【死锁检测与自我解耦】在解决复杂问题时，AI可能会陷入两个相互矛盾的节点之间（如'性能优化'要求减少计算，'功能丰富'要求增加计算）。验证AI是否具备'仲裁机制'，能主动识别这种死锁，并引入第三方维度（如'成本预算'或'用户优先级'）来打破僵局。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "decision_making",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.140137",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_49_Q10_0_3535",
+  "design_spec": {
+    "name": "auto_死锁检测与自我解耦_在解决复杂问题时_d7b75b",
+    "display_name": "【死锁检测与自我解耦】在解决复杂问题时，AI可能会陷入两个相互矛盾的节点之间（如'性能优化'要求减少",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【死锁检测与自我解耦】在解决复杂问题时，AI可能会陷入两个相互矛盾的节点之间（如'性能优化'要求减少计算，'功能丰富'要求增加计算）。验证AI是否具备'仲裁机制",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 238
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_将_情境感知的动态配方引擎_的环境敏感性_5c29cd",
+  "file": "skills/auto_将_情境感知的动态配方引擎_的环境敏感性_5c29cd.py",
+  "description": "将'情境感知的动态配方引擎'的环境敏感性与'实践清单生成与闭环'的规划能力结合。当环境参数（如温度、网络延迟）发生漂移时，任务本身能像量子态一样发生坍缩或形变，自动从高精度模式切换为鲁棒模式（例如：网络好时用GPT-4，网络差时自动降级为本地Llama并简化任务逻辑），实现任务对环境的完美适应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.517294",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_22_E4_5377",
+  "design_spec": {
+    "name": "auto_将_情境感知的动态配方引擎_的环境敏感性_5c29cd",
+    "display_name": "将'情境感知的动态配方引擎'的环境敏感性与'实践清单生成与闭环'的规划能力结合。当环境参数（如温度、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将'情境感知的动态配方引擎'的环境敏感性与'实践清单生成与闭环'的规划能力结合。当环境参数（如温度、网络延迟）发生漂移时，任务本身能像量子态一样发生坍缩或形变，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 245
+  }
+}

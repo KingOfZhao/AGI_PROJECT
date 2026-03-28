@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_矢量化手势交互层_将cad的精确_c83b90",
+  "file": "skills/auto_创建_矢量化手势交互层_将cad的精确_c83b90.py",
+  "description": "创建'矢量化手势交互层'。将CAD的精确绘图能力赋予Flutter的手势交互。用户在屏幕上的手势（如双指缩放、Apple Pencil绘制）不再只是简单的View变换，而是实时生成或修改底层的2D Sketch Path。结合AI识别手绘意图，自动规整为工程几何线（如识别抖动手绘为直线或圆），并支持实时的布尔切割预览。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.053506",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_127_O4_653",
+  "design_spec": {
+    "name": "auto_创建_矢量化手势交互层_将cad的精确_c83b90",
+    "display_name": "创建'矢量化手势交互层'。将CAD的精确绘图能力赋予Flutter的手势交互。用户在屏幕上的手势（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'矢量化手势交互层'。将CAD的精确绘图能力赋予Flutter的手势交互。用户在屏幕上的手势（如双指缩放、Apple Pencil绘制）不再只是简单的Vie",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义结构映射_如何从现有2780个节点_1c2aa9",
+  "file": "skills/auto_语义结构映射_如何从现有2780个节点_1c2aa9.py",
+  "description": "【语义结构映射】如何从现有2780个节点中提取高维拓扑特征，建立一个无监督的'认知流形'投影机制？该机制需将不同领域的节点（如'烹饪火候'与'冶金控温'）映射到同一高维空间的相邻区域，使得物理属性不同但'认知结构/操作逻辑'相似的节点在空间上重叠，从而在数学层面构建跨域迁移的第一步。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "representation_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.773847",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_109_Q1_1_8011",
+  "design_spec": {
+    "name": "auto_语义结构映射_如何从现有2780个节点_1c2aa9",
+    "display_name": "【语义结构映射】如何从现有2780个节点中提取高维拓扑特征，建立一个无监督的'认知流形'投影机制？该",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义结构映射】如何从现有2780个节点中提取高维拓扑特征，建立一个无监督的'认知流形'投影机制？该机制需将不同领域的节点（如'烹饪火候'与'冶金控温'）映射到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 317
+  }
+}

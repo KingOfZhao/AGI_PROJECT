@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_数字孪生语义双模态视图_在flu_ba8146",
+  "file": "skills/auto_构建_数字孪生语义双模态视图_在flu_ba8146.py",
+  "description": "构建'数字孪生语义双模态视图'。在Flutter应用中，可以一键切换'视觉渲染模式'和'PMI语义模式'。在语义模式下，界面不仅仅显示形状，而是通过AR或高亮显示零件的公差、材料属性、加工工艺要求。系统可以根据用户的角色（设计师/加工师傅）自动朗读或展示相关的制造语义，实现'可读'的3D模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.054280",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_127_O5_653",
+  "design_spec": {
+    "name": "auto_构建_数字孪生语义双模态视图_在flu_ba8146",
+    "display_name": "构建'数字孪生语义双模态视图'。在Flutter应用中，可以一键切换'视觉渲染模式'和'PMI语义模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'数字孪生语义双模态视图'。在Flutter应用中，可以一键切换'视觉渲染模式'和'PMI语义模式'。在语义模式下，界面不仅仅显示形状，而是通过AR或高亮显",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

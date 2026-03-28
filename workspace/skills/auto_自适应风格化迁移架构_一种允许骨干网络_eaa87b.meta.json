@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应风格化迁移架构_一种允许骨干网络_eaa87b",
+  "file": "skills/auto_自适应风格化迁移架构_一种允许骨干网络_eaa87b.py",
+  "description": "【自适应风格化迁移架构】一种允许骨干网络保持高泛化能力（结构安全），同时根据输入数据动态生成'表皮'网络参数的机制。不同于传统的Fine-tuning，这里引入'参数表皮层'，根据上下文（如时间、地点、用户画像）像更换幕墙一样实时置换网络的前端处理逻辑，而无需重新训练核心骨干。实现'一处骨架，千面表皮'的动态部署。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.914144",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_46_O4_614",
+  "design_spec": {
+    "name": "auto_自适应风格化迁移架构_一种允许骨干网络_eaa87b",
+    "display_name": "【自适应风格化迁移架构】一种允许骨干网络保持高泛化能力（结构安全），同时根据输入数据动态生成'表皮'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自适应风格化迁移架构】一种允许骨干网络保持高泛化能力（结构安全），同时根据输入数据动态生成'表皮'网络参数的机制。不同于传统的Fine-tuning，这里引入",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 450
+  }
+}

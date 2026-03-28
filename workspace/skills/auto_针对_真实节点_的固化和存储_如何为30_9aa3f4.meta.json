@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_真实节点_的固化和存储_如何为30_9aa3f4",
+  "file": "skills/auto_针对_真实节点_的固化和存储_如何为30_9aa3f4.py",
+  "description": "针对'真实节点'的固化和存储：如何为3052个节点设计'动态置信度权重'系统？每个节点不应是静态的，而应随时间衰减（模拟人类记忆的遗忘曲线），仅当被'人机共生'实践反复验证时才获得权重加成。需设计一个类似PageRank的'TruthRank'算法，实践验证的链接权重高于理论推导的链接权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.669356",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_121_Q5_3_9395",
+  "design_spec": {
+    "name": "auto_针对_真实节点_的固化和存储_如何为30_9aa3f4",
+    "display_name": "针对'真实节点'的固化和存储：如何为3052个节点设计'动态置信度权重'系统？每个节点不应是静态的，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'真实节点'的固化和存储：如何为3052个节点设计'动态置信度权重'系统？每个节点不应是静态的，而应随时间衰减（模拟人类记忆的遗忘曲线），仅当被'人机共生'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 328
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态_微观动作流对齐_针对手工艺_如_76f35c",
+  "file": "skills/auto_多模态_微观动作流对齐_针对手工艺_如_76f35c.py",
+  "description": "【多模态-微观动作流对齐】针对手工艺（如陶艺拉坯）中的隐性力控知识，构建时空特征提取模型。如何将视频的视觉流（手部形变）与IMU传感器的高频力学数据流（加速度/角速度）进行毫秒级对齐，并映射到‘手势-力度’的联合嵌入空间？此问题是将非结构化物理动作转化为可计算向量的基础。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.222127",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_85_Q1_0_8135",
+  "design_spec": {
+    "name": "auto_多模态_微观动作流对齐_针对手工艺_如_76f35c",
+    "display_name": "【多模态-微观动作流对齐】针对手工艺（如陶艺拉坯）中的隐性力控知识，构建时空特征提取模型。如何将视频",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态-微观动作流对齐】针对手工艺（如陶艺拉坯）中的隐性力控知识，构建时空特征提取模型。如何将视频的视觉流（手部形变）与IMU传感器的高频力学数据流（加速度/",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 349
+  }
+}

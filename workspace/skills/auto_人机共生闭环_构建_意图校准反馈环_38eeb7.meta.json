@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生闭环_构建_意图校准反馈环_38eeb7",
+  "file": "skills/auto_人机共生闭环_构建_意图校准反馈环_38eeb7.py",
+  "description": "【人机共生闭环】构建“意图校准反馈环”：当代码执行结果与用户隐含意图存在偏差时，如何通过最小化的人机交互（如A/B选项选择）快速修正意图模型，而不是重新生成代码？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "人机交互/HCI",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.543546",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_83_Q8_3_1688",
+  "design_spec": {
+    "name": "auto_人机共生闭环_构建_意图校准反馈环_38eeb7",
+    "display_name": "【人机共生闭环】构建“意图校准反馈环”：当代码执行结果与用户隐含意图存在偏差时，如何通过最小化的人机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生闭环】构建“意图校准反馈环”：当代码执行结果与用户隐含意图存在偏差时，如何通过最小化的人机交互（如A/B选项选择）快速修正意图模型，而不是重新生成代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 321
+  }
+}

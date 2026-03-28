@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知范式无损压缩引擎_该能力能识_9c2c7b",
+  "file": "skills/auto_开发_认知范式无损压缩引擎_该能力能识_9c2c7b.py",
+  "description": "开发'认知范式无损压缩引擎'。该能力能识别用户思维中的'高度范式化'区域（即刻板印象或教条），通过引入'反范式化'的认知冲击（即新异信息），打破低能耗的认知闭环，迫使大脑进行'连接查询'（深度思考），从而在保证思维活跃度的前提下，实现认知结构的无损耗扩容。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.328214",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O1_945",
+  "design_spec": {
+    "name": "auto_开发_认知范式无损压缩引擎_该能力能识_9c2c7b",
+    "display_name": "开发'认知范式无损压缩引擎'。该能力能识别用户思维中的'高度范式化'区域（即刻板印象或教条），通过引",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知范式无损压缩引擎'。该能力能识别用户思维中的'高度范式化'区域（即刻板印象或教条），通过引入'反范式化'的认知冲击（即新异信息），打破低能耗的认知闭环",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

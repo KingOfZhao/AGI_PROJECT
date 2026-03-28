@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_代谢抑制型认知重构协议_agi在_edff03",
+  "file": "skills/auto_构建_代谢抑制型认知重构协议_agi在_edff03.py",
+  "description": "构建'代谢抑制型认知重构协议'。AGI在检测到资源（Token/时间/算力）低于警戒线时，自动触发'胁迫响应'，主动卸载高耗能的长链逻辑推理节点，降级为低耗能的直觉式反应（System 1）或缓存读取模式。这不仅是优先级排序，更是一种'器官级'的功能休眠与重组，确保核心目标（生存/主任务）的持续运行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.449105",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O3_6398",
+  "design_spec": {
+    "name": "auto_构建_代谢抑制型认知重构协议_agi在_edff03",
+    "display_name": "构建'代谢抑制型认知重构协议'。AGI在检测到资源（Token/时间/算力）低于警戒线时，自动触发'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'代谢抑制型认知重构协议'。AGI在检测到资源（Token/时间/算力）低于警戒线时，自动触发'胁迫响应'，主动卸载高耗能的长链逻辑推理节点，降级为低耗能的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

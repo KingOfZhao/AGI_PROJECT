@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点的_情境边界_界定_隐性知识高_261a7d",
+  "file": "skills/auto_真实节点的_情境边界_界定_隐性知识高_261a7d.py",
+  "description": "【真实节点的‘情境边界’界定】隐性知识高度依赖情境（如‘阴天烧窑要加火’）。如何为每一个固化下来的‘真实节点’（如温度控制曲线）构建一个‘有效性边界检测器’，使其能自动判断当前环境参数（湿度、气温、材料批次）是否超出了该知识节点的适用范围，从而防止错误应用？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.727765",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q6_2_8819",
+  "design_spec": {
+    "name": "auto_真实节点的_情境边界_界定_隐性知识高_261a7d",
+    "display_name": "【真实节点的‘情境边界’界定】隐性知识高度依赖情境（如‘阴天烧窑要加火’）。如何为每一个固化下来的‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点的‘情境边界’界定】隐性知识高度依赖情境（如‘阴天烧窑要加火’）。如何为每一个固化下来的‘真实节点’（如温度控制曲线）构建一个‘有效性边界检测器’，使",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

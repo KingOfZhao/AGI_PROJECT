@@ -1,0 +1,30 @@
+{
+  "name": "auto_发明_文脉感知参数冻结_不同于简单的冻_bf6cac",
+  "file": "skills/auto_发明_文脉感知参数冻结_不同于简单的冻_bf6cac.py",
+  "description": "发明‘文脉感知参数冻结’。不同于简单的冻结底层、微调顶层，该方法借鉴建筑的地基与上部结构关系。对于与‘环境’（数据分布）强相关的参数（如BatchNorm的统计量，类似建筑的围护结构），即使是在浅层也进行激进更新；而对于提取普适真理的参数（如几何特征提取器，类似建筑的柱网），即使是在高层也保持相对稳定。这是一种基于‘功能对环境敏感度’而非‘层级深度’的动态微调策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_34",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:27:34.226378",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_34_O4_1342",
+  "design_spec": {
+    "name": "auto_发明_文脉感知参数冻结_不同于简单的冻_bf6cac",
+    "display_name": "发明‘文脉感知参数冻结’。不同于简单的冻结底层、微调顶层，该方法借鉴建筑的地基与上部结构关系。对于与",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "发明‘文脉感知参数冻结’。不同于简单的冻结底层、微调顶层，该方法借鉴建筑的地基与上部结构关系。对于与‘环境’（数据分布）强相关的参数（如BatchNorm的统计",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 490
+  }
+}

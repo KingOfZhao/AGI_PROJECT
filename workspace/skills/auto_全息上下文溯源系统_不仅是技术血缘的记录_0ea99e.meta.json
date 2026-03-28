@@ -1,0 +1,30 @@
+{
+  "name": "auto_全息上下文溯源系统_不仅是技术血缘的记录_0ea99e",
+  "file": "skills/auto_全息上下文溯源系统_不仅是技术血缘的记录_0ea99e.py",
+  "description": "全息上下文溯源系统：不仅是技术血缘的记录，更融合了业务决策的情景记忆。在数据流转的每个节点（ETL过程），不仅记录SQL逻辑，还通过RAG技术嵌入当时的业务文档、市场环境甚至决策者的备注。当数据异常时，AI不仅能排查代码Bug，还能基于情景记忆分析当时的业务背景，实现真正的‘基于历史的归因分析’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.700906",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_91_O2_8526",
+  "design_spec": {
+    "name": "auto_全息上下文溯源系统_不仅是技术血缘的记录_0ea99e",
+    "display_name": "全息上下文溯源系统：不仅是技术血缘的记录，更融合了业务决策的情景记忆。在数据流转的每个节点（ETL过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "全息上下文溯源系统：不仅是技术血缘的记录，更融合了业务决策的情景记忆。在数据流转的每个节点（ETL过程），不仅记录SQL逻辑，还通过RAG技术嵌入当时的业务文档",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

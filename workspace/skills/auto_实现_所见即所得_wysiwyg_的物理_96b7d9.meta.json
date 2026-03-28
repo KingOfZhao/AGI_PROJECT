@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_所见即所得_wysiwyg_的物理_96b7d9",
+  "file": "skills/auto_实现_所见即所得_wysiwyg_的物理_96b7d9.py",
+  "description": "实现'所见即所得(WYSIWYG)的物理材质编辑器'。将CAD的PBR(基于物理的渲染)材质球参数暴露为Flutter的Shader变量。用户在Flutter界面调整滑块（如'生锈程度'），直接驱动Fragment Shader实时改变3D模型的表面物理属性，并同步写入CAD材质库，实现设计端与渲染端的无缝同步。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:26:29.560264",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O5_274",
+  "design_spec": {
+    "name": "auto_实现_所见即所得_wysiwyg_的物理_96b7d9",
+    "display_name": "实现'所见即所得(WYSIWYG)的物理材质编辑器'。将CAD的PBR(基于物理的渲染)材质球参数暴",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'所见即所得(WYSIWYG)的物理材质编辑器'。将CAD的PBR(基于物理的渲染)材质球参数暴露为Flutter的Shader变量。用户在Flutter界",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

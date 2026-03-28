@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_逻辑切片溯源_能力_融合系统不仅生_7a9f29",
+  "file": "skills/auto_提出_逻辑切片溯源_能力_融合系统不仅生_7a9f29.py",
+  "description": "提出【逻辑切片溯源】能力。融合系统不仅生成答案，还生成一份依赖图。当用户质疑某个结论时，系统能利用切片技术，高亮显示输入文档中支持该结论的具体片段。如果找不到支持片段（切片为空），则标记为潜在幻觉。这极大增强了AI在医疗、法律等高风险领域的可信度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_38",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T05:24:13.138070",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_38_O5_8031",
+  "design_spec": {
+    "name": "auto_提出_逻辑切片溯源_能力_融合系统不仅生_7a9f29",
+    "display_name": "提出【逻辑切片溯源】能力。融合系统不仅生成答案，还生成一份依赖图。当用户质疑某个结论时，系统能利用切",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出【逻辑切片溯源】能力。融合系统不仅生成答案，还生成一份依赖图。当用户质疑某个结论时，系统能利用切片技术，高亮显示输入文档中支持该结论的具体片段。如果找不到支",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

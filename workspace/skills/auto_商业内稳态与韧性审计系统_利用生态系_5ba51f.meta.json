@@ -1,0 +1,30 @@
+{
+  "name": "auto_商业内稳态与韧性审计系统_利用生态系_5ba51f",
+  "file": "skills/auto_商业内稳态与韧性审计系统_利用生态系_5ba51f.py",
+  "description": "【商业内稳态与韧性审计系统】\n利用生态系统的稳态模型来审计AI生成的商业计划。不仅测试'能不能赚钱'（正反馈），更测试'能不能活下来'（负反馈）。AI会主动引入'环境扰动'（模拟暴雨、供应链断裂），检测商业闭环中的反馈回路是否健全。如果缺乏负反馈机制（如止损机制），则判定该认知节点'不自洽'。这不仅是逻辑验证，更是生存鲁棒性验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.039299",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_132_O4_7605",
+  "design_spec": {
+    "name": "auto_商业内稳态与韧性审计系统_利用生态系_5ba51f",
+    "display_name": "【商业内稳态与韧性审计系统】\n利用生态系统的稳态模型来审计AI生成的商业计划。不仅测试'能不能赚钱'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【商业内稳态与韧性审计系统】\n利用生态系统的稳态模型来审计AI生成的商业计划。不仅测试'能不能赚钱'（正反馈），更测试'能不能活下来'（负反馈）。AI会主动引入",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 9
+  }
+}

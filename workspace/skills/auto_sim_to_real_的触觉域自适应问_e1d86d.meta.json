@@ -1,0 +1,30 @@
+{
+  "name": "auto_sim_to_real_的触觉域自适应问_e1d86d",
+  "file": "skills/auto_sim_to_real_的触觉域自适应问_e1d86d.py",
+  "description": "Sim-to-Real 的触觉域自适应问题。视觉数据易于仿真，但触觉（隐性核心）极难仿真。本问题验证：利用域随机化技术生成的合成触觉数据训练的模型，能否在仅使用真实世界5%的微调数据后，成功迁移到真实机械手上完成精细操作（如穿针）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.446962",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_90_Q8_0_4634",
+  "design_spec": {
+    "name": "auto_sim_to_real_的触觉域自适应问_e1d86d",
+    "display_name": "Sim-to-Real 的触觉域自适应问题。视觉数据易于仿真，但触觉（隐性核心）极难仿真。本问题验证",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "Sim-to-Real 的触觉域自适应问题。视觉数据易于仿真，但触觉（隐性核心）极难仿真。本问题验证：利用域随机化技术生成的合成触觉数据训练的模型，能否在仅使用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

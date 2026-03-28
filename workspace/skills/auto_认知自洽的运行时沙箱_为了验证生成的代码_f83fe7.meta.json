@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽的运行时沙箱_为了验证生成的代码_f83fe7",
+  "file": "skills/auto_认知自洽的运行时沙箱_为了验证生成的代码_f83fe7.py",
+  "description": "认知自洽的运行时沙箱：为了验证生成的代码是否构成了'认知自洽'（即能跑通），需要构建一个隔离的运行环境。此问题关注如何构建一个轻量级、快速销毁且能模拟各种外部依赖（API、数据库）的沙箱，以便快速证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "devops",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.628063",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_106_Q10_1_5552",
+  "design_spec": {
+    "name": "auto_认知自洽的运行时沙箱_为了验证生成的代码_f83fe7",
+    "display_name": "认知自洽的运行时沙箱：为了验证生成的代码是否构成了'认知自洽'（即能跑通），需要构建一个隔离的运行环",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知自洽的运行时沙箱：为了验证生成的代码是否构成了'认知自洽'（即能跑通），需要构建一个隔离的运行环境。此问题关注如何构建一个轻量级、快速销毁且能模拟各种外部依",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

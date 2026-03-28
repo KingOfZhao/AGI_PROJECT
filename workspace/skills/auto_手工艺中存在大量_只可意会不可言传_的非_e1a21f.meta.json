@@ -1,0 +1,30 @@
+{
+  "name": "auto_手工艺中存在大量_只可意会不可言传_的非_e1a21f",
+  "file": "skills/auto_手工艺中存在大量_只可意会不可言传_的非_e1a21f.py",
+  "description": "手工艺中存在大量'只可意会不可言传'的非语言线索。问题在于：通过GPT-4o等视觉语言模型（VLM）对视频流进行逐帧分析时，能否利用思维链自动生成描述性本体论？即，从无结构的视频像素中自动提取出人类未曾定义的微观特征（如'手腕微颤频率'、'工具入射角变化率'），并将其固化为结构化的'真实节点'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.688772",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q2_0_2088",
+  "design_spec": {
+    "name": "auto_手工艺中存在大量_只可意会不可言传_的非_e1a21f",
+    "display_name": "手工艺中存在大量'只可意会不可言传'的非语言线索。问题在于：通过GPT-4o等视觉语言模型（VLM）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "手工艺中存在大量'只可意会不可言传'的非语言线索。问题在于：通过GPT-4o等视觉语言模型（VLM）对视频流进行逐帧分析时，能否利用思维链自动生成描述性本体论？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

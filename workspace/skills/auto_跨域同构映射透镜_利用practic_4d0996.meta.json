@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域同构映射透镜_利用practic_4d0996",
+  "file": "skills/auto_跨域同构映射透镜_利用practic_4d0996.py",
+  "description": "【跨域同构映射透镜】：利用Practical Skills中'万物皆可类比'的思维模型，构建AGI的'元结构提取器'。不仅仅比较语义，而是提取对象的'动力学结构'（如：输入、输出、反馈回路、熵增方向）。当面临陌生领域问题时，系统自动在历史库中寻找动力学结构相似的已解决问题，直接迁移解决方案的'骨架'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.163560",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_120_O5_9476",
+  "design_spec": {
+    "name": "auto_跨域同构映射透镜_利用practic_4d0996",
+    "display_name": "【跨域同构映射透镜】：利用Practical Skills中'万物皆可类比'的思维模型，构建AGI的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域同构映射透镜】：利用Practical Skills中'万物皆可类比'的思维模型，构建AGI的'元结构提取器'。不仅仅比较语义，而是提取对象的'动力学结构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 313
+  }
+}

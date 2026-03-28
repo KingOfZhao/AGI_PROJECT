@@ -1,0 +1,30 @@
+{
+  "name": "auto_为了实现_重叠固化为真实节点_需要解决_276687",
+  "file": "skills/auto_为了实现_重叠固化为真实节点_需要解决_276687.py",
+  "description": "为了实现‘重叠固化为真实节点’，需要解决时序数据的压缩问题。如何设计一种‘因果律提取算法’，能够从海量的交互日志（人机对话、操作记录）中，自动识别出‘必要条件’关系，并将冗长的交互序列压缩为单一的‘认知技能节点’（如将‘复制-粘贴-修改’序列固化为‘模板复用’节点）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "causality",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.784245",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q5_2_3114",
+  "design_spec": {
+    "name": "auto_为了实现_重叠固化为真实节点_需要解决_276687",
+    "display_name": "为了实现‘重叠固化为真实节点’，需要解决时序数据的压缩问题。如何设计一种‘因果律提取算法’，能够从海",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "为了实现‘重叠固化为真实节点’，需要解决时序数据的压缩问题。如何设计一种‘因果律提取算法’，能够从海量的交互日志（人机对话、操作记录）中，自动识别出‘必要条件’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 233
+  }
+}

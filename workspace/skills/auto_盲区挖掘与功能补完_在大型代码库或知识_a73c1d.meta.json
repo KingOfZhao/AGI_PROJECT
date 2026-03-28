@@ -1,0 +1,30 @@
+{
+  "name": "auto_盲区挖掘与功能补完_在大型代码库或知识_a73c1d",
+  "file": "skills/auto_盲区挖掘与功能补完_在大型代码库或知识_a73c1d.py",
+  "description": "【盲区挖掘与功能补完】在大型代码库或知识图谱中，不仅仅寻找孤立点，而是借鉴工艺设计思维，寻找‘应力集中点’（高频调用但错误处理简陋的模块）和‘功能断点’（用户意图密集但实现稀疏的区域）。系统能自动识别出‘虽然代码能跑，但缺乏针对特定异常处理’的认知空洞，并主动建议生成新的Skill节点来填补这一‘工艺缝隙’，实现从‘能用’到‘好用’的跃迁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.705303",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O2_9412",
+  "design_spec": {
+    "name": "auto_盲区挖掘与功能补完_在大型代码库或知识_a73c1d",
+    "display_name": "【盲区挖掘与功能补完】在大型代码库或知识图谱中，不仅仅寻找孤立点，而是借鉴工艺设计思维，寻找‘应力集",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【盲区挖掘与功能补完】在大型代码库或知识图谱中，不仅仅寻找孤立点，而是借鉴工艺设计思维，寻找‘应力集中点’（高频调用但错误处理简陋的模块）和‘功能断点’（用户意",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

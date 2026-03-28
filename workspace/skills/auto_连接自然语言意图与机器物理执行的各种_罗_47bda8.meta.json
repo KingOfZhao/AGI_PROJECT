@@ -1,0 +1,30 @@
+{
+  "name": "auto_连接自然语言意图与机器物理执行的各种_罗_47bda8",
+  "file": "skills/auto_连接自然语言意图与机器物理执行的各种_罗_47bda8.py",
+  "description": "连接自然语言意图与机器物理执行的各种“罗塞塔石碑”。该概念致力于解决“语言是模糊的，执行是刚性的”这一矛盾。它包含一套分级转换协议：首先利用大模型将模糊的“实践清单”拆解为原子动作；接着通过“可执行性评分器”评估其物理可行性；最后利用形式化验证接口（或逆强化学习）将其编译为机器代码或确定的控制指令。这是人机共生从“对话”走向“协作”的关键基建。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.690825",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_91_P5_5352",
+  "design_spec": {
+    "name": "auto_连接自然语言意图与机器物理执行的各种_罗_47bda8",
+    "display_name": "连接自然语言意图与机器物理执行的各种“罗塞塔石碑”。该概念致力于解决“语言是模糊的，执行是刚性的”这",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "连接自然语言意图与机器物理执行的各种“罗塞塔石碑”。该概念致力于解决“语言是模糊的，执行是刚性的”这一矛盾。它包含一套分级转换协议：首先利用大模型将模糊的“实践",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

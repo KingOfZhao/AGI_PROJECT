@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_对抗性提示词自动生成器_adve_60f223",
+  "file": "skills/auto_构建_对抗性提示词自动生成器_adve_60f223.py",
+  "description": "构建'对抗性提示词自动生成器'（Adversarial Prompt Generator）。利用现有的1622个Skill节点，自动生成旨在攻破这些Skill逻辑漏洞的极端测试用例。该子系统需能自动识别Skill描述中的模糊性词汇，并构建'越狱'或'逻辑陷阱'类提示词，以实现AI的自我攻击与压力测试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_94",
+    "ai_security",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:50:15.559790",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_94_Q2_3_9028",
+  "design_spec": {
+    "name": "auto_构建_对抗性提示词自动生成器_adve_60f223",
+    "display_name": "构建'对抗性提示词自动生成器'（Adversarial Prompt Generator）。利用现有",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'对抗性提示词自动生成器'（Adversarial Prompt Generator）。利用现有的1622个Skill节点，自动生成旨在攻破这些Skill逻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

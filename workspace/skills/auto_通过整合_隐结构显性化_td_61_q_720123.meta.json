@@ -1,0 +1,30 @@
+{
+  "name": "auto_通过整合_隐结构显性化_td_61_q_720123",
+  "file": "skills/auto_通过整合_隐结构显性化_td_61_q_720123.py",
+  "description": "通过整合'隐结构显性化'（td_61_Q4_0_5246）、'微理论形式化'（td_61_Q8_0_5246）和'人机共生修正'（td_61_Q6_1_3870）。系统能够观察人类操作日志（隐性行为），利用LLM提取逻辑模式，并将其自动转化为可执行的形式化约束（如Python断言或Prolog规则）。这实现了从'经验主义'到'理性主义'的自动跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.265469",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_62_E2_81",
+  "design_spec": {
+    "name": "auto_通过整合_隐结构显性化_td_61_q_720123",
+    "display_name": "通过整合'隐结构显性化'（td_61_Q4_0_5246）、'微理论形式化'（td_61_Q8_0_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "通过整合'隐结构显性化'（td_61_Q4_0_5246）、'微理论形式化'（td_61_Q8_0_5246）和'人机共生修正'（td_61_Q6_1_3870",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

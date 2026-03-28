@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域工具链组装_当意图跨越多个领域_如_8353e9",
+  "file": "skills/auto_跨域工具链组装_当意图跨越多个领域_如_8353e9.py",
+  "description": "跨域工具链组装：当意图跨越多个领域（如“分析股票数据并生成图表发邮件”），如何利用现有的488个技能节点动态规划出一个有向无环图（DAG）执行计划？需要验证DAG规划算法在处理依赖冲突时的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "workflow_automation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.412689",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q5_3_8723",
+  "design_spec": {
+    "name": "auto_跨域工具链组装_当意图跨越多个领域_如_8353e9",
+    "display_name": "跨域工具链组装：当意图跨越多个领域（如“分析股票数据并生成图表发邮件”），如何利用现有的488个技能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域工具链组装：当意图跨越多个领域（如“分析股票数据并生成图表发邮件”），如何利用现有的488个技能节点动态规划出一个有向无环图（DAG）执行计划？需要验证DA",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 539
+  }
+}

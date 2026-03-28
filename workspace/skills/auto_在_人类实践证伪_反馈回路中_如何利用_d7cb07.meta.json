@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_人类实践证伪_反馈回路中_如何利用_d7cb07",
+  "file": "skills/auto_在_人类实践证伪_反馈回路中_如何利用_d7cb07.py",
+  "description": "在'人类实践证伪'反馈回路中，如何利用'对抗生成网络(GAN)'的思想构建内部辩论机制？生成器生成假设节点，判别器基于已有真实节点库进行攻击，通过内部对抗提升节点的存活率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "deep_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.705309",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_27_Q9_1_4907",
+  "design_spec": {
+    "name": "auto_在_人类实践证伪_反馈回路中_如何利用_d7cb07",
+    "display_name": "在'人类实践证伪'反馈回路中，如何利用'对抗生成网络(GAN)'的思想构建内部辩论机制？生成器生成假",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'人类实践证伪'反馈回路中，如何利用'对抗生成网络(GAN)'的思想构建内部辩论机制？生成器生成假设节点，判别器基于已有真实节点库进行攻击，通过内部对抗提升节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

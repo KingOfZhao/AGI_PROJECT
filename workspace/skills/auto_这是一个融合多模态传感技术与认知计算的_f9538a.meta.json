@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个融合多模态传感技术与认知计算的_f9538a",
+  "file": "skills/auto_这是一个融合多模态传感技术与认知计算的_f9538a.py",
+  "description": "这是一个融合多模态传感技术与认知计算的‘超感官接口’。它超越了简单的视频识别，通过融合MEMG（肌电）、IMU（惯性）、音频及视觉流，将人类复杂的物理操作（如陶艺力度、工匠手感）实时转化为高维向量空间中的‘真实节点’。该协议特别强调捕捉‘反直觉物理技巧’（如抡锤瞬间的放松），将这些难以言传的隐性知识显性化、数字化，构建出包含‘认知难度’与‘物理摩擦’参数的完整数字孪生体。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.776692",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_109_P1_9640",
+  "design_spec": {
+    "name": "auto_这是一个融合多模态传感技术与认知计算的_f9538a",
+    "display_name": "这是一个融合多模态传感技术与认知计算的‘超感官接口’。它超越了简单的视频识别，通过融合MEMG（肌电",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个融合多模态传感技术与认知计算的‘超感官接口’。它超越了简单的视频识别，通过融合MEMG（肌电）、IMU（惯性）、音频及视觉流，将人类复杂的物理操作（如陶",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 227
+  }
+}

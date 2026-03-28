@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_生物自适应流量反射弧_借鉴生物学_bd673f",
+  "file": "skills/auto_提出_生物自适应流量反射弧_借鉴生物学_bd673f.py",
+  "description": "提出‘生物自适应流量反射弧’。借鉴生物学中‘反射’不经过大脑而由脊髓处理的低延迟特性，在分布式系统中构建独立的‘认知微服务’基础设施层。当系统面临特定的高频异常（如特定错误码或DDoS攻击）时，Sidecar代理直接触发预设的‘反射’动作（如隔离、降级），而无需等待中央大脑（Master Control Plane）的决策，从而实现毫秒级自愈。这解决了复杂产线中中央控制响应过慢的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.314079",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_125_O1_6424",
+  "design_spec": {
+    "name": "auto_提出_生物自适应流量反射弧_借鉴生物学_bd673f",
+    "display_name": "提出‘生物自适应流量反射弧’。借鉴生物学中‘反射’不经过大脑而由脊髓处理的低延迟特性，在分布式系统中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出‘生物自适应流量反射弧’。借鉴生物学中‘反射’不经过大脑而由脊髓处理的低延迟特性，在分布式系统中构建独立的‘认知微服务’基础设施层。当系统面临特定的高频异常",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何定义并检测_知识半衰期_社会与科技_03c2cf",
+  "file": "skills/auto_如何定义并检测_知识半衰期_社会与科技_03c2cf.py",
+  "description": "如何定义并检测'知识半衰期'？社会与科技领域的知识会随时间失效。系统需根据节点的最后验证时间、依赖环境的变动频率，计算每个节点的'腐败概率'，并自动标记需要重新验证的过期节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "information_retrieval",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.431308",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_142_Q7_1_8155",
+  "design_spec": {
+    "name": "auto_如何定义并检测_知识半衰期_社会与科技_03c2cf",
+    "display_name": "如何定义并检测'知识半衰期'？社会与科技领域的知识会随时间失效。系统需根据节点的最后验证时间、依赖环",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何定义并检测'知识半衰期'？社会与科技领域的知识会随时间失效。系统需根据节点的最后验证时间、依赖环境的变动频率，计算每个节点的'腐败概率'，并自动标记需要重新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

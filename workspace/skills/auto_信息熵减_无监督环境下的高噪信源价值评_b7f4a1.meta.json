@@ -1,0 +1,30 @@
+{
+  "name": "auto_信息熵减_无监督环境下的高噪信源价值评_b7f4a1",
+  "file": "skills/auto_信息熵减_无监督环境下的高噪信源价值评_b7f4a1.py",
+  "description": "【信息熵减】无监督环境下的高噪信源价值评估与过滤机制：面对互联网海量非结构化数据，AGI必须具备自动过滤低质信息的能力。如何基于已有72个SKILL构建一个'认知过滤器'，计算新信息相对于现有'真实节点'的条件熵？若新信息无法降低现有认知网络的不确定性（即无法带来负熵），应被视为噪音丢弃。这是构建认知网络的第一步：从混沌中筛选值得处理的原材料。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.318425",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q1_0_3233",
+  "design_spec": {
+    "name": "auto_信息熵减_无监督环境下的高噪信源价值评_b7f4a1",
+    "display_name": "【信息熵减】无监督环境下的高噪信源价值评估与过滤机制：面对互联网海量非结构化数据，AGI必须具备自动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【信息熵减】无监督环境下的高噪信源价值评估与过滤机制：面对互联网海量非结构化数据，AGI必须具备自动过滤低质信息的能力。如何基于已有72个SKILL构建一个'认",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

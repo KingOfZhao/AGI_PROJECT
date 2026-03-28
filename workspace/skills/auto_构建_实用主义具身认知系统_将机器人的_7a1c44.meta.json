@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实用主义具身认知系统_将机器人的_7a1c44",
+  "file": "skills/auto_构建_实用主义具身认知系统_将机器人的_7a1c44.py",
+  "description": "构建'实用主义具身认知系统'。将机器人的执行过程定义为'信念确立过程'。当力矩误差（怀疑）产生时，系统不仅是查表，而是启动'溯因推理'（Abduction）：假设误差原因 -> 查询认知网络（类似案例库） -> 实验性微调 -> 验证结果。AI不仅修正动作，还更新其内部的世界模型，实现'知行合一'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.228940",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O3_2161",
+  "design_spec": {
+    "name": "auto_构建_实用主义具身认知系统_将机器人的_7a1c44",
+    "display_name": "构建'实用主义具身认知系统'。将机器人的执行过程定义为'信念确立过程'。当力矩误差（怀疑）产生时，系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'实用主义具身认知系统'。将机器人的执行过程定义为'信念确立过程'。当力矩误差（怀疑）产生时，系统不仅是查表，而是启动'溯因推理'（Abduction）：假",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

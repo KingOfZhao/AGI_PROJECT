@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽性验证_在工业场景中_知行合一_c33a56",
+  "file": "skills/auto_认知自洽性验证_在工业场景中_知行合一_c33a56.py",
+  "description": "认知自洽性验证：在工业场景中，'知行合一'至关重要。如何构建一个仿真沙盒，让AGI在输出'操作指令'之前，先在内部认知网络中进行'思维实验'（Mental Simulation）？本问题要求对比'直接执行'与'模拟预演后执行'的成功率差异。验证AGI能否在虚拟空间中完成'证伪'，从而避免现实世界的事故。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "digital_twin",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.564818",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q9_1_4130",
+  "design_spec": {
+    "name": "auto_认知自洽性验证_在工业场景中_知行合一_c33a56",
+    "display_name": "认知自洽性验证：在工业场景中，'知行合一'至关重要。如何构建一个仿真沙盒，让AGI在输出'操作指令'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知自洽性验证：在工业场景中，'知行合一'至关重要。如何构建一个仿真沙盒，让AGI在输出'操作指令'之前，先在内部认知网络中进行'思维实验'（Mental Si",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生断点检测_在_ai梳理清单_人_33e3e5",
+  "file": "skills/auto_人机共生断点检测_在_ai梳理清单_人_33e3e5.py",
+  "description": "【人机共生断点检测】在‘AI梳理清单→人类实践→人类反馈’的闭环中，验证AI对‘负面反馈’的处理能力。当人类标记AI的建议为‘不可行’时，AI是否能定位到具体的某个节点或连边作为错误源头，并重构局部网络，而不是仅调整权重？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "human_machine_symbiosis",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.521678",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_149_Q4_0_3237",
+  "design_spec": {
+    "name": "auto_人机共生断点检测_在_ai梳理清单_人_33e3e5",
+    "display_name": "【人机共生断点检测】在‘AI梳理清单→人类实践→人类反馈’的闭环中，验证AI对‘负面反馈’的处理能力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生断点检测】在‘AI梳理清单→人类实践→人类反馈’的闭环中，验证AI对‘负面反馈’的处理能力。当人类标记AI的建议为‘不可行’时，AI是否能定位到具体的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 407
+  }
+}

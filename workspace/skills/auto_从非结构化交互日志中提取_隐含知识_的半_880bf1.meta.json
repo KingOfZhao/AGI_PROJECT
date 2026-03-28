@@ -1,0 +1,30 @@
+{
+  "name": "auto_从非结构化交互日志中提取_隐含知识_的半_880bf1",
+  "file": "skills/auto_从非结构化交互日志中提取_隐含知识_的半_880bf1.py",
+  "description": "从非结构化交互日志中提取'隐含知识'的半监督学习算法。在人机共生环节，人类往往只给出碎片化反馈。本实验旨在验证：能否通过聚类分析人类在特定情境下的操作序列（如修改代码的模式），自动抽象出新的'概念节点'（如'防御性编程习惯'），并将其显式化。要求算法能区分'噪音'与'有效模式'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "数据挖掘/行为分析",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.071331",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_6_Q4_3_543",
+  "design_spec": {
+    "name": "auto_从非结构化交互日志中提取_隐含知识_的半_880bf1",
+    "display_name": "从非结构化交互日志中提取'隐含知识'的半监督学习算法。在人机共生环节，人类往往只给出碎片化反馈。本实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "从非结构化交互日志中提取'隐含知识'的半监督学习算法。在人机共生环节，人类往往只给出碎片化反馈。本实验旨在验证：能否通过聚类分析人类在特定情境下的操作序列（如修",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

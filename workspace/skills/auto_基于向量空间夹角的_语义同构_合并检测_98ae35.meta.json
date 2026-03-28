@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于向量空间夹角的_语义同构_合并检测_98ae35",
+  "file": "skills/auto_基于向量空间夹角的_语义同构_合并检测_98ae35.py",
+  "description": "基于向量空间夹角的'语义同构'合并检测。在1001个节点中，可能存在多个节点描述的是同一微观事实（如'做番茄炒蛋'与'番茄料理入门'）。需开发算法计算节点Embedding的高维距离，若夹角过小且在上下文中不可区分，则判定为冗余，触发合并或淘汰机制，防止认知网络膨胀。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.202789",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q5_0_3828",
+  "design_spec": {
+    "name": "auto_基于向量空间夹角的_语义同构_合并检测_98ae35",
+    "display_name": "基于向量空间夹角的'语义同构'合并检测。在1001个节点中，可能存在多个节点描述的是同一微观事实（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于向量空间夹角的'语义同构'合并检测。在1001个节点中，可能存在多个节点描述的是同一微观事实（如'做番茄炒蛋'与'番茄料理入门'）。需开发算法计算节点Emb",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 295
+  }
+}

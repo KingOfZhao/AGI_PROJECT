@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_可微分编译器认知引擎_将编译器的_36cf35",
+  "file": "skills/auto_开发_可微分编译器认知引擎_将编译器的_36cf35.py",
+  "description": "开发‘可微分编译器认知引擎’。将编译器的静态分析（如污点分析、活性分析）转化为神经网络中的正则化项或注意力偏置。使AI在处理自然语言指令时，能像编译器检查代码一样，自动检测指令中的逻辑漏洞、死循环或未定义的引用，实现‘逻辑一致性自检’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:33.097815",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O2_753",
+  "design_spec": {
+    "name": "auto_开发_可微分编译器认知引擎_将编译器的_36cf35",
+    "display_name": "开发‘可微分编译器认知引擎’。将编译器的静态分析（如污点分析、活性分析）转化为神经网络中的正则化项或",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘可微分编译器认知引擎’。将编译器的静态分析（如污点分析、活性分析）转化为神经网络中的正则化项或注意力偏置。使AI在处理自然语言指令时，能像编译器检查代码一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

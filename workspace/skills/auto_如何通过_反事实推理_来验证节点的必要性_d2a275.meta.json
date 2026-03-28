@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过_反事实推理_来验证节点的必要性_d2a275",
+  "file": "skills/auto_如何通过_反事实推理_来验证节点的必要性_d2a275.py",
+  "description": "如何通过'反事实推理'来验证节点的必要性？对于因果类节点，系统自动生成'若无此节点'的推演路径。若结果与'有此节点'的差异极小，说明该节点在因果链中权重极低，应作为淘汰候选。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.833082",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q10_2_7701",
+  "design_spec": {
+    "name": "auto_如何通过_反事实推理_来验证节点的必要性_d2a275",
+    "display_name": "如何通过'反事实推理'来验证节点的必要性？对于因果类节点，系统自动生成'若无此节点'的推演路径。若结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过'反事实推理'来验证节点的必要性？对于因果类节点，系统自动生成'若无此节点'的推演路径。若结果与'有此节点'的差异极小，说明该节点在因果链中权重极低，应",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

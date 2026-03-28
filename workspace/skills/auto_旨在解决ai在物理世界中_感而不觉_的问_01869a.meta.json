@@ -1,0 +1,30 @@
+{
+  "name": "auto_旨在解决ai在物理世界中_感而不觉_的问_01869a",
+  "file": "skills/auto_旨在解决ai在物理世界中_感而不觉_的问_01869a.py",
+  "description": "旨在解决AI在物理世界中“感而不觉”的问题，构建一套跨越数字与物理边界的感知-行动循环系统。该概念整合了高精度动作捕捉、物理属性（刚度、粘弹性）的触觉渲染、工具使用的身体图式延展，以及Sim-to-Real的迁移验证。它将非结构化的物理交互转化为低维流形上的数学表征，使AI不仅能“识别”图像，更能像工匠一样通过“手感”理解物理定律，实现从虚拟训练到真实操作的无损映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.331820",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_3_P2_5960",
+  "design_spec": {
+    "name": "auto_旨在解决ai在物理世界中_感而不觉_的问_01869a",
+    "display_name": "旨在解决AI在物理世界中“感而不觉”的问题，构建一套跨越数字与物理边界的感知-行动循环系统。该概念整",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "旨在解决AI在物理世界中“感而不觉”的问题，构建一套跨越数字与物理边界的感知-行动循环系统。该概念整合了高精度动作捕捉、物理属性（刚度、粘弹性）的触觉渲染、工具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 362
+  }
+}

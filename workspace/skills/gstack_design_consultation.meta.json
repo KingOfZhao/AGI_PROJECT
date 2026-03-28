@@ -1,0 +1,39 @@
+{
+  "name": "gstack/design-consultation",
+  "slug": "gstack_design_consultation",
+  "description": "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, typography, color, layout, spacing, motion), and generates font+color preview pages. Creates DESIGN.md as your project's design source of truth. For existing sites, use /plan-design-review to infer the system instead. Use when asked to \"design system\", \"brand guidelines\", or \"create DESIGN.md\". Proactively suggest when starting a new project's UI with no existing design system o",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "design-review",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/design-consultation",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "design-review",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep",
+    "AskUserQuestion",
+    "WebSearch"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)",
+    "WARNING: external_network — 存在外部网络请求"
+  ],
+  "created_at": "2026-03-25T15:32:03.539098",
+  "imported_by": "gstack_skill_importer"
+}

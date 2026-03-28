@@ -1,0 +1,30 @@
+{
+  "name": "auto_对抗寿命限制的_知识折旧_与_代际传递_060991",
+  "file": "skills/auto_对抗寿命限制的_知识折旧_与_代际传递_060991.py",
+  "description": "对抗寿命限制的'知识折旧'与'代际传递'机制：为了解决人类寿命导致的狭隘性，系统需要模拟知识的遗忘与继承。如何设计一个算法，模拟老节点随时间'衰退'（折旧），并强制新节点在继承老节点核心特征的同时进行变异？这需要验证系统是否能在丢失90%原始数据的情况下，仅通过'骨架节点'恢复核心能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "evolutionarybiology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.355024",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q6_1_1711",
+  "design_spec": {
+    "name": "auto_对抗寿命限制的_知识折旧_与_代际传递_060991",
+    "display_name": "对抗寿命限制的'知识折旧'与'代际传递'机制：为了解决人类寿命导致的狭隘性，系统需要模拟知识的遗忘与",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "对抗寿命限制的'知识折旧'与'代际传递'机制：为了解决人类寿命导致的狭隘性，系统需要模拟知识的遗忘与继承。如何设计一个算法，模拟老节点随时间'衰退'（折旧），并",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

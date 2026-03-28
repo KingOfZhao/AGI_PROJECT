@@ -1,0 +1,30 @@
+{
+  "name": "auto_在故障排查场景中_如何从非结构化的维修工_458612",
+  "file": "skills/auto_在故障排查场景中_如何从非结构化的维修工_458612.py",
+  "description": "在故障排查场景中，如何从非结构化的维修工单文本中提取因果关系，构建‘故障现象-操作行为-解决结果’的三元组，并映射到现有的3022个节点上？核心挑战在于自然语言的模糊性与物理因果的严格性之间的转换。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.060713",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q2_3_8567",
+  "design_spec": {
+    "name": "auto_在故障排查场景中_如何从非结构化的维修工_458612",
+    "display_name": "在故障排查场景中，如何从非结构化的维修工单文本中提取因果关系，构建‘故障现象-操作行为-解决结果’的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在故障排查场景中，如何从非结构化的维修工单文本中提取因果关系，构建‘故障现象-操作行为-解决结果’的三元组，并映射到现有的3022个节点上？核心挑战在于自然语言",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 325
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_原子化技能编织器_当ai面对复杂意图无_f33b78",
+  "file": "skills/auto_原子化技能编织器_当ai面对复杂意图无_f33b78.py",
+  "description": "【原子化技能编织器】当AI面对复杂意图无法生成完整代码时，自动切换到'学徒模式'，将意图拆解为最小原子操作（如'定义变量'、'读取文件'，对应'选材'、'切割'）。系统逐个验证这些原子节点，确认无误后再像编织竹篮一样组合成复杂功能。这能极大降低幻觉（Hallucination）的发生率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.260591",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_57_O4_5366",
+  "design_spec": {
+    "name": "auto_原子化技能编织器_当ai面对复杂意图无_f33b78",
+    "display_name": "【原子化技能编织器】当AI面对复杂意图无法生成完整代码时，自动切换到'学徒模式'，将意图拆解为最小原",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【原子化技能编织器】当AI面对复杂意图无法生成完整代码时，自动切换到'学徒模式'，将意图拆解为最小原子操作（如'定义变量'、'读取文件'，对应'选材'、'切割'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 319
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "gstack/codex",
+  "slug": "gstack_codex",
+  "description": "OpenAI Codex CLI wrapper — three modes. Code review: independent diff review via codex review with pass/fail gate. Challenge: adversarial mode that tries to break your code. Consult: ask codex anything with session continuity for follow-ups. The \"200 IQ autistic developer\" second opinion. Use when asked to \"codex review\", \"codex challenge\", \"ask codex\", \"second opinion\", or \"consult codex\".",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "engineering-review",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/codex",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "engineering-review",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Glob",
+    "Grep",
+    "AskUserQuestion"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)"
+  ],
+  "created_at": "2026-03-25T15:32:03.538577",
+  "imported_by": "gstack_skill_importer"
+}

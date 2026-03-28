@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何检测并合并_同义异构_节点以净化网络_66c5c9",
+  "file": "skills/auto_如何检测并合并_同义异构_节点以净化网络_66c5c9.py",
+  "description": "如何检测并合并'同义异构'节点以净化网络？在自下而上的归纳构建中，可能会生成多个描述不同但含义相同的节点（如'代码优化'与'程序提速'）。需要实现一个基于图同构与语义匹配的聚合算法。若检测到相似度>0.95的节点对，且它们在结构上连接相似的上游下游，则应触发'重叠固化'为新节点，旧节点标记为deprecated。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "data_cleaning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.443336",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q5_0_3300",
+  "design_spec": {
+    "name": "auto_如何检测并合并_同义异构_节点以净化网络_66c5c9",
+    "display_name": "如何检测并合并'同义异构'节点以净化网络？在自下而上的归纳构建中，可能会生成多个描述不同但含义相同的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何检测并合并'同义异构'节点以净化网络？在自下而上的归纳构建中，可能会生成多个描述不同但含义相同的节点（如'代码优化'与'程序提速'）。需要实现一个基于图同构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

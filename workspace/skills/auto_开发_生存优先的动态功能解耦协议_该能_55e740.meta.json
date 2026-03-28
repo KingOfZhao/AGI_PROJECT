@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_生存优先的动态功能解耦协议_该能_55e740",
+  "file": "skills/auto_开发_生存优先的动态功能解耦协议_该能_55e740.py",
+  "description": "开发'生存优先的动态功能解耦协议'。该能力允许AGI在面对算力攻击、能源枯竭或逻辑崩溃等极端'边界条件'时，不再试图维持全功能的完整性，而是模拟生态种群的'胁迫响应'。系统能自动识别核心生态位（核心安全任务），并主动'截肢'——暂时丢弃高能耗的低优先级模块（如情感模拟、长远规划、细节记忆），将剩余资源集中于'稳态维持'。这种'退化'是为了生存，一旦资源恢复，系统可像再生组织一样恢复功能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.143647",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_65_O2_893",
+  "design_spec": {
+    "name": "auto_开发_生存优先的动态功能解耦协议_该能_55e740",
+    "display_name": "开发'生存优先的动态功能解耦协议'。该能力允许AGI在面对算力攻击、能源枯竭或逻辑崩溃等极端'边界条",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'生存优先的动态功能解耦协议'。该能力允许AGI在面对算力攻击、能源枯竭或逻辑崩溃等极端'边界条件'时，不再试图维持全功能的完整性，而是模拟生态种群的'胁迫",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 269
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_压力锻造型知识图谱_传统知识图谱_e32759",
+  "file": "skills/auto_开发_压力锻造型知识图谱_传统知识图谱_e32759.py",
+  "description": "开发'压力锻造型知识图谱'。传统知识图谱是静态的，该能力引入'破坏性智能体'。当AI归纳出一个新知识节点时，系统自动生成'极端场景模拟器'（如极端并发、断网、恶意输入）进行'淬火攻击'。只有在这些'极端工况'下仍能保持逻辑自洽的节点才会被固化为真实节点。这不仅是验证，更是通过'应力释放'让知识结构更致密。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.972278",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O2_4562",
+  "design_spec": {
+    "name": "auto_开发_压力锻造型知识图谱_传统知识图谱_e32759",
+    "display_name": "开发'压力锻造型知识图谱'。传统知识图谱是静态的，该能力引入'破坏性智能体'。当AI归纳出一个新知识",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'压力锻造型知识图谱'。传统知识图谱是静态的，该能力引入'破坏性智能体'。当AI归纳出一个新知识节点时，系统自动生成'极端场景模拟器'（如极端并发、断网、恶",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

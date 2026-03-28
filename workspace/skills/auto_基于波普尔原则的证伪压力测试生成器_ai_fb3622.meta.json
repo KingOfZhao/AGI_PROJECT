@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于波普尔原则的证伪压力测试生成器_ai_fb3622",
+  "file": "skills/auto_基于波普尔原则的证伪压力测试生成器_ai_fb3622.py",
+  "description": "基于波普尔原则的证伪压力测试生成器：AI构建新节点后，如何自动生成'攻击性测试用例'来试图证伪该节点？这需要系统理解节点的边界条件，并主动寻找反例。这是'自上而下拆解证伪'的核心实现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.331091",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_133_Q4_2_1453",
+  "design_spec": {
+    "name": "auto_基于波普尔原则的证伪压力测试生成器_ai_fb3622",
+    "display_name": "基于波普尔原则的证伪压力测试生成器：AI构建新节点后，如何自动生成'攻击性测试用例'来试图证伪该节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于波普尔原则的证伪压力测试生成器：AI构建新节点后，如何自动生成'攻击性测试用例'来试图证伪该节点？这需要系统理解节点的边界条件，并主动寻找反例。这是'自上而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

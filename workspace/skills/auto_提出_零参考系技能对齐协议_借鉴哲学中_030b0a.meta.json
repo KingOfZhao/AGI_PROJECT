@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_零参考系技能对齐协议_借鉴哲学中_030b0a",
+  "file": "skills/auto_提出_零参考系技能对齐协议_借鉴哲学中_030b0a.py",
+  "description": "提出'零参考系技能对齐协议'。借鉴哲学中的'无立场'（View from Nowhere）概念，在机器人技能迁移中构建一个抽象的'标准本体层'。当从工匠A（参照系A）迁移技能到机器人（参照系B）时，算法不再直接映射动作，而是先将动作映射到'零参考系'（去除所有主观/私有属性，仅保留因果逻辑），再从'零参考系'映射到目标机器人。这能有效解决Sim2Real中的'域间隙'问题，实现真正的跨本体普适智能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.674604",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_148_O3_6448",
+  "design_spec": {
+    "name": "auto_提出_零参考系技能对齐协议_借鉴哲学中_030b0a",
+    "display_name": "提出'零参考系技能对齐协议'。借鉴哲学中的'无立场'（View from Nowhere）概念，在机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'零参考系技能对齐协议'。借鉴哲学中的'无立场'（View from Nowhere）概念，在机器人技能迁移中构建一个抽象的'标准本体层'。当从工匠A（参照",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对物理世界的高维感知数据_视频_传感器_d49f46",
+  "file": "skills/auto_针对物理世界的高维感知数据_视频_传感器_d49f46.py",
+  "description": "针对物理世界的高维感知数据（视频、传感器），构建一个实时转换管道。该概念的核心在于将非结构化的模拟信号（如‘地上的油污’）通过跨模态嵌入，瞬间转化为结构化的符号逻辑节点（‘滑倒风险’），并立即接入当前的推理链。这不仅是模式识别，更是‘瞬时真实节点’的生成过程，弥补了符号AI无法处理实时模糊数据、神经网络AI缺乏逻辑推理的断层。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.238414",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_85_P2_7152",
+  "design_spec": {
+    "name": "auto_针对物理世界的高维感知数据_视频_传感器_d49f46",
+    "display_name": "针对物理世界的高维感知数据（视频、传感器），构建一个实时转换管道。该概念的核心在于将非结构化的模拟信",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对物理世界的高维感知数据（视频、传感器），构建一个实时转换管道。该概念的核心在于将非结构化的模拟信号（如‘地上的油污’）通过跨模态嵌入，瞬间转化为结构化的符号",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

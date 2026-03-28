@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_在世存有动态技能树_静态的ski_4ec1b0",
+  "file": "skills/auto_构建_在世存有动态技能树_静态的ski_4ec1b0.py",
+  "description": "构建'在世存有动态技能树'。静态的Skill节点被改造为'情境-行动'耦合体。'抓取'不再是单一指令，而是一个'可供性'（Affordance）探测与响应的微循环。AI在执行前先进行'情境解构'，根据环境提供的'存在论特征'（如重力、阻力）动态重塑自身的技能形态，实现'流变'中的'持存'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_76",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:35:30.450379",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_76_O5_7085",
+  "design_spec": {
+    "name": "auto_构建_在世存有动态技能树_静态的ski_4ec1b0",
+    "display_name": "构建'在世存有动态技能树'。静态的Skill节点被改造为'情境-行动'耦合体。'抓取'不再是单一指令",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'在世存有动态技能树'。静态的Skill节点被改造为'情境-行动'耦合体。'抓取'不再是单一指令，而是一个'可供性'（Affordance）探测与响应的微循",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

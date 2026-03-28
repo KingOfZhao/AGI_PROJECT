@@ -1,0 +1,30 @@
+{
+  "name": "auto_实践清单生成_如何设计一个_行动向量_066ef0",
+  "file": "skills/auto_实践清单生成_如何设计一个_行动向量_066ef0.py",
+  "description": "【实践清单生成】如何设计一个'行动向量'映射函数，将抽象的'真实节点'转化为具体的、可在物理世界执行的'微行动指令'？这要求AI不仅理解节点的语义，还需理解物理约束（如时间、资源、人体工程学），是实现'人机共生'中AI推动人类实践的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "robotics_transfer",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.502785",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_107_Q2_0_5091",
+  "design_spec": {
+    "name": "auto_实践清单生成_如何设计一个_行动向量_066ef0",
+    "display_name": "【实践清单生成】如何设计一个'行动向量'映射函数，将抽象的'真实节点'转化为具体的、可在物理世界执行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【实践清单生成】如何设计一个'行动向量'映射函数，将抽象的'真实节点'转化为具体的、可在物理世界执行的'微行动指令'？这要求AI不仅理解节点的语义，还需理解物理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 308
+  }
+}

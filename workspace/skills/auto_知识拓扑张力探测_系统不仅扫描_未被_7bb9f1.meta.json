@@ -1,0 +1,30 @@
+{
+  "name": "auto_知识拓扑张力探测_系统不仅扫描_未被_7bb9f1",
+  "file": "skills/auto_知识拓扑张力探测_系统不仅扫描_未被_7bb9f1.py",
+  "description": "【知识拓扑张力探测】。系统不仅扫描‘未被覆盖’的区域，更计算现有节点之间的‘张力’（即解决A问题和B问题的节点距离很远，且中间缺乏桥梁）。这种张力往往意味着巨大的创新机会。系统将提示人类：‘你现在拥有处理X和Y的能力，但缺乏连接X与Y的中间态工具’，引导人类进行针对性的‘填空’实践，从而主动创造新节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.195084",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_49_O4_4886",
+  "design_spec": {
+    "name": "auto_知识拓扑张力探测_系统不仅扫描_未被_7bb9f1",
+    "display_name": "【知识拓扑张力探测】。系统不仅扫描‘未被覆盖’的区域，更计算现有节点之间的‘张力’（即解决A问题和B",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【知识拓扑张力探测】。系统不仅扫描‘未被覆盖’的区域，更计算现有节点之间的‘张力’（即解决A问题和B问题的节点距离很远，且中间缺乏桥梁）。这种张力往往意味着巨大",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 420
+  }
+}

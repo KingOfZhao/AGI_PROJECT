@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知固化反馈环_当代码被执行且通_e0b8a2",
+  "file": "skills/auto_开发_认知固化反馈环_当代码被执行且通_e0b8a2.py",
+  "description": "开发'认知固化反馈环'。当代码被执行且通过测试后，如何将其抽象为新的'真实节点'或'技能节点'并合并入现有网络？这涉及到代码的抽象化（从具体业务逻辑中提取通用模式）、标签化以及与现有知识图谱的融合，确保知识库的持续增长。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.556468",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q9_3_8714",
+  "design_spec": {
+    "name": "auto_开发_认知固化反馈环_当代码被执行且通_e0b8a2",
+    "display_name": "开发'认知固化反馈环'。当代码被执行且通过测试后，如何将其抽象为新的'真实节点'或'技能节点'并合并",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知固化反馈环'。当代码被执行且通过测试后，如何将其抽象为新的'真实节点'或'技能节点'并合并入现有网络？这涉及到代码的抽象化（从具体业务逻辑中提取通用模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

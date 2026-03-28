@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_可回溯的认知时间线_允许学生在遇_94cb37",
+  "file": "skills/auto_设计_可回溯的认知时间线_允许学生在遇_94cb37.py",
+  "description": "设计‘可回溯的认知时间线’。允许学生在遇到困难时，将思维过程‘存档’，尝试不同的解题路径。如果失败，可以‘读档’回到某个认知节点，而非仅仅看红叉。系统记录每一次‘死亡’（错误）的原因，生成‘错误路径图谱’，让失败本身成为一种可分析的数据资产，消除对失败的恐惧。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:42:58.473027",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_2_O6_1534",
+  "design_spec": {
+    "name": "auto_设计_可回溯的认知时间线_允许学生在遇_94cb37",
+    "display_name": "设计‘可回溯的认知时间线’。允许学生在遇到困难时，将思维过程‘存档’，尝试不同的解题路径。如果失败，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计‘可回溯的认知时间线’。允许学生在遇到困难时，将思维过程‘存档’，尝试不同的解题路径。如果失败，可以‘读档’回到某个认知节点，而非仅仅看红叉。系统记录每一次",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 884
+  }
+}

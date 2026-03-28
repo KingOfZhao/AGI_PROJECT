@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态织体负载均衡器_根据实时流量_像编排_1f9a32",
+  "file": "skills/auto_动态织体负载均衡器_根据实时流量_像编排_1f9a32.py",
+  "description": "动态织体负载均衡器。根据实时流量，像编排乐队一样动态调整计算织体。在高并发时，将'主调织体'（简单的Request-Response）转化为'复调织体'（多方协同计算），通过增加声部厚度来分担压力；在低负载时，剥离伴奏声部（缩减微服务实例），回归'单旋律'以节省资源。这是一种美学与效能统一的资源调度策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.737838",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_27_O5_1503",
+  "design_spec": {
+    "name": "auto_动态织体负载均衡器_根据实时流量_像编排_1f9a32",
+    "display_name": "动态织体负载均衡器。根据实时流量，像编排乐队一样动态调整计算织体。在高并发时，将'主调织体'（简单的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态织体负载均衡器。根据实时流量，像编排乐队一样动态调整计算织体。在高并发时，将'主调织体'（简单的Request-Response）转化为'复调织体'（多方协",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

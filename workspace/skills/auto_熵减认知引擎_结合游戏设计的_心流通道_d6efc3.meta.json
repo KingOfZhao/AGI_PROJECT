@@ -1,0 +1,30 @@
+{
+  "name": "auto_熵减认知引擎_结合游戏设计的_心流通道_d6efc3",
+  "file": "skills/auto_熵减认知引擎_结合游戏设计的_心流通道_d6efc3.py",
+  "description": "【熵减认知引擎】结合游戏设计的'心流通道'与教育领域的'信息密度'要求，构建一套能够将晦涩知识自动转化为'高互动性、高密度'认知脚本的系统。该能力不仅能压缩《博弈论》书籍，还能像游戏关卡设计一样，识别读者的认知瓶颈（Boss战），自动生成用于验证理解的'思维陷阱'（反直觉结论），使学习者在极短时间内通过'思维操作'完成知识的内化，实现'读薄'到'读厚'再回归'读薄'的认知升维。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.548759",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O1_7664",
+  "design_spec": {
+    "name": "auto_熵减认知引擎_结合游戏设计的_心流通道_d6efc3",
+    "display_name": "【熵减认知引擎】结合游戏设计的'心流通道'与教育领域的'信息密度'要求，构建一套能够将晦涩知识自动转",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【熵减认知引擎】结合游戏设计的'心流通道'与教育领域的'信息密度'要求，构建一套能够将晦涩知识自动转化为'高互动性、高密度'认知脚本的系统。该能力不仅能压缩《博",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

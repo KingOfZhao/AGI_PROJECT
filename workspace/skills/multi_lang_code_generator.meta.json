@@ -1,0 +1,31 @@
+{
+  "skill_name": "multi_lang_code_generator",
+  "version": "1.0.0",
+  "deduction_round": "Round 5/5",
+  "deducer": "Claude Opus 4",
+  "framework": "ULDS v2.1",
+  "truth_level": "L3_capability",
+  "truth_evidence": "6 unit tests, Python/Dart/TypeScript generation + schema + type symmetry verified",
+  "domain": "code/code_generation",
+  "tags": ["multi_language", "code_gen", "python", "dart", "typescript", "type_system", "template"],
+  "ulds_laws": ["L8_symmetry", "L10_evolution", "L5_information", "L4_logic", "L9_computability"],
+  "surpass_strategies": ["S2_skill_anchoring", "S4_four_direction_collision", "S7_zero_avoidance"],
+  "breakthrough_target": "B7_multi_language_50_to_80",
+  "chain_convergence": "F(design_pattern)→V(lang_choice)→F(syntax_rules)→V(implementation)→F(generated_code)",
+  "supported_languages": ["python", "dart", "typescript"],
+  "extensible": "Register new LanguageGenerator for Java/Rust/Go/etc",
+  "zero_avoidance": {
+    "CD04_type_mismatch": "Universal type system with strict cross-language mapping table",
+    "CD05_dependency": "Generated code has no external dependencies"
+  },
+  "components": [
+    "UniversalType — L8 cross-language type symmetry",
+    "PythonGenerator — dataclass-style with typing imports",
+    "DartGenerator — immutable class with const constructor",
+    "TypeScriptGenerator — export class with Promise async",
+    "MultiLangCodeGenerator — orchestrator with schema input"
+  ],
+  "file": "workspace/skills/multi_lang_code_generator.py",
+  "lines_of_code": 420,
+  "created": "2026-03-26T17:50:00+08:00"
+}

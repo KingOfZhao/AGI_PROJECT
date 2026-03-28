@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_全生命周期工序化编程_ho_15_a43c8c",
+  "file": "skills/auto_结合_全生命周期工序化编程_ho_15_a43c8c.py",
+  "description": "结合'全生命周期工序化编程'(ho_15_O2_3802)、'肌肉张力-触觉反馈映射'(td_15_Q2_0_1698)与'动态误差修正'(td_15_Q9_0_1698)。系统不仅能生成代码，还能像工匠一样通过'触觉'感知物理世界的反馈（如代码运行导致的系统负载变化具象化为触觉压力），并实时修正底层逻辑。这是一种具备'物理直觉'的代码生成与执行能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.260899",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_16_E1_9060",
+  "design_spec": {
+    "name": "auto_结合_全生命周期工序化编程_ho_15_a43c8c",
+    "display_name": "结合'全生命周期工序化编程'(ho_15_O2_3802)、'肌肉张力-触觉反馈映射'(td_15_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'全生命周期工序化编程'(ho_15_O2_3802)、'肌肉张力-触觉反馈映射'(td_15_Q2_0_1698)与'动态误差修正'(td_15_Q9_0",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 283
+  }
+}

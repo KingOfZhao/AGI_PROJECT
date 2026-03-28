@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一种超越简单相关性分析的深度推理能力_d7a52d",
+  "file": "skills/auto_这是一种超越简单相关性分析的深度推理能力_d7a52d.py",
+  "description": "这是一种超越简单相关性分析的深度推理能力。当系统面对失败（如工艺瑕疵）或模糊意图时，不仅识别现状，而是构建‘反事实’推理路径：回溯推导‘如果在T-10分钟改变参数X，结果Y发生的概率’。结合不确定性估算器，系统在内部构建认知沙箱，对多个可能的平行因果链进行模拟，从而得出最优的修正策略，而非仅依赖历史统计概率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.854505",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_113_P4_563",
+  "design_spec": {
+    "name": "auto_这是一种超越简单相关性分析的深度推理能力_d7a52d",
+    "display_name": "这是一种超越简单相关性分析的深度推理能力。当系统面对失败（如工艺瑕疵）或模糊意图时，不仅识别现状，而",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一种超越简单相关性分析的深度推理能力。当系统面对失败（如工艺瑕疵）或模糊意图时，不仅识别现状，而是构建‘反事实’推理路径：回溯推导‘如果在T-10分钟改变参",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 435
+  }
+}

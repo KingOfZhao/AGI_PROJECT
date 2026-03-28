@@ -1,0 +1,30 @@
+{
+  "name": "auto_概念固化与符号落地_如何将高频出现的_高_5702fd",
+  "file": "skills/auto_概念固化与符号落地_如何将高频出现的_高_5702fd.py",
+  "description": "概念固化与符号落地：如何将高频出现的、高协方差的一组‘重叠节点’动态聚合，自动生成一个新的‘原子化’概念节点，并赋予其唯一的符号标识？这模拟了人类将复杂现象总结为单一概念（如将‘物体落地’总结为‘重力’）的过程，是实现‘重叠固化为真实节点’的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "knowledge_representation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.759991",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q3_0_742",
+  "design_spec": {
+    "name": "auto_概念固化与符号落地_如何将高频出现的_高_5702fd",
+    "display_name": "概念固化与符号落地：如何将高频出现的、高协方差的一组‘重叠节点’动态聚合，自动生成一个新的‘原子化’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "概念固化与符号落地：如何将高频出现的、高协方差的一组‘重叠节点’动态聚合，自动生成一个新的‘原子化’概念节点，并赋予其唯一的符号标识？这模拟了人类将复杂现象总结",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

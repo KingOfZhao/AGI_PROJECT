@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_人类直觉_与_ai逻辑_的投票_b7c23c",
+  "file": "skills/auto_如何设计_人类直觉_与_ai逻辑_的投票_b7c23c.py",
+  "description": "如何设计'人类直觉'与'AI逻辑'的投票权重算法？在'重叠固化为真实节点'阶段，当AI的归纳结果与人类的直觉判断不一致时，不应简单服从。需开发一种基于贝叶斯更新的置信度机制，根据任务的'可证伪性强度'动态分配决策权（高可证伪性领域AI权重大，模糊领域人权重大）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "decision_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.528434",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q6_0_6230",
+  "design_spec": {
+    "name": "auto_如何设计_人类直觉_与_ai逻辑_的投票_b7c23c",
+    "display_name": "如何设计'人类直觉'与'AI逻辑'的投票权重算法？在'重叠固化为真实节点'阶段，当AI的归纳结果与人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'人类直觉'与'AI逻辑'的投票权重算法？在'重叠固化为真实节点'阶段，当AI的归纳结果与人类的直觉判断不一致时，不应简单服从。需开发一种基于贝叶斯更新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

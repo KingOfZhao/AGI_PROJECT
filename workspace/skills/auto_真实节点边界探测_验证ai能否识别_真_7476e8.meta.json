@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点边界探测_验证ai能否识别_真_7476e8",
+  "file": "skills/auto_真实节点边界探测_验证ai能否识别_真_7476e8.py",
+  "description": "【真实节点边界探测】验证AI能否识别'真实节点'的适用边界。当赋予AI一个在特定Context下成立的技能（如'均摊复杂度优化'），将其置于一个完全不同的Context（如实时嵌入式系统，对最大延迟有严格要求）时，AI是否能主动拒绝应用该技能，并解释原因（'虽然平均快，但有抖动风险'）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_114",
+    "system_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:34:56.194140",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_114_Q6_0_9951",
+  "design_spec": {
+    "name": "auto_真实节点边界探测_验证ai能否识别_真_7476e8",
+    "display_name": "【真实节点边界探测】验证AI能否识别'真实节点'的适用边界。当赋予AI一个在特定Context下成立",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点边界探测】验证AI能否识别'真实节点'的适用边界。当赋予AI一个在特定Context下成立的技能（如'均摊复杂度优化'），将其置于一个完全不同的Con",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

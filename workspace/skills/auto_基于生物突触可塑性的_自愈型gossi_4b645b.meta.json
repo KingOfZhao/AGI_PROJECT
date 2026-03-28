@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于生物突触可塑性的_自愈型gossi_4b645b",
+  "file": "skills/auto_基于生物突触可塑性的_自愈型gossi_4b645b.py",
+  "description": "基于生物突触可塑性的**自愈型Gossip网络**。传统Gossip协议盲目广播，开销大。融合能力引入赫布学习机制：网络链路具有‘权重’，频繁成功传递有效数据的链路权重增加（突触增强），长期无数据或传输错误的链路权重衰减甚至断开（突触修剪）。这使得分布式网络能像生物大脑一样，根据流量模式和故障情况动态重构拓扑，自动绕过拥堵或恶意节点，实现网络结构的自我进化和优化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.933155",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_15_O1_7633",
+  "design_spec": {
+    "name": "auto_基于生物突触可塑性的_自愈型gossi_4b645b",
+    "display_name": "基于生物突触可塑性的**自愈型Gossip网络**。传统Gossip协议盲目广播，开销大。融合能力引",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于生物突触可塑性的**自愈型Gossip网络**。传统Gossip协议盲目广播，开销大。融合能力引入赫布学习机制：网络链路具有‘权重’，频繁成功传递有效数据的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 301
+  }
+}

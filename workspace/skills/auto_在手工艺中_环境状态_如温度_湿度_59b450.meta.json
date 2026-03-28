@@ -1,0 +1,30 @@
+{
+  "name": "auto_在手工艺中_环境状态_如温度_湿度_59b450",
+  "file": "skills/auto_在手工艺中_环境状态_如温度_湿度_59b450.py",
+  "description": "在手工艺中，'环境状态'（如温度、湿度、材质不均匀）对操作有决定性影响。问题在于：现有的节点（如'切削'）往往是静态的。能否构建一个'环境-操作耦合张量'，验证操作成功率与环境参数之间的非线性关系？如果能证明某个隐性知识（如'听声音判断火候'）在数学上完全依赖于环境参数的特定组合，我们是否就可以将该'玄学'经验重构为确定性的物理公式节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "complex_systems",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.692038",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q8_0_2088",
+  "design_spec": {
+    "name": "auto_在手工艺中_环境状态_如温度_湿度_59b450",
+    "display_name": "在手工艺中，'环境状态'（如温度、湿度、材质不均匀）对操作有决定性影响。问题在于：现有的节点（如'切",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在手工艺中，'环境状态'（如温度、湿度、材质不均匀）对操作有决定性影响。问题在于：现有的节点（如'切削'）往往是静态的。能否构建一个'环境-操作耦合张量'，验证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

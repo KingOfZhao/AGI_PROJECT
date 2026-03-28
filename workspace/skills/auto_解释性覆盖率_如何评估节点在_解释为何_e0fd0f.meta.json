@@ -1,0 +1,30 @@
+{
+  "name": "auto_解释性覆盖率_如何评估节点在_解释为何_e0fd0f",
+  "file": "skills/auto_解释性覆盖率_如何评估节点在_解释为何_e0fd0f.py",
+  "description": "【解释性覆盖率】如何评估节点在“解释为何这样做”时的贡献度？AGI 不仅需要执行，还需要解释。问题在于：对于那些在推理链中被频繁调用，但在生成“解释”时从未被引用的“黑盒节点”，是否应该降低其层级？如何建立一个“解释贡献指数”来量化这一指标？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.030731",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q6_2_3526",
+  "design_spec": {
+    "name": "auto_解释性覆盖率_如何评估节点在_解释为何_e0fd0f",
+    "display_name": "【解释性覆盖率】如何评估节点在“解释为何这样做”时的贡献度？AGI 不仅需要执行，还需要解释。问题在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【解释性覆盖率】如何评估节点在“解释为何这样做”时的贡献度？AGI 不仅需要执行，还需要解释。问题在于：对于那些在推理链中被频繁调用，但在生成“解释”时从未被引",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

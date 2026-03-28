@@ -1,0 +1,30 @@
+{
+  "name": "auto_通用制造执行适配器_将cad的输出标_9b7908",
+  "file": "skills/auto_通用制造执行适配器_将cad的输出标_9b7908.py",
+  "description": "‘通用制造执行适配器’。将CAD的输出标准化为一种类似Platform Channel的消息协议。用户在Flutter App中设计好模型后，App不直接生成G-Code，而是通过‘Manufacturing Channel’发送指令到云端或本地边缘设备，由设备端的‘驱动程序’（类似于Flutter Plugin）适配具体的3D打印机或CNC机床。这使得移动App能直接控制生产设备，实现真正的‘设计即制造’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.514724",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_55_O5_5325",
+  "design_spec": {
+    "name": "auto_通用制造执行适配器_将cad的输出标_9b7908",
+    "display_name": "‘通用制造执行适配器’。将CAD的输出标准化为一种类似Platform Channel的消息协议。用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘通用制造执行适配器’。将CAD的输出标准化为一种类似Platform Channel的消息协议。用户在Flutter App中设计好模型后，App不直接生成G",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 330
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点_最小可证伪单元_的粒度寻优_217d7e",
+  "file": "skills/auto_真实节点_最小可证伪单元_的粒度寻优_217d7e.py",
+  "description": "【真实节点】'最小可证伪单元'的粒度寻优：探索'真实节点'的最优存储粒度。如果节点太粗（如'经济学'），无法指导行动；太细（如'呼吸'），无法复用。实验旨在找到一种动态粒度调整机制，使得每个SKILL都能在'可解释性'与'可执行性'之间达到平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "knowledge_representation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.790269",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q5_1_5308",
+  "design_spec": {
+    "name": "auto_真实节点_最小可证伪单元_的粒度寻优_217d7e",
+    "display_name": "【真实节点】'最小可证伪单元'的粒度寻优：探索'真实节点'的最优存储粒度。如果节点太粗（如'经济学'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点】'最小可证伪单元'的粒度寻优：探索'真实节点'的最优存储粒度。如果节点太粗（如'经济学'），无法指导行动；太细（如'呼吸'），无法复用。实验旨在找到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_多维生态位定位系统_将商业选址和运营策_0a86aa",
+  "file": "skills/auto_多维生态位定位系统_将商业选址和运营策_0a86aa.py",
+  "description": "【多维生态位定位系统】将商业选址和运营策略转化为'生态位建模'问题。利用GIS数据和实时信息流，计算目标区域的'适宜性指数'。系统不仅分析人流（总量），还分析'生态位重叠度'（竞争对手密度），并预测'群落演替方向'（区域发展趋势）。输出结果不是简单的'好/坏'，而是该区域对特定商业模式的'承载力极限'和'灭绝风险'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.802365",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_118_O4_3361",
+  "design_spec": {
+    "name": "auto_多维生态位定位系统_将商业选址和运营策_0a86aa",
+    "display_name": "【多维生态位定位系统】将商业选址和运营策略转化为'生态位建模'问题。利用GIS数据和实时信息流，计算",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多维生态位定位系统】将商业选址和运营策略转化为'生态位建模'问题。利用GIS数据和实时信息流，计算目标区域的'适宜性指数'。系统不仅分析人流（总量），还分析'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

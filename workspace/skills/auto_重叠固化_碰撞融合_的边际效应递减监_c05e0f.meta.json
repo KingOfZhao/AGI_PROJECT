@@ -1,0 +1,30 @@
+{
+  "name": "auto_重叠固化_碰撞融合_的边际效应递减监_c05e0f",
+  "file": "skills/auto_重叠固化_碰撞融合_的边际效应递减监_c05e0f.py",
+  "description": "【重叠固化】'碰撞融合'的边际效应递减监测：在人机共生过程中，人类反馈（RLHF或修修补补）初期会大幅提升节点质量，但后期可能陷入'过拟合'。需要建立算法检测'过时性'：当新的实践数据不再能显著更新节点的参数，或者新数据与节点旧逻辑的冲突率持续上升时，标记该节点为'僵尸节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "data_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.287936",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q4_0_3605",
+  "design_spec": {
+    "name": "auto_重叠固化_碰撞融合_的边际效应递减监_c05e0f",
+    "display_name": "【重叠固化】'碰撞融合'的边际效应递减监测：在人机共生过程中，人类反馈（RLHF或修修补补）初期会大",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【重叠固化】'碰撞融合'的边际效应递减监测：在人机共生过程中，人类反馈（RLHF或修修补补）初期会大幅提升节点质量，但后期可能陷入'过拟合'。需要建立算法检测'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 244
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_结构映射_一致性校验_当系_c0cce2",
+  "file": "skills/auto_跨域迁移中的_结构映射_一致性校验_当系_c0cce2.py",
+  "description": "跨域迁移中的'结构映射'一致性校验：当系统试图将'小摊贩博弈'（Node_Street_Vendor）的技能迁移至'企业资源规划'（Node_ERP）时，检验源域与目标域的'关系结构'（Relation Mapping）相似度。若属性相似但关系冲突，阻断迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "认知心理学/类比推理",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.157698",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_14_Q6_3_9530",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_结构映射_一致性校验_当系_c0cce2",
+    "display_name": "跨域迁移中的'结构映射'一致性校验：当系统试图将'小摊贩博弈'（Node_Street_Vendor",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的'结构映射'一致性校验：当系统试图将'小摊贩博弈'（Node_Street_Vendor）的技能迁移至'企业资源规划'（Node_ERP）时，检验源",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

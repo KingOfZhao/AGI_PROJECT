@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于automl的自动化代码节点单元测试_2b6c15",
+  "file": "skills/auto_基于automl的自动化代码节点单元测试_2b6c15.py",
+  "description": "基于AutoML的自动化代码节点单元测试：对于系统中已有的1070个SKILL节点（假设部分为可执行代码片段），如何自动生成对抗性输入以进行压力测试？这要求AI理解代码的边界条件并自动构建'证伪用例'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.087096",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q4_1_8212",
+  "design_spec": {
+    "name": "auto_基于automl的自动化代码节点单元测试_2b6c15",
+    "display_name": "基于AutoML的自动化代码节点单元测试：对于系统中已有的1070个SKILL节点（假设部分为可执行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于AutoML的自动化代码节点单元测试：对于系统中已有的1070个SKILL节点（假设部分为可执行代码片段），如何自动生成对抗性输入以进行压力测试？这要求AI",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 351
+  }
+}

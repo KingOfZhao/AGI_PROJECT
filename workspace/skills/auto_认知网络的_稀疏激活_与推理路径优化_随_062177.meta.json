@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知网络的_稀疏激活_与推理路径优化_随_062177",
+  "file": "skills/auto_认知网络的_稀疏激活_与推理路径优化_随_062177.py",
+  "description": "认知网络的'稀疏激活'与推理路径优化。随着节点增至191+，全连接推理成本过高。如何模拟人脑的稀疏激活机制，仅激活与当前'四向碰撞'最相关的子图进行推理？这涉及动态构建认知子网络的能力，是AGI高效运行的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.278511",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q7_2_39",
+  "design_spec": {
+    "name": "auto_认知网络的_稀疏激活_与推理路径优化_随_062177",
+    "display_name": "认知网络的'稀疏激活'与推理路径优化。随着节点增至191+，全连接推理成本过高。如何模拟人脑的稀疏激",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知网络的'稀疏激活'与推理路径优化。随着节点增至191+，全连接推理成本过高。如何模拟人脑的稀疏激活机制，仅激活与当前'四向碰撞'最相关的子图进行推理？这涉及",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 259
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从非结构化的工业传感器时序数据_如振_6fc739",
+  "file": "skills/auto_如何从非结构化的工业传感器时序数据_如振_6fc739.py",
+  "description": "如何从非结构化的工业传感器时序数据（如振动、温度、电流波形）中，自动化提取出具备物理意义的“特征原子”，并将其映射为认知网络中的底层节点？这涉及信号处理与符号化的边界问题。当前工业AI多依赖黑盒深度学习，缺乏可解释的中间层。本子问题旨在建立从连续模拟量到离散认知节点的硬编码转换规则，确保上游数据的微小波动能被转化为下游可推理的符号。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "industrial_iot",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.304244",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q1_1_2332",
+  "design_spec": {
+    "name": "auto_如何从非结构化的工业传感器时序数据_如振_6fc739",
+    "display_name": "如何从非结构化的工业传感器时序数据（如振动、温度、电流波形）中，自动化提取出具备物理意义的“特征原子",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从非结构化的工业传感器时序数据（如振动、温度、电流波形）中，自动化提取出具备物理意义的“特征原子”，并将其映射为认知网络中的底层节点？这涉及信号处理与符号化",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_工业场景具有高度的动态性_如刀具磨损_原_f1bf7d",
+  "file": "skills/auto_工业场景具有高度的动态性_如刀具磨损_原_f1bf7d.py",
+  "description": "工业场景具有高度的动态性（如刀具磨损、原料批次差异）。AGI如何检测当前环境的变化并触发“分布外（OOD）检测”机制，进而判定已有的“真实节点”是否失效，并自动发起“自下而上”的新知识构建请求？即如何实现认知框架的“自毁与重建”循环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "lifelong_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.099779",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_65_Q4_3_1183",
+  "design_spec": {
+    "name": "auto_工业场景具有高度的动态性_如刀具磨损_原_f1bf7d",
+    "display_name": "工业场景具有高度的动态性（如刀具磨损、原料批次差异）。AGI如何检测当前环境的变化并触发“分布外（O",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "工业场景具有高度的动态性（如刀具磨损、原料批次差异）。AGI如何检测当前环境的变化并触发“分布外（OOD）检测”机制，进而判定已有的“真实节点”是否失效，并自动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

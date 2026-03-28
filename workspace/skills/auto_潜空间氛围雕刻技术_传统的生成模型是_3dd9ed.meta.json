@@ -1,0 +1,30 @@
+{
+  "name": "auto_潜空间氛围雕刻技术_传统的生成模型是_3dd9ed",
+  "file": "skills/auto_潜空间氛围雕刻技术_传统的生成模型是_3dd9ed.py",
+  "description": "'潜空间氛围雕刻技术'。传统的生成模型是在潜空间中随机游走，而此能力允许设计师像在物理场地'修坡、引光'一样，对AI的潜空间进行'地形改造'。通过定义潜空间的'山谷'（约束）和'平原'（自由度），可以精确控制生成内容的'氛围'（如忧郁、神圣、赛博朋克），实现从'随机生成'到'定调生成'的跨越，让AI掌握人类难以言表的感性美学。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.114661",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_66_O3_6986",
+  "design_spec": {
+    "name": "auto_潜空间氛围雕刻技术_传统的生成模型是_3dd9ed",
+    "display_name": "'潜空间氛围雕刻技术'。传统的生成模型是在潜空间中随机游走，而此能力允许设计师像在物理场地'修坡、引",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'潜空间氛围雕刻技术'。传统的生成模型是在潜空间中随机游走，而此能力允许设计师像在物理场地'修坡、引光'一样，对AI的潜空间进行'地形改造'。通过定义潜空间的'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

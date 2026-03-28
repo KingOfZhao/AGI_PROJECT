@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态传感量化_如何利用高精度动作捕捉_191750",
+  "file": "skills/auto_多模态传感量化_如何利用高精度动作捕捉_191750.py",
+  "description": "【多模态传感量化】如何利用高精度动作捕捉(如VR手套或视觉动捕)与触觉传感器，将非结构化的手工艺动作（如陶艺拉坯的力度、揉面的频率）转化为低维度的流形表征？此问题旨在解决隐性知识无法被文本描述的物理属性，需构建一个将连续物理信号映射为离散‘真实节点’的编码器。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:42:58.459392",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q1_2_6644",
+  "design_spec": {
+    "name": "auto_多模态传感量化_如何利用高精度动作捕捉_191750",
+    "display_name": "【多模态传感量化】如何利用高精度动作捕捉(如VR手套或视觉动捕)与触觉传感器，将非结构化的手工艺动作",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态传感量化】如何利用高精度动作捕捉(如VR手套或视觉动捕)与触觉传感器，将非结构化的手工艺动作（如陶艺拉坯的力度、揉面的频率）转化为低维度的流形表征？此问",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

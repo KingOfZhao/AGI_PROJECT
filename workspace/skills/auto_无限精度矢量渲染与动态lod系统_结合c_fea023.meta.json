@@ -1,0 +1,30 @@
+{
+  "name": "auto_无限精度矢量渲染与动态lod系统_结合c_fea023",
+  "file": "skills/auto_无限精度矢量渲染与动态lod系统_结合c_fea023.py",
+  "description": "无限精度矢量渲染与动态LOD系统。结合CAD的曲面细分技术和Flutter的光栅化管线，开发一种基于曲率的动态LOD（Level of Detail）渲染组件。该组件能根据缩放级别动态调整绘制的贝塞尔曲线精度，在微观视角下启用CAD级的高精度网格细分，在宏观视角下使用简单几何体，从而在移动端实现工业级图纸的流畅交互，同时保持打印级的输出精度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_30",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:02:19.397976",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_30_O2_1718",
+  "design_spec": {
+    "name": "auto_无限精度矢量渲染与动态lod系统_结合c_fea023",
+    "display_name": "无限精度矢量渲染与动态LOD系统。结合CAD的曲面细分技术和Flutter的光栅化管线，开发一种基于",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "无限精度矢量渲染与动态LOD系统。结合CAD的曲面细分技术和Flutter的光栅化管线，开发一种基于曲率的动态LOD（Level of Detail）渲染组件。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 381
+  }
+}

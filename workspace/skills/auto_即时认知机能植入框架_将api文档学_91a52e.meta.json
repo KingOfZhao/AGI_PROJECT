@@ -1,0 +1,30 @@
+{
+  "name": "auto_即时认知机能植入框架_将api文档学_91a52e",
+  "file": "skills/auto_即时认知机能植入框架_将api文档学_91a52e.py",
+  "description": "【即时认知机能植入框架】：将API文档学习过程建模为'突触可塑性'过程。当面临一个全新的虚构API（如'量子咖啡机'）时，系统通过Few-Shot Learning快速构建该API的'心智模型'（Mental Model），并将其作为一个临时挂载的'认知插件'。随后，系统不仅调用它，还能将其与现有知识融合，生成'组合式创新'（例如用排序算法控制咖啡机温度），实现真正的工具创造性使用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.567207",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_126_O4_3916",
+  "design_spec": {
+    "name": "auto_即时认知机能植入框架_将api文档学_91a52e",
+    "display_name": "【即时认知机能植入框架】：将API文档学习过程建模为'突触可塑性'过程。当面临一个全新的虚构API（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【即时认知机能植入框架】：将API文档学习过程建模为'突触可塑性'过程。当面临一个全新的虚构API（如'量子咖啡机'）时，系统通过Few-Shot Learni",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

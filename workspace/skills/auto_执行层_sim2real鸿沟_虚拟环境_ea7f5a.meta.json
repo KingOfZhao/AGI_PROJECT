@@ -1,0 +1,30 @@
+{
+  "name": "auto_执行层_sim2real鸿沟_虚拟环境_ea7f5a",
+  "file": "skills/auto_执行层_sim2real鸿沟_虚拟环境_ea7f5a.py",
+  "description": "【执行层：Sim2Real鸿沟】虚拟环境中的AGI节点需要在物理世界验证。问题：如何开发一种‘域随机化’策略，使AGI在纯虚拟仿真环境中训练的‘精密装配’技能（节点数：2449之一），在迁移到实体机械臂时，位置误差能控制在0.1mm以内？重点在于如何模拟现实世界中的摩擦力不确定性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.343021",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q4_3_8808",
+  "design_spec": {
+    "name": "auto_执行层_sim2real鸿沟_虚拟环境_ea7f5a",
+    "display_name": "【执行层：Sim2Real鸿沟】虚拟环境中的AGI节点需要在物理世界验证。问题：如何开发一种‘域随机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【执行层：Sim2Real鸿沟】虚拟环境中的AGI节点需要在物理世界验证。问题：如何开发一种‘域随机化’策略，使AGI在纯虚拟仿真环境中训练的‘精密装配’技能（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 232
+  }
+}

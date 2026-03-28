@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态语义对齐_如何利用工业现场的非结_5c2807",
+  "file": "skills/auto_多模态语义对齐_如何利用工业现场的非结_5c2807.py",
+  "description": "【多模态语义对齐】如何利用工业现场的非结构化数据（如维修工的语音录音、设备震动声纹、故障零件图像），通过对比学习（Contrastive Learning）将其映射到现有的2158个技能节点向量空间中？重点在于解决“行话”（如工人说的‘驴叫’指代特定电机异响）与标准技能术语之间的语义鸿沟，实现低维流形上的精准对齐。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.581745",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_130_Q1_3_2626",
+  "design_spec": {
+    "name": "auto_多模态语义对齐_如何利用工业现场的非结_5c2807",
+    "display_name": "【多模态语义对齐】如何利用工业现场的非结构化数据（如维修工的语音录音、设备震动声纹、故障零件图像），",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态语义对齐】如何利用工业现场的非结构化数据（如维修工的语音录音、设备震动声纹、故障零件图像），通过对比学习（Contrastive Learning）将其",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

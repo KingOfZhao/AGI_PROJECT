@@ -1,0 +1,30 @@
+{
+  "name": "auto_重叠固化_语义漂移_检测_随着节点不_6d208a",
+  "file": "skills/auto_重叠固化_语义漂移_检测_随着节点不_6d208a.py",
+  "description": "【重叠固化】'语义漂移'检测：随着节点不断被新数据更新，其核心定义是否发生了不可控的'漂移'？例如，一个原本关于'敏捷开发'的节点，经过多次自动更新后变成了单纯的'Scrum会议记录'。需要计算当前节点向量与初始节点向量的夹角，并设定阈值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "semantic_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.302141",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q10_0_3605",
+  "design_spec": {
+    "name": "auto_重叠固化_语义漂移_检测_随着节点不_6d208a",
+    "display_name": "【重叠固化】'语义漂移'检测：随着节点不断被新数据更新，其核心定义是否发生了不可控的'漂移'？例如，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【重叠固化】'语义漂移'检测：随着节点不断被新数据更新，其核心定义是否发生了不可控的'漂移'？例如，一个原本关于'敏捷开发'的节点，经过多次自动更新后变成了单纯",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 255
+  }
+}

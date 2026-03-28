@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_上手性直觉验证指标_传统的rew_2d0728",
+  "file": "skills/auto_开发_上手性直觉验证指标_传统的rew_2d0728.py",
+  "description": "开发‘上手性直觉验证指标’。传统的Reward函数仅关注任务成功与否，该融合能力引入‘上手度’评估：计算动作序列的流畅性、能量消耗的最小化以及对物理约束的顺应性。AI不仅学习完成任务，还要学习如何‘轻松’地任务，即寻找海德格尔式的‘无阻力通道’。如果机器人笨拙地对抗重力，即使任务完成，其‘上手性’评分也极低，判定为未真正掌握物理法则。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.816470",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O4_7317",
+  "design_spec": {
+    "name": "auto_开发_上手性直觉验证指标_传统的rew_2d0728",
+    "display_name": "开发‘上手性直觉验证指标’。传统的Reward函数仅关注任务成功与否，该融合能力引入‘上手度’评估：",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘上手性直觉验证指标’。传统的Reward函数仅关注任务成功与否，该融合能力引入‘上手度’评估：计算动作序列的流畅性、能量消耗的最小化以及对物理约束的顺应性",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

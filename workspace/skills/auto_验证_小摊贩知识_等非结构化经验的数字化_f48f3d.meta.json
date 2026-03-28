@@ -1,0 +1,30 @@
+{
+  "name": "auto_验证_小摊贩知识_等非结构化经验的数字化_f48f3d",
+  "file": "skills/auto_验证_小摊贩知识_等非结构化经验的数字化_f48f3d.py",
+  "description": "验证'小摊贩知识'等非结构化经验的数字化精度。选取一个具体的现实技能节点（如'讨价还价'），让AI生成该技能的决策树模型。然后通过一个文本冒险游戏模拟买家与卖家，测试AI是否能根据'买家微表情'或'语气'（文本描述）调整策略，实现成交率最大化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_134",
+    "behavioral_economics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:33:15.339733",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_134_Q6_0_1064",
+  "design_spec": {
+    "name": "auto_验证_小摊贩知识_等非结构化经验的数字化_f48f3d",
+    "display_name": "验证'小摊贩知识'等非结构化经验的数字化精度。选取一个具体的现实技能节点（如'讨价还价'），让AI生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "验证'小摊贩知识'等非结构化经验的数字化精度。选取一个具体的现实技能节点（如'讨价还价'），让AI生成该技能的决策树模型。然后通过一个文本冒险游戏模拟买家与卖家",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 329
+  }
+}

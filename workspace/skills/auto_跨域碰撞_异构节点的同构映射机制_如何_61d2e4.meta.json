@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域碰撞_异构节点的同构映射机制_如何_61d2e4",
+  "file": "skills/auto_跨域碰撞_异构节点的同构映射机制_如何_61d2e4.py",
+  "description": "【跨域碰撞】异构节点的同构映射机制：如何识别'小摊贩的库存管理'（生活常识）与'供应链弹性'（商业逻辑）之间的结构同构性？本问题要求构建一个结构化映射引擎，忽略节点的表面语义，提取其底层的拓扑结构（如输入-处理-输出模型），实现真正的跨域知识迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.699740",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_27_Q4_3_938",
+  "design_spec": {
+    "name": "auto_跨域碰撞_异构节点的同构映射机制_如何_61d2e4",
+    "display_name": "【跨域碰撞】异构节点的同构映射机制：如何识别'小摊贩的库存管理'（生活常识）与'供应链弹性'（商业逻",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域碰撞】异构节点的同构映射机制：如何识别'小摊贩的库存管理'（生活常识）与'供应链弹性'（商业逻辑）之间的结构同构性？本问题要求构建一个结构化映射引擎，忽略",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 257
+  }
+}

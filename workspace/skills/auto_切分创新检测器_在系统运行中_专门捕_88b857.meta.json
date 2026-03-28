@@ -1,0 +1,30 @@
+{
+  "name": "auto_切分创新检测器_在系统运行中_专门捕_88b857",
+  "file": "skills/auto_切分创新检测器_在系统运行中_专门捕_88b857.py",
+  "description": "'切分创新检测器'。在系统运行中，专门捕捉那些与'强拍'（主流认知/顶层设计）不符的'弱拍重音'（异常成功案例/底层证伪）。系统不再简单地将异常视为噪音，而是将其视为'切分音'，评估其是否蕴含新的节奏动能。如果底层实践持续在顶层框架的弱处发力，系统自动触发节奏重构，更新认知框架。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.849333",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_71_O4_4125",
+  "design_spec": {
+    "name": "auto_切分创新检测器_在系统运行中_专门捕_88b857",
+    "display_name": "'切分创新检测器'。在系统运行中，专门捕捉那些与'强拍'（主流认知/顶层设计）不符的'弱拍重音'（异",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'切分创新检测器'。在系统运行中，专门捕捉那些与'强拍'（主流认知/顶层设计）不符的'弱拍重音'（异常成功案例/底层证伪）。系统不再简单地将异常视为噪音，而是将",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

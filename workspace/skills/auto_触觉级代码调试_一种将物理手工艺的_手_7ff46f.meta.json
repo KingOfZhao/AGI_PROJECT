@@ -1,0 +1,30 @@
+{
+  "name": "auto_触觉级代码调试_一种将物理手工艺的_手_7ff46f",
+  "file": "skills/auto_触觉级代码调试_一种将物理手工艺的_手_7ff46f.py",
+  "description": "【触觉级代码调试】一种将物理手工艺的‘手感’引入编程的融合能力。目前的RLHF主要依赖文本或结果反馈，融合后，IDE可以记录‘代码运行时的阻力’（如内存抖动、异常处理频率、逻辑阻塞感）。系统建立一套‘数字触觉反馈机制’，让程序员在写代码时能像陶艺师感受泥土一样，‘感觉’到代码逻辑的松紧、干湿（耦合度与可维护性），从而在报错发生前，凭‘直觉’修正代码结构，实现更底层的‘人机共生’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.772808",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_20_O2_9997",
+  "design_spec": {
+    "name": "auto_触觉级代码调试_一种将物理手工艺的_手_7ff46f",
+    "display_name": "【触觉级代码调试】一种将物理手工艺的‘手感’引入编程的融合能力。目前的RLHF主要依赖文本或结果反馈",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【触觉级代码调试】一种将物理手工艺的‘手感’引入编程的融合能力。目前的RLHF主要依赖文本或结果反馈，融合后，IDE可以记录‘代码运行时的阻力’（如内存抖动、异",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_根据认知框架_人机共生_是核心_如何设_3dccd9",
+  "file": "skills/auto_根据认知框架_人机共生_是核心_如何设_3dccd9.py",
+  "description": "根据认知框架，‘人机共生’是核心。如何设计一个‘人在回路’（Human-in-the-loop）的接口，当AI遇到‘置信度低谷’时，自动生成‘最小验证问题’向人类求助（如：‘现在的颜色偏红吗？’），并将人类的二值反馈（是/否）即时转化为强化学习的Reward信号？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.309912",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q7_0_6710",
+  "design_spec": {
+    "name": "auto_根据认知框架_人机共生_是核心_如何设_3dccd9",
+    "display_name": "根据认知框架，‘人机共生’是核心。如何设计一个‘人在回路’（Human-in-the-loop）的接",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "根据认知框架，‘人机共生’是核心。如何设计一个‘人在回路’（Human-in-the-loop）的接口，当AI遇到‘置信度低谷’时，自动生成‘最小验证问题’向人",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 243
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_一个基于_递归子目标分解_与_跨域拓扑关_bde0b1",
+  "file": "skills/auto_一个基于_递归子目标分解_与_跨域拓扑关_bde0b1.py",
+  "description": "一个基于‘递归子目标分解’与‘跨域拓扑关联’的创新生成系统。它不将技能视为孤立的点，而是通过异构数据融合（如将‘揉面团’的力学数据与‘按摩’的解剖学数据关联）构建技能图谱。系统通过递归分解长序列任务，并在不同领域的技能节点间寻找同构性，从而实现技能的迁移与重组，产生全新的‘真实节点’（如将木工雕刻技巧应用于3D打印路径规划）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_134",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:33:15.353757",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_134_P6_2611",
+  "design_spec": {
+    "name": "auto_一个基于_递归子目标分解_与_跨域拓扑关_bde0b1",
+    "display_name": "一个基于‘递归子目标分解’与‘跨域拓扑关联’的创新生成系统。它不将技能视为孤立的点，而是通过异构数据",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一个基于‘递归子目标分解’与‘跨域拓扑关联’的创新生成系统。它不将技能视为孤立的点，而是通过异构数据融合（如将‘揉面团’的力学数据与‘按摩’的解剖学数据关联）构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 401
+  }
+}

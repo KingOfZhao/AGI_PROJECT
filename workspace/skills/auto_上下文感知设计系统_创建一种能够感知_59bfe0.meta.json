@@ -1,0 +1,30 @@
+{
+  "name": "auto_上下文感知设计系统_创建一种能够感知_59bfe0",
+  "file": "skills/auto_上下文感知设计系统_创建一种能够感知_59bfe0.py",
+  "description": "“上下文感知设计系统”。创建一种能够感知装配环境的智能零件。零件内部的尺寸不再是写死的数值，而是引用环境上下文的‘InheritedProperty’（例如：自动获取当前装配体的‘标准孔径’）。当零件被拖入不同的装配环境时，其几何形态会根据环境上下文自动发生形变，实现真正的‘智能适配’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.804345",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_50_O5_3153",
+  "design_spec": {
+    "name": "auto_上下文感知设计系统_创建一种能够感知_59bfe0",
+    "display_name": "“上下文感知设计系统”。创建一种能够感知装配环境的智能零件。零件内部的尺寸不再是写死的数值，而是引用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "“上下文感知设计系统”。创建一种能够感知装配环境的智能零件。零件内部的尺寸不再是写死的数值，而是引用环境上下文的‘InheritedProperty’（例如：自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

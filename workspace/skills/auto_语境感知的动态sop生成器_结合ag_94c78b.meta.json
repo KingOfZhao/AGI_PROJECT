@@ -1,0 +1,30 @@
+{
+  "name": "auto_语境感知的动态sop生成器_结合ag_94c78b",
+  "file": "skills/auto_语境感知的动态sop生成器_结合ag_94c78b.py",
+  "description": "【语境感知的动态SOP生成器】：结合AGI的JSON结构化能力与实践技能的语境处理，开发一个能够处理极度模糊指令的执行引擎。它不仅仅是解析意图，而是利用‘人机共生’中的实践节点（如‘老板的习惯’、‘客户的偏好’）作为隐式参数，自动填充API调用中的缺失参数，将模糊的‘搞一下那个报告’直接转化为具体的、带参数的可执行任务流（如‘打开X报表，截取Y数据，发送给Z’），实现从自然语言到物理/数字操作的闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.962264",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_54_O1_234",
+  "design_spec": {
+    "name": "auto_语境感知的动态sop生成器_结合ag_94c78b",
+    "display_name": "【语境感知的动态SOP生成器】：结合AGI的JSON结构化能力与实践技能的语境处理，开发一个能够处理",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语境感知的动态SOP生成器】：结合AGI的JSON结构化能力与实践技能的语境处理，开发一个能够处理极度模糊指令的执行引擎。它不仅仅是解析意图，而是利用‘人机共",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

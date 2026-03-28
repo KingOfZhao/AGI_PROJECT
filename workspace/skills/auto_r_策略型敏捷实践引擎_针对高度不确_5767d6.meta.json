@@ -1,0 +1,30 @@
+{
+  "name": "auto_r_策略型敏捷实践引擎_针对高度不确_5767d6",
+  "file": "skills/auto_r_策略型敏捷实践引擎_针对高度不确_5767d6.py",
+  "description": "【r-策略型敏捷实践引擎】：针对高度不确定环境下的AGI决策。放弃构建单一庞大的完美计划，转而生成大量'微型闭环'（Micro-Loops，如同生态种群爆发）。让AI在模拟环境中并行投放成百上千个低成本、粗糙的'小摊贩'策略，通过环境选择快速筛选存活者。这能极大提升在陌生领域（如火星探索或极端金融市场）的初始生存率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.950386",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_108_O2_8928",
+  "design_spec": {
+    "name": "auto_r_策略型敏捷实践引擎_针对高度不确_5767d6",
+    "display_name": "【r-策略型敏捷实践引擎】：针对高度不确定环境下的AGI决策。放弃构建单一庞大的完美计划，转而生成大",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【r-策略型敏捷实践引擎】：针对高度不确定环境下的AGI决策。放弃构建单一庞大的完美计划，转而生成大量'微型闭环'（Micro-Loops，如同生态种群爆发）。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

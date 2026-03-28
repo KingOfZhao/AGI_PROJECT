@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将人类在物理世界的非结构化实践反馈_44c416",
+  "file": "skills/auto_如何将人类在物理世界的非结构化实践反馈_44c416.py",
+  "description": "如何将人类在物理世界的非结构化实践反馈（语音、视频、随笔），低成本且高保真地转化为可执行的计算图？这涉及跨模态对齐问题，即如何将人类模糊的'手感'或'直觉'映射为AI系统内精确的逻辑节点与连接权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.774345",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q2_2_2226",
+  "design_spec": {
+    "name": "auto_如何将人类在物理世界的非结构化实践反馈_44c416",
+    "display_name": "如何将人类在物理世界的非结构化实践反馈（语音、视频、随笔），低成本且高保真地转化为可执行的计算图？这",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将人类在物理世界的非结构化实践反馈（语音、视频、随笔），低成本且高保真地转化为可执行的计算图？这涉及跨模态对齐问题，即如何将人类模糊的'手感'或'直觉'映射",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 550
+  }
+}

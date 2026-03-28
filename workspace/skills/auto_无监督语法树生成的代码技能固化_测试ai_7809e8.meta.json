@@ -1,0 +1,30 @@
+{
+  "name": "auto_无监督语法树生成的代码技能固化_测试ai_7809e8",
+  "file": "skills/auto_无监督语法树生成的代码技能固化_测试ai_7809e8.py",
+  "description": "无监督语法树生成的代码技能固化：测试AI能否从非结构化的文本日志或对话中自动提取‘可执行逻辑’。例如，从一段描述‘如何手动清理服务器缓存’的文字中，AI应能自动生成一个Shell脚本节点，并将其挂载到SKILL分类下。这验证了从‘信息’到‘真实节点’的转化效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "nlp_automation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.631339",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_106_Q4_0_3672",
+  "design_spec": {
+    "name": "auto_无监督语法树生成的代码技能固化_测试ai_7809e8",
+    "display_name": "无监督语法树生成的代码技能固化：测试AI能否从非结构化的文本日志或对话中自动提取‘可执行逻辑’。例如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "无监督语法树生成的代码技能固化：测试AI能否从非结构化的文本日志或对话中自动提取‘可执行逻辑’。例如，从一段描述‘如何手动清理服务器缓存’的文字中，AI应能自动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对1231个skill节点_如何设计_56f584",
+  "file": "skills/auto_针对1231个skill节点_如何设计_56f584.py",
+  "description": "针对1231个SKILL节点，如何设计‘技能合成器’？该模块应能自动组合两个或多个低阶技能（如‘写作’+‘编程’），生成高阶复合技能（如‘写代码生成器’），并自动推演该复合技能的适用场景与证伪标准，从而实现节点数量的非线性增长。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "agi_evolution",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.405224",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q8_2_6137",
+  "design_spec": {
+    "name": "auto_针对1231个skill节点_如何设计_56f584",
+    "display_name": "针对1231个SKILL节点，如何设计‘技能合成器’？该模块应能自动组合两个或多个低阶技能（如‘写作",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对1231个SKILL节点，如何设计‘技能合成器’？该模块应能自动组合两个或多个低阶技能（如‘写作’+‘编程’），生成高阶复合技能（如‘写代码生成器’），并自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

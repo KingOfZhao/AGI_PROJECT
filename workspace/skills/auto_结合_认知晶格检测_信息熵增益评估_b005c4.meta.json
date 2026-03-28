@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_认知晶格检测_信息熵增益评估_b005c4",
+  "file": "skills/auto_结合_认知晶格检测_信息熵增益评估_b005c4.py",
+  "description": "结合'认知晶格检测'、'信息熵增益评估'与'认知光谱分析'。系统在试图固化跨域节点形成'元节点'时，会计算KL散度以确保信息无损，并检查领域内的逻辑闭环度。只有当新节点既带来信息增益又符合逻辑自洽时，才会触发'固化'，从而实现知识库结构的高度有序化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.569813",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_126_E5_2598",
+  "design_spec": {
+    "name": "auto_结合_认知晶格检测_信息熵增益评估_b005c4",
+    "display_name": "结合'认知晶格检测'、'信息熵增益评估'与'认知光谱分析'。系统在试图固化跨域节点形成'元节点'时，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'认知晶格检测'、'信息熵增益评估'与'认知光谱分析'。系统在试图固化跨域节点形成'元节点'时，会计算KL散度以确保信息无损，并检查领域内的逻辑闭环度。只有",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

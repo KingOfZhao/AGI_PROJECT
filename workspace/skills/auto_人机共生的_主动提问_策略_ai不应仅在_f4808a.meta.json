@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生的_主动提问_策略_ai不应仅在_f4808a",
+  "file": "skills/auto_人机共生的_主动提问_策略_ai不应仅在_f4808a.py",
+  "description": "人机共生的‘主动提问’策略：AI不应仅在被提问时回答，而应在遇到‘认知边界’（即高不确定性且高重要性的节点边缘）时，自动生成针对人类专家的‘最小化问题集’。问题必须被设计为‘是/否’或‘多选’，旨在以最小的人力成本最大限度地消除网络熵。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "active_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.345594",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_58_Q8_2_4923",
+  "design_spec": {
+    "name": "auto_人机共生的_主动提问_策略_ai不应仅在_f4808a",
+    "display_name": "人机共生的‘主动提问’策略：AI不应仅在被提问时回答，而应在遇到‘认知边界’（即高不确定性且高重要性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生的‘主动提问’策略：AI不应仅在被提问时回答，而应在遇到‘认知边界’（即高不确定性且高重要性的节点边缘）时，自动生成针对人类专家的‘最小化问题集’。问题",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

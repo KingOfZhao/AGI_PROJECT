@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义驱动的api反向探索代理_针对未_fdcf8b",
+  "file": "skills/auto_语义驱动的api反向探索代理_针对未_fdcf8b.py",
+  "description": "【语义驱动的API反向探索代理】：针对未知API，AI不再机械地填充参数，而是构建一个‘API语义模型’。当用户意图模糊时（如‘处理得温和一点’），AI会在API文档中搜索对应的功能描述（如‘throttle’, ‘limit’, ‘smooth’），将自然语言形容词映射为具体的API参数值（如 `rate_limit=0.5`）。实现路径是：1. 解析API文档构建功能向量空间；2. 将用户意图投影到该空间；3. 提取最近的参数节点并赋值。这让AI具备了像人类一样‘阅读说明书并联想应用’的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.160179",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_65_O5_3391",
+  "design_spec": {
+    "name": "auto_语义驱动的api反向探索代理_针对未_fdcf8b",
+    "display_name": "【语义驱动的API反向探索代理】：针对未知API，AI不再机械地填充参数，而是构建一个‘API语义模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义驱动的API反向探索代理】：针对未知API，AI不再机械地填充参数，而是构建一个‘API语义模型’。当用户意图模糊时（如‘处理得温和一点’），AI会在AP",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 570
+  }
+}

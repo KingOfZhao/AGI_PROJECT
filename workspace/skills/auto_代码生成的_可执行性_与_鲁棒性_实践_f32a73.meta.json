@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码生成的_可执行性_与_鲁棒性_实践_f32a73",
+  "file": "skills/auto_代码生成的_可执行性_与_鲁棒性_实践_f32a73.py",
+  "description": "代码生成的‘可执行性’与‘鲁棒性’（实践性）。针对SKILL中1006个技能节点，AI生成的代码不仅仅是语法正确，必须能在边缘条件下（异常输入、资源耗尽）依然保持运行或优雅降级。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "coding",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:07.958023",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_59_Q5_0_498",
+  "design_spec": {
+    "name": "auto_代码生成的_可执行性_与_鲁棒性_实践_f32a73",
+    "display_name": "代码生成的‘可执行性’与‘鲁棒性’（实践性）。针对SKILL中1006个技能节点，AI生成的代码不仅",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "代码生成的‘可执行性’与‘鲁棒性’（实践性）。针对SKILL中1006个技能节点，AI生成的代码不仅仅是语法正确，必须能在边缘条件下（异常输入、资源耗尽）依然保",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 223
+  }
+}

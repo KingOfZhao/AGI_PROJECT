@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义_参数全息约束系统_将代码参数约束_68c2fa",
+  "file": "skills/auto_语义_参数全息约束系统_将代码参数约束_68c2fa.py",
+  "description": "【语义-参数全息约束系统】将代码参数约束视为'语义锚点'。在生成代码时，建立一个'变量引用解析图'，将自然语言中的模糊代词（如'处理它'）直接映射为代码中的强约束参数（如`max_rows=10`），并在代码注释中显式标注这些'假设边界'。如果用户指令导致'注意力漂移'（如上下文超长），系统能根据参数约束图自动截断或聚焦，保持意图与执行的拓扑同胚。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.059519",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_66_O3_8292",
+  "design_spec": {
+    "name": "auto_语义_参数全息约束系统_将代码参数约束_68c2fa",
+    "display_name": "【语义-参数全息约束系统】将代码参数约束视为'语义锚点'。在生成代码时，建立一个'变量引用解析图'，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义-参数全息约束系统】将代码参数约束视为'语义锚点'。在生成代码时，建立一个'变量引用解析图'，将自然语言中的模糊代词（如'处理它'）直接映射为代码中的强约",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

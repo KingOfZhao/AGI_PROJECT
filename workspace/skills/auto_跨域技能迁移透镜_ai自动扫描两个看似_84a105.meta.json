@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域技能迁移透镜_ai自动扫描两个看似_84a105",
+  "file": "skills/auto_跨域技能迁移透镜_ai自动扫描两个看似_84a105.py",
+  "description": "【跨域技能迁移透镜】AI自动扫描两个看似无关的技能领域，提取其底层的‘动力学骨架’或‘逻辑结构’并进行映射。例如，将‘太极拳的力学结构’迁移到‘机器人步态控制’中，生成全新的控制策略。帮助人类专家打破思维定势，实现‘触类旁通’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.754561",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_61_O7_69",
+  "design_spec": {
+    "name": "auto_跨域技能迁移透镜_ai自动扫描两个看似_84a105",
+    "display_name": "【跨域技能迁移透镜】AI自动扫描两个看似无关的技能领域，提取其底层的‘动力学骨架’或‘逻辑结构’并进",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域技能迁移透镜】AI自动扫描两个看似无关的技能领域，提取其底层的‘动力学骨架’或‘逻辑结构’并进行映射。例如，将‘太极拳的力学结构’迁移到‘机器人步态控制’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

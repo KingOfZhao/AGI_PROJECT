@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_结构化语义动作空间_将机器人的s_3efc20",
+  "file": "skills/auto_构建_结构化语义动作空间_将机器人的s_3efc20.py",
+  "description": "构建'结构化语义动作空间'。将机器人的Skill节点视为'能指'（Signifier），将环境状态视为'所指'（Signified）。当执行任务时，AI不搜索孤立指令，而是搜索'意义结构链'（Signifying Chain）。例如，'修补'不是单一动作，而是[检测-清洁-填充-平整]的符号结构。AI能够根据环境变化，像重组语言句子一样重组动作序列，生成符合逻辑的'动作篇章'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.259714",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_16_O4_4073",
+  "design_spec": {
+    "name": "auto_构建_结构化语义动作空间_将机器人的s_3efc20",
+    "display_name": "构建'结构化语义动作空间'。将机器人的Skill节点视为'能指'（Signifier），将环境状态视",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'结构化语义动作空间'。将机器人的Skill节点视为'能指'（Signifier），将环境状态视为'所指'（Signified）。当执行任务时，AI不搜索孤",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

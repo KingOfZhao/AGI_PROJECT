@@ -1,0 +1,30 @@
+{
+  "name": "auto_能否实现一个基于语义相似度的自动链接机制_b16d62",
+  "file": "skills/auto_能否实现一个基于语义相似度的自动链接机制_b16d62.py",
+  "description": "能否实现一个基于语义相似度的自动链接机制，将新生成的候选节点与现有认知网络中的节点建立边连接，且边的权重能动态反映上下文关联强度？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.335047",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_8_Q2_2_5774",
+  "design_spec": {
+    "name": "auto_能否实现一个基于语义相似度的自动链接机制_b16d62",
+    "display_name": "能否实现一个基于语义相似度的自动链接机制，将新生成的候选节点与现有认知网络中的节点建立边连接，且边的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "能否实现一个基于语义相似度的自动链接机制，将新生成的候选节点与现有认知网络中的节点建立边连接，且边的权重能动态反映上下文关联强度？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 320
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_动态路由器_td_83_q3_984e42",
+  "file": "skills/auto_整合_动态路由器_td_83_q3_984e42.py",
+  "description": "整合'动态路由器'（td_83_Q3）、'意图校准反馈'（td_83_Q8）与'模糊意图量化'（td_83_Q5）。当用户提出模糊需求时，系统不再寻求单一解，而是维持一个'概率意图云'，并行调用多个Skill组合进行试探性执行，通过反馈环快速坍缩到用户真正想要的那个结果，实现极速的意图收敛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.249064",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_85_E5_8748",
+  "design_spec": {
+    "name": "auto_整合_动态路由器_td_83_q3_984e42",
+    "display_name": "整合'动态路由器'（td_83_Q3）、'意图校准反馈'（td_83_Q8）与'模糊意图量化'（td",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'动态路由器'（td_83_Q3）、'意图校准反馈'（td_83_Q8）与'模糊意图量化'（td_83_Q5）。当用户提出模糊需求时，系统不再寻求单一解，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

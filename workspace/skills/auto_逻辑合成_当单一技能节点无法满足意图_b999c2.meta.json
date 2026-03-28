@@ -1,0 +1,30 @@
+{
+  "name": "auto_逻辑合成_当单一技能节点无法满足意图_b999c2",
+  "file": "skills/auto_逻辑合成_当单一技能节点无法满足意图_b999c2.py",
+  "description": "【逻辑合成】当单一技能节点无法满足意图，需要多个技能串联时，如何构建一个‘逻辑验证器’来确保生成的代码流程符合认知逻辑？例如，‘下载图片’必须发生在‘处理图片’之前，防止产生不可执行的幻觉代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.838095",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_103_Q3_3_4519",
+  "design_spec": {
+    "name": "auto_逻辑合成_当单一技能节点无法满足意图_b999c2",
+    "display_name": "【逻辑合成】当单一技能节点无法满足意图，需要多个技能串联时，如何构建一个‘逻辑验证器’来确保生成的代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【逻辑合成】当单一技能节点无法满足意图，需要多个技能串联时，如何构建一个‘逻辑验证器’来确保生成的代码流程符合认知逻辑？例如，‘下载图片’必须发生在‘处理图片’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 333
+  }
+}

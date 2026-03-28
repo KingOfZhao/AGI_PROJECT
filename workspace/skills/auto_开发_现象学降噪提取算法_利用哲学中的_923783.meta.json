@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_现象学降噪提取算法_利用哲学中的_923783",
+  "file": "skills/auto_开发_现象学降噪提取算法_利用哲学中的_923783.py",
+  "description": "开发'现象学降噪提取算法'。利用哲学中的'现象学还原'方法指导AI提取物理技能。在处理工匠示范数据时，将'工匠习惯'视为'自然态度'，通过算法模拟'悬置'操作，即系统性地主动忽略特定的肢体特征参数，观察哪些控制律在'追问'下依然保持不变。这能将隐性知识中的'偶然相关'与'因果必然'区分开，生成具备'跨本体迁移'能力的通用技能内核。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.435668",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_142_O2_5501",
+  "design_spec": {
+    "name": "auto_开发_现象学降噪提取算法_利用哲学中的_923783",
+    "display_name": "开发'现象学降噪提取算法'。利用哲学中的'现象学还原'方法指导AI提取物理技能。在处理工匠示范数据时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'现象学降噪提取算法'。利用哲学中的'现象学还原'方法指导AI提取物理技能。在处理工匠示范数据时，将'工匠习惯'视为'自然态度'，通过算法模拟'悬置'操作，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

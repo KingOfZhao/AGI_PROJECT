@@ -1,0 +1,30 @@
+{
+  "name": "auto_将认知推理过程视为一个受限于_算力成本_31777c",
+  "file": "skills/auto_将认知推理过程视为一个受限于_算力成本_31777c.py",
+  "description": "将认知推理过程视为一个受限于‘算力成本’与‘时间约束’的经济学问题。在用户输入意图后，系统利用现有的‘技能先验知识库’进行静态分析，估算不同推理路径的‘计算成本标签’。结合智能自适应CAD画布中的‘约束求解器’逻辑，系统在‘准确度’与‘资源消耗’之间寻找最优解（帕累托最优），实现分层渲染（LOD）式的动态推理——在核心意图上高精度求解，在边缘意图上低精度模糊处理。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.064526",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_93_P5_5220",
+  "design_spec": {
+    "name": "auto_将认知推理过程视为一个受限于_算力成本_31777c",
+    "display_name": "将认知推理过程视为一个受限于‘算力成本’与‘时间约束’的经济学问题。在用户输入意图后，系统利用现有的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将认知推理过程视为一个受限于‘算力成本’与‘时间约束’的经济学问题。在用户输入意图后，系统利用现有的‘技能先验知识库’进行静态分析，估算不同推理路径的‘计算成本",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

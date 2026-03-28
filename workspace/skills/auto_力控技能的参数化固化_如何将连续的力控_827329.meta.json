@@ -1,0 +1,30 @@
+{
+  "name": "auto_力控技能的参数化固化_如何将连续的力控_827329",
+  "file": "skills/auto_力控技能的参数化固化_如何将连续的力控_827329.py",
+  "description": "【力控技能的参数化固化】如何将连续的力控曲线（如雕刻时的下刀力度变化）压缩为有限维度的‘技能原语’参数，使其成为系统中可复用的SKILL节点？需要解决高维连续动作空间到离散符号化指令的降维映射，且不丢失动作的‘韵味’（风格特征）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "motion_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.226134",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_85_Q5_0_8135",
+  "design_spec": {
+    "name": "auto_力控技能的参数化固化_如何将连续的力控_827329",
+    "display_name": "【力控技能的参数化固化】如何将连续的力控曲线（如雕刻时的下刀力度变化）压缩为有限维度的‘技能原语’参",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【力控技能的参数化固化】如何将连续的力控曲线（如雕刻时的下刀力度变化）压缩为有限维度的‘技能原语’参数，使其成为系统中可复用的SKILL节点？需要解决高维连续动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

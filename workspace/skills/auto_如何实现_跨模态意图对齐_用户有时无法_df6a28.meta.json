@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_跨模态意图对齐_用户有时无法_df6a28",
+  "file": "skills/auto_如何实现_跨模态意图对齐_用户有时无法_df6a28.py",
+  "description": "如何实现'跨模态意图对齐'？用户有时无法用语言准确描述意图，而是提供截图、草图或参考链接。该子问题要求构建一个多模态编码器，将视觉信息（如UI布局草图）与文本意图（如'风格要现代'）融合，转化为统一的结构化数据结构（如JSON格式的DOM树描述）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.555408",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q7_3_8714",
+  "design_spec": {
+    "name": "auto_如何实现_跨模态意图对齐_用户有时无法_df6a28",
+    "display_name": "如何实现'跨模态意图对齐'？用户有时无法用语言准确描述意图，而是提供截图、草图或参考链接。该子问题要",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'跨模态意图对齐'？用户有时无法用语言准确描述意图，而是提供截图、草图或参考链接。该子问题要求构建一个多模态编码器，将视觉信息（如UI布局草图）与文本意",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

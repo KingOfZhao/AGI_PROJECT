@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知负荷最小化交互_在人机共生环节_如何_f1a946",
+  "file": "skills/auto_认知负荷最小化交互_在人机共生环节_如何_f1a946.py",
+  "description": "认知负荷最小化交互：在人机共生环节，如何量化人类的'认知负荷'？目标是设计一种交互协议，使AI在需要人类验证时，提出的问题最少且最关键，避免将'结构化'的负担抛给人类。这是将'人类实践'高效转化为'新节点'的前提。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.060441",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q10_3_6903",
+  "design_spec": {
+    "name": "auto_认知负荷最小化交互_在人机共生环节_如何_f1a946",
+    "display_name": "认知负荷最小化交互：在人机共生环节，如何量化人类的'认知负荷'？目标是设计一种交互协议，使AI在需要",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知负荷最小化交互：在人机共生环节，如何量化人类的'认知负荷'？目标是设计一种交互协议，使AI在需要人类验证时，提出的问题最少且最关键，避免将'结构化'的负担抛",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

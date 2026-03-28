@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究基于因果推断的_信用分配路径追踪_7656ed",
+  "file": "skills/auto_研究基于因果推断的_信用分配路径追踪_7656ed.py",
+  "description": "研究基于因果推断的'信用分配路径追踪'，在技能执行树的每个节点埋点监控。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.128888",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_6_G_MetaCognition_1_9724",
+  "design_spec": {
+    "name": "auto_研究基于因果推断的_信用分配路径追踪_7656ed",
+    "display_name": "研究基于因果推断的'信用分配路径追踪'，在技能执行树的每个节点埋点监控。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究基于因果推断的'信用分配路径追踪'，在技能执行树的每个节点埋点监控。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

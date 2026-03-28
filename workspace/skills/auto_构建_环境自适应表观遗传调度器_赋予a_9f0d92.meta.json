@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_环境自适应表观遗传调度器_赋予a_9f0d92",
+  "file": "skills/auto_构建_环境自适应表观遗传调度器_赋予a_9f0d92.py",
+  "description": "构建‘环境自适应表观遗传调度器’。赋予AI系统在运行时自我‘变异’的能力，而非重启服务。当外部流量或任务复杂度发生剧烈变化（环境压力）时，系统不改变核心代码（基因），而是自动施加‘表观遗传修饰’（动态AOP切面、资源配额调整、算法复杂度降级）。例如，在极端高并发下，系统自动‘甲基化’非核心功能（如关闭复杂的推荐算法，退化为简单排序），保障核心生存能力，模拟生物的‘战逃反应’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.459758",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O3_5660",
+  "design_spec": {
+    "name": "auto_构建_环境自适应表观遗传调度器_赋予a_9f0d92",
+    "display_name": "构建‘环境自适应表观遗传调度器’。赋予AI系统在运行时自我‘变异’的能力，而非重启服务。当外部流量或",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘环境自适应表观遗传调度器’。赋予AI系统在运行时自我‘变异’的能力，而非重启服务。当外部流量或任务复杂度发生剧烈变化（环境压力）时，系统不改变核心代码（基",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将工业安全规范_文本形式的法律法规_443500",
+  "file": "skills/auto_如何将工业安全规范_文本形式的法律法规_443500.py",
+  "description": "如何将工业安全规范（文本形式的法律法规、操作手册）转化为可执行的逻辑约束层？该节点必须作为AGI所有动作规划的前置过滤器，确保任何生成的控制指令（如‘关闭阀门’）都不会违反安全红线，实现‘认知自洽’中的安全边界。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_13",
+    "safety_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:51:57.941671",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_13_Q8_1_8202",
+  "design_spec": {
+    "name": "auto_如何将工业安全规范_文本形式的法律法规_443500",
+    "display_name": "如何将工业安全规范（文本形式的法律法规、操作手册）转化为可执行的逻辑约束层？该节点必须作为AGI所有",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将工业安全规范（文本形式的法律法规、操作手册）转化为可执行的逻辑约束层？该节点必须作为AGI所有动作规划的前置过滤器，确保任何生成的控制指令（如‘关闭阀门’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

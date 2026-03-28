@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_故障容忍生成式设计系统_将建筑的_aefd7c",
+  "file": "skills/auto_研发_故障容忍生成式设计系统_将建筑的_aefd7c.py",
+  "description": "研发'故障容忍生成式设计系统'。将建筑的冗余度计算引入AI模型压缩与加速领域。不再是简单的随机丢弃，而是基于'结构力学分析'，识别网络中对'系统稳定性'贡献最大的神经元（关键承重构件）进行保护，对次要构件进行高比例稀疏化。反向应用：利用AI的Dropout原理，为极简主义建筑或太空结构设计'受控失效'逻辑，实现材料极限利用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_29",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:41:07.559727",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_29_O3_9794",
+  "design_spec": {
+    "name": "auto_研发_故障容忍生成式设计系统_将建筑的_aefd7c",
+    "display_name": "研发'故障容忍生成式设计系统'。将建筑的冗余度计算引入AI模型压缩与加速领域。不再是简单的随机丢弃，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'故障容忍生成式设计系统'。将建筑的冗余度计算引入AI模型压缩与加速领域。不再是简单的随机丢弃，而是基于'结构力学分析'，识别网络中对'系统稳定性'贡献最大",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

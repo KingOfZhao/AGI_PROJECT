@@ -1,0 +1,30 @@
+{
+  "name": "auto_形成_生成式情境模拟_利用llm_大语_171f61",
+  "file": "skills/auto_形成_生成式情境模拟_利用llm_大语_171f61.py",
+  "description": "形成【生成式情境模拟】。利用LLM（大语言模型）构建高保真的‘教育平行宇宙’。系统不再是出题，而是生成一个复杂的、充满冲突的虚拟社会或科学困境（如‘作为一个公元200年的城邦管理者’）。学生不是在解题，而是在‘经历’历史或科学进程。AI根据学生的每一个决策实时演化剧情走向，迫使学生在缺乏明确指令的情况下调用跨学科知识解决突发危机，培养真正的决策力与抗压性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.569114",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_40_O4_5692",
+  "design_spec": {
+    "name": "auto_形成_生成式情境模拟_利用llm_大语_171f61",
+    "display_name": "形成【生成式情境模拟】。利用LLM（大语言模型）构建高保真的‘教育平行宇宙’。系统不再是出题，而是生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "形成【生成式情境模拟】。利用LLM（大语言模型）构建高保真的‘教育平行宇宙’。系统不再是出题，而是生成一个复杂的、充满冲突的虚拟社会或科学困境（如‘作为一个公元",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 623
+  }
+}

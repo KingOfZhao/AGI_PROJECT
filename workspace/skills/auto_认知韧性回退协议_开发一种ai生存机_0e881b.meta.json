@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知韧性回退协议_开发一种ai生存机_0e881b",
+  "file": "skills/auto_认知韧性回退协议_开发一种ai生存机_0e881b.py",
+  "description": "【认知韧性回退协议】：开发一种AI生存机制，模仿生态系统的'早期演替阶段'回退。当检测到算力或时间资源触及生存红线时，AI自动剥离高层抽象推理（类似落叶乔木落叶），降级为基于条件反射的简单模式匹配（类似苔藓/地衣），保证核心任务（如响应心跳包、基础IO）的绝对存活，而非尝试维持全能状态导致全面崩溃。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.023433",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_59_O2_9982",
+  "design_spec": {
+    "name": "auto_认知韧性回退协议_开发一种ai生存机_0e881b",
+    "display_name": "【认知韧性回退协议】：开发一种AI生存机制，模仿生态系统的'早期演替阶段'回退。当检测到算力或时间资",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知韧性回退协议】：开发一种AI生存机制，模仿生态系统的'早期演替阶段'回退。当检测到算力或时间资源触及生存红线时，AI自动剥离高层抽象推理（类似落叶乔木落叶",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

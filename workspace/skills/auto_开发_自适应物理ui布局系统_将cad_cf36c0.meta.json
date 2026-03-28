@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_自适应物理ui布局系统_将cad_cf36c0",
+  "file": "skills/auto_开发_自适应物理ui布局系统_将cad_cf36c0.py",
+  "description": "开发'自适应物理UI布局系统'。将CAD的'自由度分析'引入Flutter布局，使UI组件不仅能根据屏幕尺寸伸缩，还能根据内容'质量'和'引力'进行物理模拟排列。例如，在一个可视化的仪表盘设计中，卡片之间像机械零件一样具有'配合'关系，当拖动一张卡片时，相邻卡片会根据机械连接关系（如铰链、滑块）进行联动，而非简单的碰撞推开。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.110112",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_6_O2_100",
+  "design_spec": {
+    "name": "auto_开发_自适应物理ui布局系统_将cad_cf36c0",
+    "display_name": "开发'自适应物理UI布局系统'。将CAD的'自由度分析'引入Flutter布局，使UI组件不仅能根据",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'自适应物理UI布局系统'。将CAD的'自由度分析'引入Flutter布局，使UI组件不仅能根据屏幕尺寸伸缩，还能根据内容'质量'和'引力'进行物理模拟排列",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 468
+  }
+}

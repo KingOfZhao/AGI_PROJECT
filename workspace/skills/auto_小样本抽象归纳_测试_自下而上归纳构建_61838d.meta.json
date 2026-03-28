@@ -1,0 +1,30 @@
+{
+  "name": "auto_小样本抽象归纳_测试_自下而上归纳构建_61838d",
+  "file": "skills/auto_小样本抽象归纳_测试_自下而上归纳构建_61838d.py",
+  "description": "【小样本抽象归纳】测试‘自下而上归纳构建’能力。给AI展示5组完全不同领域的‘解决案例’（如：解决客户投诉、修复代码Bug、处理家庭纠纷），这些案例表面文字完全不同，但内核都遵循‘倾听-隔离问题-提供方案-反馈’的闭环逻辑。要求AI归纳出一个通用的‘冲突解决元技能’节点，并写出通用的Prompt模板。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "Cognitive Science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.640168",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_111_Q7_2_8674",
+  "design_spec": {
+    "name": "auto_小样本抽象归纳_测试_自下而上归纳构建_61838d",
+    "display_name": "【小样本抽象归纳】测试‘自下而上归纳构建’能力。给AI展示5组完全不同领域的‘解决案例’（如：解决客",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【小样本抽象归纳】测试‘自下而上归纳构建’能力。给AI展示5组完全不同领域的‘解决案例’（如：解决客户投诉、修复代码Bug、处理家庭纠纷），这些案例表面文字完全",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

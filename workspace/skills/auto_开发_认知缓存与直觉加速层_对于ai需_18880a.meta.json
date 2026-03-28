@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知缓存与直觉加速层_对于ai需_18880a",
+  "file": "skills/auto_开发_认知缓存与直觉加速层_对于ai需_18880a.py",
+  "description": "开发'认知缓存与直觉加速层'。对于AI需要频繁调用的复杂推理链（如法律判决逻辑），系统自动将其'反规范化'为直接的'输入-输出'映射对或高权重捷径路径。这模拟了人类专家'一眼看出答案'的直觉能力。当数据源更新时，后台异步重建这些'直觉缓存'，保证在大部分时间里系统以直觉速度响应，仅在必要时回溯到逻辑推理。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.964021",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O2_5968",
+  "design_spec": {
+    "name": "auto_开发_认知缓存与直觉加速层_对于ai需_18880a",
+    "display_name": "开发'认知缓存与直觉加速层'。对于AI需要频繁调用的复杂推理链（如法律判决逻辑），系统自动将其'反规",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知缓存与直觉加速层'。对于AI需要频繁调用的复杂推理链（如法律判决逻辑），系统自动将其'反规范化'为直接的'输入-输出'映射对或高权重捷径路径。这模拟了",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

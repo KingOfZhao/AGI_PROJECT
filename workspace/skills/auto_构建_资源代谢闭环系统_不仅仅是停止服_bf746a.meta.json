@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_资源代谢闭环系统_不仅仅是停止服_bf746a",
+  "file": "skills/auto_构建_资源代谢闭环系统_不仅仅是停止服_bf746a.py",
+  "description": "构建'资源代谢闭环系统'。不仅仅是停止服务，而是赋予微服务一种'临终遗言'和'遗体捐赠'机制。当一个微服务实例即将被销毁时，它能将自身的'热数据'（记忆）和'计算上下文'（能量）结构化地打包传递给继任者或邻近节点，而非直接丢弃。这解决了有状态服务在弹性伸缩时的数据丢失痛点，实现了系统层面的'拉马克进化'（获得性遗传）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.438593",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_142_O2_2616",
+  "design_spec": {
+    "name": "auto_构建_资源代谢闭环系统_不仅仅是停止服_bf746a",
+    "display_name": "构建'资源代谢闭环系统'。不仅仅是停止服务，而是赋予微服务一种'临终遗言'和'遗体捐赠'机制。当一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'资源代谢闭环系统'。不仅仅是停止服务，而是赋予微服务一种'临终遗言'和'遗体捐赠'机制。当一个微服务实例即将被销毁时，它能将自身的'热数据'（记忆）和'计",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

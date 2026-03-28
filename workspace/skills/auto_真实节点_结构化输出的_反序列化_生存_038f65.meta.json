@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点_结构化输出的_反序列化_生存_038f65",
+  "file": "skills/auto_真实节点_结构化输出的_反序列化_生存_038f65.py",
+  "description": "【真实节点】结构化输出的'反序列化'生存率。AI生成的复杂数据结构（如嵌套的JSON或YAML配置文件）在经过实际的代码解析器、数据库存储、网络传输、再加载的完整循环后，是否依然保持逻辑一致性和可用性？这验证了AI生成的知识节点是否符合工程标准的'真实性'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_76",
+    "data_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:35:30.441819",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_76_Q8_2_6755",
+  "design_spec": {
+    "name": "auto_真实节点_结构化输出的_反序列化_生存_038f65",
+    "display_name": "【真实节点】结构化输出的'反序列化'生存率。AI生成的复杂数据结构（如嵌套的JSON或YAML配置文",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点】结构化输出的'反序列化'生存率。AI生成的复杂数据结构（如嵌套的JSON或YAML配置文件）在经过实际的代码解析器、数据库存储、网络传输、再加载的完",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

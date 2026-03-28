@@ -1,0 +1,30 @@
+{
+  "name": "auto_环境交互_工具使用的自主决策验证_不直_dc03ce",
+  "file": "skills/auto_环境交互_工具使用的自主决策验证_不直_dc03ce.py",
+  "description": "【环境交互】工具使用的自主决策验证：不直接指定使用哪个工具，而是给出一个模糊目标（如‘分析这张图片的情绪趋势’），验证AI是否能自主判断需要调用‘视觉模型’+‘数据聚合’+‘图表生成’等工具链。这测试AI是否具备‘工具本体’的认知，即知道工具能解决什么问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "tool_use",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.145365",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_14_Q7_0_8683",
+  "design_spec": {
+    "name": "auto_环境交互_工具使用的自主决策验证_不直_dc03ce",
+    "display_name": "【环境交互】工具使用的自主决策验证：不直接指定使用哪个工具，而是给出一个模糊目标（如‘分析这张图片的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【环境交互】工具使用的自主决策验证：不直接指定使用哪个工具，而是给出一个模糊目标（如‘分析这张图片的情绪趋势’），验证AI是否能自主判断需要调用‘视觉模型’+‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 403
+  }
+}

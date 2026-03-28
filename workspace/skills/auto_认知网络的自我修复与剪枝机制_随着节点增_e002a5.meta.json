@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知网络的自我修复与剪枝机制_随着节点增_e002a5",
+  "file": "skills/auto_认知网络的自我修复与剪枝机制_随着节点增_e002a5.py",
+  "description": "认知网络的自我修复与剪枝机制：随着节点增加，网络必然出现冗余、矛盾或过时的节点。如何设计一个'免疫系统'，定期遍历网络，寻找互斥的节点对（如'地心说'与'日心说'同时存在），并根据最新的实践数据（Falsification Condition）标记'死亡节点'？这要求系统能够处理信念修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.005387",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_93_Q8_2_9020",
+  "design_spec": {
+    "name": "auto_认知网络的自我修复与剪枝机制_随着节点增_e002a5",
+    "display_name": "认知网络的自我修复与剪枝机制：随着节点增加，网络必然出现冗余、矛盾或过时的节点。如何设计一个'免疫系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知网络的自我修复与剪枝机制：随着节点增加，网络必然出现冗余、矛盾或过时的节点。如何设计一个'免疫系统'，定期遍历网络，寻找互斥的节点对（如'地心说'与'日心说",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 317
+  }
+}

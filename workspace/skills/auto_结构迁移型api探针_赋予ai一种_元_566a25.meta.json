@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构迁移型api探针_赋予ai一种_元_566a25",
+  "file": "skills/auto_结构迁移型api探针_赋予ai一种_元_566a25.py",
+  "description": "【结构迁移型API探针】赋予AI一种'元学习能力'。面对一个完全陌生的API（如'量子咖啡机库'），AI不直接尝试调用，而是先将其文档视为一个'未知领域'，并寻找与已知领域（如'HTTP请求库'或'状态机模型'）的结构重叠。通过将'HTTP请求的Request-Response模式'迁移到'量子咖啡机的指令-量子态读取模式'，AI可以快速构建出对该陌生API的假设性心智模型，并在沙箱中进行低成本的'试探性调用'以验证假设。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.162742",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O5_6067",
+  "design_spec": {
+    "name": "auto_结构迁移型api探针_赋予ai一种_元_566a25",
+    "display_name": "【结构迁移型API探针】赋予AI一种'元学习能力'。面对一个完全陌生的API（如'量子咖啡机库'），",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【结构迁移型API探针】赋予AI一种'元学习能力'。面对一个完全陌生的API（如'量子咖啡机库'），AI不直接尝试调用，而是先将其文档视为一个'未知领域'，并寻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

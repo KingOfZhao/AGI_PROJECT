@@ -1,0 +1,30 @@
+{
+  "name": "auto_从_验证清单_到_自动化测试用例_的代码_2ae610",
+  "file": "skills/auto_从_验证清单_到_自动化测试用例_的代码_2ae610.py",
+  "description": "从'验证清单'到'自动化测试用例'的代码转译。人类实践证伪成本高昂。对于SKILL类节点（143个），AI能否自动将自然语言描述的验证清单转译为可执行的单元测试代码，实现'机器自证伪'，仅将机器无法解决的物理世界问题留给人类？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.280182",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q8_2_39",
+  "design_spec": {
+    "name": "auto_从_验证清单_到_自动化测试用例_的代码_2ae610",
+    "display_name": "从'验证清单'到'自动化测试用例'的代码转译。人类实践证伪成本高昂。对于SKILL类节点（143个）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "从'验证清单'到'自动化测试用例'的代码转译。人类实践证伪成本高昂。对于SKILL类节点（143个），AI能否自动将自然语言描述的验证清单转译为可执行的单元测试",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

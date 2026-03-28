@@ -1,0 +1,30 @@
+{
+  "name": "auto_运行时反馈驱动的代码自我修正_代码生成并_836f33",
+  "file": "skills/auto_运行时反馈驱动的代码自我修正_代码生成并_836f33.py",
+  "description": "运行时反馈驱动的代码自我修正：代码生成并非一蹴而就，如何构建一个'观察-修正'闭环，使AI能够读取报错信息（Error Logs）和异常堆栈，并将其映射回源代码的逻辑缺陷进行修复，而不是仅仅进行字符串替换？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.244111",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q5_1_9079",
+  "design_spec": {
+    "name": "auto_运行时反馈驱动的代码自我修正_代码生成并_836f33",
+    "display_name": "运行时反馈驱动的代码自我修正：代码生成并非一蹴而就，如何构建一个'观察-修正'闭环，使AI能够读取报",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "运行时反馈驱动的代码自我修正：代码生成并非一蹴而就，如何构建一个'观察-修正'闭环，使AI能够读取报错信息（Error Logs）和异常堆栈，并将其映射回源代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

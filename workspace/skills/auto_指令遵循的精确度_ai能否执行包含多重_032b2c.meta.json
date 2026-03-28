@@ -1,0 +1,30 @@
+{
+  "name": "auto_指令遵循的精确度_ai能否执行包含多重_032b2c",
+  "file": "skills/auto_指令遵循的精确度_ai能否执行包含多重_032b2c.py",
+  "description": "【指令遵循的精确度】AI能否执行包含多重否定、嵌套逻辑和异常处理的复杂指令？例如‘除了不以“log_”开头且创建时间在昨天的文件外，删除所有文件，但在此之前需备份大于10MB的文件’。这验证了‘人机共生’中指令理解的可靠性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "NLP/指令执行",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.831047",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q10_0_728",
+  "design_spec": {
+    "name": "auto_指令遵循的精确度_ai能否执行包含多重_032b2c",
+    "display_name": "【指令遵循的精确度】AI能否执行包含多重否定、嵌套逻辑和异常处理的复杂指令？例如‘除了不以“log_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【指令遵循的精确度】AI能否执行包含多重否定、嵌套逻辑和异常处理的复杂指令？例如‘除了不以“log_”开头且创建时间在昨天的文件外，删除所有文件，但在此之前需备",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

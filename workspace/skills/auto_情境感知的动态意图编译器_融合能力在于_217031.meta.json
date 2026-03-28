@@ -1,0 +1,30 @@
+{
+  "name": "auto_情境感知的动态意图编译器_融合能力在于_217031",
+  "file": "skills/auto_情境感知的动态意图编译器_融合能力在于_217031.py",
+  "description": "【情境感知的动态意图编译器】融合能力在于利用实践技能中的'情境依赖性'（如环境噪音、用户习惯）作为解析模糊意图的隐式特征。不仅是解析语法，而是构建一个'情境状态机'，当输入模糊时，自动调用历史高频行为模式（类似肌肉记忆）填充缺失参数，生成高鲁棒性的执行代码或指令，大幅降低人机交互中的确认成本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.861293",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_113_O1_8280",
+  "design_spec": {
+    "name": "auto_情境感知的动态意图编译器_融合能力在于_217031",
+    "display_name": "【情境感知的动态意图编译器】融合能力在于利用实践技能中的'情境依赖性'（如环境噪音、用户习惯）作为解",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【情境感知的动态意图编译器】融合能力在于利用实践技能中的'情境依赖性'（如环境噪音、用户习惯）作为解析模糊意图的隐式特征。不仅是解析语法，而是构建一个'情境状态",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

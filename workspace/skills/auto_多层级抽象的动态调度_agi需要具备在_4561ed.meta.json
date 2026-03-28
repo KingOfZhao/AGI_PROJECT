@@ -1,0 +1,30 @@
+{
+  "name": "auto_多层级抽象的动态调度_agi需要具备在_4561ed",
+  "file": "skills/auto_多层级抽象的动态调度_agi需要具备在_4561ed.py",
+  "description": "【多层级抽象的动态调度】AGI需要具备在不同时间尺度上切换认知的能力。问题在于：当系统同时在处理‘毫秒级’的电机PID控制和‘周级’的生产排程时，如何构建一个‘时间尺度解耦器’？验证系统是否能将底层的频繁波动抽象为高层的‘稳态指标’，反之，当高层目标变更时，能否瞬间分解为底层的参数调整指令，且不引起系统震荡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "cybernetics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.774830",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_50_Q8_3_2036",
+  "design_spec": {
+    "name": "auto_多层级抽象的动态调度_agi需要具备在_4561ed",
+    "display_name": "【多层级抽象的动态调度】AGI需要具备在不同时间尺度上切换认知的能力。问题在于：当系统同时在处理‘毫",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多层级抽象的动态调度】AGI需要具备在不同时间尺度上切换认知的能力。问题在于：当系统同时在处理‘毫秒级’的电机PID控制和‘周级’的生产排程时，如何构建一个‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

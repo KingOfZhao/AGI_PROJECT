@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_工业级复杂交互通用协议_针对超大_6a0943",
+  "file": "skills/auto_研发_工业级复杂交互通用协议_针对超大_6a0943.py",
+  "description": "研发'工业级复杂交互通用协议'。针对超大型列表或复杂图表（如万级节点的流程图编辑器），引入CAD级的空间索引技术和拾取优化算法（如BVH包围盒层次）。在Flutter中实现非DOM原生的'伪3D'交互层，支持像操作CAD模型一样（框选、套索选、链选）操作二维UI元素。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.115019",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_42_O3_4503",
+  "design_spec": {
+    "name": "auto_研发_工业级复杂交互通用协议_针对超大_6a0943",
+    "display_name": "研发'工业级复杂交互通用协议'。针对超大型列表或复杂图表（如万级节点的流程图编辑器），引入CAD级的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'工业级复杂交互通用协议'。针对超大型列表或复杂图表（如万级节点的流程图编辑器），引入CAD级的空间索引技术和拾取优化算法（如BVH包围盒层次）。在Flut",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 270
+  }
+}

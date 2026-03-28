@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_增强现实装配指导系统中的动态对齐算_0dd2fa",
+  "file": "skills/auto_开发_增强现实装配指导系统中的动态对齐算_0dd2fa.py",
+  "description": "开发'增强现实装配指导系统中的动态对齐算法'。将CAD装配体的公差约束映射为Flutter AR界面的动态布局阈值。当用户移动手机视角时，UI标签不仅跟随物体，还根据CAD定义的装配公差实时计算最佳吸附位置，避免视觉遮挡，实现物理公差与数字UI的深度融合。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.671068",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_121_O2_9124",
+  "design_spec": {
+    "name": "auto_开发_增强现实装配指导系统中的动态对齐算_0dd2fa",
+    "display_name": "开发'增强现实装配指导系统中的动态对齐算法'。将CAD装配体的公差约束映射为Flutter AR界面",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'增强现实装配指导系统中的动态对齐算法'。将CAD装配体的公差约束映射为Flutter AR界面的动态布局阈值。当用户移动手机视角时，UI标签不仅跟随物体，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 480
+  }
+}

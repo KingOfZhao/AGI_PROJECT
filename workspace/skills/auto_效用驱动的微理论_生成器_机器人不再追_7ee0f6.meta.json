@@ -1,0 +1,30 @@
+{
+  "name": "auto_效用驱动的微理论_生成器_机器人不再追_7ee0f6",
+  "file": "skills/auto_效用驱动的微理论_生成器_机器人不再追_7ee0f6.py",
+  "description": "‘效用驱动的微理论’生成器。机器人不再追求通用的、完美的物理模型，而是像实用主义者一样，针对特定任务构建‘足够好’的局部模型。当标准物理引擎无法处理复杂的柔性物体变形时，系统允许AI通过试错生成一套‘土办法’（如小摊贩式的抖动技巧），只要能稳定通过测试，这套‘土办法’就被固化为标准的‘真实节点’，并允许与通用模型共存。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.504997",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_22_O3_1176",
+  "design_spec": {
+    "name": "auto_效用驱动的微理论_生成器_机器人不再追_7ee0f6",
+    "display_name": "‘效用驱动的微理论’生成器。机器人不再追求通用的、完美的物理模型，而是像实用主义者一样，针对特定任务",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘效用驱动的微理论’生成器。机器人不再追求通用的、完美的物理模型，而是像实用主义者一样，针对特定任务构建‘足够好’的局部模型。当标准物理引擎无法处理复杂的柔性物",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

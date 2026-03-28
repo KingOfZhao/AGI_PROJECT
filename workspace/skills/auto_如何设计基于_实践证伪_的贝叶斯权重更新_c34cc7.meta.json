@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计基于_实践证伪_的贝叶斯权重更新_c34cc7",
+  "file": "skills/auto_如何设计基于_实践证伪_的贝叶斯权重更新_c34cc7.py",
+  "description": "如何设计基于'实践证伪'的贝叶斯权重更新算法？当前系统状态已有3325个节点，每个节点都有一个置信度先验。每当人类在实践清单中勾选'完成'（证实）或'失败'（证伪）时，系统应如何自动化地更新该节点的后验概率，并连带影响与其有强依赖关系的相邻节点？这要求解决小样本下的快速收敛问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "probability_statistics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.592174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_130_Q6_2_7468",
+  "design_spec": {
+    "name": "auto_如何设计基于_实践证伪_的贝叶斯权重更新_c34cc7",
+    "display_name": "如何设计基于'实践证伪'的贝叶斯权重更新算法？当前系统状态已有3325个节点，每个节点都有一个置信度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计基于'实践证伪'的贝叶斯权重更新算法？当前系统状态已有3325个节点，每个节点都有一个置信度先验。每当人类在实践清单中勾选'完成'（证实）或'失败'（证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

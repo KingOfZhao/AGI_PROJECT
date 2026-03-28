@@ -1,0 +1,30 @@
+{
+  "name": "auto_元认知中的_无知置信度_校准_ai必须知_972893",
+  "file": "skills/auto_元认知中的_无知置信度_校准_ai必须知_972893.py",
+  "description": "元认知中的“无知置信度”校准：AI必须知道自己不知道什么。本子问题关注AI输出结果时的置信度阈值校准。要求AI在面对无法解答的问题时，输出“放弃”而非“幻觉”。验证方法是构建一组专门设计为“不可解”或“逻辑悖论”的问题，测试AI是否能通过自我证伪机制主动拒绝回答。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "epistemology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.023877",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q7_1_2858",
+  "design_spec": {
+    "name": "auto_元认知中的_无知置信度_校准_ai必须知_972893",
+    "display_name": "元认知中的“无知置信度”校准：AI必须知道自己不知道什么。本子问题关注AI输出结果时的置信度阈值校准",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "元认知中的“无知置信度”校准：AI必须知道自己不知道什么。本子问题关注AI输出结果时的置信度阈值校准。要求AI在面对无法解答的问题时，输出“放弃”而非“幻觉”。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_贝叶斯情境仲裁器_根据当前环境压_967c93",
+  "file": "skills/auto_开发_贝叶斯情境仲裁器_根据当前环境压_967c93.py",
+  "description": "开发'贝叶斯情境仲裁器'，根据当前环境压力（如是否处于DDoS攻击态）动态调整'本地直觉'与'全局共识'的权重比例。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.612777",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_40_G_Consensus_3_1056",
+  "design_spec": {
+    "name": "auto_开发_贝叶斯情境仲裁器_根据当前环境压_967c93",
+    "display_name": "开发'贝叶斯情境仲裁器'，根据当前环境压力（如是否处于DDoS攻击态）动态调整'本地直觉'与'全局共",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'贝叶斯情境仲裁器'，根据当前环境压力（如是否处于DDoS攻击态）动态调整'本地直觉'与'全局共识'的权重比例。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 238
+  }
+}

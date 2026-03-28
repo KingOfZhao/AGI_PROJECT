@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个能够识别并利用不同领域间_同构结_0a7b3e",
+  "file": "skills/auto_这是一个能够识别并利用不同领域间_同构结_0a7b3e.py",
+  "description": "这是一个能够识别并利用不同领域间'同构结构'的高级认知系统。它超越了简单的类比，而是将源域（如生物学、图书馆学）的深层逻辑骨架提取出来，通过结构映射算法强制对齐到目标域（如SQL优化、内存管理）。该引擎核心在于'结构化语义适配'，能够将一个领域的成熟解决方案无损地迁移到另一个看似无关但结构相似的问题空间，从而实现创新性解决。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:39.690567",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_43_P1_7368",
+  "design_spec": {
+    "name": "auto_这是一个能够识别并利用不同领域间_同构结_0a7b3e",
+    "display_name": "这是一个能够识别并利用不同领域间'同构结构'的高级认知系统。它超越了简单的类比，而是将源域（如生物学",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个能够识别并利用不同领域间'同构结构'的高级认知系统。它超越了简单的类比，而是将源域（如生物学、图书馆学）的深层逻辑骨架提取出来，通过结构映射算法强制对齐",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

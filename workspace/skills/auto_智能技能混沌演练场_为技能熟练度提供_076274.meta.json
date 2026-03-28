@@ -1,0 +1,30 @@
+{
+  "name": "auto_智能技能混沌演练场_为技能熟练度提供_076274",
+  "file": "skills/auto_智能技能混沌演练场_为技能熟练度提供_076274.py",
+  "description": "【智能技能混沌演练场】为技能熟练度提供‘反脆弱’训练。利用LLM自动生成针对特定技能的‘边缘攻击用例’（例如：在做PPT时突然断电、在演讲时遇到故意刁难的提问）。这不是为了通过考试，而是为了通过‘自动证伪’来暴露技能弱点，强迫用户在极端情况下建立更鲁棒的‘真实节点’，从而在真实实践中游刃有余。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.049362",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_59_O4_6653",
+  "design_spec": {
+    "name": "auto_智能技能混沌演练场_为技能熟练度提供_076274",
+    "display_name": "【智能技能混沌演练场】为技能熟练度提供‘反脆弱’训练。利用LLM自动生成针对特定技能的‘边缘攻击用例",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【智能技能混沌演练场】为技能熟练度提供‘反脆弱’训练。利用LLM自动生成针对特定技能的‘边缘攻击用例’（例如：在做PPT时突然断电、在演讲时遇到故意刁难的提问）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

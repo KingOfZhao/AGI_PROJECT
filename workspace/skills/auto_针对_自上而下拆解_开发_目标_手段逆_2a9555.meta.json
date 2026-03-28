@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_自上而下拆解_开发_目标_手段逆_2a9555",
+  "file": "skills/auto_针对_自上而下拆解_开发_目标_手段逆_2a9555.py",
+  "description": "针对'自上而下拆解'，开发'目标-手段逆向链验证器'。当设定一个宏大目标节点（如'实现室温超导'）时，AI需自动拆解为子技能节点。验证器需检查现有1955个SKILL节点中是否存在支撑这些子目标的'能力缺口'，并自动生成'待学习技能清单'。这不仅是规划，更是对现有能力边界的压力测试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_119",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:17:51.164132",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_119_Q9_2_6658",
+  "design_spec": {
+    "name": "auto_针对_自上而下拆解_开发_目标_手段逆_2a9555",
+    "display_name": "针对'自上而下拆解'，开发'目标-手段逆向链验证器'。当设定一个宏大目标节点（如'实现室温超导'）时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'自上而下拆解'，开发'目标-手段逆向链验证器'。当设定一个宏大目标节点（如'实现室温超导'）时，AI需自动拆解为子技能节点。验证器需检查现有1955个SK",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

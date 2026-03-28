@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_自适应认知分层引擎_该系统不再静_05e6b1",
+  "file": "skills/auto_构建_自适应认知分层引擎_该系统不再静_05e6b1.py",
+  "description": "构建'自适应认知分层引擎'。该系统不再静态存储数据，而是模拟人类注意力机制。当系统检测到'认知负荷'低时(常规场景)，直接从Bronze层提取直觉性模式快速响应(快思考)；当检测到'异常或高价值'冲突时，自动触发Silver层的深度清洗与逻辑关联(慢思考)。这使得AI系统能像人类专家一样，在'记忆遗忘(数据生命周期管理)'与'深度思考(计算资源重分配)'之间动态切换，大幅降低算力能耗并提升关键决策准确率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.347583",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_133_O1_9699",
+  "design_spec": {
+    "name": "auto_构建_自适应认知分层引擎_该系统不再静_05e6b1",
+    "display_name": "构建'自适应认知分层引擎'。该系统不再静态存储数据，而是模拟人类注意力机制。当系统检测到'认知负荷'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'自适应认知分层引擎'。该系统不再静态存储数据，而是模拟人类注意力机制。当系统检测到'认知负荷'低时(常规场景)，直接从Bronze层提取直觉性模式快速响应",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 344
+  }
+}

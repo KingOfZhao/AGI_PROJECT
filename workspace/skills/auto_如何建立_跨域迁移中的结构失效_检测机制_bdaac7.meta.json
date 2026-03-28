@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立_跨域迁移中的结构失效_检测机制_bdaac7",
+  "file": "skills/auto_如何建立_跨域迁移中的结构失效_检测机制_bdaac7.py",
+  "description": "如何建立'跨域迁移中的结构失效'检测机制？当系统将一个领域的技能节点（如'烹饪控温'）迁移到另一个看似重叠但本质不同的领域（如'化学试剂提纯'）时，如何实时监控并识别因环境变量变化（如压力、容器材质）导致的技能失效？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_4",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:25:39.232220",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_4_Q3_3_2637",
+  "design_spec": {
+    "name": "auto_如何建立_跨域迁移中的结构失效_检测机制_bdaac7",
+    "display_name": "如何建立'跨域迁移中的结构失效'检测机制？当系统将一个领域的技能节点（如'烹饪控温'）迁移到另一个看",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立'跨域迁移中的结构失效'检测机制？当系统将一个领域的技能节点（如'烹饪控温'）迁移到另一个看似重叠但本质不同的领域（如'化学试剂提纯'）时，如何实时监控",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 254
+  }
+}

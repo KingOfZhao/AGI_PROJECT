@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合模糊指令转译_q4_0_反事实挖掘_72b87c",
+  "file": "skills/auto_融合模糊指令转译_q4_0_反事实挖掘_72b87c.py",
+  "description": "融合模糊指令转译（Q4_0）、反事实挖掘（Q4_3）与多模态语义对齐（Q1_3），系统能够将人类模糊的自然语言指令（如'轻一点'）实时解算为具体的物理参数调整（如'压力降低15%'）。通过对比预期结果与实际反馈，系统不断修正'模糊词典'，最终实现对人类隐性意图的精准捕捉与执行，消除沟通熵。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.792848",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_131_E4_3998",
+  "design_spec": {
+    "name": "auto_融合模糊指令转译_q4_0_反事实挖掘_72b87c",
+    "display_name": "融合模糊指令转译（Q4_0）、反事实挖掘（Q4_3）与多模态语义对齐（Q1_3），系统能够将人类模糊",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合模糊指令转译（Q4_0）、反事实挖掘（Q4_3）与多模态语义对齐（Q1_3），系统能够将人类模糊的自然语言指令（如'轻一点'）实时解算为具体的物理参数调整（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

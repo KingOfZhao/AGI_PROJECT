@@ -1,0 +1,30 @@
+{
+  "name": "auto_虚拟匠魂_并行沙箱_在代码运行前_先启_80661a",
+  "file": "skills/auto_虚拟匠魂_并行沙箱_在代码运行前_先启_80661a.py",
+  "description": "‘虚拟匠魂’并行沙箱。在代码运行前，先启动一个轻量级的‘直觉模拟层’。该层不运行具体逻辑，而是利用训练好的‘模式识别器’快速扫描代码逻辑流，模拟老工匠的一眼‘看相’。它会预测哪些代码路径大概率会报错（坏味道），直接在编辑器中生成‘预裂纹’警告，引导AI避开逻辑陷阱，实现‘未运行先修正’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.156898",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_7_O4_3221",
+  "design_spec": {
+    "name": "auto_虚拟匠魂_并行沙箱_在代码运行前_先启_80661a",
+    "display_name": "‘虚拟匠魂’并行沙箱。在代码运行前，先启动一个轻量级的‘直觉模拟层’。该层不运行具体逻辑，而是利用训",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘虚拟匠魂’并行沙箱。在代码运行前，先启动一个轻量级的‘直觉模拟层’。该层不运行具体逻辑，而是利用训练好的‘模式识别器’快速扫描代码逻辑流，模拟老工匠的一眼‘看",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

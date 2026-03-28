@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对工业现场非结构化数据_如老技工口述的_6d5585",
+  "file": "skills/auto_针对工业现场非结构化数据_如老技工口述的_6d5585.py",
+  "description": "针对工业现场非结构化数据（如老技工口述的“听音辨位”经验），如何构建一个语义解析器，将其转化为具有明确逻辑拓扑的‘认知网络节点’，而非简单的文本Embedding？这涉及到如何将模糊的自然语言映射为可执行的参数边界。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.547366",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_83_Q1_1_5544",
+  "design_spec": {
+    "name": "auto_针对工业现场非结构化数据_如老技工口述的_6d5585",
+    "display_name": "针对工业现场非结构化数据（如老技工口述的“听音辨位”经验），如何构建一个语义解析器，将其转化为具有明",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对工业现场非结构化数据（如老技工口述的“听音辨位”经验），如何构建一个语义解析器，将其转化为具有明确逻辑拓扑的‘认知网络节点’，而非简单的文本Embeddin",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 253
+  }
+}

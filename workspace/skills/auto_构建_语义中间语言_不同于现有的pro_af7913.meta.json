@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_语义中间语言_不同于现有的pro_af7913",
+  "file": "skills/auto_构建_语义中间语言_不同于现有的pro_af7913.py",
+  "description": "构建'语义中间语言'。不同于现有的Prompt，这是一种基于逻辑原语的中间表达层。人类输入模糊意图，AI将其编译为确定性的SIL，进行逻辑推演和工具调用规划，再'反编译'为自然语言反馈。这种机制能显著降低大模型的幻觉，因为SIL层具有类似形式逻辑的约束性，实现'意图-执行'的强一致性闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.353516",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O1_5541",
+  "design_spec": {
+    "name": "auto_构建_语义中间语言_不同于现有的pro_af7913",
+    "display_name": "构建'语义中间语言'。不同于现有的Prompt，这是一种基于逻辑原语的中间表达层。人类输入模糊意图，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'语义中间语言'。不同于现有的Prompt，这是一种基于逻辑原语的中间表达层。人类输入模糊意图，AI将其编译为确定性的SIL，进行逻辑推演和工具调用规划，再",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 336
+  }
+}

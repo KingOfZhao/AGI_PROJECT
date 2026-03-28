@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_跨域重叠_产生的节点_如何设计_语_89ce3c",
+  "file": "skills/auto_针对_跨域重叠_产生的节点_如何设计_语_89ce3c.py",
+  "description": "针对‘跨域重叠’产生的节点，如何设计‘语义漂移检测器’来验证其在不同上下文中的一致性？当一个节点从领域A迁移到领域B时（例如将生物学的‘进化’概念迁移到‘产品迭代’），往往会产生隐喻性的语义偏移。我们需要一种基于向量空间的监控机制，当偏移量超过特定阈值导致逻辑自洽性破裂时，自动创建新的分叉节点而非覆盖原节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.551522",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q4_0_5437",
+  "design_spec": {
+    "name": "auto_针对_跨域重叠_产生的节点_如何设计_语_89ce3c",
+    "display_name": "针对‘跨域重叠’产生的节点，如何设计‘语义漂移检测器’来验证其在不同上下文中的一致性？当一个节点从领",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对‘跨域重叠’产生的节点，如何设计‘语义漂移检测器’来验证其在不同上下文中的一致性？当一个节点从领域A迁移到领域B时（例如将生物学的‘进化’概念迁移到‘产品迭",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

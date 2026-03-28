@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于信息熵变异的逻辑冲突检测机制_针对现_b2ff7e",
+  "file": "skills/auto_基于信息熵变异的逻辑冲突检测机制_针对现_b2ff7e.py",
+  "description": "基于信息熵变异的逻辑冲突检测机制：针对现有的3403个知识节点，开发一种算法，能够自动生成针对长逻辑链节点的“反事实攻击文本”。该算法需利用节点的描述生成语义相反但语境兼容的命题，并将其作为输入反馈给节点。如果节点无法识别其中的逻辑矛盾（即输出结果与原有知识体系冲突但未报错），则证明该节点的逻辑防御力不足。这是实现AI自上而下证伪的基础设施。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cognitive_security",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.018097",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q1_1_2858",
+  "design_spec": {
+    "name": "auto_基于信息熵变异的逻辑冲突检测机制_针对现_b2ff7e",
+    "display_name": "基于信息熵变异的逻辑冲突检测机制：针对现有的3403个知识节点，开发一种算法，能够自动生成针对长逻辑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于信息熵变异的逻辑冲突检测机制：针对现有的3403个知识节点，开发一种算法，能够自动生成针对长逻辑链节点的“反事实攻击文本”。该算法需利用节点的描述生成语义相",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

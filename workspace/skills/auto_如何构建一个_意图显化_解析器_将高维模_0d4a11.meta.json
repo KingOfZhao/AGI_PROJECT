@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一个_意图显化_解析器_将高维模_0d4a11",
+  "file": "skills/auto_如何构建一个_意图显化_解析器_将高维模_0d4a11.py",
+  "description": "如何构建一个'意图显化'解析器，将高维模糊的自然语言指令（如'做一个好玩的贪吃蛇'）强制映射为包含显式约束的结构化中间表示（IR）？该解析器需利用已知的1980个SKILL节点作为约束词典，自动补全缺失参数（如'界面风格'、'胜利条件'），并将模糊度量化为置信度分值，拒绝置信度过低的无效指令。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.660307",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_121_Q1_1_6817",
+  "design_spec": {
+    "name": "auto_如何构建一个_意图显化_解析器_将高维模_0d4a11",
+    "display_name": "如何构建一个'意图显化'解析器，将高维模糊的自然语言指令（如'做一个好玩的贪吃蛇'）强制映射为包含显",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一个'意图显化'解析器，将高维模糊的自然语言指令（如'做一个好玩的贪吃蛇'）强制映射为包含显式约束的结构化中间表示（IR）？该解析器需利用已知的1980",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 343
+  }
+}

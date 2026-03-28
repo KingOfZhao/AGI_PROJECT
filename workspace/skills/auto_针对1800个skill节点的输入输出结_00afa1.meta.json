@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对1800个skill节点的输入输出结_00afa1",
+  "file": "skills/auto_针对1800个skill节点的输入输出结_00afa1.py",
+  "description": "针对1800个Skill节点的输入输出结构漂移检测：如何自动化监控Skill节点的执行稳定性？当一个Skill（如‘写Python代码’）的输出结果在相同输入分布下，通过大模型裁判判定为‘有效性下降’或‘格式不再兼容’时，触发警报。这需要建立一个轻量级的‘语义结构一致性’度量算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.945240",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_108_Q2_0_5121",
+  "design_spec": {
+    "name": "auto_针对1800个skill节点的输入输出结_00afa1",
+    "display_name": "针对1800个Skill节点的输入输出结构漂移检测：如何自动化监控Skill节点的执行稳定性？当一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对1800个Skill节点的输入输出结构漂移检测：如何自动化监控Skill节点的执行稳定性？当一个Skill（如‘写Python代码’）的输出结果在相同输入分",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 94
+  }
+}

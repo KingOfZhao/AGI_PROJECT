@@ -1,0 +1,30 @@
+{
+  "name": "auto_agi需要处理工业现场的_多模态冲突_e48855",
+  "file": "skills/auto_agi需要处理工业现场的_多模态冲突_e48855.py",
+  "description": "AGI需要处理工业现场的'多模态冲突'。当视觉传感器显示设备正常（绿灯），但声学传感器检测到异常杂音时，如何构建'冲突解决节点'？这需要融合不同模态的可信度权重，形成更高级的'认知综合'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "multi_modal_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:39.639193",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q9_1_9242",
+  "design_spec": {
+    "name": "auto_agi需要处理工业现场的_多模态冲突_e48855",
+    "display_name": "AGI需要处理工业现场的'多模态冲突'。当视觉传感器显示设备正常（绿灯），但声学传感器检测到异常杂音",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "AGI需要处理工业现场的'多模态冲突'。当视觉传感器显示设备正常（绿灯），但声学传感器检测到异常杂音时，如何构建'冲突解决节点'？这需要融合不同模态的可信度权重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码生成的可证伪性_生成的代码是否具备_dc172b",
+  "file": "skills/auto_代码生成的可证伪性_生成的代码是否具备_dc172b.py",
+  "description": "【代码生成的可证伪性】生成的代码是否具备‘自我体检’能力？即代码不仅要能跑通Happy Path，还需包含针对自身逻辑分支的断言（Assert），证明AI理解了代码的边界条件。这是验证‘真实节点’是否闭环的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "软件工程",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.827729",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q5_0_728",
+  "design_spec": {
+    "name": "auto_代码生成的可证伪性_生成的代码是否具备_dc172b",
+    "display_name": "【代码生成的可证伪性】生成的代码是否具备‘自我体检’能力？即代码不仅要能跑通Happy Path，还",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【代码生成的可证伪性】生成的代码是否具备‘自我体检’能力？即代码不仅要能跑通Happy Path，还需包含针对自身逻辑分支的断言（Assert），证明AI理解了",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对现有1481个skill_如何构建一_3a22ff",
+  "file": "skills/auto_针对现有1481个skill_如何构建一_3a22ff.py",
+  "description": "针对现有1481个SKILL，如何构建一个‘技能组合进化’算法？即当单一SKILL无法解决问题时，系统能否通过图神经网络（GNN）探索现有节点的组合路径，生成新的‘复合技能’节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "evolutionary_computation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.548915",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_83_Q8_1_5544",
+  "design_spec": {
+    "name": "auto_针对现有1481个skill_如何构建一_3a22ff",
+    "display_name": "针对现有1481个SKILL，如何构建一个‘技能组合进化’算法？即当单一SKILL无法解决问题时，系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对现有1481个SKILL，如何构建一个‘技能组合进化’算法？即当单一SKILL无法解决问题时，系统能否通过图神经网络（GNN）探索现有节点的组合路径，生成新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_抽象阶梯_的自动爬升与固化_系统目前有_294e40",
+  "file": "skills/auto_抽象阶梯_的自动爬升与固化_系统目前有_294e40.py",
+  "description": "‘抽象阶梯’的自动爬升与固化：系统目前有1575个技能节点，很多是平铺的具体操作。如何自动识别这些节点中的共同模式，将其‘抽象化’为更高层级的元技能？例如，从‘写Java代码’和‘写Python代码’中自动构建‘面向对象编程设计模式’这一更高级的抽象节点，并建立父子关系。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.688369",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q7_0_1415",
+  "design_spec": {
+    "name": "auto_抽象阶梯_的自动爬升与固化_系统目前有_294e40",
+    "display_name": "‘抽象阶梯’的自动爬升与固化：系统目前有1575个技能节点，很多是平铺的具体操作。如何自动识别这些节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘抽象阶梯’的自动爬升与固化：系统目前有1575个技能节点，很多是平铺的具体操作。如何自动识别这些节点中的共同模式，将其‘抽象化’为更高层级的元技能？例如，从‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 326
+  }
+}

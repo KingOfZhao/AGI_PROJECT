@@ -1,0 +1,49 @@
+{
+  "name": "自性技能协调器 v2",
+  "description": "注册所有节点、梳理联系、链式/并行协调，优化本地模型编码能力。元规划→多链执行→全局精炼→技能工厂。与v1编码链无缝衔接，可动态注册任意技能节点。",
+  "tags": [
+    "技能协调",
+    "链式调用",
+    "本地模型",
+    "元规划",
+    "节点注册",
+    "并行执行"
+  ],
+  "category": "orchestration",
+  "file": "workspace/skills/local_skill_orchestrator_v2.py",
+  "source": "local",
+  "safety_level": "safe",
+  "created_at": "2026-03-25T16:31:00.000000",
+  "forged_by": "user_skill_chain",
+  "version": "v2",
+  "design_spec": {
+    "name": "local_skill_orchestrator_v2",
+    "display_name": "自性技能协调器 v2",
+    "description": "多链协调器：元规划拆解任务→分配已注册技能→串行/并行执行→全局精炼",
+    "functions": [
+      {
+        "name": "register_skill",
+        "purpose": "注册任意技能为链路节点",
+        "params": "name (str): 技能名, skill_func (Callable): 技能函数",
+        "returns": "None"
+      },
+      {
+        "name": "coordinate",
+        "purpose": "元协调：LLM自动拆解任务并分配链路",
+        "params": "complex_task (str): 复杂任务描述",
+        "returns": "Dict: 执行计划JSON"
+      },
+      {
+        "name": "execute_chain",
+        "purpose": "启动完整多链协调（规划→执行→全局精炼）",
+        "params": "complex_task (str): 任务, max_iterations (int): 最大迭代数",
+        "returns": "str: 最终优化结果"
+      }
+    ],
+    "dependencies": ["requests", "importlib"],
+    "tags": ["技能协调", "链式调用", "元规划"],
+    "estimated_lines": 130,
+    "chain_position": 2,
+    "chain_family": "自性技能链"
+  }
+}

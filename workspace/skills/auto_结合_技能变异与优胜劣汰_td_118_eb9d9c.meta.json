@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_技能变异与优胜劣汰_td_118_eb9d9c",
+  "file": "skills/auto_结合_技能变异与优胜劣汰_td_118_eb9d9c.py",
+  "description": "结合'技能变异与优胜劣汰'（td_118_Q6_2_3114）、'因果律提取'（td_118_Q5_2_3114）和'反事实模拟'（td_118_Q7_2_3114），系统将具备主动编辑自身知识基因的能力。它不再等待自然产生新节点，而是能在模拟器中主动剪除低效的因果链，人工合成具有高适应度的'转基因节点'，并直接投入生产环境验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_119",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:17:51.165716",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_119_E1_1326",
+  "design_spec": {
+    "name": "auto_结合_技能变异与优胜劣汰_td_118_eb9d9c",
+    "display_name": "结合'技能变异与优胜劣汰'（td_118_Q6_2_3114）、'因果律提取'（td_118_Q5_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'技能变异与优胜劣汰'（td_118_Q6_2_3114）、'因果律提取'（td_118_Q5_2_3114）和'反事实模拟'（td_118_Q7_2_31",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

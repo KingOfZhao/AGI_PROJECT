@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_类脑语义流形索引_利用人类认知的_f51c21",
+  "file": "skills/auto_构建_类脑语义流形索引_利用人类认知的_f51c21.py",
+  "description": "构建'类脑语义流形索引'。利用人类认知的'激活扩散'原理优化向量索引。当前向量DB是静态的，融合能力引入'认知热度'权重。近期被高频'联想(检索)'过的向量簇，在物理存储上应更紧密(量化压缩率更低)，类似于人类'熟练度'的提升。同时，引入'干扰项抑制'机制，在检索时主动减去'语义反义词'向量，模拟人类'排中律'思维，提高检索的精准度与可解释性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.348928",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_133_O3_9699",
+  "design_spec": {
+    "name": "auto_构建_类脑语义流形索引_利用人类认知的_f51c21",
+    "display_name": "构建'类脑语义流形索引'。利用人类认知的'激活扩散'原理优化向量索引。当前向量DB是静态的，融合能力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'类脑语义流形索引'。利用人类认知的'激活扩散'原理优化向量索引。当前向量DB是静态的，融合能力引入'认知热度'权重。近期被高频'联想(检索)'过的向量簇，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

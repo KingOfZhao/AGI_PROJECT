@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_生物发生式计算架构_不同于传统不_5e36a7",
+  "file": "skills/auto_提出_生物发生式计算架构_不同于传统不_5e36a7.py",
+  "description": "提出'生物发生式计算架构'。不同于传统不可变基础设施，该架构引入'计算细胞分化'机制。系统部署初期下发通用'干细胞'镜像，运行时根据实时负载特征、数据敏感度和网络拓扑，动态加载特定的'基因插件'（如AI推理模块、加密模块）。这实现了软件实例的'表观遗传'适应性，即同一套代码在不同环境压力下自动演化为Web服务器、流处理节点或边缘计算节点，极大提升资源利用率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_4",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:25:39.235910",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_4_O1_4833",
+  "design_spec": {
+    "name": "auto_提出_生物发生式计算架构_不同于传统不_5e36a7",
+    "display_name": "提出'生物发生式计算架构'。不同于传统不可变基础设施，该架构引入'计算细胞分化'机制。系统部署初期下",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'生物发生式计算架构'。不同于传统不可变基础设施，该架构引入'计算细胞分化'机制。系统部署初期下发通用'干细胞'镜像，运行时根据实时负载特征、数据敏感度和网",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 342
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_文脉自适应_迁移学习策略_将目标域数据_c1ec59",
+  "file": "skills/auto_文脉自适应_迁移学习策略_将目标域数据_c1ec59.py",
+  "description": "‘文脉自适应’迁移学习策略。将目标域数据视为‘场地环境’，预训练模型视为‘通用建筑模块’。不只是微调参数，而是先对目标域进行‘场地勘测’（数据分布的地形分析），识别‘地质断层’（数据稀缺区），然后生成特定的‘地基’（Adapter模块）来适配预训练模型，确保模型‘生长’在数据的脉络上，而非强行植入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.595182",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_40_O4_524",
+  "design_spec": {
+    "name": "auto_文脉自适应_迁移学习策略_将目标域数据_c1ec59",
+    "display_name": "‘文脉自适应’迁移学习策略。将目标域数据视为‘场地环境’，预训练模型视为‘通用建筑模块’。不只是微调",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘文脉自适应’迁移学习策略。将目标域数据视为‘场地环境’，预训练模型视为‘通用建筑模块’。不只是微调参数，而是先对目标域进行‘场地勘测’（数据分布的地形分析），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 545
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将一个高维_复杂的宏观意图_如_构建_09f0d9",
+  "file": "skills/auto_如何将一个高维_复杂的宏观意图_如_构建_09f0d9.py",
+  "description": "如何将一个高维、复杂的宏观意图（如'构建一个推荐系统'）递归拆解为互不耦合的、可独立执行的'原子任务树'？这涉及到认知科学中的规划问题。关键在于如何识别任务边界，避免循环依赖，并确保叶子节点的任务粒度恰好匹配现有的代码库能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "agi/planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.557446",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_126_Q2_1_2725",
+  "design_spec": {
+    "name": "auto_如何将一个高维_复杂的宏观意图_如_构建_09f0d9",
+    "display_name": "如何将一个高维、复杂的宏观意图（如'构建一个推荐系统'）递归拆解为互不耦合的、可独立执行的'原子任务",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将一个高维、复杂的宏观意图（如'构建一个推荐系统'）递归拆解为互不耦合的、可独立执行的'原子任务树'？这涉及到认知科学中的规划问题。关键在于如何识别任务边界",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_概念坍缩与过拟合检测_在_自下而上归纳构_6d08c3",
+  "file": "skills/auto_概念坍缩与过拟合检测_在_自下而上归纳构_6d08c3.py",
+  "description": "概念坍缩与过拟合检测：在'自下而上归纳构建'中，AI可能将噪声误认为是规律（过拟合）。如何通过检查新归纳节点的'信息压缩率'来证伪无效节点？即，描述该节点所需的信息量是否大于该节点所能解释的现象的信息量？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:39.997621",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q6_1_764",
+  "design_spec": {
+    "name": "auto_概念坍缩与过拟合检测_在_自下而上归纳构_6d08c3",
+    "display_name": "概念坍缩与过拟合检测：在'自下而上归纳构建'中，AI可能将噪声误认为是规律（过拟合）。如何通过检查新",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "概念坍缩与过拟合检测：在'自下而上归纳构建'中，AI可能将噪声误认为是规律（过拟合）。如何通过检查新归纳节点的'信息压缩率'来证伪无效节点？即，描述该节点所需的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

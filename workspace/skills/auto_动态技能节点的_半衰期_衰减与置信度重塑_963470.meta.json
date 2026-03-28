@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态技能节点的_半衰期_衰减与置信度重塑_963470",
+  "file": "skills/auto_动态技能节点的_半衰期_衰减与置信度重塑_963470.py",
+  "description": "动态技能节点的'半衰期'衰减与置信度重塑算法：设计一个时间衰减函数，若某个知识节点（如'某地法律禁止X'）长时间未经过'实践证伪'或'再次确认'，其置信度权重将自动下降。同时，通过RAG（检索增强生成）实时接入互联网API验证该节点，若验证失败则触发降级或删除。此机制解决知识随时间陈旧的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.742827",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_74_Q3_3_3694",
+  "design_spec": {
+    "name": "auto_动态技能节点的_半衰期_衰减与置信度重塑_963470",
+    "display_name": "动态技能节点的'半衰期'衰减与置信度重塑算法：设计一个时间衰减函数，若某个知识节点（如'某地法律禁止",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态技能节点的'半衰期'衰减与置信度重塑算法：设计一个时间衰减函数，若某个知识节点（如'某地法律禁止X'）长时间未经过'实践证伪'或'再次确认'，其置信度权重将",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

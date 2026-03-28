@@ -1,0 +1,30 @@
+{
+  "name": "auto_辩证法协同修正协议_这是一种具备_否定之_3f0bfe",
+  "file": "skills/auto_辩证法协同修正协议_这是一种具备_否定之_3f0bfe.py",
+  "description": "辩证法协同修正协议。这是一种具备'否定之否定'能力的控制系统。AI不再是被动的工具，而是具备'反思'能力的合作者。当检测到执行误差时，AI不仅修正动作，还通过对比人类历史案例，提出'反讽'式的建议(例如：'你现在的力度像是在修补裂痕，但数据表明这实际上是断裂，建议停机')。这种能力将人机关系从'主从控制'升维为'互为主体性'的共生关系，通过不断的正(指令)-反(误差)-合(新策略)过程，推动技能进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.787979",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O4_1720",
+  "design_spec": {
+    "name": "auto_辩证法协同修正协议_这是一种具备_否定之_3f0bfe",
+    "display_name": "辩证法协同修正协议。这是一种具备'否定之否定'能力的控制系统。AI不再是被动的工具，而是具备'反思'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "辩证法协同修正协议。这是一种具备'否定之否定'能力的控制系统。AI不再是被动的工具，而是具备'反思'能力的合作者。当检测到执行误差时，AI不仅修正动作，还通过对",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_意境对齐评估器_在ai生成复杂业_60cfe0",
+  "file": "skills/auto_构建_意境对齐评估器_在ai生成复杂业_60cfe0.py",
+  "description": "构建'意境对齐评估器'。在AI生成复杂业务逻辑代码时，放弃传统的单元测试，转而使用'特征指纹'比对。就像鉴赏古董不看尺寸而看'神韵'，该评估器利用Embedding技术计算'代码行为序列'与'业务意图描述'在潜在空间的重叠度。允许代码在非关键路径上'随性发挥'（如变量命名风格），但在核心逻辑（'器型'）上必须严丝合缝。这解决了过度约束导致AI创造力下降的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.973818",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O3_4562",
+  "design_spec": {
+    "name": "auto_构建_意境对齐评估器_在ai生成复杂业_60cfe0",
+    "display_name": "构建'意境对齐评估器'。在AI生成复杂业务逻辑代码时，放弃传统的单元测试，转而使用'特征指纹'比对。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'意境对齐评估器'。在AI生成复杂业务逻辑代码时，放弃传统的单元测试，转而使用'特征指纹'比对。就像鉴赏古董不看尺寸而看'神韵'，该评估器利用Embeddi",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 317
+  }
+}

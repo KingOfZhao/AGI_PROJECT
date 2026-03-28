@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于多模态传感器融合_imu惯性测量单元_b56c56",
+  "file": "skills/auto_基于多模态传感器融合_imu惯性测量单元_b56c56.py",
+  "description": "基于多模态传感器融合（IMU惯性测量单元+视频）的手势“力觉-视觉”对齐问题：如何将手工艺（如陶艺捏制）中的非视觉触觉变量（指尖压力、手腕扭矩）映射到视觉几何变化上？本子问题旨在构建一个映射函数，将传感器捕捉的物理数据转化为AI可理解的状态变迁，从而量化“手感”。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.793896",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q1_0_1755",
+  "design_spec": {
+    "name": "auto_基于多模态传感器融合_imu惯性测量单元_b56c56",
+    "display_name": "基于多模态传感器融合（IMU惯性测量单元+视频）的手势“力觉-视觉”对齐问题：如何将手工艺（如陶艺捏",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于多模态传感器融合（IMU惯性测量单元+视频）的手势“力觉-视觉”对齐问题：如何将手工艺（如陶艺捏制）中的非视觉触觉变量（指尖压力、手腕扭矩）映射到视觉几何变",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

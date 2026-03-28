@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_反直觉_的证伪案例生成器_人机共生_bc2722",
+  "file": "skills/auto_构建_反直觉_的证伪案例生成器_人机共生_bc2722.py",
+  "description": "构建‘反直觉’的证伪案例生成器。人机共生中，人类容易陷入‘确认偏误’。AI的角色应是‘魔鬼代言人’。系统需针对每个新产生的‘真实节点’，利用现有知识网络中的矛盾节点，自动生成至少一个极端边界条件下的‘反例场景’。目标是验证该节点在非典型环境下的鲁棒性，强制进行‘自下而上’的修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "logic_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.833677",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q5_2_9854",
+  "design_spec": {
+    "name": "auto_构建_反直觉_的证伪案例生成器_人机共生_bc2722",
+    "display_name": "构建‘反直觉’的证伪案例生成器。人机共生中，人类容易陷入‘确认偏误’。AI的角色应是‘魔鬼代言人’。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘反直觉’的证伪案例生成器。人机共生中，人类容易陷入‘确认偏误’。AI的角色应是‘魔鬼代言人’。系统需针对每个新产生的‘真实节点’，利用现有知识网络中的矛盾",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

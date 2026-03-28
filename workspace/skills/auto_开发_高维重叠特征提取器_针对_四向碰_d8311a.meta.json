@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_高维重叠特征提取器_针对_四向碰_d8311a",
+  "file": "skills/auto_开发_高维重叠特征提取器_针对_四向碰_d8311a.py",
+  "description": "开发‘高维重叠特征提取器’：针对‘四向碰撞’中的‘左右跨域重叠’，计算任意两个节点在潜在语义空间（Latent Space）中的欧氏距离或余弦相似度，当距离小于阈值但领域标签不同时，自动触发‘融合提案’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.384957",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_128_Q8_2_1763",
+  "design_spec": {
+    "name": "auto_开发_高维重叠特征提取器_针对_四向碰_d8311a",
+    "display_name": "开发‘高维重叠特征提取器’：针对‘四向碰撞’中的‘左右跨域重叠’，计算任意两个节点在潜在语义空间（L",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘高维重叠特征提取器’：针对‘四向碰撞’中的‘左右跨域重叠’，计算任意两个节点在潜在语义空间（Latent Space）中的欧氏距离或余弦相似度，当距离小于",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

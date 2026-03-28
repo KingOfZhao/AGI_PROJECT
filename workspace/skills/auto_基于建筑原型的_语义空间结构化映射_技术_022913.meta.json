@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于建筑原型的_语义空间结构化映射_技术_022913",
+  "file": "skills/auto_基于建筑原型的_语义空间结构化映射_技术_022913.py",
+  "description": "基于建筑原型的'语义空间结构化映射'技术。目前的NN潜空间是黑盒且混乱的。引入建筑类型学的层级分类法（类-型-式），强制约束潜空间的几何拓扑。例如，强制让'家具'的向量簇围绕'房间'向量簇分布，就像真实建筑一样。这不仅提升生成式AI的可控性（Text-to-Image/3D），还能让AI学会'概念间的空间关系'（如'厨房'必须邻近'餐厅'），赋予AI某种空间常识。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.838211",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_71_O3_5019",
+  "design_spec": {
+    "name": "auto_基于建筑原型的_语义空间结构化映射_技术_022913",
+    "display_name": "基于建筑原型的'语义空间结构化映射'技术。目前的NN潜空间是黑盒且混乱的。引入建筑类型学的层级分类法",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于建筑原型的'语义空间结构化映射'技术。目前的NN潜空间是黑盒且混乱的。引入建筑类型学的层级分类法（类-型-式），强制约束潜空间的几何拓扑。例如，强制让'家具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

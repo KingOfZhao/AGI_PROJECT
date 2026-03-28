@@ -1,0 +1,30 @@
+{
+  "name": "auto_反事实推理维度_如何构建自动化压力测试_6abe59",
+  "file": "skills/auto_反事实推理维度_如何构建自动化压力测试_6abe59.py",
+  "description": "【反事实推理维度】如何构建自动化压力测试，验证节点在极端边界条件下的鲁棒性？对于每个SKILL节点，自动生成一组'反事实'输入（如空值、超长文本、逻辑悖论），评估其崩溃率与容错处理能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "fuzzing_testing",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.843227",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_103_Q6_0_6542",
+  "design_spec": {
+    "name": "auto_反事实推理维度_如何构建自动化压力测试_6abe59",
+    "display_name": "【反事实推理维度】如何构建自动化压力测试，验证节点在极端边界条件下的鲁棒性？对于每个SKILL节点，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【反事实推理维度】如何构建自动化压力测试，验证节点在极端边界条件下的鲁棒性？对于每个SKILL节点，自动生成一组'反事实'输入（如空值、超长文本、逻辑悖论），评",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 269
+  }
+}

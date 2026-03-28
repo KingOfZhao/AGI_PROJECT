@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_ai全生命周期数字孪生_平台_借鉴_2b3073",
+  "file": "skills/auto_构建_ai全生命周期数字孪生_平台_借鉴_2b3073.py",
+  "description": "构建'AI全生命周期数字孪生'平台。借鉴BIM的分层管理（机电、结构、暖通），将AI系统的数据层、算法层、应用层解耦管理。引入'模型健康度监测'，像监测建筑沉降一样监测模型衰减，实现预测性维护。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.591159",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_150_O6_3068",
+  "design_spec": {
+    "name": "auto_构建_ai全生命周期数字孪生_平台_借鉴_2b3073",
+    "display_name": "构建'AI全生命周期数字孪生'平台。借鉴BIM的分层管理（机电、结构、暖通），将AI系统的数据层、算",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'AI全生命周期数字孪生'平台。借鉴BIM的分层管理（机电、结构、暖通），将AI系统的数据层、算法层、应用层解耦管理。引入'模型健康度监测'，像监测建筑沉降",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

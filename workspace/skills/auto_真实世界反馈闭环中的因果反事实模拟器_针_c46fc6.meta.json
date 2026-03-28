@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实世界反馈闭环中的因果反事实模拟器_针_c46fc6",
+  "file": "skills/auto_真实世界反馈闭环中的因果反事实模拟器_针_c46fc6.py",
+  "description": "真实世界反馈闭环中的因果反事实模拟器。针对物理或社会交互类节点（如摆摊选址），构建基于贝叶斯网络或结构因果模型（SCM）的模拟器。在生成行动策略前，先在模拟器中进行干预实验，若模拟结果显示失败概率极高，则自我证伪该策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "因果推断与仿真",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.030237",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_67_Q2_1_6033",
+  "design_spec": {
+    "name": "auto_真实世界反馈闭环中的因果反事实模拟器_针_c46fc6",
+    "display_name": "真实世界反馈闭环中的因果反事实模拟器。针对物理或社会交互类节点（如摆摊选址），构建基于贝叶斯网络或结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "真实世界反馈闭环中的因果反事实模拟器。针对物理或社会交互类节点（如摆摊选址），构建基于贝叶斯网络或结构因果模型（SCM）的模拟器。在生成行动策略前，先在模拟器中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

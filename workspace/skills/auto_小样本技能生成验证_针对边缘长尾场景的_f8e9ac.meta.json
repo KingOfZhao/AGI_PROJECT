@@ -1,0 +1,30 @@
+{
+  "name": "auto_小样本技能生成验证_针对边缘长尾场景的_f8e9ac",
+  "file": "skills/auto_小样本技能生成验证_针对边缘长尾场景的_f8e9ac.py",
+  "description": "【小样本技能生成验证】针对边缘长尾场景的适应性。系统已知SKILL:1622，面对一个完全陌生的组合任务（如‘用Python写一个控制无人机给仙人掌浇水的程序’），系统是否能利用现有节点（Python语法+无人机SDK+植物学知识）现场‘编译’出一个新的可运行技能？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_94",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:50:15.558560",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_94_Q6_0_5298",
+  "design_spec": {
+    "name": "auto_小样本技能生成验证_针对边缘长尾场景的_f8e9ac",
+    "display_name": "【小样本技能生成验证】针对边缘长尾场景的适应性。系统已知SKILL:1622，面对一个完全陌生的组合",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【小样本技能生成验证】针对边缘长尾场景的适应性。系统已知SKILL:1622，面对一个完全陌生的组合任务（如‘用Python写一个控制无人机给仙人掌浇水的程序’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 322
+  }
+}

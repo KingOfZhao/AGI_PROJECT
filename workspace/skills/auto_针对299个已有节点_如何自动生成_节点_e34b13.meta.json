@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对299个已有节点_如何自动生成_节点_e34b13",
+  "file": "skills/auto_针对299个已有节点_如何自动生成_节点_e34b13.py",
+  "description": "针对299个已有节点，如何自动生成'节点间冲突检测'逻辑？当用户意图同时激活两个互斥的节点（如'最大化性能'与'最小化资源消耗'）时，系统如何识别并触发'权衡决策'子过程？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "constraint_programming",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.056501",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_6_Q9_1_6196",
+  "design_spec": {
+    "name": "auto_针对299个已有节点_如何自动生成_节点_e34b13",
+    "display_name": "针对299个已有节点，如何自动生成'节点间冲突检测'逻辑？当用户意图同时激活两个互斥的节点（如'最大",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对299个已有节点，如何自动生成'节点间冲突检测'逻辑？当用户意图同时激活两个互斥的节点（如'最大化性能'与'最小化资源消耗'）时，系统如何识别并触发'权衡决",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

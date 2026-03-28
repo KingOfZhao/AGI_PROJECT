@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于异构图神经网络_hgnn_的跨域节点_6efdc7",
+  "file": "skills/auto_基于异构图神经网络_hgnn_的跨域节点_6efdc7.py",
+  "description": "基于异构图神经网络（HGNN）的跨域节点注意力机制：鉴于当前3613个节点可能分属不同认知域（如烹饪、编程、销售），如何设计一个动态权重算法，计算节点间的语义与结构相似度（左右碰撞），自动发现看似无关领域间的潜在映射关系（如将'火候控制'映射到'情绪管理'），而非依赖静态标签。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "Cognitive Science/Graph Theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.674232",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q1_1_7781",
+  "design_spec": {
+    "name": "auto_基于异构图神经网络_hgnn_的跨域节点_6efdc7",
+    "display_name": "基于异构图神经网络（HGNN）的跨域节点注意力机制：鉴于当前3613个节点可能分属不同认知域（如烹饪",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于异构图神经网络（HGNN）的跨域节点注意力机制：鉴于当前3613个节点可能分属不同认知域（如烹饪、编程、销售），如何设计一个动态权重算法，计算节点间的语义与",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

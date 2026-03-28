@@ -1,0 +1,30 @@
+{
+  "name": "auto_重叠固化_程序本体转化_如何将工艺卡片_15907c",
+  "file": "skills/auto_重叠固化_程序本体转化_如何将工艺卡片_15907c.py",
+  "description": "【重叠固化-程序本体转化】如何将工艺卡片（文本）中的‘温度曲线设置’与‘PLC控制逻辑’（代码）进行深度链接，构建‘工艺参数-控制变量’的映射节点？目的是当AGI发现产品缺陷时，能直接反向定位到PLC代码中的具体PID参数块，而不仅仅是建议调整温度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.450061",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q4_1_9813",
+  "design_spec": {
+    "name": "auto_重叠固化_程序本体转化_如何将工艺卡片_15907c",
+    "display_name": "【重叠固化-程序本体转化】如何将工艺卡片（文本）中的‘温度曲线设置’与‘PLC控制逻辑’（代码）进行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【重叠固化-程序本体转化】如何将工艺卡片（文本）中的‘温度曲线设置’与‘PLC控制逻辑’（代码）进行深度链接，构建‘工艺参数-控制变量’的映射节点？目的是当AG",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

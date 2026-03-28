@@ -1,0 +1,30 @@
+{
+  "name": "auto_流式响应式设计内核_将flutter_bb503b",
+  "file": "skills/auto_流式响应式设计内核_将flutter_bb503b.py",
+  "description": "‘流式响应式设计内核’。将Flutter的响应式编程范式深度植入CAD内核。传统CAD修改参数需手动重建模型，融合能力允许工程师像操作Flutter State一样操作CAD模型。通过定义几何特征的‘依赖关系图’，当基础参数(State)改变时，自动触发受影响特征的级联重算，并在UI层实现毫秒级的几何预览更新，彻底消除CAD重建时的卡顿感。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.692544",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_91_O1_6702",
+  "design_spec": {
+    "name": "auto_流式响应式设计内核_将flutter_bb503b",
+    "display_name": "‘流式响应式设计内核’。将Flutter的响应式编程范式深度植入CAD内核。传统CAD修改参数需手动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘流式响应式设计内核’。将Flutter的响应式编程范式深度植入CAD内核。传统CAD修改参数需手动重建模型，融合能力允许工程师像操作Flutter State",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 445
+  }
+}

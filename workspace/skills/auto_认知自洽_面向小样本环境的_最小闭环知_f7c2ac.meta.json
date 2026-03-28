@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽_面向小样本环境的_最小闭环知_f7c2ac",
+  "file": "skills/auto_认知自洽_面向小样本环境的_最小闭环知_f7c2ac.py",
+  "description": "【认知自洽】面向小样本环境的‘最小闭环知识包’生成。AGI需要在数据稀缺时也能构建认知。本子问题探索如何利用仅有的3-5个示例，结合LLM的预训练知识，构建一个包含‘概念-工具-验证标准’的最小闭环节点。关键在于生成的节点必须具备可执行性，而非仅仅是文本描述。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.116637",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q4_0_4397",
+  "design_spec": {
+    "name": "auto_认知自洽_面向小样本环境的_最小闭环知_f7c2ac",
+    "display_name": "【认知自洽】面向小样本环境的‘最小闭环知识包’生成。AGI需要在数据稀缺时也能构建认知。本子问题探索",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知自洽】面向小样本环境的‘最小闭环知识包’生成。AGI需要在数据稀缺时也能构建认知。本子问题探索如何利用仅有的3-5个示例，结合LLM的预训练知识，构建一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

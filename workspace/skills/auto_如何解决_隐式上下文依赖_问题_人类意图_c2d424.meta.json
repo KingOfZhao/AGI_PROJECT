@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何解决_隐式上下文依赖_问题_人类意图_c2d424",
+  "file": "skills/auto_如何解决_隐式上下文依赖_问题_人类意图_c2d424.py",
+  "description": "如何解决“隐式上下文依赖”问题？人类意图往往包含未明说的环境假设（如“使用公司内部库”）。系统需通过分析历史对话和用户画像（用户节点），构建一个“隐式上下文注入器”，将这些假设显式化为代码约束条件。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "context_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.743679",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_141_Q6_1_693",
+  "design_spec": {
+    "name": "auto_如何解决_隐式上下文依赖_问题_人类意图_c2d424",
+    "display_name": "如何解决“隐式上下文依赖”问题？人类意图往往包含未明说的环境假设（如“使用公司内部库”）。系统需通过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何解决“隐式上下文依赖”问题？人类意图往往包含未明说的环境假设（如“使用公司内部库”）。系统需通过分析历史对话和用户画像（用户节点），构建一个“隐式上下文注入",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

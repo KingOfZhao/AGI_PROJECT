@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_物理_逻辑本体映射层_定义基本的_7742ee",
+  "file": "skills/auto_开发_物理_逻辑本体映射层_定义基本的_7742ee.py",
+  "description": "开发‘物理-逻辑本体映射层’，定义基本的物理状态变化对应的逻辑真值改变。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.731038",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_148_G2_8978",
+  "design_spec": {
+    "name": "auto_开发_物理_逻辑本体映射层_定义基本的_7742ee",
+    "display_name": "开发‘物理-逻辑本体映射层’，定义基本的物理状态变化对应的逻辑真值改变。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘物理-逻辑本体映射层’，定义基本的物理状态变化对应的逻辑真值改变。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

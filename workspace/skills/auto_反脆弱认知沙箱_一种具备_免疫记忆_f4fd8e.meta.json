@@ -1,0 +1,30 @@
+{
+  "name": "auto_反脆弱认知沙箱_一种具备_免疫记忆_f4fd8e",
+  "file": "skills/auto_反脆弱认知沙箱_一种具备_免疫记忆_f4fd8e.py",
+  "description": "【反脆弱认知沙箱】：一种具备‘免疫记忆’的代码执行环境。它不仅是运行代码的容器，更是认知的边界探测器。当代码在沙箱中运行失败（测试不通过或运行时错误）时，系统不仅报错，更自动触发‘失败固化’机制，将错误堆栈、输入边界、错误日志提炼为一个‘反模式真实节点’。下次生成代码时，AI能通过检索这些‘免疫节点’主动避开类似错误，实现从错误中学习的自进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.708879",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_95_O1_1566",
+  "design_spec": {
+    "name": "auto_反脆弱认知沙箱_一种具备_免疫记忆_f4fd8e",
+    "display_name": "【反脆弱认知沙箱】：一种具备‘免疫记忆’的代码执行环境。它不仅是运行代码的容器，更是认知的边界探测器",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【反脆弱认知沙箱】：一种具备‘免疫记忆’的代码执行环境。它不仅是运行代码的容器，更是认知的边界探测器。当代码在沙箱中运行失败（测试不通过或运行时错误）时，系统不",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

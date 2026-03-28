@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索基于_语义胶水_semantic_68a0eb",
+  "file": "skills/auto_探索基于_语义胶水_semantic_68a0eb.py",
+  "description": "探索基于'语义胶水'（Semantic Glue）的代码片段缝合技术，研究生成式连接代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.260287",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_62_G1_5238",
+  "design_spec": {
+    "name": "auto_探索基于_语义胶水_semantic_68a0eb",
+    "display_name": "探索基于'语义胶水'（Semantic Glue）的代码片段缝合技术，研究生成式连接代码。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索基于'语义胶水'（Semantic Glue）的代码片段缝合技术，研究生成式连接代码。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 311
+  }
+}

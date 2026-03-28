@@ -1,0 +1,30 @@
+{
+  "name": "auto_环境响应型情境嵌入_开发一种不仅基于数据_10d74a",
+  "file": "skills/auto_环境响应型情境嵌入_开发一种不仅基于数据_10d74a.py",
+  "description": "环境响应型情境嵌入。开发一种不仅基于数据统计，而是基于物理环境模拟的Embedding层。在处理城市计算或建筑生成任务时，将地理信息（GIS）、日照参数、噪声数据作为Hard-coded的上下文约束注入Embedding。这使得AI能生成具有'地方感'的设计，而非千篇一律的全球化风格，解决AI生成内容缺乏文化/环境特性的痛点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.789092",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_131_O4_2797",
+  "design_spec": {
+    "name": "auto_环境响应型情境嵌入_开发一种不仅基于数据_10d74a",
+    "display_name": "环境响应型情境嵌入。开发一种不仅基于数据统计，而是基于物理环境模拟的Embedding层。在处理城市",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "环境响应型情境嵌入。开发一种不仅基于数据统计，而是基于物理环境模拟的Embedding层。在处理城市计算或建筑生成任务时，将地理信息（GIS）、日照参数、噪声数",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

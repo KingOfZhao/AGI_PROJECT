@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对人机协作中必然存在的_时间差_与_认_6bdc67",
+  "file": "skills/auto_针对人机协作中必然存在的_时间差_与_认_6bdc67.py",
+  "description": "针对人机协作中必然存在的‘时间差’与‘认知差’，构建的一套缓冲与自适应系统。该机制包含两个核心维度：1) 时间弹性：在人类验证延迟期间，系统通过‘认知暂存区’维持状态稳定；2) 安全防御：对于AI生成的高风险代码，必须在‘隔离沙箱’中进行压力测试（bu_115_P4_2167）。通过动态路由（ho_115_O4_9245）将高置信度任务自动化，低置信度任务通过双向校验算法提交人类证伪，从而实现‘置信度’的动态校准。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.251550",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_116_P4_8190",
+  "design_spec": {
+    "name": "auto_针对人机协作中必然存在的_时间差_与_认_6bdc67",
+    "display_name": "针对人机协作中必然存在的‘时间差’与‘认知差’，构建的一套缓冲与自适应系统。该机制包含两个核心维度：",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对人机协作中必然存在的‘时间差’与‘认知差’，构建的一套缓冲与自适应系统。该机制包含两个核心维度：1) 时间弹性：在人类验证延迟期间，系统通过‘认知暂存区’维",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 223
+  }
+}

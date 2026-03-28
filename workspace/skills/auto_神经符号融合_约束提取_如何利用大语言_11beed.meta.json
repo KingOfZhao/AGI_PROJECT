@@ -1,0 +1,30 @@
+{
+  "name": "auto_神经符号融合_约束提取_如何利用大语言_11beed",
+  "file": "skills/auto_神经符号融合_约束提取_如何利用大语言_11beed.py",
+  "description": "【神经符号融合-约束提取】如何利用大语言模型（LLM）从非结构化的口述经验（如‘感觉不对劲时就轻一点’）中提取可执行的符号化约束规则？需要验证LLM能否将模糊的自然语言转化为形式化的逻辑表达式（如 IF pressure > X THEN velocity = Y），并作为‘防护栏’嵌入到技能执行代码中。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "nlp_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.237282",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_102_Q4_2_1159",
+  "design_spec": {
+    "name": "auto_神经符号融合_约束提取_如何利用大语言_11beed",
+    "display_name": "【神经符号融合-约束提取】如何利用大语言模型（LLM）从非结构化的口述经验（如‘感觉不对劲时就轻一点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【神经符号融合-约束提取】如何利用大语言模型（LLM）从非结构化的口述经验（如‘感觉不对劲时就轻一点’）中提取可执行的符号化约束规则？需要验证LLM能否将模糊的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 245
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究_突触巩固_算法_即对于高频次成功调_731df1",
+  "file": "skills/auto_研究_突触巩固_算法_即对于高频次成功调_731df1.py",
+  "description": "研究'突触巩固'算法，即对于高频次成功调用的节点，赋予其抵抗遗忘的特权，即使它们不再频繁被更新。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.955697",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_108_G_cross_temporal_7011",
+  "design_spec": {
+    "name": "auto_研究_突触巩固_算法_即对于高频次成功调_731df1",
+    "display_name": "研究'突触巩固'算法，即对于高频次成功调用的节点，赋予其抵抗遗忘的特权，即使它们不再频繁被更新。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究'突触巩固'算法，即对于高频次成功调用的节点，赋予其抵抗遗忘的特权，即使它们不再频繁被更新。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

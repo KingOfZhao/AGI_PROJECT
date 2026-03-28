@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念旨在解决agi在处理物理世界任务时_c1373f",
+  "file": "skills/auto_该概念旨在解决agi在处理物理世界任务时_c1373f.py",
+  "description": "该概念旨在解决AGI在处理物理世界任务时的'时间维度分裂'问题。它构建了一个分层的控制塔台，能够同时在'毫秒级'（电机控制）、'秒级'（操作决策）、'周级'（战略规划）等不同时间尺度上进行推理和调度。通过引入'因果干预图'进行逆向推演，并结合'上下文感知'（InheritedProperty），使得底层的执行动作能够实时继承顶层的战略意图，实现超长跨度任务的稳定性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_51",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:49:54.165857",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_51_P5_3816",
+  "design_spec": {
+    "name": "auto_该概念旨在解决agi在处理物理世界任务时_c1373f",
+    "display_name": "该概念旨在解决AGI在处理物理世界任务时的'时间维度分裂'问题。它构建了一个分层的控制塔台，能够同时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念旨在解决AGI在处理物理世界任务时的'时间维度分裂'问题。它构建了一个分层的控制塔台，能够同时在'毫秒级'（电机控制）、'秒级'（操作决策）、'周级'（战",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

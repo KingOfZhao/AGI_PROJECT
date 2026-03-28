@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_约束性注意力护盾机制_结合_7d741a",
+  "file": "skills/auto_融合能力_约束性注意力护盾机制_结合_7d741a.py",
+  "description": "融合能力：'约束性注意力护盾机制'。结合认知科学的注意力漂移测试与软件工程的参数校验，开发一种动态权重修正系统。在AI生成代码或进行推理时，系统不仅关注当前步骤，还利用领域B的'干扰过滤'算法实时监控是否偏离了领域A定义的'初始隐含约束'。一旦检测到约束权重下降（类似于推理中的注意力漂移），系统立即触发中断或强制回溯，确保代码逻辑在长链条生成中依然满足初始意图。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.860144",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_115_O1_5315",
+  "design_spec": {
+    "name": "auto_融合能力_约束性注意力护盾机制_结合_7d741a",
+    "display_name": "融合能力：'约束性注意力护盾机制'。结合认知科学的注意力漂移测试与软件工程的参数校验，开发一种动态权",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：'约束性注意力护盾机制'。结合认知科学的注意力漂移测试与软件工程的参数校验，开发一种动态权重修正系统。在AI生成代码或进行推理时，系统不仅关注当前步骤",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 223
+  }
+}

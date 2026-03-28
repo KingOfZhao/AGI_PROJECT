@@ -1,0 +1,30 @@
+{
+  "name": "auto_算法作曲式的代码基因精炼引擎_将代码库视_66c9ef",
+  "file": "skills/auto_算法作曲式的代码基因精炼引擎_将代码库视_66c9ef.py",
+  "description": "算法作曲式的代码基因精炼引擎。将代码库视为一个'乐章'，将核心功能模块视为'动机'。系统不再静态地检查代码行数，而是分析代码的'结构复用率'与'变异熵'。如果一个模块（节点）过于复杂且缺乏内部结构的重复与呼应（即'描述长度'过长且'解释力'不足），系统会像处理冗余音符一样，自动生成重构建议，将其拆解为更基础的'动机'（原子函数）并重新组合。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.817993",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O2_2104",
+  "design_spec": {
+    "name": "auto_算法作曲式的代码基因精炼引擎_将代码库视_66c9ef",
+    "display_name": "算法作曲式的代码基因精炼引擎。将代码库视为一个'乐章'，将核心功能模块视为'动机'。系统不再静态地检",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "算法作曲式的代码基因精炼引擎。将代码库视为一个'乐章'，将核心功能模块视为'动机'。系统不再静态地检查代码行数，而是分析代码的'结构复用率'与'变异熵'。如果一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

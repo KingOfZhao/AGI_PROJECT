@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于td_85_q3_3_6197_物理_5a06e6",
+  "file": "skills/auto_基于td_85_q3_3_6197_物理_5a06e6.py",
+  "description": "基于td_85_Q3_3_6197（物理约束生成）与ho_85_O3_3096（对抗性生成），结合td_84_Q2_3_9207（反事实样本），系统能在虚拟环境中进行‘破坏性测试’。例如，在规划建筑结构时，系统自动生成‘如果地震烈度增加1级’或‘如果材料强度虚标20%’的反事实场景，从而在现实执行前发现潜在的致命缺陷。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_86",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:02:52.191983",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_86_E3_4224",
+  "design_spec": {
+    "name": "auto_基于td_85_q3_3_6197_物理_5a06e6",
+    "display_name": "基于td_85_Q3_3_6197（物理约束生成）与ho_85_O3_3096（对抗性生成），结合t",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于td_85_Q3_3_6197（物理约束生成）与ho_85_O3_3096（对抗性生成），结合td_84_Q2_3_9207（反事实样本），系统能在虚拟环境",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

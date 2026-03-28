@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_增量式语法纠错生成器_目前的受限_016d77",
+  "file": "skills/auto_构建_增量式语法纠错生成器_目前的受限_016d77.py",
+  "description": "构建‘增量式语法纠错生成器’。目前的受限解码往往效率低且僵化。融合编译器的LR/LALR分析表技术，在LLM生成Token的每一步，动态计算‘合法后继Token集合’，将其作为Logits Bias注入模型。实现0语法错误的生成速度提升（相比Prompt重试或JSON Mode）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:33.813551",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O4_753",
+  "design_spec": {
+    "name": "auto_构建_增量式语法纠错生成器_目前的受限_016d77",
+    "display_name": "构建‘增量式语法纠错生成器’。目前的受限解码往往效率低且僵化。融合编译器的LR/LALR分析表技术，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘增量式语法纠错生成器’。目前的受限解码往往效率低且僵化。融合编译器的LR/LALR分析表技术，在LLM生成Token的每一步，动态计算‘合法后继Token",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

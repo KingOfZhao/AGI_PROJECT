@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发一套_认知覆盖度_测试集自动生成算法_781746",
+  "file": "skills/auto_开发一套_认知覆盖度_测试集自动生成算法_781746.py",
+  "description": "开发一套'认知覆盖度'测试集自动生成算法。为了评估现有节点是否不仅“存在”而且“鲁棒”，需要针对每个节点自动生成对抗性测试用例（如针对'写代码'节点生成含有陷阱的需求）。这涉及到利用LLM生成边界条件输入，探测节点的崩溃临界点，以此作为节点质量评分的核心依据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "software_testing",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.735786",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q3_0_5832",
+  "design_spec": {
+    "name": "auto_开发一套_认知覆盖度_测试集自动生成算法_781746",
+    "display_name": "开发一套'认知覆盖度'测试集自动生成算法。为了评估现有节点是否不仅“存在”而且“鲁棒”，需要针对每个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发一套'认知覆盖度'测试集自动生成算法。为了评估现有节点是否不仅“存在”而且“鲁棒”，需要针对每个节点自动生成对抗性测试用例（如针对'写代码'节点生成含有陷阱",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

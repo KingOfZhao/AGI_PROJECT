@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合节点_td_101_q1_1_838_3d3530",
+  "file": "skills/auto_结合节点_td_101_q1_1_838_3d3530.py",
+  "description": "结合节点[td_101_Q1_1_8386]的语义解析能力与节点[td_100_Q1_0_3633]的体感数据采集能力，并融入[ho_101_O1_9057]的技能量化机制。该能力不再仅仅将文本编译为计算机代码，而是能将自然语言描述的'操作意图'（如'轻轻地打磨'）结合实时肌电反馈，编译为具体的'肢体力度参数序列'，实现从语义空间到物理动力空间的直接映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.253319",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_102_E1_5845",
+  "design_spec": {
+    "name": "auto_结合节点_td_101_q1_1_838_3d3530",
+    "display_name": "结合节点[td_101_Q1_1_8386]的语义解析能力与节点[td_100_Q1_0_3633]",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合节点[td_101_Q1_1_8386]的语义解析能力与节点[td_100_Q1_0_3633]的体感数据采集能力，并融入[ho_101_O1_9057]的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

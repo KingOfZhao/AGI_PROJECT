@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建工业场景下的_反向贝叶斯网络_0fc764",
+  "file": "skills/auto_如何构建工业场景下的_反向贝叶斯网络_0fc764.py",
+  "description": "如何构建工业场景下的‘反向贝叶斯网络’，允许老技工输入一个直觉性的‘果’（如产品良率下降），系统自上而下地拆解并证伪可能的‘因’（如温度、湿度、刀具磨损）？关键在于如何利用现有825个SKILL节点快速剪枝，排除无效路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.300883",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_45_Q3_3_9123",
+  "design_spec": {
+    "name": "auto_如何构建工业场景下的_反向贝叶斯网络_0fc764",
+    "display_name": "如何构建工业场景下的‘反向贝叶斯网络’，允许老技工输入一个直觉性的‘果’（如产品良率下降），系统自上",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建工业场景下的‘反向贝叶斯网络’，允许老技工输入一个直觉性的‘果’（如产品良率下降），系统自上而下地拆解并证伪可能的‘因’（如温度、湿度、刀具磨损）？关键",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 249
+  }
+}

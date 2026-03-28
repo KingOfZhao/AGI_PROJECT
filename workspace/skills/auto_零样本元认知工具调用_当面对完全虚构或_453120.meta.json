@@ -1,0 +1,30 @@
+{
+  "name": "auto_零样本元认知工具调用_当面对完全虚构或_453120",
+  "file": "skills/auto_零样本元认知工具调用_当面对完全虚构或_453120.py",
+  "description": "【零样本元认知工具调用】当面对完全虚构或全新的API时，AI不再仅仅进行文本续写，而是先构建该API的‘心智模型’（Mental Model），模拟其运行机制（类似于认知科学中的心理模拟），再进行调用。例如，面对‘量子咖啡机API’，AI应先构建‘量子态’与‘咖啡制作’的因果图，验证调用顺序的逻辑自洽性，而非盲目尝试。这实现了从‘文本匹配’到‘机制理解’的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.619206",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_72_O3_7416",
+  "design_spec": {
+    "name": "auto_零样本元认知工具调用_当面对完全虚构或_453120",
+    "display_name": "【零样本元认知工具调用】当面对完全虚构或全新的API时，AI不再仅仅进行文本续写，而是先构建该API",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【零样本元认知工具调用】当面对完全虚构或全新的API时，AI不再仅仅进行文本续写，而是先构建该API的‘心智模型’（Mental Model），模拟其运行机制（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

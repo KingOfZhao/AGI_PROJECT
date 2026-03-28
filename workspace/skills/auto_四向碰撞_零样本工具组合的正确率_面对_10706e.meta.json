@@ -1,0 +1,30 @@
+{
+  "name": "auto_四向碰撞_零样本工具组合的正确率_面对_10706e",
+  "file": "skills/auto_四向碰撞_零样本工具组合的正确率_面对_10706e.py",
+  "description": "【四向碰撞】零样本工具组合的正确率：面对一个全新的复合任务（现有SKILL库中没有直接对应的单一技能），AI能否准确拆解并按序调用3个现有的原子技能节点（如'OCR识别' + '数据清洗' + '情感分析'）来解决问题。这是验证AGI架构'涌现'能力的核心指标。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.739132",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_141_Q8_2_2153",
+  "design_spec": {
+    "name": "auto_四向碰撞_零样本工具组合的正确率_面对_10706e",
+    "display_name": "【四向碰撞】零样本工具组合的正确率：面对一个全新的复合任务（现有SKILL库中没有直接对应的单一技能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【四向碰撞】零样本工具组合的正确率：面对一个全新的复合任务（现有SKILL库中没有直接对应的单一技能），AI能否准确拆解并按序调用3个现有的原子技能节点（如'O",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

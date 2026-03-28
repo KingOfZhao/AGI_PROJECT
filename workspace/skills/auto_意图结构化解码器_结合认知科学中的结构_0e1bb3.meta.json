@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图结构化解码器_结合认知科学中的结构_0e1bb3",
+  "file": "skills/auto_意图结构化解码器_结合认知科学中的结构_0e1bb3.py",
+  "description": "【意图结构化解码器】结合认知科学中的结构映射理论，增强软件工程中的需求形式化能力。不仅仅将自然语言转化为DSL，而是先构建一个'意图结构图谱'，识别用户需求中的'客体、属性、关系'三元组，再将其映射到特定的DSL语法树。这能解决LLM直接生成代码时容易忽略的隐含约束（如'不要覆盖原文件'），通过结构化映射显式化这些逻辑连接，从而生成具备高鲁棒性的形式化规约。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.674579",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_121_O1_4985",
+  "design_spec": {
+    "name": "auto_意图结构化解码器_结合认知科学中的结构_0e1bb3",
+    "display_name": "【意图结构化解码器】结合认知科学中的结构映射理论，增强软件工程中的需求形式化能力。不仅仅将自然语言转",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图结构化解码器】结合认知科学中的结构映射理论，增强软件工程中的需求形式化能力。不仅仅将自然语言转化为DSL，而是先构建一个'意图结构图谱'，识别用户需求中的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

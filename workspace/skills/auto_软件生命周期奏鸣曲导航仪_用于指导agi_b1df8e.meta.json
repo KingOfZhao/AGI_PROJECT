@@ -1,0 +1,30 @@
+{
+  "name": "auto_软件生命周期奏鸣曲导航仪_用于指导agi_b1df8e",
+  "file": "skills/auto_软件生命周期奏鸣曲导航仪_用于指导agi_b1df8e.py",
+  "description": "软件生命周期奏鸣曲导航仪。用于指导AGI在长周期项目中的决策。AI不再仅仅执行任务，而是识别项目当前处于'呈式'（初创）、'展开'（试错）还是'再现'（重构）阶段。在'展开部'，AI主动引入异构概念（跨域碰撞）进行激进测试；在'再现部'，AI辅助人类剔除冗余，回归核心价值。这能避免在错误的阶段进行过早优化或过度发散。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.736912",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_27_O4_1503",
+  "design_spec": {
+    "name": "auto_软件生命周期奏鸣曲导航仪_用于指导agi_b1df8e",
+    "display_name": "软件生命周期奏鸣曲导航仪。用于指导AGI在长周期项目中的决策。AI不再仅仅执行任务，而是识别项目当前",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "软件生命周期奏鸣曲导航仪。用于指导AGI在长周期项目中的决策。AI不再仅仅执行任务，而是识别项目当前处于'呈式'（初创）、'展开'（试错）还是'再现'（重构）阶",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

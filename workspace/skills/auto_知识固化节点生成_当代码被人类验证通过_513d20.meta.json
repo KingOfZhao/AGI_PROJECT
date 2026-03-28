@@ -1,0 +1,30 @@
+{
+  "name": "auto_知识固化节点生成_当代码被人类验证通过_513d20",
+  "file": "skills/auto_知识固化节点生成_当代码被人类验证通过_513d20.py",
+  "description": "【知识固化节点生成】当代码被人类验证通过后，系统如何自动将其抽象为新的“真实节点”并存入知识库？这涉及代码去噪、泛化（将具体变量抽象为参数）和索引构建，是实现“持续碰撞”和系统进化的核心机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "Machine Learning/Knowledge Management",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:35.353432",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q10_3_4775",
+  "design_spec": {
+    "name": "auto_知识固化节点生成_当代码被人类验证通过_513d20",
+    "display_name": "【知识固化节点生成】当代码被人类验证通过后，系统如何自动将其抽象为新的“真实节点”并存入知识库？这涉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【知识固化节点生成】当代码被人类验证通过后，系统如何自动将其抽象为新的“真实节点”并存入知识库？这涉及代码去噪、泛化（将具体变量抽象为参数）和索引构建，是实现“",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

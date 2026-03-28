@@ -1,0 +1,30 @@
+{
+  "name": "auto_力觉信号的语言化映射_如何利用触觉传感_ff2a70",
+  "file": "skills/auto_力觉信号的语言化映射_如何利用触觉传感_ff2a70.py",
+  "description": "【力觉信号的语言化映射】如何利用触觉传感器（力觉/震动）数据，将工匠指尖的‘模糊感觉’（如‘手感顺滑’、‘阻力适中’）量化并映射为自然语言描述？这需要建立一个高维触觉特征空间到语义空间的映射函数，填补‘感觉’与‘描述’之间的鸿沟。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "haptic_technology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.698694",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_95_Q2_0_9248",
+  "design_spec": {
+    "name": "auto_力觉信号的语言化映射_如何利用触觉传感_ff2a70",
+    "display_name": "【力觉信号的语言化映射】如何利用触觉传感器（力觉/震动）数据，将工匠指尖的‘模糊感觉’（如‘手感顺滑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【力觉信号的语言化映射】如何利用触觉传感器（力觉/震动）数据，将工匠指尖的‘模糊感觉’（如‘手感顺滑’、‘阻力适中’）量化并映射为自然语言描述？这需要建立一个高",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

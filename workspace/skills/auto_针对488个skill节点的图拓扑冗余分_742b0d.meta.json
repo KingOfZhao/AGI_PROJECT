@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对488个skill节点的图拓扑冗余分_742b0d",
+  "file": "skills/auto_针对488个skill节点的图拓扑冗余分_742b0d.py",
+  "description": "针对488个SKILL节点的图拓扑冗余分析：如何基于节点间的引用关系（DAG）构建依赖图，并计算每个节点的'结构洞'指数与PageRank值？若某节点位于关键路径但其内容可被周围节点线性组合替代（信息熵增量<0.5%），则标记为待淘汰。这是为了防止网络结构僵化和无效知识的堆积。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.403089",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q1_0_8080",
+  "design_spec": {
+    "name": "auto_针对488个skill节点的图拓扑冗余分_742b0d",
+    "display_name": "针对488个SKILL节点的图拓扑冗余分析：如何基于节点间的引用关系（DAG）构建依赖图，并计算每个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对488个SKILL节点的图拓扑冗余分析：如何基于节点间的引用关系（DAG）构建依赖图，并计算每个节点的'结构洞'指数与PageRank值？若某节点位于关键路",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 238
+  }
+}

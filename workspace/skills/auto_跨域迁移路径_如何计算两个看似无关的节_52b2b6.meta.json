@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移路径_如何计算两个看似无关的节_52b2b6",
+  "file": "skills/auto_跨域迁移路径_如何计算两个看似无关的节_52b2b6.py",
+  "description": "【跨域迁移路径】如何计算两个看似无关的节点（如'量子力学'与'供应链管理'）之间的'语义测地线'？目标是找到一条最短的逻辑路径，使得系统可以从量子力学的概念出发，经过若干中间节点的转换，推导出优化供应链管理的创新方案。这需要一种基于向量空间与逻辑图谱混合的寻路算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "computational_creativity",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.571984",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_60_Q6_1_1103",
+  "design_spec": {
+    "name": "auto_跨域迁移路径_如何计算两个看似无关的节_52b2b6",
+    "display_name": "【跨域迁移路径】如何计算两个看似无关的节点（如'量子力学'与'供应链管理'）之间的'语义测地线'？目",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移路径】如何计算两个看似无关的节点（如'量子力学'与'供应链管理'）之间的'语义测地线'？目标是找到一条最短的逻辑路径，使得系统可以从量子力学的概念出发",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

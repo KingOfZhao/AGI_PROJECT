@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对1291个技能节点_如何实现跨域的_380bb6",
+  "file": "skills/auto_针对1291个技能节点_如何实现跨域的_380bb6.py",
+  "description": "针对1291个技能节点，如何实现跨域的'结构迁移'（Structural Mapping）？即不依赖表面的词汇重叠，而是识别两个完全不同领域（如'小摊贩库存管理'与'CPU缓存置换'）在拓扑结构上的同构性，从而利用成熟领域的技能加速新领域节点的构建。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "graph_theory_cognitive_metaphor",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.584339",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_72_Q3_0_7576",
+  "design_spec": {
+    "name": "auto_针对1291个技能节点_如何实现跨域的_380bb6",
+    "display_name": "针对1291个技能节点，如何实现跨域的'结构迁移'（Structural Mapping）？即不依赖",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对1291个技能节点，如何实现跨域的'结构迁移'（Structural Mapping）？即不依赖表面的词汇重叠，而是识别两个完全不同领域（如'小摊贩库存管理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

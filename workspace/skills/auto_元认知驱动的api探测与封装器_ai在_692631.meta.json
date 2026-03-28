@@ -1,0 +1,30 @@
+{
+  "name": "auto_元认知驱动的api探测与封装器_ai在_692631",
+  "file": "skills/auto_元认知驱动的api探测与封装器_ai在_692631.py",
+  "description": "【元认知驱动的API探测与封装器】AI在面对未知的API库（如‘量子咖啡机’）时，不再是盲目生成代码，而是采取‘科学证伪’策略。它首先将API文档拆解为‘最小可验证假设’，生成一系列极简的‘探测代码’来验证核心功能。通过运行这些探测代码，AI快速构建起该API的‘真实节点’模型（包括边界条件和副作用），然后再基于这个经过实践验证的模型编写复杂的业务逻辑。这赋予了AGI面对陌生工具时的‘自主学习与校准’能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.561315",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_83_O4_8264",
+  "design_spec": {
+    "name": "auto_元认知驱动的api探测与封装器_ai在_692631",
+    "display_name": "【元认知驱动的API探测与封装器】AI在面对未知的API库（如‘量子咖啡机’）时，不再是盲目生成代码",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【元认知驱动的API探测与封装器】AI在面对未知的API库（如‘量子咖啡机’）时，不再是盲目生成代码，而是采取‘科学证伪’策略。它首先将API文档拆解为‘最小可",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 236
+  }
+}

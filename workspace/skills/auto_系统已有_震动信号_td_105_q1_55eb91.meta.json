@@ -1,0 +1,30 @@
+{
+  "name": "auto_系统已有_震动信号_td_105_q1_55eb91",
+  "file": "skills/auto_系统已有_震动信号_td_105_q1_55eb91.py",
+  "description": "系统已有'震动信号'（td_105_Q1_3_4162）和'文本日志'（td_106_Q4_0_3672）的独立处理节点，但缺乏一个'跨模态语义对齐矩阵'，无法将视觉火花、听觉震动和文本日志映射到同一个'故障原因'向量空间中。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.518856",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_107_G1_8334",
+  "design_spec": {
+    "name": "auto_系统已有_震动信号_td_105_q1_55eb91",
+    "display_name": "系统已有'震动信号'（td_105_Q1_3_4162）和'文本日志'（td_106_Q4_0_36",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "系统已有'震动信号'（td_105_Q1_3_4162）和'文本日志'（td_106_Q4_0_3672）的独立处理节点，但缺乏一个'跨模态语义对齐矩阵'，无法",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

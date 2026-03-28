@@ -1,0 +1,30 @@
+{
+  "name": "auto_自洽性闭环_针对_小摊贩认知_这类具体_e12be2",
+  "file": "skills/auto_自洽性闭环_针对_小摊贩认知_这类具体_e12be2.py",
+  "description": "【自洽性闭环】针对'小摊贩认知'这类具体场景，如何构建自动化的小世界网络模拟器？该模拟器需能模拟现实世界的物理与经济规则，让AI在其中执行'摆摊'技能。通过观察AI是否能在这个封闭沙盒中实现'盈利生存'，来验证该领域知识节点的自洽性，从而无需每次都消耗真实的人类实践资源。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "digital_twin",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.578172",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_60_Q7_1_1103",
+  "design_spec": {
+    "name": "auto_自洽性闭环_针对_小摊贩认知_这类具体_e12be2",
+    "display_name": "【自洽性闭环】针对'小摊贩认知'这类具体场景，如何构建自动化的小世界网络模拟器？该模拟器需能模拟现实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自洽性闭环】针对'小摊贩认知'这类具体场景，如何构建自动化的小世界网络模拟器？该模拟器需能模拟现实世界的物理与经济规则，让AI在其中执行'摆摊'技能。通过观察",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

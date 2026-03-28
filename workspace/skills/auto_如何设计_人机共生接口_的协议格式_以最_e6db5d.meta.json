@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_人机共生接口_的协议格式_以最_e6db5d",
+  "file": "skills/auto_如何设计_人机共生接口_的协议格式_以最_e6db5d.py",
+  "description": "如何设计'人机共生接口'的协议格式，以最小带宽实现人类直觉向机器节点的转化？当人类对AI生成的模糊节点进行'命名'或'修正'时，这种非结构化的反馈如何瞬间固化为结构化的'真实节点'？重点在于开发一种既能被LLM理解，又能被形式化逻辑系统（如Prolog）解析的中间表示语言（IR）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.545487",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q5_2_9508",
+  "design_spec": {
+    "name": "auto_如何设计_人机共生接口_的协议格式_以最_e6db5d",
+    "display_name": "如何设计'人机共生接口'的协议格式，以最小带宽实现人类直觉向机器节点的转化？当人类对AI生成的模糊节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'人机共生接口'的协议格式，以最小带宽实现人类直觉向机器节点的转化？当人类对AI生成的模糊节点进行'命名'或'修正'时，这种非结构化的反馈如何瞬间固化为",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 409
+  }
+}

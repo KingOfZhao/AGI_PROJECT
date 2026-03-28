@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移的重叠区构建能力_给定两_6ba126",
+  "file": "skills/auto_跨域迁移的重叠区构建能力_给定两_6ba126.py",
+  "description": "**跨域迁移的重叠区构建能力**。给定两个完全无关的已有节点（例如'量子纠缠'与'古代婚姻制度'），要求AI利用四向碰撞中的'左右跨域重叠'机制，构建一个逻辑自洽的中间节点（如'远距离社会束缚'），并输出该新节点解决实际问题的具体场景。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.771515",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q2_2_5247",
+  "design_spec": {
+    "name": "auto_跨域迁移的重叠区构建能力_给定两_6ba126",
+    "display_name": "**跨域迁移的重叠区构建能力**。给定两个完全无关的已有节点（例如'量子纠缠'与'古代婚姻制度'），",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "**跨域迁移的重叠区构建能力**。给定两个完全无关的已有节点（例如'量子纠缠'与'古代婚姻制度'），要求AI利用四向碰撞中的'左右跨域重叠'机制，构建一个逻辑自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 351
+  }
+}

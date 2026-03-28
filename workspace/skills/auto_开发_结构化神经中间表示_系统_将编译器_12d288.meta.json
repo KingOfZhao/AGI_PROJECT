@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_结构化神经中间表示_系统_将编译器_12d288",
+  "file": "skills/auto_开发_结构化神经中间表示_系统_将编译器_12d288.py",
+  "description": "开发‘结构化神经中间表示’系统。将编译器IR的控制流图（CFG）和数据流分析能力嵌入到高维语义向量中。这种融合能力允许AI不仅理解文本的‘语义相似性’，还能理解文本的‘结构逻辑性’（如因果链、循环依赖）。可用于检测复杂逻辑文本（如法律合同、医疗指南）中的逻辑漏洞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.967207",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O2_8858",
+  "design_spec": {
+    "name": "auto_开发_结构化神经中间表示_系统_将编译器_12d288",
+    "display_name": "开发‘结构化神经中间表示’系统。将编译器IR的控制流图（CFG）和数据流分析能力嵌入到高维语义向量中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘结构化神经中间表示’系统。将编译器IR的控制流图（CFG）和数据流分析能力嵌入到高维语义向量中。这种融合能力允许AI不仅理解文本的‘语义相似性’，还能理解",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 333
+  }
+}

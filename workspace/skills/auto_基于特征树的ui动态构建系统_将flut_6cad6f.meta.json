@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于特征树的ui动态构建系统_将flut_6cad6f",
+  "file": "skills/auto_基于特征树的ui动态构建系统_将flut_6cad6f.py",
+  "description": "基于特征树的UI动态构建系统。将Flutter界面组件视为'参数化特征'，开发一套'UI特征历史树'中间件。当用户修改某个参数（如主题色或间距约束）时，系统能像CAD调整尺寸那样，自动传播变更并仅重建受影响的Widget子树，而非刷新整树。这能极大提升复杂动态表单和可视化大屏的维护性与性能，实现'设计意图'在UI代码中的固化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_12",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:33:04.206625",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_12_O1_5124",
+  "design_spec": {
+    "name": "auto_基于特征树的ui动态构建系统_将flut_6cad6f",
+    "display_name": "基于特征树的UI动态构建系统。将Flutter界面组件视为'参数化特征'，开发一套'UI特征历史树'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于特征树的UI动态构建系统。将Flutter界面组件视为'参数化特征'，开发一套'UI特征历史树'中间件。当用户修改某个参数（如主题色或间距约束）时，系统能像",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 249
+  }
+}

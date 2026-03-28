@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态语境锚定_在多轮对话编程中_如何建_bcaa47",
+  "file": "skills/auto_动态语境锚定_在多轮对话编程中_如何建_bcaa47.py",
+  "description": "【动态语境锚定】在多轮对话编程中，如何建立‘变量引用解析图’，将模糊的代词（‘它’、‘那个文件’）锚定到长程记忆中的具体‘真实节点’或数据对象？这不仅仅是向量检索，而是需要构建一个动态的‘注意力焦点栈’，追踪对话中产生的临时对象，并将其与长期记忆中的实体进行匹配和绑定，解决‘它’到底是指‘上一个文件’还是‘上一步操作的结果’的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.740333",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q2_3_5832",
+  "design_spec": {
+    "name": "auto_动态语境锚定_在多轮对话编程中_如何建_bcaa47",
+    "display_name": "【动态语境锚定】在多轮对话编程中，如何建立‘变量引用解析图’，将模糊的代词（‘它’、‘那个文件’）锚",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态语境锚定】在多轮对话编程中，如何建立‘变量引用解析图’，将模糊的代词（‘它’、‘那个文件’）锚定到长程记忆中的具体‘真实节点’或数据对象？这不仅仅是向量检",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 242
+  }
+}

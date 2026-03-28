@@ -5,6 +5,15 @@ NLP Proven Nodes 批量注入脚本
 从 自然语言沟通的真实节点.md 读取 → 去重 → 分类 → 注入认知晶格DB
 """
 
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
+
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 

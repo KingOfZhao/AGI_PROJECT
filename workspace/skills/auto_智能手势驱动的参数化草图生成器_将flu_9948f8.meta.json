@@ -1,0 +1,30 @@
+{
+  "name": "auto_智能手势驱动的参数化草图生成器_将flu_9948f8",
+  "file": "skills/auto_智能手势驱动的参数化草图生成器_将flu_9948f8.py",
+  "description": "智能手势驱动的参数化草图生成器。将Flutter的手势识别（Velocity, Scale, Drag）直接转化为CAD的几何约束意图。例如，用户在屏幕上画一条歪斜的线，系统识别手势的'趋向'自动将其'吸附'为水平或垂直的CAD实体；画圆时根据手势封闭性自动整圆。利用AI插值预测用户意图，将随机的'像素涂抹'实时转化为精确的'工程特征'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_56",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:30:48.769700",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_56_O4_8303",
+  "design_spec": {
+    "name": "auto_智能手势驱动的参数化草图生成器_将flu_9948f8",
+    "display_name": "智能手势驱动的参数化草图生成器。将Flutter的手势识别（Velocity, Scale, Dra",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "智能手势驱动的参数化草图生成器。将Flutter的手势识别（Velocity, Scale, Drag）直接转化为CAD的几何约束意图。例如，用户在屏幕上画一条",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

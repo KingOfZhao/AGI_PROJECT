@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建具备_完整历史回溯与分支管理_的超级_0228dd",
+  "file": "skills/auto_构建具备_完整历史回溯与分支管理_的超级_0228dd.py",
+  "description": "构建具备'完整历史回溯与分支管理'的超级应用状态容器。借鉴CAD的'参数化历史树'，为Flutter应用状态增加'时间轴'和'特征布尔运算'能力。用户不仅能Undo/Redo，还能像CAD编辑特征参数一样，回到应用状态的'第5步'修改参数，然后自动重新计算后续所有分支状态。这对复杂表单工作流或设计类App极具价值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.181535",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_120_O2_3854",
+  "design_spec": {
+    "name": "auto_构建具备_完整历史回溯与分支管理_的超级_0228dd",
+    "display_name": "构建具备'完整历史回溯与分支管理'的超级应用状态容器。借鉴CAD的'参数化历史树'，为Flutter",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建具备'完整历史回溯与分支管理'的超级应用状态容器。借鉴CAD的'参数化历史树'，为Flutter应用状态增加'时间轴'和'特征布尔运算'能力。用户不仅能Un",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 307
+  }
+}

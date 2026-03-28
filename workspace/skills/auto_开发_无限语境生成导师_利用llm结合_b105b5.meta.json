@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_无限语境生成导师_利用llm结合_b105b5",
+  "file": "skills/auto_开发_无限语境生成导师_利用llm结合_b105b5.py",
+  "description": "开发'无限语境生成导师'。利用LLM结合PCG逻辑，针对一个核心概念（如'复利效应'），根据用户的职业背景（程序员、厨师、画家），实时生成无限个定制化的、难度递进的交互式案例场景。它不是简单的举例，而是构建一个可交互的微世界，让用户在生成的模拟环境中试错，从而获得'真实节点'的体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.748763",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O2_6409",
+  "design_spec": {
+    "name": "auto_开发_无限语境生成导师_利用llm结合_b105b5",
+    "display_name": "开发'无限语境生成导师'。利用LLM结合PCG逻辑，针对一个核心概念（如'复利效应'），根据用户的职",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'无限语境生成导师'。利用LLM结合PCG逻辑，针对一个核心概念（如'复利效应'），根据用户的职业背景（程序员、厨师、画家），实时生成无限个定制化的、难度递",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 789
+  }
+}

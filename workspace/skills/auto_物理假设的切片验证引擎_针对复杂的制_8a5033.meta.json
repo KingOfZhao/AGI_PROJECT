@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理假设的切片验证引擎_针对复杂的制_8a5033",
+  "file": "skills/auto_物理假设的切片验证引擎_针对复杂的制_8a5033.py",
+  "description": "【物理假设的切片验证引擎】：针对复杂的制造任务，AI自动将大任务拆解为一系列极简的‘物理切片’任务。例如，在打印大尺寸构件前，自动生成一系列1cm³的微结构测试块，每个对应不同的内部填充逻辑。系统指挥机器快速打印这些‘最小单元’，通过视觉识别瞬间判定哪个逻辑是‘真实节点’，再将其映射回整体任务，实现物理世界的快速迭代。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.030858",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_123_O3_7667",
+  "design_spec": {
+    "name": "auto_物理假设的切片验证引擎_针对复杂的制_8a5033",
+    "display_name": "【物理假设的切片验证引擎】：针对复杂的制造任务，AI自动将大任务拆解为一系列极简的‘物理切片’任务。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【物理假设的切片验证引擎】：针对复杂的制造任务，AI自动将大任务拆解为一系列极简的‘物理切片’任务。例如，在打印大尺寸构件前，自动生成一系列1cm³的微结构测试",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

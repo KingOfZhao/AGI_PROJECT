@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_语义城市导航器_利用建筑流线设计_45b34c",
+  "file": "skills/auto_开发_语义城市导航器_利用建筑流线设计_45b34c.py",
+  "description": "开发'语义城市导航器'。利用建筑流线设计理论（如动线最短原则、避灾分流）来优化大模型在高维Latent Space中的推理路径。这可以解决AI在长链条推理中的'迷路'问题（Hallucinations），让AI的推理过程像逛商场一样有明确的'路标'和'区域'，实现可控的、无死角的逻辑推演。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.563662",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_126_O2_6284",
+  "design_spec": {
+    "name": "auto_开发_语义城市导航器_利用建筑流线设计_45b34c",
+    "display_name": "开发'语义城市导航器'。利用建筑流线设计理论（如动线最短原则、避灾分流）来优化大模型在高维Laten",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'语义城市导航器'。利用建筑流线设计理论（如动线最短原则、避灾分流）来优化大模型在高维Latent Space中的推理路径。这可以解决AI在长链条推理中的'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

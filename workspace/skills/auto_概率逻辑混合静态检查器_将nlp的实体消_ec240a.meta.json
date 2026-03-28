@@ -1,0 +1,30 @@
+{
+  "name": "auto_概率逻辑混合静态检查器_将nlp的实体消_ec240a",
+  "file": "skills/auto_概率逻辑混合静态检查器_将nlp的实体消_ec240a.py",
+  "description": "概率逻辑混合静态检查器。将NLP的实体消歧和上下文推理能力引入代码静态分析，用于检测'语义级'的Bug而非仅语法级。例如，识别出变量名'list'在上下文中被当作'字典'使用，或者识别出代码逻辑与注释描述（自然语言）之间的矛盾。同时，将编译器的数据流分析引入NLP，用于追踪长文本中的指代消解，像管理内存寄存器一样管理对话中的实体状态。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_26",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:31:20.257388",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_26_O3_2031",
+  "design_spec": {
+    "name": "auto_概率逻辑混合静态检查器_将nlp的实体消_ec240a",
+    "display_name": "概率逻辑混合静态检查器。将NLP的实体消歧和上下文推理能力引入代码静态分析，用于检测'语义级'的Bu",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "概率逻辑混合静态检查器。将NLP的实体消歧和上下文推理能力引入代码静态分析，用于检测'语义级'的Bug而非仅语法级。例如，识别出变量名'list'在上下文中被当",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

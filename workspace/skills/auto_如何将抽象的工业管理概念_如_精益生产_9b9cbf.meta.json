@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将抽象的工业管理概念_如_精益生产_9b9cbf",
+  "file": "skills/auto_如何将抽象的工业管理概念_如_精益生产_9b9cbf.py",
+  "description": "如何将抽象的工业管理概念（如‘精益生产’、‘5S管理’）拆解为可执行的原子操作序列（Atomic Skill Sequence）？系统需要理解这些高层概念与底层设备控制指令之间的映射关系，并验证这些序列在实际执行中的效率提升。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "management_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.507579",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_5_Q6_3_6565",
+  "design_spec": {
+    "name": "auto_如何将抽象的工业管理概念_如_精益生产_9b9cbf",
+    "display_name": "如何将抽象的工业管理概念（如‘精益生产’、‘5S管理’）拆解为可执行的原子操作序列（Atomic S",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将抽象的工业管理概念（如‘精益生产’、‘5S管理’）拆解为可执行的原子操作序列（Atomic Skill Sequence）？系统需要理解这些高层概念与底层",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 282
+  }
+}

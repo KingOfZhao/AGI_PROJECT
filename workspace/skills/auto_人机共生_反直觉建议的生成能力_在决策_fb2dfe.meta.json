@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_反直觉建议的生成能力_在决策_fb2dfe",
+  "file": "skills/auto_人机共生_反直觉建议的生成能力_在决策_fb2dfe.py",
+  "description": "【人机共生】反直觉建议的生成能力：在决策场景中（如'提升用户留存率'），当人类提出常规A方案时，AI能否基于数据提出逻辑严密但反直觉的B方案（如'故意增加退出难度以筛选高价值用户'）。验证AI是否能跳出人类认知的狭隘性，提供真正的增量价值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "product_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.737208",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_141_Q4_2_2153",
+  "design_spec": {
+    "name": "auto_人机共生_反直觉建议的生成能力_在决策_fb2dfe",
+    "display_name": "【人机共生】反直觉建议的生成能力：在决策场景中（如'提升用户留存率'），当人类提出常规A方案时，AI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】反直觉建议的生成能力：在决策场景中（如'提升用户留存率'），当人类提出常规A方案时，AI能否基于数据提出逻辑严密但反直觉的B方案（如'故意增加退出难",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

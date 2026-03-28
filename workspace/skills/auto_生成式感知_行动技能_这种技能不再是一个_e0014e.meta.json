@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式感知_行动技能_这种技能不再是一个_e0014e",
+  "file": "skills/auto_生成式感知_行动技能_这种技能不再是一个_e0014e.py",
+  "description": "生成式感知-行动技能。这种技能不再是一个静态的JSON指令，而是一个'感知-行动契约'。例如'抓取'技能，不再是'移动到坐标A，闭合夹爪'，而是'维持与物体的接触力在X与Y之间'。机器人通过'感知'实时'生成'动作。如果物体突然移动，'抓取'技能会自动演化为'追踪'，无需重新规划。这是一种'流动性智能'，技能节点变成了活的'感知-行动循环'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.326917",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_135_O5_2943",
+  "design_spec": {
+    "name": "auto_生成式感知_行动技能_这种技能不再是一个_e0014e",
+    "display_name": "生成式感知-行动技能。这种技能不再是一个静态的JSON指令，而是一个'感知-行动契约'。例如'抓取'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "生成式感知-行动技能。这种技能不再是一个静态的JSON指令，而是一个'感知-行动契约'。例如'抓取'技能，不再是'移动到坐标A，闭合夹爪'，而是'维持与物体的接",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 311
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于代码覆盖率与执行时序的skill节点_5b63eb",
+  "file": "skills/auto_基于代码覆盖率与执行时序的skill节点_5b63eb.py",
+  "description": "基于代码覆盖率与执行时序的Skill节点鲁棒性评估：针对1029个Skill节点，如何设计一套自动化测试框架，通过输入边界值和异常参数，监控其执行成功率、资源消耗（内存/CPU）及输出稳定性，从而生成'鲁棒性评分'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.522137",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_60_Q3_2_4971",
+  "design_spec": {
+    "name": "auto_基于代码覆盖率与执行时序的skill节点_5b63eb",
+    "display_name": "基于代码覆盖率与执行时序的Skill节点鲁棒性评估：针对1029个Skill节点，如何设计一套自动化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于代码覆盖率与执行时序的Skill节点鲁棒性评估：针对1029个Skill节点，如何设计一套自动化测试框架，通过输入边界值和异常参数，监控其执行成功率、资源消",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

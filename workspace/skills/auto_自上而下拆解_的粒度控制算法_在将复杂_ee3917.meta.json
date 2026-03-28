@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解_的粒度控制算法_在将复杂_ee3917",
+  "file": "skills/auto_自上而下拆解_的粒度控制算法_在将复杂_ee3917.py",
+  "description": "【自上而下拆解】的粒度控制算法：在将复杂问题（如‘如何造车’）拆解为子问题时，如何动态确定拆解的终止条件？如果拆解出的子问题在现有1070个SKILL中无对应可执行项，且无法在3步内由现有SKILL组合而成，系统应停止拆解并请求人类介入。这涉及计算‘认知熵’的阈值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.116128",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q2_0_4921",
+  "design_spec": {
+    "name": "auto_自上而下拆解_的粒度控制算法_在将复杂_ee3917",
+    "display_name": "【自上而下拆解】的粒度控制算法：在将复杂问题（如‘如何造车’）拆解为子问题时，如何动态确定拆解的终止",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下拆解】的粒度控制算法：在将复杂问题（如‘如何造车’）拆解为子问题时，如何动态确定拆解的终止条件？如果拆解出的子问题在现有1070个SKILL中无对应可",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 252
+  }
+}

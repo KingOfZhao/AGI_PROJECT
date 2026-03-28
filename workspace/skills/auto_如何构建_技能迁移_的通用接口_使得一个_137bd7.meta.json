@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_技能迁移_的通用接口_使得一个_137bd7",
+  "file": "skills/auto_如何构建_技能迁移_的通用接口_使得一个_137bd7.py",
+  "description": "如何构建'技能迁移'的通用接口，使得一个在'代码编写'领域验证通过的Skill（如'递归思维'），能够被无缝映射到'企业管理'领域（如'组织架构拆解'）？这涉及到对Skill元数据的抽象化封装，使其脱离具体的物理载体，成为纯粹的'认知模式'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.056594",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_65_Q10_1_9074",
+  "design_spec": {
+    "name": "auto_如何构建_技能迁移_的通用接口_使得一个_137bd7",
+    "display_name": "如何构建'技能迁移'的通用接口，使得一个在'代码编写'领域验证通过的Skill（如'递归思维'），能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'技能迁移'的通用接口，使得一个在'代码编写'领域验证通过的Skill（如'递归思维'），能够被无缝映射到'企业管理'领域（如'组织架构拆解'）？这涉及",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个将人类非结构化_难以言传的_隐性_5ce365",
+  "file": "skills/auto_这是一个将人类非结构化_难以言传的_隐性_5ce365.py",
+  "description": "这是一个将人类非结构化、难以言传的‘隐性知识’（如手感、直觉、肌肉记忆）转化为机器可计算、可复制的‘显性向量’的过程。该概念不依赖单一维度的数据，而是构建一个融合肌电信号（EMG）、力学传感、视觉流和自然语言模糊指涉的‘联合嵌入空间’。通过高维向量对齐，将老师傅的‘感觉不对’转化为具体的特征向量偏差，从而实现隐性知识的数字化沉淀与复用，打破人类寿命对技能传承的限制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.875249",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_46_P1_1750",
+  "design_spec": {
+    "name": "auto_这是一个将人类非结构化_难以言传的_隐性_5ce365",
+    "display_name": "这是一个将人类非结构化、难以言传的‘隐性知识’（如手感、直觉、肌肉记忆）转化为机器可计算、可复制的‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个将人类非结构化、难以言传的‘隐性知识’（如手感、直觉、肌肉记忆）转化为机器可计算、可复制的‘显性向量’的过程。该概念不依赖单一维度的数据，而是构建一个融",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

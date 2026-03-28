@@ -5,6 +5,15 @@ Dart & Flutter 全领域知识注入脚本
 将 _dart_nodes_data.py 中定义的节点和关系注入认知格数据库
 """
 
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
+
 import sys, json, sqlite3, time, struct, uuid
 import numpy as np
 from pathlib import Path

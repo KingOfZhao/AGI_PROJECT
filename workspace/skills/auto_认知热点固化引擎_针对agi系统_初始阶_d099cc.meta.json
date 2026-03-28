@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知热点固化引擎_针对agi系统_初始阶_d099cc",
+  "file": "skills/auto_认知热点固化引擎_针对agi系统_初始阶_d099cc.py",
+  "description": "认知热点固化引擎。针对AGI系统，初始阶段通过通用大模型（慢速、高能耗）处理所有请求。当监测到某类模式（如‘写周报’、‘代码补全’）频繁出现时，自动触发‘JIT编译’——即利用微调技术蒸馏出一个专属的小模型或生成一段硬编码逻辑，替换掉通用的慢速路径。这实现了认知效率的自动化进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.778588",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_61_O5_9291",
+  "design_spec": {
+    "name": "auto_认知热点固化引擎_针对agi系统_初始阶_d099cc",
+    "display_name": "认知热点固化引擎。针对AGI系统，初始阶段通过通用大模型（慢速、高能耗）处理所有请求。当监测到某类模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知热点固化引擎。针对AGI系统，初始阶段通过通用大模型（慢速、高能耗）处理所有请求。当监测到某类模式（如‘写周报’、‘代码补全’）频繁出现时，自动触发‘JIT",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

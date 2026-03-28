@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_本体论对齐引擎_该能力不再单纯依_330a60",
+  "file": "skills/auto_构建_本体论对齐引擎_该能力不再单纯依_330a60.py",
+  "description": "构建‘本体论对齐引擎’。该能力不再单纯依赖参数微调，而是引入哲学中的‘本质/偶性’二分法。AI在仿真训练时，不仅学习技能，还被训练识别哪些物理参数是‘本质属性’（如重力对结构的影响），哪些是‘偶性’（如光照纹理）。在迁移到真机时，系统自动执行‘现象学还原’，主动抑制对环境噪音的过拟合，仅保留核心力学逻辑，从而实现从虚拟理型到物理现实的无损降维投射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.809677",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O1_7316",
+  "design_spec": {
+    "name": "auto_构建_本体论对齐引擎_该能力不再单纯依_330a60",
+    "display_name": "构建‘本体论对齐引擎’。该能力不再单纯依赖参数微调，而是引入哲学中的‘本质/偶性’二分法。AI在仿真",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘本体论对齐引擎’。该能力不再单纯依赖参数微调，而是引入哲学中的‘本质/偶性’二分法。AI在仿真训练时，不仅学习技能，还被训练识别哪些物理参数是‘本质属性’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

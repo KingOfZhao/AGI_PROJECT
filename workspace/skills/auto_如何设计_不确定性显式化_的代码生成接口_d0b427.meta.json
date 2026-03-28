@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_不确定性显式化_的代码生成接口_d0b427",
+  "file": "skills/auto_如何设计_不确定性显式化_的代码生成接口_d0b427.py",
+  "description": "如何设计'不确定性显式化'的代码生成接口？当模糊意图无法唯一确定代码结构时，系统不应直接猜测，而应生成'包含占位符或选项分支'的结构化代码。问题在于如何界定'不确定性阈值'并设计相应的语法糖。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:26:29.555769",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q8_1_7950",
+  "design_spec": {
+    "name": "auto_如何设计_不确定性显式化_的代码生成接口_d0b427",
+    "display_name": "如何设计'不确定性显式化'的代码生成接口？当模糊意图无法唯一确定代码结构时，系统不应直接猜测，而应生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'不确定性显式化'的代码生成接口？当模糊意图无法唯一确定代码结构时，系统不应直接猜测，而应生成'包含占位符或选项分支'的结构化代码。问题在于如何界定'不",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

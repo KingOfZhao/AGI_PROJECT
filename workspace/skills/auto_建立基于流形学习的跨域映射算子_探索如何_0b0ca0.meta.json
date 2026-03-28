@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立基于流形学习的跨域映射算子_探索如何_0b0ca0",
+  "file": "skills/auto_建立基于流形学习的跨域映射算子_探索如何_0b0ca0.py",
+  "description": "建立基于流形学习的跨域映射算子，探索如何将非结构化的语义向量强制对齐到结构化的执行空间，并定义投影过程中的'信息损失率'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.199566",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_42_G1_1524",
+  "design_spec": {
+    "name": "auto_建立基于流形学习的跨域映射算子_探索如何_0b0ca0",
+    "display_name": "建立基于流形学习的跨域映射算子，探索如何将非结构化的语义向量强制对齐到结构化的执行空间，并定义投影过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立基于流形学习的跨域映射算子，探索如何将非结构化的语义向量强制对齐到结构化的执行空间，并定义投影过程中的'信息损失率'。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

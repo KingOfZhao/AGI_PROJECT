@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从非结构化的人类实践日志中自动化提取_de5539",
+  "file": "skills/auto_如何从非结构化的人类实践日志中自动化提取_de5539.py",
+  "description": "如何从非结构化的人类实践日志中自动化提取新的'概念节点'？在人机共生环节，人类反馈往往是口语化、非结构化的文本。本问题要求构建一个信息抽取管道，能从这些日志中识别出'现有节点网络无法解释的异常现象'，并将其封装为待验证的新节点候选。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.464758",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_17_Q6_3_3293",
+  "design_spec": {
+    "name": "auto_如何从非结构化的人类实践日志中自动化提取_de5539",
+    "display_name": "如何从非结构化的人类实践日志中自动化提取新的'概念节点'？在人机共生环节，人类反馈往往是口语化、非结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从非结构化的人类实践日志中自动化提取新的'概念节点'？在人机共生环节，人类反馈往往是口语化、非结构化的文本。本问题要求构建一个信息抽取管道，能从这些日志中识",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

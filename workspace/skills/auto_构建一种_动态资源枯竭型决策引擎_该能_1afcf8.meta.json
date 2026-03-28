@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一种_动态资源枯竭型决策引擎_该能_1afcf8",
+  "file": "skills/auto_构建一种_动态资源枯竭型决策引擎_该能_1afcf8.py",
+  "description": "构建一种'动态资源枯竭型决策引擎'。该能力不仅计算当前ROI，还引入'生态机会成本'参数，模拟生物在资源斑块间的移动策略。当持续投入的边际收益低于'寻找下一个机会的期望值'时，系统强制触发熔断或转型机制。这能解决企业'沉没成本谬误'，实现类似生物本能的敏捷撤退与转向。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_4",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:25:39.240157",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_4_O1_9872",
+  "design_spec": {
+    "name": "auto_构建一种_动态资源枯竭型决策引擎_该能_1afcf8",
+    "display_name": "构建一种'动态资源枯竭型决策引擎'。该能力不仅计算当前ROI，还引入'生态机会成本'参数，模拟生物在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一种'动态资源枯竭型决策引擎'。该能力不仅计算当前ROI，还引入'生态机会成本'参数，模拟生物在资源斑块间的移动策略。当持续投入的边际收益低于'寻找下一个机",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 193
+  }
+}

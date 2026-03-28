@@ -1,0 +1,30 @@
+{
+  "name": "auto_直觉_逻辑双向编译器_一种辅助人类将隐_d9a4a4",
+  "file": "skills/auto_直觉_逻辑双向编译器_一种辅助人类将隐_d9a4a4.py",
+  "description": "【直觉-逻辑双向编译器】一种辅助人类将隐性技能转化为可执行逻辑的AGI工具。系统不仅将用户模糊的指令（如‘帮我搞一下那个报告’）解析为JSON，更能通过多轮对话（状态机循环），引导用户将模糊的实践想法（如‘我想摆个摊’）解析为严格的‘行动JSON’（包含选址、选品、定价等节点的结构化数据）。这解决了人类在实践中‘知其然不知其所以然’的表达障碍，加速了‘真实节点’的固化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.341113",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_47_O1_8748",
+  "design_spec": {
+    "name": "auto_直觉_逻辑双向编译器_一种辅助人类将隐_d9a4a4",
+    "display_name": "【直觉-逻辑双向编译器】一种辅助人类将隐性技能转化为可执行逻辑的AGI工具。系统不仅将用户模糊的指令",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【直觉-逻辑双向编译器】一种辅助人类将隐性技能转化为可执行逻辑的AGI工具。系统不仅将用户模糊的指令（如‘帮我搞一下那个报告’）解析为JSON，更能通过多轮对话",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 573
+  }
+}

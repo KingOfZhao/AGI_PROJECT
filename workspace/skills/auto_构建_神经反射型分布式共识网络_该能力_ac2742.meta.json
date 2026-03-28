@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_神经反射型分布式共识网络_该能力_ac2742",
+  "file": "skills/auto_构建_神经反射型分布式共识网络_该能力_ac2742.py",
+  "description": "构建‘神经反射型分布式共识网络’。该能力允许分布式系统在遭受大规模DDoS攻击或网络分区时，自动降级共识协议：从强一致性的Raft模式切换为基于局部感知的生物反射模式（只响应邻近节点），保证核心服务的存活性（类似脊髓维持心跳呼吸），而非因试图维持全脑意识（全局一致性）而导致脑死亡（系统崩溃）。这不仅是容灾，更是有意识的‘假死’与‘复苏’机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_39",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T06:51:21.200674",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_39_O1_4044",
+  "design_spec": {
+    "name": "auto_构建_神经反射型分布式共识网络_该能力_ac2742",
+    "display_name": "构建‘神经反射型分布式共识网络’。该能力允许分布式系统在遭受大规模DDoS攻击或网络分区时，自动降级",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘神经反射型分布式共识网络’。该能力允许分布式系统在遭受大规模DDoS攻击或网络分区时，自动降级共识协议：从强一致性的Raft模式切换为基于局部感知的生物反",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

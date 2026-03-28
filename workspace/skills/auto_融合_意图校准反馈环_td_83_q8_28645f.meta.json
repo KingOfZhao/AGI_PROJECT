@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_意图校准反馈环_td_83_q8_28645f",
+  "file": "skills/auto_融合_意图校准反馈环_td_83_q8_28645f.py",
+  "description": "融合‘意图校准反馈环’（td_83_Q8_3_1688）、‘物理验证反向归因’（gap_83_G_Cross_Physical_Verification_6207）与‘实时传感固化’（td_83_Q9_1_5544）。当代码执行结果（物理层面）与用户意图（认知层面）出现偏差时，系统不仅修正意图模型，还能反向检查物理环境变量。例如，用户觉得‘运行太慢’，系统不仅能识别出是‘代码效率低’（意图修正），还能发现是‘地面摩擦系数突变’导致机器人减速（物理归因），从而实现双重自适应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_84",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:20:23.836730",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_84_E2_4041",
+  "design_spec": {
+    "name": "auto_融合_意图校准反馈环_td_83_q8_28645f",
+    "display_name": "融合‘意图校准反馈环’（td_83_Q8_3_1688）、‘物理验证反向归因’（gap_83_G_C",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合‘意图校准反馈环’（td_83_Q8_3_1688）、‘物理验证反向归因’（gap_83_G_Cross_Physical_Verification_620",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 337
+  }
+}

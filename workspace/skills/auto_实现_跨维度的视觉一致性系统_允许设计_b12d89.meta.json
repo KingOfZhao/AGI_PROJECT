@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_跨维度的视觉一致性系统_允许设计_b12d89",
+  "file": "skills/auto_实现_跨维度的视觉一致性系统_允许设计_b12d89.py",
+  "description": "实现'跨维度的视觉一致性系统'。允许设计师在Flutter App中直接预览CAD模型的真实渲染效果，并利用Flutter的ColorFiltered或ShaderMask直接对3D模型进行'非破坏性后期处理'（如：直接用Flutter代码给3D模型加上'故障风'或'热力图'效果），无需重新烘焙贴图。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.853377",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_103_O5_2268",
+  "design_spec": {
+    "name": "auto_实现_跨维度的视觉一致性系统_允许设计_b12d89",
+    "display_name": "实现'跨维度的视觉一致性系统'。允许设计师在Flutter App中直接预览CAD模型的真实渲染效果",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'跨维度的视觉一致性系统'。允许设计师在Flutter App中直接预览CAD模型的真实渲染效果，并利用Flutter的ColorFiltered或Shad",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

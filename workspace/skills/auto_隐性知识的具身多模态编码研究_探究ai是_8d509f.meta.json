@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐性知识的具身多模态编码研究_探究ai是_8d509f",
+  "file": "skills/auto_隐性知识的具身多模态编码研究_探究ai是_8d509f.py",
+  "description": "隐性知识的具身多模态编码研究：探究AI是否能通过分析手工艺人的微表情、肌肉微电流信号及关节角度变化，结合视频流，构建出能够指导机械臂复现该动作的'真实节点'。重点在于越过显性语言描述，直接从物理信号中提取'手感'的特征向量。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.804551",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_122_Q1_2_7214",
+  "design_spec": {
+    "name": "auto_隐性知识的具身多模态编码研究_探究ai是_8d509f",
+    "display_name": "隐性知识的具身多模态编码研究：探究AI是否能通过分析手工艺人的微表情、肌肉微电流信号及关节角度变化，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "隐性知识的具身多模态编码研究：探究AI是否能通过分析手工艺人的微表情、肌肉微电流信号及关节角度变化，结合视频流，构建出能够指导机械臂复现该动作的'真实节点'。重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

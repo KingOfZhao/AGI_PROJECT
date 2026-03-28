@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_意图到api对齐_cfd直觉节_67b6e0",
+  "file": "skills/auto_结合_意图到api对齐_cfd直觉节_67b6e0.py",
+  "description": "结合‘意图到API对齐’、‘CFD直觉节点’和‘工艺-控制映射’，系统将具备从自然语言意图直接生成包含物理属性的数字孪生机模的能力。不仅能生成代码逻辑，还能同步生成几何模型、物理属性和控制器参数，实现‘描述即制造’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.527092",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_79_E1_226",
+  "design_spec": {
+    "name": "auto_结合_意图到api对齐_cfd直觉节_67b6e0",
+    "display_name": "结合‘意图到API对齐’、‘CFD直觉节点’和‘工艺-控制映射’，系统将具备从自然语言意图直接生成包",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合‘意图到API对齐’、‘CFD直觉节点’和‘工艺-控制映射’，系统将具备从自然语言意图直接生成包含物理属性的数字孪生机模的能力。不仅能生成代码逻辑，还能同步",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

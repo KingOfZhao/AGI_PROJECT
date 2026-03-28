@@ -1,0 +1,30 @@
+{
+  "name": "auto_未知工具的零样本学习_面对一个ai训练_c70f56",
+  "file": "skills/auto_未知工具的零样本学习_面对一个ai训练_c70f56.py",
+  "description": "【未知工具的零样本学习】面对一个AI训练数据中未曾见过的全新API文档（模拟未知领域），AI能否通过阅读文档迅速构建准确的‘心智模型’，并编写出第一次运行即成功的调用代码？这验证了AI的‘归纳构建’能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.086843",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_6_Q8_2_1883",
+  "design_spec": {
+    "name": "auto_未知工具的零样本学习_面对一个ai训练_c70f56",
+    "display_name": "【未知工具的零样本学习】面对一个AI训练数据中未曾见过的全新API文档（模拟未知领域），AI能否通过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【未知工具的零样本学习】面对一个AI训练数据中未曾见过的全新API文档（模拟未知领域），AI能否通过阅读文档迅速构建准确的‘心智模型’，并编写出第一次运行即成功",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

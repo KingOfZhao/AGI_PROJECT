@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上_公差链累积_在多级装配中_如_3736b2",
+  "file": "skills/auto_自下而上_公差链累积_在多级装配中_如_3736b2.py",
+  "description": "【自下而上-公差链累积】在多级装配中，如何构建‘公差链概率传播’节点？将零件的几何公差（3D尺寸）转化为装配体的功能公差。子问题：如何利用蒙特卡洛模拟结果训练一个快速推断网络，使AGI能在设计阶段实时评估‘可装配性’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "precision_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.454500",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q8_1_9813",
+  "design_spec": {
+    "name": "auto_自下而上_公差链累积_在多级装配中_如_3736b2",
+    "display_name": "【自下而上-公差链累积】在多级装配中，如何构建‘公差链概率传播’节点？将零件的几何公差（3D尺寸）转",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上-公差链累积】在多级装配中，如何构建‘公差链概率传播’节点？将零件的几何公差（3D尺寸）转化为装配体的功能公差。子问题：如何利用蒙特卡洛模拟结果训练一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

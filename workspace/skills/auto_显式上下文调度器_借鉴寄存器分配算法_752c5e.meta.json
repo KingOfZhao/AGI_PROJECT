@@ -1,0 +1,30 @@
+{
+  "name": "auto_显式上下文调度器_借鉴寄存器分配算法_752c5e",
+  "file": "skills/auto_显式上下文调度器_借鉴寄存器分配算法_752c5e.py",
+  "description": "‘显式上下文调度器’。借鉴寄存器分配算法（如图着色算法），主动管理LLM的显存/上下文空间。系统不再被动地溢出旧上下文，而是构建‘活跃度分析’模型，预测哪些历史对话块在未来的对话轮次中可能被需要，以此决定哪些内容应保留在窗口内，哪些应转存到向量数据库（类似Spill到内存），实现长文本处理的智能化资源调配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.483571",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_104_O3_7876",
+  "design_spec": {
+    "name": "auto_显式上下文调度器_借鉴寄存器分配算法_752c5e",
+    "display_name": "‘显式上下文调度器’。借鉴寄存器分配算法（如图着色算法），主动管理LLM的显存/上下文空间。系统不再",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘显式上下文调度器’。借鉴寄存器分配算法（如图着色算法），主动管理LLM的显存/上下文空间。系统不再被动地溢出旧上下文，而是构建‘活跃度分析’模型，预测哪些历史",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 520
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_探究_左右跨域重叠_能否将生物免疫系统_84d4f4",
+  "file": "skills/auto_探究_左右跨域重叠_能否将生物免疫系统_84d4f4.py",
+  "description": "探究'左右跨域重叠'：能否将生物免疫系统的'抗原-抗体'识别机制迁移到工业设备故障诊断中？构建一个'工业免疫网络'，将设备异常特征视为抗原，历史维修方案视为抗体。验证跨域迁移是否能比传统模式识别更早发现'亚健康'状态。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "bio_inspired_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.792783",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q3_1_9737",
+  "design_spec": {
+    "name": "auto_探究_左右跨域重叠_能否将生物免疫系统_84d4f4",
+    "display_name": "探究'左右跨域重叠'：能否将生物免疫系统的'抗原-抗体'识别机制迁移到工业设备故障诊断中？构建一个'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探究'左右跨域重叠'：能否将生物免疫系统的'抗原-抗体'识别机制迁移到工业设备故障诊断中？构建一个'工业免疫网络'，将设备异常特征视为抗原，历史维修方案视为抗体",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

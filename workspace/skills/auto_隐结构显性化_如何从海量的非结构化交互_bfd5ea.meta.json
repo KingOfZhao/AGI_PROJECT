@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐结构显性化_如何从海量的非结构化交互_bfd5ea",
+  "file": "skills/auto_隐结构显性化_如何从海量的非结构化交互_bfd5ea.py",
+  "description": "【隐结构显性化】如何从海量的非结构化交互日志（人机共生过程中产生的数据）中，提取出尚未被概念化的‘隐性真实节点’？这对应‘自下而上归纳构建’。AI需要识别出高频出现但现有网络中无对应节点的‘操作模式’或‘现象簇’，并自动为其打上临时标签，等待人类确认。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "data_mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.716899",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q4_0_5246",
+  "design_spec": {
+    "name": "auto_隐结构显性化_如何从海量的非结构化交互_bfd5ea",
+    "display_name": "【隐结构显性化】如何从海量的非结构化交互日志（人机共生过程中产生的数据）中，提取出尚未被概念化的‘隐",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【隐结构显性化】如何从海量的非结构化交互日志（人机共生过程中产生的数据）中，提取出尚未被概念化的‘隐性真实节点’？这对应‘自下而上归纳构建’。AI需要识别出高频",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 455
+  }
+}

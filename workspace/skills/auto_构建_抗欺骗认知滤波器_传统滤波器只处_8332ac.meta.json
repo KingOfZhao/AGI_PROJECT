@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_抗欺骗认知滤波器_传统滤波器只处_8332ac",
+  "file": "skills/auto_构建_抗欺骗认知滤波器_传统滤波器只处_8332ac.py",
+  "description": "构建'抗欺骗认知滤波器'。传统滤波器只处理物理噪声，融合能力引入'逻辑连贯性检查'。当某个传感器被黑客攻击或出现异常读数时，系统不仅比较数值差异，还检查该读数与机器人其他感知（如视觉、听觉、物理常识）构成的'信念网'是否冲突。如果该读数导致系统认知失调，即使信噪比很高也被视为异常值滤除，从而赋予AGI类似人类的'常识性怀疑'能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.378003",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O4_3772",
+  "design_spec": {
+    "name": "auto_构建_抗欺骗认知滤波器_传统滤波器只处_8332ac",
+    "display_name": "构建'抗欺骗认知滤波器'。传统滤波器只处理物理噪声，融合能力引入'逻辑连贯性检查'。当某个传感器被黑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'抗欺骗认知滤波器'。传统滤波器只处理物理噪声，融合能力引入'逻辑连贯性检查'。当某个传感器被黑客攻击或出现异常读数时，系统不仅比较数值差异，还检查该读数与",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 217
+  }
+}

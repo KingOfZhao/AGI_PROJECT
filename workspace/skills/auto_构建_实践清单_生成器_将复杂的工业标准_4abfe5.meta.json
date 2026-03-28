@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实践清单_生成器_将复杂的工业标准_4abfe5",
+  "file": "skills/auto_构建_实践清单_生成器_将复杂的工业标准_4abfe5.py",
+  "description": "构建'实践清单'生成器。将复杂的工业标准（如ISO 9001）拆解为针对特定车间、特定工位的每日行动清单（Checklist）。验证AGI能否根据环境变化（如换季、设备老化）动态调整清单内容，实现'持续碰撞'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "knowledge_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.796498",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q8_1_9737",
+  "design_spec": {
+    "name": "auto_构建_实践清单_生成器_将复杂的工业标准_4abfe5",
+    "display_name": "构建'实践清单'生成器。将复杂的工业标准（如ISO 9001）拆解为针对特定车间、特定工位的每日行动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'实践清单'生成器。将复杂的工业标准（如ISO 9001）拆解为针对特定车间、特定工位的每日行动清单（Checklist）。验证AGI能否根据环境变化（如换",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 319
+  }
+}

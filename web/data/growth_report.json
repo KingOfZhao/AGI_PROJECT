@@ -1,0 +1,127 @@
+{
+  "version": "v6.0",
+  "framework": "DiePre AI Enhanced",
+  "generated": "2026-03-24 07:08:34",
+  "total_rounds": 3,
+  "total_nodes": 63,
+  "total_skills": 47,
+  "total_tokens": 460207,
+  "total_calls": 463,
+  "avg_tokens_per_round": 153402,
+  "tokens_per_hour": 57475,
+  "diepre_metrics": {
+    "fixed_nodes": 0,
+    "variable_nodes": 61,
+    "risks_found": 83,
+    "avg_rss_confidence": 0.507
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "mode": "parallel",
+      "raw_nodes": 82,
+      "proven_nodes": 36,
+      "fixed_nodes": 0,
+      "variable_nodes": 34,
+      "skills_generated": 25,
+      "skills_valid": 25,
+      "tokens_used": 130780,
+      "rss_confidence": 0.61,
+      "risks_found": 27,
+      "elapsed_seconds": 23680.4
+    },
+    {
+      "round": 2,
+      "mode": "parallel",
+      "raw_nodes": 13,
+      "proven_nodes": 5,
+      "fixed_nodes": 0,
+      "variable_nodes": 5,
+      "skills_generated": 5,
+      "skills_valid": 5,
+      "tokens_used": 85892,
+      "rss_confidence": 0.29,
+      "risks_found": 13,
+      "elapsed_seconds": 4535.4
+    },
+    {
+      "round": 3,
+      "mode": "parallel",
+      "raw_nodes": 89,
+      "proven_nodes": 22,
+      "fixed_nodes": 0,
+      "variable_nodes": 22,
+      "skills_generated": 17,
+      "skills_valid": 17,
+      "tokens_used": 243535,
+      "rss_confidence": 0.63,
+      "risks_found": 43,
+      "elapsed_seconds": 609.3
+    }
+  ],
+  "convergence_analysis": {
+    "converged_domains": 2,
+    "converging_domains": 1,
+    "high_volatility_domains": 0,
+    "converged_params": [
+      {
+        "domain": "cognitive_science.variable_param",
+        "sigma": 0.0271,
+        "mean": 0.902,
+        "count": 5,
+        "status": "converged"
+      },
+      {
+        "domain": "software_engineering.variable_param",
+        "sigma": 0.0141,
+        "mean": 0.940,
+        "count": 3,
+        "status": "converged"
+      }
+    ]
+  },
+  "disaster_knowledge": [
+    {
+      "code": "CD01",
+      "name": "边界条件遗漏",
+      "count": 24,
+      "level": "完全量化",
+      "severity": "致命"
+    },
+    {
+      "code": "CD03",
+      "name": "内存泄漏",
+      "count": 22,
+      "level": "完全量化",
+      "severity": "严重"
+    },
+    {
+      "code": "CD10",
+      "name": "算法复杂度爆炸",
+      "count": 19,
+      "level": "完全量化",
+      "severity": "严重"
+    },
+    {
+      "code": "CD07",
+      "name": "SQL/命令注入",
+      "count": 16,
+      "level": "完全量化",
+      "severity": "致命"
+    },
+    {
+      "code": "CD09",
+      "name": "硬编码配置",
+      "count": 1,
+      "level": "疑似",
+      "severity": "中等"
+    },
+    {
+      "code": "CD02",
+      "name": "并发竞态",
+      "count": 1,
+      "level": "疑似",
+      "severity": "致命"
+    }
+  ]
+}

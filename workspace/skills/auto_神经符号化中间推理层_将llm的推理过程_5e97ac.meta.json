@@ -1,0 +1,30 @@
+{
+  "name": "auto_神经符号化中间推理层_将llm的推理过程_5e97ac",
+  "file": "skills/auto_神经符号化中间推理层_将llm的推理过程_5e97ac.py",
+  "description": "神经符号化中间推理层。将LLM的推理过程视为一种‘神经IR’。不再一次性生成答案，而是生成一系列类似汇编指令的‘思维原语’（如 [DECOMPOSE], [LOOKUP], [VERIFY]）。每个步骤独立执行并可被外部工具（计算器/搜索）插桩优化，实现可解释、可中断、可回溯的推理过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.781656",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_109_O4_447",
+  "design_spec": {
+    "name": "auto_神经符号化中间推理层_将llm的推理过程_5e97ac",
+    "display_name": "神经符号化中间推理层。将LLM的推理过程视为一种‘神经IR’。不再一次性生成答案，而是生成一系列类似",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "神经符号化中间推理层。将LLM的推理过程视为一种‘神经IR’。不再一次性生成答案，而是生成一系列类似汇编指令的‘思维原语’（如 [DECOMPOSE], [LO",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

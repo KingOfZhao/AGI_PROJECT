@@ -1,0 +1,30 @@
+{
+  "name": "auto_自动化反事实数据增强_针对现有1497个_0676db",
+  "file": "skills/auto_自动化反事实数据增强_针对现有1497个_0676db.py",
+  "description": "自动化反事实数据增强：针对现有1497个技能节点，系统能否自动生成‘反事实’样本进行压力测试？例如，对于一个‘番茄炒蛋’的技能节点，系统生成‘使用生铁做原料’的虚假前提，并检测系统是否会错误地调用该技能节点，以此验证技能边界的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_84",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:20:23.820079",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_84_Q2_3_9207",
+  "design_spec": {
+    "name": "auto_自动化反事实数据增强_针对现有1497个_0676db",
+    "display_name": "自动化反事实数据增强：针对现有1497个技能节点，系统能否自动生成‘反事实’样本进行压力测试？例如，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自动化反事实数据增强：针对现有1497个技能节点，系统能否自动生成‘反事实’样本进行压力测试？例如，对于一个‘番茄炒蛋’的技能节点，系统生成‘使用生铁做原料’的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 374
+  }
+}

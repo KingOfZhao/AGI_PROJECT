@@ -1,0 +1,30 @@
+{
+  "name": "auto_抗干扰代码推理沙箱_开发一种具有_认_cbfba5",
+  "file": "skills/auto_抗干扰代码推理沙箱_开发一种具有_认_cbfba5.py",
+  "description": "【抗干扰代码推理沙箱】\n开发一种具有'认知免疫力'的代码生成代理。在沙箱中，不仅要检测代码语法错误，还要引入'语义干扰项'（如误导性的变量名、冗余的逻辑分支）。系统需应用CS中的'多步推理注意力漂移测试'原理，检测AI在编写复杂逻辑时是否会发生'逻辑遗忘'或'注意力漂移'，并强制进行'回溯修正'。这能大幅提升长代码链生成的可靠性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.106324",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_6_O3_9444",
+  "design_spec": {
+    "name": "auto_抗干扰代码推理沙箱_开发一种具有_认_cbfba5",
+    "display_name": "【抗干扰代码推理沙箱】\n开发一种具有'认知免疫力'的代码生成代理。在沙箱中，不仅要检测代码语法错误，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【抗干扰代码推理沙箱】\n开发一种具有'认知免疫力'的代码生成代理。在沙箱中，不仅要检测代码语法错误，还要引入'语义干扰项'（如误导性的变量名、冗余的逻辑分支）。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

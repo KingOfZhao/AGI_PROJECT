@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_空间自适应3d装配ui_在ar_ef81b8",
+  "file": "skills/auto_开发_空间自适应3d装配ui_在ar_ef81b8.py",
+  "description": "开发'空间自适应3D装配UI'。在AR/VR场景中，利用Flutter的Sliver/Flow布局逻辑来处理3D零件的自动对齐。当用户拖拽一个3D模型靠近另一个时，系统不只是显示网格，而是像Flutter的Wrap布局一样，自动计算'最佳配合位置'并吸附，极大降低装配操作的认知负荷。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.850902",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_103_O2_2268",
+  "design_spec": {
+    "name": "auto_开发_空间自适应3d装配ui_在ar_ef81b8",
+    "display_name": "开发'空间自适应3D装配UI'。在AR/VR场景中，利用Flutter的Sliver/Flow布局逻",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'空间自适应3D装配UI'。在AR/VR场景中，利用Flutter的Sliver/Flow布局逻辑来处理3D零件的自动对齐。当用户拖拽一个3D模型靠近另一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

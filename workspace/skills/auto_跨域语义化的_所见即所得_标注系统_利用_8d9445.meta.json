@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域语义化的_所见即所得_标注系统_利用_8d9445",
+  "file": "skills/auto_跨域语义化的_所见即所得_标注系统_利用_8d9445.py",
+  "description": "跨域语义化的'所见即所得'标注系统。利用Context的树形定位能力，在3D CAD模型表面直接叠加Flutter生成的UI信息层。由于两者共享同一套树形索引，当CAD模型结构重组时，依附于特定Context（如某个螺栓孔）的UI标注（如公差范围、扭矩要求）会自动跟随其所属节点移动，实现非破坏性的工程图纸与模型的动态融合。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_56",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:30:48.762810",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_56_O3_8303",
+  "design_spec": {
+    "name": "auto_跨域语义化的_所见即所得_标注系统_利用_8d9445",
+    "display_name": "跨域语义化的'所见即所得'标注系统。利用Context的树形定位能力，在3D CAD模型表面直接叠加",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域语义化的'所见即所得'标注系统。利用Context的树形定位能力，在3D CAD模型表面直接叠加Flutter生成的UI信息层。由于两者共享同一套树形索引，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 479
+  }
+}

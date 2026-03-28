@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对高维度隐性知识_如陶艺拉坯的手感_63ced5",
+  "file": "skills/auto_针对高维度隐性知识_如陶艺拉坯的手感_63ced5.py",
+  "description": "针对高维度隐性知识（如陶艺拉坯的手感），如何构建'多模态潜空间对齐'模型，将非结构化的触觉振动数据、肌电信号与视觉形变在共享特征空间中映射为解耦的隐变量？这不仅仅是数据融合，而是寻找'手感'的数学表达。如果AI能将'不稳'的手感信号聚类为特定的潜在向量，该向量能对应到物理属性的偏差，则视为成功。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_12",
+    "agi_multimodal",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:33:04.192577",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_12_Q1_2_9260",
+  "design_spec": {
+    "name": "auto_针对高维度隐性知识_如陶艺拉坯的手感_63ced5",
+    "display_name": "针对高维度隐性知识（如陶艺拉坯的手感），如何构建'多模态潜空间对齐'模型，将非结构化的触觉振动数据、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对高维度隐性知识（如陶艺拉坯的手感），如何构建'多模态潜空间对齐'模型，将非结构化的触觉振动数据、肌电信号与视觉形变在共享特征空间中映射为解耦的隐变量？这不仅",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 328
+  }
+}

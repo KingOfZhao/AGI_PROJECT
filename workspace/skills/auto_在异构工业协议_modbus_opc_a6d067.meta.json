@@ -1,0 +1,30 @@
+{
+  "name": "auto_在异构工业协议_modbus_opc_a6d067",
+  "file": "skills/auto_在异构工业协议_modbus_opc_a6d067.py",
+  "description": "在异构工业协议（Modbus, OPC UA, Profinet等）共存的边缘计算场景下，如何设计通用的语义适配层，将不同格式的时序数据实时映射为AGI认知网络中的标准'状态节点'，并保持数据的时间同步性与语义一致性？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "edge_computing",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.089742",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q3_1_7461",
+  "design_spec": {
+    "name": "auto_在异构工业协议_modbus_opc_a6d067",
+    "display_name": "在异构工业协议（Modbus, OPC UA, Profinet等）共存的边缘计算场景下，如何设计通",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在异构工业协议（Modbus, OPC UA, Profinet等）共存的边缘计算场景下，如何设计通用的语义适配层，将不同格式的时序数据实时映射为AGI认知网络",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

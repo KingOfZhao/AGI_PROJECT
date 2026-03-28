@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生闭环_触觉反馈的数字化表征_如_c79756",
+  "file": "skills/auto_人机共生闭环_触觉反馈的数字化表征_如_c79756.py",
+  "description": "【人机共生闭环：触觉反馈的数字化表征】如何设计一种‘触觉描述语言’，将人类专家的模糊语言（如‘手感有点涩’）转化为AI可执行的参数调整指令？这涉及自然语言处理与物理仿真参数的绑定，是人机共生中‘AI梳理清单’的关键一步。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_117",
+    "nlp_robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:40:33.876671",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_117_Q3_2_2036",
+  "design_spec": {
+    "name": "auto_人机共生闭环_触觉反馈的数字化表征_如_c79756",
+    "display_name": "【人机共生闭环：触觉反馈的数字化表征】如何设计一种‘触觉描述语言’，将人类专家的模糊语言（如‘手感有",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生闭环：触觉反馈的数字化表征】如何设计一种‘触觉描述语言’，将人类专家的模糊语言（如‘手感有点涩’）转化为AI可执行的参数调整指令？这涉及自然语言处理与",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 288
+  }
+}

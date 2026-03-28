@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_语义热点加速器_在llm推理过程_4775c2",
+  "file": "skills/auto_构建_语义热点加速器_在llm推理过程_4775c2.py",
+  "description": "构建‘语义热点加速器’。在LLM推理过程中，实时监控用户的意图模式。对于高频出现的固定业务逻辑（如特定的代码生成风格、固定的报告格式），系统自动将其从‘解释执行’（通用生成）转化为‘编译执行’（微调的小模型或模板化生成）。这能显著降低API成本并提升响应速度，实现人机共生中的‘习惯固化’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.749408",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_141_O5_5407",
+  "design_spec": {
+    "name": "auto_构建_语义热点加速器_在llm推理过程_4775c2",
+    "display_name": "构建‘语义热点加速器’。在LLM推理过程中，实时监控用户的意图模式。对于高频出现的固定业务逻辑（如特",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘语义热点加速器’。在LLM推理过程中，实时监控用户的意图模式。对于高频出现的固定业务逻辑（如特定的代码生成风格、固定的报告格式），系统自动将其从‘解释执行",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

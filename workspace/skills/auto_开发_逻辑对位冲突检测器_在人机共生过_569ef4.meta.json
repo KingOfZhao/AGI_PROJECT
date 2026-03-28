@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_逻辑对位冲突检测器_在人机共生过_569ef4",
+  "file": "skills/auto_开发_逻辑对位冲突检测器_在人机共生过_569ef4.py",
+  "description": "开发‘逻辑对位冲突检测器’。在人机共生过程中，AI可能同时生成多个实践清单（旋律线）。该能力利用音乐对位法的规则（如禁止平行五度 -> 禁止逻辑同义反复；反向进行 -> 权衡取舍），自动检测不同知识节点间的逻辑冲突。例如，当‘极简代码’节点与‘高鲁棒性’节点在特定上下文中产生冲突（不协和）时，系统自动计算‘解决’路径，引导人类进行取舍。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.555070",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_149_O3_2502",
+  "design_spec": {
+    "name": "auto_开发_逻辑对位冲突检测器_在人机共生过_569ef4",
+    "display_name": "开发‘逻辑对位冲突检测器’。在人机共生过程中，AI可能同时生成多个实践清单（旋律线）。该能力利用音乐",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘逻辑对位冲突检测器’。在人机共生过程中，AI可能同时生成多个实践清单（旋律线）。该能力利用音乐对位法的规则（如禁止平行五度 -> 禁止逻辑同义反复；反向进",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

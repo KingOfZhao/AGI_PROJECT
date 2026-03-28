@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_硬约束注意力机制_在特定垂直领域_47e0c8",
+  "file": "skills/auto_研发_硬约束注意力机制_在特定垂直领域_47e0c8.py",
+  "description": "研发'硬约束注意力机制'。在特定垂直领域（如医疗、法律），将形式化语法规则（DFA）注入Transformer的Attention Mask。这允许AI在生成文本时，强制遵循预定义的语法或逻辑结构，实现'概率生成'与'逻辑确定性'的完美共生，确保输出格式100%可用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.746062",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_32_O2_7408",
+  "design_spec": {
+    "name": "auto_研发_硬约束注意力机制_在特定垂直领域_47e0c8",
+    "display_name": "研发'硬约束注意力机制'。在特定垂直领域（如医疗、法律），将形式化语法规则（DFA）注入Transf",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'硬约束注意力机制'。在特定垂直领域（如医疗、法律），将形式化语法规则（DFA）注入Transformer的Attention Mask。这允许AI在生成文",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 313
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_跨域冲突仲裁_机制_当_经济理性_4faa33",
+  "file": "skills/auto_建立_跨域冲突仲裁_机制_当_经济理性_4faa33.py",
+  "description": "建立‘跨域冲突仲裁’机制。当‘经济理性’节点（追求利润最大化）与‘社会伦理’节点（不欺骗）在具体场景（如夸大营销）发生重叠冲突时，AI需引入第三方‘法律/道德’元节点进行裁决。若无法裁决，系统应强制执行‘最小伤害原则’，并暂停相关行动，等待人类介入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "ethics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.201470",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_57_Q8_1_5464",
+  "design_spec": {
+    "name": "auto_建立_跨域冲突仲裁_机制_当_经济理性_4faa33",
+    "display_name": "建立‘跨域冲突仲裁’机制。当‘经济理性’节点（追求利润最大化）与‘社会伦理’节点（不欺骗）在具体场景",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立‘跨域冲突仲裁’机制。当‘经济理性’节点（追求利润最大化）与‘社会伦理’节点（不欺骗）在具体场景（如夸大营销）发生重叠冲突时，AI需引入第三方‘法律/道德’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

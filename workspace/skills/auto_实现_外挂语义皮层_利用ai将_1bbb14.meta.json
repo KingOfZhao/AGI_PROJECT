@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_外挂语义皮层_利用ai将_1bbb14",
+  "file": "skills/auto_实现_外挂语义皮层_利用ai将_1bbb14.py",
+  "description": "实现**'外挂语义皮层'**。利用AI将个人的隐性知识网络显性化为动态ER图。不同于静态思维导图，该系统能自动检测用户知识库中的'关系断裂'（如两个频繁共现但未建立连接的概念）和'逻辑冗余'。它像数据库重构工具一样，定期建议用户：'你应该建立概念A和概念B之间的新关系'，或者'概念C是概念D的冗余派生，建议合并'。这不仅是记录，更是主动优化人类大脑的知识存储拓扑结构，提升检索和推理速度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.190379",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O5_206",
+  "design_spec": {
+    "name": "auto_实现_外挂语义皮层_利用ai将_1bbb14",
+    "display_name": "实现**'外挂语义皮层'**。利用AI将个人的隐性知识网络显性化为动态ER图。不同于静态思维导图，该",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现**'外挂语义皮层'**。利用AI将个人的隐性知识网络显性化为动态ER图。不同于静态思维导图，该系统能自动检测用户知识库中的'关系断裂'（如两个频繁共现但未",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

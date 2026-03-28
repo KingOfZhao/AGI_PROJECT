@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上上下文填充_在骨架确定后_如何_d9310c",
+  "file": "skills/auto_自下而上上下文填充_在骨架确定后_如何_d9310c.py",
+  "description": "【自下而上上下文填充】在骨架确定后，如何利用已有的1190个节点（特别是工具库节点）进行“积木填充”？这不仅是检索，而是基于上下文感知的“接口对齐”。需要验证系统能否自动处理数据类型转换和参数适配，而非仅仅复制粘贴代码块。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "Software Engineering/RAG",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:31.122515",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q6_3_4775",
+  "design_spec": {
+    "name": "auto_自下而上上下文填充_在骨架确定后_如何_d9310c",
+    "display_name": "【自下而上上下文填充】在骨架确定后，如何利用已有的1190个节点（特别是工具库节点）进行“积木填充”",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上上下文填充】在骨架确定后，如何利用已有的1190个节点（特别是工具库节点）进行“积木填充”？这不仅是检索，而是基于上下文感知的“接口对齐”。需要验证系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

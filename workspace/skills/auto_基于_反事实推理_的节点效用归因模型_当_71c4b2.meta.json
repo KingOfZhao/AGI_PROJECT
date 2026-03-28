@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_反事实推理_的节点效用归因模型_当_71c4b2",
+  "file": "skills/auto_基于_反事实推理_的节点效用归因模型_当_71c4b2.py",
+  "description": "基于‘反事实推理’的节点效用归因模型：当系统完成一个复杂任务（涉及多个节点协作）并获得负面反馈（如用户评分低、执行失败）时，如何自动定位是哪一个‘真实节点’失效？需要开发一种基于因果推断的归因算法，区分是‘节点本身质量差’还是‘节点组合方式错误’，从而避免误杀优质节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.622664",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q3_0_9836",
+  "design_spec": {
+    "name": "auto_基于_反事实推理_的节点效用归因模型_当_71c4b2",
+    "display_name": "基于‘反事实推理’的节点效用归因模型：当系统完成一个复杂任务（涉及多个节点协作）并获得负面反馈（如用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘反事实推理’的节点效用归因模型：当系统完成一个复杂任务（涉及多个节点协作）并获得负面反馈（如用户评分低、执行失败）时，如何自动定位是哪一个‘真实节点’失效",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义指针状态机_融合软件工程的对象引用_85fd30",
+  "file": "skills/auto_语义指针状态机_融合软件工程的对象引用_85fd30.py",
+  "description": "【语义指针状态机】融合软件工程的对象引用管理与认知科学的语境锚定。在多轮编程对话中，系统维护一个'显式状态对象'（Explicit State Object），将模糊代词（'它'、'那个文件'）通过向量检索锚定到具体的代码块AST节点或内存对象ID。更重要的是，当用户意图发生微小偏移时，系统能自动计算新旧意图的向量差，仅对代码进行'差分更新'，而非重写，实现真正的'连续编程'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.571448",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_73_O3_5317",
+  "design_spec": {
+    "name": "auto_语义指针状态机_融合软件工程的对象引用_85fd30",
+    "display_name": "【语义指针状态机】融合软件工程的对象引用管理与认知科学的语境锚定。在多轮编程对话中，系统维护一个'显",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义指针状态机】融合软件工程的对象引用管理与认知科学的语境锚定。在多轮编程对话中，系统维护一个'显式状态对象'（Explicit State Object），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

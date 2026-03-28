@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_反馈环的信任权重动态分配_人_652da3",
+  "file": "skills/auto_人机共生_反馈环的信任权重动态分配_人_652da3.py",
+  "description": "‘人机共生’反馈环的信任权重动态分配：人类反馈存在主观性和噪音。如何构建一个动态信任模型，根据反馈者的历史准确率和领域专长，赋予其提交的‘证伪’或‘证实’操作不同的权重？如果新手随机点击‘证实’，系统应忽略；专家的‘证伪’应直接触发节点降级。需要设计一个基于贝叶斯更新的声誉系统。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "game_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.669014",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q5_2_1750",
+  "design_spec": {
+    "name": "auto_人机共生_反馈环的信任权重动态分配_人_652da3",
+    "display_name": "‘人机共生’反馈环的信任权重动态分配：人类反馈存在主观性和噪音。如何构建一个动态信任模型，根据反馈者",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘人机共生’反馈环的信任权重动态分配：人类反馈存在主观性和噪音。如何构建一个动态信任模型，根据反馈者的历史准确率和领域专长，赋予其提交的‘证伪’或‘证实’操作不",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 398
+  }
+}

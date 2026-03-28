@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一种基于生理与行为数据的自适应认知负_19ead9",
+  "file": "skills/auto_构建一种基于生理与行为数据的自适应认知负_19ead9.py",
+  "description": "构建一种基于生理与行为数据的自适应认知负荷调节系统。该系统不仅像游戏一样根据正确率调整难度，还结合教育学的ZPD理论，实时分析学生的眼动、交互延迟等生理指标。当检测到认知过载时，系统自动降低任务复杂度或提供隐性脚手架；当检测到厌倦时，自动引入挑战性变体。这将静态的课程转化为动态的、始终处于学习者最佳学习区间的智能体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T06:58:25.428442",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_2_O1_7934",
+  "design_spec": {
+    "name": "auto_构建一种基于生理与行为数据的自适应认知负_19ead9",
+    "display_name": "构建一种基于生理与行为数据的自适应认知负荷调节系统。该系统不仅像游戏一样根据正确率调整难度，还结合教",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一种基于生理与行为数据的自适应认知负荷调节系统。该系统不仅像游戏一样根据正确率调整难度，还结合教育学的ZPD理论，实时分析学生的眼动、交互延迟等生理指标。当",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 783
+  }
+}

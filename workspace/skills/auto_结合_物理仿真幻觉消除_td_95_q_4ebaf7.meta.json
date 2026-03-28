@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_物理仿真幻觉消除_td_95_q_4ebaf7",
+  "file": "skills/auto_结合_物理仿真幻觉消除_td_95_q_4ebaf7.py",
+  "description": "结合'物理仿真幻觉消除'(td_95_Q10_0_9248)、'力觉信号映射'(td_95_Q2_0_9248)与'混合验证体系'(bu_96_P5_50)，系统将不仅仅进行代码或文本推演，而是能构建一个包含触觉反馈和物理约束的虚拟训练场。在这个沙箱中，AI可以通过'手感'（力觉数据）和'物理反馈'（碰撞检测）来验证'意图'(ho_96_O1_2685)的可行性，实现真正的'思维-行动'闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.375212",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_97_E1_7625",
+  "design_spec": {
+    "name": "auto_结合_物理仿真幻觉消除_td_95_q_4ebaf7",
+    "display_name": "结合'物理仿真幻觉消除'(td_95_Q10_0_9248)、'力觉信号映射'(td_95_Q2_0",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'物理仿真幻觉消除'(td_95_Q10_0_9248)、'力觉信号映射'(td_95_Q2_0_9248)与'混合验证体系'(bu_96_P5_50)，系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

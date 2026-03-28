@@ -1,0 +1,30 @@
+{
+  "name": "auto_可解释性认知溯源引擎_构建一个具备_元记_cad18d",
+  "file": "skills/auto_可解释性认知溯源引擎_构建一个具备_元记_cad18d.py",
+  "description": "可解释性认知溯源引擎。构建一个具备'元记忆'的AI系统。当AGI输出一个决策或创意时，系统能够像人类回忆童年事件一样，构建一个可视化的'思维血缘图'。这不仅是列出参考文档，而是重现'念头'的产生路径：它碰撞了哪些旧知识？排除了哪些干扰项？这种能力让人类能对AI的'黑盒'进行'心理分析'，精准定位幻觉或偏见的源头，实现真正的认知自洽。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.701161",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O2_493",
+  "design_spec": {
+    "name": "auto_可解释性认知溯源引擎_构建一个具备_元记_cad18d",
+    "display_name": "可解释性认知溯源引擎。构建一个具备'元记忆'的AI系统。当AGI输出一个决策或创意时，系统能够像人类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "可解释性认知溯源引擎。构建一个具备'元记忆'的AI系统。当AGI输出一个决策或创意时，系统能够像人类回忆童年事件一样，构建一个可视化的'思维血缘图'。这不仅是列",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

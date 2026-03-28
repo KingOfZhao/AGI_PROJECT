@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码类技能的沙箱变异测试_针对1231个_e07b1b",
+  "file": "skills/auto_代码类技能的沙箱变异测试_针对1231个_e07b1b.py",
+  "description": "代码类技能的沙箱变异测试：针对1231个SKILL节点中的可执行代码片段，如何设计一种“变异测试”机制，通过随机修改输入参数或代码逻辑（如交换变量名、修改循环边界），观察代码是否崩溃或产生安全漏洞，从而证伪该技能的鲁棒性？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.396107",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q3_3_5254",
+  "design_spec": {
+    "name": "auto_代码类技能的沙箱变异测试_针对1231个_e07b1b",
+    "display_name": "代码类技能的沙箱变异测试：针对1231个SKILL节点中的可执行代码片段，如何设计一种“变异测试”机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "代码类技能的沙箱变异测试：针对1231个SKILL节点中的可执行代码片段，如何设计一种“变异测试”机制，通过随机修改输入参数或代码逻辑（如交换变量名、修改循环边",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

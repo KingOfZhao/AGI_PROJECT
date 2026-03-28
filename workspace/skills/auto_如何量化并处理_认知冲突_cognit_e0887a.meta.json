@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何量化并处理_认知冲突_cognit_e0887a",
+  "file": "skills/auto_如何量化并处理_认知冲突_cognit_e0887a.py",
+  "description": "如何量化并处理'认知冲突'（Cognitive Dissonance）？当新输入的信息与已有'真实节点'发生逻辑矛盾时（如'地平说'vs'地球说'），系统不应简单地覆盖，而应创建一个'冲突区'。本问题要求构建一个冲突检测与挂起机制，标记冲突点，并生成针对性的'验证任务'供人类去实践解决。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "conflict_resolution",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.751557",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_70_Q6_1_101",
+  "design_spec": {
+    "name": "auto_如何量化并处理_认知冲突_cognit_e0887a",
+    "display_name": "如何量化并处理'认知冲突'（Cognitive Dissonance）？当新输入的信息与已有'真实节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何量化并处理'认知冲突'（Cognitive Dissonance）？当新输入的信息与已有'真实节点'发生逻辑矛盾时（如'地平说'vs'地球说'），系统不应简",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_力觉_视觉跨域映射_能否训练一个神经网_e8a51c",
+  "file": "skills/auto_力觉_视觉跨域映射_能否训练一个神经网_e8a51c.py",
+  "description": "【力觉-视觉跨域映射】能否训练一个神经网络，仅通过观察材料形变（如面团的回弹、木头的弯曲程度）来预测当前的施加力大小（Force Estimation from Vision）？这是将'力道'这一隐性触觉知识显性化的关键步骤，实现'看懂'力度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "cross_modal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.400478",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q3_0_869",
+  "design_spec": {
+    "name": "auto_力觉_视觉跨域映射_能否训练一个神经网_e8a51c",
+    "display_name": "【力觉-视觉跨域映射】能否训练一个神经网络，仅通过观察材料形变（如面团的回弹、木头的弯曲程度）来预测",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【力觉-视觉跨域映射】能否训练一个神经网络，仅通过观察材料形变（如面团的回弹、木头的弯曲程度）来预测当前的施加力大小（Force Estimation from",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

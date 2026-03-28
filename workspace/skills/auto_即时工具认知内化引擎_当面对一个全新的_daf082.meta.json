@@ -1,0 +1,30 @@
+{
+  "name": "auto_即时工具认知内化引擎_当面对一个全新的_daf082",
+  "file": "skills/auto_即时工具认知内化引擎_当面对一个全新的_daf082.py",
+  "description": "【即时工具认知内化引擎】当面对一个全新的、虚构的API库（如‘量子咖啡机库’）时，AI不仅是一次性调用，而是利用B的‘抽象概念生成’能力，快速构建该工具的‘心智模型’。它会分析文档，提炼出该工具的‘核心动词’和‘状态机’，将其固化为一个临时的‘高维真实节点’。随后的代码生成将基于这个新构建的心智模型进行逻辑推演，而不是简单的概率拼凑。这意味着AI能像人类程序员一样‘学会’一个新的框架并举一反三。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.522519",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_55_O5_7672",
+  "design_spec": {
+    "name": "auto_即时工具认知内化引擎_当面对一个全新的_daf082",
+    "display_name": "【即时工具认知内化引擎】当面对一个全新的、虚构的API库（如‘量子咖啡机库’）时，AI不仅是一次性调",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【即时工具认知内化引擎】当面对一个全新的、虚构的API库（如‘量子咖啡机库’）时，AI不仅是一次性调用，而是利用B的‘抽象概念生成’能力，快速构建该工具的‘心智",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

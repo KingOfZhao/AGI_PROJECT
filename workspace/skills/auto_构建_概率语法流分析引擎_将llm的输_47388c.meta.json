@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_概率语法流分析引擎_将llm的输_47388c",
+  "file": "skills/auto_构建_概率语法流分析引擎_将llm的输_47388c.py",
+  "description": "构建‘概率语法流分析引擎’。将LLM的输出视为待编译的源码，在流式生成过程中引入‘语义类型系统’。利用编译器的数据流分析技术追踪事实和逻辑实体的流向，一旦检测到‘类型不匹配’（如逻辑断裂、事实冲突），立即阻断生成并进行重写。这不仅是检测幻觉，更是建立了一套针对自然语言的‘强类型系统’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.242566",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_57_O3_2674",
+  "design_spec": {
+    "name": "auto_构建_概率语法流分析引擎_将llm的输_47388c",
+    "display_name": "构建‘概率语法流分析引擎’。将LLM的输出视为待编译的源码，在流式生成过程中引入‘语义类型系统’。利",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘概率语法流分析引擎’。将LLM的输出视为待编译的源码，在流式生成过程中引入‘语义类型系统’。利用编译器的数据流分析技术追踪事实和逻辑实体的流向，一旦检测到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 239
+  }
+}

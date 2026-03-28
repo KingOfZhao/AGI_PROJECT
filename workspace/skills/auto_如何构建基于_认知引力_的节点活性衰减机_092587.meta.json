@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建基于_认知引力_的节点活性衰减机_092587",
+  "file": "skills/auto_如何构建基于_认知引力_的节点活性衰减机_092587.py",
+  "description": "如何构建基于'认知引力'的节点活性衰减机制？即模拟人类记忆遗忘曲线，对长期未被实践证伪（调用/反馈）的'真实节点'自动降低置信度权重。若某节点在T时间内未被任何新实践引用，系统应自动将其状态从'True'降级为'Dormant'（休眠），强制AGI在后续推理中寻求重新验证，防止过时知识固化造成的认知僵化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "agi_memory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.777786",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q1_3_4211",
+  "design_spec": {
+    "name": "auto_如何构建基于_认知引力_的节点活性衰减机_092587",
+    "display_name": "如何构建基于'认知引力'的节点活性衰减机制？即模拟人类记忆遗忘曲线，对长期未被实践证伪（调用/反馈）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建基于'认知引力'的节点活性衰减机制？即模拟人类记忆遗忘曲线，对长期未被实践证伪（调用/反馈）的'真实节点'自动降低置信度权重。若某节点在T时间内未被任何",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

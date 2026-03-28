@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将_左右跨域重叠_算法化_给定两个距_b06776",
+  "file": "skills/auto_如何将_左右跨域重叠_算法化_给定两个距_b06776.py",
+  "description": "如何将'左右跨域重叠'算法化？给定两个距离较远但潜在相关的节点（如'生物进化'与'代码优化'），系统能否自动生成中间概念桥（如'遗传算法'）？这需要一种能够检测高维空间中非直观流形对齐的机制，实现概念的跨界迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_28",
+    "跨域迁移/计算创造性",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:20:59.395617",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_28_Q2_2_1501",
+  "design_spec": {
+    "name": "auto_如何将_左右跨域重叠_算法化_给定两个距_b06776",
+    "display_name": "如何将'左右跨域重叠'算法化？给定两个距离较远但潜在相关的节点（如'生物进化'与'代码优化'），系统",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将'左右跨域重叠'算法化？给定两个距离较远但潜在相关的节点（如'生物进化'与'代码优化'），系统能否自动生成中间概念桥（如'遗传算法'）？这需要一种能够检测",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 313
+  }
+}

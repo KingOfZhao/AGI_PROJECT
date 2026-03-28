@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知网络的_小世界网络_鲁棒性验证_真实_d10bd1",
+  "file": "skills/auto_认知网络的_小世界网络_鲁棒性验证_真实_d10bd1.py",
+  "description": "认知网络的'小世界网络'鲁棒性验证。真实节点应构成具备抗毁性的网络。需验证当前1687个节点的拓扑结构是否符合小世界网络特征（高聚类系数、短平均路径）。如果移除某个'枢纽节点'导致网络连通性断崖式下跌（Giant Component崩溃），则说明该枢纽节点虽重要但网络结构脆弱，需要通过'重叠固化'生成冗余节点来增强鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "network_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.330494",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q6_0_5411",
+  "design_spec": {
+    "name": "auto_认知网络的_小世界网络_鲁棒性验证_真实_d10bd1",
+    "display_name": "认知网络的'小世界网络'鲁棒性验证。真实节点应构成具备抗毁性的网络。需验证当前1687个节点的拓扑结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知网络的'小世界网络'鲁棒性验证。真实节点应构成具备抗毁性的网络。需验证当前1687个节点的拓扑结构是否符合小世界网络特征（高聚类系数、短平均路径）。如果移除",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

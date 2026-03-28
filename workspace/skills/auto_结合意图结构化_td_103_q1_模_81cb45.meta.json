@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合意图结构化_td_103_q1_模_81cb45",
+  "file": "skills/auto_结合意图结构化_td_103_q1_模_81cb45.py",
+  "description": "结合意图结构化（td_103_Q1）、模糊认知处理（ho_103_O1）与认知编译（bu_103_P2）。该能力不再将模糊视为噪声，而是视为一种可操作的变量。系统能在编译阶段动态调整代码生成的粒度和确定性，例如在资源受限时自动回退到“模糊逻辑模式”，在精度要求高时切换到“严格符号模式”，实现了代码生成的认知弹性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.493158",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_104_E1_887",
+  "design_spec": {
+    "name": "auto_结合意图结构化_td_103_q1_模_81cb45",
+    "display_name": "结合意图结构化（td_103_Q1）、模糊认知处理（ho_103_O1）与认知编译（bu_103_P",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合意图结构化（td_103_Q1）、模糊认知处理（ho_103_O1）与认知编译（bu_103_P2）。该能力不再将模糊视为噪声，而是视为一种可操作的变量。系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_智能自适应cad画布_将cad的_c2dff4",
+  "file": "skills/auto_构建_智能自适应cad画布_将cad的_c2dff4.py",
+  "description": "构建‘智能自适应CAD画布’。将CAD的约束求解器嵌入Flutter的Layout算法中。当用户在屏幕上拖动草图点时，不再仅仅是像素移动，而是触发Flutter的Relayout，由内置微型求解器实时计算相关联线条的位置，实现类似Flutter自适应布局的CAD参数化联动体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.949419",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_92_O2_8429",
+  "design_spec": {
+    "name": "auto_构建_智能自适应cad画布_将cad的_c2dff4",
+    "display_name": "构建‘智能自适应CAD画布’。将CAD的约束求解器嵌入Flutter的Layout算法中。当用户在屏",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘智能自适应CAD画布’。将CAD的约束求解器嵌入Flutter的Layout算法中。当用户在屏幕上拖动草图点时，不再仅仅是像素移动，而是触发Flutter",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 249
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_人机共生_循环中_能否通过优化提示词_422b95",
+  "file": "skills/auto_在_人机共生_循环中_能否通过优化提示词_422b95.py",
+  "description": "在'人机共生'循环中，能否通过优化提示词和交互界面，将人类验证一个认知节点所需的时间缩短50%，同时保持验证准确率不下降（准确率维持在95%以上）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_19",
+    "interaction_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:55:24.742646",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_19_Q5_2_8371",
+  "design_spec": {
+    "name": "auto_在_人机共生_循环中_能否通过优化提示词_422b95",
+    "display_name": "在'人机共生'循环中，能否通过优化提示词和交互界面，将人类验证一个认知节点所需的时间缩短50%，同时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'人机共生'循环中，能否通过优化提示词和交互界面，将人类验证一个认知节点所需的时间缩短50%，同时保持验证准确率不下降（准确率维持在95%以上）？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

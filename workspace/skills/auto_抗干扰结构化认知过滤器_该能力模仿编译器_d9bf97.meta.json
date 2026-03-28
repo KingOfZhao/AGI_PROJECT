@@ -1,0 +1,30 @@
+{
+  "name": "auto_抗干扰结构化认知过滤器_该能力模仿编译器_d9bf97",
+  "file": "skills/auto_抗干扰结构化认知过滤器_该能力模仿编译器_d9bf97.py",
+  "description": "抗干扰结构化认知过滤器。该能力模仿编译器‘报错恢复’机制，专门用于处理含噪、破碎或被刻意掩饰的人类语言。它不追求逐字逐句的完美理解，而是像解析语法错误百出的代码一样，通过‘语用括号匹配’（如识别话术中的逻辑漏洞或未闭合的承诺）提取出核心意图树。这能赋予AI在极度混乱信息中抓住本质的能力，极适用于情报分析或心理咨询。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.770073",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_61_O2_9291",
+  "design_spec": {
+    "name": "auto_抗干扰结构化认知过滤器_该能力模仿编译器_d9bf97",
+    "display_name": "抗干扰结构化认知过滤器。该能力模仿编译器‘报错恢复’机制，专门用于处理含噪、破碎或被刻意掩饰的人类语",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "抗干扰结构化认知过滤器。该能力模仿编译器‘报错恢复’机制，专门用于处理含噪、破碎或被刻意掩饰的人类语言。它不追求逐字逐句的完美理解，而是像解析语法错误百出的代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 266
+  }
+}

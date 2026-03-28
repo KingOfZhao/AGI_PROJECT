@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过_对抗性压力测试_来淘汰鲁棒性差_04d005",
+  "file": "skills/auto_如何通过_对抗性压力测试_来淘汰鲁棒性差_04d005.py",
+  "description": "如何通过'对抗性压力测试'来淘汰鲁棒性差的SKILL节点？利用LLM生成针对该技能节点的边缘Case（Corner Cases）和攻击性输入，尝试使其逻辑崩溃或产生荒谬输出。若节点在20%的对抗测试中失效，则需触发重构或淘汰流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "ai_safety",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.827931",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q6_0_658",
+  "design_spec": {
+    "name": "auto_如何通过_对抗性压力测试_来淘汰鲁棒性差_04d005",
+    "display_name": "如何通过'对抗性压力测试'来淘汰鲁棒性差的SKILL节点？利用LLM生成针对该技能节点的边缘Case",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过'对抗性压力测试'来淘汰鲁棒性差的SKILL节点？利用LLM生成针对该技能节点的边缘Case（Corner Cases）和攻击性输入，尝试使其逻辑崩溃或",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

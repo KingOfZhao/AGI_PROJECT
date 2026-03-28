@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于现有1750个节点的拓扑结构_如何构_865595",
+  "file": "skills/auto_基于现有1750个节点的拓扑结构_如何构_865595.py",
+  "description": "基于现有1750个节点的拓扑结构，如何构建动态的'认知势能'算法，以识别出'结构洞'（Structural Holes）？即那些被高频率访问但缺乏跨域连接的孤立节点簇。此算法需能自动计算出在何处建立连接能最大程度降低网络的平均最短路径长度，从而指导AI向人类提问以填补空白。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_64",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:12:15.585738",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_64_Q1_2_6910",
+  "design_spec": {
+    "name": "auto_基于现有1750个节点的拓扑结构_如何构_865595",
+    "display_name": "基于现有1750个节点的拓扑结构，如何构建动态的'认知势能'算法，以识别出'结构洞'（Structu",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于现有1750个节点的拓扑结构，如何构建动态的'认知势能'算法，以识别出'结构洞'（Structural Holes）？即那些被高频率访问但缺乏跨域连接的孤立",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

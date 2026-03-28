@@ -1,0 +1,30 @@
+{
+  "name": "auto_仿生结构生成式网络_利用物理结构分析算法_ca282d",
+  "file": "skills/auto_仿生结构生成式网络_利用物理结构分析算法_ca282d.py",
+  "description": "仿生结构生成式网络。利用物理结构分析算法（如有限元分析FEA）作为神经网络的正则化工具。在生成3D模型或结构时，将'应力场'映射为'权重场'。网络生成的不仅是几何外观，更是经过'虚拟重力'验证的合理结构。这能用于自动生成不仅美观且符合物理承重逻辑的建筑方案，极大缩短结构工程师的工作流。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.787838",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_131_O3_2797",
+  "design_spec": {
+    "name": "auto_仿生结构生成式网络_利用物理结构分析算法_ca282d",
+    "display_name": "仿生结构生成式网络。利用物理结构分析算法（如有限元分析FEA）作为神经网络的正则化工具。在生成3D模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "仿生结构生成式网络。利用物理结构分析算法（如有限元分析FEA）作为神经网络的正则化工具。在生成3D模型或结构时，将'应力场'映射为'权重场'。网络生成的不仅是几",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

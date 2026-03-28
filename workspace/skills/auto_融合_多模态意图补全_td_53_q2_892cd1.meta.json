@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_多模态意图补全_td_53_q2_892cd1",
+  "file": "skills/auto_融合_多模态意图补全_td_53_q2_892cd1.py",
+  "description": "融合'多模态意图补全'(td_53_Q2_3_6903)、'环境响应式推理'(ho_53_O5_2005)和'连续物理世界映射'(bu_53_P5_9072)。系统不再仅仅是理解语言，而是将用户的操作意图（点、看）映射到物理环境的约束中，形成一个'意图-环境'共振场。例如，用户盯着某个零件并在其周围画圈，系统直接理解为其物理属性的修改意图，而非简单的图形绘制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.983055",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_54_E2_374",
+  "design_spec": {
+    "name": "auto_融合_多模态意图补全_td_53_q2_892cd1",
+    "display_name": "融合'多模态意图补全'(td_53_Q2_3_6903)、'环境响应式推理'(ho_53_O5_20",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'多模态意图补全'(td_53_Q2_3_6903)、'环境响应式推理'(ho_53_O5_2005)和'连续物理世界映射'(bu_53_P5_9072)。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

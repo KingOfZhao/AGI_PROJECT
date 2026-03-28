@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移_能否将代码调试中的_二分查找法_14bbd5",
+  "file": "skills/auto_跨域迁移_能否将代码调试中的_二分查找法_14bbd5.py",
+  "description": "跨域迁移：能否将代码调试中的‘二分查找法’逻辑迁移到手工艺故障排查中？例如，当陶罐开裂时，AI建议从‘干燥阶段’和‘烧制阶段’中间切入检查，而非随机尝试。这需要建立‘逻辑结构’在不同物理域之间的同构映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_117",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:40:33.877683",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_117_Q5_2_2036",
+  "design_spec": {
+    "name": "auto_跨域迁移_能否将代码调试中的_二分查找法_14bbd5",
+    "display_name": "跨域迁移：能否将代码调试中的‘二分查找法’逻辑迁移到手工艺故障排查中？例如，当陶罐开裂时，AI建议从",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移：能否将代码调试中的‘二分查找法’逻辑迁移到手工艺故障排查中？例如，当陶罐开裂时，AI建议从‘干燥阶段’和‘烧制阶段’中间切入检查，而非随机尝试。这需要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 312
+  }
+}

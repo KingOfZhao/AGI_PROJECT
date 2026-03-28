@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_跨模态漏洞与幻觉检测系统_利用编_c972c2",
+  "file": "skills/auto_建立_跨模态漏洞与幻觉检测系统_利用编_c972c2.py",
+  "description": "建立'跨模态漏洞与幻觉检测系统'。利用编译器严谨的数据流分析（检查变量生命周期、资源泄漏）来约束NLP生成的代码。反过来，利用NLP对自然语言注释的理解来辅助编译器发现'逻辑正确但意图违背'的错误（例如代码逻辑无死循环，但注释要求必须超时退出）。这不仅是语法检查，更是'代码-文档-意图'的一致性验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.188207",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_49_O3_891",
+  "design_spec": {
+    "name": "auto_建立_跨模态漏洞与幻觉检测系统_利用编_c972c2",
+    "display_name": "建立'跨模态漏洞与幻觉检测系统'。利用编译器严谨的数据流分析（检查变量生命周期、资源泄漏）来约束NL",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'跨模态漏洞与幻觉检测系统'。利用编译器严谨的数据流分析（检查变量生命周期、资源泄漏）来约束NLP生成的代码。反过来，利用NLP对自然语言注释的理解来辅助编",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 329
+  }
+}

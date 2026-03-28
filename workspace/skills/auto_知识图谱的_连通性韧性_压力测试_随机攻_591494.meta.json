@@ -1,0 +1,30 @@
+{
+  "name": "auto_知识图谱的_连通性韧性_压力测试_随机攻_591494",
+  "file": "skills/auto_知识图谱的_连通性韧性_压力测试_随机攻_591494.py",
+  "description": "知识图谱的'连通性韧性'压力测试：随机攻击或恶意输入可能导致图谱碎片化。如何设计一个自动化探针，定期对3757个节点进行'切除测试'？通过模拟移除关键'桥梁节点'（Connecting Nodes），观测系统是否能自动寻找替代路径（重路由）或动态生成'临时假设'来维持认知闭环。此测试旨在验证系统在面临未知错误或数据丢失时的鲁棒性，确保单点故障不会导致认知瘫痪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "network_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.223031",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_144_Q9_3_2675",
+  "design_spec": {
+    "name": "auto_知识图谱的_连通性韧性_压力测试_随机攻_591494",
+    "display_name": "知识图谱的'连通性韧性'压力测试：随机攻击或恶意输入可能导致图谱碎片化。如何设计一个自动化探针，定期",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "知识图谱的'连通性韧性'压力测试：随机攻击或恶意输入可能导致图谱碎片化。如何设计一个自动化探针，定期对3757个节点进行'切除测试'？通过模拟移除关键'桥梁节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

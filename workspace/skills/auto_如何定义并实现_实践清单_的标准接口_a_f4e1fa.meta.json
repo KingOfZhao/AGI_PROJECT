@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何定义并实现_实践清单_的标准接口_a_f4e1fa",
+  "file": "skills/auto_如何定义并实现_实践清单_的标准接口_a_f4e1fa.py",
+  "description": "如何定义并实现'实践清单'的标准接口（API），使AI生成的SKILL能够直接驱动外部工具（如IDE、机器人臂）进行物理验证，并将验证结果（成功/报错/物理反馈）回写到认知网络中？这是'人机共生'闭环的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.946483",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_92_Q9_3_1759",
+  "design_spec": {
+    "name": "auto_如何定义并实现_实践清单_的标准接口_a_f4e1fa",
+    "display_name": "如何定义并实现'实践清单'的标准接口（API），使AI生成的SKILL能够直接驱动外部工具（如IDE",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何定义并实现'实践清单'的标准接口（API），使AI生成的SKILL能够直接驱动外部工具（如IDE、机器人臂）进行物理验证，并将验证结果（成功/报错/物理反馈",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 319
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_在人机共生循环中_如何量化_人类专家证伪_7e8ae8",
+  "file": "skills/auto_在人机共生循环中_如何量化_人类专家证伪_7e8ae8.py",
+  "description": "在人机共生循环中，如何量化‘人类专家证伪’的权重？当一个工业操作被实践验证为成功或失败时，系统需要一个反向传播算法来调整相关认知节点的置信度。问题在于如何设计这个损失函数，使其能根据结果的严重程度（如仅仅是效率低 vs 机器损坏）来差异化地更新网络权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "decision_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.386812",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q6_1_6470",
+  "design_spec": {
+    "name": "auto_在人机共生循环中_如何量化_人类专家证伪_7e8ae8",
+    "display_name": "在人机共生循环中，如何量化‘人类专家证伪’的权重？当一个工业操作被实践验证为成功或失败时，系统需要一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在人机共生循环中，如何量化‘人类专家证伪’的权重？当一个工业操作被实践验证为成功或失败时，系统需要一个反向传播算法来调整相关认知节点的置信度。问题在于如何设计这",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

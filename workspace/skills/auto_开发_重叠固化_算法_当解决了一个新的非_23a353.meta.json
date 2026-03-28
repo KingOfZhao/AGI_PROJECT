@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_重叠固化_算法_当解决了一个新的非_23a353",
+  "file": "skills/auto_开发_重叠固化_算法_当解决了一个新的非_23a353.py",
+  "description": "开发‘重叠固化’算法：当解决了一个新的非标制造问题后，如何自动识别该解决方案中的通用逻辑，将其抽象为新的‘真实节点’，并与现有的2555个SKILL建立索引关联？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "knowledge_representation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.377919",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q9_3_8148",
+  "design_spec": {
+    "name": "auto_开发_重叠固化_算法_当解决了一个新的非_23a353",
+    "display_name": "开发‘重叠固化’算法：当解决了一个新的非标制造问题后，如何自动识别该解决方案中的通用逻辑，将其抽象为",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘重叠固化’算法：当解决了一个新的非标制造问题后，如何自动识别该解决方案中的通用逻辑，将其抽象为新的‘真实节点’，并与现有的2555个SKILL建立索引关联",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

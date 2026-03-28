@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_认知自洽_的闭环检测与自我修复_真_81f598",
+  "file": "skills/auto_基于_认知自洽_的闭环检测与自我修复_真_81f598.py",
+  "description": "基于'认知自洽'的闭环检测与自我修复。真实节点要求领域内可实践闭环。问题：AI如何自动扫描现有节点网络，寻找那些'前提条件'依赖不可验证节点，或者'输出结果'无法导向任何价值的'死链节点'？并自动尝试重构路径或标记为'待证伪'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.654841",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q9_2_8624",
+  "design_spec": {
+    "name": "auto_基于_认知自洽_的闭环检测与自我修复_真_81f598",
+    "display_name": "基于'认知自洽'的闭环检测与自我修复。真实节点要求领域内可实践闭环。问题：AI如何自动扫描现有节点网",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'认知自洽'的闭环检测与自我修复。真实节点要求领域内可实践闭环。问题：AI如何自动扫描现有节点网络，寻找那些'前提条件'依赖不可验证节点，或者'输出结果'无",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

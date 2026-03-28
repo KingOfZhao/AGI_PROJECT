@@ -1,0 +1,30 @@
+{
+  "name": "auto_在工业现场_人类专家往往依赖直觉_隐性知_d3aa93",
+  "file": "skills/auto_在工业现场_人类专家往往依赖直觉_隐性知_d3aa93.py",
+  "description": "在工业现场，人类专家往往依赖直觉（隐性知识）进行故障排查。如何设计一种“人机共生接口”，让人类在排查过程中通过自然语言或动作捕捉，实时修正AI提出的假设树？重点在于如何将人类的一句话“感觉这台泵声音不对”转化为具体的频谱分析参数调整指令，实现自上而下的拆解证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "hci_cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.308096",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q3_1_2332",
+  "design_spec": {
+    "name": "auto_在工业现场_人类专家往往依赖直觉_隐性知_d3aa93",
+    "display_name": "在工业现场，人类专家往往依赖直觉（隐性知识）进行故障排查。如何设计一种“人机共生接口”，让人类在排查",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在工业现场，人类专家往往依赖直觉（隐性知识）进行故障排查。如何设计一种“人机共生接口”，让人类在排查过程中通过自然语言或动作捕捉，实时修正AI提出的假设树？重点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 444
+  }
+}

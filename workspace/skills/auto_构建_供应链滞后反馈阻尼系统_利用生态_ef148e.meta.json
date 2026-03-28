@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_供应链滞后反馈阻尼系统_利用生态_ef148e",
+  "file": "skills/auto_构建_供应链滞后反馈阻尼系统_利用生态_ef148e.py",
+  "description": "构建‘供应链滞后反馈阻尼系统’。利用生态学中捕食者-猎物模型的相图分析，预测供应链中的牛鞭效应。系统引入生态系统的‘密度制约’因子，自动平滑订单波动。例如，当‘猎物’（终端需求）突然增加时，系统不直接线性放大‘捕食者’（库存/产能），而是引入基于历史振荡周期的阻尼算法，防止系统崩溃，实现供应链的稳态平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.473233",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_17_O2_9850",
+  "design_spec": {
+    "name": "auto_构建_供应链滞后反馈阻尼系统_利用生态_ef148e",
+    "display_name": "构建‘供应链滞后反馈阻尼系统’。利用生态学中捕食者-猎物模型的相图分析，预测供应链中的牛鞭效应。系统",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘供应链滞后反馈阻尼系统’。利用生态学中捕食者-猎物模型的相图分析，预测供应链中的牛鞭效应。系统引入生态系统的‘密度制约’因子，自动平滑订单波动。例如，当‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 231
+  }
+}

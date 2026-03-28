@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于flutter状态管理架构的实时参数_5cbc43",
+  "file": "skills/auto_基于flutter状态管理架构的实时参数_5cbc43.py",
+  "description": "基于Flutter状态管理架构的实时参数化CAD内核。利用Flutter的响应式框架直接驱动CAD几何内核的更新。当用户在UI层调整参数时，不仅刷新视图，而是通过状态驱动底层的几何约束求解器重新计算B-Rep数据。这使得复杂的机械装配体可以像Flutter App一样具备'热重载'般的实时参数反馈能力，极大缩短工程设计迭代周期。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.395323",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_128_O1_3487",
+  "design_spec": {
+    "name": "auto_基于flutter状态管理架构的实时参数_5cbc43",
+    "display_name": "基于Flutter状态管理架构的实时参数化CAD内核。利用Flutter的响应式框架直接驱动CAD几",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于Flutter状态管理架构的实时参数化CAD内核。利用Flutter的响应式框架直接驱动CAD几何内核的更新。当用户在UI层调整参数时，不仅刷新视图，而是通",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

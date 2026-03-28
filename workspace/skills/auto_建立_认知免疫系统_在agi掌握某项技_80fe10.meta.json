@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_认知免疫系统_在agi掌握某项技_80fe10",
+  "file": "skills/auto_建立_认知免疫系统_在agi掌握某项技_80fe10.py",
+  "description": "建立'认知免疫系统'。在AGI掌握某项技能（如自动驾驶策略或医疗诊断）后，系统自动生成一个'魔鬼代理人'（Adversarial Agent），专门针对该技能的盲区生成极端测试用例（如'暴雨+逆光+前方突然出现的塑料袋'）。这不仅是测试，更是通过'主动证伪'来强制AGI升级认知网络，填补逻辑漏洞，实现自我进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.106112",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O6_3489",
+  "design_spec": {
+    "name": "auto_建立_认知免疫系统_在agi掌握某项技_80fe10",
+    "display_name": "建立'认知免疫系统'。在AGI掌握某项技能（如自动驾驶策略或医疗诊断）后，系统自动生成一个'魔鬼代理",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'认知免疫系统'。在AGI掌握某项技能（如自动驾驶策略或医疗诊断）后，系统自动生成一个'魔鬼代理人'（Adversarial Agent），专门针对该技能的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

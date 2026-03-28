@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知进化型自修复内核_将代码调试_780975",
+  "file": "skills/auto_构建_认知进化型自修复内核_将代码调试_780975.py",
+  "description": "构建'认知进化型自修复内核'。将代码调试过程显式化为一个认知证伪过程。当沙箱报错时，AI不仅仅修补代码，而是试图证伪生成该代码的'底层逻辑假设'。例如，如果代码因内存溢出报错，AI会证伪'内存充足'这个隐含假设，并引入'资源受限'的认知节点，从而重构出更健壮的架构，而非仅仅修补漏洞。这赋予了AI系统类似人类的'吃一堑长一智'的深度学习能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.362001",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O3_7301",
+  "design_spec": {
+    "name": "auto_构建_认知进化型自修复内核_将代码调试_780975",
+    "display_name": "构建'认知进化型自修复内核'。将代码调试过程显式化为一个认知证伪过程。当沙箱报错时，AI不仅仅修补代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知进化型自修复内核'。将代码调试过程显式化为一个认知证伪过程。当沙箱报错时，AI不仅仅修补代码，而是试图证伪生成该代码的'底层逻辑假设'。例如，如果代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

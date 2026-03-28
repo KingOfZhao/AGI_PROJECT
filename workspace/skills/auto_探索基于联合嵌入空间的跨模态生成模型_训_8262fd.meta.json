@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索基于联合嵌入空间的跨模态生成模型_训_8262fd",
+  "file": "skills/auto_探索基于联合嵌入空间的跨模态生成模型_训_8262fd.py",
+  "description": "探索基于联合嵌入空间的跨模态生成模型，训练‘视觉纹理->触觉数据’的转换函数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_39",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T06:51:21.223597",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_39_G1_9385",
+  "design_spec": {
+    "name": "auto_探索基于联合嵌入空间的跨模态生成模型_训_8262fd",
+    "display_name": "探索基于联合嵌入空间的跨模态生成模型，训练‘视觉纹理->触觉数据’的转换函数。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索基于联合嵌入空间的跨模态生成模型，训练‘视觉纹理->触觉数据’的转换函数。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

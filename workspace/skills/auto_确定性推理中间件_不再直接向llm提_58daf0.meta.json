@@ -1,0 +1,30 @@
+{
+  "name": "auto_确定性推理中间件_不再直接向llm提_58daf0",
+  "file": "skills/auto_确定性推理中间件_不再直接向llm提_58daf0.py",
+  "description": "‘确定性推理中间件’。不再直接向LLM提问，而是将复杂任务编译成一组SSA格式的‘微提示’序列。每个提示词只负责单一变量的‘赋值’（计算），后续提示词依赖前序结果。通过引入编译器数据流分析，自动检测提示词链中的‘死代码’（无用推理）和‘未初始化变量’（幻觉来源），实现LLM推理过程的确定性与可调试性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.750992",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_74_O2_6045",
+  "design_spec": {
+    "name": "auto_确定性推理中间件_不再直接向llm提_58daf0",
+    "display_name": "‘确定性推理中间件’。不再直接向LLM提问，而是将复杂任务编译成一组SSA格式的‘微提示’序列。每个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘确定性推理中间件’。不再直接向LLM提问，而是将复杂任务编译成一组SSA格式的‘微提示’序列。每个提示词只负责单一变量的‘赋值’（计算），后续提示词依赖前序结",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

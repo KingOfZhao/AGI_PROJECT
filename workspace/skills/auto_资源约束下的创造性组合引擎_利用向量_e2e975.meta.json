@@ -1,0 +1,30 @@
+{
+  "name": "auto_资源约束下的创造性组合引擎_利用向量_e2e975",
+  "file": "skills/auto_资源约束下的创造性组合引擎_利用向量_e2e975.py",
+  "description": "【资源约束下的创造性组合引擎】：利用向量空间探测技术，主动识别‘当前工具/材料库’无法覆盖的‘能力空洞’。系统不提示‘失败’，而是检索‘邻近向量’（功能相似但形态不同的工具/材料），生成‘替代性组合方案’。例如，当缺少专用焊接设备时，系统基于物理属性相似度，推荐‘化学粘合+热风枪’的替代节点组合，实现跨域创新。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.526281",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_147_O4_2182",
+  "design_spec": {
+    "name": "auto_资源约束下的创造性组合引擎_利用向量_e2e975",
+    "display_name": "【资源约束下的创造性组合引擎】：利用向量空间探测技术，主动识别‘当前工具/材料库’无法覆盖的‘能力空",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【资源约束下的创造性组合引擎】：利用向量空间探测技术，主动识别‘当前工具/材料库’无法覆盖的‘能力空洞’。系统不提示‘失败’，而是检索‘邻近向量’（功能相似但形",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

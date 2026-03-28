@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_压力测试型知识固件_利用生态学_3ba7f9",
+  "file": "skills/auto_创建_压力测试型知识固件_利用生态学_3ba7f9.py",
+  "description": "创建'压力测试型知识固件'。利用生态学'环境过滤'机制，对AI生成的新概念进行极端环境模拟测试。一个新生的'真实节点'不仅要能解决当前问题，还要在'环境扰动'（如数据分布漂移、对抗攻击）下保持稳定性。只有具备高'性状稳定性'的知识才能被固化为长期记忆，这种基于鲁棒性验证的固化机制能显著提升AGI的抗干扰能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.972301",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O5_6504",
+  "design_spec": {
+    "name": "auto_创建_压力测试型知识固件_利用生态学_3ba7f9",
+    "display_name": "创建'压力测试型知识固件'。利用生态学'环境过滤'机制，对AI生成的新概念进行极端环境模拟测试。一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'压力测试型知识固件'。利用生态学'环境过滤'机制，对AI生成的新概念进行极端环境模拟测试。一个新生的'真实节点'不仅要能解决当前问题，还要在'环境扰动'（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

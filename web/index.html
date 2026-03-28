@@ -258,7 +258,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
     <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center text-white text-sm font-bold">A</div>
     <div>
       <h1 class="text-sm font-bold text-white leading-none">AGI v13.3 <span class="text-violet-400">Cognitive Lattice</span></h1>
-      <p class="text-[10px] text-slate-500 leading-none mt-0.5">认知格核心 · 四向碰撞 · 自主执行</p>
+      <p class="text-[10px] text-slate-500 leading-none mt-0.5">认知格核心 · 四向碰撞 · 自主执行 · <a href="/box-editor" class="text-cyan-500 hover:text-cyan-400">📦 盒型设计</a></p>
     </div>
   </div>
   <div class="flex items-center gap-2">
@@ -270,9 +270,9 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
       <label data-bk="zhipu_glm5" onclick="switchBackend('zhipu_glm5')">GLM-5</label>
     </div>
     <span id="backend-label" class="text-[9px] text-slate-600 hidden"></span>
-    <button onclick="withLoading(this,triggerBootstrap,'⏳ 引导中...')" class="px-2.5 py-1 bg-emerald-600/80 hover:bg-emerald-500 rounded-md text-[11px] font-medium transition">🚀 引导</button>
-    <button onclick="withLoading(this,seedCodeNodes,'⏳ 注入中...')" class="px-2.5 py-1 bg-blue-600/80 hover:bg-blue-500 rounded-md text-[11px] font-medium transition">🔧 代码种子</button>
-    <button onclick="withLoading(this,triggerGrowth,'⏳ 成长中...')" class="px-2.5 py-1 bg-violet-600/80 hover:bg-violet-500 rounded-md text-[11px] font-medium transition">⟳ 成长</button>
+    <button onclick="withLoading(this,triggerBootstrap,'⏳ 引导中...')" class="px-2.5 py-1 bg-emerald-600/80 hover:bg-emerald-500 rounded-md text-[11px] font-medium transition" aria-label="能力引导">🚀 引导</button>
+    <button onclick="withLoading(this,seedCodeNodes,'⏳ 注入中...')" class="px-2.5 py-1 bg-blue-600/80 hover:bg-blue-500 rounded-md text-[11px] font-medium transition" aria-label="注入代码种子节点">🔧 代码种子</button>
+    <button onclick="withLoading(this,triggerGrowth,'⏳ 成长中...')" class="px-2.5 py-1 bg-violet-600/80 hover:bg-violet-500 rounded-md text-[11px] font-medium transition" aria-label="触发自成长循环">⟳ 成长</button>
     <div class="relative">
       <button onclick="toggleSettings()" class="px-2 py-1 bg-slate-800/80 hover:bg-slate-700 rounded-md text-[11px] transition" title="设置">⚙️</button>
       <div id="settings-panel" class="settings-drop">
@@ -378,10 +378,10 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
           <input id="chat-in" type="text" placeholder="输入问题 (Enter 发送)..." aria-label="输入消息" autocomplete="off"
             class="flex-1 bg-[#0d1117] border border-slate-700/60 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-violet-500 placeholder-slate-600"
             onkeydown="if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing)sendMsg()">
-          <button id="btn-send" onclick="sendMsg()" class="px-3 py-2 bg-violet-600 hover:bg-violet-500 rounded-lg text-xs font-semibold transition">发送</button>
+          <button id="btn-send" onclick="sendMsg()" class="px-3 py-2 bg-violet-600 hover:bg-violet-500 rounded-lg text-xs font-semibold transition" aria-label="发送消息">发送</button>
           <button id="btn-rewrite" onclick="withLoading(this,nlRewrite,'⏳...')" class="px-2.5 py-2 bg-emerald-700/70 hover:bg-emerald-600 rounded-lg text-[10px] font-semibold transition shrink-0" title="将输入重写为AI低幻觉表达">🎯 低幻觉</button>
           <button id="btn-math" onclick="withLoading(this,mathFormalize,'⏳...')" class="px-2.5 py-2 bg-blue-700/70 hover:bg-blue-600 rounded-lg text-[10px] font-semibold transition shrink-0" title="数学公式定义/拆解/温差推演">📐 公式化</button>
-          <button id="btn-stop" onclick="stopChat()" class="px-3 py-2 btn-stop hover:bg-red-500 rounded-lg text-xs font-semibold transition hidden">⏹ 停止</button>
+          <button id="btn-stop" onclick="stopChat()" class="px-3 py-2 btn-stop hover:bg-red-500 rounded-lg text-xs font-semibold transition hidden" aria-label="停止当前对话">⏹ 停止</button>
         </div>
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-2 text-[10px] text-slate-600">
@@ -532,6 +532,33 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
     </div>
     <!-- 智谱自主成长 -->
     <div id="p-zgrowth" class="flex-1 overflow-y-auto p-3 space-y-2 hidden">
+      <!-- DiePre框架自成长报告 -->
+      <div id="diepre-report" class="space-y-1.5">
+        <div class="flex items-center justify-between">
+          <span class="text-[11px] font-semibold text-violet-400">📊 DiePre框架自成长报告</span>
+          <button onclick="loadDiePreReport()" class="text-[9px] text-slate-600 hover:text-slate-300">刷新</button>
+        </div>
+        <div id="diepre-content" class="space-y-2">
+          <div class="text-[9px] text-slate-600 text-center py-2">加载中...</div>
+        </div>
+      </div>
+
+      <!-- FE-4: DiePre reasoning.db 实时数据面板 -->
+      <div id="diepre-db-panel" class="space-y-1.5">
+        <div class="flex items-center justify-between">
+          <span class="text-[11px] font-semibold text-cyan-400">🗄️ DiePre推演数据库</span>
+          <div class="flex gap-1">
+            <button onclick="loadDiePreDB()" class="text-[9px] text-slate-600 hover:text-slate-300">刷新</button>
+            <button onclick="importDiePreNodes()" class="text-[9px] px-1.5 py-0.5 bg-violet-600/50 hover:bg-violet-500 rounded text-violet-300 transition">导入real节点</button>
+          </div>
+        </div>
+        <div id="diepre-db-content" class="space-y-2">
+          <div class="text-[9px] text-slate-600 text-center py-2">点击刷新加载</div>
+        </div>
+      </div>
+
+      <hr class="border-slate-800/60">
+
       <!-- 成长控制 -->
       <div class="space-y-1.5">
         <div class="flex items-center justify-between">
@@ -681,7 +708,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
         <div class="flex gap-1.5">
           <input id="nd-search" type="text" placeholder="搜索节点..."
             class="flex-1 bg-[#0d1117] border border-slate-700/60 rounded-md px-2.5 py-1.5 text-xs focus:outline-none focus:border-violet-500 placeholder-slate-600"
-            onkeydown="if(event.key==='Enter')searchND()">
+            oninput="debounceSearch()" onkeydown="if(event.key==='Enter')searchND()">
           <button onclick="searchND()" class="px-2 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-md text-xs transition">🔍</button>
         </div>
         <div class="flex items-start gap-1.5">
@@ -757,7 +784,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 <div id="toast" class="fixed bottom-4 right-4 bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-xs shadow-lg transform translate-y-16 opacity-0 transition-all duration-300 z-50 max-w-xs"></div>
 
 <script>
-const API='';
+const API=location.port==='8890'?'http://localhost:5002':'';
 let pg=1, domFilter='', searchQ='', sid=rndId(), chatBusy=false;
 let chatAbort=null; // AbortController for current chat request
 let consoleSince=0, consoleTimer=null;
@@ -788,12 +815,13 @@ async function withLoading(btnOrId, asyncFn, loadingText){
 
 // ========== SSE 实时推演 ==========
 let evtSource=null;
+let _sseBackoff=3000;
 function connectSSE(){
   if(evtSource)evtSource.close();
   evtSource=new EventSource(API+'/api/stream');
-  evtSource.onopen=()=>{document.getElementById('sse-status').innerHTML='<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot"></span><span class="text-emerald-400">实时</span>'};
+  evtSource.onopen=()=>{_sseBackoff=3000;document.getElementById('sse-status').innerHTML='<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot"></span><span class="text-emerald-400">实时</span>'};
   evtSource.onmessage=(ev)=>{try{const d=JSON.parse(ev.data);addProcessStep(d)}catch(e){}};
-  evtSource.onerror=()=>{document.getElementById('sse-status').innerHTML='<span class="w-1.5 h-1.5 rounded-full bg-red-400"></span><span class="text-red-400">断开</span>';setTimeout(connectSSE,3000)};
+  evtSource.onerror=()=>{document.getElementById('sse-status').innerHTML='<span class="w-1.5 h-1.5 rounded-full bg-red-400"></span><span class="text-red-400">断开</span>';setTimeout(connectSSE,_sseBackoff);_sseBackoff=Math.min(_sseBackoff*2,30000)};
 }
 
 const _stepIcons={chat_start:'💬',search:'🔍',top_down:'⬇️',bottom_up:'⬆️',collision:'⚡',action_plan:'🔧',plan_start:'📋',plan_step:'▶️',plan_done:'✅',execute:'💻',execute_code:'📝',execute_result:'📊',file_create:'📄',skill_build:'🛠',skill_run:'🎯',nodes_feedback:'🧠',chat_done:'✅',connected:'🔗',synthesis:'🎯',gap_detect:'🔍',self_strengthen:'💪',verification:'🛡️'};
@@ -845,10 +873,12 @@ async function sendMsg(){
   chatAbort=new AbortController();
   const domainModes=['heat','mobile','agi','cross'];
   const enableAct=chatMode==='code'||domainModes.includes(chatMode)?true:chatMode==='plan'?'plan':false;
+  const wasAborted=()=>chatAbort?.signal?.aborted;
   const data=await api('/api/chat',{method:'POST',body:JSON.stringify({message:msg,session_id:sid,enable_actions:enableAct,mode:chatMode}),signal:chatAbort.signal});
+  const aborted=wasAborted();
   rmTyping();setChatBusy(false);chatAbort=null;
   if(data){addChat('ai',data.response,data.metadata);loadStats();loadNodes();loadDomains();loadWorkspace();loadSkills()}
-  else if(!chatAbort) addChat('ai','❌ 请求失败或已停止');
+  else if(!aborted) addChat('ai','❌ 请求失败，请检查后端连接');
 }
 async function stopChat(){
   if(chatAbort)chatAbort.abort();
@@ -857,6 +887,8 @@ async function stopChat(){
   toast('已停止当前对话','warn');
 }
 function endConversation(){
+  if(chatAbort){chatAbort.abort();chatAbort=null;}
+  rmTyping();setChatBusy(false);
   sid=rndId();
   document.getElementById('chat-box').innerHTML='<div class="text-center text-slate-600 text-xs py-12"><div class="text-3xl mb-2">🧠</div>新对话已开始</div>';
   document.getElementById('p-process').innerHTML='<div class="text-center text-slate-600 text-xs py-8">发起对话后这里显示实时推演过程</div>';
@@ -870,7 +902,7 @@ function addChat(role,content,metadata){
   if(box.querySelector('.text-center'))box.innerHTML='';
   const d=document.createElement('div');
   d.className=(role==='user'?'msg-user':'msg-ai')+' rounded-lg p-2.5 slide-in';
-  const lbl=role==='user'?'<div class="text-[10px] font-semibold text-blue-400 mb-1">你</div>':'<div class="text-[10px] font-semibold text-violet-400 mb-1">认知格 AGI</div>';
+  const lbl=role==='user'?'<div class="text-[10px] font-semibold text-blue-400 mb-1">你</div>':'<div class="text-[10px] font-semibold text-violet-400 mb-1">认知格</div>';
   let html=md(content);
   // 将验证标签转为样式化徽章
   if(role!=='user'){
@@ -911,7 +943,7 @@ function addChat(role,content,metadata){
   d.querySelectorAll('pre code').forEach(b=>hljs.highlightElement(b));
 }
 let _stepCount=0;
-function addTyping(){const box=document.getElementById('chat-box');const d=document.createElement('div');d.id='typing';d.className='msg-ai rounded-lg p-2.5';_stepCount=0;d.innerHTML='<div class="text-[10px] font-semibold text-violet-400 mb-1">认知格 AGI</div><div id="typing-steps" class="space-y-0.5"></div><div class="flex items-center gap-1 text-xs text-slate-500 mt-1"><span class="w-4 h-4 border-2 border-violet-400 border-t-transparent rounded-full spin inline-block"></span> <span id="typing-text">启动认知引擎...</span></div>';box.appendChild(d);box.scrollTop=box.scrollHeight}
+function addTyping(){const box=document.getElementById('chat-box');const d=document.createElement('div');d.id='typing';d.className='msg-ai rounded-lg p-2.5';_stepCount=0;d.innerHTML='<div class="text-[10px] font-semibold text-violet-400 mb-1">认知格</div><div id="typing-steps" class="space-y-0.5"></div><div class="flex items-center gap-1 text-xs text-slate-500 mt-1"><span class="w-4 h-4 border-2 border-violet-400 border-t-transparent rounded-full spin inline-block"></span> <span id="typing-text">启动认知引擎...</span></div>';box.appendChild(d);box.scrollTop=box.scrollHeight}
 function updateTyping(text,stepDetail){
   const tt=document.getElementById('typing-text');
   if(tt)tt.textContent=text;
@@ -1054,6 +1086,9 @@ function toggleDomExpand(){
 function filterDom(d){domFilter=d;pg=1;loadDomains();loadNodes()}
 function searchND(){searchQ=document.getElementById('nd-search').value.trim();pg=1;loadNodes()}
 function pgDelta(d){pg=Math.max(1,pg+d);loadNodes()}
+// FE-3: 防抖搜索 300ms
+let _searchTimer=null;
+function debounceSearch(){clearTimeout(_searchTimer);_searchTimer=setTimeout(searchND,300)}
 function ndDetail(el){
   const id=el.dataset.id;
   addChat('ai',`**节点 #${id}**\n${el.querySelector('p').textContent}\n领域: ${el.querySelector('.bg-slate-800\\/80')?.textContent||'-'}`);
@@ -1167,6 +1202,7 @@ function switchMid(btn){
   btn.parentElement.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   document.getElementById('p-'+btn.dataset.tab).classList.remove('hidden');
+  if(btn.dataset.tab==='zgrowth'){loadDiePreReport();loadDiePreDB();}
   if(btn.dataset.tab==='workspace')loadWorkspace();
   if(btn.dataset.tab==='skills')loadSkills();
   if(btn.dataset.tab==='console')pollConsole();
@@ -1299,23 +1335,45 @@ function startGraphSim(){
   tick();
 }
 
+// FE-1: Barnes-Hut quadtree for O(n log n) force simulation
+function _bhInsert(qt,n){
+  if(!qt.body&&!qt.nw){qt.body=n;qt.mass=1;qt.cx=n.x;qt.cy=n.y;return}
+  if(!qt.nw){
+    const mx=(qt.x0+qt.x1)/2,my=(qt.y0+qt.y1)/2;
+    qt.nw={x0:qt.x0,y0:qt.y0,x1:mx,y1:my,mass:0,cx:0,cy:0,body:null,nw:null,ne:null,sw:null,se:null};
+    qt.ne={x0:mx,y0:qt.y0,x1:qt.x1,y1:my,mass:0,cx:0,cy:0,body:null,nw:null,ne:null,sw:null,se:null};
+    qt.sw={x0:qt.x0,y0:my,x1:mx,y1:qt.y1,mass:0,cx:0,cy:0,body:null,nw:null,ne:null,sw:null,se:null};
+    qt.se={x0:mx,y0:my,x1:qt.x1,y1:qt.y1,mass:0,cx:0,cy:0,body:null,nw:null,ne:null,sw:null,se:null};
+    if(qt.body){const ob=qt.body;qt.body=null;_bhInsert(qt,ob)}
+  }
+  const mx=(qt.x0+qt.x1)/2,my=(qt.y0+qt.y1)/2;
+  qt.mass++;qt.cx=((qt.cx*(qt.mass-1))+n.x)/qt.mass;qt.cy=((qt.cy*(qt.mass-1))+n.y)/qt.mass;
+  if(n.x<mx){if(n.y<my)_bhInsert(qt.nw,n);else _bhInsert(qt.sw,n)}
+  else{if(n.y<my)_bhInsert(qt.ne,n);else _bhInsert(qt.se,n)}
+}
+function _bhForce(qt,n,theta,repulse,alpha){
+  if(!qt||qt.mass===0)return;
+  if(qt.body&&qt.body!==n){
+    let dx=qt.body.x-n.x,dy=qt.body.y-n.y,d2=dx*dx+dy*dy;if(d2<1)d2=1;
+    const f=repulse/d2*alpha,dist=Math.sqrt(d2);n.vx-=dx/dist*f;n.vy-=dy/dist*f;return;
+  }
+  const s=qt.x1-qt.x0,dx=qt.cx-n.x,dy=qt.cy-n.y,d2=dx*dx+dy*dy;
+  if(d2>1&&s*s/d2<theta*theta){
+    const f=repulse*qt.mass/d2*alpha,dist=Math.sqrt(d2);n.vx-=dx/dist*f;n.vy-=dy/dist*f;return;
+  }
+  if(qt.nw){_bhForce(qt.nw,n,theta,repulse,alpha);_bhForce(qt.ne,n,theta,repulse,alpha);
+    _bhForce(qt.sw,n,theta,repulse,alpha);_bhForce(qt.se,n,theta,repulse,alpha)}
+}
 function simStep(progress){
   const nodes=graphData.nodes,edges=graphData.edges,idx=graphData._idx;
   const alpha=0.3*(1-progress*0.8);
   const repulse=800;
-  // 斥力
-  for(let i=0;i<nodes.length;i++){
-    for(let j=i+1;j<nodes.length;j++){
-      let dx=nodes[j].x-nodes[i].x,dy=nodes[j].y-nodes[i].y;
-      let d2=dx*dx+dy*dy;
-      if(d2<1)d2=1;
-      const f=repulse/d2;
-      const fx=dx/Math.sqrt(d2)*f*alpha;
-      const fy=dy/Math.sqrt(d2)*f*alpha;
-      nodes[i].vx-=fx;nodes[i].vy-=fy;
-      nodes[j].vx+=fx;nodes[j].vy+=fy;
-    }
-  }
+  // Barnes-Hut斥力 O(n log n)
+  let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;
+  for(const n of nodes){if(n.x<minX)minX=n.x;if(n.x>maxX)maxX=n.x;if(n.y<minY)minY=n.y;if(n.y>maxY)maxY=n.y}
+  const pad=10;const root={x0:minX-pad,y0:minY-pad,x1:maxX+pad,y1:maxY+pad,mass:0,cx:0,cy:0,body:null,nw:null,ne:null,sw:null,se:null};
+  for(const n of nodes)_bhInsert(root,n);
+  for(const n of nodes)_bhForce(root,n,0.7,repulse,alpha);
   // 引力（沿边）
   const spring=0.05;
   const idealLen=80;
@@ -1345,10 +1403,13 @@ function simStep(progress){
 function drawGraph(){
   const canvas=document.getElementById('graph-canvas');
   const wrap=document.getElementById('graph-wrap');
-  canvas.width=wrap.clientWidth;canvas.height=wrap.clientHeight;
+  const dpr=window.devicePixelRatio||1;
+  canvas.width=wrap.clientWidth*dpr;canvas.height=wrap.clientHeight*dpr;
+  canvas.style.width=wrap.clientWidth+'px';canvas.style.height=wrap.clientHeight+'px';
   const ctx=canvas.getContext('2d');
+  ctx.scale(dpr,dpr);
   const nodes=graphData.nodes,edges=graphData.edges,idx=graphData._idx;
-  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.clearRect(0,0,wrap.clientWidth,wrap.clientHeight);
   ctx.save();
   ctx.translate(gPanX,gPanY);
   ctx.scale(gZoom,gZoom);
@@ -1870,6 +1931,175 @@ async function batchAutoProblems(){
     toast(`处理完成: ${r.total}个问题(✅${r.resolved} ✗${r.dismissed})，剩余${r.remaining}`,'success');
   }else{toast(r?.error||'处理失败','error');}
   loadZGrowth();
+}
+
+// ========== FE-4: DiePre reasoning.db 实时数据 ==========
+async function loadDiePreDB(){
+  const container=document.getElementById('diepre-db-content');
+  container.innerHTML='<div class="text-[9px] text-slate-600 text-center py-2">加载中...</div>';
+  const data=await api('/api/diepre/stats');
+  if(!data||!data.available){
+    container.innerHTML='<div class="text-[9px] text-red-400 text-center py-2">'+(data?.error||'reasoning.db 未找到')+'</div>';
+    return;
+  }
+  const rd=data.reality_distribution||{};
+  const td=data.type_distribution||{};
+  const topTypes=Object.entries(td).slice(0,8);
+  let html=`
+    <div class="bg-gradient-to-r from-cyan-900/20 to-blue-900/20 border border-cyan-800/30 rounded-lg p-2 space-y-1">
+      <div class="grid grid-cols-4 gap-1 text-center">
+        <div><div class="text-xs font-bold text-cyan-400">${data.total_nodes}</div><div class="text-[8px] text-slate-500">总节点</div></div>
+        <div><div class="text-xs font-bold text-emerald-400">${rd.real||0}</div><div class="text-[8px] text-slate-500">real</div></div>
+        <div><div class="text-xs font-bold text-amber-400">${rd.inferred||0}</div><div class="text-[8px] text-slate-500">inferred</div></div>
+        <div><div class="text-xs font-bold text-violet-400">${data.total_collisions}</div><div class="text-[8px] text-slate-500">碰撞</div></div>
+      </div>
+    </div>
+    <div class="space-y-0.5">
+      <div class="text-[9px] text-slate-500 font-medium">节点类型分布 TOP8</div>
+      ${topTypes.map(([t,c])=>{
+        const pct=Math.round(c/data.total_nodes*100);
+        return `<div class="flex items-center gap-1.5 text-[9px]"><span class="flex-1 text-slate-400 truncate">${t}</span><div class="w-16 h-1.5 bg-slate-800 rounded-full overflow-hidden"><div class="h-full bg-cyan-500/60 rounded-full" style="width:${pct}%"></div></div><span class="text-slate-600 w-8 text-right">${c}</span></div>`;
+      }).join('')}
+    </div>`;
+  // 加载碰撞历史
+  const cData=await api('/api/diepre/collisions?limit=5');
+  if(cData?.collisions?.length){
+    html+=`<details class="bg-slate-800/30 rounded-lg border border-slate-700/50"><summary class="cursor-pointer p-2 text-[9px] font-semibold text-orange-400 hover:bg-slate-800/50">⚡ 最近碰撞 (${cData.collisions.length}轮)</summary><div class="p-2 space-y-1 border-t border-slate-700/50">`;
+    for(const col of cData.collisions){
+      html+=`<div class="bg-slate-900/50 border border-slate-700/40 rounded p-1.5"><div class="flex justify-between text-[9px]"><span class="text-orange-300">第${col.round_number}轮 ${col.collision_type||''}</span><span class="text-slate-600">${col.created_at||''}</span></div><div class="grid grid-cols-4 gap-1 text-center text-[8px] mt-1"><div class="text-emerald-400">✓${col.consensus_count||0}</div><div class="text-amber-400">?${col.disputed_count||0}</div><div class="text-cyan-400">+${col.new_count||0}</div><div class="text-red-400">✗${col.failed_count||0}</div></div></div>`;
+    }
+    html+=`</div></details>`;
+  }
+  container.innerHTML=html;
+}
+async function importDiePreNodes(){
+  if(!confirm('将DiePre real节点导入主知识库？'))return;
+  toast('正在导入DiePre real节点...','info');
+  const data=await api('/api/diepre/import',{method:'POST',body:JSON.stringify({domain:'diepre'})});
+  if(data?.success){
+    toast(`导入完成: ${data.imported}个新节点, ${data.skipped}个跳过 (共${data.total_real}个real节点)`,'success');
+    loadStats();loadNodes();loadDomains();loadDiePreDB();
+  }else{toast(data?.error||'导入失败','error')}
+}
+
+// ========== DiePre框架自成长报告 ==========
+async function loadDiePreReport(){
+  try{
+    const resp = await fetch('data/growth_report.json');
+    if(!resp.ok){document.getElementById('diepre-content').innerHTML='<div class="text-[9px] text-slate-500 text-center py-2">暂无成长报告 (运行成长引擎后生成)</div>';return}
+    const data = await resp.json();
+    const container = document.getElementById('diepre-content');
+    
+    let html = `
+      <!-- 核心统计 -->
+      <div class="bg-gradient-to-r from-violet-900/20 to-indigo-900/20 border border-violet-800/30 rounded-lg p-2 space-y-1">
+        <div class="text-[10px] font-semibold text-violet-300">v${data.version} ${data.framework}</div>
+        <div class="grid grid-cols-4 gap-1 text-center">
+          <div><div class="text-xs font-bold text-violet-400">${data.total_rounds}</div><div class="text-[8px] text-slate-500">轮次</div></div>
+          <div><div class="text-xs font-bold text-emerald-400">${data.total_nodes}</div><div class="text-[8px] text-slate-500">节点</div></div>
+          <div><div class="text-xs font-bold text-cyan-400">${data.total_skills}</div><div class="text-[8px] text-slate-500">SKILL</div></div>
+          <div><div class="text-xs font-bold text-amber-400">${(data.total_tokens/1000).toFixed(0)}K</div><div class="text-[8px] text-slate-500">Tokens</div></div>
+        </div>
+        <div class="flex justify-between text-[8px] text-slate-500 pt-1 border-t border-violet-800/20">
+          <span>平均/轮: ${(data.avg_tokens_per_round/1000).toFixed(0)}K</span>
+          <span>速率: ${(data.tokens_per_hour/1000).toFixed(0)}K/h</span>
+        </div>
+      </div>
+
+      <!-- DiePre增强指标 -->
+      <div class="space-y-1">
+        <div class="text-[9px] font-semibold text-slate-400">🎯 DiePre增强指标</div>
+        <div class="grid grid-cols-2 gap-1">
+          <div class="bg-slate-800/40 rounded p-1.5">
+            <div class="text-[8px] text-slate-500">固定规则</div>
+            <div class="text-sm font-bold text-blue-400">${data.diepre_metrics.fixed_nodes}</div>
+          </div>
+          <div class="bg-slate-800/40 rounded p-1.5">
+            <div class="text-[8px] text-slate-500">可变参数</div>
+            <div class="text-sm font-bold text-purple-400">${data.diepre_metrics.variable_nodes}</div>
+          </div>
+          <div class="bg-slate-800/40 rounded p-1.5">
+            <div class="text-[8px] text-slate-500">风险扫描</div>
+            <div class="text-sm font-bold text-orange-400">${data.diepre_metrics.risks_found}</div>
+          </div>
+          <div class="bg-slate-800/40 rounded p-1.5">
+            <div class="text-[8px] text-slate-500">RSS置信度</div>
+            <div class="text-sm font-bold text-green-400">${data.diepre_metrics.avg_rss_confidence.toFixed(3)}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 收敛分析 -->
+      <details class="bg-slate-800/30 rounded-lg border border-slate-700/50">
+        <summary class="cursor-pointer p-2 text-[9px] font-semibold text-emerald-400 hover:bg-slate-800/50">📊 收敛分析 (${data.convergence_analysis.converged_domains}个域已收敛)</summary>
+        <div class="p-2 space-y-1 border-t border-slate-700/50">
+          ${data.convergence_analysis.converged_params.map(p => `
+            <div class="bg-emerald-900/20 border border-emerald-800/30 rounded p-1.5">
+              <div class="text-[8px] font-medium text-emerald-300">${p.domain}</div>
+              <div class="flex justify-between text-[8px] text-slate-400 mt-0.5">
+                <span>σ=${p.sigma.toFixed(4)}</span>
+                <span>mean=${p.mean.toFixed(3)}</span>
+                <span>N=${p.count}</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </details>
+
+      <!-- 灾难知识进化 -->
+      <details class="bg-slate-800/30 rounded-lg border border-slate-700/50">
+        <summary class="cursor-pointer p-2 text-[9px] font-semibold text-red-400 hover:bg-slate-800/50">⚠️ 灾难知识进化 (${data.disaster_knowledge.length}类)</summary>
+        <div class="p-2 space-y-1 border-t border-slate-700/50 max-h-[200px] overflow-y-auto">
+          ${data.disaster_knowledge.map(d => {
+            const severityColor = d.severity === '致命' ? 'red' : d.severity === '严重' ? 'orange' : 'yellow';
+            const levelBadge = d.level === '完全量化' ? 'bg-red-900/30 text-red-300' : 'bg-yellow-900/30 text-yellow-300';
+            return `
+            <div class="bg-slate-900/50 border border-slate-700/40 rounded p-1.5">
+              <div class="flex items-center justify-between">
+                <span class="text-[8px] font-mono font-bold text-${severityColor}-400">${d.code}</span>
+                <span class="text-[7px] px-1.5 py-0.5 rounded ${levelBadge}">${d.level}</span>
+              </div>
+              <div class="text-[8px] text-slate-300 mt-0.5">${d.name}</div>
+              <div class="flex justify-between text-[7px] text-slate-500 mt-0.5">
+                <span>出现${d.count}次</span>
+                <span class="text-${severityColor}-400">${d.severity}</span>
+              </div>
+            </div>
+          `}).join('')}
+        </div>
+      </details>
+
+      <!-- 逐轮详细 -->
+      <details class="bg-slate-800/30 rounded-lg border border-slate-700/50">
+        <summary class="cursor-pointer p-2 text-[9px] font-semibold text-cyan-400 hover:bg-slate-800/50">📈 逐轮详细 (${data.total_rounds}轮)</summary>
+        <div class="p-2 space-y-1 border-t border-slate-700/50 max-h-[250px] overflow-y-auto">
+          ${data.rounds.map(r => `
+            <div class="bg-slate-900/50 border border-slate-700/40 rounded p-1.5">
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-[9px] font-bold text-violet-400">第${r.round}轮</span>
+                <span class="text-[7px] text-slate-500">${(r.elapsed_seconds/60).toFixed(1)}分钟</span>
+              </div>
+              <div class="grid grid-cols-4 gap-1 text-center text-[8px]">
+                <div><div class="text-slate-400">${r.raw_nodes}</div><div class="text-[7px] text-slate-600">原始</div></div>
+                <div><div class="text-emerald-400">${r.proven_nodes}</div><div class="text-[7px] text-slate-600">真实</div></div>
+                <div><div class="text-cyan-400">${r.skills_valid}</div><div class="text-[7px] text-slate-600">SKILL</div></div>
+                <div><div class="text-amber-400">${(r.tokens_used/1000).toFixed(0)}K</div><div class="text-[7px] text-slate-600">Token</div></div>
+              </div>
+              <div class="flex justify-between text-[7px] text-slate-500 mt-1 pt-1 border-t border-slate-700/30">
+                <span>固定=${r.fixed_nodes} 可变=${r.variable_nodes}</span>
+                <span>RSS=${r.rss_confidence.toFixed(2)} 风险=${r.risks_found}</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </details>
+    `;
+    
+    container.innerHTML = html;
+  }catch(e){
+    console.error('loadDiePreReport:',e);
+    document.getElementById('diepre-content').innerHTML = '<div class="text-[9px] text-red-400 text-center py-2">加载失败</div>';
+  }
 }
 
 // ========== NL 低幻觉重写 ==========

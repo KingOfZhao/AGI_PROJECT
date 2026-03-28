@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将高维的模糊意图_如_做一个好用的后_0feda0",
+  "file": "skills/auto_如何将高维的模糊意图_如_做一个好用的后_0feda0.py",
+  "description": "如何将高维的模糊意图（如'做一个好用的后台'）自上而下地拆解为最小可行原子任务（Atomic Tasks），并确保每个原子任务都能在现有的1168个SKILL节点中找到至少一个可执行的映射对象？若找不到映射，系统应能自动生成一个'技能缺口'节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "software_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.008379",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q2_1_7855",
+  "design_spec": {
+    "name": "auto_如何将高维的模糊意图_如_做一个好用的后_0feda0",
+    "display_name": "如何将高维的模糊意图（如'做一个好用的后台'）自上而下地拆解为最小可行原子任务（Atomic Tas",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将高维的模糊意图（如'做一个好用的后台'）自上而下地拆解为最小可行原子任务（Atomic Tasks），并确保每个原子任务都能在现有的1168个SKILL节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

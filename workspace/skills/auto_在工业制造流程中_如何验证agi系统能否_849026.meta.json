@@ -1,0 +1,30 @@
+{
+  "name": "auto_在工业制造流程中_如何验证agi系统能否_849026",
+  "file": "skills/auto_在工业制造流程中_如何验证agi系统能否_849026.py",
+  "description": "在工业制造流程中，如何验证AGI系统能否发现跨领域的'重叠节点'？例如，将流体力学中的'湍流'概念迁移应用到生产线上的'物流拥堵'分析中。这要求系统具备识别不同领域间同构结构的能力（左右跨域重叠）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "cross_domain_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:36.713527",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q3_1_9242",
+  "design_spec": {
+    "name": "auto_在工业制造流程中_如何验证agi系统能否_849026",
+    "display_name": "在工业制造流程中，如何验证AGI系统能否发现跨领域的'重叠节点'？例如，将流体力学中的'湍流'概念迁",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在工业制造流程中，如何验证AGI系统能否发现跨领域的'重叠节点'？例如，将流体力学中的'湍流'概念迁移应用到生产线上的'物流拥堵'分析中。这要求系统具备识别不同",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

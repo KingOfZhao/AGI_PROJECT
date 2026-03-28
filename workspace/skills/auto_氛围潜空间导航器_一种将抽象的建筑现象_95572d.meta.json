@@ -1,0 +1,30 @@
+{
+  "name": "auto_氛围潜空间导航器_一种将抽象的建筑现象_95572d",
+  "file": "skills/auto_氛围潜空间导航器_一种将抽象的建筑现象_95572d.py",
+  "description": "【氛围潜空间导航器】一种将抽象的建筑现象学描述（如'忧郁的'、'崇高的'）直接映射为神经网络潜空间向量的系统。通过人类建筑师对空间感受的文本描述，训练一个Text-to-Latent的映射模型，使得AI能够生成不仅'视觉正确'而且'情感共鸣'的空间图像或音乐。将'诗意'量化为可微分的向量运算。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.919777",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_46_O5_614",
+  "design_spec": {
+    "name": "auto_氛围潜空间导航器_一种将抽象的建筑现象_95572d",
+    "display_name": "【氛围潜空间导航器】一种将抽象的建筑现象学描述（如'忧郁的'、'崇高的'）直接映射为神经网络潜空间向",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【氛围潜空间导航器】一种将抽象的建筑现象学描述（如'忧郁的'、'崇高的'）直接映射为神经网络潜空间向量的系统。通过人类建筑师对空间感受的文本描述，训练一个Tex",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 368
+  }
+}

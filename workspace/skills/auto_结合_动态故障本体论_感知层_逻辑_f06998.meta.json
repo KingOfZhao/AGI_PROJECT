@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_动态故障本体论_感知层_逻辑_f06998",
+  "file": "skills/auto_结合_动态故障本体论_感知层_逻辑_f06998.py",
+  "description": "结合'动态故障本体论'（感知层）、'逻辑应力测试'（认知层）与'认知免疫容器'（执行层），系统将具备识别自身逻辑漏洞并自动生成补丁的能力。当检测到悖论或级联失效风险时，系统不仅报警，还能尝试通过重构节点连接或隔离受损区域来实现自我修复，模拟生物的白细胞防御机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.068048",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_59_E1_9966",
+  "design_spec": {
+    "name": "auto_结合_动态故障本体论_感知层_逻辑_f06998",
+    "display_name": "结合'动态故障本体论'（感知层）、'逻辑应力测试'（认知层）与'认知免疫容器'（执行层），系统将具备",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'动态故障本体论'（感知层）、'逻辑应力测试'（认知层）与'认知免疫容器'（执行层），系统将具备识别自身逻辑漏洞并自动生成补丁的能力。当检测到悖论或级联失效",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_在缺乏明确状态标签_如_火候正好_的情_ad64bd",
+  "file": "skills/auto_在缺乏明确状态标签_如_火候正好_的情_ad64bd.py",
+  "description": "在缺乏明确状态标签（如“火候正好”）的情况下，能否通过多模态传感器数据（温度曲线、光谱、声音）的无监督聚类，自动发现人类专家潜意识中使用的“决策边界”？本问题旨在验证AI是否能重构出专家脑中的“真实节点”。如果不能从高维噪声中提取出与专家判断一致的低维流形，则该路径失效。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "unsupervised_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.693962",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_110_Q2_0_4055",
+  "design_spec": {
+    "name": "auto_在缺乏明确状态标签_如_火候正好_的情_ad64bd",
+    "display_name": "在缺乏明确状态标签（如“火候正好”）的情况下，能否通过多模态传感器数据（温度曲线、光谱、声音）的无监",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在缺乏明确状态标签（如“火候正好”）的情况下，能否通过多模态传感器数据（温度曲线、光谱、声音）的无监督聚类，自动发现人类专家潜意识中使用的“决策边界”？本问题旨",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 235
+  }
+}

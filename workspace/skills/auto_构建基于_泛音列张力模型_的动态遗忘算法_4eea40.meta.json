@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建基于_泛音列张力模型_的动态遗忘算法_4eea40",
+  "file": "skills/auto_构建基于_泛音列张力模型_的动态遗忘算法_4eea40.py",
+  "description": "构建基于‘泛音列张力模型’的动态遗忘算法。不再使用简单的指数衰减，而是模拟音乐中‘起音-衰减-延音-释放’(ADSR)包络。当一个知识点（节点）被创建时赋予高‘张力’（高权重），若长时间未被‘解决’（调用），则根据‘听觉暂留’原理设计非线性窗口函数进行快速降权，最终固化为‘背景噪声’（低优先级存储），从而实现比传统LRU或简单时间衰减更符合人类认知习惯的记忆管理机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_137",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:30:43.028933",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_137_O1_3890",
+  "design_spec": {
+    "name": "auto_构建基于_泛音列张力模型_的动态遗忘算法_4eea40",
+    "display_name": "构建基于‘泛音列张力模型’的动态遗忘算法。不再使用简单的指数衰减，而是模拟音乐中‘起音-衰减-延音-",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建基于‘泛音列张力模型’的动态遗忘算法。不再使用简单的指数衰减，而是模拟音乐中‘起音-衰减-延音-释放’(ADSR)包络。当一个知识点（节点）被创建时赋予高‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对当前413个节点_如何构建一种基于_fff9a9",
+  "file": "skills/auto_针对当前413个节点_如何构建一种基于_fff9a9.py",
+  "description": "针对当前413个节点，如何构建一种基于'认知亲密度'的动态向量化投影算法？该算法需超越简单的语义相似度，引入'结构拓扑相似性'（即节点在各自局部网络中的连接模式是否一致）。目标是验证：跨域节点间若存在高拓扑相似性，是否预示着存在更深层、非显性的迁移通道。这是构建迁移桥梁的地基。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:23.993041",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_11_Q1_3_7575",
+  "design_spec": {
+    "name": "auto_针对当前413个节点_如何构建一种基于_fff9a9",
+    "display_name": "针对当前413个节点，如何构建一种基于'认知亲密度'的动态向量化投影算法？该算法需超越简单的语义相似",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对当前413个节点，如何构建一种基于'认知亲密度'的动态向量化投影算法？该算法需超越简单的语义相似度，引入'结构拓扑相似性'（即节点在各自局部网络中的连接模式",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

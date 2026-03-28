@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点固化_动态技能节点的代码级复现_ac7543",
+  "file": "skills/auto_真实节点固化_动态技能节点的代码级复现_ac7543.py",
+  "description": "【真实节点固化】动态技能节点的代码级复现：针对系统中标记为'已掌握'的2368个SKILL，随机抽取非通用技能（如'特定财务报表的异常检测'），要求AI生成可直接执行且无幻觉的Python脚本。这验证了'认知自洽'是否已固化为可被机器执行的'真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.733442",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_141_Q3_2_2153",
+  "design_spec": {
+    "name": "auto_真实节点固化_动态技能节点的代码级复现_ac7543",
+    "display_name": "【真实节点固化】动态技能节点的代码级复现：针对系统中标记为'已掌握'的2368个SKILL，随机抽取",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点固化】动态技能节点的代码级复现：针对系统中标记为'已掌握'的2368个SKILL，随机抽取非通用技能（如'特定财务报表的异常检测'），要求AI生成可直",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 263
+  }
+}

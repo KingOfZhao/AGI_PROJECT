@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立基于_语义向量漂移_的知识时效性_66150c",
+  "file": "skills/auto_如何建立基于_语义向量漂移_的知识时效性_66150c.py",
+  "description": "如何建立基于'语义向量漂移'的知识时效性检测机制？系统需定期抓取节点所引用的外部权威信源（如arXiv论文、新闻源），计算其当前内容与节点创建时的向量距离。若外部世界已发生范式转移导致原文失效，节点应被标记为'待重审'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.826629",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q3_0_658",
+  "design_spec": {
+    "name": "auto_如何建立基于_语义向量漂移_的知识时效性_66150c",
+    "display_name": "如何建立基于'语义向量漂移'的知识时效性检测机制？系统需定期抓取节点所引用的外部权威信源（如arXi",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立基于'语义向量漂移'的知识时效性检测机制？系统需定期抓取节点所引用的外部权威信源（如arXiv论文、新闻源），计算其当前内容与节点创建时的向量距离。若外",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

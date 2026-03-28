@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何定义并实现_认知冲突检测机制_当新_d9fef8",
+  "file": "skills/auto_如何定义并实现_认知冲突检测机制_当新_d9fef8.py",
+  "description": "如何定义并实现‘认知冲突检测机制’？当新归纳的节点与旧有的权威节点产生逻辑矛盾时（例如新旧数据冲突），AI需能够量化这种冲突，并依据‘可证伪性’原则决定是抛弃新节点、修正旧节点，还是创建‘并行分支’。这是解决‘认知自洽’崩溃的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "belief_revision",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.553043",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_126_Q6_0_376",
+  "design_spec": {
+    "name": "auto_如何定义并实现_认知冲突检测机制_当新_d9fef8",
+    "display_name": "如何定义并实现‘认知冲突检测机制’？当新归纳的节点与旧有的权威节点产生逻辑矛盾时（例如新旧数据冲突）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何定义并实现‘认知冲突检测机制’？当新归纳的节点与旧有的权威节点产生逻辑矛盾时（例如新旧数据冲突），AI需能够量化这种冲突，并依据‘可证伪性’原则决定是抛弃新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于技能单元的代码生成拓扑_鉴于已有18_3ceda1",
+  "file": "skills/auto_基于技能单元的代码生成拓扑_鉴于已有18_3ceda1.py",
+  "description": "基于技能单元的代码生成拓扑：鉴于已有1800个SKILL节点，如何定义‘原子技能’的接口标准（Input/Output/Pre-condition），使得LLM能够像搭积木一样编排这些技能，生成可执行的流水线，而非从零生成代码？重点在于解决技能间的参数类型匹配与依赖关系解析。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.941596",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_108_Q3_3_3795",
+  "design_spec": {
+    "name": "auto_基于技能单元的代码生成拓扑_鉴于已有18_3ceda1",
+    "display_name": "基于技能单元的代码生成拓扑：鉴于已有1800个SKILL节点，如何定义‘原子技能’的接口标准（Inp",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于技能单元的代码生成拓扑：鉴于已有1800个SKILL节点，如何定义‘原子技能’的接口标准（Input/Output/Pre-condition），使得LLM",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 311
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_发明_跨域图式映射协议_利用er图的严_656bd6",
+  "file": "skills/auto_发明_跨域图式映射协议_利用er图的严_656bd6.py",
+  "description": "发明'跨域图式映射协议'。利用ER图的严谨性来校准人类图式的随意性。当人类进入一个全新领域（如生物学家学习金融）时，系统自动提取该领域的ER图结构，并将其映射到人类已有的认知图式上。通过'同构类比'（如将'现金流'映射为'血液循环'），实现知识的暴力迁移，快速建立新领域的心理表征。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.169060",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O4_9016",
+  "design_spec": {
+    "name": "auto_发明_跨域图式映射协议_利用er图的严_656bd6",
+    "display_name": "发明'跨域图式映射协议'。利用ER图的严谨性来校准人类图式的随意性。当人类进入一个全新领域（如生物学",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "发明'跨域图式映射协议'。利用ER图的严谨性来校准人类图式的随意性。当人类进入一个全新领域（如生物学家学习金融）时，系统自动提取该领域的ER图结构，并将其映射到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

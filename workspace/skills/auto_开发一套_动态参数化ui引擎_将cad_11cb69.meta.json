@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发一套_动态参数化ui引擎_将cad_11cb69",
+  "file": "skills/auto_开发一套_动态参数化ui引擎_将cad_11cb69.py",
+  "description": "开发一套'动态参数化UI引擎'。将CAD的几何约束求解算法（如求解线性/非线性方程组）引入Flutter的布局系统。现有的Flex布局仅解决线性分布，融合后可支持复杂的几何约束（如：保持A元素与B元素切线对齐，且随C元素半径变化而动态缩放）。这使得非传统布局（如圆形菜单、不规则拓扑UI）能够像CAD绘图一样具备严谨的数学自适应性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.171107",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_120_O1_3854",
+  "design_spec": {
+    "name": "auto_开发一套_动态参数化ui引擎_将cad_11cb69",
+    "display_name": "开发一套'动态参数化UI引擎'。将CAD的几何约束求解算法（如求解线性/非线性方程组）引入Flutt",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发一套'动态参数化UI引擎'。将CAD的几何约束求解算法（如求解线性/非线性方程组）引入Flutter的布局系统。现有的Flex布局仅解决线性分布，融合后可支",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 312
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_反向问题生成器_reverse_f35e24",
+  "file": "skills/auto_构建_反向问题生成器_reverse_f35e24.py",
+  "description": "构建‘反向问题生成器’（Reverse Questioning）：AI不应只回答问题，而应基于现有网络的结构空洞（Structural Holes，即缺失的连接），自动生成‘填补性问题’。例如，节点A指向C，但没有B，AI应问‘是否存在中间态B？’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.386163",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_128_Q9_2_1763",
+  "design_spec": {
+    "name": "auto_构建_反向问题生成器_reverse_f35e24",
+    "display_name": "构建‘反向问题生成器’（Reverse Questioning）：AI不应只回答问题，而应基于现有网",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘反向问题生成器’（Reverse Questioning）：AI不应只回答问题，而应基于现有网络的结构空洞（Structural Holes，即缺失的连接",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

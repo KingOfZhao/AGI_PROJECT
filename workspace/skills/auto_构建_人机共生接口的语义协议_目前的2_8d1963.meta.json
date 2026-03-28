@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_人机共生接口的语义协议_目前的2_8d1963",
+  "file": "skills/auto_构建_人机共生接口的语义协议_目前的2_8d1963.py",
+  "description": "构建'人机共生接口的语义协议'。目前的242个SKILL多为代码或文本，如何将其转化为人类可直观理解并执行的'实践清单'？这不仅是翻译，而是将逻辑图转化为因果链。需要验证AI生成的清单是否具备可执行性，以及人类执行后的反馈是否能无损地映射回节点网络。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.148047",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_7_Q4_3_6484",
+  "design_spec": {
+    "name": "auto_构建_人机共生接口的语义协议_目前的2_8d1963",
+    "display_name": "构建'人机共生接口的语义协议'。目前的242个SKILL多为代码或文本，如何将其转化为人类可直观理解",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'人机共生接口的语义协议'。目前的242个SKILL多为代码或文本，如何将其转化为人类可直观理解并执行的'实践清单'？这不仅是翻译，而是将逻辑图转化为因果链",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

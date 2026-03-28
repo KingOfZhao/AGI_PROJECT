@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义压缩与映射_如何将源领域的非结构化_d6e5fc",
+  "file": "skills/auto_语义压缩与映射_如何将源领域的非结构化_d6e5fc.py",
+  "description": "【语义压缩与映射】如何将源领域的非结构化文本（如烹饪教程）实时转化为符合‘真实节点’标准的有向图结构，并映射到目标领域（如化学实验）的API调用序列？这涉及到自然语言的结构化解析与跨域本体对齐，要求系统识别出‘小火慢炖’与‘低温回流’在认知维度上的同构性，而非仅仅是词汇相似度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "agi_cognitive_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.149675",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_14_Q1_1_2906",
+  "design_spec": {
+    "name": "auto_语义压缩与映射_如何将源领域的非结构化_d6e5fc",
+    "display_name": "【语义压缩与映射】如何将源领域的非结构化文本（如烹饪教程）实时转化为符合‘真实节点’标准的有向图结构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义压缩与映射】如何将源领域的非结构化文本（如烹饪教程）实时转化为符合‘真实节点’标准的有向图结构，并映射到目标领域（如化学实验）的API调用序列？这涉及到自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

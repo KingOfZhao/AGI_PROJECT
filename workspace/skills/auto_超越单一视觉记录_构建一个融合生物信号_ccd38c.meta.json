@@ -1,0 +1,30 @@
+{
+  "name": "auto_超越单一视觉记录_构建一个融合生物信号_ccd38c",
+  "file": "skills/auto_超越单一视觉记录_构建一个融合生物信号_ccd38c.py",
+  "description": "超越单一视觉记录，构建一个融合生物信号（EMG/fNIRS）、物理触觉（振动/滑移）与自然语言语义的‘全息数字孪生体’。该机制旨在捕捉并量化物理世界中难以言传的‘手感’与‘直觉’，通过跨模态对齐算法，将模糊的感性经验转化为可被机器复现的精确参数曲线，从而完成从‘肉身技艺’到‘数字资产’的完整映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.822747",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_88_P1_3659",
+  "design_spec": {
+    "name": "auto_超越单一视觉记录_构建一个融合生物信号_ccd38c",
+    "display_name": "超越单一视觉记录，构建一个融合生物信号（EMG/fNIRS）、物理触觉（振动/滑移）与自然语言语义的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "超越单一视觉记录，构建一个融合生物信号（EMG/fNIRS）、物理触觉（振动/滑移）与自然语言语义的‘全息数字孪生体’。该机制旨在捕捉并量化物理世界中难以言传的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

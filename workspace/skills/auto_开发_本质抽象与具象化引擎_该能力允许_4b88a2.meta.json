@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_本质抽象与具象化引擎_该能力允许_4b88a2",
+  "file": "skills/auto_开发_本质抽象与具象化引擎_该能力允许_4b88a2.py",
+  "description": "开发'本质抽象与具象化引擎'。该能力允许AI面对海量低效的试错数据（如无数次失败抓取），自动执行'现象学还原'，剥离环境噪音（颜色、光照），提取出'抓取成功'的本质几何特征（如接触点的力闭合条件）。反之，当调用该Skill时，能根据当前环境将本质重新'具象化'为具体的机械臂姿态，实现从'存在'到'生成'的转化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.583428",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_40_O4_6469",
+  "design_spec": {
+    "name": "auto_开发_本质抽象与具象化引擎_该能力允许_4b88a2",
+    "display_name": "开发'本质抽象与具象化引擎'。该能力允许AI面对海量低效的试错数据（如无数次失败抓取），自动执行'现",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'本质抽象与具象化引擎'。该能力允许AI面对海量低效的试错数据（如无数次失败抓取），自动执行'现象学还原'，剥离环境噪音（颜色、光照），提取出'抓取成功'的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

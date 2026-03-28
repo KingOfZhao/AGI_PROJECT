@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何基于图拓扑结构计算_认知回响_指标_cc74d9",
+  "file": "skills/auto_如何基于图拓扑结构计算_认知回响_指标_cc74d9.py",
+  "description": "如何基于图拓扑结构计算'认知回响'指标，以量化特定节点的'实践沉寂度'？该问题旨在解决节点生命周期管理中的僵尸节点识别问题。需要设计一种算法，检测某节点（如'JAVA基础语法'）在特定时间窗口T内，是否作为'上游输入'参与了任何下游节点的生成或作为'证伪依据'被调用。若节点长期处于孤立状态，则视为认知回响过低。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.433226",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q1_2_8838",
+  "design_spec": {
+    "name": "auto_如何基于图拓扑结构计算_认知回响_指标_cc74d9",
+    "display_name": "如何基于图拓扑结构计算'认知回响'指标，以量化特定节点的'实践沉寂度'？该问题旨在解决节点生命周期管",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何基于图拓扑结构计算'认知回响'指标，以量化特定节点的'实践沉寂度'？该问题旨在解决节点生命周期管理中的僵尸节点识别问题。需要设计一种算法，检测某节点（如'J",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

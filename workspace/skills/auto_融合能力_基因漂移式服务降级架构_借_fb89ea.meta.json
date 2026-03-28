@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_基因漂移式服务降级架构_借_fb89ea",
+  "file": "skills/auto_融合能力_基因漂移式服务降级架构_借_fb89ea.py",
+  "description": "融合能力：'基因漂移式服务降级架构'。借鉴内共生过程中'基因从线粒体转移到细胞核'的现象（即原本独立的功能逐渐被宿主整合），设计一种动态的Serverless策略。在网络极优或高信任环境下，功能以外部服务（AWS Lambda等）形式运行（全共生）；一旦网络不稳定或安全受胁，系统自动触发'基因漂移'，将核心逻辑代码的轻量级副本（原子化的Wasm模块）注入本地主进程内存中执行，变为'胞内代谢'。这种架构赋予了分布式系统在云端和边缘端之间无缝切换生存模式的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.507926",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_22_O3_5420",
+  "design_spec": {
+    "name": "auto_融合能力_基因漂移式服务降级架构_借_fb89ea",
+    "display_name": "融合能力：'基因漂移式服务降级架构'。借鉴内共生过程中'基因从线粒体转移到细胞核'的现象（即原本独立",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：'基因漂移式服务降级架构'。借鉴内共生过程中'基因从线粒体转移到细胞核'的现象（即原本独立的功能逐渐被宿主整合），设计一种动态的Serverless策",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

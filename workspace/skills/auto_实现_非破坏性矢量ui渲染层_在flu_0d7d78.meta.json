@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_非破坏性矢量ui渲染层_在flu_0d7d78",
+  "file": "skills/auto_实现_非破坏性矢量ui渲染层_在flu_0d7d78.py",
+  "description": "实现'非破坏性矢量UI渲染层'。在Flutter中直接渲染CAD级的B-Rep数据结构，而非转换为Path或Image。这意味着UI控件在屏幕上虽然显示为像素，但在内存中保留了精确的数学定义(曲率、法向量)。应用场景：在移动端直接进行工业级图纸的实时剖切、测量和标注，而无需转换为位图或简化的Path，保持无限缩放下的工程精度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.931604",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_48_O3_2490",
+  "design_spec": {
+    "name": "auto_实现_非破坏性矢量ui渲染层_在flu_0d7d78",
+    "display_name": "实现'非破坏性矢量UI渲染层'。在Flutter中直接渲染CAD级的B-Rep数据结构，而非转换为P",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'非破坏性矢量UI渲染层'。在Flutter中直接渲染CAD级的B-Rep数据结构，而非转换为Path或Image。这意味着UI控件在屏幕上虽然显示为像素，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

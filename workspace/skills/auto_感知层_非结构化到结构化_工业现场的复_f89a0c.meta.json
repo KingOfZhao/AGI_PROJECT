@@ -1,0 +1,30 @@
+{
+  "name": "auto_感知层_非结构化到结构化_工业现场的复_f89a0c",
+  "file": "skills/auto_感知层_非结构化到结构化_工业现场的复_f89a0c.py",
+  "description": "【感知层：非结构化到结构化】工业现场的复杂环境（如油污、遮挡、光照不均）导致传感器数据存在大量噪声。如何构建一个基于多模态融合的‘抗噪认知单元’，将视觉与振动信号结合，从混乱的原始数据中提取出高保真的设备运行状态‘真实节点’？此过程需解决语义鸿沟问题，即如何将像素级数据映射为符号级的故障特征。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "industrial_perception",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.903665",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_15_Q1_3_4873",
+  "design_spec": {
+    "name": "auto_感知层_非结构化到结构化_工业现场的复_f89a0c",
+    "display_name": "【感知层：非结构化到结构化】工业现场的复杂环境（如油污、遮挡、光照不均）导致传感器数据存在大量噪声。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【感知层：非结构化到结构化】工业现场的复杂环境（如油污、遮挡、光照不均）导致传感器数据存在大量噪声。如何构建一个基于多模态融合的‘抗噪认知单元’，将视觉与振动信",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

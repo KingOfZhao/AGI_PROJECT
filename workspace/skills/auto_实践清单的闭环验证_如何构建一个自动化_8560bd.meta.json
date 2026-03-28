@@ -1,0 +1,30 @@
+{
+  "name": "auto_实践清单的闭环验证_如何构建一个自动化_8560bd",
+  "file": "skills/auto_实践清单的闭环验证_如何构建一个自动化_8560bd.py",
+  "description": "【实践清单的闭环验证】如何构建一个自动化系统，将AI生成的'实践清单'（TODO list）下发至AR眼镜或工控屏，并自动回收执行结果（成功/失败/中断）以完成证伪？这需要解决人机交互接口的标准化问题，确保人类的每一次实践都能即时转化为系统的'负反馈'或'正反馈'信号。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "human_machine_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.816754",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q7_1_5025",
+  "design_spec": {
+    "name": "auto_实践清单的闭环验证_如何构建一个自动化_8560bd",
+    "display_name": "【实践清单的闭环验证】如何构建一个自动化系统，将AI生成的'实践清单'（TODO list）下发至A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【实践清单的闭环验证】如何构建一个自动化系统，将AI生成的'实践清单'（TODO list）下发至AR眼镜或工控屏，并自动回收执行结果（成功/失败/中断）以完成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一个_认知偶极子冲突检测器_系统需_e598c8",
+  "file": "skills/auto_构建一个_认知偶极子冲突检测器_系统需_e598c8.py",
+  "description": "构建一个'认知偶极子冲突检测器'。系统需扫描2644个知识节点，寻找语义相似但在逻辑或实践层面互斥的节点对（例如：'快速失败' vs '坚持不懈'，或不同领域的相似概念）。找到后，强制AI生成一个'综合节点'来调和矛盾，并输出一段可执行代码或操作流程来验证该综合节点的边界条件。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.243733",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_102_Q2_1_4203",
+  "design_spec": {
+    "name": "auto_构建一个_认知偶极子冲突检测器_系统需_e598c8",
+    "display_name": "构建一个'认知偶极子冲突检测器'。系统需扫描2644个知识节点，寻找语义相似但在逻辑或实践层面互斥的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一个'认知偶极子冲突检测器'。系统需扫描2644个知识节点，寻找语义相似但在逻辑或实践层面互斥的节点对（例如：'快速失败' vs '坚持不懈'，或不同领域的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

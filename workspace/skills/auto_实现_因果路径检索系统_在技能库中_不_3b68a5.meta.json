@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_因果路径检索系统_在技能库中_不_3b68a5",
+  "file": "skills/auto_实现_因果路径检索系统_在技能库中_不_3b68a5.py",
+  "description": "实现'因果路径检索系统'。在技能库中，不再基于关键词（如'发动机异响'）检索，而是基于'因果图谱'检索。当用户提出问题时，系统检索的是解决该问题所需的'操作序列链条'。例如，检索'营销方案'时，返回的不是文案，而是一整套'市场分析->痛点定位->渠道选择'的行动拓扑图，直接提供'怎么想'和'怎么做'的完整路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.094163",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O3_3489",
+  "design_spec": {
+    "name": "auto_实现_因果路径检索系统_在技能库中_不_3b68a5",
+    "display_name": "实现'因果路径检索系统'。在技能库中，不再基于关键词（如'发动机异响'）检索，而是基于'因果图谱'检",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'因果路径检索系统'。在技能库中，不再基于关键词（如'发动机异响'）检索，而是基于'因果图谱'检索。当用户提出问题时，系统检索的是解决该问题所需的'操作序列",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

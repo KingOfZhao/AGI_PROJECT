@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_时间切片式协作设计框架_将cad_ddf0dd",
+  "file": "skills/auto_研发_时间切片式协作设计框架_将cad_ddf0dd.py",
+  "description": "研发'时间切片式协作设计框架'。将CAD的每一个特征操作封装为Flutter的一个Action/Event，利用Flutter的状态管理(如Riverpod/Bloc)实现工程图纸的毫秒级版本回溯和协同冲突解决(类似Figma的多人协作，但基于CAD特征)。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.257780",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_116_O5_5910",
+  "design_spec": {
+    "name": "auto_研发_时间切片式协作设计框架_将cad_ddf0dd",
+    "display_name": "研发'时间切片式协作设计框架'。将CAD的每一个特征操作封装为Flutter的一个Action/Ev",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'时间切片式协作设计框架'。将CAD的每一个特征操作封装为Flutter的一个Action/Event，利用Flutter的状态管理(如Riverpod/B",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

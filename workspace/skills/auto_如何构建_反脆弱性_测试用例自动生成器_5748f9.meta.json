@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_反脆弱性_测试用例自动生成器_5748f9",
+  "file": "skills/auto_如何构建_反脆弱性_测试用例自动生成器_5748f9.py",
+  "description": "如何构建'反脆弱性'测试用例自动生成器？对于核心的真实节点，不能仅靠被动等待实践证伪。系统应能自动生成'边缘攻击用例'（Adversarial Examples）来主动试探节点的边界。例如，对'小摊贩定价'节点，自动生成'负成本'或'无限供给'的极端假设，看节点逻辑是否崩溃。如何量化节点的'逻辑崩溃阈值'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "robust_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.444740",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q9_0_1342",
+  "design_spec": {
+    "name": "auto_如何构建_反脆弱性_测试用例自动生成器_5748f9",
+    "display_name": "如何构建'反脆弱性'测试用例自动生成器？对于核心的真实节点，不能仅靠被动等待实践证伪。系统应能自动生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'反脆弱性'测试用例自动生成器？对于核心的真实节点，不能仅靠被动等待实践证伪。系统应能自动生成'边缘攻击用例'（Adversarial Examples",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

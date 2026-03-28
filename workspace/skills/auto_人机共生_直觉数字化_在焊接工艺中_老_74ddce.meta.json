@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_直觉数字化_在焊接工艺中_老_74ddce",
+  "file": "skills/auto_人机共生_直觉数字化_在焊接工艺中_老_74ddce.py",
+  "description": "【人机共生-直觉数字化】在焊接工艺中，老师傅通过‘听声音’判断焊接质量。如何利用梅尔频率倒谱系数（MFCC）特征提取，结合良品/次品分类，构建‘听觉质量判定’节点？挑战在于如何剔除环境噪音（如行车移动声）的干扰。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "signal_processing",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.453343",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q6_1_9813",
+  "design_spec": {
+    "name": "auto_人机共生_直觉数字化_在焊接工艺中_老_74ddce",
+    "display_name": "【人机共生-直觉数字化】在焊接工艺中，老师傅通过‘听声音’判断焊接质量。如何利用梅尔频率倒谱系数（M",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生-直觉数字化】在焊接工艺中，老师傅通过‘听声音’判断焊接质量。如何利用梅尔频率倒谱系数（MFCC）特征提取，结合良品/次品分类，构建‘听觉质量判定’节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

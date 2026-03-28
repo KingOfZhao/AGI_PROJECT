@@ -1,0 +1,30 @@
+{
+  "name": "auto_全生命周期工序化编程_将长代码生成任_1b8b16",
+  "file": "skills/auto_全生命周期工序化编程_将长代码生成任_1b8b16.py",
+  "description": "‘全生命周期工序化编程’。将长代码生成任务拆解为严格的工匠工序。不再是一次性生成，而是‘备料（定义接口）-粗加工（生成逻辑框架）-精修（填充核心算法）-打磨（优化性能）’。如果在‘粗加工’阶段发现逻辑缺陷（类似于泥坯有气泡），直接报废重来，而不是强行修补。这种融合能大幅提升复杂系统的代码鲁棒性，避免‘垃圾进，垃圾出’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.931723",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_15_O2_3802",
+  "design_spec": {
+    "name": "auto_全生命周期工序化编程_将长代码生成任_1b8b16",
+    "display_name": "‘全生命周期工序化编程’。将长代码生成任务拆解为严格的工匠工序。不再是一次性生成，而是‘备料（定义接",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘全生命周期工序化编程’。将长代码生成任务拆解为严格的工匠工序。不再是一次性生成，而是‘备料（定义接口）-粗加工（生成逻辑框架）-精修（填充核心算法）-打磨（优",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 237
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_证伪机制_反向证伪的接受阈值_向ai输_dc1c3f",
+  "file": "skills/auto_证伪机制_反向证伪的接受阈值_向ai输_dc1c3f.py",
+  "description": "【证伪机制】反向证伪的接受阈值：向AI输入一段看似流畅但实际上包含隐蔽逻辑谬误的文本（该文本与现有节点知识冲突）。验证AI是倾向于'自上而下'地合理化输入（顺从性），还是能触发'自上而下拆解证伪'机制，精准定位冲突点。如果AI能提出具体的反例或实验设计来推翻输入，则证明其具备科学探索的雏形，而非单纯的对话生成器。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "scientific_method",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.673759",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q4_0_862",
+  "design_spec": {
+    "name": "auto_证伪机制_反向证伪的接受阈值_向ai输_dc1c3f",
+    "display_name": "【证伪机制】反向证伪的接受阈值：向AI输入一段看似流畅但实际上包含隐蔽逻辑谬误的文本（该文本与现有节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【证伪机制】反向证伪的接受阈值：向AI输入一段看似流畅但实际上包含隐蔽逻辑谬误的文本（该文本与现有节点知识冲突）。验证AI是倾向于'自上而下'地合理化输入（顺从",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

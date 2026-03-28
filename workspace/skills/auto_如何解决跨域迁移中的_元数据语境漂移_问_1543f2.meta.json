@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何解决跨域迁移中的_元数据语境漂移_问_1543f2",
+  "file": "skills/auto_如何解决跨域迁移中的_元数据语境漂移_问_1543f2.py",
+  "description": "如何解决跨域迁移中的‘元数据语境漂移’问题？同一个词（如‘延迟’）在计算机网络（Latency）与认知心理学（Delay of Gratification）中含义完全不同。需要构建一个基于上下文感知的动态权重调整机制，确保在跨域检索时，不会因为词汇重叠而引入错误的节点关联。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_9",
+    "natural_language_processing",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:23:18.109924",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_9_Q8_1_6501",
+  "design_spec": {
+    "name": "auto_如何解决跨域迁移中的_元数据语境漂移_问_1543f2",
+    "display_name": "如何解决跨域迁移中的‘元数据语境漂移’问题？同一个词（如‘延迟’）在计算机网络（Latency）与认",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何解决跨域迁移中的‘元数据语境漂移’问题？同一个词（如‘延迟’）在计算机网络（Latency）与认知心理学（Delay of Gratification）中含",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_动态谐波可信度网络_该能力不再线_5dd524",
+  "file": "skills/auto_提出_动态谐波可信度网络_该能力不再线_5dd524.py",
+  "description": "提出'动态谐波可信度网络'。该能力不再线性地看待知识过期，而是引入音乐和声学的张力模型。当某个知识节点（如IT故障方案）长期未被调用（处于'不协和'长时程），系统不仅降低其权重，反而可能触发'寻找解决'的主动探索机制（如自动生成测试用例去验证该方案是否仍有效，即'解决'到新的稳定态）。通过模拟音乐中的'终止式'（Cadence），构建知识的自动验证与淘汰闭环：预判过时（预备）-> 验证测试（经过音）-> 确认降权或更新（解决）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_9",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:23:18.128566",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_9_O1_1075",
+  "design_spec": {
+    "name": "auto_提出_动态谐波可信度网络_该能力不再线_5dd524",
+    "display_name": "提出'动态谐波可信度网络'。该能力不再线性地看待知识过期，而是引入音乐和声学的张力模型。当某个知识节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'动态谐波可信度网络'。该能力不再线性地看待知识过期，而是引入音乐和声学的张力模型。当某个知识节点（如IT故障方案）长期未被调用（处于'不协和'长时程），系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

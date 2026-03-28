@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "post_cascade_response": [
+      {
+        "command": "python3 /Users/administruter/Desktop/AGI_PROJECT/.windsurf/hooks/post_response_processor.py",
+        "show_output": false,
+        "working_directory": "/Users/administruter/Desktop/AGI_PROJECT"
+      }
+    ],
+    "post_write_code": [
+      {
+        "command": "python3 /Users/administruter/Desktop/AGI_PROJECT/.windsurf/hooks/post_write_skill_extract.py",
+        "show_output": false,
+        "working_directory": "/Users/administruter/Desktop/AGI_PROJECT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>盒型设计编辑器 — AGI Cognitive Lattice</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://unpkg.com/@jscad/modeling@2.12.2/dist/jscad-modeling.min.js"></script>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#0a0e17;color:#c9d1d9;font-family:'Inter',system-ui,sans-serif;overflow:hidden;height:100vh}
+  .panel{background:#0d1117;border:1px solid rgba(48,54,61,.6);border-radius:8px}
+  .btn{padding:6px 12px;border-radius:6px;font-size:11px;cursor:pointer;transition:all .15s;border:1px solid transparent}
+  .btn-primary{background:#7c3aed;color:#fff;border-color:#7c3aed}.btn-primary:hover{background:#6d28d9}
+  .btn-ghost{background:transparent;color:#8b949e;border-color:#30363d}.btn-ghost:hover{background:#161b22;color:#c9d1d9}
+  .btn-sm{padding:4px 8px;font-size:10px}
+  .input{background:#161b22;border:1px solid #30363d;border-radius:6px;padding:6px 10px;font-size:12px;color:#c9d1d9;outline:none;width:100%}
+  .input:focus{border-color:#7c3aed}
+  .tab-btn{padding:6px 12px;font-size:11px;cursor:pointer;border-bottom:2px solid transparent;color:#8b949e;transition:all .15s}
+  .tab-btn:hover{color:#c9d1d9}.tab-btn.active{color:#7c3aed;border-color:#7c3aed}
+  .card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:10px;cursor:pointer;transition:all .15s}
+  .card:hover{border-color:#7c3aed;transform:translateY(-1px)}
+  .module-item{background:#1c2333;border:1px solid #30363d;border-radius:6px;padding:8px;cursor:grab;transition:all .15s}
+  .module-item:hover{border-color:#58a6ff;background:#1e2a3a}
+  .module-item:active{cursor:grabbing}
+  #cad-canvas{background:#1a1f2e;border-radius:6px}
+  #three-container{background:#0d1117;border-radius:6px}
+  .status-bar{background:#161b22;border-top:1px solid #21262d;padding:4px 12px;font-size:10px;color:#8b949e}
+  .toast{position:fixed;top:16px;right:16px;padding:10px 16px;border-radius:8px;font-size:12px;z-index:9999;animation:slideIn .3s}
+  @keyframes slideIn{from{transform:translateX(100px);opacity:0}to{transform:none;opacity:1}}
+  .toast-success{background:#1a3a2a;border:1px solid #2ea043;color:#3fb950}
+  .toast-error{background:#3a1a1a;border:1px solid #da3633;color:#f85149}
+  .toast-info{background:#1a2a3a;border:1px solid #388bfd;color:#58a6ff}
+  .dim-input{width:70px;text-align:center}
+  .splitter{width:4px;cursor:col-resize;background:transparent;transition:background .15s}
+  .splitter:hover{background:#7c3aed44}
+  #jscad-editor{font-family:'Fira Code','Cascadia Code',monospace;font-size:11px;line-height:1.5;background:#0d1117;color:#c9d1d9;border:none;resize:none;padding:8px;tab-size:2;outline:none;width:100%;height:100%}
+  #jscad-editor:focus{outline:1px solid #7c3aed44}
+  .jscad-toolbar{display:flex;gap:4px;padding:4px 8px;background:#161b22;border-bottom:1px solid #21262d;align-items:center}
+  .param-row{display:flex;align-items:center;gap:6px;padding:3px 0}
+  .param-row label{font-size:10px;color:#8b949e;min-width:50px}
+  .param-row input[type=range]{flex:1;accent-color:#7c3aed}
+  .param-row .val{font-size:10px;color:#c9d1d9;min-width:35px;text-align:right}
+</style>
+</head>
+<body class="flex flex-col h-screen">
+
+<!-- 顶部工具栏 -->
+<header class="flex items-center justify-between px-4 py-2 bg-[#0d1117] border-b border-slate-800/60">
+  <div class="flex items-center gap-3">
+    <a href="/" class="text-sm font-bold text-violet-400 hover:text-violet-300">← AGI</a>
+    <span class="text-sm font-semibold text-slate-200">📦 盒型设计编辑器</span>
+    <span id="current-file" class="text-xs text-slate-500">未打开文件</span>
+  </div>
+  <div class="flex items-center gap-2">
+    <button onclick="showGenerateDialog()" class="btn btn-primary">+ 新建盒型</button>
+    <label class="btn btn-ghost">
+      📂 导入DXF
+      <input type="file" accept=".dxf,.dwg" onchange="uploadFile(this)" class="hidden">
+    </label>
+    <button onclick="exportDXF()" class="btn btn-ghost">💾 导出</button>
+    <button onclick="toggleView3D()" class="btn btn-ghost" id="btn-3d">🧊 3D预览</button>
+  </div>
+</header>
+
+<!-- 主内容区 -->
+<div class="flex flex-1 overflow-hidden">
+
+  <!-- 左侧面板: 模板库 + 模块库 -->
+  <aside id="left-panel" class="w-64 flex flex-col border-r border-slate-800/60 bg-[#0d1117]">
+    <div class="flex border-b border-slate-800/60">
+      <button class="tab-btn active" data-tab="templates" onclick="switchLeftTab(this)">📋 模板</button>
+      <button class="tab-btn" data-tab="modules" onclick="switchLeftTab(this)">🧩 模块</button>
+      <button class="tab-btn" data-tab="catalog" onclick="switchLeftTab(this)">📖 目录</button>
+    </div>
+
+    <!-- 模板列表 -->
+    <div id="p-templates" class="flex-1 overflow-y-auto p-2 space-y-1.5">
+      <input type="text" placeholder="搜索模板..." class="input mb-2" oninput="searchTemplates(this.value)">
+      <div id="template-list" class="space-y-1.5">
+        <div class="text-xs text-slate-600 text-center py-4">加载中...</div>
+      </div>
+    </div>
+
+    <!-- 模块库 (拖拽) -->
+    <div id="p-modules" class="flex-1 overflow-y-auto p-2 space-y-1.5 hidden">
+      <div class="text-[10px] text-slate-500 mb-1">拖拽模块到设计区域</div>
+      <div id="module-list" class="space-y-1"></div>
+    </div>
+
+    <!-- FEFCO目录 -->
+    <div id="p-catalog" class="flex-1 overflow-y-auto p-2 space-y-1.5 hidden">
+      <div id="catalog-list" class="space-y-1.5"></div>
+    </div>
+  </aside>
+
+  <!-- 中间: 2D CAD编辑器 / 3D预览 -->
+  <main class="flex-1 flex flex-col relative">
+    <!-- 2D CAD视图 -->
+    <div id="cad-view" class="flex-1 relative">
+      <canvas id="cad-canvas" class="w-full h-full"></canvas>
+      <!-- 工具条 -->
+      <div class="absolute top-2 left-2 flex gap-1">
+        <button onclick="cadZoom(1.2)" class="btn btn-sm btn-ghost">🔍+</button>
+        <button onclick="cadZoom(0.8)" class="btn btn-sm btn-ghost">🔍-</button>
+        <button onclick="cadFitAll()" class="btn btn-sm btn-ghost">⬜ 适应</button>
+        <button onclick="cadToggleGrid()" class="btn btn-sm btn-ghost">⊞ 网格</button>
+      </div>
+      <!-- 图层控制 -->
+      <div class="absolute top-2 right-2 flex gap-1">
+        <button onclick="toggleLayer('CUT')" class="btn btn-sm" style="background:#3a1a1a;color:#f44;border-color:#f44" id="layer-CUT">✂ 切割</button>
+        <button onclick="toggleLayer('CREASE')" class="btn btn-sm" style="background:#1a1a3a;color:#44f;border-color:#44f" id="layer-CREASE">〰 折线</button>
+        <button onclick="toggleLayer('DIMENSION')" class="btn btn-sm" style="background:#1a3a1a;color:#4f4;border-color:#4f4" id="layer-DIMENSION">📏 标注</button>
+      </div>
+    </div>
+
+    <!-- JSCAD 3D预览 (隐藏) -->
+    <div id="three-view" class="flex-1 flex flex-col hidden">
+      <!-- JSCAD 工具栏 -->
+      <div class="jscad-toolbar">
+        <span class="text-[10px] text-violet-400 font-bold mr-1">JSCAD</span>
+        <button onclick="runJSCAD()" class="btn btn-sm btn-primary">▶ 运行</button>
+        <button onclick="autoFold()" class="btn btn-sm btn-ghost">🔄 折叠动画</button>
+        <div class="flex-1"></div>
+        <select id="jscad-preset" class="input" style="width:160px;padding:3px 6px;font-size:10px" onchange="loadJSCADPreset(this.value)">
+          <option value="rsc">FEFCO 0201 - RSC 开槽箱</option>
+          <option value="tube">FEFCO 0301 - 管式盒</option>
+          <option value="lock_bottom">FEFCO 0421 - 锁底盒</option>
+          <option value="telescope">FEFCO 0711 - 天地盖</option>
+          <option value="display">陈列架/地堆</option>
+          <option value="custom">自定义脚本</option>
+        </select>
+        <button onclick="exportSTL()" class="btn btn-sm btn-ghost">💾 STL</button>
+        <button onclick="exportOBJ()" class="btn btn-sm btn-ghost">📦 OBJ</button>
+      </div>
+      <!-- 主体: 脚本编辑 + 3D渲染 -->
+      <div class="flex flex-1 overflow-hidden">
+        <!-- 脚本编辑器 -->
+        <div id="jscad-editor-panel" class="flex flex-col" style="width:340px;border-right:1px solid #21262d">
+          <div class="p-2 space-y-1 border-b border-slate-800/40" style="max-height:140px;overflow-y:auto">
+            <div class="text-[9px] text-slate-500 font-bold mb-1">参数控制</div>
+            <div class="param-row"><label>长 L</label><input type="range" id="p-L" min="50" max="800" value="300" oninput="onParamChange()"><span class="val" id="pv-L">300</span></div>
+            <div class="param-row"><label>宽 W</label><input type="range" id="p-W" min="30" max="500" value="200" oninput="onParamChange()"><span class="val" id="pv-W">200</span></div>
+            <div class="param-row"><label>高 H</label><input type="range" id="p-H" min="30" max="600" value="200" oninput="onParamChange()"><span class="val" id="pv-H">200</span></div>
+            <div class="param-row"><label>折叠°</label><input type="range" id="fold-angle" min="0" max="180" value="90" oninput="onParamChange()"><span class="val" id="fold-angle-val">90</span></div>
+            <div class="param-row"><label>壁厚</label><input type="range" id="p-T" min="1" max="10" value="3" step="0.5" oninput="onParamChange()"><span class="val" id="pv-T">3</span></div>
+          </div>
+          <textarea id="jscad-editor" spellcheck="false"></textarea>
+        </div>
+        <!-- 3D渲染区 -->
+        <div class="flex-1 relative">
+          <div id="three-container" class="w-full h-full" style="background:#0d1117"></div>
+          <div class="absolute top-2 right-2 text-[10px] text-slate-500 bg-black/40 rounded px-2 py-1">
+            拖拽旋转 / 滚轮缩放 / 右键平移
+          </div>
+          <div id="jscad-status" class="absolute bottom-2 left-2 text-[10px] text-emerald-400 bg-black/40 rounded px-2 py-1"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 右侧面板: 属性 + 参数 -->
+  <aside id="right-panel" class="w-60 flex flex-col border-l border-slate-800/60 bg-[#0d1117]">
+    <div class="flex border-b border-slate-800/60">
+      <button class="tab-btn active" data-tab="props" onclick="switchRightTab(this)">⚙ 属性</button>
+      <button class="tab-btn" data-tab="dims" onclick="switchRightTab(this)">📐 尺寸</button>
+    </div>
+
+    <!-- 属性面板 -->
+    <div id="p-props" class="flex-1 overflow-y-auto p-3 space-y-3">
+      <div class="space-y-1.5">
+        <label class="text-[10px] text-slate-500 block">盒型类型</label>
+        <select id="prop-boxtype" class="input" onchange="onBoxTypeChange()">
+          <option value="RSC">FEFCO 0201 - 标准开槽箱</option>
+          <option value="lock_bottom">FEFCO 0421 - 锁底盒</option>
+          <option value="telescope">FEFCO 0711 - 天地盖</option>
+          <option value="tube">FEFCO 0301 - 管式盒</option>
+          <option value="display">陈列架/地堆</option>
+        </select>
+      </div>
+      <div class="space-y-1.5">
+        <label class="text-[10px] text-slate-500 block">尺寸 (mm)</label>
+        <div class="grid grid-cols-3 gap-1.5">
+          <div><div class="text-[9px] text-slate-600 text-center">长 L</div><input id="dim-L" type="number" value="300" class="input dim-input" onchange="onDimChange()"></div>
+          <div><div class="text-[9px] text-slate-600 text-center">宽 W</div><input id="dim-W" type="number" value="200" class="input dim-input" onchange="onDimChange()"></div>
+          <div><div class="text-[9px] text-slate-600 text-center">高 H</div><input id="dim-H" type="number" value="200" class="input dim-input" onchange="onDimChange()"></div>
+        </div>
+      </div>
+      <div class="space-y-1.5">
+        <label class="text-[10px] text-slate-500 block">瓦楞类型</label>
+        <select id="prop-flute" class="input">
+          <option value="">无 (卡纸)</option>
+          <option value="E楞">E楞 (1.5mm)</option>
+          <option value="B楞" selected>B楞 (3mm)</option>
+          <option value="C楞">C楞 (4mm)</option>
+          <option value="A楞">A楞 (5mm)</option>
+          <option value="BC楞">BC楞 (7mm)</option>
+          <option value="AB楞">AB楞 (8mm)</option>
+        </select>
+      </div>
+      <button onclick="generateBox()" class="btn btn-primary w-full">🔄 重新生成</button>
+
+      <hr class="border-slate-800">
+
+      <div class="space-y-1">
+        <div class="text-[10px] text-slate-500">文件信息</div>
+        <div id="file-info" class="text-[10px] text-slate-600 space-y-0.5">
+          <div>实体数: -</div>
+          <div>图层: -</div>
+          <div>尺寸: -</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 尺寸面板 -->
+    <div id="p-dims" class="flex-1 overflow-y-auto p-3 space-y-2 hidden">
+      <div class="text-[10px] text-slate-500">自动检测的尺寸标注</div>
+      <div id="dim-list" class="space-y-1 text-[11px]"></div>
+    </div>
+  </aside>
+</div>
+
+<!-- 状态栏 -->
+<div class="status-bar flex items-center justify-between">
+  <div class="flex gap-4">
+    <span id="status-coords">X: 0.0  Y: 0.0</span>
+    <span id="status-zoom">100%</span>
+    <span id="status-entities">0 entities</span>
+  </div>
+  <div class="flex gap-4">
+    <span id="status-type">-</span>
+    <span id="status-dims">-</span>
+  </div>
+</div>
+
+<!-- 新建对话框 -->
+<div id="generate-dialog" class="fixed inset-0 bg-black/60 flex items-center justify-center z-50 hidden">
+  <div class="panel p-6 w-96 space-y-4">
+    <h3 class="text-sm font-bold text-slate-200">新建盒型</h3>
+    <div class="space-y-2">
+      <select id="gen-type" class="input">
+        <option value="RSC">FEFCO 0201 - 标准开槽箱 (RSC)</option>
+        <option value="lock_bottom">FEFCO 0421 - 锁底盒</option>
+        <option value="telescope">FEFCO 0711 - 天地盖</option>
+        <option value="tube">FEFCO 0301 - 管式盒</option>
+        <option value="display">陈列架/地堆</option>
+      </select>
+      <div class="grid grid-cols-3 gap-2">
+        <div><label class="text-[10px] text-slate-500">长 L (mm)</label><input id="gen-L" type="number" value="300" class="input"></div>
+        <div><label class="text-[10px] text-slate-500">宽 W (mm)</label><input id="gen-W" type="number" value="200" class="input"></div>
+        <div><label class="text-[10px] text-slate-500">高 H (mm)</label><input id="gen-H" type="number" value="200" class="input"></div>
+      </div>
+    </div>
+    <div class="flex justify-end gap-2">
+      <button onclick="hideGenerateDialog()" class="btn btn-ghost">取消</button>
+      <button onclick="confirmGenerate()" class="btn btn-primary">生成</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = '';
+
+// ============================================================
+// State
+// ============================================================
+let currentDXFData = null;
+let droppedModules = [];  // modules placed on canvas
+let cadZoomLevel = 1, cadPanX = 0, cadPanY = 0;
+let cadDragging = false, cadDragStart = {x:0,y:0};
+let showGrid = true;
+let visibleLayers = {CUT:true, CREASE:true, DIMENSION:true, '0':true};
+let currentTemplate = null;
+let threeScene = null, threeCamera = null, threeRenderer = null;
+let foldMeshes = [];
+let threeInited = false;
+
+// ============================================================
+// Util
+// ============================================================
+async function api(url, opts) {
+  try {
+    const r = await fetch(API + url, {headers:{'Content-Type':'application/json'}, ...opts});
+    if(!r.ok){ console.error('API error:', r.status, r.statusText); return null; }
+    return await r.json();
+  } catch(e) { console.error('API error:', e); return null; }
+}
+function toast(msg, type='info') {
+  const el = document.createElement('div');
+  el.className = `toast toast-${type}`;
+  el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 3000);
+}
+
+// ============================================================
+// Templates list
+// ============================================================
+async function loadTemplates(search='') {
+  const url = search ? `/api/box/templates?search=${encodeURIComponent(search)}` : '/api/box/templates';
+  const data = await api(url);
+  const list = document.getElementById('template-list');
+  if (!data?.templates?.length) { list.innerHTML = '<div class="text-xs text-slate-600 text-center py-4">无模板</div>'; return; }
+  list.innerHTML = data.templates.map(t => `
+    <div class="card" onclick="openTemplate(${t.id})">
+      <div class="flex justify-between items-start">
+        <div class="text-xs font-medium text-slate-300 truncate flex-1">${t.box_type_cn || t.box_type}</div>
+        <span class="text-[9px] px-1.5 py-0.5 rounded bg-violet-900/50 text-violet-400">${t.fefco_code || '-'}</span>
+      </div>
+      <div class="text-[10px] text-slate-500 mt-1 truncate">${t.filename}</div>
+      <div class="flex gap-2 text-[9px] text-slate-600 mt-1">
+        ${t.dimension_l ? `<span>${t.dimension_l}×${t.dimension_w}×${t.dimension_h}mm</span>` : ''}
+        <span>${t.entity_count} entities</span>
+      </div>
+    </div>
+  `).join('');
+}
+let _searchTimer;
+function searchTemplates(q) { clearTimeout(_searchTimer); _searchTimer = setTimeout(() => loadTemplates(q), 300); }
+
+async function loadModules() {
+  const data = await api('/api/box/modules');
+  const list = document.getElementById('module-list');
+  if (!data?.modules?.length) { list.innerHTML = '<div class="text-xs text-slate-600 py-2">无模块</div>'; return; }
+  const cats = {};
+  data.modules.forEach(m => { (cats[m.category] = cats[m.category] || []).push(m); });
+  const catNames = {closure:'闭合结构', joint:'连接', feature:'功能特征', fold:'折叠', structure:'结构'};
+  list.innerHTML = Object.entries(cats).map(([cat, mods]) => `
+    <div class="mb-2">
+      <div class="text-[10px] font-medium text-slate-400 mb-1">${catNames[cat] || cat}</div>
+      ${mods.map(m => `
+        <div class="module-item mb-1" draggable="true"
+             ondragstart="onModuleDragStart(event, ${JSON.stringify(m).replace(/"/g,'&quot;')})"
+             title="${m.description || ''}">
+          <div class="text-[11px] text-slate-300">${m.module_cn}</div>
+          <div class="text-[9px] text-slate-600">${m.description || ''}</div>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+async function loadCatalog() {
+  const data = await api('/api/box/catalog');
+  const list = document.getElementById('catalog-list');
+  if (!data?.catalog?.length) { list.innerHTML = '<div class="text-xs text-slate-600 py-2">无数据</div>'; return; }
+  list.innerHTML = data.catalog.map(c => `
+    <div class="card" onclick="selectCatalogType('${c.type_key}')">
+      <div class="flex justify-between">
+        <span class="text-xs font-medium text-cyan-400">${c.type_cn}</span>
+        <span class="text-[9px] text-slate-500">${c.fefco_code}</span>
+      </div>
+      <div class="text-[10px] text-slate-500 mt-0.5">${c.type_en || ''}</div>
+      <div class="text-[9px] text-slate-600 mt-0.5">${c.description || ''}</div>
+      ${c.structure_features ? `<div class="flex flex-wrap gap-1 mt-1">${c.structure_features.map(f =>
+        `<span class="text-[8px] px-1 py-0.5 bg-slate-800 rounded text-slate-400">${f}</span>`).join('')}</div>` : ''}
+    </div>
+  `).join('');
+}
+function selectCatalogType(typeKey) {
+  document.getElementById('prop-boxtype').value = typeKey;
+  switchLeftTab(document.querySelector('[data-tab="templates"]'));
+  loadTemplates();
+}
+
+// ============================================================
+// Module drag-drop onto canvas
+// ============================================================
+function onModuleDragStart(e, mod) {
+  e.dataTransfer.setData('application/json', JSON.stringify(mod));
+  e.dataTransfer.effectAllowed = 'copy';
+}
+
+function setupCanvasDrop() {
+  const canvas = document.getElementById('cad-canvas');
+  canvas.addEventListener('dragover', e => { e.preventDefault(); e.dataTransfer.dropEffect = 'copy'; });
+  canvas.addEventListener('drop', e => {
+    e.preventDefault();
+    let mod;
+    try { mod = JSON.parse(e.dataTransfer.getData('application/json')); } catch { return; }
+    const rect = canvas.getBoundingClientRect();
+    const wx = (e.clientX - rect.left - cadPanX) / cadZoomLevel;
+    const wy = -(e.clientY - rect.top - cadPanY) / cadZoomLevel;
+    const placed = { ...mod, x: wx, y: wy, id: Date.now() };
+    droppedModules.push(placed);
+    toast(`已放置: ${mod.module_cn} @ (${wx.toFixed(0)}, ${wy.toFixed(0)})`, 'success');
+    drawCAD();
+  });
+}
+
+// ============================================================
+// Open template
+// ============================================================
+async function openTemplate(id) {
+  try {
+    const resp = await fetch(`${API}/api/box/template/${id}/dxf`);
+    if (!resp.ok) throw new Error('Failed to fetch DXF');
+    const text = await resp.text();
+    parseDXFText(text);
+    const data = await api('/api/box/templates');
+    const tpl = data?.templates?.find(t => t.id === id);
+    if (tpl) {
+      currentTemplate = tpl;
+      document.getElementById('current-file').textContent = tpl.filename;
+      document.getElementById('status-type').textContent = tpl.box_type_cn || tpl.box_type;
+      if (tpl.dimension_l) {
+        document.getElementById('dim-L').value = tpl.dimension_l;
+        document.getElementById('dim-W').value = tpl.dimension_w;
+        document.getElementById('dim-H').value = tpl.dimension_h;
+        document.getElementById('status-dims').textContent = `${tpl.dimension_l}×${tpl.dimension_w}×${tpl.dimension_h}mm`;
+      }
+      // sync box type selector
+      const typeMap = {RSC:'RSC', lock_bottom:'lock_bottom', telescope:'telescope', tube:'tube', display_stand:'display'};
+      if (typeMap[tpl.box_type]) document.getElementById('prop-boxtype').value = typeMap[tpl.box_type];
+      updateFileInfo(tpl);
+    }
+    toast(`已打开: ${tpl?.filename || 'template'}`, 'success');
+  } catch(e) { toast('打开失败: ' + e.message, 'error'); }
+}
+function updateFileInfo(tpl) {
+  document.getElementById('file-info').innerHTML = `
+    <div>实体数: ${tpl.entity_count || '-'}</div>
+    <div>盒型: ${tpl.box_type_cn || tpl.box_type}</div>
+    <div>FEFCO: ${tpl.fefco_code || '-'}</div>
+    <div>来源: ${tpl.source || '-'}</div>
+  `;
+}
+
+// ============================================================
+// DXF Parser (enhanced: LWPOLYLINE multi-point, SPLINE, INSERT)
+// ============================================================
+function parseDXFText(text) {
+  const raw = text.split('\n');
+  const entities = [];
+  let i = 0;
+  // seek ENTITIES section
+  while (i < raw.length && raw[i].trim() !== 'ENTITIES') i++;
+
+  let cur = null;
+  let polyPt = null; // accumulate polyline points
+  while (i < raw.length) {
+    const code = parseInt(raw[i]?.trim());
+    const val = raw[i + 1]?.trim();
+    i += 2;
+    if (isNaN(code)) continue;
+    if (val === 'ENDSEC') break;
+
+    if (code === 0) {
+      if (cur) {
+        if (cur.type === 'LWPOLYLINE' && polyPt) { cur.points.push({...polyPt}); polyPt = null; }
+        entities.push(cur);
+      }
+      if (['LINE','ARC','CIRCLE','LWPOLYLINE','POLYLINE','SPLINE','TEXT','MTEXT','INSERT','ELLIPSE','POINT'].includes(val)) {
+        cur = { type: val, layer: '0', props: {}, points: [], color: null };
+        polyPt = null;
+      } else { cur = null; }
+    } else if (cur) {
+      if (code === 8) cur.layer = val;
+      else if (code === 62) cur.color = parseInt(val);
+      else if (code === 70) cur.props.flags = parseInt(val);
+      else if (code === 90) cur.props.vertexCount = parseInt(val);
+
+      if (cur.type === 'LWPOLYLINE') {
+        if (code === 10) {
+          if (polyPt) cur.points.push({...polyPt});
+          polyPt = { x: parseFloat(val), y: 0, bulge: 0 };
+        } else if (code === 20 && polyPt) { polyPt.y = parseFloat(val); }
+        else if (code === 42 && polyPt) { polyPt.bulge = parseFloat(val); }
+      } else {
+        if (code === 10) cur.props.x1 = parseFloat(val);
+        else if (code === 20) cur.props.y1 = parseFloat(val);
+        else if (code === 11) cur.props.x2 = parseFloat(val);
+        else if (code === 21) cur.props.y2 = parseFloat(val);
+        else if (code === 40) cur.props.radius = parseFloat(val);
+        else if (code === 50) cur.props.startAngle = parseFloat(val);
+        else if (code === 51) cur.props.endAngle = parseFloat(val);
+        else if (code === 1) cur.props.text = val;
+      }
+    }
+  }
+  if (cur) {
+    if (cur.type === 'LWPOLYLINE' && polyPt) { cur.points.push({...polyPt}); }
+    entities.push(cur);
+  }
+
+  currentDXFData = entities;
+  droppedModules = [];
+  document.getElementById('status-entities').textContent = `${entities.length} entities`;
+  detectDimensions(entities);
+  cadFitAll();
+  drawCAD();
+}
+
+function detectDimensions(entities) {
+  const dimList = document.getElementById('dim-list');
+  const hLens = [], vLens = [];
+  for (const e of entities) {
+    if (e.type !== 'LINE') continue;
+    const dx = Math.abs((e.props.x2||0) - (e.props.x1||0));
+    const dy = Math.abs((e.props.y2||0) - (e.props.y1||0));
+    if (dy < 0.5 && dx > 5) hLens.push(dx);
+    if (dx < 0.5 && dy > 5) vLens.push(dy);
+  }
+  const unique = arr => [...new Set(arr.map(v => Math.round(v)))].sort((a,b)=>b-a).slice(0,8);
+  const uh = unique(hLens), uv = unique(vLens);
+  dimList.innerHTML = `
+    <div class="text-[10px] text-slate-400 mb-1">水平尺寸 (${hLens.length}线)</div>
+    ${uh.map(v => `<div class="text-cyan-400">${v} mm</div>`).join('')}
+    <div class="text-[10px] text-slate-400 mt-2 mb-1">垂直尺寸 (${vLens.length}线)</div>
+    ${uv.map(v => `<div class="text-emerald-400">${v} mm</div>`).join('')}
+  `;
+}
+
+// ============================================================
+// 2D CAD Renderer (enhanced)
+// ============================================================
+function drawCAD() {
+  const canvas = document.getElementById('cad-canvas');
+  const rect = canvas.parentElement.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = rect.width * dpr;
+  canvas.height = rect.height * dpr;
+  canvas.style.width = rect.width + 'px';
+  canvas.style.height = rect.height + 'px';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.clearRect(0, 0, rect.width, rect.height);
+
+  // Grid
+  if (showGrid) {
+    const gridSize = 20 * cadZoomLevel;
+    if (gridSize > 4) {
+      ctx.strokeStyle = '#1a2030';
+      ctx.lineWidth = 0.5;
+      const ox = cadPanX % gridSize, oy = cadPanY % gridSize;
+      ctx.beginPath();
+      for (let x = ox; x < rect.width; x += gridSize) { ctx.moveTo(x,0); ctx.lineTo(x,rect.height); }
+      for (let y = oy; y < rect.height; y += gridSize) { ctx.moveTo(0,y); ctx.lineTo(rect.width,y); }
+      ctx.stroke();
+    }
+    // origin cross
+    ctx.strokeStyle = '#334';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(cadPanX, 0); ctx.lineTo(cadPanX, rect.height);
+    ctx.moveTo(0, cadPanY); ctx.lineTo(rect.width, cadPanY);
+    ctx.stroke();
+  }
+
+  if (!currentDXFData?.length && !droppedModules.length) {
+    ctx.fillStyle = '#4a5568';
+    ctx.font = '14px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('从左侧选择模板或新建盒型', rect.width/2, rect.height/2);
+    ctx.font = '11px sans-serif';
+    ctx.fillStyle = '#334';
+    ctx.fillText('支持拖拽模块到画布', rect.width/2, rect.height/2 + 22);
+    return;
+  }
+
+  ctx.save();
+  ctx.translate(cadPanX, cadPanY);
+  ctx.scale(cadZoomLevel, -cadZoomLevel);
+
+  const layerColors = {CUT:'#ff4444', CREASE:'#4488ff', DIMENSION:'#44ff44', '0':'#999'};
+  const dxfColors = {1:'#ff0000',2:'#ffff00',3:'#00ff00',4:'#00ffff',5:'#0000ff',6:'#ff00ff',7:'#ffffff'};
+
+  if (currentDXFData) {
+    for (const e of currentDXFData) {
+      if (visibleLayers[e.layer] === false) continue;
+      const col = e.color ? (dxfColors[e.color] || layerColors[e.layer] || '#888') : (layerColors[e.layer] || '#888');
+      ctx.strokeStyle = col;
+      ctx.fillStyle = col;
+      ctx.lineWidth = (e.layer === 'CUT' ? 1.5 : 0.8) / cadZoomLevel;
+      ctx.setLineDash(e.layer === 'CREASE' ? [6/cadZoomLevel, 4/cadZoomLevel] : []);
+
+      if (e.type === 'LINE' && e.props.x1 !== undefined) {
+        ctx.beginPath();
+        ctx.moveTo(e.props.x1, e.props.y1);
+        ctx.lineTo(e.props.x2, e.props.y2);
+        ctx.stroke();
+      } else if (e.type === 'LWPOLYLINE' && e.points.length > 1) {
+        const closed = (e.props.flags & 1) === 1;
+        ctx.beginPath();
+        ctx.moveTo(e.points[0].x, e.points[0].y);
+        for (let j = 1; j < e.points.length; j++) {
+          const prev = e.points[j-1], pt = e.points[j];
+          if (Math.abs(prev.bulge || 0) > 0.001) {
+            drawBulgeArc(ctx, prev, pt, prev.bulge);
+          } else {
+            ctx.lineTo(pt.x, pt.y);
+          }
+        }
+        if (closed && e.points.length > 2) {
+          const last = e.points[e.points.length-1], first = e.points[0];
+          if (Math.abs(last.bulge || 0) > 0.001) {
+            drawBulgeArc(ctx, last, first, last.bulge);
+          } else {
+            ctx.lineTo(first.x, first.y);
+          }
+        }
+        ctx.stroke();
+      } else if (e.type === 'ARC' && e.props.radius) {
+        ctx.beginPath();
+        ctx.arc(e.props.x1, e.props.y1, e.props.radius,
+          (e.props.startAngle||0)*Math.PI/180, (e.props.endAngle||360)*Math.PI/180);
+        ctx.stroke();
+      } else if (e.type === 'CIRCLE' && e.props.radius) {
+        ctx.beginPath();
+        ctx.arc(e.props.x1, e.props.y1, e.props.radius, 0, Math.PI*2);
+        ctx.stroke();
+      } else if ((e.type === 'TEXT' || e.type === 'MTEXT') && e.props.text) {
+        ctx.save();
+        ctx.scale(1, -1);
+        const fs = Math.max(3, e.props.radius || 5);
+        ctx.font = `${fs}px sans-serif`;
+        ctx.fillText(e.props.text, e.props.x1||0, -(e.props.y1||0));
+        ctx.restore();
+      } else if (e.type === 'POINT') {
+        ctx.beginPath();
+        ctx.arc(e.props.x1||0, e.props.y1||0, 1.5/cadZoomLevel, 0, Math.PI*2);
+        ctx.fill();
+      }
+    }
+  }
+
+  // Draw dropped modules
+  for (const m of droppedModules) {
+    drawModuleOnCanvas(ctx, m);
+  }
+
+  ctx.restore();
+  document.getElementById('status-zoom').textContent = `${Math.round(cadZoomLevel * 100)}%`;
+}
+
+function drawBulgeArc(ctx, p1, p2, bulge) {
+  const dx = p2.x - p1.x, dy = p2.y - p1.y;
+  const d = Math.sqrt(dx*dx + dy*dy);
+  if (d < 0.001) return;
+  const s = bulge * d / 2;
+  const r = ((d/2)*(d/2) + s*s) / (2 * Math.abs(s));
+  const mx = (p1.x+p2.x)/2, my = (p1.y+p2.y)/2;
+  const a = Math.atan2(dy, dx);
+  const h = r - Math.abs(s);
+  const sign = bulge > 0 ? 1 : -1;
+  const cx = mx - sign * h * Math.sin(a);
+  const cy = my + sign * h * Math.cos(a);
+  const sa = Math.atan2(p1.y - cy, p1.x - cx);
+  const ea = Math.atan2(p2.y - cy, p2.x - cx);
+  ctx.arc(cx, cy, r, sa, ea, bulge < 0);
+}
+
+function drawModuleOnCanvas(ctx, m) {
+  const sz = 20;
+  const colors = {closure:'#ff6b6b', joint:'#ffd93d', feature:'#6bcb77', fold:'#4d96ff', structure:'#c084fc'};
+  const col = colors[m.category] || '#888';
+  ctx.save();
+  ctx.strokeStyle = col;
+  ctx.fillStyle = col + '33';
+  ctx.lineWidth = 1.5 / cadZoomLevel;
+  ctx.setLineDash([]);
+
+  const p = m.parameters || {};
+  if (m.module_name === 'handle_hole') {
+    const w = (p.width || 80) / 2, h = (p.height || 30) / 2;
+    ctx.beginPath(); ctx.ellipse(m.x, m.y, w, h, 0, 0, Math.PI*2); ctx.fill(); ctx.stroke();
+  } else if (m.module_name === 'ventilation') {
+    const r = (p.diameter || 25) / 2;
+    ctx.beginPath(); ctx.arc(m.x, m.y, r, 0, Math.PI*2); ctx.fill(); ctx.stroke();
+  } else if (m.module_name === 'window_cutout') {
+    const w = p.width || 100, h = p.height || 60;
+    ctx.beginPath();
+    ctx.rect(m.x - w/2, m.y - h/2, w, h);
+    ctx.fill(); ctx.stroke();
+    ctx.setLineDash([3/cadZoomLevel, 3/cadZoomLevel]);
+    ctx.beginPath();
+    ctx.moveTo(m.x - w/2, m.y); ctx.lineTo(m.x + w/2, m.y);
+    ctx.moveTo(m.x, m.y - h/2); ctx.lineTo(m.x, m.y + h/2);
+    ctx.stroke();
+  } else if (m.module_name === 'perforation') {
+    const tw = p.tooth_width || 3, gap = p.gap || 2, len = 60;
+    ctx.beginPath();
+    for (let x = m.x - len/2; x < m.x + len/2; x += tw + gap) {
+      ctx.moveTo(x, m.y); ctx.lineTo(x + tw, m.y);
+    }
+    ctx.stroke();
+  } else {
+    // generic rectangle
+    ctx.beginPath();
+    ctx.rect(m.x - sz/2, m.y - sz/2, sz, sz);
+    ctx.fill(); ctx.stroke();
+  }
+  // label
+  ctx.save();
+  ctx.scale(1, -1);
+  ctx.fillStyle = col;
+  ctx.font = `${4}px sans-serif`;
+  ctx.fillText(m.module_cn, m.x - sz/2, -(m.y + sz/2 + 2));
+  ctx.restore();
+  ctx.restore();
+}
+
+// ============================================================
+// CAD navigation
+// ============================================================
+function cadFitAll() {
+  if (!currentDXFData?.length) return;
+  let minX=Infinity, maxX=-Infinity, minY=Infinity, maxY=-Infinity;
+  for (const e of currentDXFData) {
+    if (e.props.x1 !== undefined) { minX=Math.min(minX,e.props.x1); maxX=Math.max(maxX,e.props.x1); minY=Math.min(minY,e.props.y1); maxY=Math.max(maxY,e.props.y1); }
+    if (e.props.x2 !== undefined) { minX=Math.min(minX,e.props.x2); maxX=Math.max(maxX,e.props.x2); minY=Math.min(minY,e.props.y2); maxY=Math.max(maxY,e.props.y2); }
+    if (e.points) for (const p of e.points) { minX=Math.min(minX,p.x); maxX=Math.max(maxX,p.x); minY=Math.min(minY,p.y); maxY=Math.max(maxY,p.y); }
+  }
+  if (minX === Infinity) return;
+  const canvas = document.getElementById('cad-canvas');
+  const rect = canvas.parentElement.getBoundingClientRect();
+  const w = maxX - minX || 1, h = maxY - minY || 1;
+  cadZoomLevel = Math.min((rect.width - 80) / w, (rect.height - 80) / h);
+  cadPanX = rect.width/2 - (minX + w/2) * cadZoomLevel;
+  cadPanY = rect.height/2 + (minY + h/2) * cadZoomLevel;
+  drawCAD();
+}
+function cadZoom(factor) {
+  const canvas = document.getElementById('cad-canvas');
+  const rect = canvas.getBoundingClientRect();
+  const cx = rect.width/2, cy = rect.height/2;
+  cadPanX = cx - (cx - cadPanX) * factor;
+  cadPanY = cy - (cy - cadPanY) * factor;
+  cadZoomLevel *= factor;
+  drawCAD();
+}
+function cadToggleGrid() { showGrid = !showGrid; drawCAD(); }
+function toggleLayer(name) {
+  visibleLayers[name] = !visibleLayers[name];
+  const btn = document.getElementById('layer-' + name);
+  if (btn) btn.style.opacity = visibleLayers[name] ? 1 : 0.3;
+  drawCAD();
+}
+
+// Canvas interaction
+const cadCanvas = document.getElementById('cad-canvas');
+cadCanvas.addEventListener('mousedown', e => { cadDragging=true; cadDragStart={x:e.clientX-cadPanX, y:e.clientY-cadPanY}; });
+cadCanvas.addEventListener('mousemove', e => {
+  if (cadDragging) { cadPanX=e.clientX-cadDragStart.x; cadPanY=e.clientY-cadDragStart.y; drawCAD(); }
+  const rect = cadCanvas.getBoundingClientRect();
+  const wx = (e.clientX - rect.left - cadPanX) / cadZoomLevel;
+  const wy = -(e.clientY - rect.top - cadPanY) / cadZoomLevel;
+  document.getElementById('status-coords').textContent = `X: ${wx.toFixed(1)}  Y: ${wy.toFixed(1)}`;
+});
+cadCanvas.addEventListener('mouseup', () => cadDragging=false);
+cadCanvas.addEventListener('mouseleave', () => cadDragging=false);
+cadCanvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  const rect = cadCanvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  const factor = e.deltaY < 0 ? 1.12 : 0.89;
+  cadPanX = mx - (mx - cadPanX) * factor;
+  cadPanY = my - (my - cadPanY) * factor;
+  cadZoomLevel *= factor;
+  drawCAD();
+}, {passive: false});
+
+// ============================================================
+// JSCAD + Three.js 3D Preview Engine
+// ============================================================
+let jscadReady = false;
+let lastJSCADGeoms = null; // keep for export
+
+function initThree() {
+  if (threeInited) return;
+  threeInited = true;
+  const container = document.getElementById('three-container');
+  const w = container.clientWidth, h = container.clientHeight;
+  threeScene = new THREE.Scene();
+  threeScene.background = new THREE.Color(0x0d1117);
+  threeCamera = new THREE.PerspectiveCamera(45, w/h, 1, 5000);
+  threeRenderer = new THREE.WebGLRenderer({antialias: true});
+  threeRenderer.setSize(w, h);
+  threeRenderer.setPixelRatio(window.devicePixelRatio);
+  container.appendChild(threeRenderer.domElement);
+  threeScene.add(new THREE.AmbientLight(0x606060, 1));
+  const dl = new THREE.DirectionalLight(0xffffff, 0.7); dl.position.set(300,400,500); threeScene.add(dl);
+  const dl2 = new THREE.DirectionalLight(0x8888ff, 0.3); dl2.position.set(-200,200,-300); threeScene.add(dl2);
+  threeScene.add(new THREE.GridHelper(1000, 20, 0x333333, 0x1a1a2e));
+  setupOrbitControls(container);
+  (function animate() { requestAnimationFrame(animate); threeRenderer.render(threeScene, threeCamera); })();
+}
+
+function setupOrbitControls(el) {
+  let drag=false, px, py, rx=0.6, ry=0.35, dist=600;
+  const tgt = new THREE.Vector3(0, 80, 0);
+  function upd() {
+    threeCamera.position.set(tgt.x+dist*Math.sin(rx)*Math.cos(ry), tgt.y+dist*Math.sin(ry), tgt.z+dist*Math.cos(rx)*Math.cos(ry));
+    threeCamera.lookAt(tgt);
+  }
+  upd();
+  el.addEventListener('mousedown', e => { if(e.button<=1){drag=true; px=e.clientX; py=e.clientY;} });
+  el.addEventListener('mousemove', e => {
+    if (!drag) return;
+    if (e.buttons === 2) { tgt.x -= (e.clientX-px)*0.5; tgt.y += (e.clientY-py)*0.5; }
+    else { rx += (e.clientX-px)*0.005; ry = Math.max(-1.4, Math.min(1.4, ry + (e.clientY-py)*0.005)); }
+    px=e.clientX; py=e.clientY; upd();
+  });
+  el.addEventListener('mouseup', () => drag=false);
+  el.addEventListener('contextmenu', e => e.preventDefault());
+  el.addEventListener('wheel', e => { e.preventDefault(); dist = Math.max(80, Math.min(3000, dist + e.deltaY*0.5)); upd(); }, {passive:false});
+}
+
+function toggleView3D() {
+  const cad = document.getElementById('cad-view'), three = document.getElementById('three-view');
+  const btn = document.getElementById('btn-3d');
+  if (three.classList.contains('hidden')) {
+    three.classList.remove('hidden'); cad.classList.add('hidden');
+    btn.textContent = '📐 2D编辑';
+    initThree();
+    syncParamsFromDimInputs();
+    loadJSCADPreset(document.getElementById('jscad-preset').value);
+  } else {
+    three.classList.add('hidden'); cad.classList.remove('hidden');
+    btn.textContent = '🧊 3D预览';
+  }
+}
+
+function syncParamsFromDimInputs() {
+  const L = document.getElementById('dim-L').value || 300;
+  const W = document.getElementById('dim-W').value || 200;
+  const H = document.getElementById('dim-H').value || 200;
+  document.getElementById('p-L').value = L; document.getElementById('pv-L').textContent = L;
+  document.getElementById('p-W').value = W; document.getElementById('pv-W').textContent = W;
+  document.getElementById('p-H').value = H; document.getElementById('pv-H').textContent = H;
+}
+
+// ============================================================
+// JSCAD Preset Scripts
+// ============================================================
+const JSCAD_PRESETS = {};
+
+JSCAD_PRESETS.rsc = `// FEFCO 0201 — RSC 标准开槽箱 (Regular Slotted Container)
+// 参数由滑块控制: L, W, H, T(壁厚), foldDeg(折叠角度)
+function main(params) {
+  const { cuboid, cylinder } = jscadModeling.primitives;
+  const { subtract, union } = jscadModeling.booleans;
+  const { translate, rotateX, rotateZ } = jscadModeling.transforms;
+  const { degToRad } = jscadModeling.utils;
+  const { colorize } = jscadModeling.colors;
+
+  const L = params.L, W = params.W, H = params.H, T = params.T;
+  const fold = degToRad(params.foldDeg);
+  const parts = [];
+
+  // 底面板
+  const bottom = colorize([0.83, 0.65, 0.46, 0.9],
+    cuboid({size: [L, W, T], center: [0, 0, T/2]}));
+  parts.push(bottom);
+
+  // 四面侧壁
+  const wallFront = colorize([0.77, 0.58, 0.39, 0.9],
+    translate([0, -W/2, H/2],
+      rotateX(fold - Math.PI/2,
+        translate([0, 0, H/2], cuboid({size: [L, T, H]})))));
+  parts.push(wallFront);
+
+  const wallBack = colorize([0.77, 0.58, 0.39, 0.9],
+    translate([0, W/2, H/2],
+      rotateX(-(fold - Math.PI/2),
+        translate([0, 0, H/2], cuboid({size: [L, T, H]})))));
+  parts.push(wallBack);
+
+  const wallLeft = colorize([0.71, 0.52, 0.34, 0.9],
+    translate([-L/2, 0, H/2],
+      rotateZ(-(fold - Math.PI/2),
+        translate([0, 0, H/2], cuboid({size: [T, W, H]})))));
+  parts.push(wallLeft);
+
+  const wallRight = colorize([0.71, 0.52, 0.34, 0.9],
+    translate([L/2, 0, H/2],
+      rotateZ(fold - Math.PI/2,
+        translate([0, 0, H/2], cuboid({size: [T, W, H]})))));
+  parts.push(wallRight);
+
+  // 顶部摇盖 (前后为小摇盖 W/2, 左右为大摇盖 L/2)
+  if (params.foldDeg > 10) {
+    const flapFB = W * 0.48;
+    const flapLR = L * 0.48;
+    const topFront = colorize([0.67, 0.48, 0.29, 0.85],
+      translate([0, -W/2, H],
+        rotateX(fold*0.8, translate([0, 0, flapFB/2], cuboid({size: [L*0.96, T, flapFB]})))));
+    const topBack = colorize([0.67, 0.48, 0.29, 0.85],
+      translate([0, W/2, H],
+        rotateX(-fold*0.8, translate([0, 0, flapFB/2], cuboid({size: [L*0.96, T, flapFB]})))));
+    parts.push(topFront, topBack);
+  }
+
+  return parts;
+}`;
+
+JSCAD_PRESETS.tube = `// FEFCO 0301 — 管式盒 (Tube-style Tuck End)
+function main(params) {
+  const { cuboid } = jscadModeling.primitives;
+  const { translate, rotateX, rotateZ } = jscadModeling.transforms;
+  const { degToRad } = jscadModeling.utils;
+  const { colorize } = jscadModeling.colors;
+
+  const L = params.L, W = params.W, H = params.H, T = params.T;
+  const fold = degToRad(params.foldDeg);
+  const parts = [];
+
+  // 底面
+  parts.push(colorize([0.83,0.65,0.46,0.9], cuboid({size:[L,W,T], center:[0,0,T/2]})));
+
+  // 前后面
+  parts.push(colorize([0.77,0.58,0.39,0.9],
+    translate([0,-W/2,0], rotateX(fold-Math.PI/2, translate([0,0,H/2], cuboid({size:[L,T,H]}))))));
+  parts.push(colorize([0.77,0.58,0.39,0.9],
+    translate([0,W/2,0], rotateX(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[L,T,H]}))))));
+
+  // 左右面
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([-L/2,0,0], rotateZ(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([L/2,0,0], rotateZ(fold-Math.PI/2, translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+
+  // 顶部插舌 (前面板延伸)
+  if (params.foldDeg > 20) {
+    const tuckLen = W * 0.75;
+    parts.push(colorize([0.6,0.45,0.28,0.85],
+      translate([0,-W/2,H], rotateX(fold*0.7, translate([0,0,tuckLen/2], cuboid({size:[L*0.94,T*0.8,tuckLen]}))))));
+    // 防尘翼
+    const dustW = W * 0.35;
+    parts.push(colorize([0.55,0.42,0.26,0.8],
+      translate([-L/2,0,H], rotateZ(-(fold*0.6), translate([0,0,dustW/2], cuboid({size:[T,W*0.9,dustW]}))))));
+    parts.push(colorize([0.55,0.42,0.26,0.8],
+      translate([L/2,0,H], rotateZ(fold*0.6, translate([0,0,dustW/2], cuboid({size:[T,W*0.9,dustW]}))))));
+  }
+
+  return parts;
+}`;
+
+JSCAD_PRESETS.lock_bottom = `// FEFCO 0421 — 锁底盒 (Lock Bottom)
+function main(params) {
+  const { cuboid } = jscadModeling.primitives;
+  const { translate, rotateX, rotateZ } = jscadModeling.transforms;
+  const { degToRad } = jscadModeling.utils;
+  const { colorize } = jscadModeling.colors;
+
+  const L = params.L, W = params.W, H = params.H, T = params.T;
+  const fold = degToRad(params.foldDeg);
+  const parts = [];
+
+  // 底面 (锁底结构 - 交叉折叠)
+  parts.push(colorize([0.85,0.67,0.48,0.95], cuboid({size:[L,W,T], center:[0,0,T/2]})));
+
+  // 锁底舌片 (底部四片交叉)
+  const lockH = Math.min(W, L) * 0.45;
+  const lockAngle = Math.max(0, fold * 0.9 - Math.PI/4);
+  parts.push(colorize([0.75,0.55,0.35,0.8],
+    translate([0,-W/2,0], rotateX(-lockAngle, translate([0,0,-lockH/2], cuboid({size:[L*0.95,T,lockH]}))))));
+  parts.push(colorize([0.75,0.55,0.35,0.8],
+    translate([0,W/2,0], rotateX(lockAngle, translate([0,0,-lockH/2], cuboid({size:[L*0.95,T,lockH]}))))));
+
+  // 四壁
+  parts.push(colorize([0.77,0.58,0.39,0.9],
+    translate([0,-W/2,0], rotateX(fold-Math.PI/2, translate([0,0,H/2], cuboid({size:[L,T,H]}))))));
+  parts.push(colorize([0.77,0.58,0.39,0.9],
+    translate([0,W/2,0], rotateX(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[L,T,H]}))))));
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([-L/2,0,0], rotateZ(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([L/2,0,0], rotateZ(fold-Math.PI/2, translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+
+  return parts;
+}`;
+
+JSCAD_PRESETS.telescope = `// FEFCO 0711 — 天地盖 (Telescope Box)
+function main(params) {
+  const { cuboid } = jscadModeling.primitives;
+  const { translate, rotateX, rotateZ } = jscadModeling.transforms;
+  const { degToRad } = jscadModeling.utils;
+  const { colorize } = jscadModeling.colors;
+
+  const L = params.L, W = params.W, H = params.H, T = params.T;
+  const fold = degToRad(params.foldDeg);
+  const parts = [];
+  const rim = H * 0.35, gap = 4;
+
+  // 底盘
+  parts.push(colorize([0.83,0.65,0.46,0.95], cuboid({size:[L,W,T], center:[0,0,T/2]})));
+  // 底盘四壁
+  parts.push(colorize([0.77,0.58,0.39,0.9],
+    translate([0,-W/2,0], rotateX(fold-Math.PI/2, translate([0,0,H/2], cuboid({size:[L,T,H]}))))));
+  parts.push(colorize([0.77,0.58,0.39,0.9],
+    translate([0,W/2,0], rotateX(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[L,T,H]}))))));
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([-L/2,0,0], rotateZ(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([L/2,0,0], rotateZ(fold-Math.PI/2, translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+
+  // 天盖 (稍大, 悬浮在顶部)
+  const lidY = H + gap;
+  parts.push(colorize([0.91,0.78,0.62,0.9],
+    translate([0,0,lidY], cuboid({size:[L+gap*2, W+gap*2, T]}))));
+  // 天盖裙边
+  parts.push(colorize([0.87,0.73,0.56,0.85],
+    translate([0,-(W+gap*2)/2,lidY], rotateX(fold-Math.PI/2, translate([0,0,-rim/2], cuboid({size:[L+gap*2,T,rim]}))))));
+  parts.push(colorize([0.87,0.73,0.56,0.85],
+    translate([0,(W+gap*2)/2,lidY], rotateX(-(fold-Math.PI/2), translate([0,0,-rim/2], cuboid({size:[L+gap*2,T,rim]}))))));
+  parts.push(colorize([0.84,0.68,0.50,0.85],
+    translate([-(L+gap*2)/2,0,lidY], rotateZ(-(fold-Math.PI/2), translate([0,0,-rim/2], cuboid({size:[T,W+gap*2,rim]}))))));
+  parts.push(colorize([0.84,0.68,0.50,0.85],
+    translate([(L+gap*2)/2,0,lidY], rotateZ(fold-Math.PI/2, translate([0,0,-rim/2], cuboid({size:[T,W+gap*2,rim]}))))));
+
+  return parts;
+}`;
+
+JSCAD_PRESETS.display = `// 陈列架/地堆 (Display Stand)
+function main(params) {
+  const { cuboid, cylinder } = jscadModeling.primitives;
+  const { subtract, union } = jscadModeling.booleans;
+  const { translate, rotateX, rotateZ } = jscadModeling.transforms;
+  const { degToRad } = jscadModeling.utils;
+  const { colorize } = jscadModeling.colors;
+
+  const L = params.L, W = params.W, H = params.H, T = params.T;
+  const fold = degToRad(params.foldDeg);
+  const shelves = 3;
+  const shelfH = H / shelves;
+  const parts = [];
+
+  // 底板
+  parts.push(colorize([0.83,0.65,0.46,0.95], cuboid({size:[L,W,T], center:[0,0,T/2]})));
+
+  // 后背板
+  parts.push(colorize([0.77,0.58,0.39,0.9],
+    translate([0,W/2,0], rotateX(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[L,T,H]}))))));
+
+  // 左右侧板
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([-L/2,0,0], rotateZ(-(fold-Math.PI/2), translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+  parts.push(colorize([0.71,0.52,0.34,0.9],
+    translate([L/2,0,0], rotateZ(fold-Math.PI/2, translate([0,0,H/2], cuboid({size:[T,W,H]}))))));
+
+  // 层板 (倾斜)
+  for (let i = 1; i < shelves; i++) {
+    const sy = i * shelfH;
+    const tilt = -0.15; // 微倾斜
+    parts.push(colorize([0.73,0.55,0.37,0.85],
+      translate([0, 0, sy], rotateX(tilt, cuboid({size:[L*0.95, W*0.9, T]})))));
+  }
+
+  // 头牌 (顶部弧形展示板)
+  parts.push(colorize([0.9,0.7,0.45,0.9],
+    translate([0, W*0.3, H+30], cuboid({size:[L*1.1, T, 60]}))));
+
+  return parts;
+}`;
+
+JSCAD_PRESETS.custom = `// 自定义 JSCAD 脚本
+// 可用 API: jscadModeling.primitives, .booleans, .transforms, .colors, .utils
+// params: {L, W, H, T, foldDeg}
+function main(params) {
+  const { cuboid, sphere, cylinder } = jscadModeling.primitives;
+  const { subtract, union, intersect } = jscadModeling.booleans;
+  const { translate, rotateX, rotateY, rotateZ, scale } = jscadModeling.transforms;
+  const { colorize } = jscadModeling.colors;
+
+  const L = params.L, W = params.W, H = params.H;
+
+  // 示例: 带圆角和开孔的盒子
+  let box = cuboid({size: [L, W, H], center: [0, 0, H/2]});
+  const inner = cuboid({size: [L-6, W-6, H-3], center: [0, 0, H/2+3]});
+  box = subtract(box, inner);
+
+  // 提手孔
+  const hole = cylinder({radius: 15, height: W+10, center: [0, 0, H*0.8]});
+  const holeR = rotateX(Math.PI/2, hole);
+  box = subtract(box, holeR);
+
+  return colorize([0.83, 0.65, 0.46, 0.9], box);
+}`;
+
+// ============================================================
+// JSCAD Engine: run script → get geometry → convert to Three.js
+// ============================================================
+function getJSCADParams() {
+  const ids = ['L','W','H','T'];
+  const p = {};
+  ids.forEach(id => {
+    const el = document.getElementById('p-'+id);
+    p[id] = parseFloat(el?.value || 0);
+    const vl = document.getElementById('pv-'+id);
+    if (vl) vl.textContent = p[id];
+  });
+  p.foldDeg = parseFloat(document.getElementById('fold-angle')?.value || 90);
+  document.getElementById('fold-angle-val').textContent = p.foldDeg;
+  return p;
+}
+
+function onParamChange() {
+  const p = getJSCADParams();
+  // sync to dim inputs
+  document.getElementById('dim-L').value = p.L;
+  document.getElementById('dim-W').value = p.W;
+  document.getElementById('dim-H').value = p.H;
+  document.getElementById('status-dims').textContent = `${p.L}×${p.W}×${p.H}mm`;
+  runJSCAD();
+}
+
+function loadJSCADPreset(name) {
+  const script = JSCAD_PRESETS[name] || JSCAD_PRESETS.custom;
+  document.getElementById('jscad-editor').value = script;
+  runJSCAD();
+}
+
+function runJSCAD() {
+  if (!threeScene) return;
+  const code = document.getElementById('jscad-editor').value;
+  const params = getJSCADParams();
+  const statusEl = document.getElementById('jscad-status');
+  const t0 = performance.now();
+
+  try {
+    // Check if jscadModeling is loaded
+    if (typeof jscadModeling === 'undefined') {
+      statusEl.textContent = '⚠ JSCAD 库未加载 (CDN不可达), 使用内置几何引擎';
+      statusEl.style.color = '#fbbf24';
+      buildFallback3DBox(params);
+      return;
+    }
+
+    // Execute JSCAD script
+    const fn = new Function('params', 'jscadModeling', code + '\nreturn main(params);');
+    const result = fn(params, jscadModeling);
+
+    // Convert result(s) to Three.js meshes
+    const geoms = Array.isArray(result) ? result : [result];
+    lastJSCADGeoms = geoms;
+    renderJSCADGeoms(geoms);
+
+    const dt = (performance.now() - t0).toFixed(1);
+    statusEl.textContent = `✓ JSCAD: ${geoms.length} 实体, ${dt}ms`;
+    statusEl.style.color = '#3fb950';
+  } catch (err) {
+    statusEl.textContent = `✗ ${err.message}`;
+    statusEl.style.color = '#f85149';
+    console.error('JSCAD error:', err);
+  }
+}
+
+function renderJSCADGeoms(geoms) {
+  // Clear old meshes
+  foldMeshes.forEach(m => threeScene.remove(m));
+  foldMeshes = [];
+
+  // Add grid + axes
+  const axes = new THREE.AxesHelper(60);
+  threeScene.add(axes); foldMeshes.push(axes);
+
+  for (const geom of geoms) {
+    if (!geom) continue;
+    const mesh = jscadToThreeMesh(geom);
+    if (mesh) { threeScene.add(mesh); foldMeshes.push(mesh); }
+  }
+}
+
+function jscadToThreeMesh(geom) {
+  // JSCAD geom3 → polygons → Three.js BufferGeometry
+  let polygons = [];
+  let color = null;
+
+  if (geom.polygons) {
+    polygons = geom.polygons;
+    color = geom.color;
+  } else if (geom.sides) {
+    // geom2 → extrude or skip
+    return null;
+  }
+
+  if (!polygons.length) return null;
+
+  const vertices = [], normals = [], colors = [];
+  const col = color || [0.83, 0.65, 0.46, 0.9];
+
+  for (const poly of polygons) {
+    const verts = poly.vertices;
+    if (verts.length < 3) continue;
+
+    // Calculate face normal
+    const v0 = verts[0], v1 = verts[1], v2 = verts[2];
+    const ax = v1[0]-v0[0], ay = v1[1]-v0[1], az = v1[2]-v0[2];
+    const bx = v2[0]-v0[0], by = v2[1]-v0[1], bz = v2[2]-v0[2];
+    let nx = ay*bz - az*by, ny = az*bx - ax*bz, nz = ax*by - ay*bx;
+    const len = Math.sqrt(nx*nx+ny*ny+nz*nz) || 1;
+    nx /= len; ny /= len; nz /= len;
+
+    // Fan triangulation
+    for (let i = 1; i < verts.length - 1; i++) {
+      const a = verts[0], b = verts[i], c = verts[i+1];
+      vertices.push(a[0],a[1],a[2], b[0],b[1],b[2], c[0],c[1],c[2]);
+      normals.push(nx,ny,nz, nx,ny,nz, nx,ny,nz);
+      colors.push(col[0],col[1],col[2], col[0],col[1],col[2], col[0],col[1],col[2]);
+    }
+  }
+
+  if (!vertices.length) return null;
+
+  const bg = new THREE.BufferGeometry();
+  bg.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+  bg.setAttribute('normal', new THREE.Float32BufferAttribute(normals, 3));
+  bg.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+
+  const mat = new THREE.MeshPhongMaterial({
+    vertexColors: true, side: THREE.DoubleSide,
+    transparent: true, opacity: col[3] || 0.9
+  });
+  const mesh = new THREE.Mesh(bg, mat);
+
+  // Add wireframe edges
+  const edges = new THREE.EdgesGeometry(bg, 15);
+  const line = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({color: 0x664422, linewidth: 1}));
+  mesh.add(line);
+
+  return mesh;
+}
+
+// Fallback when JSCAD CDN is not reachable
+function buildFallback3DBox(params) {
+  foldMeshes.forEach(m => threeScene.remove(m));
+  foldMeshes = [];
+  const {L=300, W=200, H=200, foldDeg=90} = params;
+  const ang = foldDeg * Math.PI / 180;
+  const mkP = (w,h,c) => {
+    const m = new THREE.Mesh(new THREE.PlaneGeometry(w,h),
+      new THREE.MeshPhongMaterial({color:c, side:THREE.DoubleSide, transparent:true, opacity:0.88}));
+    const e = new THREE.EdgesGeometry(m.geometry);
+    m.add(new THREE.LineSegments(e, new THREE.LineBasicMaterial({color:0x664422})));
+    return m;
+  };
+  const add = o => { threeScene.add(o); foldMeshes.push(o); };
+  const bot = mkP(L,W,0xd4a574); bot.rotation.x=-Math.PI/2; add(bot);
+  [[0,0,-W/2,'x',1,L],[0,0,W/2,'x',-1,L],[-L/2,0,0,'z',-1,W],[L/2,0,0,'z',1,W]].forEach(([px,py,pz,ax,d,pw])=>{
+    const g=new THREE.Group(); g.position.set(px,py,pz);
+    const w=mkP(pw,H,0xc49464); w.position.set(0,H/2,0);
+    if(ax==='z') w.rotation.y=Math.PI/2;
+    g.add(w);
+    if(ax==='x') g.rotation.x=d*(ang-Math.PI/2);
+    else g.rotation.z=-d*(ang-Math.PI/2);
+    add(g);
+  });
+  add(new THREE.AxesHelper(60));
+}
+
+// ============================================================
+// STL / OBJ Export
+// ============================================================
+function exportSTL() {
+  if (!foldMeshes.length) { toast('无3D模型可导出', 'info'); return; }
+  let stl = 'solid box\n';
+  foldMeshes.forEach(obj => {
+    obj.traverse(child => {
+      if (!child.isMesh) return;
+      const pos = child.geometry.getAttribute('position');
+      const nor = child.geometry.getAttribute('normal');
+      if (!pos) return;
+      child.updateMatrixWorld(true);
+      for (let i = 0; i < pos.count; i += 3) {
+        const n = new THREE.Vector3(nor.getX(i),nor.getY(i),nor.getZ(i)).applyMatrix3(new THREE.Matrix3().setFromMatrix4(child.matrixWorld)).normalize();
+        stl += `facet normal ${n.x} ${n.y} ${n.z}\n  outer loop\n`;
+        for (let j = 0; j < 3; j++) {
+          const v = new THREE.Vector3(pos.getX(i+j),pos.getY(i+j),pos.getZ(i+j)).applyMatrix4(child.matrixWorld);
+          stl += `    vertex ${v.x} ${v.y} ${v.z}\n`;
+        }
+        stl += '  endloop\nendfacet\n';
+      }
+    });
+  });
+  stl += 'endsolid box\n';
+  downloadFile(stl, 'box_model.stl', 'application/sla');
+  toast('已导出 STL', 'success');
+}
+
+function exportOBJ() {
+  if (!foldMeshes.length) { toast('无3D模型可导出', 'info'); return; }
+  let obj = '# Box Model OBJ Export\n', vi = 1;
+  foldMeshes.forEach((o, gi) => {
+    o.traverse(child => {
+      if (!child.isMesh) return;
+      obj += `g part_${gi}\n`;
+      const pos = child.geometry.getAttribute('position');
+      if (!pos) return;
+      child.updateMatrixWorld(true);
+      const start = vi;
+      for (let i = 0; i < pos.count; i++) {
+        const v = new THREE.Vector3(pos.getX(i),pos.getY(i),pos.getZ(i)).applyMatrix4(child.matrixWorld);
+        obj += `v ${v.x.toFixed(4)} ${v.y.toFixed(4)} ${v.z.toFixed(4)}\n`;
+        vi++;
+      }
+      for (let i = 0; i < pos.count; i += 3) {
+        obj += `f ${start+i} ${start+i+1} ${start+i+2}\n`;
+      }
+    });
+  });
+  downloadFile(obj, 'box_model.obj', 'text/plain');
+  toast('已导出 OBJ', 'success');
+}
+
+function downloadFile(content, filename, mime) {
+  const blob = new Blob([content], {type: mime});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+function autoFold() {
+  const slider = document.getElementById('fold-angle');
+  let angle = 0;
+  const step = () => {
+    angle += 1.5;
+    if (angle > 180) angle = 180;
+    slider.value = angle;
+    onParamChange();
+    if (angle < 180) requestAnimationFrame(step);
+  };
+  slider.value = 0;
+  step();
+}
+
+// ============================================================
+// File operations
+// ============================================================
+async function uploadFile(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const formData = new FormData();
+  formData.append('file', file);
+  toast('上传中...', 'info');
+  try {
+    const resp = await fetch(API + '/api/box/upload', {method:'POST', body:formData});
+    if(!resp.ok){ toast('上传失败: 服务器返回 '+resp.status, 'error'); input.value=''; return; }
+    const data = await resp.json();
+    if (data.needs_conversion) { toast(data.warning, 'info'); }
+    else if (data.success) {
+      toast(`识别为: ${data.box_type_cn} (${data.entity_count} entities)`, 'success');
+      loadTemplates();
+      if (file.name.endsWith('.dxf')) {
+        const text = await file.text();
+        parseDXFText(text);
+        document.getElementById('current-file').textContent = file.name;
+      }
+    } else { toast(data.error || '上传失败', 'error'); }
+  } catch(e) { toast('上传错误: ' + e.message, 'error'); }
+  input.value = '';
+}
+
+function exportDXF() {
+  if (!currentTemplate?.id) { toast('请先打开一个模板', 'info'); return; }
+  window.open(`${API}/api/box/template/${currentTemplate.id}/dxf`, '_blank');
+}
+
+// ============================================================
+// Generate
+// ============================================================
+function showGenerateDialog() { document.getElementById('generate-dialog').classList.remove('hidden'); }
+function hideGenerateDialog() { document.getElementById('generate-dialog').classList.add('hidden'); }
+
+async function confirmGenerate() {
+  const type = document.getElementById('gen-type').value;
+  const L = document.getElementById('gen-L').value;
+  const W = document.getElementById('gen-W').value;
+  const H = document.getElementById('gen-H').value;
+  hideGenerateDialog();
+  toast('生成中...', 'info');
+  const data = await api('/api/box/generate', {method:'POST', body:JSON.stringify({type,L,W,H})});
+  if (data?.success) {
+    toast(`已生成: ${data.info.type_cn} ${L}×${W}×${H}mm`, 'success');
+    loadTemplates();
+    try {
+      const resp = await fetch(`${API}/templates/${data.filename}`);
+      if(resp.ok){
+        const text = await resp.text();
+        parseDXFText(text);
+        document.getElementById('current-file').textContent = data.filename;
+        document.getElementById('dim-L').value = L;
+        document.getElementById('dim-W').value = W;
+        document.getElementById('dim-H').value = H;
+        document.getElementById('prop-boxtype').value = type;
+      }
+    } catch(e) { console.error('DXF fetch error:', e); }
+  } else { toast(data?.error || '生成失败', 'error'); }
+}
+
+async function generateBox() {
+  const type = document.getElementById('prop-boxtype').value;
+  const L = document.getElementById('dim-L').value;
+  const W = document.getElementById('dim-W').value;
+  const H = document.getElementById('dim-H').value;
+  toast('重新生成...', 'info');
+  const data = await api('/api/box/generate', {method:'POST', body:JSON.stringify({type,L,W,H})});
+  if (data?.success) {
+    toast(`已更新: ${data.info.type_cn}`, 'success');
+    loadTemplates();
+    try {
+      const resp = await fetch(`${API}/templates/${data.filename}`);
+      if(resp.ok){
+        const text = await resp.text();
+        parseDXFText(text);
+        document.getElementById('current-file').textContent = data.filename;
+      }
+    } catch(e) { console.error('DXF fetch error:', e); }
+    if (!document.getElementById('three-view').classList.contains('hidden')) runJSCAD();
+  } else { toast(data?.error || '生成失败', 'error'); }
+}
+
+function onDimChange() {
+  const L = document.getElementById('dim-L').value;
+  const W = document.getElementById('dim-W').value;
+  const H = document.getElementById('dim-H').value;
+  document.getElementById('status-dims').textContent = `${L}×${W}×${H}mm`;
+}
+
+function onBoxTypeChange() {
+  const t = document.getElementById('prop-boxtype');
+  document.getElementById('status-type').textContent = t.options[t.selectedIndex].text;
+}
+
+// ============================================================
+// Tab switching
+// ============================================================
+function switchLeftTab(btn) {
+  document.querySelectorAll('#p-templates,#p-modules,#p-catalog').forEach(e => e.classList.add('hidden'));
+  btn.parentElement.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('p-' + btn.dataset.tab).classList.remove('hidden');
+}
+function switchRightTab(btn) {
+  document.querySelectorAll('#p-props,#p-dims').forEach(e => e.classList.add('hidden'));
+  btn.parentElement.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('p-' + btn.dataset.tab).classList.remove('hidden');
+}
+
+// ============================================================
+// Init
+// ============================================================
+window.addEventListener('resize', () => {
+  drawCAD();
+  if (threeRenderer) {
+    const c = document.getElementById('three-container');
+    threeRenderer.setSize(c.clientWidth, c.clientHeight);
+    threeCamera.aspect = c.clientWidth / c.clientHeight;
+    threeCamera.updateProjectionMatrix();
+  }
+});
+
+// Tab key in JSCAD editor
+document.getElementById('jscad-editor')?.addEventListener('keydown', e => {
+  if (e.key === 'Tab') {
+    e.preventDefault();
+    const ta = e.target, s = ta.selectionStart, end = ta.selectionEnd;
+    ta.value = ta.value.substring(0, s) + '  ' + ta.value.substring(end);
+    ta.selectionStart = ta.selectionEnd = s + 2;
+  }
+  // Ctrl+Enter to run
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); runJSCAD(); }
+});
+
+setupCanvasDrop();
+loadTemplates();
+loadModules();
+loadCatalog();
+drawCAD();
+</script>
+</body>
+</html>

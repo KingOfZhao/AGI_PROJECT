@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程推理链断裂测试_给定一个复杂的跨域_6bba05",
+  "file": "skills/auto_长程推理链断裂测试_给定一个复杂的跨域_6bba05.py",
+  "description": "【长程推理链断裂测试】给定一个复杂的跨域任务：‘策划并执行一次针对盲人用户的线上产品发布会’。AI需要串联起‘无障碍设计（A11y）’、‘视频流媒体技术’、‘活动营销’等多个节点。关键验证点：AI是否会主动生成‘彩排’节点，并在彩排中预置‘读屏软件兼容性测试’这一具体动作？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "项目管理",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.069226",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_36_Q7_2_8730",
+  "design_spec": {
+    "name": "auto_长程推理链断裂测试_给定一个复杂的跨域_6bba05",
+    "display_name": "【长程推理链断裂测试】给定一个复杂的跨域任务：‘策划并执行一次针对盲人用户的线上产品发布会’。AI需",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【长程推理链断裂测试】给定一个复杂的跨域任务：‘策划并执行一次针对盲人用户的线上产品发布会’。AI需要串联起‘无障碍设计（A11y）’、‘视频流媒体技术’、‘活",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 392
+  }
+}

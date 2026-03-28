@@ -1,0 +1,30 @@
+{
+  "name": "auto_借鉴生物大脑的节能机制_开发基于能效比的_92f717",
+  "file": "skills/auto_借鉴生物大脑的节能机制_开发基于能效比的_92f717.py",
+  "description": "借鉴生物大脑的节能机制，开发基于能效比的节点优先级队列和剪枝策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.518340",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_22_G3_5377",
+  "design_spec": {
+    "name": "auto_借鉴生物大脑的节能机制_开发基于能效比的_92f717",
+    "display_name": "借鉴生物大脑的节能机制，开发基于能效比的节点优先级队列和剪枝策略。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "借鉴生物大脑的节能机制，开发基于能效比的节点优先级队列和剪枝策略。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 191
+  }
+}

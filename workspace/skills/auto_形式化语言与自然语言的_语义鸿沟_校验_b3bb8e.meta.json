@@ -1,0 +1,30 @@
+{
+  "name": "auto_形式化语言与自然语言的_语义鸿沟_校验_b3bb8e",
+  "file": "skills/auto_形式化语言与自然语言的_语义鸿沟_校验_b3bb8e.py",
+  "description": "形式化语言与自然语言的'语义鸿沟'校验：真实节点往往由自然语言描述，而执行依赖代码。如何构建校验层，确保自然语言描述的'意图'被准确翻译为可执行代码，并在代码执行结果与描述不符时（如代码跑通但结果违背常识），触发语义层面的证伪而非仅是语法层面的报错？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.715493",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q8_1_1477",
+  "design_spec": {
+    "name": "auto_形式化语言与自然语言的_语义鸿沟_校验_b3bb8e",
+    "display_name": "形式化语言与自然语言的'语义鸿沟'校验：真实节点往往由自然语言描述，而执行依赖代码。如何构建校验层，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "形式化语言与自然语言的'语义鸿沟'校验：真实节点往往由自然语言描述，而执行依赖代码。如何构建校验层，确保自然语言描述的'意图'被准确翻译为可执行代码，并在代码执",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 209
+  }
+}

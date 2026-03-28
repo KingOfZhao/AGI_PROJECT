@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解的递归终止条件判定_agi在_cd65c7",
+  "file": "skills/auto_自上而下拆解的递归终止条件判定_agi在_cd65c7.py",
+  "description": "自上而下拆解的递归终止条件判定：AGI在进行复杂目标拆解（如'解决全球变暖'）时，如何动态判定何时停止拆解（Top-Down）并转向调用现有技能（Skill）？这涉及'抽象'与'具象'的边界判定问题，需防止无限递归导致的计算爆炸。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "AGI Architecture/Search",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.677193",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q4_1_7781",
+  "design_spec": {
+    "name": "auto_自上而下拆解的递归终止条件判定_agi在_cd65c7",
+    "display_name": "自上而下拆解的递归终止条件判定：AGI在进行复杂目标拆解（如'解决全球变暖'）时，如何动态判定何时停",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自上而下拆解的递归终止条件判定：AGI在进行复杂目标拆解（如'解决全球变暖'）时，如何动态判定何时停止拆解（Top-Down）并转向调用现有技能（Skill）？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

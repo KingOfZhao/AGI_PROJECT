@@ -1,0 +1,30 @@
+{
+  "name": "auto_碰撞固化_重叠验证_在_左右跨域_中_a5a08c",
+  "file": "skills/auto_碰撞固化_重叠验证_在_左右跨域_中_a5a08c.py",
+  "description": "【碰撞固化-重叠验证】在‘左右跨域’中，当两个节点发生重叠并产生新概念时，如何自动生成最小可行性实验（MVP）来验证这个新概念？这不仅是生成代码，而是生成一个‘验证流程’，指导人类在现实物理世界中低成本完成证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "robotics_and_process_control",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.043330",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_127_Q8_0_9351",
+  "design_spec": {
+    "name": "auto_碰撞固化_重叠验证_在_左右跨域_中_a5a08c",
+    "display_name": "【碰撞固化-重叠验证】在‘左右跨域’中，当两个节点发生重叠并产生新概念时，如何自动生成最小可行性实验",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【碰撞固化-重叠验证】在‘左右跨域’中，当两个节点发生重叠并产生新概念时，如何自动生成最小可行性实验（MVP）来验证这个新概念？这不仅是生成代码，而是生成一个‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

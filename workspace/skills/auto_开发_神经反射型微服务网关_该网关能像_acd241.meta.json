@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_神经反射型微服务网关_该网关能像_acd241",
+  "file": "skills/auto_开发_神经反射型微服务网关_该网关能像_acd241.py",
+  "description": "开发'神经反射型微服务网关'。该网关能像脊髓一样，拦截所有请求，对危及系统生存的信号（如DDoS攻击、致命错误、过载信号）进行毫秒级阻断（反射），不需要经过复杂的业务逻辑层（大脑）。同时，将仅用于优化的数据异步上传至'大脑'进行离线训练。这种能力完美解决了'认知微服务'中，小摊贩（边缘节点）处理复杂工厂指令时的响应延迟问题，实现了'小摊贩'级别的直觉反应速度与'工厂'级别的深度思考的融合。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.439626",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_142_O3_2616",
+  "design_spec": {
+    "name": "auto_开发_神经反射型微服务网关_该网关能像_acd241",
+    "display_name": "开发'神经反射型微服务网关'。该网关能像脊髓一样，拦截所有请求，对危及系统生存的信号（如DDoS攻击",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'神经反射型微服务网关'。该网关能像脊髓一样，拦截所有请求，对危及系统生存的信号（如DDoS攻击、致命错误、过载信号）进行毫秒级阻断（反射），不需要经过复杂",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

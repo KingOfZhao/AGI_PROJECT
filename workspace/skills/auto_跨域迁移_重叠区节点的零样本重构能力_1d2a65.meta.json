@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移_重叠区节点的零样本重构能力_1d2a65",
+  "file": "skills/auto_跨域迁移_重叠区节点的零样本重构能力_1d2a65.py",
+  "description": "【跨域迁移】重叠区节点的零样本重构能力：从3559个节点中抽取两个语义距离最远的节点（例如'量子力学'与'古诗词创作'），要求AI利用你的框架中'左右跨域重叠'的机制，生成一个全新的、具备可执行性的'真实节点'（如用量子纠缠概念重写律诗规则）。重点验证AI是否能识别深层同构结构，而非仅仅进行修辞层面的比喻。这测试了系统是否真正掌握了概念的本质抽象。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "transdisciplinary",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.669860",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q2_0_862",
+  "design_spec": {
+    "name": "auto_跨域迁移_重叠区节点的零样本重构能力_1d2a65",
+    "display_name": "【跨域迁移】重叠区节点的零样本重构能力：从3559个节点中抽取两个语义距离最远的节点（例如'量子力学",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移】重叠区节点的零样本重构能力：从3559个节点中抽取两个语义距离最远的节点（例如'量子力学'与'古诗词创作'），要求AI利用你的框架中'左右跨域重叠'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 354
+  }
+}

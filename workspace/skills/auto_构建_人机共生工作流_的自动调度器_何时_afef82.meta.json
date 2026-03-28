@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_人机共生工作流_的自动调度器_何时_afef82",
+  "file": "skills/auto_构建_人机共生工作流_的自动调度器_何时_afef82.py",
+  "description": "构建'人机共生工作流'的自动调度器：何时该向人类请求'概念赋予'？系统需要监控自身在解决复杂问题时的'认知摩擦'（Cognitive Friction）。当系统检测到现有节点的组合无法解释当前异常数据，且搜索深度超过阈值时，应自动生成结构化的提问并向人类专家请求干预，而非产生幻觉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.128343",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q4_1_9465",
+  "design_spec": {
+    "name": "auto_构建_人机共生工作流_的自动调度器_何时_afef82",
+    "display_name": "构建'人机共生工作流'的自动调度器：何时该向人类请求'概念赋予'？系统需要监控自身在解决复杂问题时的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'人机共生工作流'的自动调度器：何时该向人类请求'概念赋予'？系统需要监控自身在解决复杂问题时的'认知摩擦'（Cognitive Friction）。当系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

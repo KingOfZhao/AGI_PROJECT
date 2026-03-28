@@ -1,0 +1,30 @@
+{
+  "name": "auto_工业领域存在大量_反常识_的物理约束_如_325f4f",
+  "file": "skills/auto_工业领域存在大量_反常识_的物理约束_如_325f4f.py",
+  "description": "工业领域存在大量‘反常识’的物理约束（如重力、材料强度），通用LLM常在此产生幻觉。如何构建一个‘物理约束层’，在自上而下的拆解过程中，强制将规划路径通过现有的物理法则节点进行校验，自动证伪那些违反物理定律的规划（如‘无支撑悬浮组装’）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "physics_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.363865",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q4_1_6470",
+  "design_spec": {
+    "name": "auto_工业领域存在大量_反常识_的物理约束_如_325f4f",
+    "display_name": "工业领域存在大量‘反常识’的物理约束（如重力、材料强度），通用LLM常在此产生幻觉。如何构建一个‘物",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "工业领域存在大量‘反常识’的物理约束（如重力、材料强度），通用LLM常在此产生幻觉。如何构建一个‘物理约束层’，在自上而下的拆解过程中，强制将规划路径通过现有的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 335
+  }
+}

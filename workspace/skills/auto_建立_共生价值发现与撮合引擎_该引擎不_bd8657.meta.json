@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_共生价值发现与撮合引擎_该引擎不_bd8657",
+  "file": "skills/auto_建立_共生价值发现与撮合引擎_该引擎不_bd8657.py",
+  "description": "建立‘共生价值发现与撮合引擎’。该引擎不仅基于成本分析（经济视角），还基于‘功能互补性’分析（生态视角），用于发现企业间、部门间或AI智能体间的潜在合作机会。它量化‘共生收益’，识别那些虽然自身效率不高但具有极高‘互补价值’的节点（类似关键共生菌群），从而构建比单纯竞争更稳固的商业生态系统。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.436201",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_23_O4_4576",
+  "design_spec": {
+    "name": "auto_建立_共生价值发现与撮合引擎_该引擎不_bd8657",
+    "display_name": "建立‘共生价值发现与撮合引擎’。该引擎不仅基于成本分析（经济视角），还基于‘功能互补性’分析（生态视",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立‘共生价值发现与撮合引擎’。该引擎不仅基于成本分析（经济视角），还基于‘功能互补性’分析（生态视角），用于发现企业间、部门间或AI智能体间的潜在合作机会。它",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 349
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_持续碰撞_如何将skill节点的api_11b4e6",
+  "file": "skills/auto_持续碰撞_如何将skill节点的api_11b4e6.py",
+  "description": "【持续碰撞】如何将SKILL节点的API化，使其具备可组合性？目前的1188个SKILL若只是静态描述则无法进化。需将每个SKILL封装为标准化API（输入/输出/前置条件/后置影响），使得‘买菜’节点能自动调用‘支付’节点，实现技能的自动化编排。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "service_oriented_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.003835",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_67_Q8_3_7554",
+  "design_spec": {
+    "name": "auto_持续碰撞_如何将skill节点的api_11b4e6",
+    "display_name": "【持续碰撞】如何将SKILL节点的API化，使其具备可组合性？目前的1188个SKILL若只是静态描",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【持续碰撞】如何将SKILL节点的API化，使其具备可组合性？目前的1188个SKILL若只是静态描述则无法进化。需将每个SKILL封装为标准化API（输入/输",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

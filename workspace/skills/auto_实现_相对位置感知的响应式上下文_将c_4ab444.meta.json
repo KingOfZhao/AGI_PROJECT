@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_相对位置感知的响应式上下文_将c_4ab444",
+  "file": "skills/auto_实现_相对位置感知的响应式上下文_将c_4ab444.py",
+  "description": "实现'相对位置感知的响应式上下文'。将CAD的UCS概念抽象化，用于Flutter的深层次Widget树。当前Widget只继承逻辑数据，新能力让它继承'计算环境'（如当前处于哪个步骤、相对父节点的逻辑位置）。这使得开发'位置敏感'的业务逻辑成为可能（例如：表格中某一行的删除按钮，自动获知自己在'第N行'这个坐标系信息，无需显式传参）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.733639",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_139_O4_3989",
+  "design_spec": {
+    "name": "auto_实现_相对位置感知的响应式上下文_将c_4ab444",
+    "display_name": "实现'相对位置感知的响应式上下文'。将CAD的UCS概念抽象化，用于Flutter的深层次Widge",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'相对位置感知的响应式上下文'。将CAD的UCS概念抽象化，用于Flutter的深层次Widget树。当前Widget只继承逻辑数据，新能力让它继承'计算环",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 208
+  }
+}

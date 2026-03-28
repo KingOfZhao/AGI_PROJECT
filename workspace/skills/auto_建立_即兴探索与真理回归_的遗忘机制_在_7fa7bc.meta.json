@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_即兴探索与真理回归_的遗忘机制_在_7fa7bc",
+  "file": "skills/auto_建立_即兴探索与真理回归_的遗忘机制_在_7fa7bc.py",
+  "description": "建立'即兴探索与真理回归'的遗忘机制。在动态环境中，允许系统生成大量'半衰期极短'的试探性节点（即兴乐句），这些节点带有高不确定性。系统设定一个'II-V-I'式的自动收敛周期：在T个时间单位内，如果这些试探节点不能与至少两个高可信度的'真实节点'形成闭环（解决），则自动触发剧烈衰减。这平衡了'探索新知'与'固守陈规'的矛盾。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.790414",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O3_3832",
+  "design_spec": {
+    "name": "auto_建立_即兴探索与真理回归_的遗忘机制_在_7fa7bc",
+    "display_name": "建立'即兴探索与真理回归'的遗忘机制。在动态环境中，允许系统生成大量'半衰期极短'的试探性节点（即兴",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'即兴探索与真理回归'的遗忘机制。在动态环境中，允许系统生成大量'半衰期极短'的试探性节点（即兴乐句），这些节点带有高不确定性。系统设定一个'II-V-I'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

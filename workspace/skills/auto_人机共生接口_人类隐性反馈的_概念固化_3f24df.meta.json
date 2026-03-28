@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生接口_人类隐性反馈的_概念固化_3f24df",
+  "file": "skills/auto_人机共生接口_人类隐性反馈的_概念固化_3f24df.py",
+  "description": "【人机共生接口】人类隐性反馈的‘概念固化’协议。人类在实践中的反馈往往是模糊的（‘这个感觉不对’）。本子问题研究如何将人类的情绪价值、犹豫时间、修正幅度等隐性信号，映射为对现有SKILL节点的权重调整参数，从而实现‘人类实践证伪’到‘AI节点更新’的自动化闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.117976",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q8_0_4398",
+  "design_spec": {
+    "name": "auto_人机共生接口_人类隐性反馈的_概念固化_3f24df",
+    "display_name": "【人机共生接口】人类隐性反馈的‘概念固化’协议。人类在实践中的反馈往往是模糊的（‘这个感觉不对’）。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生接口】人类隐性反馈的‘概念固化’协议。人类在实践中的反馈往往是模糊的（‘这个感觉不对’）。本子问题研究如何将人类的情绪价值、犹豫时间、修正幅度等隐性信",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

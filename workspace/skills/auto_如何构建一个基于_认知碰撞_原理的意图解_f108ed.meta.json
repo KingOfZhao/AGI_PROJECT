@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一个基于_认知碰撞_原理的意图解_f108ed",
+  "file": "skills/auto_如何构建一个基于_认知碰撞_原理的意图解_f108ed.py",
+  "description": "如何构建一个基于'认知碰撞'原理的意图解析器？该解析器不能仅做简单的语义分析，而需要利用已有的1144个节点作为'概念约束'，通过'自上而下的拆解'与'自下而上的归纳'双向交互，将模糊的自然语言意图映射为AST（抽象语法树）的骨架。重点在于验证：当引入节点约束进行碰撞迭代后，生成的AST结构是否符合逻辑闭环，而非单纯的概率生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_41",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:25:13.332573",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_41_Q1_1_7393",
+  "design_spec": {
+    "name": "auto_如何构建一个基于_认知碰撞_原理的意图解_f108ed",
+    "display_name": "如何构建一个基于'认知碰撞'原理的意图解析器？该解析器不能仅做简单的语义分析，而需要利用已有的114",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一个基于'认知碰撞'原理的意图解析器？该解析器不能仅做简单的语义分析，而需要利用已有的1144个节点作为'概念约束'，通过'自上而下的拆解'与'自下而上",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

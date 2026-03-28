@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽性的逻辑闭环验证_针对特定领域的_6cd026",
+  "file": "skills/auto_认知自洽性的逻辑闭环验证_针对特定领域的_6cd026.py",
+  "description": "认知自洽性的逻辑闭环验证：针对特定领域的节点集合（如'摆摊'），如何自动构建'对抗性辩论'环境？让两个AI代理分别持正反立场，利用该领域节点进行辩论。若辩论中出现无法用现有节点解释的逻辑漏洞，则标记该认知域为'不自洽'，需要补充节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "dialectics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:28.915422",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q8_0_7480",
+  "design_spec": {
+    "name": "auto_认知自洽性的逻辑闭环验证_针对特定领域的_6cd026",
+    "display_name": "认知自洽性的逻辑闭环验证：针对特定领域的节点集合（如'摆摊'），如何自动构建'对抗性辩论'环境？让两",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知自洽性的逻辑闭环验证：针对特定领域的节点集合（如'摆摊'），如何自动构建'对抗性辩论'环境？让两个AI代理分别持正反立场，利用该领域节点进行辩论。若辩论中出",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

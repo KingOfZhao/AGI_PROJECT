@@ -1,0 +1,30 @@
+{
+  "name": "auto_怀疑论因果反演器_传统的逆动力学模型往往_d59c31",
+  "file": "skills/auto_怀疑论因果反演器_传统的逆动力学模型往往_d59c31.py",
+  "description": "怀疑论因果反演器。传统的逆动力学模型往往给出一个确定的解，而融合了休谟怀疑论的算法将输出一个'因果置信度分布'。它承认从结果反推原因的不确定性，不给出单一答案，而是提供一组可能的'隐变量假设'（如'物体移动是因为推力，还是因为风？'）。这能赋予AGI在处理归因任务时具备类似侦探的审慎，避免过拟合于单一解释，增强在数据缺失情况下的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.359920",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_8_O3_907",
+  "design_spec": {
+    "name": "auto_怀疑论因果反演器_传统的逆动力学模型往往_d59c31",
+    "display_name": "怀疑论因果反演器。传统的逆动力学模型往往给出一个确定的解，而融合了休谟怀疑论的算法将输出一个'因果置",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "怀疑论因果反演器。传统的逆动力学模型往往给出一个确定的解，而融合了休谟怀疑论的算法将输出一个'因果置信度分布'。它承认从结果反推原因的不确定性，不给出单一答案，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_数字直觉刻录系统_在人机共生实践_a1cef2",
+  "file": "skills/auto_打造_数字直觉刻录系统_在人机共生实践_a1cef2.py",
+  "description": "打造‘数字直觉刻录系统’。在人机共生实践中，当人类专家的操作（如代码调试、手术操作）连续多次未被‘认知阻力’系统驳回，且结果验证有效时，系统自动将这些操作序列‘折叠’为一个新的‘真实节点’（宏操作）。下次用户只需发出一个简单指令，AI即可自动展开并执行这一长串复杂操作，实现‘人机合一’的效率倍增。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.961703",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O5_5655",
+  "design_spec": {
+    "name": "auto_打造_数字直觉刻录系统_在人机共生实践_a1cef2",
+    "display_name": "打造‘数字直觉刻录系统’。在人机共生实践中，当人类专家的操作（如代码调试、手术操作）连续多次未被‘认",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造‘数字直觉刻录系统’。在人机共生实践中，当人类专家的操作（如代码调试、手术操作）连续多次未被‘认知阻力’系统驳回，且结果验证有效时，系统自动将这些操作序列‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

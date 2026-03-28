@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将_老师傅的隐性知识_如听声音判断_df3772",
+  "file": "skills/auto_如何将_老师傅的隐性知识_如听声音判断_df3772.py",
+  "description": "如何将'老师傅的隐性知识'（如听声音判断机床状态）转化为显性的'真实节点'？验证系统能否利用对比学习，将专家的'模糊判断'与高精传感器数据对齐，生成一个可被机器独立执行的'数字直觉'节点，从而实现知识的代际传承。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_100",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:43:01.612689",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_100_Q8_3_3799",
+  "design_spec": {
+    "name": "auto_如何将_老师傅的隐性知识_如听声音判断_df3772",
+    "display_name": "如何将'老师傅的隐性知识'（如听声音判断机床状态）转化为显性的'真实节点'？验证系统能否利用对比学习",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将'老师傅的隐性知识'（如听声音判断机床状态）转化为显性的'真实节点'？验证系统能否利用对比学习，将专家的'模糊判断'与高精传感器数据对齐，生成一个可被机器",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 282
+  }
+}

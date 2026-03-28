@@ -1,0 +1,30 @@
+{
+  "name": "auto_在工业制造中_物理参数_如温度_压力_与_f3b729",
+  "file": "skills/auto_在工业制造中_物理参数_如温度_压力_与_f3b729.py",
+  "description": "在工业制造中，物理参数（如温度、压力）与结果（如良率）之间往往存在非线性的“灰箱关系”。如何构建一个因果推断引擎，从海量的历史生产数据中区分“相关性”与“因果性”，从而生成具有物理意义的“真实节点”，而非仅仅是统计学上的关联？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.082944",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_65_Q3_3_1183",
+  "design_spec": {
+    "name": "auto_在工业制造中_物理参数_如温度_压力_与_f3b729",
+    "display_name": "在工业制造中，物理参数（如温度、压力）与结果（如良率）之间往往存在非线性的“灰箱关系”。如何构建一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在工业制造中，物理参数（如温度、压力）与结果（如良率）之间往往存在非线性的“灰箱关系”。如何构建一个因果推断引擎，从海量的历史生产数据中区分“相关性”与“因果性",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建意图与现有系统状态之间的_上下文_90a3a3",
+  "file": "skills/auto_如何构建意图与现有系统状态之间的_上下文_90a3a3.py",
+  "description": "如何构建意图与现有系统状态之间的'上下文一致性校验机制'？即在生成代码前，先判断模糊意图是否与当前系统环境（变量状态、依赖库版本、运行时权限）冲突，提前进行'证伪'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "context_awareness",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.539144",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q4_1_3870",
+  "design_spec": {
+    "name": "auto_如何构建意图与现有系统状态之间的_上下文_90a3a3",
+    "display_name": "如何构建意图与现有系统状态之间的'上下文一致性校验机制'？即在生成代码前，先判断模糊意图是否与当前系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建意图与现有系统状态之间的'上下文一致性校验机制'？即在生成代码前，先判断模糊意图是否与当前系统环境（变量状态、依赖库版本、运行时权限）冲突，提前进行'证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

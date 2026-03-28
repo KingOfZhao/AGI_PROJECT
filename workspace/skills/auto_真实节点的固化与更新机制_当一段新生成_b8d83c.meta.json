@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点的固化与更新机制_当一段新生成_b8d83c",
+  "file": "skills/auto_真实节点的固化与更新机制_当一段新生成_b8d83c.py",
+  "description": "真实节点的固化与更新机制: 当一段新生成的代码经过运行验证成功后，系统如何判断其具备'通用性'，从而将其抽象为新的SKILL或NODE并入知识库，避免知识库被一次性脚本污染？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.899260",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_48_Q9_3_999",
+  "design_spec": {
+    "name": "auto_真实节点的固化与更新机制_当一段新生成_b8d83c",
+    "display_name": "真实节点的固化与更新机制: 当一段新生成的代码经过运行验证成功后，系统如何判断其具备'通用性'，从而",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "真实节点的固化与更新机制: 当一段新生成的代码经过运行验证成功后，系统如何判断其具备'通用性'，从而将其抽象为新的SKILL或NODE并入知识库，避免知识库被一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 311
+  }
+}

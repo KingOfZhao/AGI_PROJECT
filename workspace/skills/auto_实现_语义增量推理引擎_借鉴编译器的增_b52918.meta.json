@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_语义增量推理引擎_借鉴编译器的增_b52918",
+  "file": "skills/auto_实现_语义增量推理引擎_借鉴编译器的增_b52918.py",
+  "description": "实现‘语义增量推理引擎’。借鉴编译器的增量编译思想，在长对话推理中，不是每次重新计算全量Attention，而是像编译器处理改动代码那样，仅‘重编译’（重新推理）受到新信息影响的逻辑分支。这将大幅降低LLM的Token消耗和延迟，实现类似热重载的对话体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.844865",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_129_O3_5696",
+  "design_spec": {
+    "name": "auto_实现_语义增量推理引擎_借鉴编译器的增_b52918",
+    "display_name": "实现‘语义增量推理引擎’。借鉴编译器的增量编译思想，在长对话推理中，不是每次重新计算全量Attent",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现‘语义增量推理引擎’。借鉴编译器的增量编译思想，在长对话推理中，不是每次重新计算全量Attention，而是像编译器处理改动代码那样，仅‘重编译’（重新推理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

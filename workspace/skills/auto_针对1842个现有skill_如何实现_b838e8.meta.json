@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对1842个现有skill_如何实现_b838e8",
+  "file": "skills/auto_针对1842个现有skill_如何实现_b838e8.py",
+  "description": "针对1842个现有Skill，如何实现'意图到技能'的非线性映射？用户意图往往是模糊的自然语言，而Skill库是结构化的函数签名。需要建立一种'语义路由器'，不仅能处理一对一映射，还能处理组合意图（如'分析数据并发邮件' = Skill_Pandas + Skill_SMTP），并自动生成中间 glue code。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "nlp_workflow",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.648274",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_111_Q5_1_2949",
+  "design_spec": {
+    "name": "auto_针对1842个现有skill_如何实现_b838e8",
+    "display_name": "针对1842个现有Skill，如何实现'意图到技能'的非线性映射？用户意图往往是模糊的自然语言，而S",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对1842个现有Skill，如何实现'意图到技能'的非线性映射？用户意图往往是模糊的自然语言，而Skill库是结构化的函数签名。需要建立一种'语义路由器'，不",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 453
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_左右跨域重叠_td_148_q5_9b648b",
+  "file": "skills/auto_整合_左右跨域重叠_td_148_q5_9b648b.py",
+  "description": "整合'左右跨域重叠'(td_148_Q5_3_7298)与'结构重用'(td_148_Q3_2_8624)。系统能够忽略表层的语义差异（如代码vs故事），直接提取底层的拓扑结构（如循环、分支、递归），实现极度抽象的知识迁移。例如，将音乐的和弦进行结构直接映射为数据库的事务处理流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.559242",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_149_E2_5301",
+  "design_spec": {
+    "name": "auto_整合_左右跨域重叠_td_148_q5_9b648b",
+    "display_name": "整合'左右跨域重叠'(td_148_Q5_3_7298)与'结构重用'(td_148_Q3_2_86",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'左右跨域重叠'(td_148_Q5_3_7298)与'结构重用'(td_148_Q3_2_8624)。系统能够忽略表层的语义差异（如代码vs故事），直接提",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

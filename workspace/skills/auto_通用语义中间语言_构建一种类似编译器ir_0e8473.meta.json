@@ -1,0 +1,30 @@
+{
+  "name": "auto_通用语义中间语言_构建一种类似编译器ir_0e8473",
+  "file": "skills/auto_通用语义中间语言_构建一种类似编译器ir_0e8473.py",
+  "description": "通用语义中间语言。构建一种类似编译器IR的‘自然语言IR’，将不同语言（中文、英文）或不同模态（文本、语音）输入统一降级为这种结构化IR。这使得下游任务（如问答、生成）只需针对IR编程，无需关心输入源，实现真正的跨语言/跨模态语义迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.413006",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_69_O3_1357",
+  "design_spec": {
+    "name": "auto_通用语义中间语言_构建一种类似编译器ir_0e8473",
+    "display_name": "通用语义中间语言。构建一种类似编译器IR的‘自然语言IR’，将不同语言（中文、英文）或不同模态（文本",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "通用语义中间语言。构建一种类似编译器IR的‘自然语言IR’，将不同语言（中文、英文）或不同模态（文本、语音）输入统一降级为这种结构化IR。这使得下游任务（如问答",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何基于_路径能耗_评估节点组合的质量_e4a8e5",
+  "file": "skills/auto_如何基于_路径能耗_评估节点组合的质量_e4a8e5.py",
+  "description": "如何基于'路径能耗'评估节点组合的质量？解决一个复杂问题通常需要调用一串节点链。如果某条路径虽然逻辑通顺，但调用栈极深、计算资源消耗大，且最终结果与一条短路径无异，那么该路径上的中间节点应被视为'低效节点'。如何建立'认知能效比'公式，自动淘汰那些'正确但无用'的高耗能中间节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "system_dynamics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.446095",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q10_0_1342",
+  "design_spec": {
+    "name": "auto_如何基于_路径能耗_评估节点组合的质量_e4a8e5",
+    "display_name": "如何基于'路径能耗'评估节点组合的质量？解决一个复杂问题通常需要调用一串节点链。如果某条路径虽然逻辑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何基于'路径能耗'评估节点组合的质量？解决一个复杂问题通常需要调用一串节点链。如果某条路径虽然逻辑通顺，但调用栈极深、计算资源消耗大，且最终结果与一条短路径无",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

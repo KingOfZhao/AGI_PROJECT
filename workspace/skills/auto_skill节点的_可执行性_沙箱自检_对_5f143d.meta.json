@@ -1,0 +1,30 @@
+{
+  "name": "auto_skill节点的_可执行性_沙箱自检_对_5f143d",
+  "file": "skills/auto_skill节点的_可执行性_沙箱自检_对_5f143d.py",
+  "description": "SKILL节点的'可执行性'沙箱自检：对于2232个标记为SKILL的节点，如何定期验证其在当前环境下的可执行性？代码依赖库的版本变更、API接口的废弃都会导致SKILL失效。需要构建一个自动化CI/CD流水线，定期对所有SKILL节点进行'冒烟测试'，任何执行失败的节点立即降级为'待修复'状态。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.341380",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_133_Q7_0_648",
+  "design_spec": {
+    "name": "auto_skill节点的_可执行性_沙箱自检_对_5f143d",
+    "display_name": "SKILL节点的'可执行性'沙箱自检：对于2232个标记为SKILL的节点，如何定期验证其在当前环境",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "SKILL节点的'可执行性'沙箱自检：对于2232个标记为SKILL的节点，如何定期验证其在当前环境下的可执行性？代码依赖库的版本变更、API接口的废弃都会导致",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

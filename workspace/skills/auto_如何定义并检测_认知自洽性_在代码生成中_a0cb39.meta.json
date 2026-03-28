@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何定义并检测_认知自洽性_在代码生成中_a0cb39",
+  "file": "skills/auto_如何定义并检测_认知自洽性_在代码生成中_a0cb39.py",
+  "description": "如何定义并检测‘认知自洽性’在代码生成中的边界？即，对于像‘编写一个贪吃蛇游戏’这样闭环的任务，系统应能判断任务完成；而对于‘优化系统性能’这样开放的任务，系统应能识别出需要人类介入定义终止条件。这需要建立一个‘任务闭环检测器’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.395764",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q8_3_4566",
+  "design_spec": {
+    "name": "auto_如何定义并检测_认知自洽性_在代码生成中_a0cb39",
+    "display_name": "如何定义并检测‘认知自洽性’在代码生成中的边界？即，对于像‘编写一个贪吃蛇游戏’这样闭环的任务，系统",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何定义并检测‘认知自洽性’在代码生成中的边界？即，对于像‘编写一个贪吃蛇游戏’这样闭环的任务，系统应能判断任务完成；而对于‘优化系统性能’这样开放的任务，系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

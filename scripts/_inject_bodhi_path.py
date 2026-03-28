@@ -13,6 +13,15 @@
 每个节点都是具体可实践、可验证的真实能力。
 终极目标：探索无穷层级的无穷。
 """
+
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
 import sys, sqlite3, json, time
 from pathlib import Path
 

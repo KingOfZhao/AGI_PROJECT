@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_开发_人生rpg技能树协议_0c5cb2",
+  "file": "skills/auto_融合能力_开发_人生rpg技能树协议_0c5cb2.py",
+  "description": "融合能力：开发'人生RPG技能树协议'。将宏大的学科知识体系重构为可视化的'科技树'或'天赋盘'。不同于线性课表，该协议允许学习者像玩RPG一样选择'技能分支'（专精方向）。每掌握一个知识单元（真实节点），即点亮一个节点并获得属性加成（如逻辑力+1）。融合能力在于将'枯燥的教材'转化为'攻略指南'，利用人类收集与成就的本能，解决长周期学习中的动力衰减问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:49:02.550607",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_10_O2_6181",
+  "design_spec": {
+    "name": "auto_融合能力_开发_人生rpg技能树协议_0c5cb2",
+    "display_name": "融合能力：开发'人生RPG技能树协议'。将宏大的学科知识体系重构为可视化的'科技树'或'天赋盘'。不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：开发'人生RPG技能树协议'。将宏大的学科知识体系重构为可视化的'科技树'或'天赋盘'。不同于线性课表，该协议允许学习者像玩RPG一样选择'技能分支'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

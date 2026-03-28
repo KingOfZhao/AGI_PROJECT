@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构化认知网络的遗忘机制_为了防止_认知_9ca63f",
+  "file": "skills/auto_结构化认知网络的遗忘机制_为了防止_认知_9ca63f.py",
+  "description": "结构化认知网络的遗忘机制：为了防止'认知自洽'演变为'认知僵化'，系统需要具备主动遗忘低价值节点的能力。如何设计基于'实践验证频率'与'网络连接度'的衰减函数，自动降权或归档那些长期未被激活且未产生新连接的'僵尸节点'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.268535",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_47_Q4_0_483",
+  "design_spec": {
+    "name": "auto_结构化认知网络的遗忘机制_为了防止_认知_9ca63f",
+    "display_name": "结构化认知网络的遗忘机制：为了防止'认知自洽'演变为'认知僵化'，系统需要具备主动遗忘低价值节点的能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结构化认知网络的遗忘机制：为了防止'认知自洽'演变为'认知僵化'，系统需要具备主动遗忘低价值节点的能力。如何设计基于'实践验证频率'与'网络连接度'的衰减函数，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

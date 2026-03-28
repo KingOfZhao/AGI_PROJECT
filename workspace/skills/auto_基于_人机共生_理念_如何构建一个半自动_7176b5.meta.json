@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机共生_理念_如何构建一个半自动_7176b5",
+  "file": "skills/auto_基于_人机共生_理念_如何构建一个半自动_7176b5.py",
+  "description": "基于‘人机共生’理念，如何构建一个半自动化的‘概念固化’闭环？即当AI发现潜在新模式时，自动生成最小化的实践清单供人类执行，并根据人类的反馈结果修正网络权重的算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.232584",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q4_0_788",
+  "design_spec": {
+    "name": "auto_基于_人机共生_理念_如何构建一个半自动_7176b5",
+    "display_name": "基于‘人机共生’理念，如何构建一个半自动化的‘概念固化’闭环？即当AI发现潜在新模式时，自动生成最小",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘人机共生’理念，如何构建一个半自动化的‘概念固化’闭环？即当AI发现潜在新模式时，自动生成最小化的实践清单供人类执行，并根据人类的反馈结果修正网络权重的算",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 416
+  }
+}

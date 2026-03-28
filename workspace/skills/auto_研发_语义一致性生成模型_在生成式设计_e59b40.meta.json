@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_语义一致性生成模型_在生成式设计_e59b40",
+  "file": "skills/auto_研发_语义一致性生成模型_在生成式设计_e59b40.py",
+  "description": "研发【语义一致性生成模型】。在生成式设计中，引入一个评价器，它不评价结构的物理强度，而是评价“生成物”与“自然语言意境”的语义对齐度。例如，用户输入“设计一把具有杀伐之气的剑”，模型不仅生成形状，还通过CLIP模型计算生成的视觉特征与“杀伐”文本特征的语义距离，确保AI生成的作品在精神内核上符合人类的抽象意图。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_56",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:30:48.743539",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_56_O5_1140",
+  "design_spec": {
+    "name": "auto_研发_语义一致性生成模型_在生成式设计_e59b40",
+    "display_name": "研发【语义一致性生成模型】。在生成式设计中，引入一个评价器，它不评价结构的物理强度，而是评价“生成物",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发【语义一致性生成模型】。在生成式设计中，引入一个评价器，它不评价结构的物理强度，而是评价“生成物”与“自然语言意境”的语义对齐度。例如，用户输入“设计一把具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

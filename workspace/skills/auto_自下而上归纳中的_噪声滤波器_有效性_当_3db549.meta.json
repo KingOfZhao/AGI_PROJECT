@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳中的_噪声滤波器_有效性_当_3db549",
+  "file": "skills/auto_自下而上归纳中的_噪声滤波器_有效性_当_3db549.py",
+  "description": "自下而上归纳中的'噪声滤波器'有效性：当从海量实践数据中归纳新节点时，如何区分'偶发性成功'与'可复现规律'？验证是否要求新归纳的节点必须在至少3个独立上下文中重复出现且置信区间p<0.05才能进入节点库，否则视为噪音。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "statistics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.408789",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q7_0_8080",
+  "design_spec": {
+    "name": "auto_自下而上归纳中的_噪声滤波器_有效性_当_3db549",
+    "display_name": "自下而上归纳中的'噪声滤波器'有效性：当从海量实践数据中归纳新节点时，如何区分'偶发性成功'与'可复",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自下而上归纳中的'噪声滤波器'有效性：当从海量实践数据中归纳新节点时，如何区分'偶发性成功'与'可复现规律'？验证是否要求新归纳的节点必须在至少3个独立上下文中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 257
+  }
+}

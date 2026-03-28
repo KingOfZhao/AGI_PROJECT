@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域概念迁移的重叠度测试_提供一个源域_552a99",
+  "file": "skills/auto_跨域概念迁移的重叠度测试_提供一个源域_552a99.py",
+  "description": "【跨域概念迁移的重叠度测试】提供一个源域的抽象结构（如‘生态系统的能量流动金字塔’），要求AI将其结构映射到一个完全陌生的目标域（如‘城市交通流量管理’），并生成一个具体的解决方案。验证AI是否捕捉到了‘底层同构’的结构，而不是表面的词语联想。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.307512",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q4_2_2222",
+  "design_spec": {
+    "name": "auto_跨域概念迁移的重叠度测试_提供一个源域_552a99",
+    "display_name": "【跨域概念迁移的重叠度测试】提供一个源域的抽象结构（如‘生态系统的能量流动金字塔’），要求AI将其结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域概念迁移的重叠度测试】提供一个源域的抽象结构（如‘生态系统的能量流动金字塔’），要求AI将其结构映射到一个完全陌生的目标域（如‘城市交通流量管理’），并生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

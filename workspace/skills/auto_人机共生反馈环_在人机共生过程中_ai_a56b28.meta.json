@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈环_在人机共生过程中_ai_a56b28",
+  "file": "skills/auto_人机共生反馈环_在人机共生过程中_ai_a56b28.py",
+  "description": "【人机共生反馈环】在人机共生过程中，AI给出的反馈是否具备‘可解释性’从而促进人类技能提升？如果AI指出‘这一刀偏了’，人类无法证伪；如果AI指出‘此刻刀刃角度与木纹夹角应为15度’，人类可验证。系统能否自动生成这种可证伪的指导建议？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.570524",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_72_Q9_2_2877",
+  "design_spec": {
+    "name": "auto_人机共生反馈环_在人机共生过程中_ai_a56b28",
+    "display_name": "【人机共生反馈环】在人机共生过程中，AI给出的反馈是否具备‘可解释性’从而促进人类技能提升？如果AI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生反馈环】在人机共生过程中，AI给出的反馈是否具备‘可解释性’从而促进人类技能提升？如果AI指出‘这一刀偏了’，人类无法证伪；如果AI指出‘此刻刀刃角度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

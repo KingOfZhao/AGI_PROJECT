@@ -1,0 +1,20 @@
+{
+ "glm-5-turbo": {
+  "ok": 335,
+  "fail": 0,
+  "avg_dur": 13.3,
+  "total_dur": 4447.93
+ },
+ "glm-5": {
+  "ok": 65,
+  "fail": 0,
+  "avg_dur": 108.1,
+  "total_dur": 7024.160000000003
+ },
+ "glm-5.1": {
+  "ok": 36,
+  "fail": 0,
+  "avg_dur": 100.5,
+  "total_dur": 3617.33
+ }
+}

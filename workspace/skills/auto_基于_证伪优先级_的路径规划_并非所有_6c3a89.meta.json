@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_证伪优先级_的路径规划_并非所有_6c3a89",
+  "file": "skills/auto_基于_证伪优先级_的路径规划_并非所有_6c3a89.py",
+  "description": "基于'证伪优先级'的路径规划: 并非所有节点都值得验证。如何构建一个价值评估模型，计算'证伪某节点可能带来的全局图谱崩溃风险 vs. 重构收益'？优先引导人类去攻击那些'一旦被推翻，将导致大面积子节点失效'的枢纽型假设。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "decision_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.009796",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_59_Q7_2_2882",
+  "design_spec": {
+    "name": "auto_基于_证伪优先级_的路径规划_并非所有_6c3a89",
+    "display_name": "基于'证伪优先级'的路径规划: 并非所有节点都值得验证。如何构建一个价值评估模型，计算'证伪某节点可",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'证伪优先级'的路径规划: 并非所有节点都值得验证。如何构建一个价值评估模型，计算'证伪某节点可能带来的全局图谱崩溃风险 vs. 重构收益'？优先引导人类去",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

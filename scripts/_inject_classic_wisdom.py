@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 """将26部经典智慧注入认知格作为proven真实节点"""
+
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
 import sys, os, time
 sys.path.insert(0, '/Users/administruter/Desktop/AGI_PROJECT')
 

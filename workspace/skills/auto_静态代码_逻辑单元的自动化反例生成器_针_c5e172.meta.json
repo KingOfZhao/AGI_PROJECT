@@ -1,0 +1,30 @@
+{
+  "name": "auto_静态代码_逻辑单元的自动化反例生成器_针_c5e172",
+  "file": "skills/auto_静态代码_逻辑单元的自动化反例生成器_针_c5e172.py",
+  "description": "静态代码/逻辑单元的自动化反例生成器：针对SKILL类型的节点（通常是可执行代码或逻辑链），能否构建一个'对抗性AI'，自动生成边界测试用例来攻击该节点？例如，若节点是'Python排序函数'，AI应自动生成超大数组、空数组、非同质类型数组等输入，试图触发错误。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:39.962212",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q2_1_764",
+  "design_spec": {
+    "name": "auto_静态代码_逻辑单元的自动化反例生成器_针_c5e172",
+    "display_name": "静态代码/逻辑单元的自动化反例生成器：针对SKILL类型的节点（通常是可执行代码或逻辑链），能否构建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "静态代码/逻辑单元的自动化反例生成器：针对SKILL类型的节点（通常是可执行代码或逻辑链），能否构建一个'对抗性AI'，自动生成边界测试用例来攻击该节点？例如，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 235
+  }
+}

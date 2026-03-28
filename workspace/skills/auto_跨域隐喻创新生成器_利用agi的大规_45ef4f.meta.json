@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域隐喻创新生成器_利用agi的大规_45ef4f",
+  "file": "skills/auto_跨域隐喻创新生成器_利用agi的大规_45ef4f.py",
+  "description": "【跨域隐喻创新生成器】：利用AGI的大规模知识图谱，辅助人类发现全新的技能组合与商业机会。当输入一个具体痛点时，系统不只在当前领域搜索，而是遍历所有‘结构同构’的远距离节点。例如，解决‘团队协作效率低’的问题，系统可能会映射到‘TCP/IP网络拥塞控制’的机制，从而提出基于‘丢包重传’或‘滑动窗口’的新型管理SOP，将物理/计算机领域的成熟方案‘暴力迁移’到管理学领域。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.968076",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_54_O4_234",
+  "design_spec": {
+    "name": "auto_跨域隐喻创新生成器_利用agi的大规_45ef4f",
+    "display_name": "【跨域隐喻创新生成器】：利用AGI的大规模知识图谱，辅助人类发现全新的技能组合与商业机会。当输入一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域隐喻创新生成器】：利用AGI的大规模知识图谱，辅助人类发现全新的技能组合与商业机会。当输入一个具体痛点时，系统不只在当前领域搜索，而是遍历所有‘结构同构’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 424
+  }
+}

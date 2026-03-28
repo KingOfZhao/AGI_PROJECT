@@ -1,0 +1,30 @@
+{
+  "name": "auto_小样本下的极端证伪生成_在仅有少量样本_7d972c",
+  "file": "skills/auto_小样本下的极端证伪生成_在仅有少量样本_7d972c.py",
+  "description": "小样本下的极端证伪生成：在仅有少量样本（如罕见病诊断）的情况下，AI如何利用生成式模型扩充'潜在失败样本'？系统需具备'想象力'，构建出逻辑上可能但尚未发生的'反例'，主动寻求人类专家证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "deep_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.109551",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q8_1_8212",
+  "design_spec": {
+    "name": "auto_小样本下的极端证伪生成_在仅有少量样本_7d972c",
+    "display_name": "小样本下的极端证伪生成：在仅有少量样本（如罕见病诊断）的情况下，AI如何利用生成式模型扩充'潜在失败",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "小样本下的极端证伪生成：在仅有少量样本（如罕见病诊断）的情况下，AI如何利用生成式模型扩充'潜在失败样本'？系统需具备'想象力'，构建出逻辑上可能但尚未发生的'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 345
+  }
+}

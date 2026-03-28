@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_程序化ui材质系统_突破扁平化设_b96ee6",
+  "file": "skills/auto_实现_程序化ui材质系统_突破扁平化设_b96ee6.py",
+  "description": "实现'程序化UI材质系统'。突破扁平化设计限制，将CAD领域的PBR(基于物理的渲染)材质系统引入Flutter UI组件。允许开发者定义组件的'粗糙度'、'金属度'，使UI元素具备真实物理材质的光影表现（如磨砂玻璃的分子级散射效果），而非简单的静态模糊。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.187221",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_42_O4_4503",
+  "design_spec": {
+    "name": "auto_实现_程序化ui材质系统_突破扁平化设_b96ee6",
+    "display_name": "实现'程序化UI材质系统'。突破扁平化设计限制，将CAD领域的PBR(基于物理的渲染)材质系统引入F",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'程序化UI材质系统'。突破扁平化设计限制，将CAD领域的PBR(基于物理的渲染)材质系统引入Flutter UI组件。允许开发者定义组件的'粗糙度'、'金",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 406
+  }
+}

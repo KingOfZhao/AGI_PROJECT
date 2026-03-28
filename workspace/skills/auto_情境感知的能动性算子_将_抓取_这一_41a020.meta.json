@@ -1,0 +1,30 @@
+{
+  "name": "auto_情境感知的能动性算子_将_抓取_这一_41a020",
+  "file": "skills/auto_情境感知的能动性算子_将_抓取_这一_41a020.py",
+  "description": "‘情境感知的能动性算子’。将‘抓取’这一动作重新定义为一种‘关系建立’过程。AI不再只是识别物体，而是计算‘物体-环境-自体’的三元关系张量。例如，抓取一个在流水线上的瓶子，不仅看瓶子形状，还计算传送带速度（环境语境）和机械臂当前疲劳度（自体语境），动态生成‘此时此地’的唯一抓取策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.809987",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_50_O3_6149",
+  "design_spec": {
+    "name": "auto_情境感知的能动性算子_将_抓取_这一_41a020",
+    "display_name": "‘情境感知的能动性算子’。将‘抓取’这一动作重新定义为一种‘关系建立’过程。AI不再只是识别物体，而",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘情境感知的能动性算子’。将‘抓取’这一动作重新定义为一种‘关系建立’过程。AI不再只是识别物体，而是计算‘物体-环境-自体’的三元关系张量。例如，抓取一个在流",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

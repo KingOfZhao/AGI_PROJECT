@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解中的_解释性鸿沟_度量_在a_5d531f",
+  "file": "skills/auto_自上而下拆解中的_解释性鸿沟_度量_在a_5d531f.py",
+  "description": "自上而下拆解中的'解释性鸿沟'度量：在AI将复杂问题拆解为子问题时，如何量化'概念'与'实现'之间的距离？需要建立一个'抽象度指数'，如果拆解后的子节点抽象度过高，缺乏对应的底层SKILL支持，则判定为'空转'（Spinning），即无效拆解。系统需强制要求拆解路径必须最终收敛于可执行的原子节点（如API调用、物理动作指令），否则拒绝该拆解路径并寻求替代方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.189173",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_144_Q6_3_2675",
+  "design_spec": {
+    "name": "auto_自上而下拆解中的_解释性鸿沟_度量_在a_5d531f",
+    "display_name": "自上而下拆解中的'解释性鸿沟'度量：在AI将复杂问题拆解为子问题时，如何量化'概念'与'实现'之间的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自上而下拆解中的'解释性鸿沟'度量：在AI将复杂问题拆解为子问题时，如何量化'概念'与'实现'之间的距离？需要建立一个'抽象度指数'，如果拆解后的子节点抽象度过",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

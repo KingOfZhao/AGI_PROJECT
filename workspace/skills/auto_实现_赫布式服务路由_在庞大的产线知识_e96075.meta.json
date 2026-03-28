@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_赫布式服务路由_在庞大的产线知识_e96075",
+  "file": "skills/auto_实现_赫布式服务路由_在庞大的产线知识_e96075.py",
+  "description": "实现'赫布式服务路由'。在庞大的产线知识图谱中，AI观察人类操作员或自动化系统的实际调用路径。如果'问题A'经常导致'解决方案B'被调用，系统自动增强A到B的连接权重（如降低延迟、增加缓存），并减弱不常用路径。这使得知识图谱能够像大脑一样，通过'练习'将生疏的串行推理转化为直觉般的快速反射通道。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.859585",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_113_O6_7885",
+  "design_spec": {
+    "name": "auto_实现_赫布式服务路由_在庞大的产线知识_e96075",
+    "display_name": "实现'赫布式服务路由'。在庞大的产线知识图谱中，AI观察人类操作员或自动化系统的实际调用路径。如果'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'赫布式服务路由'。在庞大的产线知识图谱中，AI观察人类操作员或自动化系统的实际调用路径。如果'问题A'经常导致'解决方案B'被调用，系统自动增强A到B的连",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 337
+  }
+}

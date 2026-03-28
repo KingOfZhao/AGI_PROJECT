@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_异构知识共生体_核心微服务负责标_47f57f",
+  "file": "skills/auto_设计_异构知识共生体_核心微服务负责标_47f57f.py",
+  "description": "设计‘异构知识共生体’。核心微服务负责标准化的工厂流程（宿主），而通过Sidecar模式挂载的Python脚本或规则引擎（菌群）负责处理非结构化、经验性强的‘小摊贩知识’。当核心服务遇到无法解析的模糊指令时，通过localhost socket调用Sidecar进行‘消化’。这种结构允许‘小摊贩经验’以插件形式动态注入严谨的工厂系统，且互不污染代码库。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.791814",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_131_O4_1686",
+  "design_spec": {
+    "name": "auto_设计_异构知识共生体_核心微服务负责标_47f57f",
+    "display_name": "设计‘异构知识共生体’。核心微服务负责标准化的工厂流程（宿主），而通过Sidecar模式挂载的Pyt",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计‘异构知识共生体’。核心微服务负责标准化的工厂流程（宿主），而通过Sidecar模式挂载的Python脚本或规则引擎（菌群）负责处理非结构化、经验性强的‘小",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

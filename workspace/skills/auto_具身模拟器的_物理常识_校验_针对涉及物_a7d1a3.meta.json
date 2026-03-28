@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身模拟器的_物理常识_校验_针对涉及物_a7d1a3",
+  "file": "skills/auto_具身模拟器的_物理常识_校验_针对涉及物_a7d1a3.py",
+  "description": "具身模拟器的'物理常识'校验：针对涉及物理世界的SKILL（如'倒水'、'行走'），在没有实体机器人的情况下，如何利用高保真物理引擎（如MuJoCo或PhysX）构建虚拟测试场？AI生成的行为序列必须先在虚拟环境中通过物理定律的检验（如重力、碰撞、流体力学）。如果AI建议'将杯子倒置以盛水'，虚拟环境应反馈'水洒出'的结果，从而实现无人类的自动化证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.224221",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_144_Q10_3_2675",
+  "design_spec": {
+    "name": "auto_具身模拟器的_物理常识_校验_针对涉及物_a7d1a3",
+    "display_name": "具身模拟器的'物理常识'校验：针对涉及物理世界的SKILL（如'倒水'、'行走'），在没有实体机器人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "具身模拟器的'物理常识'校验：针对涉及物理世界的SKILL（如'倒水'、'行走'），在没有实体机器人的情况下，如何利用高保真物理引擎（如MuJoCo或PhysX",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一个基于时序衰减的_概念漂移_检测器_b01059",
+  "file": "skills/auto_构建一个基于时序衰减的_概念漂移_检测器_b01059.py",
+  "description": "构建一个基于时序衰减的'概念漂移'检测器，用于评估旧有节点的有效性。认知具有时效性，过时的实践（如旧版API调用方式或失效的物理定律近似）必须被淘汰。该子问题要求建立一个函数，根据节点的最后验证时间、环境参数变化速率及错误反馈频率，计算节点的'半衰期'，并在超过阈值时触发熔断机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "time_series_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.712250",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q2_0_5832",
+  "design_spec": {
+    "name": "auto_构建一个基于时序衰减的_概念漂移_检测器_b01059",
+    "display_name": "构建一个基于时序衰减的'概念漂移'检测器，用于评估旧有节点的有效性。认知具有时效性，过时的实践（如旧",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一个基于时序衰减的'概念漂移'检测器，用于评估旧有节点的有效性。认知具有时效性，过时的实践（如旧版API调用方式或失效的物理定律近似）必须被淘汰。该子问题要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 287
+  }
+}

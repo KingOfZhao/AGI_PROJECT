@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_价值_解决人类寿命限制_的设定_如_2e4c99",
+  "file": "skills/auto_基于_价值_解决人类寿命限制_的设定_如_2e4c99.py",
+  "description": "基于‘价值：解决人类寿命限制’的设定，如何将资深技师的肌肉记忆（如特定的手感扭矩）数字化为可迁移的‘真实节点’？这需要开发一套可穿戴设备数据流处理Skill，将肌电信号与最终产品质量进行关联建模，形成可被新手通过反馈设备复现的参数曲线。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "bio_integration",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.376829",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q5_1_6470",
+  "design_spec": {
+    "name": "auto_基于_价值_解决人类寿命限制_的设定_如_2e4c99",
+    "display_name": "基于‘价值：解决人类寿命限制’的设定，如何将资深技师的肌肉记忆（如特定的手感扭矩）数字化为可迁移的‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘价值：解决人类寿命限制’的设定，如何将资深技师的肌肉记忆（如特定的手感扭矩）数字化为可迁移的‘真实节点’？这需要开发一套可穿戴设备数据流处理Skill，将",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

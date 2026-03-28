@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_无限画布级流式渲染框架_针对fl_1a0af4",
+  "file": "skills/auto_研发_无限画布级流式渲染框架_针对fl_1a0af4.py",
+  "description": "研发'无限画布级流式渲染框架'。针对Flutter在处理超大型图表(如万级节点脑图、工业HMI拓扑图)时的性能瓶颈，引入CAD的八叉树空间索引和LOD机制。根据缩放级别动态切换Widget的渲染复杂度(近处是完整的交互Widget，远处降级为静态图片或矢量轮廓)，实现PB级数据的毫秒级响应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.832482",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O2_8882",
+  "design_spec": {
+    "name": "auto_研发_无限画布级流式渲染框架_针对fl_1a0af4",
+    "display_name": "研发'无限画布级流式渲染框架'。针对Flutter在处理超大型图表(如万级节点脑图、工业HMI拓扑图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'无限画布级流式渲染框架'。针对Flutter在处理超大型图表(如万级节点脑图、工业HMI拓扑图)时的性能瓶颈，引入CAD的八叉树空间索引和LOD机制。根据",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

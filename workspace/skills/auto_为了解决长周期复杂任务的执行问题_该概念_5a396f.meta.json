@@ -1,0 +1,30 @@
+{
+  "name": "auto_为了解决长周期复杂任务的执行问题_该概念_5a396f",
+  "file": "skills/auto_为了解决长周期复杂任务的执行问题_该概念_5a396f.py",
+  "description": "为了解决长周期复杂任务的执行问题，该概念将静态的'意图'转化为动态的'分层状态机'（HFSM）。它结合了'全息上下文'（即在任何层级都能回溯到原始意图）和'扩散性查询'能力。系统不是线性地执行清单，而是根据实时反馈动态地在状态节点间跳转。这要求将非结构化的知识压缩为可计算的状态图，并具备在任意步骤'反悔'或'重规划'的能力，从而实现从模糊意图到精确物理操作的落地。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.060809",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_93_P5_4932",
+  "design_spec": {
+    "name": "auto_为了解决长周期复杂任务的执行问题_该概念_5a396f",
+    "display_name": "为了解决长周期复杂任务的执行问题，该概念将静态的'意图'转化为动态的'分层状态机'（HFSM）。它结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "为了解决长周期复杂任务的执行问题，该概念将静态的'意图'转化为动态的'分层状态机'（HFSM）。它结合了'全息上下文'（即在任何层级都能回溯到原始意图）和'扩散",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 307
+  }
+}

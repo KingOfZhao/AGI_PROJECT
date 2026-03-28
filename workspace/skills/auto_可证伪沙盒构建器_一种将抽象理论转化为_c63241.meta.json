@@ -1,0 +1,30 @@
+{
+  "name": "auto_可证伪沙盒构建器_一种将抽象理论转化为_c63241",
+  "file": "skills/auto_可证伪沙盒构建器_一种将抽象理论转化为_c63241.py",
+  "description": "【可证伪沙盒构建器】一种将抽象理论转化为可交互模拟环境的能力。它利用游戏设计中的'模拟经营'或'策略游戏'逻辑，为书本上的理论（如《博弈论》中的纳什均衡）构建一个封闭的虚拟运行环境。学习者不仅是阅读结论，而是在沙盒中通过调整参数尝试打破理论，系统则负责记录'证伪'过程。AI通过分析学习者的破坏路径，反向加固理论节点的真实性和边界条件。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.578275",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O2_7664",
+  "design_spec": {
+    "name": "auto_可证伪沙盒构建器_一种将抽象理论转化为_c63241",
+    "display_name": "【可证伪沙盒构建器】一种将抽象理论转化为可交互模拟环境的能力。它利用游戏设计中的'模拟经营'或'策略",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【可证伪沙盒构建器】一种将抽象理论转化为可交互模拟环境的能力。它利用游戏设计中的'模拟经营'或'策略游戏'逻辑，为书本上的理论（如《博弈论》中的纳什均衡）构建一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

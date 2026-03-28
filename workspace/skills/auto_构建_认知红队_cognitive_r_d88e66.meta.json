@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知红队_cognitive_r_d88e66",
+  "file": "skills/auto_构建_认知红队_cognitive_r_d88e66.py",
+  "description": "构建'认知红队'（Cognitive Red Team）节点，专门生成对抗性样本攻击系统的逻辑闭环，以此训练'免疫识别器'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.206067",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_42_G3_1524",
+  "design_spec": {
+    "name": "auto_构建_认知红队_cognitive_r_d88e66",
+    "display_name": "构建'认知红队'（Cognitive Red Team）节点，专门生成对抗性样本攻击系统的逻辑闭环，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知红队'（Cognitive Red Team）节点，专门生成对抗性样本攻击系统的逻辑闭环，以此训练'免疫识别器'。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

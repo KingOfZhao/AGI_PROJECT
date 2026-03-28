@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_沉浸式叙事环境生成系统_用于元宇_b5e70e",
+  "file": "skills/auto_开发_沉浸式叙事环境生成系统_用于元宇_b5e70e.py",
+  "description": "开发'沉浸式叙事环境生成系统'。用于元宇宙或游戏设计。该系统利用Attention机制分析用户的视觉焦点和行为意图，实时调整建筑空间的'透明度'和'流动性'。如果用户关注社交，空间自动'流动'融合成大厅；如果用户需要专注，空间'坍缩'成封闭小室。这不仅是物理空间的生成，更是'情绪与注意力流'的建筑化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.976588",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O5_6848",
+  "design_spec": {
+    "name": "auto_开发_沉浸式叙事环境生成系统_用于元宇_b5e70e",
+    "display_name": "开发'沉浸式叙事环境生成系统'。用于元宇宙或游戏设计。该系统利用Attention机制分析用户的视觉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'沉浸式叙事环境生成系统'。用于元宇宙或游戏设计。该系统利用Attention机制分析用户的视觉焦点和行为意图，实时调整建筑空间的'透明度'和'流动性'。如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

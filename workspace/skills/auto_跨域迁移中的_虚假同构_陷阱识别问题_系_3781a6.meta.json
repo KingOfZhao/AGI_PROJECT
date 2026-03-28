@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_虚假同构_陷阱识别问题_系_3781a6",
+  "file": "skills/auto_跨域迁移中的_虚假同构_陷阱识别问题_系_3781a6.py",
+  "description": "跨域迁移中的'虚假同构'陷阱识别问题：系统可能错误地认为领域A和领域B在表面结构上相似（如'病毒传播'与'信息传播'），从而建议迁移错误的干预策略。如何构建一个'反例生成器'作为证伪机制，专门针对迁移后的结论在目标领域生成极端边界条件进行压力测试？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_51",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:49:54.137260",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_51_Q6_3_9820",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_虚假同构_陷阱识别问题_系_3781a6",
+    "display_name": "跨域迁移中的'虚假同构'陷阱识别问题：系统可能错误地认为领域A和领域B在表面结构上相似（如'病毒传播",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的'虚假同构'陷阱识别问题：系统可能错误地认为领域A和领域B在表面结构上相似（如'病毒传播'与'信息传播'），从而建议迁移错误的干预策略。如何构建一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

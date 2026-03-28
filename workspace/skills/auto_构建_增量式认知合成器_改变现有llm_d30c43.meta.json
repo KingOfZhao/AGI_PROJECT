@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_增量式认知合成器_改变现有llm_d30c43",
+  "file": "skills/auto_构建_增量式认知合成器_改变现有llm_d30c43.py",
+  "description": "构建‘增量式认知合成器’。改变现有LLM‘一次性生成’的黑盒模式，引入语法制导的增量生成机制。在生成长文本或代码时，每生成一个结构块（如函数、段落），立即进行局部语法/逻辑校验，一旦发现偏差立即回溯，模拟编译器的错误恢复机制，确保最终输出的结构完整性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_56",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:30:48.795678",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_56_O4_7713",
+  "design_spec": {
+    "name": "auto_构建_增量式认知合成器_改变现有llm_d30c43",
+    "display_name": "构建‘增量式认知合成器’。改变现有LLM‘一次性生成’的黑盒模式，引入语法制导的增量生成机制。在生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘增量式认知合成器’。改变现有LLM‘一次性生成’的黑盒模式，引入语法制导的增量生成机制。在生成长文本或代码时，每生成一个结构块（如函数、段落），立即进行局",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

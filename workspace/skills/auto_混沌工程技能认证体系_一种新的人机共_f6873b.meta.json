@@ -1,0 +1,30 @@
+{
+  "name": "auto_混沌工程技能认证体系_一种新的人机共_f6873b",
+  "file": "skills/auto_混沌工程技能认证体系_一种新的人机共_f6873b.py",
+  "description": "【混沌工程技能认证体系】：一种新的人机共生评估机制。当AI认为它学会了某项技能（如写SQL），或者人类宣称掌握了某项技能，系统自动生成'对抗性环境'（如并发锁死、磁盘满载、语法陷阱）。这不是为了通过考试，而是为了'证伪'能力。只有在极端对抗中未崩溃的节点，才能被标记为'高置信度真实节点'。这比单纯的准确率更能代表实战能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.515868",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_107_O5_3478",
+  "design_spec": {
+    "name": "auto_混沌工程技能认证体系_一种新的人机共_f6873b",
+    "display_name": "【混沌工程技能认证体系】：一种新的人机共生评估机制。当AI认为它学会了某项技能（如写SQL），或者人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【混沌工程技能认证体系】：一种新的人机共生评估机制。当AI认为它学会了某项技能（如写SQL），或者人类宣称掌握了某项技能，系统自动生成'对抗性环境'（如并发锁死",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 555
+  }
+}

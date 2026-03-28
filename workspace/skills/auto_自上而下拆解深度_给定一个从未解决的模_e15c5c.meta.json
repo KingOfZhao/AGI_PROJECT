@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解深度_给定一个从未解决的模_e15c5c",
+  "file": "skills/auto_自上而下拆解深度_给定一个从未解决的模_e15c5c.py",
+  "description": "【自上而下拆解深度】给定一个从未解决的模糊宏观目标（如'用50元本金在城市A生存3天'），AI能否将其拆解为不少于3层的具体执行树，且叶子节点必须是包含具体参数（地点、价格、时间）的可执行动作，而非抽象建议？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.654102",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q2_2_3033",
+  "design_spec": {
+    "name": "auto_自上而下拆解深度_给定一个从未解决的模_e15c5c",
+    "display_name": "【自上而下拆解深度】给定一个从未解决的模糊宏观目标（如'用50元本金在城市A生存3天'），AI能否将",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下拆解深度】给定一个从未解决的模糊宏观目标（如'用50元本金在城市A生存3天'），AI能否将其拆解为不少于3层的具体执行树，且叶子节点必须是包含具体参数",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

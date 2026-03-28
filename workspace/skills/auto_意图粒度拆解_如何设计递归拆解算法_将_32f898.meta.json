@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图粒度拆解_如何设计递归拆解算法_将_32f898",
+  "file": "skills/auto_意图粒度拆解_如何设计递归拆解算法_将_32f898.py",
+  "description": "【意图粒度拆解】如何设计递归拆解算法，将一个宏观的复杂意图（如'做一个贪吃蛇游戏'）自上而下地拆解为最小可执行单元？关键在于定义'最小粒度'的边界，防止无限递归或粒度过粗导致无法执行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cognitive_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.107610",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q2_1_8386",
+  "design_spec": {
+    "name": "auto_意图粒度拆解_如何设计递归拆解算法_将_32f898",
+    "display_name": "【意图粒度拆解】如何设计递归拆解算法，将一个宏观的复杂意图（如'做一个贪吃蛇游戏'）自上而下地拆解为",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图粒度拆解】如何设计递归拆解算法，将一个宏观的复杂意图（如'做一个贪吃蛇游戏'）自上而下地拆解为最小可执行单元？关键在于定义'最小粒度'的边界，防止无限递归",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 467
+  }
+}

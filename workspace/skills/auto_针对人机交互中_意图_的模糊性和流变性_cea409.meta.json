@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对人机交互中_意图_的模糊性和流变性_cea409",
+  "file": "skills/auto_针对人机交互中_意图_的模糊性和流变性_cea409.py",
+  "description": "针对人机交互中“意图”的模糊性和流变性，提出的一种代码生成与状态管理协议。该概念不追求一次性完美解析，而是建立一套“上下文状态机”，在多轮对话中动态捕捉和修正意图。它要求系统显式标注“假设边界”和“不确定性”，将模糊的自然语言转化为结构化的DSL（领域特定语言）时，能够自动进行逻辑自洽性检验，并在最小可执行单元层面进行证伪，确保生成的代码或方案在逻辑闭环上是坚实的。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.338294",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_3_P4_5960",
+  "design_spec": {
+    "name": "auto_针对人机交互中_意图_的模糊性和流变性_cea409",
+    "display_name": "针对人机交互中“意图”的模糊性和流变性，提出的一种代码生成与状态管理协议。该概念不追求一次性完美解析",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对人机交互中“意图”的模糊性和流变性，提出的一种代码生成与状态管理协议。该概念不追求一次性完美解析，而是建立一套“上下文状态机”，在多轮对话中动态捕捉和修正意",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 553
+  }
+}

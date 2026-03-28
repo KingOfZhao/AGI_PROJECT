@@ -1,0 +1,30 @@
+{
+  "name": "auto_触觉反馈的数字孪生_在虚拟环境中_如何_d5728f",
+  "file": "skills/auto_触觉反馈的数字孪生_在虚拟环境中_如何_d5728f.py",
+  "description": "【触觉反馈的数字孪生】在虚拟环境中，如何建立基于物理的触觉渲染模型，使AI能够“感觉”到材料的刚度、粘弹性？这需要解决‘真实节点’在虚拟维度的映射问题，让AI不仅仅是模仿轨迹，而是基于反馈调整策略，实现真正的‘手眼协调’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "robotics_simulation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:42:58.461021",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q2_2_6644",
+  "design_spec": {
+    "name": "auto_触觉反馈的数字孪生_在虚拟环境中_如何_d5728f",
+    "display_name": "【触觉反馈的数字孪生】在虚拟环境中，如何建立基于物理的触觉渲染模型，使AI能够“感觉”到材料的刚度、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【触觉反馈的数字孪生】在虚拟环境中，如何建立基于物理的触觉渲染模型，使AI能够“感觉”到材料的刚度、粘弹性？这需要解决‘真实节点’在虚拟维度的映射问题，让AI不",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_验证_递归子目标分解_在长序列手工艺任务_9b69d1",
+  "file": "skills/auto_验证_递归子目标分解_在长序列手工艺任务_9b69d1.py",
+  "description": "验证“递归子目标分解”在长序列手工艺任务中的有效性。由于隐性知识往往贯穿长流程，需要验证AI能否将一个模糊的长目标（如“制作一把椅子”）自动拆解为具有物理检测点的子目标链（如“打磨平整度<0.1mm”），并在每个子节点进行自上而下的证伪验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "task_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.012566",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q9_2_1672",
+  "design_spec": {
+    "name": "auto_验证_递归子目标分解_在长序列手工艺任务_9b69d1",
+    "display_name": "验证“递归子目标分解”在长序列手工艺任务中的有效性。由于隐性知识往往贯穿长流程，需要验证AI能否将一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "验证“递归子目标分解”在长序列手工艺任务中的有效性。由于隐性知识往往贯穿长流程，需要验证AI能否将一个模糊的长目标（如“制作一把椅子”）自动拆解为具有物理检测点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

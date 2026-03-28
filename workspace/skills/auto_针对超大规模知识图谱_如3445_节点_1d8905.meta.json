@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对超大规模知识图谱_如3445_节点_1d8905",
+  "file": "skills/auto_针对超大规模知识图谱_如3445_节点_1d8905.py",
+  "description": "针对超大规模知识图谱（如3445+节点）的自维护与生命周期管理系统。它引入了时间维度（半衰期）和结构维度（结构洞）的双重评估。系统自动监测节点的新鲜度（基于调用频率进行降权）和结构脆弱性（识别连接孤立子图的关键节点）。结合沙箱自检机制，定期验证可执行节点的环境依赖（API版本、库变更），从而实现知识图谱的自动化‘修剪’、‘加固’与‘代谢’，防止系统腐化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_134",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:33:15.352439",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_134_P4_2611",
+  "design_spec": {
+    "name": "auto_针对超大规模知识图谱_如3445_节点_1d8905",
+    "display_name": "针对超大规模知识图谱（如3445+节点）的自维护与生命周期管理系统。它引入了时间维度（半衰期）和结构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对超大规模知识图谱（如3445+节点）的自维护与生命周期管理系统。它引入了时间维度（半衰期）和结构维度（结构洞）的双重评估。系统自动监测节点的新鲜度（基于调用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

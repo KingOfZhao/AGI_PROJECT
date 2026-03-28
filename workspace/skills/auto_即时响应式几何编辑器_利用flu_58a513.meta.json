@@ -1,0 +1,30 @@
+{
+  "name": "auto_即时响应式几何编辑器_利用flu_58a513",
+  "file": "skills/auto_即时响应式几何编辑器_利用flu_58a513.py",
+  "description": "**即时响应式几何编辑器**。利用Flutter的增量渲染机制重构CAD核心。当用户修改参数（如拉伸高度），Flutter将变更下发至Rust/C++编成的几何内核（如ParaSolid或OpenCascade），内核仅求解受影响的拓扑面，生成轻量级Mesh数据回传给Flutter的CustomPainter渲染。这打破了传统CAD'修改-等待-重显'的线性流程，实现了'拖动参数-几何实时形变'的流体体验，极大降低了高频迭代中的认知负荷。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_114",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:34:56.206242",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_114_O1_8652",
+  "design_spec": {
+    "name": "auto_即时响应式几何编辑器_利用flu_58a513",
+    "display_name": "**即时响应式几何编辑器**。利用Flutter的增量渲染机制重构CAD核心。当用户修改参数（如拉伸",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "**即时响应式几何编辑器**。利用Flutter的增量渲染机制重构CAD核心。当用户修改参数（如拉伸高度），Flutter将变更下发至Rust/C++编成的几何",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 308
+  }
+}

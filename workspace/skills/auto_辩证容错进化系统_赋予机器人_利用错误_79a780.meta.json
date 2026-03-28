@@ -1,0 +1,30 @@
+{
+  "name": "auto_辩证容错进化系统_赋予机器人_利用错误_79a780",
+  "file": "skills/auto_辩证容错进化系统_赋予机器人_利用错误_79a780.py",
+  "description": "辩证容错进化系统：赋予机器人‘利用错误’的能力。当力矩传感器检测到阻力（否定）时，机器人不不仅是复位，而是触发‘正-反-合’逻辑：识别当前策略的缺陷（反），检索或生成新的微观策略（合），并将这一‘错误-修正’对固化为新的知识节点。这使得机器人具备了类似人类的‘从失败中学习’的辩证思维能力，实现技能的自我迭代。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.795493",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O3_7490",
+  "design_spec": {
+    "name": "auto_辩证容错进化系统_赋予机器人_利用错误_79a780",
+    "display_name": "辩证容错进化系统：赋予机器人‘利用错误’的能力。当力矩传感器检测到阻力（否定）时，机器人不不仅是复位",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "辩证容错进化系统：赋予机器人‘利用错误’的能力。当力矩传感器检测到阻力（否定）时，机器人不不仅是复位，而是触发‘正-反-合’逻辑：识别当前策略的缺陷（反），检索",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

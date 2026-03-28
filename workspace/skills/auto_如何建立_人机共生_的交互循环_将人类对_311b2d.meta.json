@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立_人机共生_的交互循环_将人类对_311b2d",
+  "file": "skills/auto_如何建立_人机共生_的交互循环_将人类对_311b2d.py",
+  "description": "如何建立'人机共生'的交互循环，将人类对生成代码的修改（如重命名变量、调整逻辑）即时固化为新的'真实节点'？这需要一个高精度的Diff-to-Intent解析器。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.610570",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q6_1_3870",
+  "design_spec": {
+    "name": "auto_如何建立_人机共生_的交互循环_将人类对_311b2d",
+    "display_name": "如何建立'人机共生'的交互循环，将人类对生成代码的修改（如重命名变量、调整逻辑）即时固化为新的'真实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立'人机共生'的交互循环，将人类对生成代码的修改（如重命名变量、调整逻辑）即时固化为新的'真实节点'？这需要一个高精度的Diff-to-Intent解析器",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

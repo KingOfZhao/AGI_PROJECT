@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于时序衰减与结果反馈的节点活跃度动态评_374d3c",
+  "file": "skills/auto_基于时序衰减与结果反馈的节点活跃度动态评_374d3c.py",
+  "description": "基于时序衰减与结果反馈的节点活跃度动态评分算法。如何设计一个数学模型，根据节点最近一次被成功调用的时间间隔（Time-Decay）以及调用的结果（正/负反馈），动态计算每个节点的‘活跃分’？该算法需解决冷启动问题，即新加入节点如何在不干扰系统稳定性的前提下获得初始评分，并随时间推移根据其实际贡献收敛至真实价值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "algorithm",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.066350",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q1_0_3746",
+  "design_spec": {
+    "name": "auto_基于时序衰减与结果反馈的节点活跃度动态评_374d3c",
+    "display_name": "基于时序衰减与结果反馈的节点活跃度动态评分算法。如何设计一个数学模型，根据节点最近一次被成功调用的时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于时序衰减与结果反馈的节点活跃度动态评分算法。如何设计一个数学模型，根据节点最近一次被成功调用的时间间隔（Time-Decay）以及调用的结果（正/负反馈），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 236
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_最小可行性实践_mvp_生成与物理验证闭_7cc01a",
+  "file": "skills/auto_最小可行性实践_mvp_生成与物理验证闭_7cc01a.py",
+  "description": "最小可行性实践（MVP）生成与物理验证闭环：针对‘小摊贩’类的真实节点，AI不应仅依赖文本纠错。系统需具备将抽象知识转化为‘最小行动清单’的能力（如‘如何摆放商品吸引眼球’ -> 生成A/B测试方案）。若人类反馈执行结果与预期不符，直接降权该节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.823596",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q6_3_4569",
+  "design_spec": {
+    "name": "auto_最小可行性实践_mvp_生成与物理验证闭_7cc01a",
+    "display_name": "最小可行性实践（MVP）生成与物理验证闭环：针对‘小摊贩’类的真实节点，AI不应仅依赖文本纠错。系统",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "最小可行性实践（MVP）生成与物理验证闭环：针对‘小摊贩’类的真实节点，AI不应仅依赖文本纠错。系统需具备将抽象知识转化为‘最小行动清单’的能力（如‘如何摆放商",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 240
+  }
+}

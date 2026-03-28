@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_最小化证伪拆解_dfa硬约束_aede18",
+  "file": "skills/auto_结合_最小化证伪拆解_dfa硬约束_aede18.py",
+  "description": "结合'最小化证伪拆解'、'DFA硬约束'、'沙箱轨迹追踪'与'模拟失败预修正'。系统在接收到模糊意图时，不再直接生成代码，而是在沙箱中利用形式化规则快速生成多个变体，通过模拟运行（Digital Twin）剔除会物理崩溃的逻辑，仅保留鲁棒性最强的技能节点进行固化。这是一种'具备自我纠错能力的代码合成能力'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_34",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:27:34.231541",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_34_E1_9853",
+  "design_spec": {
+    "name": "auto_结合_最小化证伪拆解_dfa硬约束_aede18",
+    "display_name": "结合'最小化证伪拆解'、'DFA硬约束'、'沙箱轨迹追踪'与'模拟失败预修正'。系统在接收到模糊意图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'最小化证伪拆解'、'DFA硬约束'、'沙箱轨迹追踪'与'模拟失败预修正'。系统在接收到模糊意图时，不再直接生成代码，而是在沙箱中利用形式化规则快速生成多个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 326
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_环境抗干扰验证_当ai调用外部工具_如_6820e1",
+  "file": "skills/auto_环境抗干扰验证_当ai调用外部工具_如_6820e1.py",
+  "description": "【环境抗干扰验证】当AI调用外部工具（如代码解释器或搜索引擎）获取到的返回结果是错误或被污染的数据时，AI是否具备‘交叉验证’的能力，并拒绝将该错误信息固化为真实节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.658821",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q6_2_2783",
+  "design_spec": {
+    "name": "auto_环境抗干扰验证_当ai调用外部工具_如_6820e1",
+    "display_name": "【环境抗干扰验证】当AI调用外部工具（如代码解释器或搜索引擎）获取到的返回结果是错误或被污染的数据时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【环境抗干扰验证】当AI调用外部工具（如代码解释器或搜索引擎）获取到的返回结果是错误或被污染的数据时，AI是否具备‘交叉验证’的能力，并拒绝将该错误信息固化为真",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

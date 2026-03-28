@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_人机共生实验沙箱_当ai提出跨域_1e9802",
+  "file": "skills/auto_构建_人机共生实验沙箱_当ai提出跨域_1e9802.py",
+  "description": "构建‘人机共生实验沙箱’：当AI提出跨域假设（如将生物学的‘共生’概念迁移至‘分布式计算容错’）时，如何自动生成一个最小可行性实验（MVP）代码，并在模拟环境中运行以获取‘初步证伪数据’，而无需立即由人类介入？这需要将SKILL节点转化为可执行的API调用链。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.741455",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_74_Q3_1_6067",
+  "design_spec": {
+    "name": "auto_构建_人机共生实验沙箱_当ai提出跨域_1e9802",
+    "display_name": "构建‘人机共生实验沙箱’：当AI提出跨域假设（如将生物学的‘共生’概念迁移至‘分布式计算容错’）时，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘人机共生实验沙箱’：当AI提出跨域假设（如将生物学的‘共生’概念迁移至‘分布式计算容错’）时，如何自动生成一个最小可行性实验（MVP）代码，并在模拟环境中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

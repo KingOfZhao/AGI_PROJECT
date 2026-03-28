@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个旨在消除自然语言模糊性与物理_机_ca1507",
+  "file": "skills/auto_这是一个旨在消除自然语言模糊性与物理_机_ca1507.py",
+  "description": "这是一个旨在消除自然语言模糊性与物理/机器执行精确性之间鸿沟的编译系统。它包含三个层次：1) 感官对齐（多模态时序对齐），将非结构化指令映射到物理时间轴；2) 意图编译（NL2Code/NL2Control），将模糊意图转化为精确参数；3) 约束传播，利用层级约束确保生成代码符合顶层架构。核心在于引入‘语义损失函数’，不追求字符精确匹配，而是追求行为结果在语义空间的一致性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.764179",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_24_P5_9415",
+  "design_spec": {
+    "name": "auto_这是一个旨在消除自然语言模糊性与物理_机_ca1507",
+    "display_name": "这是一个旨在消除自然语言模糊性与物理/机器执行精确性之间鸿沟的编译系统。它包含三个层次：1) 感官对",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个旨在消除自然语言模糊性与物理/机器执行精确性之间鸿沟的编译系统。它包含三个层次：1) 感官对齐（多模态时序对齐），将非结构化指令映射到物理时间轴；2) ",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

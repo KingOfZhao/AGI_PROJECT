@@ -1,0 +1,30 @@
+{
+  "name": "auto_为了支持_人类赋予新概念_系统需要具备_e58a4f",
+  "file": "skills/auto_为了支持_人类赋予新概念_系统需要具备_e58a4f.py",
+  "description": "为了支持'人类赋予新概念'，系统需要具备'异常检测'能力。问题是：当SKILL执行失败（证伪）且无法用现有'真实节点'解释时，如何自动提取失败案例的特征向量，并打包成一个待命名的'未知概念簇'推送给人类专家进行定义？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.040632",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q8_3_7871",
+  "design_spec": {
+    "name": "auto_为了支持_人类赋予新概念_系统需要具备_e58a4f",
+    "display_name": "为了支持'人类赋予新概念'，系统需要具备'异常检测'能力。问题是：当SKILL执行失败（证伪）且无法",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "为了支持'人类赋予新概念'，系统需要具备'异常检测'能力。问题是：当SKILL执行失败（证伪）且无法用现有'真实节点'解释时，如何自动提取失败案例的特征向量，并",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

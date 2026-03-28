@@ -1,0 +1,30 @@
+{
+  "name": "auto_利用_跨域深层结构映射_逻辑切片溯源_74aded",
+  "file": "skills/auto_利用_跨域深层结构映射_逻辑切片溯源_74aded.py",
+  "description": "利用[跨域深层结构映射]、[逻辑切片溯源]与[结构重叠有效性验证]。在将A域（如编程）技能迁移到B域（如烹饪）时，不仅进行表层语义映射，还通过'逻辑切片'提取A域的因果骨架，并在B域进行沙箱推演。如果推演结果显示因果链条断裂，则自动否决迁移，从而实现高可靠性的跨域创新，避免'生搬硬套'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.601709",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_40_E_Structural_Analogy_Turing_1688",
+  "design_spec": {
+    "name": "auto_利用_跨域深层结构映射_逻辑切片溯源_74aded",
+    "display_name": "利用[跨域深层结构映射]、[逻辑切片溯源]与[结构重叠有效性验证]。在将A域（如编程）技能迁移到B域",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "利用[跨域深层结构映射]、[逻辑切片溯源]与[结构重叠有效性验证]。在将A域（如编程）技能迁移到B域（如烹饪）时，不仅进行表层语义映射，还通过'逻辑切片'提取A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 339
+  }
+}

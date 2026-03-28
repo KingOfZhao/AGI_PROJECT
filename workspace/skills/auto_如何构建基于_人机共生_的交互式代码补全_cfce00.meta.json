@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建基于_人机共生_的交互式代码补全_cfce00",
+  "file": "skills/auto_如何构建基于_人机共生_的交互式代码补全_cfce00.py",
+  "description": "如何构建基于'人机共生'的交互式代码补全系统？当AI检测到意图转化为代码的置信度低于阈值（如0.6）时，不是随机猜测，而是生成一个'人机接口'（如API参数询问、UI选择器），利用人类的认知带宽完成'最后一公里'的结构化。这需要将'提问'本身视为一种SKILL。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "hci_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.028027",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q5_1_7855",
+  "design_spec": {
+    "name": "auto_如何构建基于_人机共生_的交互式代码补全_cfce00",
+    "display_name": "如何构建基于'人机共生'的交互式代码补全系统？当AI检测到意图转化为代码的置信度低于阈值（如0.6）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建基于'人机共生'的交互式代码补全系统？当AI检测到意图转化为代码的置信度低于阈值（如0.6）时，不是随机猜测，而是生成一个'人机接口'（如API参数询问",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

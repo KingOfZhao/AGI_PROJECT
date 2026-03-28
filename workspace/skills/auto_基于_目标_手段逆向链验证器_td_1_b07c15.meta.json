@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_目标_手段逆向链验证器_td_1_b07c15",
+  "file": "skills/auto_基于_目标_手段逆向链验证器_td_1_b07c15.py",
+  "description": "基于'目标-手段逆向链验证器'（td_119_Q9_2_6658）与'微反馈循环'（td_118_Q11_2_3114）。当面对宏大目标时，系统能递归拆解至原子技能，并在每一步执行后通过微反馈确认未偏离目标，若发现技能缺失则自动挂起并请求学习，实现可靠的长期规划执行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.210051",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_120_E5_8796",
+  "design_spec": {
+    "name": "auto_基于_目标_手段逆向链验证器_td_1_b07c15",
+    "display_name": "基于'目标-手段逆向链验证器'（td_119_Q9_2_6658）与'微反馈循环'（td_118_Q",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'目标-手段逆向链验证器'（td_119_Q9_2_6658）与'微反馈循环'（td_118_Q11_2_3114）。当面对宏大目标时，系统能递归拆解至原子",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 237
+  }
+}

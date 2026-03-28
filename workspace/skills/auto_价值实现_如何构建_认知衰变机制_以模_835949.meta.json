@@ -1,0 +1,30 @@
+{
+  "name": "auto_价值实现_如何构建_认知衰变机制_以模_835949",
+  "file": "skills/auto_价值实现_如何构建_认知衰变机制_以模_835949.py",
+  "description": "【价值实现】如何构建'认知衰变机制'以模拟人类记忆的遗忘特性，从而解决知识库膨胀导致的检索效率低下问题？验证引入'时间衰减因子'和'实践激活频率'双重变量后，长期未被实践证伪的节点是否会自动降权或归档。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "memory_dynamics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.303667",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q5_1_5993",
+  "design_spec": {
+    "name": "auto_价值实现_如何构建_认知衰变机制_以模_835949",
+    "display_name": "【价值实现】如何构建'认知衰变机制'以模拟人类记忆的遗忘特性，从而解决知识库膨胀导致的检索效率低下问",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【价值实现】如何构建'认知衰变机制'以模拟人类记忆的遗忘特性，从而解决知识库膨胀导致的检索效率低下问题？验证引入'时间衰减因子'和'实践激活频率'双重变量后，长",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

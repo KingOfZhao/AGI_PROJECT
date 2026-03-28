@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从非结构化的维修日志中提取隐性的_操_e0e2e5",
+  "file": "skills/auto_如何从非结构化的维修日志中提取隐性的_操_e0e2e5.py",
+  "description": "如何从非结构化的维修日志中提取隐性的‘操作算子’（如‘轻微敲击’、‘重新校准’），并将其映射为可执行的代码函数？这要求系统理解自然语言描述中的模糊动词，并将其转化为标准化的API调用或机器人控制指令，完成从文本到技能的固化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.295339",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_45_Q2_3_9123",
+  "design_spec": {
+    "name": "auto_如何从非结构化的维修日志中提取隐性的_操_e0e2e5",
+    "display_name": "如何从非结构化的维修日志中提取隐性的‘操作算子’（如‘轻微敲击’、‘重新校准’），并将其映射为可执行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从非结构化的维修日志中提取隐性的‘操作算子’（如‘轻微敲击’、‘重新校准’），并将其映射为可执行的代码函数？这要求系统理解自然语言描述中的模糊动词，并将其转",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 347
+  }
+}

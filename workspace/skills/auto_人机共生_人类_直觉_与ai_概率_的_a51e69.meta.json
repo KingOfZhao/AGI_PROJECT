@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_人类_直觉_与ai_概率_的_a51e69",
+  "file": "skills/auto_人机共生_人类_直觉_与ai_概率_的_a51e69.py",
+  "description": "【人机共生】人类'直觉'与AI'概率'的冲突解决协议。在人机共生中，人类可能凭直觉反对AI的高概率建议。例如AI建议'降价'（数据支持），人类感觉'伤品牌'（直觉）。本问题不是要消除冲突，而是设计一种'元数据标记'，将人类的直觉反对标记为'潜在未知变量'或'价值约束'，并将其固化为新节点，而不是简单的二选一。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.456511",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_90_Q5_1_872",
+  "design_spec": {
+    "name": "auto_人机共生_人类_直觉_与ai_概率_的_a51e69",
+    "display_name": "【人机共生】人类'直觉'与AI'概率'的冲突解决协议。在人机共生中，人类可能凭直觉反对AI的高概率建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】人类'直觉'与AI'概率'的冲突解决协议。在人机共生中，人类可能凭直觉反对AI的高概率建议。例如AI建议'降价'（数据支持），人类感觉'伤品牌'（直",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 346
+  }
+}

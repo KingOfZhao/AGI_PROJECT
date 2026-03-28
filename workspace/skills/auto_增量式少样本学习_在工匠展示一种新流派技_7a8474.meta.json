@@ -1,0 +1,30 @@
+{
+  "name": "auto_增量式少样本学习_在工匠展示一种新流派技_7a8474",
+  "file": "skills/auto_增量式少样本学习_在工匠展示一种新流派技_7a8474.py",
+  "description": "增量式少样本学习。在工匠展示一种新流派技法（如不同于以往的各种编织手法）时，系统如何利用已有的638个SKILL节点作为先验知识，仅通过极少量的样本（1-3次示范）就提取出新技能的核心特征并生成新节点？这是实现认知网络‘生长’的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_30",
+    "meta_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:02:19.383632",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_30_Q9_0_4494",
+  "design_spec": {
+    "name": "auto_增量式少样本学习_在工匠展示一种新流派技_7a8474",
+    "display_name": "增量式少样本学习。在工匠展示一种新流派技法（如不同于以往的各种编织手法）时，系统如何利用已有的638",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "增量式少样本学习。在工匠展示一种新流派技法（如不同于以往的各种编织手法）时，系统如何利用已有的638个SKILL节点作为先验知识，仅通过极少量的样本（1-3次示",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 301
+  }
+}

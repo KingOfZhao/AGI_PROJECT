@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态流形对齐_如何构建一个映射函数_59680b",
+  "file": "skills/auto_多模态流形对齐_如何构建一个映射函数_59680b.py",
+  "description": "【多模态流形对齐】如何构建一个映射函数，将高维、非结构化的手工艺视频流（如陶艺拉坯的手部微动作）投影到结构化的参数空间（如力度向量、转速、湿润度）？这不仅仅是视觉识别，而是要建立‘视觉特征’与‘触觉物理属性’之间的数学关联，解决‘看着对’但‘感觉错’的隐性知识鸿沟。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_117",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:40:33.874349",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_117_Q1_2_2036",
+  "design_spec": {
+    "name": "auto_多模态流形对齐_如何构建一个映射函数_59680b",
+    "display_name": "【多模态流形对齐】如何构建一个映射函数，将高维、非结构化的手工艺视频流（如陶艺拉坯的手部微动作）投影",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态流形对齐】如何构建一个映射函数，将高维、非结构化的手工艺视频流（如陶艺拉坯的手部微动作）投影到结构化的参数空间（如力度向量、转速、湿润度）？这不仅仅是视",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

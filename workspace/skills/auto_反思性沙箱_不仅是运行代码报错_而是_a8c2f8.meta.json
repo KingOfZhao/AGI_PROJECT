@@ -1,0 +1,30 @@
+{
+  "name": "auto_反思性沙箱_不仅是运行代码报错_而是_a8c2f8",
+  "file": "skills/auto_反思性沙箱_不仅是运行代码报错_而是_a8c2f8.py",
+  "description": "【反思性沙箱】：不仅是运行代码报错，而是构建一个'认知-代码双重闭环'。当沙箱捕获异常时，系统不仅修复代码，而是调用认知模块生成一个'错误模式抽象节点'（例如：'变量作用域在多线程下的歧义性'）。下次生成代码时，系统能主动'回忆'起这个失败节点，预判并规避错误，实现从'调试'到'学习'的跃迁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.865662",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O2_9655",
+  "design_spec": {
+    "name": "auto_反思性沙箱_不仅是运行代码报错_而是_a8c2f8",
+    "display_name": "【反思性沙箱】：不仅是运行代码报错，而是构建一个'认知-代码双重闭环'。当沙箱捕获异常时，系统不仅修",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【反思性沙箱】：不仅是运行代码报错，而是构建一个'认知-代码双重闭环'。当沙箱捕获异常时，系统不仅修复代码，而是调用认知模块生成一个'错误模式抽象节点'（例如：",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

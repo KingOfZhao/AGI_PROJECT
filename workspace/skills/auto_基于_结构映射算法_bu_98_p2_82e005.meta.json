@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_结构映射算法_bu_98_p2_82e005",
+  "file": "skills/auto_基于_结构映射算法_bu_98_p2_82e005.py",
+  "description": "基于'结构映射算法'（bu_98_P2_6055）和'跨域迁移过滤'（td_97_Q6_1_2712）。当用户面临商业策略或工程设计难题时，系统不检索表面相似的案例，而是检索结构同构的解法（例如将'生物免疫系统'的结构映射到'网络安全防御体系'），提供人类难以直觉感知的创新性解决方案，并自动过滤掉不兼容的逻辑结构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.725642",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_99_E4_8193",
+  "design_spec": {
+    "name": "auto_基于_结构映射算法_bu_98_p2_82e005",
+    "display_name": "基于'结构映射算法'（bu_98_P2_6055）和'跨域迁移过滤'（td_97_Q6_1_2712",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'结构映射算法'（bu_98_P2_6055）和'跨域迁移过滤'（td_97_Q6_1_2712）。当用户面临商业策略或工程设计难题时，系统不检索表面相似的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 307
+  }
+}

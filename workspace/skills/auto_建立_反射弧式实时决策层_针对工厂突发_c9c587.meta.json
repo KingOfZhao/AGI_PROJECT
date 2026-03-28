@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_反射弧式实时决策层_针对工厂突发_c9c587",
+  "file": "skills/auto_建立_反射弧式实时决策层_针对工厂突发_c9c587.py",
+  "description": "建立‘反射弧式实时决策层’。针对工厂突发状况（如机器过热），不需要上传到云端大脑进行深度推理，而是在边缘端（本地认知微服务）直接通过‘脊髓’般的简单逻辑链（If Temp > X Then Reduce Speed）执行操作。这种融合能力允许系统在断网或高延迟下，依然保持像小摊贩一样的灵活反应力，同时保持与大脑（全局优化）的认知一致性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.790573",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_131_O3_1686",
+  "design_spec": {
+    "name": "auto_建立_反射弧式实时决策层_针对工厂突发_c9c587",
+    "display_name": "建立‘反射弧式实时决策层’。针对工厂突发状况（如机器过热），不需要上传到云端大脑进行深度推理，而是在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立‘反射弧式实时决策层’。针对工厂突发状况（如机器过热），不需要上传到云端大脑进行深度推理，而是在边缘端（本地认知微服务）直接通过‘脊髓’般的简单逻辑链（If",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_模糊意图的_分层抽象_实现_系统需识别模_7baf0b",
+  "file": "skills/auto_模糊意图的_分层抽象_实现_系统需识别模_7baf0b.py",
+  "description": "模糊意图的'分层抽象'实现。系统需识别模糊指令中隐含的'技术深度'（例如'做个网页'对于新手和专家意味着完全不同的代码结构）。需要验证系统能否根据用户画像或上下文自动调整生成代码的抽象层级，而非生成单一风格的代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.619757",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q9_3_7298",
+  "design_spec": {
+    "name": "auto_模糊意图的_分层抽象_实现_系统需识别模_7baf0b",
+    "display_name": "模糊意图的'分层抽象'实现。系统需识别模糊指令中隐含的'技术深度'（例如'做个网页'对于新手和专家意",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "模糊意图的'分层抽象'实现。系统需识别模糊指令中隐含的'技术深度'（例如'做个网页'对于新手和专家意味着完全不同的代码结构）。需要验证系统能否根据用户画像或上下",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

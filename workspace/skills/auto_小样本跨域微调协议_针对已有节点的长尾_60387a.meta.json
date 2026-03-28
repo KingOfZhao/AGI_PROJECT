@@ -1,0 +1,30 @@
+{
+  "name": "auto_小样本跨域微调协议_针对已有节点的长尾_60387a",
+  "file": "skills/auto_小样本跨域微调协议_针对已有节点的长尾_60387a.py",
+  "description": "【小样本跨域微调协议】针对已有节点的长尾分布，如何利用仅有的少量案例（如只有1-2个案例的冷门技能），通过结构化类比快速迁移到新领域？需要验证‘结构图’比‘文本描述’在小样本迁移中更具鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_89",
+    "few_shot_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:04:54.797367",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_89_Q10_1_9325",
+  "design_spec": {
+    "name": "auto_小样本跨域微调协议_针对已有节点的长尾_60387a",
+    "display_name": "【小样本跨域微调协议】针对已有节点的长尾分布，如何利用仅有的少量案例（如只有1-2个案例的冷门技能）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【小样本跨域微调协议】针对已有节点的长尾分布，如何利用仅有的少量案例（如只有1-2个案例的冷门技能），通过结构化类比快速迁移到新领域？需要验证‘结构图’比‘文本",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 322
+  }
+}

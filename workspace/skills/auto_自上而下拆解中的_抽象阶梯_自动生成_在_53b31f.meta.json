@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解中的_抽象阶梯_自动生成_在_53b31f",
+  "file": "skills/auto_自上而下拆解中的_抽象阶梯_自动生成_在_53b31f.py",
+  "description": "自上而下拆解中的‘抽象阶梯’自动生成：在将复杂问题（如‘造火箭’）拆解为子问题时，如何确保拆解出的子问题既能由现有的‘真实节点’（如‘流体力学’）支撑，又能覆盖未知盲区？此子问题关注算法：如何基于现有1026个节点，自动生成‘最近发展区’内的子问题列表，而不是生成毫无根据的幻觉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_34",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:27:34.171768",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_34_Q3_1_9520",
+  "design_spec": {
+    "name": "auto_自上而下拆解中的_抽象阶梯_自动生成_在_53b31f",
+    "display_name": "自上而下拆解中的‘抽象阶梯’自动生成：在将复杂问题（如‘造火箭’）拆解为子问题时，如何确保拆解出的子",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自上而下拆解中的‘抽象阶梯’自动生成：在将复杂问题（如‘造火箭’）拆解为子问题时，如何确保拆解出的子问题既能由现有的‘真实节点’（如‘流体力学’）支撑，又能覆盖",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

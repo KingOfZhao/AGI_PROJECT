@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应红蓝军对抗演练_融合能力_构建一_6793be",
+  "file": "skills/auto_自适应红蓝军对抗演练_融合能力_构建一_6793be.py",
+  "description": "【自适应红蓝军对抗演练】融合能力：构建一个‘虚拟陪练Agent’。它不仅回答问题，还会根据你构建的认知网络（或业务流程），自动生成最刁钻的‘攻击性问题’或‘极端场景’来试图击溃你的逻辑。当你无法回答时，它指出你的逻辑漏洞并建议修补。这适用于辩论训练、危机公关演练或代码渗透测试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.649927",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_150_O7_3684",
+  "design_spec": {
+    "name": "auto_自适应红蓝军对抗演练_融合能力_构建一_6793be",
+    "display_name": "【自适应红蓝军对抗演练】融合能力：构建一个‘虚拟陪练Agent’。它不仅回答问题，还会根据你构建的认",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自适应红蓝军对抗演练】融合能力：构建一个‘虚拟陪练Agent’。它不仅回答问题，还会根据你构建的认知网络（或业务流程），自动生成最刁钻的‘攻击性问题’或‘极端",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

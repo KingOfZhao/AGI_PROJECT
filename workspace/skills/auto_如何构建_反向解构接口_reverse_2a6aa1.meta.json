@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_反向解构接口_reverse_2a6aa1",
+  "file": "skills/auto_如何构建_反向解构接口_reverse_2a6aa1.py",
+  "description": "如何构建'反向解构接口'（Reverse Deconstruction Interface）？当人类在实践中证伪了一个跨域迁移（例如：发现将'军事指挥链'直接迁移到'开源社区管理'导致崩溃），AI需要能引导用户将失败的具体经验抽象为新的'边界条件节点'，而非仅仅丢弃该尝试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.530271",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_149_Q6_1_4920",
+  "design_spec": {
+    "name": "auto_如何构建_反向解构接口_reverse_2a6aa1",
+    "display_name": "如何构建'反向解构接口'（Reverse Deconstruction Interface）？当人类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'反向解构接口'（Reverse Deconstruction Interface）？当人类在实践中证伪了一个跨域迁移（例如：发现将'军事指挥链'直接迁",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

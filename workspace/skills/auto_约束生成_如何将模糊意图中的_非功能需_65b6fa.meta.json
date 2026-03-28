@@ -1,0 +1,30 @@
+{
+  "name": "auto_约束生成_如何将模糊意图中的_非功能需_65b6fa",
+  "file": "skills/auto_约束生成_如何将模糊意图中的_非功能需_65b6fa.py",
+  "description": "【约束生成】如何将模糊意图中的“非功能需求”（如“代码要优雅”、“系统要稳定”）转化为可机器执行的性能指标（如Linter评分>90、P99延迟<100ms）？这是将定性描述转化为定量约束的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "软件工程/量化分析",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.539789",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_83_Q5_3_1688",
+  "design_spec": {
+    "name": "auto_约束生成_如何将模糊意图中的_非功能需_65b6fa",
+    "display_name": "【约束生成】如何将模糊意图中的“非功能需求”（如“代码要优雅”、“系统要稳定”）转化为可机器执行的性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【约束生成】如何将模糊意图中的“非功能需求”（如“代码要优雅”、“系统要稳定”）转化为可机器执行的性能指标（如Linter评分>90、P99延迟<100ms）？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

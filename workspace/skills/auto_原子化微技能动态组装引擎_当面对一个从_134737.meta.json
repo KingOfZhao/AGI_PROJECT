@@ -1,0 +1,30 @@
+{
+  "name": "auto_原子化微技能动态组装引擎_当面对一个从_134737",
+  "file": "skills/auto_原子化微技能动态组装引擎_当面对一个从_134737.py",
+  "description": "【原子化微技能动态组装引擎】当面对一个从未见过的复杂任务时，系统能够自动检索已有的‘原子技能库’（如移动、抓取、判断），并像搭积木一样组合出一个‘最小可行性方案’进行验证。如果失败，系统不调整整体，而是精准定位到某个原子节点进行‘微调’或‘替换’。这融合了AI的逻辑拆解能力与工匠对‘手头功夫’的精细把控，极大降低了试错成本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.506729",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O3_4924",
+  "design_spec": {
+    "name": "auto_原子化微技能动态组装引擎_当面对一个从_134737",
+    "display_name": "【原子化微技能动态组装引擎】当面对一个从未见过的复杂任务时，系统能够自动检索已有的‘原子技能库’（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【原子化微技能动态组装引擎】当面对一个从未见过的复杂任务时，系统能够自动检索已有的‘原子技能库’（如移动、抓取、判断），并像搭积木一样组合出一个‘最小可行性方案",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

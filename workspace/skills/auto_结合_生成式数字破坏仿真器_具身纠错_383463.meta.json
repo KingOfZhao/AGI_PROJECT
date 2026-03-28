@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_生成式数字破坏仿真器_具身纠错_383463",
+  "file": "skills/auto_结合_生成式数字破坏仿真器_具身纠错_383463.py",
+  "description": "结合【生成式数字破坏仿真器】、【具身纠错反馈系统】与【物理引擎参数动态校准】。系统不仅模拟破坏，还能利用真实世界的失败数据自动修复仿真环境的物理法则。当机器人在现实中碰壁，该失败信号会回传至仿真器，自动调整摩擦系数或材质属性，使仿真器越来越逼近现实，形成一个具有自我进化能力的'数字孪生体'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.606146",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_40_E_Self_Healing_Sim_1056",
+  "design_spec": {
+    "name": "auto_结合_生成式数字破坏仿真器_具身纠错_383463",
+    "display_name": "结合【生成式数字破坏仿真器】、【具身纠错反馈系统】与【物理引擎参数动态校准】。系统不仅模拟破坏，还能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合【生成式数字破坏仿真器】、【具身纠错反馈系统】与【物理引擎参数动态校准】。系统不仅模拟破坏，还能利用真实世界的失败数据自动修复仿真环境的物理法则。当机器人在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 479
+  }
+}

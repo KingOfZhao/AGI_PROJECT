@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域代码风格的认知固化_如何将_左右跨域_9a870d",
+  "file": "skills/auto_跨域代码风格的认知固化_如何将_左右跨域_9a870d.py",
+  "description": "跨域代码风格的认知固化：如何将'左右跨域重叠'产生的最佳实践（如函数式编程思想在UI开发中的应用）固化为具体的Linter规则或代码生成模板？系统需要识别用户意图中的隐式风格偏好，并将其转化为可执行的AST（抽象语法树）约束，而非仅仅生成字符串。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.809821",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_88_Q3_3_8354",
+  "design_spec": {
+    "name": "auto_跨域代码风格的认知固化_如何将_左右跨域_9a870d",
+    "display_name": "跨域代码风格的认知固化：如何将'左右跨域重叠'产生的最佳实践（如函数式编程思想在UI开发中的应用）固",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域代码风格的认知固化：如何将'左右跨域重叠'产生的最佳实践（如函数式编程思想在UI开发中的应用）固化为具体的Linter规则或代码生成模板？系统需要识别用户意",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

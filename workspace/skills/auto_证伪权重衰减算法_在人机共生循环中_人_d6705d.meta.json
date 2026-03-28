@@ -1,0 +1,30 @@
+{
+  "name": "auto_证伪权重衰减算法_在人机共生循环中_人_d6705d",
+  "file": "skills/auto_证伪权重衰减算法_在人机共生循环中_人_d6705d.py",
+  "description": "【证伪权重衰减算法】在人机共生循环中，人类对AI生成的实践清单进行‘证伪’（如尝试某营销策略失败）。如何设计一个衰减算法，使得被证伪的节点连接权重下降速度快于常规遗忘，同时保留其作为‘反面教材’的结构化记忆，而非简单删除？这涉及对现有2203个SKILL节点的动态调整。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.013929",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q2_0_2707",
+  "design_spec": {
+    "name": "auto_证伪权重衰减算法_在人机共生循环中_人_d6705d",
+    "display_name": "【证伪权重衰减算法】在人机共生循环中，人类对AI生成的实践清单进行‘证伪’（如尝试某营销策略失败）。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【证伪权重衰减算法】在人机共生循环中，人类对AI生成的实践清单进行‘证伪’（如尝试某营销策略失败）。如何设计一个衰减算法，使得被证伪的节点连接权重下降速度快于常",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_在sim2real_仿真到现实_迁移中_8b440b",
+  "file": "skills/auto_在sim2real_仿真到现实_迁移中_8b440b.py",
+  "description": "在Sim2Real（仿真到现实）迁移中，如何构建‘工艺随机化网络’？即通过模拟各种物理参数扰动（如重力微变、摩擦力异构），训练出具有‘鲁棒性’的技能策略，使其在真实世界的非理想条件下也能保持稳定输出。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.755526",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_70_Q5_0_4188",
+  "design_spec": {
+    "name": "auto_在sim2real_仿真到现实_迁移中_8b440b",
+    "display_name": "在Sim2Real（仿真到现实）迁移中，如何构建‘工艺随机化网络’？即通过模拟各种物理参数扰动（如重",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在Sim2Real（仿真到现实）迁移中，如何构建‘工艺随机化网络’？即通过模拟各种物理参数扰动（如重力微变、摩擦力异构），训练出具有‘鲁棒性’的技能策略，使其在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

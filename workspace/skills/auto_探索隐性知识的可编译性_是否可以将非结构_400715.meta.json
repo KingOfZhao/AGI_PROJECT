@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索隐性知识的可编译性_是否可以将非结构_400715",
+  "file": "skills/auto_探索隐性知识的可编译性_是否可以将非结构_400715.py",
+  "description": "探索隐性知识的可编译性：是否可以将非结构化的“肌肉记忆”转化为显式的“可执行代码逻辑”（如状态机或行为树）？这涉及到从连续信号到离散逻辑的降维映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "program_synthesis",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.280919",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_45_Q9_0_4766",
+  "design_spec": {
+    "name": "auto_探索隐性知识的可编译性_是否可以将非结构_400715",
+    "display_name": "探索隐性知识的可编译性：是否可以将非结构化的“肌肉记忆”转化为显式的“可执行代码逻辑”（如状态机或行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索隐性知识的可编译性：是否可以将非结构化的“肌肉记忆”转化为显式的“可执行代码逻辑”（如状态机或行为树）？这涉及到从连续信号到离散逻辑的降维映射。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

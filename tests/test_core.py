@@ -6,6 +6,15 @@ AGI v13.3 核心模块测试套件
 覆盖维度25-27: 测试用例生成/单元测试/集成测试
 """
 
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
+
 import pytest
 import sys
 import os

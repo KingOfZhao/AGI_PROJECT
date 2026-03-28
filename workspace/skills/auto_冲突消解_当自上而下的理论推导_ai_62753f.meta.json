@@ -1,0 +1,30 @@
+{
+  "name": "auto_冲突消解_当自上而下的理论推导_ai_62753f",
+  "file": "skills/auto_冲突消解_当自上而下的理论推导_ai_62753f.py",
+  "description": "【冲突消解】当自上而下的理论推导（AI）与自下而上的实践结果（人类）发生冲突时（如理论预测A优，实践反馈B优），系统应如何自动生成‘调和节点’而非简单覆盖？这需要设计一种冲突仲裁协议，保留上下文。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "conflict_resolution",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.438205",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_79_Q9_2_1738",
+  "design_spec": {
+    "name": "auto_冲突消解_当自上而下的理论推导_ai_62753f",
+    "display_name": "【冲突消解】当自上而下的理论推导（AI）与自下而上的实践结果（人类）发生冲突时（如理论预测A优，实践",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【冲突消解】当自上而下的理论推导（AI）与自下而上的实践结果（人类）发生冲突时（如理论预测A优，实践反馈B优），系统应如何自动生成‘调和节点’而非简单覆盖？这需",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身语境工具链引擎_将自然语言中的代词_74403c",
+  "file": "skills/auto_具身语境工具链引擎_将自然语言中的代词_74403c.py",
+  "description": "【具身语境工具链引擎】将自然语言中的代词（'它'、'这个'）识别为潜在的'数据流端口'，将动词识别为'未知API的探针'。系统在处理长程对话编程时，自动维护一个'语境堆栈'，不仅记录说了什么，还记录了'可用的潜在能力'（基于即时提供的API文档）。当用户说'把它变亮'时，系统能在语境堆栈中检索到当前对象（如Image对象），并同时在即时学习的API库中检索'亮度调节'方法，实现'指代'与'功能'的同步锚定。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.483044",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_35_O3_4310",
+  "design_spec": {
+    "name": "auto_具身语境工具链引擎_将自然语言中的代词_74403c",
+    "display_name": "【具身语境工具链引擎】将自然语言中的代词（'它'、'这个'）识别为潜在的'数据流端口'，将动词识别为",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身语境工具链引擎】将自然语言中的代词（'它'、'这个'）识别为潜在的'数据流端口'，将动词识别为'未知API的探针'。系统在处理长程对话编程时，自动维护一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

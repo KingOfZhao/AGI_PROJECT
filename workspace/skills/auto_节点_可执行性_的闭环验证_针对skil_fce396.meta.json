@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点_可执行性_的闭环验证_针对skil_fce396",
+  "file": "skills/auto_节点_可执行性_的闭环验证_针对skil_fce396.py",
+  "description": "节点'可执行性'的闭环验证（针对SKILL）。对于671个SKILL节点，必须包含从'认知'到'物理反馈'的接口。系统需自动检查每个SKILL是否具备：输入定义、处理逻辑、输出产物。若一个SKILL仅停留在理论描述而无法映射到具体的API、物理动作或代码函数，则标记为'幽灵技能'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.220174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q6_0_3828",
+  "design_spec": {
+    "name": "auto_节点_可执行性_的闭环验证_针对skil_fce396",
+    "display_name": "节点'可执行性'的闭环验证（针对SKILL）。对于671个SKILL节点，必须包含从'认知'到'物理",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "节点'可执行性'的闭环验证（针对SKILL）。对于671个SKILL节点，必须包含从'认知'到'物理反馈'的接口。系统需自动检查每个SKILL是否具备：输入定义",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 308
+  }
+}

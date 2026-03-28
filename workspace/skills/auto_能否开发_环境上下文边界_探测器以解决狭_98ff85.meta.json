@@ -1,0 +1,30 @@
+{
+  "name": "auto_能否开发_环境上下文边界_探测器以解决狭_98ff85",
+  "file": "skills/auto_能否开发_环境上下文边界_探测器以解决狭_98ff85.py",
+  "description": "能否开发'环境上下文边界'探测器以解决狭隘性问题？很多SKILL节点是依赖特定环境上下文的（例如'摆摊技巧'依赖于非严管的城市管理环境）。评估机制需要包含一个'环境参数扫描'步骤。当环境参数（如执法力度参数从0.1变为0.9）变化时，自动测试SKILL的成功率。如果一个节点对环境参数极度敏感（鲁棒性差），其质量评分应被大幅降低，除非它包含环境自适应逻辑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "complex_systems",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.558542",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q7_0_842",
+  "design_spec": {
+    "name": "auto_能否开发_环境上下文边界_探测器以解决狭_98ff85",
+    "display_name": "能否开发'环境上下文边界'探测器以解决狭隘性问题？很多SKILL节点是依赖特定环境上下文的（例如'摆",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "能否开发'环境上下文边界'探测器以解决狭隘性问题？很多SKILL节点是依赖特定环境上下文的（例如'摆摊技巧'依赖于非严管的城市管理环境）。评估机制需要包含一个'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 322
+  }
+}

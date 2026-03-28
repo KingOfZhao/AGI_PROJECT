@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_结构化休止缓存策略_在数据处理流_62709c",
+  "file": "skills/auto_开发_结构化休止缓存策略_在数据处理流_62709c.py",
+  "description": "开发'结构化休止缓存策略'。在数据处理流中，不仅缓存数据，还显式地缓存'查询失败'或'无数据'的状态，并赋予其'时值'（TTL）。如同音乐中的休止符预告了下一段旋律的进入，这种'休止缓存'可以主动预测并在一段时间后自动重试，或者在该时间窗口内直接阻断重复的无效请求，将系统的'空转'转化为有节奏的'休止'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.554435",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_83_O4_9258",
+  "design_spec": {
+    "name": "auto_开发_结构化休止缓存策略_在数据处理流_62709c",
+    "display_name": "开发'结构化休止缓存策略'。在数据处理流中，不仅缓存数据，还显式地缓存'查询失败'或'无数据'的状态",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'结构化休止缓存策略'。在数据处理流中，不仅缓存数据，还显式地缓存'查询失败'或'无数据'的状态，并赋予其'时值'（TTL）。如同音乐中的休止符预告了下一段",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

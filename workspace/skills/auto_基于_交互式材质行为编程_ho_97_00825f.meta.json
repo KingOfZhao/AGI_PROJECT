@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_交互式材质行为编程_ho_97_00825f",
+  "file": "skills/auto_基于_交互式材质行为编程_ho_97_00825f.py",
+  "description": "基于‘交互式材质行为编程’（ho_97_O3_2467）、‘对抗性物理环境’（ho_97_O2_3011）与‘数字孪生压力测试’（ho_97_O4_2506）。系统可以将一个尚未制造的物理实体的数字模型，投射到一个高仿真的对抗性环境中进行‘虚拟压力测试’。这种能力不仅是视觉上的，更包含物理属性（如材质的应力反应），使得在虚拟世界中验证出的‘鲁棒性’能极高保真地映射回物理世界。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.797675",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_98_E3_4726",
+  "design_spec": {
+    "name": "auto_基于_交互式材质行为编程_ho_97_00825f",
+    "display_name": "基于‘交互式材质行为编程’（ho_97_O3_2467）、‘对抗性物理环境’（ho_97_O2_30",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘交互式材质行为编程’（ho_97_O3_2467）、‘对抗性物理环境’（ho_97_O2_3011）与‘数字孪生压力测试’（ho_97_O4_2506）。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

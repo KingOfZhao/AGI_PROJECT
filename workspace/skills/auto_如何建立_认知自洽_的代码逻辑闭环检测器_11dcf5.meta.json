@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立_认知自洽_的代码逻辑闭环检测器_11dcf5",
+  "file": "skills/auto_如何建立_认知自洽_的代码逻辑闭环检测器_11dcf5.py",
+  "description": "如何建立'认知自洽'的代码逻辑闭环检测器？对于小摊贩级别的简单需求（如'计算找零'），系统生成的代码不应包含Kubernetes或微服务架构。需开发一个'奥卡姆剃刀'过滤器，基于现有节点网络中的'场景权重'，剔除虽然技术正确但认知复杂度过高的代码路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.035376",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q6_1_7855",
+  "design_spec": {
+    "name": "auto_如何建立_认知自洽_的代码逻辑闭环检测器_11dcf5",
+    "display_name": "如何建立'认知自洽'的代码逻辑闭环检测器？对于小摊贩级别的简单需求（如'计算找零'），系统生成的代码",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立'认知自洽'的代码逻辑闭环检测器？对于小摊贩级别的简单需求（如'计算找零'），系统生成的代码不应包含Kubernetes或微服务架构。需开发一个'奥卡姆",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

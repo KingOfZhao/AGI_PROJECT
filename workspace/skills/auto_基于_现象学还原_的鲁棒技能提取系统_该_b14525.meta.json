@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_现象学还原_的鲁棒技能提取系统_该_b14525",
+  "file": "skills/auto_基于_现象学还原_的鲁棒技能提取系统_该_b14525.py",
+  "description": "基于‘现象学还原’的鲁棒技能提取系统。该能力不再单纯拟合轨迹数据，而是引入‘变异-不变性’分析算法。系统自动生成大量虚拟的工匠动作变体（噪声注入），通过对比分析寻找在不同肢体习惯下始终保持恒定的‘力-位流形’。这使得提取出的Skill不仅是动作的复制，而是对‘工艺意图’的本质固化，具备极强的跨操作员泛化能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.415128",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_69_O1_3798",
+  "design_spec": {
+    "name": "auto_基于_现象学还原_的鲁棒技能提取系统_该_b14525",
+    "display_name": "基于‘现象学还原’的鲁棒技能提取系统。该能力不再单纯拟合轨迹数据，而是引入‘变异-不变性’分析算法。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘现象学还原’的鲁棒技能提取系统。该能力不再单纯拟合轨迹数据，而是引入‘变异-不变性’分析算法。系统自动生成大量虚拟的工匠动作变体（噪声注入），通过对比分析",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

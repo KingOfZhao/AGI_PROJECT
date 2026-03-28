@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域洞察透镜_一个辅助人类进行跨行业创_d7bf7c",
+  "file": "skills/auto_跨域洞察透镜_一个辅助人类进行跨行业创_d7bf7c.py",
+  "description": "【跨域洞察透镜】一个辅助人类进行跨行业创新的工具。当用户在某个具体实践（如‘小摊贩引流’）中陷入僵局时，系统通过计算拓扑结构相似性，从远距离领域（如‘互联网流量分发’或‘生物竞争’）中检索同构的解决方案。它不推荐表面的相似案例，而是提取底层结构规则（如‘流量=触达x转化’），并将其映射回用户的当前困境，生成极具创新性的实操建议。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.374804",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_47_O4_8748",
+  "design_spec": {
+    "name": "auto_跨域洞察透镜_一个辅助人类进行跨行业创_d7bf7c",
+    "display_name": "【跨域洞察透镜】一个辅助人类进行跨行业创新的工具。当用户在某个具体实践（如‘小摊贩引流’）中陷入僵局",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域洞察透镜】一个辅助人类进行跨行业创新的工具。当用户在某个具体实践（如‘小摊贩引流’）中陷入僵局时，系统通过计算拓扑结构相似性，从远距离领域（如‘互联网流量",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_拟人化触觉损失函数_构建一种融合物理反_610e4b",
+  "file": "skills/auto_拟人化触觉损失函数_构建一种融合物理反_610e4b.py",
+  "description": "【拟人化触觉损失函数】构建一种融合物理反馈的调试机制。不仅依赖代码的逻辑报错，还引入'数字触觉'（如模拟物理摩擦力、材质阻尼的参数）。当AI生成的控制代码在物理引擎中运行时，若产生非自然的抖动（类比工匠手抖），系统自动判定为高损失值。这让AI在生成制造指令时，能像老工匠一样'感觉'材料的极限，避免过度切削或结构断裂，实现从'逻辑正确'到'工艺稳健'的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.861927",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_115_O1_9525",
+  "design_spec": {
+    "name": "auto_拟人化触觉损失函数_构建一种融合物理反_610e4b",
+    "display_name": "【拟人化触觉损失函数】构建一种融合物理反馈的调试机制。不仅依赖代码的逻辑报错，还引入'数字触觉'（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【拟人化触觉损失函数】构建一种融合物理反馈的调试机制。不仅依赖代码的逻辑报错，还引入'数字触觉'（如模拟物理摩擦力、材质阻尼的参数）。当AI生成的控制代码在物理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

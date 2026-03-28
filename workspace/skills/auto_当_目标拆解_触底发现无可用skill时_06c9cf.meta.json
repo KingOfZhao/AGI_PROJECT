@@ -1,0 +1,30 @@
+{
+  "name": "auto_当_目标拆解_触底发现无可用skill时_06c9cf",
+  "file": "skills/auto_当_目标拆解_触底发现无可用skill时_06c9cf.py",
+  "description": "当'目标拆解'触底发现无可用SKILL时，结合'AutoML自动化测试(td_62_Q4_1_8212)'与'代码沙箱(td_62_Q6_3_7871)'，系统尝试自动编写一段新的代码节点来填补空白，并在沙箱中自我验证。这标志着从'调用知识'向'创造工具'的质变。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.852554",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_63_E5_2276",
+  "design_spec": {
+    "name": "auto_当_目标拆解_触底发现无可用skill时_06c9cf",
+    "display_name": "当'目标拆解'触底发现无可用SKILL时，结合'AutoML自动化测试(td_62_Q4_1_821",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "当'目标拆解'触底发现无可用SKILL时，结合'AutoML自动化测试(td_62_Q4_1_8212)'与'代码沙箱(td_62_Q6_3_7871)'，系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

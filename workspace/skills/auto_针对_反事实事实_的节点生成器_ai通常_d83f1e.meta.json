@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_反事实事实_的节点生成器_ai通常_d83f1e",
+  "file": "skills/auto_针对_反事实事实_的节点生成器_ai通常_d83f1e.py",
+  "description": "针对‘反事实事实’的节点生成器：AI通常基于相关性生成内容。如何设计一个模块，专门针对现有1575个技能节点生成‘反事实’变体（例如针对‘炒菜’技能生成‘在真空环境中炒菜’的假设），并构建虚拟推演沙盒，预测反事实条件下的结果？这是突破训练数据分布外（OOD）泛化能力的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.679233",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q3_0_1415",
+  "design_spec": {
+    "name": "auto_针对_反事实事实_的节点生成器_ai通常_d83f1e",
+    "display_name": "针对‘反事实事实’的节点生成器：AI通常基于相关性生成内容。如何设计一个模块，专门针对现有1575个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对‘反事实事实’的节点生成器：AI通常基于相关性生成内容。如何设计一个模块，专门针对现有1575个技能节点生成‘反事实’变体（例如针对‘炒菜’技能生成‘在真空",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

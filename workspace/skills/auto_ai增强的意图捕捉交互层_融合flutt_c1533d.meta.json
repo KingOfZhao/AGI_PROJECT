@@ -1,0 +1,30 @@
+{
+  "name": "auto_ai增强的意图捕捉交互层_融合flutt_c1533d",
+  "file": "skills/auto_ai增强的意图捕捉交互层_融合flutt_c1533d.py",
+  "description": "AI增强的意图捕捉交互层。融合Flutter的竞争场机制与CAD的捕捉算法，构建一套'模糊意图交互系统'。用户无需精确点击，只需在目标附近画圈或长按，系统结合当前设计上下文(AI预测)和触摸热区，自动吸附到最可能的几何特征上，并弹出上下文相关的操作菜单，消除精准操作的痛点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_26",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:31:20.253092",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_26_O4_3125",
+  "design_spec": {
+    "name": "auto_ai增强的意图捕捉交互层_融合flutt_c1533d",
+    "display_name": "AI增强的意图捕捉交互层。融合Flutter的竞争场机制与CAD的捕捉算法，构建一套'模糊意图交互系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "AI增强的意图捕捉交互层。融合Flutter的竞争场机制与CAD的捕捉算法，构建一套'模糊意图交互系统'。用户无需精确点击，只需在目标附近画圈或长按，系统结合当",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

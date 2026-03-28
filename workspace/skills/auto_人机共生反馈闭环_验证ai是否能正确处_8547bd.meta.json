@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈闭环_验证ai是否能正确处_8547bd",
+  "file": "skills/auto_人机共生反馈闭环_验证ai是否能正确处_8547bd.py",
+  "description": "【人机共生反馈闭环】验证AI是否能正确处理‘人类实践证伪’后的修正。场景：AI之前提供了一个错误的‘营销策略’节点，人类反馈‘此策略在特定人群（如老年群体）无效’。AI需要基于此反馈，不仅修正策略，还要反向更新其底层的‘用户画像模型’节点。验证重点是检查AI是否具备‘错误归因溯源’能力，而非仅仅打补丁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "Human-Computer Interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.637816",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_111_Q3_2_8674",
+  "design_spec": {
+    "name": "auto_人机共生反馈闭环_验证ai是否能正确处_8547bd",
+    "display_name": "【人机共生反馈闭环】验证AI是否能正确处理‘人类实践证伪’后的修正。场景：AI之前提供了一个错误的‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生反馈闭环】验证AI是否能正确处理‘人类实践证伪’后的修正。场景：AI之前提供了一个错误的‘营销策略’节点，人类反馈‘此策略在特定人群（如老年群体）无效",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 339
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_稳态资源分配协议_赋予agi在极端压_058b30",
+  "file": "skills/auto_稳态资源分配协议_赋予agi在极端压_058b30.py",
+  "description": "【稳态资源分配协议】：赋予AGI在极端压力下的'生物级'生存本能。不同于传统的'优先级排序'，该协议引入'功能休眠与唤醒'机制。当检测到资源逼近K值限制时，系统自动进入'冬眠模式'，暂停长周期、高消耗的学习任务（如大规模参数更新），仅保留即时响应能力（如核心对话）。这不仅能防止系统崩溃，还能通过强制性的'功能裁剪'反向验证哪些能力是系统生存的'必要条件'，从而提炼出最鲁棒的'真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.315145",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_125_O3_3132",
+  "design_spec": {
+    "name": "auto_稳态资源分配协议_赋予agi在极端压_058b30",
+    "display_name": "【稳态资源分配协议】：赋予AGI在极端压力下的'生物级'生存本能。不同于传统的'优先级排序'，该协议",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【稳态资源分配协议】：赋予AGI在极端压力下的'生物级'生存本能。不同于传统的'优先级排序'，该协议引入'功能休眠与唤醒'机制。当检测到资源逼近K值限制时，系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

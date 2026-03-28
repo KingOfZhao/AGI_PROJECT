@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知清单的人机闭环验证_针对_人机共生_aa642f",
+  "file": "skills/auto_认知清单的人机闭环验证_针对_人机共生_aa642f.py",
+  "description": "【认知清单的人机闭环验证】针对'人机共生'环节，验证AI生成的'实践清单'在真实物理世界中的可执行性。选取一个完全陌生的物理任务（如操作一台老式胶片相机），让AI基于手册生成操作步骤，由人类盲测。重点验证AI是否遗漏了隐含的物理约束（如'过片后才能按下快门'这种非显性知识）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_4",
+    "robotics_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:25:39.226218",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_4_Q3_0_7680",
+  "design_spec": {
+    "name": "auto_认知清单的人机闭环验证_针对_人机共生_aa642f",
+    "display_name": "【认知清单的人机闭环验证】针对'人机共生'环节，验证AI生成的'实践清单'在真实物理世界中的可执行性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知清单的人机闭环验证】针对'人机共生'环节，验证AI生成的'实践清单'在真实物理世界中的可执行性。选取一个完全陌生的物理任务（如操作一台老式胶片相机），让A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

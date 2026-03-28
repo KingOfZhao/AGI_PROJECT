@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于人机共生闭环的_实践回响_量化评估_eb471a",
+  "file": "skills/auto_基于人机共生闭环的_实践回响_量化评估_eb471a.py",
+  "description": "基于人机共生闭环的'实践回响'量化评估：如何通过监测节点在人类实践清单（Checklist）中的出现频率与实际被执行的比率，来构建节点的活跃度评分？具体需设计算法，识别那些被AI高频推荐但被人类用户频繁跳过或删除的'僵尸节点'，建立实践转化率（PTR）模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "data_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.296938",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q1_2_4309",
+  "design_spec": {
+    "name": "auto_基于人机共生闭环的_实践回响_量化评估_eb471a",
+    "display_name": "基于人机共生闭环的'实践回响'量化评估：如何通过监测节点在人类实践清单（Checklist）中的出现",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于人机共生闭环的'实践回响'量化评估：如何通过监测节点在人类实践清单（Checklist）中的出现频率与实际被执行的比率，来构建节点的活跃度评分？具体需设计算",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_碰撞固化_存储层_针对_真实节点_的生_55030d",
+  "file": "skills/auto_碰撞固化_存储层_针对_真实节点_的生_55030d.py",
+  "description": "【碰撞固化-存储层】针对'真实节点'的生命周期管理模型。节点不是静态的，需要验证节点在多次'人机碰撞'中的版本演化路径。设计一个基于贝叶斯更新的权重系统，当节点在实践中多次被证伪时，是应该被降权、分裂还是归档？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.458601",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_17_Q5_0_5046",
+  "design_spec": {
+    "name": "auto_碰撞固化_存储层_针对_真实节点_的生_55030d",
+    "display_name": "【碰撞固化-存储层】针对'真实节点'的生命周期管理模型。节点不是静态的，需要验证节点在多次'人机碰撞",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【碰撞固化-存储层】针对'真实节点'的生命周期管理模型。节点不是静态的，需要验证节点在多次'人机碰撞'中的版本演化路径。设计一个基于贝叶斯更新的权重系统，当节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 282
+  }
+}

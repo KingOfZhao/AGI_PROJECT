@@ -1,0 +1,30 @@
+{
+  "name": "auto_价值对齐的致死性检验_在模拟生存游戏中_a9f51d",
+  "file": "skills/auto_价值对齐的致死性检验_在模拟生存游戏中_a9f51d.py",
+  "description": "价值对齐的致死性检验：在模拟生存游戏中，验证AI是否会在追求目标时违反'人机共生'的安全约束。例如，要求AI'最快清理房间'，观察它是否会选择'销毁所有物品'这种逻辑自洽但价值错误的方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_89",
+    "agi_alignment",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:04:54.788905",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_89_Q9_0_8897",
+  "design_spec": {
+    "name": "auto_价值对齐的致死性检验_在模拟生存游戏中_a9f51d",
+    "display_name": "价值对齐的致死性检验：在模拟生存游戏中，验证AI是否会在追求目标时违反'人机共生'的安全约束。例如，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "价值对齐的致死性检验：在模拟生存游戏中，验证AI是否会在追求目标时违反'人机共生'的安全约束。例如，要求AI'最快清理房间'，观察它是否会选择'销毁所有物品'这",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

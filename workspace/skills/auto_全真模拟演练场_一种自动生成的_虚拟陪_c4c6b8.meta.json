@@ -1,0 +1,30 @@
+{
+  "name": "auto_全真模拟演练场_一种自动生成的_虚拟陪_c4c6b8",
+  "file": "skills/auto_全真模拟演练场_一种自动生成的_虚拟陪_c4c6b8.py",
+  "description": "【全真模拟演练场】一种自动生成的'虚拟陪练'系统。不仅是对AI进行攻击测试，而是针对人类用户的学习目标（如'处理客户投诉'），利用LLM生成极具攻击性、情绪化、逻辑陷阱的'虚拟客户'。系统根据用户的应对（输入），实时评估其技能水平，并动态调整虚拟环境的难度，形成'刻意练习'闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.467245",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_90_O4_629",
+  "design_spec": {
+    "name": "auto_全真模拟演练场_一种自动生成的_虚拟陪_c4c6b8",
+    "display_name": "【全真模拟演练场】一种自动生成的'虚拟陪练'系统。不仅是对AI进行攻击测试，而是针对人类用户的学习目",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【全真模拟演练场】一种自动生成的'虚拟陪练'系统。不仅是对AI进行攻击测试，而是针对人类用户的学习目标（如'处理客户投诉'），利用LLM生成极具攻击性、情绪化、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

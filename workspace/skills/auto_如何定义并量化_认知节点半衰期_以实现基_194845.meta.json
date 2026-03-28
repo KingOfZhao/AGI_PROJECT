@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何定义并量化_认知节点半衰期_以实现基_194845",
+  "file": "skills/auto_如何定义并量化_认知节点半衰期_以实现基_194845.py",
+  "description": "如何定义并量化'认知节点半衰期'以实现基于时间的自动降权？在动态环境中，长期未被调用的节点（如过时的IT故障解决方案）其可信度应随时间衰减。本子问题旨在建立一个数学模型，根据节点的最后验证时间、历史调用频率和领域变化速率，自动计算其当前的'活性权重'。若权重低于阈值，则触发重新验证或归档流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "algorithm_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.515243",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_5_Q1_2_5377",
+  "design_spec": {
+    "name": "auto_如何定义并量化_认知节点半衰期_以实现基_194845",
+    "display_name": "如何定义并量化'认知节点半衰期'以实现基于时间的自动降权？在动态环境中，长期未被调用的节点（如过时的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何定义并量化'认知节点半衰期'以实现基于时间的自动降权？在动态环境中，长期未被调用的节点（如过时的IT故障解决方案）其可信度应随时间衰减。本子问题旨在建立一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 438
+  }
+}

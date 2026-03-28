@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域重叠_异质概念迁移的零样本结构_060ac6",
+  "file": "skills/auto_左右跨域重叠_异质概念迁移的零样本结构_060ac6.py",
+  "description": "【左右跨域重叠】异质概念迁移的零样本结构映射：验证AI能否发现两个看似无关领域（如‘生物免疫系统’与‘计算机网络防火墙’）之间的深层同构性。系统不应仅在语言层面类比，而应在向量空间中构建出高维度的结构重叠，并利用这种重叠生成新的防御策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cognitive_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.339140",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_146_Q2_2_7550",
+  "design_spec": {
+    "name": "auto_左右跨域重叠_异质概念迁移的零样本结构_060ac6",
+    "display_name": "【左右跨域重叠】异质概念迁移的零样本结构映射：验证AI能否发现两个看似无关领域（如‘生物免疫系统’与",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域重叠】异质概念迁移的零样本结构映射：验证AI能否发现两个看似无关领域（如‘生物免疫系统’与‘计算机网络防火墙’）之间的深层同构性。系统不应仅在语言层面",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 259
+  }
+}

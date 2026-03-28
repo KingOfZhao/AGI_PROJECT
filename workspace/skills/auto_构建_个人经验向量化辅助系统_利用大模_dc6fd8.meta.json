@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_个人经验向量化辅助系统_利用大模_dc6fd8",
+  "file": "skills/auto_构建_个人经验向量化辅助系统_利用大模_dc6fd8.py",
+  "description": "构建'个人经验向量化辅助系统'。利用大模型将用户的人生经历、阅读喜好和社交关系转化为个人化的向量数据库。当面对新情境时，系统不进行逻辑分析，而是直接在该向量空间中进行'最近邻搜索'，模拟人类的直觉跳跃。这能帮助用户显性化自己的潜意识偏好，发现那些'只可意会不可言传'的跨域联系，实现'数字化直觉'的对外输出与碰撞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.554290",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_37_O2_328",
+  "design_spec": {
+    "name": "auto_构建_个人经验向量化辅助系统_利用大模_dc6fd8",
+    "display_name": "构建'个人经验向量化辅助系统'。利用大模型将用户的人生经历、阅读喜好和社交关系转化为个人化的向量数据",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'个人经验向量化辅助系统'。利用大模型将用户的人生经历、阅读喜好和社交关系转化为个人化的向量数据库。当面对新情境时，系统不进行逻辑分析，而是直接在该向量空间",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_空间模式预训练大模型_构建一个包_5469d3",
+  "file": "skills/auto_建立_空间模式预训练大模型_构建一个包_5469d3.py",
+  "description": "建立'空间模式预训练大模型'。构建一个包含人类几千年建筑历史的空间模式数据集（从罗马庭院到现代住宅户型）。训练一个大模型学习这些'空间语法'。当面临一个新的设计任务（如设计一个养老院）时，不需要重新发明轮子，而是通过Prompt（提示词）激活模型中潜藏的特定空间模式（如'回字形走廊'或'南向采光厅'），并进行局部微调。这使AI具备了'历史意识'和'文化语境'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_96",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:29:05.398287",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_96_O4_9906",
+  "design_spec": {
+    "name": "auto_建立_空间模式预训练大模型_构建一个包_5469d3",
+    "display_name": "建立'空间模式预训练大模型'。构建一个包含人类几千年建筑历史的空间模式数据集（从罗马庭院到现代住宅户",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'空间模式预训练大模型'。构建一个包含人类几千年建筑历史的空间模式数据集（从罗马庭院到现代住宅户型）。训练一个大模型学习这些'空间语法'。当面临一个新的设计",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

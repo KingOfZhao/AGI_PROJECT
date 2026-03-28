@@ -1,0 +1,30 @@
+{
+  "name": "auto_执行边界自省_agi系统需要明确知道自_34857a",
+  "file": "skills/auto_执行边界自省_agi系统需要明确知道自_34857a.py",
+  "description": "【执行边界自省】AGI系统需要明确知道自己‘不知道’什么。如何在工业执行中设定‘认知不确定性阈值’？当系统预测的下一步操作涉及从未验证过的节点组合时，能够主动暂停并请求人类介入，而不是产生‘幻觉’（Hallucination）操作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "safe_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.587369",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_130_Q9_3_2626",
+  "design_spec": {
+    "name": "auto_执行边界自省_agi系统需要明确知道自_34857a",
+    "display_name": "【执行边界自省】AGI系统需要明确知道自己‘不知道’什么。如何在工业执行中设定‘认知不确定性阈值’？",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【执行边界自省】AGI系统需要明确知道自己‘不知道’什么。如何在工业执行中设定‘认知不确定性阈值’？当系统预测的下一步操作涉及从未验证过的节点组合时，能够主动暂",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

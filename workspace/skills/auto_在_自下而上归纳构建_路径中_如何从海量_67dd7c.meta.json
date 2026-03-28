@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_自下而上归纳构建_路径中_如何从海量_67dd7c",
+  "file": "skills/auto_在_自下而上归纳构建_路径中_如何从海量_67dd7c.py",
+  "description": "在'自下而上归纳构建'路径中，如何从海量非结构化数据中自动提取'可执行步骤'并固化为新SKILL？当前有361个SKILL，系统需要一种'动作抽象'能力，即从观察文本（如操作手册、对话记录）中提炼出'Step 1, Step 2...'的标准化流程，并自动生成API调用接口或代码块，而非仅存储为文本向量。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "nlp_process_mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.238844",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_16_Q3_0_9088",
+  "design_spec": {
+    "name": "auto_在_自下而上归纳构建_路径中_如何从海量_67dd7c",
+    "display_name": "在'自下而上归纳构建'路径中，如何从海量非结构化数据中自动提取'可执行步骤'并固化为新SKILL？当",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'自下而上归纳构建'路径中，如何从海量非结构化数据中自动提取'可执行步骤'并固化为新SKILL？当前有361个SKILL，系统需要一种'动作抽象'能力，即从观",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 239
+  }
+}

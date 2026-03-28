@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_生态_经济代谢模拟器_eco_e_240af4",
+  "file": "skills/auto_构建_生态_经济代谢模拟器_eco_e_240af4.py",
+  "description": "构建'生态-经济代谢模拟器'（Eco-Eco Metabolic Simulator）。该能力不再单纯以货币为度量，而是引入'能量-货币汇率'和'熵增成本'。它能预测经济活动对生态系统的真实物理冲击，反之也能根据生态承载力限制推算经济活动的最优边界。通过模拟营养级联（Trophic Cascade）效应，防止某一产业（如过度捕捞）引发的经济-生态双重崩溃。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.064446",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_42_O1_6702",
+  "design_spec": {
+    "name": "auto_构建_生态_经济代谢模拟器_eco_e_240af4",
+    "display_name": "构建'生态-经济代谢模拟器'（Eco-Eco Metabolic Simulator）。该能力不再单",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'生态-经济代谢模拟器'（Eco-Eco Metabolic Simulator）。该能力不再单纯以货币为度量，而是引入'能量-货币汇率'和'熵增成本'。它",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

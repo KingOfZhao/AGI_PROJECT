@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_强类型提示协议_不再使用模糊的自_9c2713",
+  "file": "skills/auto_建立_强类型提示协议_不再使用模糊的自_9c2713.py",
+  "description": "建立'强类型提示协议'。不再使用模糊的自然语言 Prompt，而是定义一套严格的'Prompt Schema'（基于 Typescript/Zod）。在 LLM 调用前，编译器层验证输入是否符合 Schema；在 LLM 输出后，验证输出是否符合预定义的 Type。如果验证失败，自动触发'类型修复'机制，让 LLM 自我修正错误，而不是直接返回结果。这将软件工程的健壮性引入 AI Agent 开发。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_86",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:02:52.188298",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_86_O3_2014",
+  "design_spec": {
+    "name": "auto_建立_强类型提示协议_不再使用模糊的自_9c2713",
+    "display_name": "建立'强类型提示协议'。不再使用模糊的自然语言 Prompt，而是定义一套严格的'Prompt Sc",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'强类型提示协议'。不再使用模糊的自然语言 Prompt，而是定义一套严格的'Prompt Schema'（基于 Typescript/Zod）。在 LLM",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

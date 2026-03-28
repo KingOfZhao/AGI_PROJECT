@@ -1,0 +1,30 @@
+{
+  "name": "auto_人类专家的判断往往基于直觉_隐性_ai_febfea",
+  "file": "skills/auto_人类专家的判断往往基于直觉_隐性_ai_febfea.py",
+  "description": "人类专家的判断往往基于直觉（隐性），AI需要学会这种直觉。能否构建一个基于变分自编码器（VAE）的‘潜空间’模型，将复杂的手工艺成品（如陶器形状、漆器纹理）映射为特征向量，并计算‘成品完美度’与‘潜空间向量位置’的相关性？这将把人类的‘手感’转化为AI的‘损失函数’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "generative_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.306782",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q2_0_6710",
+  "design_spec": {
+    "name": "auto_人类专家的判断往往基于直觉_隐性_ai_febfea",
+    "display_name": "人类专家的判断往往基于直觉（隐性），AI需要学会这种直觉。能否构建一个基于变分自编码器（VAE）的‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人类专家的判断往往基于直觉（隐性），AI需要学会这种直觉。能否构建一个基于变分自编码器（VAE）的‘潜空间’模型，将复杂的手工艺成品（如陶器形状、漆器纹理）映射",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

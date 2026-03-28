@@ -1,0 +1,30 @@
+{
+  "name": "auto_上手状态验证机制_这是一种超越传统测试指_8cab52",
+  "file": "skills/auto_上手状态验证机制_这是一种超越传统测试指_8cab52.py",
+  "description": "上手状态验证机制。这是一种超越传统测试指标的评估体系。它不只检查AI是否完成了任务，而是检查AI是否表现出了对物理世界的'敬畏'和'熟络'。例如，验证AI是否会在搬运重物时表现出'惯性前倾'，或在湿滑表面表现出'迟疑'。这种能力使AI能区分'逻辑上的正确'(代码跑通)与'存在上的真实'(符合物理律令)，防止AI产生'唯我论'式的疯狂行为(如试图违反重力)。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.794864",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O5_1720",
+  "design_spec": {
+    "name": "auto_上手状态验证机制_这是一种超越传统测试指_8cab52",
+    "display_name": "上手状态验证机制。这是一种超越传统测试指标的评估体系。它不只检查AI是否完成了任务，而是检查AI是否",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "上手状态验证机制。这是一种超越传统测试指标的评估体系。它不只检查AI是否完成了任务，而是检查AI是否表现出了对物理世界的'敬畏'和'熟络'。例如，验证AI是否会",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

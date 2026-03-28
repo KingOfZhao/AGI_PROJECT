@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发一套_认知摩擦力_检测机制_当知识从_fa64de",
+  "file": "skills/auto_开发一套_认知摩擦力_检测机制_当知识从_fa64de.py",
+  "description": "开发一套'认知摩擦力'检测机制。当知识从高数理逻辑域（如量子力学）迁移至高模糊逻辑域（如艺术创作）时，系统应自动检测语义丢失率，并生成'解释性桥梁节点'来填补认知鸿沟，而非生硬搬运。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "semantics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.618644",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_106_Q6_3_7439",
+  "design_spec": {
+    "name": "auto_开发一套_认知摩擦力_检测机制_当知识从_fa64de",
+    "display_name": "开发一套'认知摩擦力'检测机制。当知识从高数理逻辑域（如量子力学）迁移至高模糊逻辑域（如艺术创作）时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发一套'认知摩擦力'检测机制。当知识从高数理逻辑域（如量子力学）迁移至高模糊逻辑域（如艺术创作）时，系统应自动检测语义丢失率，并生成'解释性桥梁节点'来填补认",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

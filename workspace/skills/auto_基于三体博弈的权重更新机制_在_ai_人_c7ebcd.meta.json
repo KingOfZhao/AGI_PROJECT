@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于三体博弈的权重更新机制_在_ai_人_c7ebcd",
+  "file": "skills/auto_基于三体博弈的权重更新机制_在_ai_人_c7ebcd.py",
+  "description": "基于三体博弈的权重更新机制：在'AI-人类-环境'共生系统中，如何量化人类反馈的权威权重？并非所有人类反馈都是正确的（人类也会犯错）。如何设计算法，根据反馈来源的历史可靠性、反馈内容的逻辑强度以及与现有稳固节点的冲突程度，动态调整知识更新的步长？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.710238",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q4_1_1477",
+  "design_spec": {
+    "name": "auto_基于三体博弈的权重更新机制_在_ai_人_c7ebcd",
+    "display_name": "基于三体博弈的权重更新机制：在'AI-人类-环境'共生系统中，如何量化人类反馈的权威权重？并非所有人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于三体博弈的权重更新机制：在'AI-人类-环境'共生系统中，如何量化人类反馈的权威权重？并非所有人类反馈都是正确的（人类也会犯错）。如何设计算法，根据反馈来源",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

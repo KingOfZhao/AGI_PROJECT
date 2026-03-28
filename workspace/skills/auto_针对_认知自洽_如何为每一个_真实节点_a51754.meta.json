@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_认知自洽_如何为每一个_真实节点_a51754",
+  "file": "skills/auto_针对_认知自洽_如何为每一个_真实节点_a51754.py",
+  "description": "针对'认知自洽'，如何为每一个'真实节点'构建一个可运行的沙箱环境或测试用例？问题在于：如何自动生成验证某知识节点（如'Python爬虫'）有效性的最小输入/输出数据集，以便系统能定期自动体检，剔除过时的'僵尸节点'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.001421",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q6_3_7871",
+  "design_spec": {
+    "name": "auto_针对_认知自洽_如何为每一个_真实节点_a51754",
+    "display_name": "针对'认知自洽'，如何为每一个'真实节点'构建一个可运行的沙箱环境或测试用例？问题在于：如何自动生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'认知自洽'，如何为每一个'真实节点'构建一个可运行的沙箱环境或测试用例？问题在于：如何自动生成验证某知识节点（如'Python爬虫'）有效性的最小输入/输",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

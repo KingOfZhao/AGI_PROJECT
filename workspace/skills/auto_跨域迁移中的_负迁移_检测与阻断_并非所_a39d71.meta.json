@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_负迁移_检测与阻断_并非所_a39d71",
+  "file": "skills/auto_跨域迁移中的_负迁移_检测与阻断_并非所_a39d71.py",
+  "description": "跨域迁移中的'负迁移'检测与阻断：并非所有类比都是有益的。如何识别那些看似相关但实则有害的映射（例如将'军事指挥'的严科层级直接迁移到'创意设计团队'导致效率降低）？系统需要在人类证伪之前，通过结构分析预判这种冲突。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.412740",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_79_Q8_1_7105",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_负迁移_检测与阻断_并非所_a39d71",
+    "display_name": "跨域迁移中的'负迁移'检测与阻断：并非所有类比都是有益的。如何识别那些看似相关但实则有害的映射（例如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的'负迁移'检测与阻断：并非所有类比都是有益的。如何识别那些看似相关但实则有害的映射（例如将'军事指挥'的严科层级直接迁移到'创意设计团队'导致效率降",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

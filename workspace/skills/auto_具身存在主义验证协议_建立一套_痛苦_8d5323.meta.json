@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身存在主义验证协议_建立一套_痛苦_8d5323",
+  "file": "skills/auto_具身存在主义验证协议_建立一套_痛苦_8d5323.py",
+  "description": "【具身存在主义验证协议】建立一套'痛苦-适应'机制。AI不仅输出动作，还接收'存在性反馈'(如摔倒、碰撞导致的能量损失或任务失败)。通过这种强制性的'在世'交互，迫使AI生成'生存直觉'(如保持平衡、避免撞击)。这是一种从'语法正确'向'存在有效'的质变，确保AI知识不仅是逻辑自洽的，更是物理真实的。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.491816",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_104_O5_3243",
+  "design_spec": {
+    "name": "auto_具身存在主义验证协议_建立一套_痛苦_8d5323",
+    "display_name": "【具身存在主义验证协议】建立一套'痛苦-适应'机制。AI不仅输出动作，还接收'存在性反馈'(如摔倒、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身存在主义验证协议】建立一套'痛苦-适应'机制。AI不仅输出动作，还接收'存在性反馈'(如摔倒、碰撞导致的能量损失或任务失败)。通过这种强制性的'在世'交互",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

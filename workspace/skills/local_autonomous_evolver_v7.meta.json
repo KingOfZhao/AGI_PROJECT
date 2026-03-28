@@ -1,0 +1,36 @@
+{
+  "name": "自性自主进化器 v7",
+  "description": "让本地模型自我生成、注册并进化新技能。链式调用：自描述当前系统状态→生成全新技能脚本→保存注册→验证进化。与前序v1-v6无缝衔接，形成真正无穷闭环。",
+  "tags": [
+    "自主进化",
+    "技能生成",
+    "本地模型",
+    "自进化",
+    "无穷闭环"
+  ],
+  "category": "meta_evolution",
+  "file": "workspace/skills/local_autonomous_evolver_v7.py",
+  "source": "local",
+  "safety_level": "warning",
+  "created_at": "2026-03-25T16:31:00.000000",
+  "forged_by": "user_skill_chain",
+  "version": "v7",
+  "design_spec": {
+    "name": "local_autonomous_evolver_v7",
+    "display_name": "自性自主进化器 v7",
+    "description": "自我进化闭环：自描述→生成新技能→保存→验证进化",
+    "functions": [
+      {
+        "name": "run_full_chain",
+        "purpose": "启动完整自主进化链（自描述→生成→保存→验证）",
+        "params": "evolution_goal (str): 进化目标描述",
+        "returns": "str: 生成的新技能代码"
+      }
+    ],
+    "dependencies": ["requests"],
+    "tags": ["自主进化", "技能生成", "无穷闭环"],
+    "estimated_lines": 60,
+    "chain_position": 7,
+    "chain_family": "自性技能链"
+  }
+}

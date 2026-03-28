@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_自上而下拆解_的递归深度控制算法_6404e5",
+  "file": "skills/auto_开发_自上而下拆解_的递归深度控制算法_6404e5.py",
+  "description": "开发'自上而下拆解'的递归深度控制算法。当面对复杂问题时，AI需要将大问题拆解为子问题，但必须设定合理的拆解粒度。过粗无法执行，过细则陷入组合爆炸。该算法需根据已有的2032个Skill，动态决定拆解的终止点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "operations_research",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.776968",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q7_2_2226",
+  "design_spec": {
+    "name": "auto_开发_自上而下拆解_的递归深度控制算法_6404e5",
+    "display_name": "开发'自上而下拆解'的递归深度控制算法。当面对复杂问题时，AI需要将大问题拆解为子问题，但必须设定合",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'自上而下拆解'的递归深度控制算法。当面对复杂问题时，AI需要将大问题拆解为子问题，但必须设定合理的拆解粒度。过粗无法执行，过细则陷入组合爆炸。该算法需根据",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

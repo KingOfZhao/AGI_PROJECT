@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计轻量级的_认知自洽性验证器_用_7c0cb2",
+  "file": "skills/auto_如何设计轻量级的_认知自洽性验证器_用_7c0cb2.py",
+  "description": "如何设计轻量级的'认知自洽性验证器'，用于快速评估一个新生成的技能节点是否形成闭环？在系统将一个新技能（如'修理自行车链条'）加入库之前，验证器需检查其是否包含'状态识别-操作动作-结果反馈'的完整三元组。若缺失关键环节（如缺少'结果反馈'），则拒绝固化并请求人类补充。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.316968",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_45_Q6_1_8634",
+  "design_spec": {
+    "name": "auto_如何设计轻量级的_认知自洽性验证器_用_7c0cb2",
+    "display_name": "如何设计轻量级的'认知自洽性验证器'，用于快速评估一个新生成的技能节点是否形成闭环？在系统将一个新技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计轻量级的'认知自洽性验证器'，用于快速评估一个新生成的技能节点是否形成闭环？在系统将一个新技能（如'修理自行车链条'）加入库之前，验证器需检查其是否包含",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

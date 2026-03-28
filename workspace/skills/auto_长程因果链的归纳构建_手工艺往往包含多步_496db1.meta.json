@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程因果链的归纳构建_手工艺往往包含多步_496db1",
+  "file": "skills/auto_长程因果链的归纳构建_手工艺往往包含多步_496db1.py",
+  "description": "长程因果链的归纳构建：手工艺往往包含多步操作，且结果滞后。验证AI能否在没有显式标注的情况下，从数小时的连续操作视频中，自动切分并识别出'关键转折点'（即决定成败的隐性步骤），并将其固化为独立的事件节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.811223",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_122_Q8_2_7214",
+  "design_spec": {
+    "name": "auto_长程因果链的归纳构建_手工艺往往包含多步_496db1",
+    "display_name": "长程因果链的归纳构建：手工艺往往包含多步操作，且结果滞后。验证AI能否在没有显式标注的情况下，从数小",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "长程因果链的归纳构建：手工艺往往包含多步操作，且结果滞后。验证AI能否在没有显式标注的情况下，从数小时的连续操作视频中，自动切分并识别出'关键转折点'（即决定成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 250
+  }
+}

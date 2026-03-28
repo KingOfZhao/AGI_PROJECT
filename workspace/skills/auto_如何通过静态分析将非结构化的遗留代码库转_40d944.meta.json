@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过静态分析将非结构化的遗留代码库转_40d944",
+  "file": "skills/auto_如何通过静态分析将非结构化的遗留代码库转_40d944.py",
+  "description": "如何通过静态分析将非结构化的遗留代码库转化为结构化的'能力拓扑图'（Capability Graph），使得模糊意图可以匹配到具体的函数调用路径，而非仅仅是代码片段？这涉及到代码语义的深层解析。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "software_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.513243",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q2_1_3870",
+  "design_spec": {
+    "name": "auto_如何通过静态分析将非结构化的遗留代码库转_40d944",
+    "display_name": "如何通过静态分析将非结构化的遗留代码库转化为结构化的'能力拓扑图'（Capability Graph",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过静态分析将非结构化的遗留代码库转化为结构化的'能力拓扑图'（Capability Graph），使得模糊意图可以匹配到具体的函数调用路径，而非仅仅是代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 345
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_归纳构建_从混沌数据构建本体论_输入一_21800e",
+  "file": "skills/auto_归纳构建_从混沌数据构建本体论_输入一_21800e.py",
+  "description": "【归纳构建】从混沌数据构建本体论：输入一组杂乱无章的、未分类的领域相关文档（如100篇不同风格的科幻小说）。要求AI执行'自下而上归纳构建'，不预设分类标准，自动聚类并构建一个该领域的知识本体（Ontology），提取核心概念作为新节点。验证AI提取的节点是否具有层级结构和逻辑关联，而非扁平化的标签云。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "data_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.699125",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q9_0_862",
+  "design_spec": {
+    "name": "auto_归纳构建_从混沌数据构建本体论_输入一_21800e",
+    "display_name": "【归纳构建】从混沌数据构建本体论：输入一组杂乱无章的、未分类的领域相关文档（如100篇不同风格的科幻",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【归纳构建】从混沌数据构建本体论：输入一组杂乱无章的、未分类的领域相关文档（如100篇不同风格的科幻小说）。要求AI执行'自下而上归纳构建'，不预设分类标准，自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

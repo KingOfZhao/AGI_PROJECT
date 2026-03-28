@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移的_最小碰撞面积_量化_针对左右_5e4229",
+  "file": "skills/auto_跨域迁移的_最小碰撞面积_量化_针对左右_5e4229.py",
+  "description": "跨域迁移的'最小碰撞面积'量化：针对左右跨域重叠，如何量化两个看似无关节点（如'生物进化'与'代码重构'）之间的语义重叠度？测试是否只有当语义重叠向量夹角小于特定阈值（如30度）且差异度大于特定值（如20%）时，才值得构建新的'类比连接'，否则视为无效噪音。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.405988",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q3_0_8080",
+  "design_spec": {
+    "name": "auto_跨域迁移的_最小碰撞面积_量化_针对左右_5e4229",
+    "display_name": "跨域迁移的'最小碰撞面积'量化：针对左右跨域重叠，如何量化两个看似无关节点（如'生物进化'与'代码重",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移的'最小碰撞面积'量化：针对左右跨域重叠，如何量化两个看似无关节点（如'生物进化'与'代码重构'）之间的语义重叠度？测试是否只有当语义重叠向量夹角小于特",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 253
+  }
+}

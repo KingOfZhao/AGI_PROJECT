@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_幻觉固化_的防御机制_在_重叠固化_5d8ffb",
+  "file": "skills/auto_针对_幻觉固化_的防御机制_在_重叠固化_5d8ffb.py",
+  "description": "针对'幻觉固化'的防御机制。在'重叠固化为真实节点'的过程中，LLM可能会将自身的幻觉（不存在的事实或错误的逻辑链条）误判为真实节点并写入长期记忆。必须引入'多方求证'节点，要求任何新固化的真实节点必须至少被两个独立的数据源或逻辑路径所交叉验证（Inter-Rater Reliability）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.312748",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_58_Q9_0_6545",
+  "design_spec": {
+    "name": "auto_针对_幻觉固化_的防御机制_在_重叠固化_5d8ffb",
+    "display_name": "针对'幻觉固化'的防御机制。在'重叠固化为真实节点'的过程中，LLM可能会将自身的幻觉（不存在的事实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'幻觉固化'的防御机制。在'重叠固化为真实节点'的过程中，LLM可能会将自身的幻觉（不存在的事实或错误的逻辑链条）误判为真实节点并写入长期记忆。必须引入'多",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_现象学本质提取引擎_一种新的ai训练范式_2855c4",
+  "file": "skills/auto_现象学本质提取引擎_一种新的ai训练范式_2855c4.py",
+  "description": "现象学本质提取引擎：一种新的AI训练范式，不再单纯通过大数据统计归纳，而是引入‘否定性机制’。AI在模仿人类工匠（如木工刨削）时，主动构建‘变异场景’（如改变工匠手臂长度、改变重力方向），在这个过程中寻找‘始终保持不变的某种结构’（如‘力-位’耦合关系）。这种能力使AI能够从‘模仿动作’进化为‘理解意图’，即使在不同机械结构或环境下也能复现工艺核心。这是从‘数据驱动’向‘本质驱动’的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.794734",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O1_7490",
+  "design_spec": {
+    "name": "auto_现象学本质提取引擎_一种新的ai训练范式_2855c4",
+    "display_name": "现象学本质提取引擎：一种新的AI训练范式，不再单纯通过大数据统计归纳，而是引入‘否定性机制’。AI在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "现象学本质提取引擎：一种新的AI训练范式，不再单纯通过大数据统计归纳，而是引入‘否定性机制’。AI在模仿人类工匠（如木工刨削）时，主动构建‘变异场景’（如改变工",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

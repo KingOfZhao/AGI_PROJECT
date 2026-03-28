@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式_认知对抗网络_gcan_构建_3e838c",
+  "file": "skills/auto_生成式_认知对抗网络_gcan_构建_3e838c.py",
+  "description": "生成式'认知对抗网络'（GCAN）：构建一个专门的'反身Agent'，其唯一目标是利用现有SKILL节点生成'看似合理但必然失败'的执行路径。主系统若无法在仿真环境中预判该路径的失败，则证明主系统缺乏对该领域的深层因果理解。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:07.971548",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_59_Q2_3_4429",
+  "design_spec": {
+    "name": "auto_生成式_认知对抗网络_gcan_构建_3e838c",
+    "display_name": "生成式'认知对抗网络'（GCAN）：构建一个专门的'反身Agent'，其唯一目标是利用现有SKILL",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "生成式'认知对抗网络'（GCAN）：构建一个专门的'反身Agent'，其唯一目标是利用现有SKILL节点生成'看似合理但必然失败'的执行路径。主系统若无法在仿真",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

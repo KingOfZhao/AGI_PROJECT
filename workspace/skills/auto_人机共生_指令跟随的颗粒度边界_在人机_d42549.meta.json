@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_指令跟随的颗粒度边界_在人机_d42549",
+  "file": "skills/auto_人机共生_指令跟随的颗粒度边界_在人机_d42549.py",
+  "description": "【人机共生】指令跟随的颗粒度边界：在人机共生环节中，人类给出一个模糊指令（如'优化这段代码'）。验证AI能否将此拆解为详细的'实践清单'（时间复杂度、空间复杂度、可读性、并发安全等），并请求人类确认优先级。如果AI直接给出一个结果而跳过了'梳理清单'和'请求确认'的共生步骤，则它在本质上仍是一个黑盒工具，而非架构师助手。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.675232",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q5_0_862",
+  "design_spec": {
+    "name": "auto_人机共生_指令跟随的颗粒度边界_在人机_d42549",
+    "display_name": "【人机共生】指令跟随的颗粒度边界：在人机共生环节中，人类给出一个模糊指令（如'优化这段代码'）。验证",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】指令跟随的颗粒度边界：在人机共生环节中，人类给出一个模糊指令（如'优化这段代码'）。验证AI能否将此拆解为详细的'实践清单'（时间复杂度、空间复杂度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

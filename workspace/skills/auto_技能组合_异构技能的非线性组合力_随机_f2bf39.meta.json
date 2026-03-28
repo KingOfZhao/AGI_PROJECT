@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能组合_异构技能的非线性组合力_随机_f2bf39",
+  "file": "skills/auto_技能组合_异构技能的非线性组合力_随机_f2bf39.py",
+  "description": "【技能组合】异构技能的非线性组合力：随机抽取两个SKILL节点（例如'制作PPT'和'Python爬虫'），要求AI将其组合为一个自动化工作流：'从网页抓取数据并自动生成图表PPT'。验证的重点不在于代码能否运行，而在于AI是否能识别两个异构技能之间的数据接口（Data Schema）差异，并自动生成'适配器'节点来连接它们。这是衡量AI是否理解'技能'本质而非仅仅记忆'代码片段'的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "automation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.683687",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q8_0_862",
+  "design_spec": {
+    "name": "auto_技能组合_异构技能的非线性组合力_随机_f2bf39",
+    "display_name": "【技能组合】异构技能的非线性组合力：随机抽取两个SKILL节点（例如'制作PPT'和'Python爬",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【技能组合】异构技能的非线性组合力：随机抽取两个SKILL节点（例如'制作PPT'和'Python爬虫'），要求AI将其组合为一个自动化工作流：'从网页抓取数据",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

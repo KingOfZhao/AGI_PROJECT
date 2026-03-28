@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_模糊语义_物理向量_的概率投影算子_e13ad5",
+  "file": "skills/auto_开发_模糊语义_物理向量_的概率投影算子_e13ad5.py",
+  "description": "开发'模糊语义-物理向量'的概率投影算子，建立不确定性的标准化度量衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_41",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:25:13.433313",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_41_G2_3928",
+  "design_spec": {
+    "name": "auto_开发_模糊语义_物理向量_的概率投影算子_e13ad5",
+    "display_name": "开发'模糊语义-物理向量'的概率投影算子，建立不确定性的标准化度量衡。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'模糊语义-物理向量'的概率投影算子，建立不确定性的标准化度量衡。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 295
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念致力于解决agi_离身_的问题_将_7cface",
+  "file": "skills/auto_该概念致力于解决agi_离身_的问题_将_7cface.py",
+  "description": "该概念致力于解决AGI‘离身’的问题，将认知与物理世界感知相结合。它构建了一个‘实践-反馈’的完整闭环：从海量的非结构化物理实践日志中归纳模式，利用力反馈和触觉数据逆向工程物理参数，最后通过Sim-to-Real技术实现虚拟到真实的迁移。它强调知识必须通过‘身体’（传感器/执行器）与环境的交互来验证和获取。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.948306",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_92_P5_6803",
+  "design_spec": {
+    "name": "auto_该概念致力于解决agi_离身_的问题_将_7cface",
+    "display_name": "该概念致力于解决AGI‘离身’的问题，将认知与物理世界感知相结合。它构建了一个‘实践-反馈’的完整闭",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念致力于解决AGI‘离身’的问题，将认知与物理世界感知相结合。它构建了一个‘实践-反馈’的完整闭环：从海量的非结构化物理实践日志中归纳模式，利用力反馈和触觉",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

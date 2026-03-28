@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_意图驱动的动态工程界面_利用fl_11edf8",
+  "file": "skills/auto_构建_意图驱动的动态工程界面_利用fl_11edf8.py",
+  "description": "构建'意图驱动的动态工程界面'。利用Flutter的Widget作为CAD参数化特征的直接映射层，实现'所见即所得'的参数逻辑可视化。用户在UI层面的操作（如拖拽Widget）直接重构底层的Feature Tree，而Feature Tree的变更实时反向刷新Widget状态，消除传统CAD软件中'参数设置面板'与'3D视图'的认知隔阂。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.242042",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_85_O1_7234",
+  "design_spec": {
+    "name": "auto_构建_意图驱动的动态工程界面_利用fl_11edf8",
+    "display_name": "构建'意图驱动的动态工程界面'。利用Flutter的Widget作为CAD参数化特征的直接映射层，实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'意图驱动的动态工程界面'。利用Flutter的Widget作为CAD参数化特征的直接映射层，实现'所见即所得'的参数逻辑可视化。用户在UI层面的操作（如拖",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 242
+  }
+}

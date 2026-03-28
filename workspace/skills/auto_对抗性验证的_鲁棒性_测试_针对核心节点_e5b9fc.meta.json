@@ -1,0 +1,30 @@
+{
+  "name": "auto_对抗性验证的_鲁棒性_测试_针对核心节点_e5b9fc",
+  "file": "skills/auto_对抗性验证的_鲁棒性_测试_针对核心节点_e5b9fc.py",
+  "description": "对抗性验证的'鲁棒性'测试：针对核心节点，自动生成'反例'或'边界条件'输入（如给'摆摊'技能输入'负利润'或'零重力'环境）。如果节点无法处理反例或无法优雅降级，则其'鲁棒性评分'降低。如何自动化生成这些对抗性测试用例？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "RobustEngineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.388813",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_128_Q8_0_3176",
+  "design_spec": {
+    "name": "auto_对抗性验证的_鲁棒性_测试_针对核心节点_e5b9fc",
+    "display_name": "对抗性验证的'鲁棒性'测试：针对核心节点，自动生成'反例'或'边界条件'输入（如给'摆摊'技能输入'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "对抗性验证的'鲁棒性'测试：针对核心节点，自动生成'反例'或'边界条件'输入（如给'摆摊'技能输入'负利润'或'零重力'环境）。如果节点无法处理反例或无法优雅降",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

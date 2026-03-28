@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_辩证约束系统_在ai建模中_不再_6c67da",
+  "file": "skills/auto_创建_辩证约束系统_在ai建模中_不再_6c67da.py",
+  "description": "创建'辩证约束系统'。在AI建模中，不再视'偏差'为纯负面，而是将其转化为'启发式约束'。允许用户设置'软约束'（模拟偏见），在特定场景下大幅提升检索和决策速度（启发式优势）；但在进行关键决策时，系统自动触发'级联检查'，暴露被过滤的'孤儿数据'（反证），实现快思考与慢思考的动态切换。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.248716",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_102_O4_704",
+  "design_spec": {
+    "name": "auto_创建_辩证约束系统_在ai建模中_不再_6c67da",
+    "display_name": "创建'辩证约束系统'。在AI建模中，不再视'偏差'为纯负面，而是将其转化为'启发式约束'。允许用户设",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'辩证约束系统'。在AI建模中，不再视'偏差'为纯负面，而是将其转化为'启发式约束'。允许用户设置'软约束'（模拟偏见），在特定场景下大幅提升检索和决策速度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

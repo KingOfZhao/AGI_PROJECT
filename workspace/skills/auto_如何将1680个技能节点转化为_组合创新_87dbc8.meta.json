@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将1680个技能节点转化为_组合创新_87dbc8",
+  "file": "skills/auto_如何将1680个技能节点转化为_组合创新_87dbc8.py",
+  "description": "如何将1680个技能节点转化为‘组合创新’生成器？通过计算技能节点之间的距离和互补性，自动推荐‘前所未有’的技能组合（如‘编程+烹饪’），并预测其产生新价值节点的概率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "innovation_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.701343",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_99_Q7_2_5144",
+  "design_spec": {
+    "name": "auto_如何将1680个技能节点转化为_组合创新_87dbc8",
+    "display_name": "如何将1680个技能节点转化为‘组合创新’生成器？通过计算技能节点之间的距离和互补性，自动推荐‘前所",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将1680个技能节点转化为‘组合创新’生成器？通过计算技能节点之间的距离和互补性，自动推荐‘前所未有’的技能组合（如‘编程+烹饪’），并预测其产生新价值节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 288
+  }
+}

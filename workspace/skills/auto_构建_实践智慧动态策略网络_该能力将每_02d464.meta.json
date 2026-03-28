@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实践智慧动态策略网络_该能力将每_02d464",
+  "file": "skills/auto_构建_实践智慧动态策略网络_该能力将每_02d464.py",
+  "description": "构建‘实践智慧动态策略网络’。该能力将每个Skill节点视为一个‘微型德性库’。当机器人面对具体物体（如一个重且滑的杯子）时，网络不是执行固定的‘抓取’程序，而是调用‘权衡’，综合评估当前环境的特殊变量（重、滑），动态调制PID参数或抓取力度。这是一种基于‘中道’原则的控制策略，在‘力过大（破坏）’与‘力过小（滑落）’之间寻找动态平衡点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.817228",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O5_7317",
+  "design_spec": {
+    "name": "auto_构建_实践智慧动态策略网络_该能力将每_02d464",
+    "display_name": "构建‘实践智慧动态策略网络’。该能力将每个Skill节点视为一个‘微型德性库’。当机器人面对具体物体",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘实践智慧动态策略网络’。该能力将每个Skill节点视为一个‘微型德性库’。当机器人面对具体物体（如一个重且滑的杯子）时，网络不是执行固定的‘抓取’程序，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

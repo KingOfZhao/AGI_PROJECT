@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_认知自洽_的异常检测机制_在缺乏大_43bc90",
+  "file": "skills/auto_设计_认知自洽_的异常检测机制_在缺乏大_43bc90.py",
+  "description": "设计‘认知自洽’的异常检测机制：在缺乏大量故障样本的情况下，如何利用‘正常生产’的节点闭环（认知自洽），通过重构误差来识别从未见过的‘未知未知’故障？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.360707",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q7_3_8148",
+  "design_spec": {
+    "name": "auto_设计_认知自洽_的异常检测机制_在缺乏大_43bc90",
+    "display_name": "设计‘认知自洽’的异常检测机制：在缺乏大量故障样本的情况下，如何利用‘正常生产’的节点闭环（认知自洽",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计‘认知自洽’的异常检测机制：在缺乏大量故障样本的情况下，如何利用‘正常生产’的节点闭环（认知自洽），通过重构误差来识别从未见过的‘未知未知’故障？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽与冲突_当ai构建的_真实节点_b69314",
+  "file": "skills/auto_认知自洽与冲突_当ai构建的_真实节点_b69314.py",
+  "description": "【认知自洽与冲突】当AI构建的“真实节点”网络内部出现逻辑矛盾（如节点A与节点B在特定上下文互斥）时，如何设计“认知仲裁机制”？系统应优先保留经人类实践验证的节点，还是优先保留逻辑自洽性更高的子网？这涉及对“实践出真知”与“逻辑完备性”的权衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.722790",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q7_0_7706",
+  "design_spec": {
+    "name": "auto_认知自洽与冲突_当ai构建的_真实节点_b69314",
+    "display_name": "【认知自洽与冲突】当AI构建的“真实节点”网络内部出现逻辑矛盾（如节点A与节点B在特定上下文互斥）时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知自洽与冲突】当AI构建的“真实节点”网络内部出现逻辑矛盾（如节点A与节点B在特定上下文互斥）时，如何设计“认知仲裁机制”？系统应优先保留经人类实践验证的节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 249
+  }
+}

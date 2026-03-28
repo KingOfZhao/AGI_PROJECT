@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实性校验与证伪机制_如何构建一个自动化_8f1384",
+  "file": "skills/auto_真实性校验与证伪机制_如何构建一个自动化_8f1384.py",
+  "description": "真实性校验与证伪机制：如何构建一个自动化的“物理引擎验证层”，当AI归纳出一条手工艺规律（如‘烧制温度与时间成反比’）时，自动在仿真环境中进行暴力测试或反事实推理，以确定该规律的边界条件？这是防止AI产生幻觉、固化“真实节点”的保障。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "simulation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.544977",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q9_2_705",
+  "design_spec": {
+    "name": "auto_真实性校验与证伪机制_如何构建一个自动化_8f1384",
+    "display_name": "真实性校验与证伪机制：如何构建一个自动化的“物理引擎验证层”，当AI归纳出一条手工艺规律（如‘烧制温",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "真实性校验与证伪机制：如何构建一个自动化的“物理引擎验证层”，当AI归纳出一条手工艺规律（如‘烧制温度与时间成反比’）时，自动在仿真环境中进行暴力测试或反事实推",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

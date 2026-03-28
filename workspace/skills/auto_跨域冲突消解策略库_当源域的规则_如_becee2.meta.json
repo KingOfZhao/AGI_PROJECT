@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域冲突消解策略库_当源域的规则_如_becee2",
+  "file": "skills/auto_跨域冲突消解策略库_当源域的规则_如_becee2.py",
+  "description": "【跨域冲突消解策略库】当源域的规则（如‘艺术创作追求模糊’）与目标域规则（如‘法律条文追求精确’）发生根本性冲突时，系统如何通过‘降维打击’或‘升维融合’来解决？需要构建一个冲突解决策略生成器，而非简单的规则覆盖。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_89",
+    "dialectics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:04:54.792739",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_89_Q9_1_9325",
+  "design_spec": {
+    "name": "auto_跨域冲突消解策略库_当源域的规则_如_becee2",
+    "display_name": "【跨域冲突消解策略库】当源域的规则（如‘艺术创作追求模糊’）与目标域规则（如‘法律条文追求精确’）发",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域冲突消解策略库】当源域的规则（如‘艺术创作追求模糊’）与目标域规则（如‘法律条文追求精确’）发生根本性冲突时，系统如何通过‘降维打击’或‘升维融合’来解决",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

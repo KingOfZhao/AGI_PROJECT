@@ -1,0 +1,30 @@
+{
+  "name": "auto_一套旨在解决_人类模糊意图_与_机器精确_8885f8",
+  "file": "skills/auto_一套旨在解决_人类模糊意图_与_机器精确_8885f8.py",
+  "description": "一套旨在解决‘人类模糊意图’与‘机器精确执行’之间矛盾的工程化交互范式。它将交互过程视为一个可回溯的‘特征树’（bu_25_P5），结合Flutter的竞争场机制与CAD的捕捉算法（ho_26_O4），构建了一个‘模糊意图交互层’。用户只需提供非结构化指令（画圈、长按、模糊语言），系统通过‘感官对齐’（bu_25_P1）和GPU加速的矢量引擎（ho_26_O5），将其实时编译为物理世界的精确参数，并支持全历史回溯与参数化修改。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.716159",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_27_P4_8447",
+  "design_spec": {
+    "name": "auto_一套旨在解决_人类模糊意图_与_机器精确_8885f8",
+    "display_name": "一套旨在解决‘人类模糊意图’与‘机器精确执行’之间矛盾的工程化交互范式。它将交互过程视为一个可回溯的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一套旨在解决‘人类模糊意图’与‘机器精确执行’之间矛盾的工程化交互范式。它将交互过程视为一个可回溯的‘特征树’（bu_25_P5），结合Flutter的竞争场机",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

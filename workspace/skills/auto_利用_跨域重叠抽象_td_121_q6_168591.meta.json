@@ -1,0 +1,30 @@
+{
+  "name": "auto_利用_跨域重叠抽象_td_121_q6_168591",
+  "file": "skills/auto_利用_跨域重叠抽象_td_121_q6_168591.py",
+  "description": "利用'跨域重叠抽象'(td_121_Q6)与'结构同构识别'(td_121_Q2)。当面临全新的复杂管理难题时，系统能在底层物理或数学逻辑上找到同构的简单模型（如将'团队协作阻塞'映射为'内存死锁'），利用成熟的计算机科学算法（死锁检测与恢复）直接生成管理策略，实现'降维打击'式的智慧涌现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.080252",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_123_E4_7466",
+  "design_spec": {
+    "name": "auto_利用_跨域重叠抽象_td_121_q6_168591",
+    "display_name": "利用'跨域重叠抽象'(td_121_Q6)与'结构同构识别'(td_121_Q2)。当面临全新的复杂",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "利用'跨域重叠抽象'(td_121_Q6)与'结构同构识别'(td_121_Q2)。当面临全新的复杂管理难题时，系统能在底层物理或数学逻辑上找到同构的简单模型（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

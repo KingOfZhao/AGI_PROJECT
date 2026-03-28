@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_如何设计_人类反馈的增量学习_3682b8",
+  "file": "skills/auto_人机共生_如何设计_人类反馈的增量学习_3682b8.py",
+  "description": "【人机共生】如何设计‘人类反馈的增量学习接口’，使得人类工程师能直接修正AGI的错误推理链（而不仅仅是标注数据）？当前系统多依赖梯度下降更新权重，缺乏显式的逻辑修正接口。目标是实现‘AI梳理->人类证伪->AI秒级整合’的快速闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.665033",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q7_1_6206",
+  "design_spec": {
+    "name": "auto_人机共生_如何设计_人类反馈的增量学习_3682b8",
+    "display_name": "【人机共生】如何设计‘人类反馈的增量学习接口’，使得人类工程师能直接修正AGI的错误推理链（而不仅仅",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】如何设计‘人类反馈的增量学习接口’，使得人类工程师能直接修正AGI的错误推理链（而不仅仅是标注数据）？当前系统多依赖梯度下降更新权重，缺乏显式的逻辑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

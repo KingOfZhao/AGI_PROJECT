@@ -1,0 +1,30 @@
+{
+  "name": "auto_过程感知型知识图谱检索_pa_kgr_4a3647",
+  "file": "skills/auto_过程感知型知识图谱检索_pa_kgr_4a3647.py",
+  "description": "【过程感知型知识图谱检索 (PA-KGR)】超越传统的RAG（检索增强生成），专门针对实操技能。当用户查询'如何处理发动机过热'时，系统不仅返回'过热'的定义，而是检索出一整条包含'检查->判断->操作->验证'的拓扑路径。系统会评估用户当前在拓扑图中的位置，并检索'下一步最优解'，而非仅仅是语义最相关的文本。这能解决'懂很多道理（节点）但过不好这一生（路径不通）'的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_12",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:33:04.203938",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_12_O3_8405",
+  "design_spec": {
+    "name": "auto_过程感知型知识图谱检索_pa_kgr_4a3647",
+    "display_name": "【过程感知型知识图谱检索 (PA-KGR)】超越传统的RAG（检索增强生成），专门针对实操技能。当用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【过程感知型知识图谱检索 (PA-KGR)】超越传统的RAG（检索增强生成），专门针对实操技能。当用户查询'如何处理发动机过热'时，系统不仅返回'过热'的定义，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 336
+  }
+}

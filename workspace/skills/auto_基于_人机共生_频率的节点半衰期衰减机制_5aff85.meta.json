@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机共生_频率的节点半衰期衰减机制_5aff85",
+  "file": "skills/auto_基于_人机共生_频率的节点半衰期衰减机制_5aff85.py",
+  "description": "基于‘人机共生’频率的节点半衰期衰减机制：设计一个算法，根据节点的‘被验证次数’与‘未被访问时间’来动态调整其‘真实性权重’。如果一个知识节点长期未在人类实践中被调用或验证，其权重应自动衰减，触发重检流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "knowledge_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.288721",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_47_Q6_1_2682",
+  "design_spec": {
+    "name": "auto_基于_人机共生_频率的节点半衰期衰减机制_5aff85",
+    "display_name": "基于‘人机共生’频率的节点半衰期衰减机制：设计一个算法，根据节点的‘被验证次数’与‘未被访问时间’来",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘人机共生’频率的节点半衰期衰减机制：设计一个算法，根据节点的‘被验证次数’与‘未被访问时间’来动态调整其‘真实性权重’。如果一个知识节点长期未在人类实践中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

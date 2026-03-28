@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_生成式验证系统_bu_110_p_c940ad",
+  "file": "skills/auto_整合_生成式验证系统_bu_110_p_c940ad.py",
+  "description": "整合‘生成式验证系统’（bu_110_P3_8598）与‘公差配合博弈’（td_110_Q4_3_6085），构建一个能主动生成极端工况（如最大允许误差堆积）的虚拟测试环境。它不仅能验证代码逻辑，还能在物理仿真层面测试设计的鲁棒性，自动寻找系统在成本与良率之间的帕累托最优解。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.704719",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_111_E4_7840",
+  "design_spec": {
+    "name": "auto_整合_生成式验证系统_bu_110_p_c940ad",
+    "display_name": "整合‘生成式验证系统’（bu_110_P3_8598）与‘公差配合博弈’（td_110_Q4_3_6",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合‘生成式验证系统’（bu_110_P3_8598）与‘公差配合博弈’（td_110_Q4_3_6085），构建一个能主动生成极端工况（如最大允许误差堆积）的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

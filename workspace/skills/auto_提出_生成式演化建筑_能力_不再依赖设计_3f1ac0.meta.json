@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_生成式演化建筑_能力_不再依赖设计_3f1ac0",
+  "file": "skills/auto_提出_生成式演化建筑_能力_不再依赖设计_3f1ac0.py",
+  "description": "提出'生成式演化建筑'能力：不再依赖设计师主观绘制平面图，而是构建一个'环境-行为'损失函数。通过模拟数百万次智能体在虚拟建筑中的流线，利用反向传播算法自动调整墙体位置（权重），迭代出人流效率最高、空间利用率最优的建筑布局。这不仅仅是模拟，而是基于梯度优化的自动设计。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_12",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:33:04.200588",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_12_O1_2357",
+  "design_spec": {
+    "name": "auto_提出_生成式演化建筑_能力_不再依赖设计_3f1ac0",
+    "display_name": "提出'生成式演化建筑'能力：不再依赖设计师主观绘制平面图，而是构建一个'环境-行为'损失函数。通过模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'生成式演化建筑'能力：不再依赖设计师主观绘制平面图，而是构建一个'环境-行为'损失函数。通过模拟数百万次智能体在虚拟建筑中的流线，利用反向传播算法自动调整",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

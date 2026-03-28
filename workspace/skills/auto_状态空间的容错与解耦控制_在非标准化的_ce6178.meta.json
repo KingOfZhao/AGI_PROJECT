@@ -1,0 +1,30 @@
+{
+  "name": "auto_状态空间的容错与解耦控制_在非标准化的_ce6178",
+  "file": "skills/auto_状态空间的容错与解耦控制_在非标准化的_ce6178.py",
+  "description": "【状态空间的容错与解耦控制】在非标准化的现实环境中，AGI需要具备处理‘意外’和‘风格’的能力。该概念包含两层含义：1. 风格/结构解耦：在潜空间中将功能性结构（必须遵守）与装饰性风格（可变）分离，允许AI在保持功能的同时变换风格；2. 动态纠错重构：当执行出现偏差（如陶罐开裂、代码报错）时，不是简单的回滚，而是引入‘纠错节点’，将错误转化为新状态的一部分，通过局部重构达成新的稳态。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.800000",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_118_P6_9083",
+  "design_spec": {
+    "name": "auto_状态空间的容错与解耦控制_在非标准化的_ce6178",
+    "display_name": "【状态空间的容错与解耦控制】在非标准化的现实环境中，AGI需要具备处理‘意外’和‘风格’的能力。该概",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【状态空间的容错与解耦控制】在非标准化的现实环境中，AGI需要具备处理‘意外’和‘风格’的能力。该概念包含两层含义：1. 风格/结构解耦：在潜空间中将功能性结构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 254
+  }
+}

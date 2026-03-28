@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过_具身认知实践循环_验证_火候_748efb",
+  "file": "skills/auto_如何通过_具身认知实践循环_验证_火候_748efb.py",
+  "description": "如何通过'具身认知实践循环'验证'火候'等环境敏感型隐性知识？目标是将人类模糊的'看火色'经验转化为AI可执行的视觉-温度-时间三元组。挑战在于非结构化环境下的多模态对齐，以及如何处理光照变化对视觉特征的干扰。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_82",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T19:40:26.363862",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_82_Q2_2_5865",
+  "design_spec": {
+    "name": "auto_如何通过_具身认知实践循环_验证_火候_748efb",
+    "display_name": "如何通过'具身认知实践循环'验证'火候'等环境敏感型隐性知识？目标是将人类模糊的'看火色'经验转化为",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过'具身认知实践循环'验证'火候'等环境敏感型隐性知识？目标是将人类模糊的'看火色'经验转化为AI可执行的视觉-温度-时间三元组。挑战在于非结构化环境下的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

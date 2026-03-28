@@ -1,0 +1,30 @@
+{
+  "name": "auto_层级技能树的动态固化_如何设计算法_将_58a7f6",
+  "file": "skills/auto_层级技能树的动态固化_如何设计算法_将_58a7f6.py",
+  "description": "【层级技能树的动态固化】如何设计算法，将碎片化的‘原子操作’（如Q1提取的动作）根据任务上下文动态组合成‘宏技能’（如‘收口’），并将其固化到当前认知网络（2503节点）中？这涉及图神经网络中的子图合并与权重更新策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.699888",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_95_Q5_0_9248",
+  "design_spec": {
+    "name": "auto_层级技能树的动态固化_如何设计算法_将_58a7f6",
+    "display_name": "【层级技能树的动态固化】如何设计算法，将碎片化的‘原子操作’（如Q1提取的动作）根据任务上下文动态组",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【层级技能树的动态固化】如何设计算法，将碎片化的‘原子操作’（如Q1提取的动作）根据任务上下文动态组合成‘宏技能’（如‘收口’），并将其固化到当前认知网络（25",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

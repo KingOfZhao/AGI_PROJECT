@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个模仿生物能量流动与代谢机制的复杂_4128b7",
+  "file": "skills/auto_这是一个模仿生物能量流动与代谢机制的复杂_4128b7.py",
+  "description": "这是一个模仿生物能量流动与代谢机制的复杂系统管理模型。它摒弃了传统的静态线性指标，转而构建一个动态的‘价值营养级’网络。通过计算‘网络互惠指数’和‘功能冗余度’，系统像分析生态系统食物网一样分析供应链或知识网络。引入‘代谢流控’机制，在资源（算力/资金/原材料）匮乏时自动切换至‘无氧呼吸’模式以维持生存，而非直接崩溃。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:24.010514",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_11_P3_6537",
+  "design_spec": {
+    "name": "auto_这是一个模仿生物能量流动与代谢机制的复杂_4128b7",
+    "display_name": "这是一个模仿生物能量流动与代谢机制的复杂系统管理模型。它摒弃了传统的静态线性指标，转而构建一个动态的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个模仿生物能量流动与代谢机制的复杂系统管理模型。它摒弃了传统的静态线性指标，转而构建一个动态的‘价值营养级’网络。通过计算‘网络互惠指数’和‘功能冗余度’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 255
+  }
+}

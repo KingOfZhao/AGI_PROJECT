@@ -1,0 +1,30 @@
+{
+  "name": "auto_一套用于维护agi认知网络健康度与时效性_b1db3e",
+  "file": "skills/auto_一套用于维护agi认知网络健康度与时效性_b1db3e.py",
+  "description": "一套用于维护AGI认知网络健康度与时效性的动态机制。它不仅关注‘学习新知’，更关注‘遗忘旧知’与‘重构范式’。该概念包含‘知识衰变’监测（通过残差分析标记失效节点）、‘认知自洽性’压力测试（主动发现逻辑冲突）以及‘反常检测’（当常规科学失效时触发范式重构）。它利用‘意图-执行’的落差作为雷达，主动探测系统认知的边界与空洞，从而实现知识图谱的持续迭代与自我净化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.336446",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_47_P3_8704",
+  "design_spec": {
+    "name": "auto_一套用于维护agi认知网络健康度与时效性_b1db3e",
+    "display_name": "一套用于维护AGI认知网络健康度与时效性的动态机制。它不仅关注‘学习新知’，更关注‘遗忘旧知’与‘重",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一套用于维护AGI认知网络健康度与时效性的动态机制。它不仅关注‘学习新知’，更关注‘遗忘旧知’与‘重构范式’。该概念包含‘知识衰变’监测（通过残差分析标记失效节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 319
+  }
+}

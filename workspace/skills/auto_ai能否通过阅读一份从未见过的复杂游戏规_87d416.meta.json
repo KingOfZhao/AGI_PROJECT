@@ -1,0 +1,30 @@
+{
+  "name": "auto_ai能否通过阅读一份从未见过的复杂游戏规_87d416",
+  "file": "skills/auto_ai能否通过阅读一份从未见过的复杂游戏规_87d416.py",
+  "description": "AI能否通过阅读一份从未见过的复杂游戏规则说明书，直接生成该游戏的策略代码或决策树，并在模拟器中达到超越随机玩家的水平？这验证了将文本语义转化为可执行逻辑（语义 grounding）的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_9",
+    "game_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:23:18.122213",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_9_Q10_0_9057",
+  "design_spec": {
+    "name": "auto_ai能否通过阅读一份从未见过的复杂游戏规_87d416",
+    "display_name": "AI能否通过阅读一份从未见过的复杂游戏规则说明书，直接生成该游戏的策略代码或决策树，并在模拟器中达到",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "AI能否通过阅读一份从未见过的复杂游戏规则说明书，直接生成该游戏的策略代码或决策树，并在模拟器中达到超越随机玩家的水平？这验证了将文本语义转化为可执行逻辑（语义",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_解构主义语义操作台_ai不再受限_71e83e",
+  "file": "skills/auto_构建_解构主义语义操作台_ai不再受限_71e83e.py",
+  "description": "构建'解构主义语义操作台'。AI不再受限于Skill节点的'字面含义'（如'螺丝刀'只能'拧螺丝'），而是根据物理属性（硬质、尖锐、可旋转）重新定义技能的'功能性语义'。允许AI在紧急情况下，通过'原子重组'创造性地使用工具（例如用扳手作为锤子敲击），实现真正的跨域工具使用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.739912",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_87_O4_4991",
+  "design_spec": {
+    "name": "auto_构建_解构主义语义操作台_ai不再受限_71e83e",
+    "display_name": "构建'解构主义语义操作台'。AI不再受限于Skill节点的'字面含义'（如'螺丝刀'只能'拧螺丝'）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'解构主义语义操作台'。AI不再受限于Skill节点的'字面含义'（如'螺丝刀'只能'拧螺丝'），而是根据物理属性（硬质、尖锐、可旋转）重新定义技能的'功能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 287
+  }
+}

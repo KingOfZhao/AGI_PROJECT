@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_鲁棒的混合实体提取器_将编译原_7feefe",
+  "file": "skills/auto_融合能力_鲁棒的混合实体提取器_将编译原_7feefe.py",
+  "description": "融合能力：鲁棒的混合实体提取器。将编译原理中极高效率的有限自动机（DFA）与NLP的模糊识别能力结合。对于格式化实体（日期、金额、ID、化学式），使用编译器风格的DFA进行零误差、极低算力的提取；对于模糊实体（人名、地址），调用NLP模型。这种异构计算架构能将信息抽取的能效比提升一个数量级，特别适合端侧设备。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.357917",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_146_O5_6929",
+  "design_spec": {
+    "name": "auto_融合能力_鲁棒的混合实体提取器_将编译原_7feefe",
+    "display_name": "融合能力：鲁棒的混合实体提取器。将编译原理中极高效率的有限自动机（DFA）与NLP的模糊识别能力结合",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：鲁棒的混合实体提取器。将编译原理中极高效率的有限自动机（DFA）与NLP的模糊识别能力结合。对于格式化实体（日期、金额、ID、化学式），使用编译器风格",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

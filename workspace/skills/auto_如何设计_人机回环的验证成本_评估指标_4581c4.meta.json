@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_人机回环的验证成本_评估指标_4581c4",
+  "file": "skills/auto_如何设计_人机回环的验证成本_评估指标_4581c4.py",
+  "description": "如何设计'人机回环的验证成本'评估指标？'真实节点'需要实践证伪，但人类精力有限。系统应自动计算'验证紧迫度'：那些被AI频繁调用但置信度下降的节点，应优先推送给人类进行'自下而上'的校验。问题在于如何对验证任务进行分级（只需点选确认 vs 需要重写代码）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.544980",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_83_Q7_0_6296",
+  "design_spec": {
+    "name": "auto_如何设计_人机回环的验证成本_评估指标_4581c4",
+    "display_name": "如何设计'人机回环的验证成本'评估指标？'真实节点'需要实践证伪，但人类精力有限。系统应自动计算'验",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'人机回环的验证成本'评估指标？'真实节点'需要实践证伪，但人类精力有限。系统应自动计算'验证紧迫度'：那些被AI频繁调用但置信度下降的节点，应优先推送",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 317
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_自适应认知变焦透镜_针对复杂问题_121190",
+  "file": "skills/auto_构建_自适应认知变焦透镜_针对复杂问题_121190.py",
+  "description": "构建'自适应认知变焦透镜'。针对复杂问题（如气候变化、职业规划），AI能根据用户的认知负荷和情绪状态，自动调整信息的'粒度'。当用户焦虑时（过度下钻），AI自动上卷展示宏观意义以缓解焦虑；当用户空想时（过度上卷），AI强制下钻展示具体的执行困难或第一步行动。实现认知焦点的动态平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.936174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_48_O4_6993",
+  "design_spec": {
+    "name": "auto_构建_自适应认知变焦透镜_针对复杂问题_121190",
+    "display_name": "构建'自适应认知变焦透镜'。针对复杂问题（如气候变化、职业规划），AI能根据用户的认知负荷和情绪状态",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'自适应认知变焦透镜'。针对复杂问题（如气候变化、职业规划），AI能根据用户的认知负荷和情绪状态，自动调整信息的'粒度'。当用户焦虑时（过度下钻），AI自动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 215
+  }
+}

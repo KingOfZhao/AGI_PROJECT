@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_跨气候区的建筑零样本适应设计_利_8470ae",
+  "file": "skills/auto_实现_跨气候区的建筑零样本适应设计_利_8470ae.py",
+  "description": "实现'跨气候区的建筑零样本适应设计'。利用迁移学习原理，建立一个'通用建筑核心模型'。当输入特定气候数据（如迪拜的高温）时，AI自动生成特定的表皮参数（遮阳角度、材料热工性能），而无需重新设计内部功能逻辑。这能极大提升全球化设计公司的效率，并确保地域性适应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.524286",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_5_O4_7067",
+  "design_spec": {
+    "name": "auto_实现_跨气候区的建筑零样本适应设计_利_8470ae",
+    "display_name": "实现'跨气候区的建筑零样本适应设计'。利用迁移学习原理，建立一个'通用建筑核心模型'。当输入特定气候",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'跨气候区的建筑零样本适应设计'。利用迁移学习原理，建立一个'通用建筑核心模型'。当输入特定气候数据（如迪拜的高温）时，AI自动生成特定的表皮参数（遮阳角度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

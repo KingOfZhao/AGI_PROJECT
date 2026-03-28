@@ -1,0 +1,30 @@
+{
+  "name": "auto_借鉴cad_计算机辅助设计_领域的参数化_c311eb",
+  "file": "skills/auto_借鉴cad_计算机辅助设计_领域的参数化_c311eb.py",
+  "description": "借鉴CAD（计算机辅助设计）领域的参数化与特征历史逻辑，重构软件与交互设计的一种时空观框架。它将用户的操作流视为可回溯的‘特征树’，利用几何约束求解器处理复杂布局（而非简单的盒模型），并结合视口感知的LOD（细节层次）渲染来优化性能。这实际上是将软件UI从‘瞬时状态’转变为‘四维时空对象’，允许在时间轴上对任意历史节点进行结构化修改与证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.823588",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_25_P5_2530",
+  "design_spec": {
+    "name": "auto_借鉴cad_计算机辅助设计_领域的参数化_c311eb",
+    "display_name": "借鉴CAD（计算机辅助设计）领域的参数化与特征历史逻辑，重构软件与交互设计的一种时空观框架。它将用户",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "借鉴CAD（计算机辅助设计）领域的参数化与特征历史逻辑，重构软件与交互设计的一种时空观框架。它将用户的操作流视为可回溯的‘特征树’，利用几何约束求解器处理复杂布",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

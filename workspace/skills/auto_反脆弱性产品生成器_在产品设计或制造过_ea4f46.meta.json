@@ -1,0 +1,30 @@
+{
+  "name": "auto_反脆弱性产品生成器_在产品设计或制造过_ea4f46",
+  "file": "skills/auto_反脆弱性产品生成器_在产品设计或制造过_ea4f46.py",
+  "description": "【反脆弱性产品生成器】在产品设计或制造过程中，引入AI'魔鬼代言人'。当AI生成一个设计方案（如3D打印结构件）后，对抗网络自动生成极端的物理环境（如模拟共振点、应力集中点）进行'虚拟破坏'。只有通过这些'虚拟破坏测试'的参数组合才能固化为生产标准，从而用极低的成本复刻老匠人几十年经验积累的'避坑直觉'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.723895",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_99_O2_5472",
+  "design_spec": {
+    "name": "auto_反脆弱性产品生成器_在产品设计或制造过_ea4f46",
+    "display_name": "【反脆弱性产品生成器】在产品设计或制造过程中，引入AI'魔鬼代言人'。当AI生成一个设计方案（如3D",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【反脆弱性产品生成器】在产品设计或制造过程中，引入AI'魔鬼代言人'。当AI生成一个设计方案（如3D打印结构件）后，对抗网络自动生成极端的物理环境（如模拟共振点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

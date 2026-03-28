@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_自下而上归纳构建_的图拓扑验证_当_82966a",
+  "file": "skills/auto_针对_自下而上归纳构建_的图拓扑验证_当_82966a.py",
+  "description": "针对'自下而上归纳构建'的图拓扑验证：当代码或实验生成新的知识边时，如何实施'认知阻力'检测算法，量化新边与已有高置信度'真实节点'之间的语义冲突度？目标是在固化新节点前，自动标记出那些虽然逻辑自洽但与已有核心认知框架（如物理常识或核心伦理）相矛盾的潜在'幻觉节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:42:58.456603",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q2_1_1379",
+  "design_spec": {
+    "name": "auto_针对_自下而上归纳构建_的图拓扑验证_当_82966a",
+    "display_name": "针对'自下而上归纳构建'的图拓扑验证：当代码或实验生成新的知识边时，如何实施'认知阻力'检测算法，量",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'自下而上归纳构建'的图拓扑验证：当代码或实验生成新的知识边时，如何实施'认知阻力'检测算法，量化新边与已有高置信度'真实节点'之间的语义冲突度？目标是在固",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 265
+  }
+}

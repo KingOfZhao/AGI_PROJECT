@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发基于sim_to_real的域随机化_3d44a5",
+  "file": "skills/auto_开发基于sim_to_real的域随机化_3d44a5.py",
+  "description": "开发基于Sim-to-Real的域随机化适配器，自动计算虚拟物理参数与真实传感器流之间的残差。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_31",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:21:49.651171",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_31_G1_7091",
+  "design_spec": {
+    "name": "auto_开发基于sim_to_real的域随机化_3d44a5",
+    "display_name": "开发基于Sim-to-Real的域随机化适配器，自动计算虚拟物理参数与真实传感器流之间的残差。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发基于Sim-to-Real的域随机化适配器，自动计算虚拟物理参数与真实传感器流之间的残差。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 230
+  }
+}

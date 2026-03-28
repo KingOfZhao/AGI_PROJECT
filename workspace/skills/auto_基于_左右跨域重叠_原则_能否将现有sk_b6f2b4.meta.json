@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_左右跨域重叠_原则_能否将现有sk_b6f2b4",
+  "file": "skills/auto_基于_左右跨域重叠_原则_能否将现有sk_b6f2b4.py",
+  "description": "基于'左右跨域重叠'原则，能否将现有SKILL库中的'PID控制'(SKILL_088)与'手感调整'进行映射，构建一个'力觉-语义对齐模型'？即验证'稍微用点力'这类模糊语言是否对应特定的力矩标准差范围，从而将自然语言转化为可执行的物理参数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "hri",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.513607",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_5_Q3_0_9748",
+  "design_spec": {
+    "name": "auto_基于_左右跨域重叠_原则_能否将现有sk_b6f2b4",
+    "display_name": "基于'左右跨域重叠'原则，能否将现有SKILL库中的'PID控制'(SKILL_088)与'手感调整",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'左右跨域重叠'原则，能否将现有SKILL库中的'PID控制'(SKILL_088)与'手感调整'进行映射，构建一个'力觉-语义对齐模型'？即验证'稍微用点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

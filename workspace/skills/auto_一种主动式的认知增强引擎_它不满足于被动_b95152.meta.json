@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种主动式的认知增强引擎_它不满足于被动_b95152",
+  "file": "skills/auto_一种主动式的认知增强引擎_它不满足于被动_b95152.py",
+  "description": "一种主动式的认知增强引擎。它不满足于被动回答问题，而是利用算法在现有的数千个节点中寻找‘结构洞’（Structural Holes）——即那些在逻辑上应该存在但在知识库中缺失的节点。通过小样本抽象归纳和跨域类比（如将生物进化论映射到代码迭代），系统能够主动生成‘假设性节点’并请求人类验证，从而实现认知网络的自生长。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_112",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:03:11.519300",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_112_P5_3072",
+  "design_spec": {
+    "name": "auto_一种主动式的认知增强引擎_它不满足于被动_b95152",
+    "display_name": "一种主动式的认知增强引擎。它不满足于被动回答问题，而是利用算法在现有的数千个节点中寻找‘结构洞’（S",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种主动式的认知增强引擎。它不满足于被动回答问题，而是利用算法在现有的数千个节点中寻找‘结构洞’（Structural Holes）——即那些在逻辑上应该存在但",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 696
+  }
+}

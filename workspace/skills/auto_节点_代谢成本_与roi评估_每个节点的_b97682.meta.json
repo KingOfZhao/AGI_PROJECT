@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点_代谢成本_与roi评估_每个节点的_b97682",
+  "file": "skills/auto_节点_代谢成本_与roi评估_每个节点的_b97682.py",
+  "description": "节点'代谢成本'与ROI评估：每个节点的维护（存储、检索、计算）都有成本。如何建立公式计算节点的'投入产出比'（ROI = 解决问题的价值 / 维护成本）？对于那些极少被调用但体积巨大、检索耗时长的'僵尸胖节点'，应优先列入淘汰候选。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "economics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:28.927883",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q9_0_7480",
+  "design_spec": {
+    "name": "auto_节点_代谢成本_与roi评估_每个节点的_b97682",
+    "display_name": "节点'代谢成本'与ROI评估：每个节点的维护（存储、检索、计算）都有成本。如何建立公式计算节点的'投",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "节点'代谢成本'与ROI评估：每个节点的维护（存储、检索、计算）都有成本。如何建立公式计算节点的'投入产出比'（ROI = 解决问题的价值 / 维护成本）？对于",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

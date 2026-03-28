@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下的递归任务拆解与依赖管理_如何设_18d18c",
+  "file": "skills/auto_自上而下的递归任务拆解与依赖管理_如何设_18d18c.py",
+  "description": "自上而下的递归任务拆解与依赖管理：如何设计一个递归算法，能够将一个宏大的目标（如'构建一个电商网站'）自上而下地拆解为可执行的原子任务，并自动生成DAG（有向无环图）来管理任务间的依赖关系？关键在于确定何时停止拆解并调用现有Skill。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.239954",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q3_1_9079",
+  "design_spec": {
+    "name": "auto_自上而下的递归任务拆解与依赖管理_如何设_18d18c",
+    "display_name": "自上而下的递归任务拆解与依赖管理：如何设计一个递归算法，能够将一个宏大的目标（如'构建一个电商网站'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自上而下的递归任务拆解与依赖管理：如何设计一个递归算法，能够将一个宏大的目标（如'构建一个电商网站'）自上而下地拆解为可执行的原子任务，并自动生成DAG（有向无",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

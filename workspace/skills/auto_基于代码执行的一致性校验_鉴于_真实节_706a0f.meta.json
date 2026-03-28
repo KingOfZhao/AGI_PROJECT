@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于代码执行的一致性校验_鉴于_真实节_706a0f",
+  "file": "skills/auto_基于代码执行的一致性校验_鉴于_真实节_706a0f.py",
+  "description": "【基于代码执行的一致性校验】鉴于'真实节点'必须是可证伪的实践单元，新知识节点必须包含可执行接口。如何自动将一个自然语言描述的假设转化为一段可执行的Python脚本或Shell命令，并通过沙箱运行结果来验证其真伪？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "软件工程与形式化验证",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.332327",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_146_Q5_0_4260",
+  "design_spec": {
+    "name": "auto_基于代码执行的一致性校验_鉴于_真实节_706a0f",
+    "display_name": "【基于代码执行的一致性校验】鉴于'真实节点'必须是可证伪的实践单元，新知识节点必须包含可执行接口。如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于代码执行的一致性校验】鉴于'真实节点'必须是可证伪的实践单元，新知识节点必须包含可执行接口。如何自动将一个自然语言描述的假设转化为一段可执行的Python",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 332
+  }
+}

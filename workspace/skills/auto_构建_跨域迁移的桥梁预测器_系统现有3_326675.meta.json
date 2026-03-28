@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_跨域迁移的桥梁预测器_系统现有3_326675",
+  "file": "skills/auto_构建_跨域迁移的桥梁预测器_系统现有3_326675.py",
+  "description": "构建'跨域迁移的桥梁预测器'。系统现有3559个节点，如何计算两个看似无关的领域（如'烹饪'与'软件架构'）之间的'可迁移距离'？目标是预测哪些领域的技能节点最有可能通过'碰撞'在目标领域产生新的'真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.654868",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q7_2_9798",
+  "design_spec": {
+    "name": "auto_构建_跨域迁移的桥梁预测器_系统现有3_326675",
+    "display_name": "构建'跨域迁移的桥梁预测器'。系统现有3559个节点，如何计算两个看似无关的领域（如'烹饪'与'软件",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'跨域迁移的桥梁预测器'。系统现有3559个节点，如何计算两个看似无关的领域（如'烹饪'与'软件架构'）之间的'可迁移距离'？目标是预测哪些领域的技能节点最",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 252
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_长文本微技能提取_q5_0_880644",
+  "file": "skills/auto_结合_长文本微技能提取_q5_0_880644.py",
+  "description": "结合'长文本微技能提取'（Q5_0）、'工业经验标准化'（E1_9115）与'认知图谱压缩'（Q6_2）。专门用于处理非结构化数据（如老师傅的录音、混乱的代码库），从中提取出'反直觉结论'或'微技能'，并将其固化为一颗高密度的'知识晶体'节点，直接插入系统的技能图谱中供随时调用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.195199",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_42_E5_1524",
+  "design_spec": {
+    "name": "auto_结合_长文本微技能提取_q5_0_880644",
+    "display_name": "结合'长文本微技能提取'（Q5_0）、'工业经验标准化'（E1_9115）与'认知图谱压缩'（Q6_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'长文本微技能提取'（Q5_0）、'工业经验标准化'（E1_9115）与'认知图谱压缩'（Q6_2）。专门用于处理非结构化数据（如老师傅的录音、混乱的代码库",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

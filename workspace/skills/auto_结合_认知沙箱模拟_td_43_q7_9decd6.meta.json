@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_认知沙箱模拟_td_43_q7_9decd6",
+  "file": "skills/auto_结合_认知沙箱模拟_td_43_q7_9decd6.py",
+  "description": "结合'认知沙箱模拟'（td_43_Q7_3_4775）、'对抗性防御'（bu_43_P3_939）和'多模态冲突检测'（td_43_Q9_1_9242）。系统能在虚拟环境中通过红队攻击自动发现潜在故障点，利用多模态数据交叉验证，并在物理故障发生前自动生成修复补丁或调整参数，实现'未病先治'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.333080",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_45_E1_9068",
+  "design_spec": {
+    "name": "auto_结合_认知沙箱模拟_td_43_q7_9decd6",
+    "display_name": "结合'认知沙箱模拟'（td_43_Q7_3_4775）、'对抗性防御'（bu_43_P3_939）和",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'认知沙箱模拟'（td_43_Q7_3_4775）、'对抗性防御'（bu_43_P3_939）和'多模态冲突检测'（td_43_Q9_1_9242）。系统能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 517
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_即时演进的数字孪生交互平台_开发一个fl_95caac",
+  "file": "skills/auto_即时演进的数字孪生交互平台_开发一个fl_95caac.py",
+  "description": "即时演进的数字孪生交互平台。开发一个Flutter应用，作为工业设备的'热重载'控制台。工程师可以在设备运行中（State保持），实时调整控制算法或3D可视化模型（Code/UI变更），并通过无线协议（MQTT/OPC UA）将新的配置参数'注入'物理设备，观察设备的即时反馈。这实现了物理世界的'Runtime Debugging'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.398250",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_128_O5_3487",
+  "design_spec": {
+    "name": "auto_即时演进的数字孪生交互平台_开发一个fl_95caac",
+    "display_name": "即时演进的数字孪生交互平台。开发一个Flutter应用，作为工业设备的'热重载'控制台。工程师可以在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "即时演进的数字孪生交互平台。开发一个Flutter应用，作为工业设备的'热重载'控制台。工程师可以在设备运行中（State保持），实时调整控制算法或3D可视化模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

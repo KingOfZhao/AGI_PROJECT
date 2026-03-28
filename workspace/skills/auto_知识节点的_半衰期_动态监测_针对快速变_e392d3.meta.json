@@ -1,0 +1,30 @@
+{
+  "name": "auto_知识节点的_半衰期_动态监测_针对快速变_e392d3",
+  "file": "skills/auto_知识节点的_半衰期_动态监测_针对快速变_e392d3.py",
+  "description": "知识节点的'半衰期'动态监测：针对快速变化的领域（如AI工具使用），如何基于外部数据源（如GitHub commits, Arxiv papers）自动计算节点的'过时速率'？验证是否可以通过监测相关关键词的语义漂移速度来预测节点失效。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "data_mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.407274",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q6_0_8080",
+  "design_spec": {
+    "name": "auto_知识节点的_半衰期_动态监测_针对快速变_e392d3",
+    "display_name": "知识节点的'半衰期'动态监测：针对快速变化的领域（如AI工具使用），如何基于外部数据源（如GitHu",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "知识节点的'半衰期'动态监测：针对快速变化的领域（如AI工具使用），如何基于外部数据源（如GitHub commits, Arxiv papers）自动计算节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 223
+  }
+}

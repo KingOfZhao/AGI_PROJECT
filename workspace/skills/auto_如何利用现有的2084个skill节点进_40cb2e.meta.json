@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何利用现有的2084个skill节点进_40cb2e",
+  "file": "skills/auto_如何利用现有的2084个skill节点进_40cb2e.py",
+  "description": "如何利用现有的2084个SKILL节点进行'组合式生成'，而非从零生成代码？这要求系统能够识别意图中的子模式，并直接映射到已有的Skill节点ID上，通过‘胶水代码’连接它们。这是提升效率和人机共生稳定性的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "agi/knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.560669",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_126_Q9_1_2725",
+  "design_spec": {
+    "name": "auto_如何利用现有的2084个skill节点进_40cb2e",
+    "display_name": "如何利用现有的2084个SKILL节点进行'组合式生成'，而非从零生成代码？这要求系统能够识别意图中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何利用现有的2084个SKILL节点进行'组合式生成'，而非从零生成代码？这要求系统能够识别意图中的子模式，并直接映射到已有的Skill节点ID上，通过‘胶水",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

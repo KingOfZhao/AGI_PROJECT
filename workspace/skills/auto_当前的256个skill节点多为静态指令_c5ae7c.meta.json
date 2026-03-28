@@ -1,0 +1,30 @@
+{
+  "name": "auto_当前的256个skill节点多为静态指令_c5ae7c",
+  "file": "skills/auto_当前的256个skill节点多为静态指令_c5ae7c.py",
+  "description": "当前的256个SKILL节点多为静态指令。如何将其升级为具备'环境自适应'能力的动态Skill？即同一个Skill节点（如'抓取'），能够根据目标物体的重量、摩擦系数自动调整内部子节点的权重，实现'一态多形'的柔性执行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.345753",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_8_Q6_1_7173",
+  "design_spec": {
+    "name": "auto_当前的256个skill节点多为静态指令_c5ae7c",
+    "display_name": "当前的256个SKILL节点多为静态指令。如何将其升级为具备'环境自适应'能力的动态Skill？即同",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "当前的256个SKILL节点多为静态指令。如何将其升级为具备'环境自适应'能力的动态Skill？即同一个Skill节点（如'抓取'），能够根据目标物体的重量、摩",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

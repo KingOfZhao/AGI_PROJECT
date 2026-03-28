@@ -1,0 +1,30 @@
+{
+  "name": "auto_沉浸式氛围生成与导航系统_该能力允许设计_7244ca",
+  "file": "skills/auto_沉浸式氛围生成与导航系统_该能力允许设计_7244ca.py",
+  "description": "沉浸式氛围生成与导航系统。该能力允许设计师像操作GAN生成人脸一样操作建筑空间。通过在'氛围潜空间'中移动光标（如从'压抑'滑向'开阔'），AI自动生成对应的建筑剖面、开窗比例和材质纹理。更进一步，可以将城市视为潜空间，通过强化学习Agent探索城市物理环境，寻找符合特定心理预期的'最佳场所节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_136",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:13:09.843847",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_136_O3_8265",
+  "design_spec": {
+    "name": "auto_沉浸式氛围生成与导航系统_该能力允许设计_7244ca",
+    "display_name": "沉浸式氛围生成与导航系统。该能力允许设计师像操作GAN生成人脸一样操作建筑空间。通过在'氛围潜空间'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "沉浸式氛围生成与导航系统。该能力允许设计师像操作GAN生成人脸一样操作建筑空间。通过在'氛围潜空间'中移动光标（如从'压抑'滑向'开阔'），AI自动生成对应的建",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

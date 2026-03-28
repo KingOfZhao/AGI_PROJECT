@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域重叠的冲突消解_当源域a的规则_68c482",
+  "file": "skills/auto_左右跨域重叠的冲突消解_当源域a的规则_68c482.py",
+  "description": "【左右跨域重叠的冲突消解】当源域A的规则与目标域B的固有规则发生逻辑冲突时（例如：生物界的‘利他主义’迁移至‘自由市场竞争’），如何计算‘认知冲突值’并自动生成融合解？这要求系统能够识别冲突是发生在‘目标层’还是‘手段层’，并进行分层映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.781626",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q6_3_5248",
+  "design_spec": {
+    "name": "auto_左右跨域重叠的冲突消解_当源域a的规则_68c482",
+    "display_name": "【左右跨域重叠的冲突消解】当源域A的规则与目标域B的固有规则发生逻辑冲突时（例如：生物界的‘利他主义",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域重叠的冲突消解】当源域A的规则与目标域B的固有规则发生逻辑冲突时（例如：生物界的‘利他主义’迁移至‘自由市场竞争’），如何计算‘认知冲突值’并自动生成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

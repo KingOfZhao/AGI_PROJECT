@@ -1,0 +1,30 @@
+{
+  "name": "auto_知识半衰期与_新陈代谢_淘汰率优化_如何_4e568f",
+  "file": "skills/auto_知识半衰期与_新陈代谢_淘汰率优化_如何_4e568f.py",
+  "description": "知识半衰期与'新陈代谢'淘汰率优化：如何根据领域的稳定性（如医学vs编程）为每个节点设定动态的半衰期参数？需建立一个衰减函数，若节点在特定周期内未经过'人机共生'的交互验证，其置信度自动衰减，直至触发归档或删除流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "system_dynamics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.300328",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q5_2_4309",
+  "design_spec": {
+    "name": "auto_知识半衰期与_新陈代谢_淘汰率优化_如何_4e568f",
+    "display_name": "知识半衰期与'新陈代谢'淘汰率优化：如何根据领域的稳定性（如医学vs编程）为每个节点设定动态的半衰期",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "知识半衰期与'新陈代谢'淘汰率优化：如何根据领域的稳定性（如医学vs编程）为每个节点设定动态的半衰期参数？需建立一个衰减函数，若节点在特定周期内未经过'人机共生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

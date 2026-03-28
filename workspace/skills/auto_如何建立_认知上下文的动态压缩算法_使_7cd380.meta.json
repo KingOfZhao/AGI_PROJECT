@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立_认知上下文的动态压缩算法_使_7cd380",
+  "file": "skills/auto_如何建立_认知上下文的动态压缩算法_使_7cd380.py",
+  "description": "如何建立‘认知上下文的动态压缩算法’，使得在长程代码生成过程中，能够根据当前任务焦点（如正在编写数据库Schema），从2175个已有节点中动态检索并注入最相关的Top-K个‘真实节点’（如SQL最佳实践、ORM映射规则），以解决上下文窗口限制并提升代码一致性？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.376463",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q2_3_4566",
+  "design_spec": {
+    "name": "auto_如何建立_认知上下文的动态压缩算法_使_7cd380",
+    "display_name": "如何建立‘认知上下文的动态压缩算法’，使得在长程代码生成过程中，能够根据当前任务焦点（如正在编写数据",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立‘认知上下文的动态压缩算法’，使得在长程代码生成过程中，能够根据当前任务焦点（如正在编写数据库Schema），从2175个已有节点中动态检索并注入最相关",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

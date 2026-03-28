@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过人机共生机制实现意图的结构化固化_e5b2fe",
+  "file": "skills/auto_如何通过人机共生机制实现意图的结构化固化_e5b2fe.py",
+  "description": "如何通过人机共生机制实现意图的结构化固化？即AI生成基于‘真实节点’（已验证代码片段）的组合方案，人类仅需进行二元（是/否）或选择式反馈，系统根据反馈实时调整后端概率模型的权重。关键在于将人类的每一次修正视为一次‘实践证伪’，从而反向修正意图向量，而非仅仅修正代码本身。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.241293",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q2_3_4241",
+  "design_spec": {
+    "name": "auto_如何通过人机共生机制实现意图的结构化固化_e5b2fe",
+    "display_name": "如何通过人机共生机制实现意图的结构化固化？即AI生成基于‘真实节点’（已验证代码片段）的组合方案，人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过人机共生机制实现意图的结构化固化？即AI生成基于‘真实节点’（已验证代码片段）的组合方案，人类仅需进行二元（是/否）或选择式反馈，系统根据反馈实时调整后",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 248
+  }
+}

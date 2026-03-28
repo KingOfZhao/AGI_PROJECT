@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域重叠抽象_ai能否识别出_生物进化_ec388e",
+  "file": "skills/auto_跨域重叠抽象_ai能否识别出_生物进化_ec388e.py",
+  "description": "【跨域重叠抽象】AI能否识别出‘生物进化中的基因突变’与‘软件工程中的技术债累积’这两个截然不同领域节点之间的同构性，并生成一个抽象的‘系统熵增模型’来统一解释这两种现象？这是验证AGI是否具备通用智能的核心特征。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "cross_domain_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.666520",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_121_Q6_2_8898",
+  "design_spec": {
+    "name": "auto_跨域重叠抽象_ai能否识别出_生物进化_ec388e",
+    "display_name": "【跨域重叠抽象】AI能否识别出‘生物进化中的基因突变’与‘软件工程中的技术债累积’这两个截然不同领域",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域重叠抽象】AI能否识别出‘生物进化中的基因突变’与‘软件工程中的技术债累积’这两个截然不同领域节点之间的同构性，并生成一个抽象的‘系统熵增模型’来统一解释",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 231
+  }
+}

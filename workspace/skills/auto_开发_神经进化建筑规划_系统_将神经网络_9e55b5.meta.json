@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_神经进化建筑规划_系统_将神经网络_9e55b5",
+  "file": "skills/auto_开发_神经进化建筑规划_系统_将神经网络_9e55b5.py",
+  "description": "开发'神经进化建筑规划'系统。将神经网络架构搜索（NAS）视为建筑设计问题。引入建筑策划中的功能分区逻辑，在构建网络时强制实行'功能分区'（例如：浅层处理纹理/材质，深层处理结构/功能）。利用建筑规范检查代码来约束架构生成，确保生成的网络结构符合'结构力学'（计算图的可导通性），避免结构性坍塌（NaN）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_84",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:20:23.830383",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_84_O2_6020",
+  "design_spec": {
+    "name": "auto_开发_神经进化建筑规划_系统_将神经网络_9e55b5",
+    "display_name": "开发'神经进化建筑规划'系统。将神经网络架构搜索（NAS）视为建筑设计问题。引入建筑策划中的功能分区",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'神经进化建筑规划'系统。将神经网络架构搜索（NAS）视为建筑设计问题。引入建筑策划中的功能分区逻辑，在构建网络时强制实行'功能分区'（例如：浅层处理纹理/",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

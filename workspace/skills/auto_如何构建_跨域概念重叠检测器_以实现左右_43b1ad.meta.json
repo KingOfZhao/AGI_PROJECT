@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_跨域概念重叠检测器_以实现左右_43b1ad",
+  "file": "skills/auto_如何构建_跨域概念重叠检测器_以实现左右_43b1ad.py",
+  "description": "如何构建‘跨域概念重叠检测器’以实现左右维度的碰撞？给定两个来自完全不同领域的节点（例如‘生物免疫系统’与‘计算机网络防火墙’），AI需要能够量化它们在结构、功能、演化路径上的‘重叠度’，并提出具体的‘类比假设’供人类证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.514351",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_147_Q4_0_2541",
+  "design_spec": {
+    "name": "auto_如何构建_跨域概念重叠检测器_以实现左右_43b1ad",
+    "display_name": "如何构建‘跨域概念重叠检测器’以实现左右维度的碰撞？给定两个来自完全不同领域的节点（例如‘生物免疫系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建‘跨域概念重叠检测器’以实现左右维度的碰撞？给定两个来自完全不同领域的节点（例如‘生物免疫系统’与‘计算机网络防火墙’），AI需要能够量化它们在结构、功",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

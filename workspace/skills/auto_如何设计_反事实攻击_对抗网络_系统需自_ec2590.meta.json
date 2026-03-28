@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_反事实攻击_对抗网络_系统需自_ec2590",
+  "file": "skills/auto_如何设计_反事实攻击_对抗网络_系统需自_ec2590.py",
+  "description": "如何设计'反事实攻击'对抗网络？系统需自动生成针对当前结论的'反事实'场景（即'如果X发生，结论Y是否依然成立？'），并模拟推演结果。若反事实推演导致逻辑崩溃，则原结论不可靠。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "robust_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.555550",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q5_1_7462",
+  "design_spec": {
+    "name": "auto_如何设计_反事实攻击_对抗网络_系统需自_ec2590",
+    "display_name": "如何设计'反事实攻击'对抗网络？系统需自动生成针对当前结论的'反事实'场景（即'如果X发生，结论Y是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'反事实攻击'对抗网络？系统需自动生成针对当前结论的'反事实'场景（即'如果X发生，结论Y是否依然成立？'），并模拟推演结果。若反事实推演导致逻辑崩溃，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

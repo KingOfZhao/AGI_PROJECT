@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于潜在空间理论的_生成式城市功能分区系_ea6cfb",
+  "file": "skills/auto_基于潜在空间理论的_生成式城市功能分区系_ea6cfb.py",
+  "description": "基于潜在空间理论的'生成式城市功能分区系统'。该能力利用VAE或扩散模型学习城市空间结构与功能分布的流形。当输入一个新的城市地块或建筑需求时，AI不再基于简单规则，而是在'功能流形'上进行向量运算（类似于Word2Vec中的King-Man+Woman=Queen），实现'高密度住宅区 - 拥挤属性 + 商业属性 = 综合体原型'。这允许设计师在数学上探索从未存在过的空间功能拓扑，打破人类经验的线性局限。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.121935",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_101_O1_844",
+  "design_spec": {
+    "name": "auto_基于潜在空间理论的_生成式城市功能分区系_ea6cfb",
+    "display_name": "基于潜在空间理论的'生成式城市功能分区系统'。该能力利用VAE或扩散模型学习城市空间结构与功能分布的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于潜在空间理论的'生成式城市功能分区系统'。该能力利用VAE或扩散模型学习城市空间结构与功能分布的流形。当输入一个新的城市地块或建筑需求时，AI不再基于简单规",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 341
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_该协议定义了_人类修正_如何转化为_ai_d49b75",
+  "file": "skills/auto_该协议定义了_人类修正_如何转化为_ai_d49b75.py",
+  "description": "该协议定义了'人类修正'如何转化为'AI永久能力'的标准路径。它不仅仅是记录，而是包含了一套完整的消化流程：首先通过异常检测捕捉'证伪'信号，量化反馈权重以调整节点置信度；接着分析反馈延迟对归因的影响；最后将修正后的逻辑'结晶'为新的真实节点或更新现有SKILL。它解决了'人机共生'中反馈容易丢失或失真的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.418056",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_63_P3_1081",
+  "design_spec": {
+    "name": "auto_该协议定义了_人类修正_如何转化为_ai_d49b75",
+    "display_name": "该协议定义了'人类修正'如何转化为'AI永久能力'的标准路径。它不仅仅是记录，而是包含了一套完整的消",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该协议定义了'人类修正'如何转化为'AI永久能力'的标准路径。它不仅仅是记录，而是包含了一套完整的消化流程：首先通过异常检测捕捉'证伪'信号，量化反馈权重以调整",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

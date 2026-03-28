@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能量化编译器_开发一种基于llm的_33fa78",
+  "file": "skills/auto_技能量化编译器_开发一种基于llm的_33fa78.py",
+  "description": "【技能量化编译器】：开发一种基于LLM的‘意图-参数’对齐引擎。不仅解析用户指令，更能将人类专家（如厨师、工匠）的模糊经验语言实时编译为机器可执行的精确指令代码或参数配置。该能力允许AI通过观察人类模糊的操作演示，自动生成严格的执行脚本，大大降低人机协作的门槛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.126541",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_101_O1_9057",
+  "design_spec": {
+    "name": "auto_技能量化编译器_开发一种基于llm的_33fa78",
+    "display_name": "【技能量化编译器】：开发一种基于LLM的‘意图-参数’对齐引擎。不仅解析用户指令，更能将人类专家（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【技能量化编译器】：开发一种基于LLM的‘意图-参数’对齐引擎。不仅解析用户指令，更能将人类专家（如厨师、工匠）的模糊经验语言实时编译为机器可执行的精确指令代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 536
+  }
+}

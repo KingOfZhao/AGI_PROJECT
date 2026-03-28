@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念旨在将人类专家无法言传的_肌肉记忆_c92968",
+  "file": "skills/auto_该概念旨在将人类专家无法言传的_肌肉记忆_c92968.py",
+  "description": "该概念旨在将人类专家无法言传的'肌肉记忆'和'直觉'转化为机器可计算的模型。它不仅仅依赖视觉，而是融合了视觉（分层时空分解）、听觉（多模态对齐）和生理信号（EMG肌电），构建一个多维度的'生理状态-动作质量'关联模型。通过'概念蒸馏'，将这些高维数据压缩为自然语言'口诀'，实现隐性知识在碳基与硅基生命间的无损传递与复现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:39.751001",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_43_P2_7368",
+  "design_spec": {
+    "name": "auto_该概念旨在将人类专家无法言传的_肌肉记忆_c92968",
+    "display_name": "该概念旨在将人类专家无法言传的'肌肉记忆'和'直觉'转化为机器可计算的模型。它不仅仅依赖视觉，而是融",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念旨在将人类专家无法言传的'肌肉记忆'和'直觉'转化为机器可计算的模型。它不仅仅依赖视觉，而是融合了视觉（分层时空分解）、听觉（多模态对齐）和生理信号（EM",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

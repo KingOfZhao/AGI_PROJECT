@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_live_boolean_canv_2d3bea",
+  "file": "skills/auto_构建_live_boolean_canv_2d3bea.py",
+  "description": "构建'Live-Boolean-Canvas'（实时布尔绘图画布）。在Flutter中实现一个支持实时布尔运算的2D绘图引擎。设计师绘制的笔触不再仅仅是像素路径，而是带有逻辑的'图元'。用户可以在手机端直接对绘制的矢量图形进行'打孔'（差集）、'融合'（并集）等CAD级操作，并实时预览。这对于时尚设计、纹身图案生成等需要复杂轮廓处理的App具有颠覆性意义。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.705070",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O3_2349",
+  "design_spec": {
+    "name": "auto_构建_live_boolean_canv_2d3bea",
+    "display_name": "构建'Live-Boolean-Canvas'（实时布尔绘图画布）。在Flutter中实现一个支持实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'Live-Boolean-Canvas'（实时布尔绘图画布）。在Flutter中实现一个支持实时布尔运算的2D绘图引擎。设计师绘制的笔触不再仅仅是像素路径",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_将_动作序列_转化为_可复用的程序化节点_3e6860",
+  "file": "skills/auto_将_动作序列_转化为_可复用的程序化节点_3e6860.py",
+  "description": "将‘动作序列’转化为‘可复用的程序化节点’。如何从大量非结构化的操作视频中提取关键帧，并自动生成参数化的技能树节点（Skill Node）？例如，将‘拉坯’这一模糊过程固化为一组包含力度、速度、湿润度参数的API。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.311758",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q8_0_6710",
+  "design_spec": {
+    "name": "auto_将_动作序列_转化为_可复用的程序化节点_3e6860",
+    "display_name": "将‘动作序列’转化为‘可复用的程序化节点’。如何从大量非结构化的操作视频中提取关键帧，并自动生成参数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将‘动作序列’转化为‘可复用的程序化节点’。如何从大量非结构化的操作视频中提取关键帧，并自动生成参数化的技能树节点（Skill Node）？例如，将‘拉坯’这一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_hyper_cad_动态几何界面_70b354",
+  "file": "skills/auto_构建_hyper_cad_动态几何界面_70b354.py",
+  "description": "构建‘Hyper-CAD’动态几何界面。利用Flutter的Diff算法和状态管理，驱动CAD内核的实时布尔运算。当用户在UI层修改参数时，不仅重绘界面，更直接触发CSG树的拓扑结构更新。这允许非专业用户通过拖拽Flutter组件（如‘差集组件’、‘拉伸组件’）来构建复杂机械零件，实现‘UI即模型’的极低门槛CAD体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.882071",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O1_6098",
+  "design_spec": {
+    "name": "auto_构建_hyper_cad_动态几何界面_70b354",
+    "display_name": "构建‘Hyper-CAD’动态几何界面。利用Flutter的Diff算法和状态管理，驱动CAD内核的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘Hyper-CAD’动态几何界面。利用Flutter的Diff算法和状态管理，驱动CAD内核的实时布尔运算。当用户在UI层修改参数时，不仅重绘界面，更直接",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 282
+  }
+}

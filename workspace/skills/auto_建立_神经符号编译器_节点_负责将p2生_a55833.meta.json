@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_神经符号编译器_节点_负责将p2生_a55833",
+  "file": "skills/auto_建立_神经符号编译器_节点_负责将p2生_a55833.py",
+  "description": "建立'神经符号编译器'节点，负责将P2生成的IR结构直接编译为可执行的Python/Lua脚本，并在隔离沙箱中运行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.808998",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_61_G2_6973",
+  "design_spec": {
+    "name": "auto_建立_神经符号编译器_节点_负责将p2生_a55833",
+    "display_name": "建立'神经符号编译器'节点，负责将P2生成的IR结构直接编译为可执行的Python/Lua脚本，并在",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'神经符号编译器'节点，负责将P2生成的IR结构直接编译为可执行的Python/Lua脚本，并在隔离沙箱中运行。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

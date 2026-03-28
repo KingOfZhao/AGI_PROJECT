@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_模糊意图交互层_ho_26_o4_70bbd2",
+  "file": "skills/auto_融合_模糊意图交互层_ho_26_o4_70bbd2.py",
+  "description": "融合'模糊意图交互层'（ho_26_O4_3125）与'参数化CAD逻辑'（bu_25_P5_2530）。用户只需在屏幕上通过手势圈定大致范围（模糊意图），系统结合上下文预测意图，并自动调用几何约束求解器，将模糊意图转化为精确的工程参数（如自动对齐、自动布线），极大降低专业软件的使用门槛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.739495",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_27_E2_2914",
+  "design_spec": {
+    "name": "auto_融合_模糊意图交互层_ho_26_o4_70bbd2",
+    "display_name": "融合'模糊意图交互层'（ho_26_O4_3125）与'参数化CAD逻辑'（bu_25_P5_253",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'模糊意图交互层'（ho_26_O4_3125）与'参数化CAD逻辑'（bu_25_P5_2530）。用户只需在屏幕上通过手势圈定大致范围（模糊意图），系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

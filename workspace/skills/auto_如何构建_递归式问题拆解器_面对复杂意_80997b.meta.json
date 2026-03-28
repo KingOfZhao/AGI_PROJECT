@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_递归式问题拆解器_面对复杂意_80997b",
+  "file": "skills/auto_如何构建_递归式问题拆解器_面对复杂意_80997b.py",
+  "description": "如何构建“递归式问题拆解器”？面对复杂意图（如“构建一个电商网站”），系统需将其拆解为多层级的子问题树，直到每个叶子节点都对应一个现有的SKILL或可原子化的编码任务。难点在于控制拆解的粒度，避免过度碎片化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "automated_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.744907",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_141_Q7_1_693",
+  "design_spec": {
+    "name": "auto_如何构建_递归式问题拆解器_面对复杂意_80997b",
+    "display_name": "如何构建“递归式问题拆解器”？面对复杂意图（如“构建一个电商网站”），系统需将其拆解为多层级的子问题",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建“递归式问题拆解器”？面对复杂意图（如“构建一个电商网站”），系统需将其拆解为多层级的子问题树，直到每个叶子节点都对应一个现有的SKILL或可原子化的编",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

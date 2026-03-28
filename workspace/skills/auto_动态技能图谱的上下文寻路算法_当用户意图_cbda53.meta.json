@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态技能图谱的上下文寻路算法_当用户意图_cbda53",
+  "file": "skills/auto_动态技能图谱的上下文寻路算法_当用户意图_cbda53.py",
+  "description": "动态技能图谱的上下文寻路算法：当用户意图涉及多个步骤时，AI需要从现有的1775个技能节点中规划出一条执行路径。此问题聚焦于如何在巨大的组合空间中，根据当前语境动态检索并组装最相关的技能节点序列，而非遍历所有可能性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.626314",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_106_Q2_1_5552",
+  "design_spec": {
+    "name": "auto_动态技能图谱的上下文寻路算法_当用户意图_cbda53",
+    "display_name": "动态技能图谱的上下文寻路算法：当用户意图涉及多个步骤时，AI需要从现有的1775个技能节点中规划出一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态技能图谱的上下文寻路算法：当用户意图涉及多个步骤时，AI需要从现有的1775个技能节点中规划出一条执行路径。此问题聚焦于如何在巨大的组合空间中，根据当前语境",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

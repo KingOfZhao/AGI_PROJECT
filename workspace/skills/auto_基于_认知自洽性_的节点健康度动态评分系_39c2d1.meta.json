@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_认知自洽性_的节点健康度动态评分系_39c2d1",
+  "file": "skills/auto_基于_认知自洽性_的节点健康度动态评分系_39c2d1.py",
+  "description": "基于'认知自洽性'的节点健康度动态评分系统：真实节点需经实践验证。如何设计一个随时间衰减且受环境参数影响的动态评分函数，用于评估现有2380个技能节点的'存活状态'？例如，某个摆摊技能在社区封锁环境下不再'自洽'。系统需实时监测并降权不再有效的节点，防止错误推导。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "dynamic_systems",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.421880",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_142_Q5_0_7340",
+  "design_spec": {
+    "name": "auto_基于_认知自洽性_的节点健康度动态评分系_39c2d1",
+    "display_name": "基于'认知自洽性'的节点健康度动态评分系统：真实节点需经实践验证。如何设计一个随时间衰减且受环境参数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'认知自洽性'的节点健康度动态评分系统：真实节点需经实践验证。如何设计一个随时间衰减且受环境参数影响的动态评分函数，用于评估现有2380个技能节点的'存活状",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

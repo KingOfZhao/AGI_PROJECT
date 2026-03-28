@@ -6,6 +6,15 @@ Claude代码实现能力 → 认知格proven节点注入
 每个节点都是实际编程中可以直接应用的真实知识。
 节点之间建立真实关系，形成可被本地模型复用的能力网络。
 """
+
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
 import sys, sqlite3, json
 from pathlib import Path
 

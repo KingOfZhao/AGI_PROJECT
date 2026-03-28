@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_人类反馈的稀疏性奖赏归因_在_5a0ecb",
+  "file": "skills/auto_人机共生_人类反馈的稀疏性奖赏归因_在_5a0ecb.py",
+  "description": "【人机共生】人类反馈的稀疏性奖赏归因：在'AI梳理清单→人类实践'的闭环中，人类往往只给出'成/败'的二元反馈，极少提供详细因果。本问题要求实现一个反事实推理模块，能根据最终结果自动反推具体哪个SKILL节点或节点组合导致了成功/失败，从而实现精准的权重更新。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.697907",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_27_Q3_3_938",
+  "design_spec": {
+    "name": "auto_人机共生_人类反馈的稀疏性奖赏归因_在_5a0ecb",
+    "display_name": "【人机共生】人类反馈的稀疏性奖赏归因：在'AI梳理清单→人类实践'的闭环中，人类往往只给出'成/败'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】人类反馈的稀疏性奖赏归因：在'AI梳理清单→人类实践'的闭环中，人类往往只给出'成/败'的二元反馈，极少提供详细因果。本问题要求实现一个反事实推理模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 236
+  }
+}

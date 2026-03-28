@@ -1,0 +1,30 @@
+{
+  "name": "auto_因果链路检索_超越传统的向量相似度搜索_655ec2",
+  "file": "skills/auto_因果链路检索_超越传统的向量相似度搜索_655ec2.py",
+  "description": "【因果链路检索】超越传统的向量相似度搜索，开发基于‘解释力’的检索算法。当用户查询一个现象时，AI不返回最相似的Q&A，而是返回一条能够连接用户现状与目标状态的‘最小作用力路径’。这能解决RAG（检索增强生成）碎片化的问题，提供具有深度逻辑关联的解决方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.856627",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_115_O3_1641",
+  "design_spec": {
+    "name": "auto_因果链路检索_超越传统的向量相似度搜索_655ec2",
+    "display_name": "【因果链路检索】超越传统的向量相似度搜索，开发基于‘解释力’的检索算法。当用户查询一个现象时，AI不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【因果链路检索】超越传统的向量相似度搜索，开发基于‘解释力’的检索算法。当用户查询一个现象时，AI不返回最相似的Q&A，而是返回一条能够连接用户现状与目标状态的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 481
+  }
+}

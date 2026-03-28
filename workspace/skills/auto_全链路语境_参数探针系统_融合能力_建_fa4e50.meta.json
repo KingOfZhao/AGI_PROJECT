@@ -1,0 +1,30 @@
+{
+  "name": "auto_全链路语境_参数探针系统_融合能力_建_fa4e50",
+  "file": "skills/auto_全链路语境_参数探针系统_融合能力_建_fa4e50.py",
+  "description": "【全链路语境-参数探针系统】融合能力：建立一个动态的'变量引用解析图'，它不仅追踪对话中的'它'指代什么对象（CS能力），还追踪该对象在代码执行流中的'隐含状态约束'（SE能力）。当AI生成代码操作'它'（如一个文件对象）时，系统会自动检索该对象在之前对话中被赋予的'隐含属性'（如'这是临时文件'、'不要删除源'），并将这些属性转化为代码中的'参数守卫'（Parameter Guards）。例如，检测到'它'指代'前10行数据'，系统会自动在代码中注入`head(10)`限制，并在后续修改中防止越界，实现语义到语法的强制锚定。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.465353",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_78_O2_1115",
+  "design_spec": {
+    "name": "auto_全链路语境_参数探针系统_融合能力_建_fa4e50",
+    "display_name": "【全链路语境-参数探针系统】融合能力：建立一个动态的'变量引用解析图'，它不仅追踪对话中的'它'指代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【全链路语境-参数探针系统】融合能力：建立一个动态的'变量引用解析图'，它不仅追踪对话中的'它'指代什么对象（CS能力），还追踪该对象在代码执行流中的'隐含状态",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

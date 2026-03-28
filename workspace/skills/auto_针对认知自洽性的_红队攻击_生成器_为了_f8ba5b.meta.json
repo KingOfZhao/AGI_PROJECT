@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对认知自洽性的_红队攻击_生成器_为了_f8ba5b",
+  "file": "skills/auto_针对认知自洽性的_红队攻击_生成器_为了_f8ba5b.py",
+  "description": "针对认知自洽性的'红队攻击'生成器：为了实现'自上而下拆解证伪'，AI需要具备自动生成'反证测试用例'的能力。给定一个已固化的真实节点（如'某营销策略有效'），AI如何自动生成极端环境参数或对抗性场景，以测试该节点的鲁棒性和边界条件，从而主动触发'证伪'过程？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "reinforcement_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:53.875397",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_49_Q5_2_1985",
+  "design_spec": {
+    "name": "auto_针对认知自洽性的_红队攻击_生成器_为了_f8ba5b",
+    "display_name": "针对认知自洽性的'红队攻击'生成器：为了实现'自上而下拆解证伪'，AI需要具备自动生成'反证测试用例",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对认知自洽性的'红队攻击'生成器：为了实现'自上而下拆解证伪'，AI需要具备自动生成'反证测试用例'的能力。给定一个已固化的真实节点（如'某营销策略有效'），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

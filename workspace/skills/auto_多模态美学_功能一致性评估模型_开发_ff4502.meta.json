@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态美学_功能一致性评估模型_开发_ff4502",
+  "file": "skills/auto_多模态美学_功能一致性评估模型_开发_ff4502.py",
+  "description": "【多模态美学-功能一致性评估模型】：开发一种超越单纯几何精度的损失函数。该函数结合了CLIP（视觉-语言对齐）与物理仿真（功能验证），量化评估生成的3D模型或工艺方案是否在‘视觉风格’与‘功能意图’上双重对齐。例如，设计一把‘庄严的椅子’，系统不仅检查承重，还通过视觉模型评估其线条是否传递了‘庄严’的语义特征。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.527278",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_147_O5_2182",
+  "design_spec": {
+    "name": "auto_多模态美学_功能一致性评估模型_开发_ff4502",
+    "display_name": "【多模态美学-功能一致性评估模型】：开发一种超越单纯几何精度的损失函数。该函数结合了CLIP（视觉-",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态美学-功能一致性评估模型】：开发一种超越单纯几何精度的损失函数。该函数结合了CLIP（视觉-语言对齐）与物理仿真（功能验证），量化评估生成的3D模型或工",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

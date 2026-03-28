@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_ui公差分析_o2_ui布尔_1ea30a",
+  "file": "skills/auto_结合_ui公差分析_o2_ui布尔_1ea30a.py",
+  "description": "结合'UI公差分析'(O2)、'UI布尔运算'(O3)与'语义流形索引'(ho_133_O3_9699)。生成的UI界面不再是死板的像素排列，而是带有物理'公差'属性的流体实体。系统能根据屏幕尺寸和用户交互力度（触控压力），动态计算UI组件的'挤压'与'形变'，在保持逻辑结构不变的前提下，提供最符合人体工学的视觉与触控反馈。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.334622",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_135_E5_1357",
+  "design_spec": {
+    "name": "auto_结合_ui公差分析_o2_ui布尔_1ea30a",
+    "display_name": "结合'UI公差分析'(O2)、'UI布尔运算'(O3)与'语义流形索引'(ho_133_O3_969",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'UI公差分析'(O2)、'UI布尔运算'(O3)与'语义流形索引'(ho_133_O3_9699)。生成的UI界面不再是死板的像素排列，而是带有物理'公差",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 357
+  }
+}

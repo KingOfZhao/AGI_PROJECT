@@ -1,0 +1,30 @@
+{
+  "name": "auto_可验证的分层工艺原子化拆解_将复杂的_0bb1bb",
+  "file": "skills/auto_可验证的分层工艺原子化拆解_将复杂的_0bb1bb.py",
+  "description": "【可验证的分层工艺原子化拆解】：将复杂的制造任务自动拆解为一系列具有严格物理约束的‘原子操作’。不同于代码拆解，这里每个子节点都必须包含‘材料状态检查点’。如果AI生成的最小工艺节点（如‘切削厚度0.5mm’）无法通过物理仿真验证（如‘导致刀具断裂’），则立即证伪并回溯，构建出一条物理上绝对可行的工艺路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.525099",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_147_O3_2182",
+  "design_spec": {
+    "name": "auto_可验证的分层工艺原子化拆解_将复杂的_0bb1bb",
+    "display_name": "【可验证的分层工艺原子化拆解】：将复杂的制造任务自动拆解为一系列具有严格物理约束的‘原子操作’。不同",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【可验证的分层工艺原子化拆解】：将复杂的制造任务自动拆解为一系列具有严格物理约束的‘原子操作’。不同于代码拆解，这里每个子节点都必须包含‘材料状态检查点’。如果",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

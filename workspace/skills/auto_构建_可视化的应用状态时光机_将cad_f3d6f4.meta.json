@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_可视化的应用状态时光机_将cad_f3d6f4",
+  "file": "skills/auto_构建_可视化的应用状态时光机_将cad_f3d6f4.py",
+  "description": "构建'可视化的应用状态时光机'。将CAD的'特征历史树'概念引入Flutter状态管理。每一个用户操作或API请求不再仅仅是修改内存中的State，而是生成一个可配置的'特征节点'。开发者或用户可以像CAD回滚特征一样，在App内实时调整逻辑流（例如：调整API请求参数），实时看到UI重绘，实现运行时的低代码调试与配置。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.853384",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_115_O2_4670",
+  "design_spec": {
+    "name": "auto_构建_可视化的应用状态时光机_将cad_f3d6f4",
+    "display_name": "构建'可视化的应用状态时光机'。将CAD的'特征历史树'概念引入Flutter状态管理。每一个用户操",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'可视化的应用状态时光机'。将CAD的'特征历史树'概念引入Flutter状态管理。每一个用户操作或API请求不再仅仅是修改内存中的State，而是生成一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_通用制造适配器_将platform_392676",
+  "file": "skills/auto_通用制造适配器_将platform_392676.py",
+  "description": "“通用制造适配器”。将Platform Channels概念引入CAM，构建一种声明式的机床适配DSL。用户不再编写复杂的后处理脚本，而是像配置Flutter路由一样配置机床特性和指令映射。系统能自动将高层级的“加工意图”通过Channel分发到底层的机床驱动，实现跨品牌、跨型号机床的统一编程接口。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.800393",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_50_O3_3153",
+  "design_spec": {
+    "name": "auto_通用制造适配器_将platform_392676",
+    "display_name": "“通用制造适配器”。将Platform Channels概念引入CAM，构建一种声明式的机床适配DS",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "“通用制造适配器”。将Platform Channels概念引入CAM，构建一种声明式的机床适配DSL。用户不再编写复杂的后处理脚本，而是像配置Flutter路",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 283
+  }
+}

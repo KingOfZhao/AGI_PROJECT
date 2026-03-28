@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈闭环的延迟敏感性分析_在_a_5f7c0d",
+  "file": "skills/auto_人机共生反馈闭环的延迟敏感性分析_在_a_5f7c0d.py",
+  "description": "人机共生反馈闭环的延迟敏感性分析：在'AI建议->人类实践->反馈'的循环中，多大的时间延迟会导致AI对'实践失败'的归因出现偏差？需构建模拟环境，量化从'真实节点'生成到AI权重更新的时间差与模型准确率下降的非线性关系。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.077423",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q2_1_8212",
+  "design_spec": {
+    "name": "auto_人机共生反馈闭环的延迟敏感性分析_在_a_5f7c0d",
+    "display_name": "人机共生反馈闭环的延迟敏感性分析：在'AI建议->人类实践->反馈'的循环中，多大的时间延迟会导致A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生反馈闭环的延迟敏感性分析：在'AI建议->人类实践->反馈'的循环中，多大的时间延迟会导致AI对'实践失败'的归因出现偏差？需构建模拟环境，量化从'真实",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 322
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域类比迁移算法_当用户意图跨越两个不相_55ef72",
+  "file": "skills/auto_跨域类比迁移算法_当用户意图跨越两个不相_55ef72.py",
+  "description": "跨域类比迁移算法：当用户意图跨越两个不相关领域（如‘像管理夜市摊位一样管理服务器队列’）时，如何计算不同领域节点间的‘结构同构性’（Structural Isomorphism）？需要提取源域（夜市）的拓扑结构，强制映射到目标域（服务器），并评估映射后的逻辑自洽性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.666548",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q4_1_3223",
+  "design_spec": {
+    "name": "auto_跨域类比迁移算法_当用户意图跨越两个不相_55ef72",
+    "display_name": "跨域类比迁移算法：当用户意图跨越两个不相关领域（如‘像管理夜市摊位一样管理服务器队列’）时，如何计算",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域类比迁移算法：当用户意图跨越两个不相关领域（如‘像管理夜市摊位一样管理服务器队列’）时，如何计算不同领域节点间的‘结构同构性’（Structural Iso",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 413
+  }
+}

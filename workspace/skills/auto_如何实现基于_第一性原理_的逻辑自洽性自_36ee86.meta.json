@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现基于_第一性原理_的逻辑自洽性自_36ee86",
+  "file": "skills/auto_如何实现基于_第一性原理_的逻辑自洽性自_36ee86.py",
+  "description": "如何实现基于‘第一性原理’的逻辑自洽性自动审计？对于非代码类节点（如哲学观点、管理策略），难以通过运行代码验证。需要构建一个‘逻辑推演引擎’，利用大模型尝试从该节点推导出显而易见的谬误或与已知物理/逻辑公理冲突的结论。若推导出矛盾，则降低节点权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.552333",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q5_0_5437",
+  "design_spec": {
+    "name": "auto_如何实现基于_第一性原理_的逻辑自洽性自_36ee86",
+    "display_name": "如何实现基于‘第一性原理’的逻辑自洽性自动审计？对于非代码类节点（如哲学观点、管理策略），难以通过运",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现基于‘第一性原理’的逻辑自洽性自动审计？对于非代码类节点（如哲学观点、管理策略），难以通过运行代码验证。需要构建一个‘逻辑推演引擎’，利用大模型尝试从该",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

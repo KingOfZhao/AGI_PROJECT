@@ -1,0 +1,30 @@
+{
+  "name": "auto_从噪音到规律的_自下而上_聚类引擎_设_04883b",
+  "file": "skills/auto_从噪音到规律的_自下而上_聚类引擎_设_04883b.py",
+  "description": "从噪音到规律的'自下而上'聚类引擎: 设计算法处理海量的非结构化日志、文本或感官数据, 从中归纳出新的'经验性规律'. 挑战在于如何从偶然的巧合中区分出稳定的统计规律, 并将其提升为概念节点, 避免将噪音误认为是新知识.",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "data_mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.025131",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_123_Q5_2_2525",
+  "design_spec": {
+    "name": "auto_从噪音到规律的_自下而上_聚类引擎_设_04883b",
+    "display_name": "从噪音到规律的'自下而上'聚类引擎: 设计算法处理海量的非结构化日志、文本或感官数据, 从中归纳出新",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "从噪音到规律的'自下而上'聚类引擎: 设计算法处理海量的非结构化日志、文本或感官数据, 从中归纳出新的'经验性规律'. 挑战在于如何从偶然的巧合中区分出稳定的统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

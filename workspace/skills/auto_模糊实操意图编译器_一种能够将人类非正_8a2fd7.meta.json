@@ -1,0 +1,30 @@
+{
+  "name": "auto_模糊实操意图编译器_一种能够将人类非正_8a2fd7",
+  "file": "skills/auto_模糊实操意图编译器_一种能够将人类非正_8a2fd7.py",
+  "description": "【模糊实操意图编译器】一种能够将人类非正式的、口语化的实践指令（如‘看着弄紧一点’）直接编译为高精度机械臂指令或严格代码逻辑的系统。它利用状态机锁定上下文，结合环境反馈动态填充省略参数。这解决了人机协作中‘人类懂意思但机器不懂’的交互断层，实现了从‘自然语言’到‘物理动作’的无损转译。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.032199",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_132_O1_3421",
+  "design_spec": {
+    "name": "auto_模糊实操意图编译器_一种能够将人类非正_8a2fd7",
+    "display_name": "【模糊实操意图编译器】一种能够将人类非正式的、口语化的实践指令（如‘看着弄紧一点’）直接编译为高精度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【模糊实操意图编译器】一种能够将人类非正式的、口语化的实践指令（如‘看着弄紧一点’）直接编译为高精度机械臂指令或严格代码逻辑的系统。它利用状态机锁定上下文，结合",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

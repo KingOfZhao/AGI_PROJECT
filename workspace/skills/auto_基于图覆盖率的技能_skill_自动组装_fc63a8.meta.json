@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于图覆盖率的技能_skill_自动组装_fc63a8",
+  "file": "skills/auto_基于图覆盖率的技能_skill_自动组装_fc63a8.py",
+  "description": "基于图覆盖率的技能（SKILL）自动组装算法：现有2530个SKILL节点，如何通过组合现有的原子节点（3943个）自动生成复合技能以解决未见过的复杂问题？本问题要求验证'节点重组'产生新能力的涌现机制，即1+1>2的效应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.541525",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_149_Q7_2_2045",
+  "design_spec": {
+    "name": "auto_基于图覆盖率的技能_skill_自动组装_fc63a8",
+    "display_name": "基于图覆盖率的技能（SKILL）自动组装算法：现有2530个SKILL节点，如何通过组合现有的原子节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于图覆盖率的技能（SKILL）自动组装算法：现有2530个SKILL节点，如何通过组合现有的原子节点（3943个）自动生成复合技能以解决未见过的复杂问题？本问",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_斯多葛式_动态技能树_每个skill节_1ee438",
+  "file": "skills/auto_斯多葛式_动态技能树_每个skill节_1ee438.py",
+  "description": "‘斯多葛式’动态技能树。每个Skill节点不再包含固定的执行参数，而是包含一个‘二分法策略网络’。输入端接收环境状态（不可控项），网络通过‘内省’计算最佳内部参数配置（可控项）。例如，‘抓取’节点检测到滑移风险（不可控命运），立即自动调整握持力度和柔顺性（自我适应），而不是报错停止。这是一种具备‘韧性’的智能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.422528",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_69_O4_3798",
+  "design_spec": {
+    "name": "auto_斯多葛式_动态技能树_每个skill节_1ee438",
+    "display_name": "‘斯多葛式’动态技能树。每个Skill节点不再包含固定的执行参数，而是包含一个‘二分法策略网络’。输",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘斯多葛式’动态技能树。每个Skill节点不再包含固定的执行参数，而是包含一个‘二分法策略网络’。输入端接收环境状态（不可控项），网络通过‘内省’计算最佳内部参",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

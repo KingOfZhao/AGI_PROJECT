@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从熟练工人的肌肉记忆和隐性动作_如抛_4f8495",
+  "file": "skills/auto_如何从熟练工人的肌肉记忆和隐性动作_如抛_4f8495.py",
+  "description": "如何从熟练工人的肌肉记忆和隐性动作（如抛光力度、刀具角度微调）中提取显性化的“动力学参数”？需要设计一种基于IMU（惯性测量单元）和视觉动捕的数字化方案，将连续的模拟动作流切分为离散的、可复用的“动作原语”，并区分“有效操作”与“无效冗余”。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "humanoid_robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.074428",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_65_Q2_3_1183",
+  "design_spec": {
+    "name": "auto_如何从熟练工人的肌肉记忆和隐性动作_如抛_4f8495",
+    "display_name": "如何从熟练工人的肌肉记忆和隐性动作（如抛光力度、刀具角度微调）中提取显性化的“动力学参数”？需要设计",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从熟练工人的肌肉记忆和隐性动作（如抛光力度、刀具角度微调）中提取显性化的“动力学参数”？需要设计一种基于IMU（惯性测量单元）和视觉动捕的数字化方案，将连续",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

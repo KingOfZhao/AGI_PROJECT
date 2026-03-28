@@ -1,0 +1,30 @@
+{
+  "name": "auto_碰撞_设计制造一体化_如何建立_面向制_b9c880",
+  "file": "skills/auto_碰撞_设计制造一体化_如何建立_面向制_b9c880.py",
+  "description": "【碰撞-设计制造一体化】如何建立‘面向制造的设计（DFM）’规则库节点，使AGI能在CAD设计阶段自动‘碰撞’工艺限制？例如，检测到深孔设计时，自动关联到‘刀具长度限制’节点并报警。难点在于几何特征与工艺约束的非线性匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "design_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.455613",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q9_1_9813",
+  "design_spec": {
+    "name": "auto_碰撞_设计制造一体化_如何建立_面向制_b9c880",
+    "display_name": "【碰撞-设计制造一体化】如何建立‘面向制造的设计（DFM）’规则库节点，使AGI能在CAD设计阶段自",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【碰撞-设计制造一体化】如何建立‘面向制造的设计（DFM）’规则库节点，使AGI能在CAD设计阶段自动‘碰撞’工艺限制？例如，检测到深孔设计时，自动关联到‘刀具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

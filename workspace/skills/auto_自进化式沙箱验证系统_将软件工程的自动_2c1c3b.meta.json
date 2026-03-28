@@ -1,0 +1,30 @@
+{
+  "name": "auto_自进化式沙箱验证系统_将软件工程的自动_2c1c3b",
+  "file": "skills/auto_自进化式沙箱验证系统_将软件工程的自动_2c1c3b.py",
+  "description": "【自进化式沙箱验证系统】将软件工程的自动化测试与认知科学的'失败固化'机制融合。当代码在沙箱中运行失败，系统不仅报错，还启动'认知固化'流程：分析堆栈信息，识别错误的根本结构（如'循环引用'或'类型不匹配'），将其抽象为一个'负向真实节点'（Anti-Pattern）。下次生成代码时，AI会主动查询这些负向节点，作为'禁忌条件'显式写入提示词或约束解码过程，实现'吃一堑长一智'的代码进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.559033",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_150_O3_2341",
+  "design_spec": {
+    "name": "auto_自进化式沙箱验证系统_将软件工程的自动_2c1c3b",
+    "display_name": "【自进化式沙箱验证系统】将软件工程的自动化测试与认知科学的'失败固化'机制融合。当代码在沙箱中运行失",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自进化式沙箱验证系统】将软件工程的自动化测试与认知科学的'失败固化'机制融合。当代码在沙箱中运行失败，系统不仅报错，还启动'认知固化'流程：分析堆栈信息，识别",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

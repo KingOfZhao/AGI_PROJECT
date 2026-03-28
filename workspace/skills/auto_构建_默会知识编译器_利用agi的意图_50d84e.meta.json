@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_默会知识编译器_利用agi的意图_50d84e",
+  "file": "skills/auto_构建_默会知识编译器_利用agi的意图_50d84e.py",
+  "description": "构建‘默会知识编译器’。利用AGI的意图解析能力，实时捕捉人类在实操中的模糊指令（如‘把这个搞顺滑一点’）或多模态行为（如视频中的动作），将其强制映射为标准化的JSON操作指令或SOP（标准作业程序）。这能将资深专家的‘直觉’低成本地转化为新手可执行的代码或清单，极大加速技能传承，打破‘只可意会不可言传’的壁垒。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.928638",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O1_5655",
+  "design_spec": {
+    "name": "auto_构建_默会知识编译器_利用agi的意图_50d84e",
+    "display_name": "构建‘默会知识编译器’。利用AGI的意图解析能力，实时捕捉人类在实操中的模糊指令（如‘把这个搞顺滑一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘默会知识编译器’。利用AGI的意图解析能力，实时捕捉人类在实操中的模糊指令（如‘把这个搞顺滑一点’）或多模态行为（如视频中的动作），将其强制映射为标准化的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 252
+  }
+}

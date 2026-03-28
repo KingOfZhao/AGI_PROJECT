@@ -1,0 +1,30 @@
+{
+  "name": "auto_虚实掩码生成对抗_一种受建筑图底理论启_90c545",
+  "file": "skills/auto_虚实掩码生成对抗_一种受建筑图底理论启_90c545.py",
+  "description": "【虚实掩码生成对抗】一种受建筑图底理论启发的计算机视觉分割与生成模型。传统模型关注'画什么'，该能力关注'留什么'。引入'结构性留白'损失函数，强迫AI像建筑师设计凹空间一样，主动生成具有包围感的'负空间'。这能显著提升生成图像的构图平衡感和语义清晰度，解决AI绘画中常见的'元素堆砌'问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.906781",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_46_O2_614",
+  "design_spec": {
+    "name": "auto_虚实掩码生成对抗_一种受建筑图底理论启_90c545",
+    "display_name": "【虚实掩码生成对抗】一种受建筑图底理论启发的计算机视觉分割与生成模型。传统模型关注'画什么'，该能力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【虚实掩码生成对抗】一种受建筑图底理论启发的计算机视觉分割与生成模型。传统模型关注'画什么'，该能力关注'留什么'。引入'结构性留白'损失函数，强迫AI像建筑师",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

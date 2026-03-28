@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_人机回环中的概念固化效率_验_5b07a7",
+  "file": "skills/auto_人机共生_人机回环中的概念固化效率_验_5b07a7.py",
+  "description": "【人机共生】人机回环中的概念固化效率。验证'人机共生'闭环：AI能否将人类非结构化的经验（如一段模糊的口述操作指南），梳理成结构化的'实践清单'（SOP），并在人类执行反馈后，将修正后的版本固化为新的Skill节点。重点在于AI对模糊信息的结构化处理能力和对反馈的整合能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "knowledge_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.248745",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q5_2_4155",
+  "design_spec": {
+    "name": "auto_人机共生_人机回环中的概念固化效率_验_5b07a7",
+    "display_name": "【人机共生】人机回环中的概念固化效率。验证'人机共生'闭环：AI能否将人类非结构化的经验（如一段模糊",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】人机回环中的概念固化效率。验证'人机共生'闭环：AI能否将人类非结构化的经验（如一段模糊的口述操作指南），梳理成结构化的'实践清单'（SOP），并在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 347
+  }
+}

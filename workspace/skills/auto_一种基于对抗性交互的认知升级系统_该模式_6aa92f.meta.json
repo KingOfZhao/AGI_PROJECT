@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种基于对抗性交互的认知升级系统_该模式_6aa92f",
+  "file": "skills/auto_一种基于对抗性交互的认知升级系统_该模式_6aa92f.py",
+  "description": "一种基于对抗性交互的认知升级系统。该模式利用AI构建特定的‘认知陷阱’（ho_136_O3_7793），诱导人类使用直觉（通常是错误的）进行决策，随后通过结果反馈打破其固有偏见（如囚徒困境中的背叛）。为了实现这一点，系统需要精确界定模糊语义（td_136_Q1_1_1710）并处理跨域逻辑冲突（td_136_Q6_1_1710），以确保博弈场景的严谨性与教育意义。这不仅是游戏，更是一种通过‘认知休克’实现思维模型重构的训练场。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_137",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:30:43.027271",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_137_P6_3759",
+  "design_spec": {
+    "name": "auto_一种基于对抗性交互的认知升级系统_该模式_6aa92f",
+    "display_name": "一种基于对抗性交互的认知升级系统。该模式利用AI构建特定的‘认知陷阱’（ho_136_O3_7793",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种基于对抗性交互的认知升级系统。该模式利用AI构建特定的‘认知陷阱’（ho_136_O3_7793），诱导人类使用直觉（通常是错误的）进行决策，随后通过结果反",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

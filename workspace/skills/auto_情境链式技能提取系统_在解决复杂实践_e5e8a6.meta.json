@@ -1,0 +1,30 @@
+{
+  "name": "auto_情境链式技能提取系统_在解决复杂实践_e5e8a6",
+  "file": "skills/auto_情境链式技能提取系统_在解决复杂实践_e5e8a6.py",
+  "description": "【情境链式技能提取系统】：在解决复杂实践问题时（如故障排查），不再基于关键词搜索，而是基于‘因果链条’检索。系统能自动构建出‘现象-操作-反馈’的动态技能图谱，提供‘如果不A，则尝试B’的链路式解决方案，而非碎片化的知识片段。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.460426",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O2_6301",
+  "design_spec": {
+    "name": "auto_情境链式技能提取系统_在解决复杂实践_e5e8a6",
+    "display_name": "【情境链式技能提取系统】：在解决复杂实践问题时（如故障排查），不再基于关键词搜索，而是基于‘因果链条",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【情境链式技能提取系统】：在解决复杂实践问题时（如故障排查），不再基于关键词搜索，而是基于‘因果链条’检索。系统能自动构建出‘现象-操作-反馈’的动态技能图谱，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

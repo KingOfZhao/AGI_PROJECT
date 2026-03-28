@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于agi认知链的plc代码自动生成与逆_763798",
+  "file": "skills/auto_基于agi认知链的plc代码自动生成与逆_763798.py",
+  "description": "基于AGI认知链的PLC代码自动生成与逆向解析验证：将‘自然语言指令’转化为‘工业控制逻辑’是核心难题。问题：能否将复杂的工艺描述（如‘在压力达到5MPa且温度低于40度时，开启阀门B’）精准拆解为可执行的IEC 61131-3标准指令块，并与现有SKILL节点中的逻辑门对应？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "industrial_automation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.837115",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_115_Q4_3_6765",
+  "design_spec": {
+    "name": "auto_基于agi认知链的plc代码自动生成与逆_763798",
+    "display_name": "基于AGI认知链的PLC代码自动生成与逆向解析验证：将‘自然语言指令’转化为‘工业控制逻辑’是核心难",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于AGI认知链的PLC代码自动生成与逆向解析验证：将‘自然语言指令’转化为‘工业控制逻辑’是核心难题。问题：能否将复杂的工艺描述（如‘在压力达到5MPa且温度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_情境演化的动态决策导航_将传统的_知识_91b794",
+  "file": "skills/auto_情境演化的动态决策导航_将传统的_知识_91b794.py",
+  "description": "【情境演化的动态决策导航】将传统的‘知识库搜索’升级为‘行动路径规划’。当用户查询‘如何处理客户投诉’时，系统不返回文档，而是利用AGI的拓扑检索，结合当前业务状态（如‘VIP客户’+‘物流中断’），生成一条包含情绪安抚、补偿方案、后续跟进的‘认知路径图’。它不仅告诉你‘是什么’，还像老手一样通过节点间的拓扑关系，指引你‘先做A，若不行则B’的完整行动链条，实现从检索到决策的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.734949",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_139_O4_5327",
+  "design_spec": {
+    "name": "auto_情境演化的动态决策导航_将传统的_知识_91b794",
+    "display_name": "【情境演化的动态决策导航】将传统的‘知识库搜索’升级为‘行动路径规划’。当用户查询‘如何处理客户投诉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【情境演化的动态决策导航】将传统的‘知识库搜索’升级为‘行动路径规划’。当用户查询‘如何处理客户投诉’时，系统不返回文档，而是利用AGI的拓扑检索，结合当前业务",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

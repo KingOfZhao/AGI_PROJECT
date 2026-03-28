@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于时序衰减与结果反馈的贝叶斯信任度动态_5e77cf",
+  "file": "skills/auto_基于时序衰减与结果反馈的贝叶斯信任度动态_5e77cf.py",
+  "description": "基于时序衰减与结果反馈的贝叶斯信任度动态计算：如何构建一个数学模型，根据节点的‘最近一次成功验证时间’和‘历史验证成功率’，动态计算每个节点的实时信任度？该模型需对长期未调用（休眠）的节点施加指数级惩罚，同时能快速响应连续验证失败的‘异常’节点，防止过时或错误的知识污染核心网络。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_30",
+    "agi_math",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:02:19.304546",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_30_Q1_2_1827",
+  "design_spec": {
+    "name": "auto_基于时序衰减与结果反馈的贝叶斯信任度动态_5e77cf",
+    "display_name": "基于时序衰减与结果反馈的贝叶斯信任度动态计算：如何构建一个数学模型，根据节点的‘最近一次成功验证时间",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于时序衰减与结果反馈的贝叶斯信任度动态计算：如何构建一个数学模型，根据节点的‘最近一次成功验证时间’和‘历史验证成功率’，动态计算每个节点的实时信任度？该模型",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 239
+  }
+}

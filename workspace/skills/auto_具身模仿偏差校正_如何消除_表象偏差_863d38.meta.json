@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身模仿偏差校正_如何消除_表象偏差_863d38",
+  "file": "skills/auto_具身模仿偏差校正_如何消除_表象偏差_863d38.py",
+  "description": "【具身模仿偏差校正】如何消除“表象偏差”以获取真实的隐性知识？人类演示往往包含习惯性动作（如挠头）或无效冗余，而AI模仿学习容易过拟合这些噪音。本子问题要求构建一个因果推断模块，区分“必要因果链”与“无关噪音”，提取出真正的核心技能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.944047",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_92_Q6_2_1404",
+  "design_spec": {
+    "name": "auto_具身模仿偏差校正_如何消除_表象偏差_863d38",
+    "display_name": "【具身模仿偏差校正】如何消除“表象偏差”以获取真实的隐性知识？人类演示往往包含习惯性动作（如挠头）或",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身模仿偏差校正】如何消除“表象偏差”以获取真实的隐性知识？人类演示往往包含习惯性动作（如挠头）或无效冗余，而AI模仿学习容易过拟合这些噪音。本子问题要求构建",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

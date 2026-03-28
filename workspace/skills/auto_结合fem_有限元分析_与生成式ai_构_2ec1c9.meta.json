@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合fem_有限元分析_与生成式ai_构_2ec1c9",
+  "file": "skills/auto_结合fem_有限元分析_与生成式ai_构_2ec1c9.py",
+  "description": "结合FEM（有限元分析）与生成式AI，构建快速的'物理破坏预测'微模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.149037",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_6_G_Safety_Sandbox_1857",
+  "design_spec": {
+    "name": "auto_结合fem_有限元分析_与生成式ai_构_2ec1c9",
+    "display_name": "结合FEM（有限元分析）与生成式AI，构建快速的'物理破坏预测'微模型。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合FEM（有限元分析）与生成式AI，构建快速的'物理破坏预测'微模型。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 228
+  }
+}

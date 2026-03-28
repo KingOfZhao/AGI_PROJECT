@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于现有1168个节点的拓扑结构_如何构_f56ea4",
+  "file": "skills/auto_基于现有1168个节点的拓扑结构_如何构_f56ea4.py",
+  "description": "基于现有1168个节点的拓扑结构，如何构建动态的'语义引力'算法，使新产生的'真实节点'能够基于认知自洽性自动吸引并重组相关的旧节点，而非仅仅通过向量相似度进行静态链接？这涉及到将'认知自洽'定义为一种可计算的图论属性（如局部聚类系数与路径长度的比值），验证系统是否能自动将'小摊贩'节点与'供应链'节点在'生存策略'的高维曲面上进行物理聚合，而非仅仅是语义匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "Cognitive_Topology",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.039481",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q1_3_2478",
+  "design_spec": {
+    "name": "auto_基于现有1168个节点的拓扑结构_如何构_f56ea4",
+    "display_name": "基于现有1168个节点的拓扑结构，如何构建动态的'语义引力'算法，使新产生的'真实节点'能够基于认知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于现有1168个节点的拓扑结构，如何构建动态的'语义引力'算法，使新产生的'真实节点'能够基于认知自洽性自动吸引并重组相关的旧节点，而非仅仅通过向量相似度进行",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 239
+  }
+}

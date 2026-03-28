@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对人类反馈的模糊性_系统能否通过主动学_171b82",
+  "file": "skills/auto_针对人类反馈的模糊性_系统能否通过主动学_171b82.py",
+  "description": "针对人类反馈的模糊性，系统能否通过主动学习策略生成最小化人类认知负担的询问清单，以验证新节点的有效性？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.339750",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_8_Q6_2_5774",
+  "design_spec": {
+    "name": "auto_针对人类反馈的模糊性_系统能否通过主动学_171b82",
+    "display_name": "针对人类反馈的模糊性，系统能否通过主动学习策略生成最小化人类认知负担的询问清单，以验证新节点的有效性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对人类反馈的模糊性，系统能否通过主动学习策略生成最小化人类认知负担的询问清单，以验证新节点的有效性？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 250
+  }
+}

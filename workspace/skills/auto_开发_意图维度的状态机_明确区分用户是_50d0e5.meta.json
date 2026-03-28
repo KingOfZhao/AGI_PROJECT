@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_意图维度的状态机_明确区分用户是_50d0e5",
+  "file": "skills/auto_开发_意图维度的状态机_明确区分用户是_50d0e5.py",
+  "description": "开发'意图维度的状态机'，明确区分用户是在修改参数（同层）、改变需求（跨层）还是推翻重来。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.582174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_149_G3_5301",
+  "design_spec": {
+    "name": "auto_开发_意图维度的状态机_明确区分用户是_50d0e5",
+    "display_name": "开发'意图维度的状态机'，明确区分用户是在修改参数（同层）、改变需求（跨层）还是推翻重来。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'意图维度的状态机'，明确区分用户是在修改参数（同层）、改变需求（跨层）还是推翻重来。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

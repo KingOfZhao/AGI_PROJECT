@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知热点固化引擎_在对话或任务执_4eb843",
+  "file": "skills/auto_开发_认知热点固化引擎_在对话或任务执_4eb843.py",
+  "description": "开发'认知热点固化引擎'。在对话或任务执行中，AI动态检测哪些知识片段被反复检索和验证（热点知识）。将这些碎片化的知识像JIT编译一样，'编译'成一个高度压缩、长期记忆的神经网络模块（如LoRA适配器）或结构化规则，从而将该能力从'检索思考'转化为'直觉反应'，极大提升响应速度和系统稳定性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.392584",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_128_O5_9612",
+  "design_spec": {
+    "name": "auto_开发_认知热点固化引擎_在对话或任务执_4eb843",
+    "display_name": "开发'认知热点固化引擎'。在对话或任务执行中，AI动态检测哪些知识片段被反复检索和验证（热点知识）。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知热点固化引擎'。在对话或任务执行中，AI动态检测哪些知识片段被反复检索和验证（热点知识）。将这些碎片化的知识像JIT编译一样，'编译'成一个高度压缩、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

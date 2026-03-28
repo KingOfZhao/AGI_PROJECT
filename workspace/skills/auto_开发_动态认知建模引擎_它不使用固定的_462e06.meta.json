@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_动态认知建模引擎_它不使用固定的_462e06",
+  "file": "skills/auto_开发_动态认知建模引擎_它不使用固定的_462e06.py",
+  "description": "开发'动态认知建模引擎'。它不使用固定的数据库Schema，而是实时监控用户的学习路径和知识消费，动态推断用户的'当前认知图式'。当用户接触新知识时，系统自动对比新知识与现有认知图式的差异，推荐最适合的'同化路径'或生成'顺应（Accommodation）'建议，帮助用户快速构建处理新知识的思维容器，解决新知识'存不进去'的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.749183",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_74_O2_4290",
+  "design_spec": {
+    "name": "auto_开发_动态认知建模引擎_它不使用固定的_462e06",
+    "display_name": "开发'动态认知建模引擎'。它不使用固定的数据库Schema，而是实时监控用户的学习路径和知识消费，动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'动态认知建模引擎'。它不使用固定的数据库Schema，而是实时监控用户的学习路径和知识消费，动态推断用户的'当前认知图式'。当用户接触新知识时，系统自动对",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

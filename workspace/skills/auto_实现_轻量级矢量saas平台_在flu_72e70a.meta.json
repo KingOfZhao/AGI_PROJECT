@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_轻量级矢量saas平台_在flu_72e70a",
+  "file": "skills/auto_实现_轻量级矢量saas平台_在flu_72e70a.py",
+  "description": "实现'轻量级矢量SaaS平台'。在Flutter端直接解析CAD标准格式(如DXF/DWG)，利用CAD的高阶样条曲线算法在移动端重绘高精度工程图，并支持无限的缩放平移而不失真，替代传统的位图切片方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.252919",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_116_O3_5910",
+  "design_spec": {
+    "name": "auto_实现_轻量级矢量saas平台_在flu_72e70a",
+    "display_name": "实现'轻量级矢量SaaS平台'。在Flutter端直接解析CAD标准格式(如DXF/DWG)，利用C",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'轻量级矢量SaaS平台'。在Flutter端直接解析CAD标准格式(如DXF/DWG)，利用CAD的高阶样条曲线算法在移动端重绘高精度工程图，并支持无限的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

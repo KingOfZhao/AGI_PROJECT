@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种能够处理_高熵_模糊意图的智能编译系_b1a5ba",
+  "file": "skills/auto_一种能够处理_高熵_模糊意图的智能编译系_b1a5ba.py",
+  "description": "一种能够处理‘高熵’模糊意图的智能编译系统。它不追求一次性的完美转换，而是主动识别意图中的‘模糊核’（即认知摩擦力），通过结构化的交互协议（提问、选项确认）引导用户进行‘降噪’，最终将自然语言无损转化为机器可执行的低熵逻辑（IR）或中间表示。它是连接人类非线性思维与机器线性执行的桥梁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.706111",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_110_P3_6554",
+  "design_spec": {
+    "name": "auto_一种能够处理_高熵_模糊意图的智能编译系_b1a5ba",
+    "display_name": "一种能够处理‘高熵’模糊意图的智能编译系统。它不追求一次性的完美转换，而是主动识别意图中的‘模糊核’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种能够处理‘高熵’模糊意图的智能编译系统。它不追求一次性的完美转换，而是主动识别意图中的‘模糊核’（即认知摩擦力），通过结构化的交互协议（提问、选项确认）引导",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

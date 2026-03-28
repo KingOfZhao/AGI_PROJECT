@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何识别并处理_认知孤儿_节点_即那些既_5a71fd",
+  "file": "skills/auto_如何识别并处理_认知孤儿_节点_即那些既_5a71fd.py",
+  "description": "如何识别并处理'认知孤儿'节点？即那些既没有被其他节点引用，也没有被任何SKILL调用的孤立节点，但其文本内容在语义上与核心节点高度重叠（可能是重复创建的冗余节点）。需要开发'语义去重聚类'算法，将孤儿节点归档到现有类目中，而非直接删除。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "data_cleaning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.546174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_83_Q8_0_6296",
+  "design_spec": {
+    "name": "auto_如何识别并处理_认知孤儿_节点_即那些既_5a71fd",
+    "display_name": "如何识别并处理'认知孤儿'节点？即那些既没有被其他节点引用，也没有被任何SKILL调用的孤立节点，但",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何识别并处理'认知孤儿'节点？即那些既没有被其他节点引用，也没有被任何SKILL调用的孤立节点，但其文本内容在语义上与核心节点高度重叠（可能是重复创建的冗余节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

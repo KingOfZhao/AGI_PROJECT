@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将_故障排查树_转化为可动态执行的_1af589",
+  "file": "skills/auto_如何将_故障排查树_转化为可动态执行的_1af589.py",
+  "description": "如何将‘故障排查树’转化为可动态执行的‘贝叶斯行动网络’？传统的排查树是静态的，而AGI需要根据实时反馈（如‘拧松螺丝后压力未下降’）动态调整后续排查路径。核心问题是如何计算每一步行动的‘信息增益’与‘执行成本’的比率，实现最优化排查。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_30",
+    "operations_research",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:02:19.354374",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_30_Q7_3_3105",
+  "design_spec": {
+    "name": "auto_如何将_故障排查树_转化为可动态执行的_1af589",
+    "display_name": "如何将‘故障排查树’转化为可动态执行的‘贝叶斯行动网络’？传统的排查树是静态的，而AGI需要根据实时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将‘故障排查树’转化为可动态执行的‘贝叶斯行动网络’？传统的排查树是静态的，而AGI需要根据实时反馈（如‘拧松螺丝后压力未下降’）动态调整后续排查路径。核心",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从现有的293个skill节点中提取_b1b1cb",
+  "file": "skills/auto_如何从现有的293个skill节点中提取_b1b1cb.py",
+  "description": "如何从现有的293个SKILL节点中提取'纯序逻辑'（Pure Sequence Logic），剥离其具体的领域参数（如剥离'炒菜'中的食材参数，保留'加热-投放-翻炒'的逻辑结构）？目标是建立一个'逻辑骨架库'，使得'烹饪流程'能被抽象映射为'代码重构流程'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:23.994614",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_11_Q2_3_7575",
+  "design_spec": {
+    "name": "auto_如何从现有的293个skill节点中提取_b1b1cb",
+    "display_name": "如何从现有的293个SKILL节点中提取'纯序逻辑'（Pure Sequence Logic），剥离",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从现有的293个SKILL节点中提取'纯序逻辑'（Pure Sequence Logic），剥离其具体的领域参数（如剥离'炒菜'中的食材参数，保留'加热-投",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

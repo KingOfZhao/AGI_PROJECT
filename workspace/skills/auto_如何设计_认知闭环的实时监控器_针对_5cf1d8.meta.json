@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_认知闭环的实时监控器_针对_5cf1d8",
+  "file": "skills/auto_如何设计_认知闭环的实时监控器_针对_5cf1d8.py",
+  "description": "如何设计'认知闭环的实时监控器'？针对'自下而上归纳'，系统需要实时检测认知网络的'断裂'——即某个新归纳出的节点是否导致了原有核心节点的逻辑崩溃。这需要一种图遍历算法，在新节点写入前进行全局一致性压力测试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.659951",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q8_2_9798",
+  "design_spec": {
+    "name": "auto_如何设计_认知闭环的实时监控器_针对_5cf1d8",
+    "display_name": "如何设计'认知闭环的实时监控器'？针对'自下而上归纳'，系统需要实时检测认知网络的'断裂'——即某个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'认知闭环的实时监控器'？针对'自下而上归纳'，系统需要实时检测认知网络的'断裂'——即某个新归纳出的节点是否导致了原有核心节点的逻辑崩溃。这需要一种图",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

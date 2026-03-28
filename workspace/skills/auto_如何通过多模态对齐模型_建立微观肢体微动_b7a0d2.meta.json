@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过多模态对齐模型_建立微观肢体微动_b7a0d2",
+  "file": "skills/auto_如何通过多模态对齐模型_建立微观肢体微动_b7a0d2.py",
+  "description": "如何通过多模态对齐模型，建立微观肢体微动（Q1采集的数据）与宏观工艺结果（如陶土形变、木纹光滑度）之间的因果映射？这不仅是相关性分析，而是要在高维状态空间中寻找'动作-效果'的因果链，模拟人类师傅'手随眼动'的反馈回路，构建'感知-行动'的闭环节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_100",
+    "深度学习/因果推断",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:43:01.606578",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_100_Q2_0_3633",
+  "design_spec": {
+    "name": "auto_如何通过多模态对齐模型_建立微观肢体微动_b7a0d2",
+    "display_name": "如何通过多模态对齐模型，建立微观肢体微动（Q1采集的数据）与宏观工艺结果（如陶土形变、木纹光滑度）之",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过多模态对齐模型，建立微观肢体微动（Q1采集的数据）与宏观工艺结果（如陶土形变、木纹光滑度）之间的因果映射？这不仅是相关性分析，而是要在高维状态空间中寻找",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

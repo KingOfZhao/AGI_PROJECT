@@ -1,0 +1,30 @@
+{
+  "name": "auto_因果隔离与反事实推理_验证ai是否能区_7dd518",
+  "file": "skills/auto_因果隔离与反事实推理_验证ai是否能区_7dd518.py",
+  "description": "【因果隔离与反事实推理】验证AI是否能区分'相关性'与'因果性'。给定一组数据（如'冰淇淋销量'与'溺水事故'强相关），AI是否能利用'碰撞'思维，识别出隐藏变量（'气温'），并构建正确的因果图（气温->销量，气温->游泳->溺水），而不是直接建议'禁止卖冰淇淋以减少溺水'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_114",
+    "data_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:34:56.199137",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_114_Q7_0_9951",
+  "design_spec": {
+    "name": "auto_因果隔离与反事实推理_验证ai是否能区_7dd518",
+    "display_name": "【因果隔离与反事实推理】验证AI是否能区分'相关性'与'因果性'。给定一组数据（如'冰淇淋销量'与'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【因果隔离与反事实推理】验证AI是否能区分'相关性'与'因果性'。给定一组数据（如'冰淇淋销量'与'溺水事故'强相关），AI是否能利用'碰撞'思维，识别出隐藏变",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 392
+  }
+}

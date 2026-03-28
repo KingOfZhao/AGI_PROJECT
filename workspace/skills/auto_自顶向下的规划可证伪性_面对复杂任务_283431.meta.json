@@ -1,0 +1,30 @@
+{
+  "name": "auto_自顶向下的规划可证伪性_面对复杂任务_283431",
+  "file": "skills/auto_自顶向下的规划可证伪性_面对复杂任务_283431.py",
+  "description": "【自顶向下的规划可证伪性】面对复杂任务，AI生成的自顶向下拆解方案（TODO List），其子步骤是否具备‘原子性’与‘可执行性’？即每一个子步骤是否都可以被独立验证完成，而不是包含模糊的、需要人类再次猜度的‘黑盒’步骤。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.082278",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_6_Q7_2_1883",
+  "design_spec": {
+    "name": "auto_自顶向下的规划可证伪性_面对复杂任务_283431",
+    "display_name": "【自顶向下的规划可证伪性】面对复杂任务，AI生成的自顶向下拆解方案（TODO List），其子步骤是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自顶向下的规划可证伪性】面对复杂任务，AI生成的自顶向下拆解方案（TODO List），其子步骤是否具备‘原子性’与‘可执行性’？即每一个子步骤是否都可以被独",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

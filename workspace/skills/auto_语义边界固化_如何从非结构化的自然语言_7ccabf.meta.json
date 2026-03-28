@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义边界固化_如何从非结构化的自然语言_7ccabf",
+  "file": "skills/auto_语义边界固化_如何从非结构化的自然语言_7ccabf.py",
+  "description": "【语义边界固化】如何从非结构化的自然语言意图中提取核心实体，并将其映射为具备严格输入输出类型的JSON Schema？当前人类意图往往是模糊的（如'帮我搞个好看的分析'），需要建立一种概率映射机制，将模糊语义坍缩为结构化的对象定义，作为后续代码生成的骨架。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "NLP/Schema Engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.014770",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_123_Q1_3_7221",
+  "design_spec": {
+    "name": "auto_语义边界固化_如何从非结构化的自然语言_7ccabf",
+    "display_name": "【语义边界固化】如何从非结构化的自然语言意图中提取核心实体，并将其映射为具备严格输入输出类型的JSO",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义边界固化】如何从非结构化的自然语言意图中提取核心实体，并将其映射为具备严格输入输出类型的JSON Schema？当前人类意图往往是模糊的（如'帮我搞个好看",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

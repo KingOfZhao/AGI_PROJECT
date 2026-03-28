@@ -1,0 +1,30 @@
+{
+  "name": "auto_持续碰撞_构建_概念漂移检测器_co_bbeb52",
+  "file": "skills/auto_持续碰撞_构建_概念漂移检测器_co_bbeb52.py",
+  "description": "【持续碰撞】构建'概念漂移检测器'（Concept Drift Detector）。随着时间推移，外部世界变化会导致已固化的'真实节点'失效（如'某地法律变更'）。如何在3476个节点的网络中实时监测活性？需要为每个节点设置'半衰期'参数，并结合信息检索验证节点当前的真值，自动触发'重验证'流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "data_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.321739",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_135_Q6_1_6090",
+  "design_spec": {
+    "name": "auto_持续碰撞_构建_概念漂移检测器_co_bbeb52",
+    "display_name": "【持续碰撞】构建'概念漂移检测器'（Concept Drift Detector）。随着时间推移，外",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【持续碰撞】构建'概念漂移检测器'（Concept Drift Detector）。随着时间推移，外部世界变化会导致已固化的'真实节点'失效（如'某地法律变更'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 312
+  }
+}

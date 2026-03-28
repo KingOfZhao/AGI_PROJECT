@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于遗忘曲线的_记忆固化_与_自然衰变_21de26",
+  "file": "skills/auto_基于遗忘曲线的_记忆固化_与_自然衰变_21de26.py",
+  "description": "基于遗忘曲线的'记忆固化'与'自然衰变'模拟：如何在系统中模拟人类的'艾宾浩斯遗忘曲线'？未被调用的节点应随时间降低权重（衰变），但一旦被调用并验证成功，其权重应呈指数级回升且衰变速度减慢（固化）。需确定具体的衰变时间常数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.917886",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_15_Q7_2_9885",
+  "design_spec": {
+    "name": "auto_基于遗忘曲线的_记忆固化_与_自然衰变_21de26",
+    "display_name": "基于遗忘曲线的'记忆固化'与'自然衰变'模拟：如何在系统中模拟人类的'艾宾浩斯遗忘曲线'？未被调用的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于遗忘曲线的'记忆固化'与'自然衰变'模拟：如何在系统中模拟人类的'艾宾浩斯遗忘曲线'？未被调用的节点应随时间降低权重（衰变），但一旦被调用并验证成功，其权重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 415
+  }
+}

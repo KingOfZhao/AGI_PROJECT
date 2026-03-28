@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个专门用于_自上而下拆解证伪_的元_657cb4",
+  "file": "skills/auto_这是一个专门用于_自上而下拆解证伪_的元_657cb4.py",
+  "description": "这是一个专门用于'自上而下拆解证伪'的元认知子系统。它不仅验证方案的可行性，更主动生成'幻觉穿透测试'和'边界条件压力'（如资源受限场景），试图击穿现有认知网络的漏洞。通过引入'脉冲反馈'机制，它能利用小样本的负反馈快速溯源故障逻辑，从而确保所有固化下来的'真实节点'都经过了严格的可证伪性检验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.233337",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_57_P5_23",
+  "design_spec": {
+    "name": "auto_这是一个专门用于_自上而下拆解证伪_的元_657cb4",
+    "display_name": "这是一个专门用于'自上而下拆解证伪'的元认知子系统。它不仅验证方案的可行性，更主动生成'幻觉穿透测试",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个专门用于'自上而下拆解证伪'的元认知子系统。它不仅验证方案的可行性，更主动生成'幻觉穿透测试'和'边界条件压力'（如资源受限场景），试图击穿现有认知网络",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 255
+  }
+}

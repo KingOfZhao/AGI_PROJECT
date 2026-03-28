@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_工业数字孪生双向驱动协议_不局限_b12eec",
+  "file": "skills/auto_开发_工业数字孪生双向驱动协议_不局限_b12eec.py",
+  "description": "开发'工业数字孪生双向驱动协议'。不局限于简单的UI交互，而是将CAD中的物理属性(质量、重心、材料应力)通过FFI直接映射为Flutter中物理引擎(Rapier/Box2D)的参数。用户在Flutter App中模拟操作(如点击按钮'举升')，通过反向动力学计算负载，实时回传给CAD系统更新设计参数，实现设计端与应用端的实时闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.833562",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O3_8882",
+  "design_spec": {
+    "name": "auto_开发_工业数字孪生双向驱动协议_不局限_b12eec",
+    "display_name": "开发'工业数字孪生双向驱动协议'。不局限于简单的UI交互，而是将CAD中的物理属性(质量、重心、材料",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'工业数字孪生双向驱动协议'。不局限于简单的UI交互，而是将CAD中的物理属性(质量、重心、材料应力)通过FFI直接映射为Flutter中物理引擎(Rapi",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_边际效用递减拦截器_基于最适觅食理论_0bfc80",
+  "file": "skills/auto_边际效用递减拦截器_基于最适觅食理论_0bfc80.py",
+  "description": "【边际效用递减拦截器】：基于最适觅食理论，构建AI的任务过滤网。很多任务虽然有价值，但'处理时间/回报'比率低于阈值。该能力允许AI在资源紧张时，自动识别并拒绝那些'高耗能、低产出'的复杂推理任务（类似于狮子放弃追捕健康的成年水牛），转而通过简单的检索匹配处理大量'低耗能、稳定产出'的小任务，以通过'量'换取系统存续。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.028539",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_59_O4_9982",
+  "design_spec": {
+    "name": "auto_边际效用递减拦截器_基于最适觅食理论_0bfc80",
+    "display_name": "【边际效用递减拦截器】：基于最适觅食理论，构建AI的任务过滤网。很多任务虽然有价值，但'处理时间/回",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【边际效用递减拦截器】：基于最适觅食理论，构建AI的任务过滤网。很多任务虽然有价值，但'处理时间/回报'比率低于阈值。该能力允许AI在资源紧张时，自动识别并拒绝",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知沙箱回滚系统_针对高_0fc736",
+  "file": "skills/auto_开发_认知沙箱回滚系统_针对高_0fc736.py",
+  "description": "开发**'认知沙箱回滚系统'**。针对高风险决策领域（如手术、投资、危机公关），利用AI构建高保真的数字孪生环境。人类在现实行动前，先在系统中进行'认知事务'模拟。系统不仅模拟正向结果，还预设'断点'，一旦模拟结果显示违背核心指标（一致性破坏），系统立即触发'认知回滚'，并生成详细的'异常日志'（归因分析）。这种融合能力将人类的试错成本从现实世界转移到计算模型中，极大提升了生存率和决策理性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.170407",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O2_206",
+  "design_spec": {
+    "name": "auto_开发_认知沙箱回滚系统_针对高_0fc736",
+    "display_name": "开发**'认知沙箱回滚系统'**。针对高风险决策领域（如手术、投资、危机公关），利用AI构建高保真的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发**'认知沙箱回滚系统'**。针对高风险决策领域（如手术、投资、危机公关），利用AI构建高保真的数字孪生环境。人类在现实行动前，先在系统中进行'认知事务'模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

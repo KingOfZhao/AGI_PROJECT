@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态语义拾取框架_将flutter的2_ae5db5",
+  "file": "skills/auto_多模态语义拾取框架_将flutter的2_ae5db5.py",
+  "description": "多模态语义拾取框架。将Flutter的2D命中测试扩展为3D空间查询接口。不仅仅是选中，而是结合语义信息。例如，在AR维修场景中，点击屏幕上的螺栓（Flutter Event），系统不仅识别这是UI按钮，还能穿透UI层级，通过射线击中背后的3D螺母，并自动调取其规格参数，实现'UI控件'与'3D实体'的同源事件处理。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.245127",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_85_O5_7234",
+  "design_spec": {
+    "name": "auto_多模态语义拾取框架_将flutter的2_ae5db5",
+    "display_name": "多模态语义拾取框架。将Flutter的2D命中测试扩展为3D空间查询接口。不仅仅是选中，而是结合语义",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态语义拾取框架。将Flutter的2D命中测试扩展为3D空间查询接口。不仅仅是选中，而是结合语义信息。例如，在AR维修场景中，点击屏幕上的螺栓（Flutte",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 437
+  }
+}

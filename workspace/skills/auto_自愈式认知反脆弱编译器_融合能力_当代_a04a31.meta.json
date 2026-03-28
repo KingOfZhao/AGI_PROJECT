@@ -1,0 +1,30 @@
+{
+  "name": "auto_自愈式认知反脆弱编译器_融合能力_当代_a04a31",
+  "file": "skills/auto_自愈式认知反脆弱编译器_融合能力_当代_a04a31.py",
+  "description": "【自愈式认知反脆弱编译器】融合能力：当代码在沙箱中运行失败时，系统不仅报错，而是触发‘认知反思机制’。AI分析错误堆栈，自动生成一个‘反模式真实节点’（例如：‘在并发写入时未加锁会导致数据竞争’）。这个节点不仅是修复当前代码的依据，更被固化进长期记忆，防止未来同类错误。这使得测试沙箱从单纯的验证工具进化为具备‘从错误中学习’能力的AGI认知成长核心。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.862160",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_113_O2_8777",
+  "design_spec": {
+    "name": "auto_自愈式认知反脆弱编译器_融合能力_当代_a04a31",
+    "display_name": "【自愈式认知反脆弱编译器】融合能力：当代码在沙箱中运行失败时，系统不仅报错，而是触发‘认知反思机制’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自愈式认知反脆弱编译器】融合能力：当代码在沙箱中运行失败时，系统不仅报错，而是触发‘认知反思机制’。AI分析错误堆栈，自动生成一个‘反模式真实节点’（例如：‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

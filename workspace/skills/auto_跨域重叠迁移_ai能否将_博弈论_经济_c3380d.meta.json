@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域重叠迁移_ai能否将_博弈论_经济_c3380d",
+  "file": "skills/auto_跨域重叠迁移_ai能否将_博弈论_经济_c3380d.py",
+  "description": "【跨域重叠迁移】AI能否将‘博弈论（经济学）’中的纳什均衡概念，准确地映射并固化为‘分布式系统（计算机科学）’中的拜占庭容错算法参数配置建议？验证AI是否具备跨域概念重叠的能力，而非单纯的文本联想。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.648452",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q2_2_2783",
+  "design_spec": {
+    "name": "auto_跨域重叠迁移_ai能否将_博弈论_经济_c3380d",
+    "display_name": "【跨域重叠迁移】AI能否将‘博弈论（经济学）’中的纳什均衡概念，准确地映射并固化为‘分布式系统（计算",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域重叠迁移】AI能否将‘博弈论（经济学）’中的纳什均衡概念，准确地映射并固化为‘分布式系统（计算机科学）’中的拜占庭容错算法参数配置建议？验证AI是否具备跨",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 401
+  }
+}

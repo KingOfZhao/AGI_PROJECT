@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域层_左右碰撞_跨域迁移要求将旧领域_561955",
+  "file": "skills/auto_跨域层_左右碰撞_跨域迁移要求将旧领域_561955.py",
+  "description": "【跨域层：左右碰撞】跨域迁移要求将旧领域的结构映射到新领域。问题：如何构建一个基于‘功能本体’的映射器，将纺织机械中的‘张力控制’节点，自动转化为3D打印设备中的‘挤出速率控制’节点？这需要AI理解‘维持材料流动稳定性’这一抽象物理本质，而非仅仅匹配关键词。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "agi_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.340695",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q3_3_8808",
+  "design_spec": {
+    "name": "auto_跨域层_左右碰撞_跨域迁移要求将旧领域_561955",
+    "display_name": "【跨域层：左右碰撞】跨域迁移要求将旧领域的结构映射到新领域。问题：如何构建一个基于‘功能本体’的映射",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域层：左右碰撞】跨域迁移要求将旧领域的结构映射到新领域。问题：如何构建一个基于‘功能本体’的映射器，将纺织机械中的‘张力控制’节点，自动转化为3D打印设备中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

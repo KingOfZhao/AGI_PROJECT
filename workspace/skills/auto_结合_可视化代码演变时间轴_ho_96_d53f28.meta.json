@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_可视化代码演变时间轴_ho_96_d53f28",
+  "file": "skills/auto_结合_可视化代码演变时间轴_ho_96_d53f28.py",
+  "description": "结合'可视化代码演变时间轴'(ho_96_O4_3957)、'多模态时间锚点'(gap_96_G1_191)和'意图识别原型工具'(ho_96_O3_3957)。这将创造一种全新的开发体验：开发者不再是编辑静态文本，而是在4D时空中操作。系统记录每一次意图改变的'时间锚点'，允许回溯到任意历史时刻的'认知状态'，并结合手绘意图修正，实现'所想即所得'的历史感知编程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.376400",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_97_E4_7625",
+  "design_spec": {
+    "name": "auto_结合_可视化代码演变时间轴_ho_96_d53f28",
+    "display_name": "结合'可视化代码演变时间轴'(ho_96_O4_3957)、'多模态时间锚点'(gap_96_G1_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'可视化代码演变时间轴'(ho_96_O4_3957)、'多模态时间锚点'(gap_96_G1_191)和'意图识别原型工具'(ho_96_O3_3957)",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 229
+  }
+}

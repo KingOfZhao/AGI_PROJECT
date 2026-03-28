@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合运行时环境状态映射_自上而下的约束传_7b84f4",
+  "file": "skills/auto_结合运行时环境状态映射_自上而下的约束传_7b84f4.py",
+  "description": "结合运行时环境状态映射、自上而下的约束传播与工作流自动化，系统将具备根据当前物理环境（如端口占用、进程状态）动态调整执行计划的能力。它不再是死板地执行预设脚本，而是像有经验的工程师一样，根据现场情况灵活调整策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.772488",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_24_E5_7099",
+  "design_spec": {
+    "name": "auto_结合运行时环境状态映射_自上而下的约束传_7b84f4",
+    "display_name": "结合运行时环境状态映射、自上而下的约束传播与工作流自动化，系统将具备根据当前物理环境（如端口占用、进",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合运行时环境状态映射、自上而下的约束传播与工作流自动化，系统将具备根据当前物理环境（如端口占用、进程状态）动态调整执行计划的能力。它不再是死板地执行预设脚本，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

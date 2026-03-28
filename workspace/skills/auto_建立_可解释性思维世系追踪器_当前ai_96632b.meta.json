@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_可解释性思维世系追踪器_当前ai_96632b",
+  "file": "skills/auto_建立_可解释性思维世系追踪器_当前ai_96632b.py",
+  "description": "建立'可解释性思维世系追踪器'。当前AI主要是黑盒，融合该能力后，AI生成的每一个结论都能像数据血缘一样，可视化地展示其推理路径（Prompt来源、调用的工具、中间逻辑）。更重要的是，它能像元认知一样自动评估推理链中的薄弱环节（如：'这个结论依赖于一个过时的数据源'），主动进行自我证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.933118",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O3_2542",
+  "design_spec": {
+    "name": "auto_建立_可解释性思维世系追踪器_当前ai_96632b",
+    "display_name": "建立'可解释性思维世系追踪器'。当前AI主要是黑盒，融合该能力后，AI生成的每一个结论都能像数据血缘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'可解释性思维世系追踪器'。当前AI主要是黑盒，融合该能力后，AI生成的每一个结论都能像数据血缘一样，可视化地展示其推理路径（Prompt来源、调用的工具、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

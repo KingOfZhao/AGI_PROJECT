@@ -1,0 +1,30 @@
+{
+  "name": "auto_感知层_非结构化到结构化_工业现场的隐_6fb353",
+  "file": "skills/auto_感知层_非结构化到结构化_工业现场的隐_6fb353.py",
+  "description": "【感知层：非结构化到结构化】工业现场的隐性知识（如老师傅的听音辨故障）往往难以数字化。如何利用多模态传感器（振动、声纹、热成像）数据，构建一个实时流式聚类算法，将非标准化的‘故障特征波形’映射为结构化的‘异常模式向量’？关键在于如何设定阈值，使其能有效过滤噪声，同时保留关键的微弱信号，将其转化为预节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "industrial_iot",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.335619",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q1_3_8808",
+  "design_spec": {
+    "name": "auto_感知层_非结构化到结构化_工业现场的隐_6fb353",
+    "display_name": "【感知层：非结构化到结构化】工业现场的隐性知识（如老师傅的听音辨故障）往往难以数字化。如何利用多模态",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【感知层：非结构化到结构化】工业现场的隐性知识（如老师傅的听音辨故障）往往难以数字化。如何利用多模态传感器（振动、声纹、热成像）数据，构建一个实时流式聚类算法，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 355
+  }
+}

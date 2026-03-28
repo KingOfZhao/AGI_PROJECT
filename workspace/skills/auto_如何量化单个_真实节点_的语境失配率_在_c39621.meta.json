@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何量化单个_真实节点_的语境失配率_在_c39621",
+  "file": "skills/auto_如何量化单个_真实节点_的语境失配率_在_c39621.py",
+  "description": "如何量化单个'真实节点'的语境失配率？在系统中，这涉及到检测节点被激活但其预设前置条件（如时间、地点、对象状态）与当前环境不匹配的频率。我们需要开发一种算法，能够自动比对节点元数据中的环境约束与实时感知数据，从而计算出该节点的'环境生存力'得分，以识别那些已经过时或过于僵化的知识单元。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "agi_cognition",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.306713",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_135_Q1_2_4433",
+  "design_spec": {
+    "name": "auto_如何量化单个_真实节点_的语境失配率_在_c39621",
+    "display_name": "如何量化单个'真实节点'的语境失配率？在系统中，这涉及到检测节点被激活但其预设前置条件（如时间、地点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何量化单个'真实节点'的语境失配率？在系统中，这涉及到检测节点被激活但其预设前置条件（如时间、地点、对象状态）与当前环境不匹配的频率。我们需要开发一种算法，能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pid": 98465,
+  "updated": "2026-03-28T23:16:34.274843",
+  "services": {
+    "bridge": {
+      "name": "OpenClaw Bridge",
+      "port": 9801,
+      "status": "failed",
+      "restarts": 10,
+      "last_error": "重启次数超限"
+    },
+    "crm": {
+      "name": "CRM System",
+      "port": 8890,
+      "status": "running",
+      "restarts": 1,
+      "last_error": ""
+    },
+    "api": {
+      "name": "API Server",
+      "port": 8080,
+      "status": "failed",
+      "restarts": 10,
+      "last_error": "重启次数超限"
+    },
+    "wechat": {
+      "name": "WeChat Gateway",
+      "port": 5000,
+      "status": "running",
+      "restarts": 0,
+      "last_error": ""
+    },
+    "idle_growth": {
+      "name": "Idle Growth Engine",
+      "port": 0,
+      "status": "running",
+      "restarts": 1,
+      "last_error": ""
+    }
+  }
+}

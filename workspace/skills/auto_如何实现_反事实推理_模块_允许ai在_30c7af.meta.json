@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_反事实推理_模块_允许ai在_30c7af",
+  "file": "skills/auto_如何实现_反事实推理_模块_允许ai在_30c7af.py",
+  "description": "如何实现'反事实推理'模块，允许AI在'左右跨域重叠'时模拟'如果不这样'的后果？这需要AI具备构建因果图的能力，而非仅仅是关联分析，用于在将其他领域的知识迁移到新领域时，预测潜在的负面副作用，从而避免生搬硬套。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.701185",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_27_Q2_1_4907",
+  "design_spec": {
+    "name": "auto_如何实现_反事实推理_模块_允许ai在_30c7af",
+    "display_name": "如何实现'反事实推理'模块，允许AI在'左右跨域重叠'时模拟'如果不这样'的后果？这需要AI具备构建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'反事实推理'模块，允许AI在'左右跨域重叠'时模拟'如果不这样'的后果？这需要AI具备构建因果图的能力，而非仅仅是关联分析，用于在将其他领域的知识迁移",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 376
+  }
+}

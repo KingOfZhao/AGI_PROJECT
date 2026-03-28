@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳_在skill_1029的_dd64a6",
+  "file": "skills/auto_自下而上归纳_在skill_1029的_dd64a6.py",
+  "description": "【自下而上归纳】在SKILL_1029的技能库中，如何检测并修复'认知孤岛'？系统可能存在大量从未被调用或验证的僵尸技能。需要开发一种'代谢机制'，定期对现有技能节点进行压力测试，通过蒙特卡洛树搜索（MCTS）模拟其在未知环境中的应用，主动发现技能的逻辑漏洞并触发'自下而上'的重构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.566817",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_60_Q5_1_1103",
+  "design_spec": {
+    "name": "auto_自下而上归纳_在skill_1029的_dd64a6",
+    "display_name": "【自下而上归纳】在SKILL_1029的技能库中，如何检测并修复'认知孤岛'？系统可能存在大量从未被",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳】在SKILL_1029的技能库中，如何检测并修复'认知孤岛'？系统可能存在大量从未被调用或验证的僵尸技能。需要开发一种'代谢机制'，定期对现有技",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 295
+  }
+}

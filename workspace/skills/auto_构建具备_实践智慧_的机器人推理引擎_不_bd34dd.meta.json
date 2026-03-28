@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建具备_实践智慧_的机器人推理引擎_不_bd34dd",
+  "file": "skills/auto_构建具备_实践智慧_的机器人推理引擎_不_bd34dd.py",
+  "description": "构建具备'实践智慧'的机器人推理引擎。不仅仅是执行指令，而是让AI评估当前环境参数（如物体重量=情境上下文），自动调整执行策略以达成最优'善'（任务目标，如平稳抓取）。这需要引入情境权重机制，使静态Skill节点升级为包含情境判断逻辑的动态函数，实现从'盲目执行'到'审慎行动'的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.892764",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_46_O1_9770",
+  "design_spec": {
+    "name": "auto_构建具备_实践智慧_的机器人推理引擎_不_bd34dd",
+    "display_name": "构建具备'实践智慧'的机器人推理引擎。不仅仅是执行指令，而是让AI评估当前环境参数（如物体重量=情境",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建具备'实践智慧'的机器人推理引擎。不仅仅是执行指令，而是让AI评估当前环境参数（如物体重量=情境上下文），自动调整执行策略以达成最优'善'（任务目标，如平稳",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 287
+  }
+}

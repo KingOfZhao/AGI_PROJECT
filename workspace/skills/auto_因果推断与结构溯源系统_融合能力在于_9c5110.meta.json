@@ -1,0 +1,30 @@
+{
+  "name": "auto_因果推断与结构溯源系统_融合能力在于_9c5110",
+  "file": "skills/auto_因果推断与结构溯源系统_融合能力在于_9c5110.py",
+  "description": "【因果推断与结构溯源系统】。融合能力在于将AI的逻辑推理能力与匠人的系统论思维结合。当面对罕见故障（0样本或小样本）时，系统不试图从历史数据中匹配（因为根本没有），而是调用‘结构化因果图’（SCM），模拟匠人的排查思路：‘如果A点正常，那么B点必然...’。通过这种基于物理/逻辑结构的推演，AI能在只有极少反馈的情况下，迅速定位故障根因，实现超越统计规律的‘直觉级’诊断。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.752784",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_74_O4_297",
+  "design_spec": {
+    "name": "auto_因果推断与结构溯源系统_融合能力在于_9c5110",
+    "display_name": "【因果推断与结构溯源系统】。融合能力在于将AI的逻辑推理能力与匠人的系统论思维结合。当面对罕见故障（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【因果推断与结构溯源系统】。融合能力在于将AI的逻辑推理能力与匠人的系统论思维结合。当面对罕见故障（0样本或小样本）时，系统不试图从历史数据中匹配（因为根本没有",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

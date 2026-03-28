@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何解决_跨域迁移_中的_语义漂移_问题_862ad2",
+  "file": "skills/auto_如何解决_跨域迁移_中的_语义漂移_问题_862ad2.py",
+  "description": "如何解决'跨域迁移'中的'语义漂移'问题？当将一个在'Web爬虫'领域验证过的'文本清洗'Skill迁移到'生物信息学'领域处理基因序列时，需要一种'语义边界检测'机制。该机制能识别出原始Skill的假设前提（如'文本以空格分隔'）在新数据上失效，从而触发'证伪'并拒绝执行，防止产生垃圾数据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_56",
+    "domain_adaptation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:30:48.695679",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_56_Q7_1_3184",
+  "design_spec": {
+    "name": "auto_如何解决_跨域迁移_中的_语义漂移_问题_862ad2",
+    "display_name": "如何解决'跨域迁移'中的'语义漂移'问题？当将一个在'Web爬虫'领域验证过的'文本清洗'Skill",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何解决'跨域迁移'中的'语义漂移'问题？当将一个在'Web爬虫'领域验证过的'文本清洗'Skill迁移到'生物信息学'领域处理基因序列时，需要一种'语义边界检",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一个_结构冲突检测器_用于在引_06836b",
+  "file": "skills/auto_如何构建一个_结构冲突检测器_用于在引_06836b.py",
+  "description": "如何构建一个'结构冲突检测器'，用于在引入新知识时自动识别与现有1190个节点产生逻辑互斥或实践矛盾的节点？重点在于检测'软冲突'（如：方法A在情境X下有效，但与方法B在情境Y下互斥），而非简单的逻辑非。这要求系统具备维护多重上下文语境的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "逻辑推理/冲突检测",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:28.941024",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q2_2_9566",
+  "design_spec": {
+    "name": "auto_如何构建一个_结构冲突检测器_用于在引_06836b",
+    "display_name": "如何构建一个'结构冲突检测器'，用于在引入新知识时自动识别与现有1190个节点产生逻辑互斥或实践矛盾",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一个'结构冲突检测器'，用于在引入新知识时自动识别与现有1190个节点产生逻辑互斥或实践矛盾的节点？重点在于检测'软冲突'（如：方法A在情境X下有效，但",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

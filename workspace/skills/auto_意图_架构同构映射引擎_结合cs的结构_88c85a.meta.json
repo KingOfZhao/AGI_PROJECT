@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图_架构同构映射引擎_结合cs的结构_88c85a",
+  "file": "skills/auto_意图_架构同构映射引擎_结合cs的结构_88c85a.py",
+  "description": "【意图-架构同构映射引擎】结合CS的结构映射算法与SE的形式化规约能力，构建一个能够理解深层隐喻的代码生成器。例如，当用户输入'像管理图书馆一样管理内存'时，系统不仅识别'分类、索引'等表层词汇，而是调用结构映射算法提取'借阅-归还'的闭环逻辑，将其转化为内存的'Allocation-Deallocation'代码约束，并自动生成带有'假设边界'（如：假设内存块像图书一样互不重叠）的Python类结构。这解决了当前LLM仅凭概率生成代码而忽略深层逻辑约束的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.919953",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_48_O1_327",
+  "design_spec": {
+    "name": "auto_意图_架构同构映射引擎_结合cs的结构_88c85a",
+    "display_name": "【意图-架构同构映射引擎】结合CS的结构映射算法与SE的形式化规约能力，构建一个能够理解深层隐喻的代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图-架构同构映射引擎】结合CS的结构映射算法与SE的形式化规约能力，构建一个能够理解深层隐喻的代码生成器。例如，当用户输入'像管理图书馆一样管理内存'时，系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 255
+  }
+}

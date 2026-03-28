@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳_动态概念漂移检测与节点分_bcb6b7",
+  "file": "skills/auto_自下而上归纳_动态概念漂移检测与节点分_bcb6b7.py",
+  "description": "【自下而上归纳】动态概念漂移检测与节点分裂算法。当前2400个节点是基于历史数据构建的，但随着新实践数据的输入，旧节点（如'营销'）可能含糊不清或已失效。本问题旨在开发一种熵增监测机制，当特定节点的实例数据在向量空间中的方差超过阈值时，自动触发子节点分裂（例如将'地摊营销'分裂为'社区团购'与'夜市零售'），防止认知僵化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.450468",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_90_Q1_1_872",
+  "design_spec": {
+    "name": "auto_自下而上归纳_动态概念漂移检测与节点分_bcb6b7",
+    "display_name": "【自下而上归纳】动态概念漂移检测与节点分裂算法。当前2400个节点是基于历史数据构建的，但随着新实践",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳】动态概念漂移检测与节点分裂算法。当前2400个节点是基于历史数据构建的，但随着新实践数据的输入，旧节点（如'营销'）可能含糊不清或已失效。本问题",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

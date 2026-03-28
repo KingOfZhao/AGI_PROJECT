@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_动态参数化ui引擎_利用cad的_0a1ba1",
+  "file": "skills/auto_提出_动态参数化ui引擎_利用cad的_0a1ba1.py",
+  "description": "提出'动态参数化UI引擎'。利用CAD的几何约束求解器（如解决三角形边长关系的算法）来处理Flutter中复杂的自适应布局问题。不再使用传统的Flex布局，而是将UI元素视为几何体，定义它们之间的距离、角度、比例约束。当屏幕尺寸变化（改变全局参数）时，求解器实时计算出所有UI元素的精确位置和大小，实现像CAD草图那样'刚性'且'拓扑稳定'的响应式布局，特别适用于复杂的大屏仪表盘或汽车HMI界面。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:42:58.468198",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_2_O1_3197",
+  "design_spec": {
+    "name": "auto_提出_动态参数化ui引擎_利用cad的_0a1ba1",
+    "display_name": "提出'动态参数化UI引擎'。利用CAD的几何约束求解器（如解决三角形边长关系的算法）来处理Flutt",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'动态参数化UI引擎'。利用CAD的几何约束求解器（如解决三角形边长关系的算法）来处理Flutter中复杂的自适应布局问题。不再使用传统的Flex布局，而是",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建基于_奥卡姆剃刀_的路径优选算法_ab6c03",
+  "file": "skills/auto_如何构建基于_奥卡姆剃刀_的路径优选算法_ab6c03.py",
+  "description": "如何构建基于'奥卡姆剃刀'的路径优选算法？在解决同一个问题时，可能存在多条推理路径（有的依赖复杂假设，有的依赖基础公理）。系统需量化路径的'结构复杂度'，在结果置信度相似的情况下，强制优选结构最简单的路径，以减少潜在的系统性误差。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "logic_philosophy",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.432881",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_142_Q9_1_8155",
+  "design_spec": {
+    "name": "auto_如何构建基于_奥卡姆剃刀_的路径优选算法_ab6c03",
+    "display_name": "如何构建基于'奥卡姆剃刀'的路径优选算法？在解决同一个问题时，可能存在多条推理路径（有的依赖复杂假设",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建基于'奥卡姆剃刀'的路径优选算法？在解决同一个问题时，可能存在多条推理路径（有的依赖复杂假设，有的依赖基础公理）。系统需量化路径的'结构复杂度'，在结果",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_艾多斯提炼引擎_不再单纯拟合轨迹_dddd2d",
+  "file": "skills/auto_构建_艾多斯提炼引擎_不再单纯拟合轨迹_dddd2d.py",
+  "description": "构建'艾多斯提炼引擎'。不再单纯拟合轨迹数据，而是引入现象学方法，对传感器数据进行分层清洗。AI首先对环境语境进行'加括号'处理，忽略特定工匠的肢体习惯（偶性），专注于工件表面的阻力反馈与工具姿态的纯关系（本质）。这能生成具备极强泛化能力的'元Skill'，使得机器人在面对不同材质工件时，都能复现'雕刻'的本质力学逻辑，而非死记硬背某一条轨迹。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.251640",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_57_O1_785",
+  "design_spec": {
+    "name": "auto_构建_艾多斯提炼引擎_不再单纯拟合轨迹_dddd2d",
+    "display_name": "构建'艾多斯提炼引擎'。不再单纯拟合轨迹数据，而是引入现象学方法，对传感器数据进行分层清洗。AI首先",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'艾多斯提炼引擎'。不再单纯拟合轨迹数据，而是引入现象学方法，对传感器数据进行分层清洗。AI首先对环境语境进行'加括号'处理，忽略特定工匠的肢体习惯（偶性）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 319
+  }
+}

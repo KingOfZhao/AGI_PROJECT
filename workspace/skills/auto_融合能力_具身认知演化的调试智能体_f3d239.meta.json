@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_具身认知演化的调试智能体_f3d239",
+  "file": "skills/auto_融合能力_具身认知演化的调试智能体_f3d239.py",
+  "description": "融合能力：【具身认知演化的调试智能体】。不仅仅是修复代码语法错误，而是构建一个‘认知-代码’双重进化的系统。当代码在沙箱中运行失败时，智能体不仅修复代码（领域A），还将‘失败模式’（如特定的边界条件处理错误）抽象为一个‘反模式真实节点’存入知识库（领域B）。下次遇到类似结构需求时，系统能基于认知层面的‘失败记忆’直接规避错误，而非再次试错。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.547858",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_37_O2_3409",
+  "design_spec": {
+    "name": "auto_融合能力_具身认知演化的调试智能体_f3d239",
+    "display_name": "融合能力：【具身认知演化的调试智能体】。不仅仅是修复代码语法错误，而是构建一个‘认知-代码’双重进化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：【具身认知演化的调试智能体】。不仅仅是修复代码语法错误，而是构建一个‘认知-代码’双重进化的系统。当代码在沙箱中运行失败时，智能体不仅修复代码（领域A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 239
+  }
+}

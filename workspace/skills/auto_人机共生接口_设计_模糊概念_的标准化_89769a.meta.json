@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生接口_设计_模糊概念_的标准化_89769a",
+  "file": "skills/auto_人机共生接口_设计_模糊概念_的标准化_89769a.py",
+  "description": "【人机共生接口】设计‘模糊概念’的标准化协议。人类直觉往往是模糊的，而AI执行需要精确参数。如何建立一个中间层，将人类提供的‘新概念’（如“那种看起来很高级的极简风”）自动转化为可量化的参数向量（配色饱和度<20%, 留白>40%），并回溯验证这是否符合人类初衷？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:26:29.557230",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q5_3_5651",
+  "design_spec": {
+    "name": "auto_人机共生接口_设计_模糊概念_的标准化_89769a",
+    "display_name": "【人机共生接口】设计‘模糊概念’的标准化协议。人类直觉往往是模糊的，而AI执行需要精确参数。如何建立",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生接口】设计‘模糊概念’的标准化协议。人类直觉往往是模糊的，而AI执行需要精确参数。如何建立一个中间层，将人类提供的‘新概念’（如“那种看起来很高级的极",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

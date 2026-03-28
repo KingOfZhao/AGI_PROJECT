@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_可微分编译认知引擎_利用编译器的_8e928d",
+  "file": "skills/auto_提出_可微分编译认知引擎_利用编译器的_8e928d.py",
+  "description": "提出'可微分编译认知引擎'。利用编译器的多遍扫描结构来约束LLM的生成过程。不同于传统的单次生成，该能力将问题求解视为编译优化过程：第一遍生成高层逻辑IR（大纲），第二遍进行逻辑一致性校验（语义分析），第三遍生成最终内容（代码生成）。如果在第二遍发现'类型错误'（逻辑漏洞），则回溯调整提示词（符号表），实现基于编译器逻辑的'自愈式'内容生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.719456",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_99_O1_3343",
+  "design_spec": {
+    "name": "auto_提出_可微分编译认知引擎_利用编译器的_8e928d",
+    "display_name": "提出'可微分编译认知引擎'。利用编译器的多遍扫描结构来约束LLM的生成过程。不同于传统的单次生成，该",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'可微分编译认知引擎'。利用编译器的多遍扫描结构来约束LLM的生成过程。不同于传统的单次生成，该能力将问题求解视为编译优化过程：第一遍生成高层逻辑IR（大纲",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

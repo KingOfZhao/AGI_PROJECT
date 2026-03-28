@@ -1,0 +1,30 @@
+{
+  "name": "auto_非结构化文本到可执行_真实节点_的自动固_d986c8",
+  "file": "skills/auto_非结构化文本到可执行_真实节点_的自动固_d986c8.py",
+  "description": "非结构化文本到可执行'真实节点'的自动固化与去伪。AI每天摄入大量文本，但大部分无法成为'真实节点'。问题在于：如何建立一个自动化流水线，将非结构化信息（如新闻、论文）拆解为原子化的'行动-结果'对，并自动分配'置信度'，只有在人类实践反馈验证后才提升置信度，否则自动标记为'噪声'？这涉及到因果推断与相关性剥离。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.643615",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q4_2_8624",
+  "design_spec": {
+    "name": "auto_非结构化文本到可执行_真实节点_的自动固_d986c8",
+    "display_name": "非结构化文本到可执行'真实节点'的自动固化与去伪。AI每天摄入大量文本，但大部分无法成为'真实节点'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "非结构化文本到可执行'真实节点'的自动固化与去伪。AI每天摄入大量文本，但大部分无法成为'真实节点'。问题在于：如何建立一个自动化流水线，将非结构化信息（如新闻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实时参动式数字孪生引擎_将cad_5bdb1e",
+  "file": "skills/auto_构建_实时参动式数字孪生引擎_将cad_5bdb1e.py",
+  "description": "构建'实时参动式数字孪生引擎'。将CAD的参数化特征树直接映射为Flutter的Widget树配置。用户在Flutter端拖拽滑块（类似调整Widget属性），直接驱动CAD内核修改几何参数（如拉伸高度、倒角半径），并利用Flutter的高性能渲染能力（通过Texture或PlatformView）实时回传模型视觉更新。这解决了传统CAD软件UI交互滞后、开发复杂的痛点，使移动端轻量化CAD交互成为可能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.776476",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_20_O1_3733",
+  "design_spec": {
+    "name": "auto_构建_实时参动式数字孪生引擎_将cad_5bdb1e",
+    "display_name": "构建'实时参动式数字孪生引擎'。将CAD的参数化特征树直接映射为Flutter的Widget树配置。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'实时参动式数字孪生引擎'。将CAD的参数化特征树直接映射为Flutter的Widget树配置。用户在Flutter端拖拽滑块（类似调整Widget属性），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_一个针对agi输出的_双重保险_验证框架_c9043b",
+  "file": "skills/auto_一个针对agi输出的_双重保险_验证框架_c9043b.py",
+  "description": "一个针对AGI输出的‘双重保险’验证框架。第一层是逻辑/价值观验证（代码语法、法律合规、伦理约束）；第二层是物理世界/极端工况验证（通过生成式对抗网络模拟物理摩擦、公差误差、网络延迟等）。该系统强调‘物质反馈’的引入，即在执行前先在虚拟环境中碰撞现实世界的物理约束，从而实现‘自上而下拆解’与‘自下而上归纳’的安全闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_112",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:03:11.518161",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_112_P4_3072",
+  "design_spec": {
+    "name": "auto_一个针对agi输出的_双重保险_验证框架_c9043b",
+    "display_name": "一个针对AGI输出的‘双重保险’验证框架。第一层是逻辑/价值观验证（代码语法、法律合规、伦理约束）；",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一个针对AGI输出的‘双重保险’验证框架。第一层是逻辑/价值观验证（代码语法、法律合规、伦理约束）；第二层是物理世界/极端工况验证（通过生成式对抗网络模拟物理摩",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

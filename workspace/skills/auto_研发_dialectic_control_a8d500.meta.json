@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_dialectic_control_a8d500",
+  "file": "skills/auto_研发_dialectic_control_a8d500.py",
+  "description": "研发'Dialectic-Control'辩证控制器。该系统主动拥抱'否定'（误差、打滑、过重）。系统不再视'打滑'为单纯的错误，而是视其为环境对当前策略的'批判'（Critique）。控制器利用这种'批判'作为能量源，瞬间触发'Sublation'(扬弃)算法，保留原抓取意图，但废除旧参数，融合环境约束，螺旋上升到更鲁棒的'超抓取'状态。这种能力使机器人具备类似人类的'越挫越勇'的适应力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.169720",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_14_O3_9942",
+  "design_spec": {
+    "name": "auto_研发_dialectic_control_a8d500",
+    "display_name": "研发'Dialectic-Control'辩证控制器。该系统主动拥抱'否定'（误差、打滑、过重）。系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'Dialectic-Control'辩证控制器。该系统主动拥抱'否定'（误差、打滑、过重）。系统不再视'打滑'为单纯的错误，而是视其为环境对当前策略的'批",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 239
+  }
+}

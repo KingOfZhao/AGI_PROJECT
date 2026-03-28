@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_真实节点固化协议_当ai生成一个_e87669",
+  "file": "skills/auto_建立_真实节点固化协议_当ai生成一个_e87669.py",
+  "description": "建立‘真实节点固化协议’：当AI生成一个假设性节点后，如何自动生成一套最小化的‘实践验证清单’（Toki清单），并将其分发给人类或模拟代理执行？核心在于将自然语言假设转化为可执行（Executable）的测试步骤。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.381762",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_128_Q6_2_1763",
+  "design_spec": {
+    "name": "auto_建立_真实节点固化协议_当ai生成一个_e87669",
+    "display_name": "建立‘真实节点固化协议’：当AI生成一个假设性节点后，如何自动生成一套最小化的‘实践验证清单’（To",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立‘真实节点固化协议’：当AI生成一个假设性节点后，如何自动生成一套最小化的‘实践验证清单’（Toki清单），并将其分发给人类或模拟代理执行？核心在于将自然语",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

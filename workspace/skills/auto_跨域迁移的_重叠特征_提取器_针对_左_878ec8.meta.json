@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移的_重叠特征_提取器_针对_左_878ec8",
+  "file": "skills/auto_跨域迁移的_重叠特征_提取器_针对_左_878ec8.py",
+  "description": "跨域迁移的'重叠特征'提取器: 针对'左右跨域重叠'这一认知动作, 需要一种算法能从两个看似无关的节点(如'生物学免疫系统'和'计算机网络安全')中, 自动提取出同构的抽象结构(如'识别-攻击-记忆'模式), 并将其固化为一个新的通用节点.",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.228112",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_102_Q6_0_7379",
+  "design_spec": {
+    "name": "auto_跨域迁移的_重叠特征_提取器_针对_左_878ec8",
+    "display_name": "跨域迁移的'重叠特征'提取器: 针对'左右跨域重叠'这一认知动作, 需要一种算法能从两个看似无关的节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移的'重叠特征'提取器: 针对'左右跨域重叠'这一认知动作, 需要一种算法能从两个看似无关的节点(如'生物学免疫系统'和'计算机网络安全')中, 自动提取",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

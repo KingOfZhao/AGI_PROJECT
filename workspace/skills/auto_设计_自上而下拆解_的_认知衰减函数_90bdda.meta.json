@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_自上而下拆解_的_认知衰减函数_90bdda",
+  "file": "skills/auto_设计_自上而下拆解_的_认知衰减函数_90bdda.py",
+  "description": "设计'自上而下拆解'的'认知衰减函数'。为了解决人类寿命限制导致的狭隘，系统需主动'遗忘'或'降权'那些长期未被实践证伪的'僵尸节点'。如何计算节点的'半衰期'，使其既不被信息洪流淹没，又能保留古老但核心的智慧？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.635862",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q4_2_9798",
+  "design_spec": {
+    "name": "auto_设计_自上而下拆解_的_认知衰减函数_90bdda",
+    "display_name": "设计'自上而下拆解'的'认知衰减函数'。为了解决人类寿命限制导致的狭隘，系统需主动'遗忘'或'降权'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计'自上而下拆解'的'认知衰减函数'。为了解决人类寿命限制导致的狭隘，系统需主动'遗忘'或'降权'那些长期未被实践证伪的'僵尸节点'。如何计算节点的'半衰期'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 257
+  }
+}

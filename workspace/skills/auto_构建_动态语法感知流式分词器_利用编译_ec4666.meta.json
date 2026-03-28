@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态语法感知流式分词器_利用编译_ec4666",
+  "file": "skills/auto_构建_动态语法感知流式分词器_利用编译_ec4666.py",
+  "description": "构建'动态语法感知流式分词器'。利用编译原理中成熟的正则引擎优化技术（如NFA到DFA的转换、状态压缩），解决NLP中超长上下文或复杂词法规则下的分词性能瓶颈。特别是针对代码混合文本（如包含代码片段的自然语言对话），能够根据上下文动态切换'语法模式'，实现低延迟的精准Token切分，极大提升LLM对结构化文本的解析效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_21",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:48:16.355933",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_21_O1_840",
+  "design_spec": {
+    "name": "auto_构建_动态语法感知流式分词器_利用编译_ec4666",
+    "display_name": "构建'动态语法感知流式分词器'。利用编译原理中成熟的正则引擎优化技术（如NFA到DFA的转换、状态压",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'动态语法感知流式分词器'。利用编译原理中成熟的正则引擎优化技术（如NFA到DFA的转换、状态压缩），解决NLP中超长上下文或复杂词法规则下的分词性能瓶颈。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_认知迷雾突围教学法_ho_123_f90c91",
+  "file": "skills/auto_融合_认知迷雾突围教学法_ho_123_f90c91.py",
+  "description": "融合'认知迷雾突围教学法'（ho_123_O4_8514）与'逆向工程思维链'（td_123_Q4_2_2525）。当AI面对模糊目标（如解决气候变化）时，不再线性拆解，而是构建一个'迷雾沙盘'。系统诱导用户或子模块输入直觉判断，然后展示其荒谬后果，以此反向收敛出非直觉但正确的'核心行动路径'，极大提升解决复杂问题的效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.801931",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_124_E2_4099",
+  "design_spec": {
+    "name": "auto_融合_认知迷雾突围教学法_ho_123_f90c91",
+    "display_name": "融合'认知迷雾突围教学法'（ho_123_O4_8514）与'逆向工程思维链'（td_123_Q4_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'认知迷雾突围教学法'（ho_123_O4_8514）与'逆向工程思维链'（td_123_Q4_2_2525）。当AI面对模糊目标（如解决气候变化）时，不再",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 253
+  }
+}

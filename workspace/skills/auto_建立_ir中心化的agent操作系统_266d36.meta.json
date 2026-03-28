@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_ir中心化的agent操作系统_266d36",
+  "file": "skills/auto_建立_ir中心化的agent操作系统_266d36.py",
+  "description": "建立‘IR中心化的Agent操作系统’。不再将Agent的Workflow视为线性的Prompt链，而是视为对‘意图IR’的迭代编译。Agent的每一次思考、工具使用、批评，都视为一个独立的‘Pass’，作用于这个IR对象。这种方式支持‘任意顺序的Pass组合’和‘Pass的并行化’。如果某个Pass失败（如工具调用错误），可以回滚IR状态，尝试另一个优化Pass（另一种解决路径），极大提升了Agent的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.795628",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_98_O4_8717",
+  "design_spec": {
+    "name": "auto_建立_ir中心化的agent操作系统_266d36",
+    "display_name": "建立‘IR中心化的Agent操作系统’。不再将Agent的Workflow视为线性的Prompt链，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立‘IR中心化的Agent操作系统’。不再将Agent的Workflow视为线性的Prompt链，而是视为对‘意图IR’的迭代编译。Agent的每一次思考、工",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 317
+  }
+}

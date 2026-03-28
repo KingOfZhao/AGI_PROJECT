@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_语义_触觉对齐网络_以解决手工_1b34bc",
+  "file": "skills/auto_如何构建_语义_触觉对齐网络_以解决手工_1b34bc.py",
+  "description": "如何构建“语义-触觉对齐网络”以解决手工艺中“力度”描述的歧义性？人类语言中的“轻轻按压”是模糊的，需要通过力传感器采集真实数据，建立一个将自然语言形容词（如：轻、重、揉、捏）映射到具体物理参数区间（牛顿、帕斯卡）的Embedding空间，实现从语言指令到物理执行的无损转化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.002481",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q3_2_1672",
+  "design_spec": {
+    "name": "auto_如何构建_语义_触觉对齐网络_以解决手工_1b34bc",
+    "display_name": "如何构建“语义-触觉对齐网络”以解决手工艺中“力度”描述的歧义性？人类语言中的“轻轻按压”是模糊的，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建“语义-触觉对齐网络”以解决手工艺中“力度”描述的歧义性？人类语言中的“轻轻按压”是模糊的，需要通过力传感器采集真实数据，建立一个将自然语言形容词（如：",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

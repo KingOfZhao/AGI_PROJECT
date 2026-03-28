@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知映射层_探索_自然语言逻辑连接词_64647a",
+  "file": "skills/auto_认知映射层_探索_自然语言逻辑连接词_64647a.py",
+  "description": "【认知映射层】探索'自然语言逻辑连接词(如果、但是、随后)与代码控制流关键字(if, else, for)的跨域映射机制'。人类语言中的逻辑往往包含语用隐含(implicature)，而代码逻辑是严格的布尔逻辑。需建立映射库处理这种'语义磨损'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "linguistics_programming",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.235824",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q3_3_725",
+  "design_spec": {
+    "name": "auto_认知映射层_探索_自然语言逻辑连接词_64647a",
+    "display_name": "【认知映射层】探索'自然语言逻辑连接词(如果、但是、随后)与代码控制流关键字(if, else, f",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知映射层】探索'自然语言逻辑连接词(如果、但是、随后)与代码控制流关键字(if, else, for)的跨域映射机制'。人类语言中的逻辑往往包含语用隐含(i",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 228
+  }
+}

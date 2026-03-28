@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发一个基于上下文风险等级的动态路由开关_0d0d6b",
+  "file": "skills/auto_开发一个基于上下文风险等级的动态路由开关_0d0d6b.py",
+  "description": "开发一个基于上下文风险等级的动态路由开关，决定在特定场景下是优先'激进联想'还是'保守隔离'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.584102",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_37_G1_3186",
+  "design_spec": {
+    "name": "auto_开发一个基于上下文风险等级的动态路由开关_0d0d6b",
+    "display_name": "开发一个基于上下文风险等级的动态路由开关，决定在特定场景下是优先'激进联想'还是'保守隔离'。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发一个基于上下文风险等级的动态路由开关，决定在特定场景下是优先'激进联想'还是'保守隔离'。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 213
+  }
+}

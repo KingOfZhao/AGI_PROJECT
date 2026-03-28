@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_实践清单转代码_的编译器_当人类通_496940",
+  "file": "skills/auto_设计_实践清单转代码_的编译器_当人类通_496940.py",
+  "description": "设计'实践清单转代码'的编译器。当人类通过物理世界实践（如摆摊）反馈了经验后，系统如何将这些非结构化的文本反馈（如'下雨天伞要倾斜45度'）编译为可执行的Skill节点（Function: set_umbrella_angle(45)）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "nlp_software_eng",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.181926",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_144_Q7_2_6384",
+  "design_spec": {
+    "name": "auto_设计_实践清单转代码_的编译器_当人类通_496940",
+    "display_name": "设计'实践清单转代码'的编译器。当人类通过物理世界实践（如摆摊）反馈了经验后，系统如何将这些非结构化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计'实践清单转代码'的编译器。当人类通过物理世界实践（如摆摊）反馈了经验后，系统如何将这些非结构化的文本反馈（如'下雨天伞要倾斜45度'）编译为可执行的Ski",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

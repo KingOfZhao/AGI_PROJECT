@@ -1,0 +1,30 @@
+{
+  "name": "auto_长效上下文的身份保持图谱_开发一种融合_8d30be",
+  "file": "skills/auto_长效上下文的身份保持图谱_开发一种融合_8d30be.py",
+  "description": "【长效上下文的身份保持图谱】开发一种融合了‘变量作用域’概念的对话记忆机制。系统构建一个‘实体状态图’，记录每个实体（无论是代码变量还是对话概念）的生命周期和状态变更。当进行8-10步的长推理或代码生成时，系统利用该图谱动态调整Attention Mask，强制模型聚焦于当前‘作用域’内的活跃实体，防止‘幻觉’或‘引用失效’，实现跨长度的逻辑一致性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.230821",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_144_O3_5783",
+  "design_spec": {
+    "name": "auto_长效上下文的身份保持图谱_开发一种融合_8d30be",
+    "display_name": "【长效上下文的身份保持图谱】开发一种融合了‘变量作用域’概念的对话记忆机制。系统构建一个‘实体状态图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【长效上下文的身份保持图谱】开发一种融合了‘变量作用域’概念的对话记忆机制。系统构建一个‘实体状态图’，记录每个实体（无论是代码变量还是对话概念）的生命周期和状",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_工业级数据可视化与交互沙盒_将c_fd647a",
+  "file": "skills/auto_实现_工业级数据可视化与交互沙盒_将c_fd647a.py",
+  "description": "实现'工业级数据可视化与交互沙盒'。将CAD的专业图层管理(按属性、类型、工程阶段分组)完整移植到Flutter应用中。用户可以在移动端通过手势对复杂图纸进行'剥洋葱'式的查看(如隐藏混凝土结构，只看管路)，并利用Flutter的高性能光栅化对特定图层添加实时动态效果(如高亮流动的水管动画)，解决CAD图纸在移动端难交互、难分层的痛点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.250457",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_102_O3_4839",
+  "design_spec": {
+    "name": "auto_实现_工业级数据可视化与交互沙盒_将c_fd647a",
+    "display_name": "实现'工业级数据可视化与交互沙盒'。将CAD的专业图层管理(按属性、类型、工程阶段分组)完整移植到F",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'工业级数据可视化与交互沙盒'。将CAD的专业图层管理(按属性、类型、工程阶段分组)完整移植到Flutter应用中。用户可以在移动端通过手势对复杂图纸进行'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 328
+  }
+}

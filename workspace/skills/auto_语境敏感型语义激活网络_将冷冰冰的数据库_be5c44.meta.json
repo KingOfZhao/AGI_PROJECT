@@ -1,0 +1,30 @@
+{
+  "name": "auto_语境敏感型语义激活网络_将冷冰冰的数据库_be5c44",
+  "file": "skills/auto_语境敏感型语义激活网络_将冷冰冰的数据库_be5c44.py",
+  "description": "语境敏感型语义激活网络。将冷冰冰的数据库外键升级为带有'语境权重'的动态连接。在数据查询时，AI不仅检索精确匹配，还模拟大脑的'启动效应'，预加载高概率关联的背景知识。例如，在分析财务数据时，系统不仅提取数值，还根据当前市场环境（语境），自动激活相关的宏观经济指标或历史危机案例（联想节点），实现从'检索'到'联想'的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.363636",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O3_5616",
+  "design_spec": {
+    "name": "auto_语境敏感型语义激活网络_将冷冰冰的数据库_be5c44",
+    "display_name": "语境敏感型语义激活网络。将冷冰冰的数据库外键升级为带有'语境权重'的动态连接。在数据查询时，AI不仅",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "语境敏感型语义激活网络。将冷冰冰的数据库外键升级为带有'语境权重'的动态连接。在数据查询时，AI不仅检索精确匹配，还模拟大脑的'启动效应'，预加载高概率关联的背",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

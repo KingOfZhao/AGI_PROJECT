@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究_主动物理探针_算法_在sim2re_241d80",
+  "file": "skills/auto_研究_主动物理探针_算法_在sim2re_241d80.py",
+  "description": "研究'主动物理探针'算法，在Sim2Real不确定边界时，自动生成最小成本的现实测试用例。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.684839",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_121_G2_4709",
+  "design_spec": {
+    "name": "auto_研究_主动物理探针_算法_在sim2re_241d80",
+    "display_name": "研究'主动物理探针'算法，在Sim2Real不确定边界时，自动生成最小成本的现实测试用例。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究'主动物理探针'算法，在Sim2Real不确定边界时，自动生成最小成本的现实测试用例。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_局部自洽性边界划定_在建立庞大跨域网络_d86df5",
+  "file": "skills/auto_局部自洽性边界划定_在建立庞大跨域网络_d86df5.py",
+  "description": "【局部自洽性边界划定】在建立庞大跨域网络时，如何防止‘错误级联’？即一个伪节点污染整个网络。需要实现‘局部自洽沙箱’技术，允许新迁移的知识仅在特定子图中生效，直到其置信度超过阈值。这涉及到图数据库的事务隔离级别设计。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.783007",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q7_3_5248",
+  "design_spec": {
+    "name": "auto_局部自洽性边界划定_在建立庞大跨域网络_d86df5",
+    "display_name": "【局部自洽性边界划定】在建立庞大跨域网络时，如何防止‘错误级联’？即一个伪节点污染整个网络。需要实现",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【局部自洽性边界划定】在建立庞大跨域网络时，如何防止‘错误级联’？即一个伪节点污染整个网络。需要实现‘局部自洽沙箱’技术，允许新迁移的知识仅在特定子图中生效，直",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

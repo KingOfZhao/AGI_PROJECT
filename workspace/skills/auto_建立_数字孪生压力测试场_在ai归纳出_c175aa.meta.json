@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_数字孪生压力测试场_在ai归纳出_c175aa",
+  "file": "skills/auto_建立_数字孪生压力测试场_在ai归纳出_c175aa.py",
+  "description": "建立'数字孪生压力测试场'。在AI归纳出新工艺流程（新节点）后，自动在物理仿真环境中引入极端变量（如虚拟酸性环境、超高压力），以此作为'主动生成的反例'攻击新节点。通过率低的节点自动降级，从而在不消耗实体材料的情况下筛选出高鲁棒性的创新工艺。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.699111",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O3_8317",
+  "design_spec": {
+    "name": "auto_建立_数字孪生压力测试场_在ai归纳出_c175aa",
+    "display_name": "建立'数字孪生压力测试场'。在AI归纳出新工艺流程（新节点）后，自动在物理仿真环境中引入极端变量（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'数字孪生压力测试场'。在AI归纳出新工艺流程（新节点）后，自动在物理仿真环境中引入极端变量（如虚拟酸性环境、超高压力），以此作为'主动生成的反例'攻击新节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

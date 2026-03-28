@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_意图对齐_基于982个已有认_b9cbe5",
+  "file": "skills/auto_人机共生_意图对齐_基于982个已有认_b9cbe5.py",
+  "description": "【人机共生-意图对齐】基于982个已有认知节点，如何构建一个动态权重图算法，以识别用户输入与现有'真实节点'之间的语义鸿沟？目标是将人类模糊的自然语言需求（如'我想优化代码'）精准映射为系统内缺失的具体认知节点，而非简单的关键词匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.717234",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_32_Q1_0_929",
+  "design_spec": {
+    "name": "auto_人机共生_意图对齐_基于982个已有认_b9cbe5",
+    "display_name": "【人机共生-意图对齐】基于982个已有认知节点，如何构建一个动态权重图算法，以识别用户输入与现有'真",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生-意图对齐】基于982个已有认知节点，如何构建一个动态权重图算法，以识别用户输入与现有'真实节点'之间的语义鸿沟？目标是将人类模糊的自然语言需求（如'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

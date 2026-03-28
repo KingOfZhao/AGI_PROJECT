@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于llm语义向量空间的_认知重叠_检测_44dc0c",
+  "file": "skills/auto_基于llm语义向量空间的_认知重叠_检测_44dc0c.py",
+  "description": "基于LLM语义向量空间的“认知重叠”检测与节点合并机制：为了实现“左右跨域重叠”并固化真实节点，需要开发一种自动化工具，计算新输入信息与现有2365个节点在语义空间中的重叠度。如果两个节点描述不同但指代的实践逻辑完全一致（如“摆摊选址”与“流量入口分析”），系统应能识别这种重叠并触发合并或链接建议，防止认知冗余。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "nlp_cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.820611",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_88_Q2_0_113",
+  "design_spec": {
+    "name": "auto_基于llm语义向量空间的_认知重叠_检测_44dc0c",
+    "display_name": "基于LLM语义向量空间的“认知重叠”检测与节点合并机制：为了实现“左右跨域重叠”并固化真实节点，需要",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于LLM语义向量空间的“认知重叠”检测与节点合并机制：为了实现“左右跨域重叠”并固化真实节点，需要开发一种自动化工具，计算新输入信息与现有2365个节点在语义",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 233
+  }
+}

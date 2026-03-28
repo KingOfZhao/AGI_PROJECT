@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_动态表型架构_能力_该能力允许系统_4cd970",
+  "file": "skills/auto_提出_动态表型架构_能力_该能力允许系统_4cd970.py",
+  "description": "提出'动态表型架构'能力。该能力允许系统像干细胞分化一样，部署同一份核心代码（基因型），但根据部署区域的网络延迟、数据隐私法规或硬件资源（微环境），自动'表达'出不同的功能特性和连接方式。例如，一个边缘计算节点在断网时会自动退化为本地缓存模式（类似厌氧呼吸），而非直接报错。这种机制将'容错'从代码逻辑层面提升到了架构生存层面，极大提升了AGI在物理世界中的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.436749",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_142_O1_2616",
+  "design_spec": {
+    "name": "auto_提出_动态表型架构_能力_该能力允许系统_4cd970",
+    "display_name": "提出'动态表型架构'能力。该能力允许系统像干细胞分化一样，部署同一份核心代码（基因型），但根据部署区",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'动态表型架构'能力。该能力允许系统像干细胞分化一样，部署同一份核心代码（基因型），但根据部署区域的网络延迟、数据隐私法规或硬件资源（微环境），自动'表达'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

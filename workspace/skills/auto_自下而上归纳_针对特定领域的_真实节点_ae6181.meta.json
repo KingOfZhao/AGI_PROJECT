@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳_针对特定领域的_真实节点_ae6181",
+  "file": "skills/auto_自下而上归纳_针对特定领域的_真实节点_ae6181.py",
+  "description": "【自下而上归纳】针对特定领域的'真实节点'，验证AI是否具备结构化复现能力。要求AI仅依据几个散乱的关键词（如'摆摊'、'选址'），利用已有节点构建出一份包含供应链、定价策略、风险控制的完整商业计划书，而非通用的营销废话。这测试AI是否真正理解节点间的逻辑因果，而非仅仅是语言平滑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_41",
+    "cognitive_modeling",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:25:13.393694",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_41_Q1_2_9284",
+  "design_spec": {
+    "name": "auto_自下而上归纳_针对特定领域的_真实节点_ae6181",
+    "display_name": "【自下而上归纳】针对特定领域的'真实节点'，验证AI是否具备结构化复现能力。要求AI仅依据几个散乱的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳】针对特定领域的'真实节点'，验证AI是否具备结构化复现能力。要求AI仅依据几个散乱的关键词（如'摆摊'、'选址'），利用已有节点构建出一份包含供",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

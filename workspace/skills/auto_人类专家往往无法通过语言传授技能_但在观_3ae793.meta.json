@@ -1,0 +1,30 @@
+{
+  "name": "auto_人类专家往往无法通过语言传授技能_但在观_3ae793",
+  "file": "skills/auto_人类专家往往无法通过语言传授技能_但在观_3ae793.py",
+  "description": "人类专家往往无法通过语言传授技能，但在观察学习者动作时能产生'纠错直觉'。问题在于：能否构建一个'反向演示'接口，让专家在观看AI模拟动作时进行干预（如拖拽、力的反馈），系统即时捕获这种干预行为，将其反推为损失函数的梯度更新，从而在没有标签数据的情况下优化AI的策略网络？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "reinforcement_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.689689",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q4_0_2088",
+  "design_spec": {
+    "name": "auto_人类专家往往无法通过语言传授技能_但在观_3ae793",
+    "display_name": "人类专家往往无法通过语言传授技能，但在观察学习者动作时能产生'纠错直觉'。问题在于：能否构建一个'反",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人类专家往往无法通过语言传授技能，但在观察学习者动作时能产生'纠错直觉'。问题在于：能否构建一个'反向演示'接口，让专家在观看AI模拟动作时进行干预（如拖拽、力",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

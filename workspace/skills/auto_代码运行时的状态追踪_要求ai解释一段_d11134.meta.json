@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码运行时的状态追踪_要求ai解释一段_d11134",
+  "file": "skills/auto_代码运行时的状态追踪_要求ai解释一段_d11134.py",
+  "description": "【代码运行时的状态追踪】要求AI解释一段递归代码在特定输入下的执行过程，并以'逐帧'的方式输出内存堆栈的变化。这验证AI是否拥有内部的世界模型，能模拟物理世界的运行过程，而非仅仅是模式匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "computer_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.389362",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q9_0_4124",
+  "design_spec": {
+    "name": "auto_代码运行时的状态追踪_要求ai解释一段_d11134",
+    "display_name": "【代码运行时的状态追踪】要求AI解释一段递归代码在特定输入下的执行过程，并以'逐帧'的方式输出内存堆",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【代码运行时的状态追踪】要求AI解释一段递归代码在特定输入下的执行过程，并以'逐帧'的方式输出内存堆栈的变化。这验证AI是否拥有内部的世界模型，能模拟物理世界的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

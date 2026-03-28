@@ -1,0 +1,30 @@
+{
+  "name": "auto_向量空间几何拓扑映射_针对异构知识节点_d874ed",
+  "file": "skills/auto_向量空间几何拓扑映射_针对异构知识节点_d874ed.py",
+  "description": "【向量空间几何拓扑映射】针对异构知识节点（如'烹饪火候'与'化学反应温度'），如何构建一个非线性的嵌入映射函数，使得在各自领域内语义距离相等的节点，在统一高维向量空间中保持等距，且不破坏原有簇的拓扑结构？这解决的是跨域迁移中的'坐标系统一'问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.782267",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q1_1_562",
+  "design_spec": {
+    "name": "auto_向量空间几何拓扑映射_针对异构知识节点_d874ed",
+    "display_name": "【向量空间几何拓扑映射】针对异构知识节点（如'烹饪火候'与'化学反应温度'），如何构建一个非线性的嵌",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【向量空间几何拓扑映射】针对异构知识节点（如'烹饪火候'与'化学反应温度'），如何构建一个非线性的嵌入映射函数，使得在各自领域内语义距离相等的节点，在统一高维向",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

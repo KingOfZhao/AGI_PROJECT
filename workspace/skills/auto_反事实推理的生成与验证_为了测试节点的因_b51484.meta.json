@@ -1,0 +1,30 @@
+{
+  "name": "auto_反事实推理的生成与验证_为了测试节点的因_b51484",
+  "file": "skills/auto_反事实推理的生成与验证_为了测试节点的因_b51484.py",
+  "description": "反事实推理的生成与验证：为了测试节点的因果性而非仅仅是相关性，系统需要具备生成“反事实”样本的能力（例如：“如果当时没有下雨，摆摊收入会如何变化？”）。如何构建一个反事实推理引擎，利用历史数据构建因果图，并通过Do-calculus干预计算来证伪那些伪相关的节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.400927",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q8_3_5254",
+  "design_spec": {
+    "name": "auto_反事实推理的生成与验证_为了测试节点的因_b51484",
+    "display_name": "反事实推理的生成与验证：为了测试节点的因果性而非仅仅是相关性，系统需要具备生成“反事实”样本的能力（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "反事实推理的生成与验证：为了测试节点的因果性而非仅仅是相关性，系统需要具备生成“反事实”样本的能力（例如：“如果当时没有下雨，摆摊收入会如何变化？”）。如何构建",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

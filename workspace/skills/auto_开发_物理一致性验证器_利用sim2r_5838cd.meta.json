@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_物理一致性验证器_利用sim2r_5838cd",
+  "file": "skills/auto_开发_物理一致性验证器_利用sim2r_5838cd.py",
+  "description": "开发'物理一致性验证器'，利用Sim2Real环境作为ground truth，对所有新生成的代码类节点进行沙箱运行，验证其物理可行性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.819178",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_122_G1_9921",
+  "design_spec": {
+    "name": "auto_开发_物理一致性验证器_利用sim2r_5838cd",
+    "display_name": "开发'物理一致性验证器'，利用Sim2Real环境作为ground truth，对所有新生成的代码类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'物理一致性验证器'，利用Sim2Real环境作为ground truth，对所有新生成的代码类节点进行沙箱运行，验证其物理可行性。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 384
+  }
+}

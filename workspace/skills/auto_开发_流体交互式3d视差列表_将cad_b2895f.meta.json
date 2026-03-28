@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_流体交互式3d视差列表_将cad_b2895f",
+  "file": "skills/auto_开发_流体交互式3d视差列表_将cad_b2895f.py",
+  "description": "开发'流体交互式3D视差列表'。将CAD的曲面变形算法应用于ListView的滑动交互中。列表不再只是平移，而是沿着一条3D样条曲线(Spline)进行'卷曲'滑动。用户滑动列表时，列表项像流体或软体一样发生形变，产生物理级的阻尼感和形变视觉效果，打破传统移动端UI的刚性平面限制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.151068",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_7_O2_1176",
+  "design_spec": {
+    "name": "auto_开发_流体交互式3d视差列表_将cad_b2895f",
+    "display_name": "开发'流体交互式3D视差列表'。将CAD的曲面变形算法应用于ListView的滑动交互中。列表不再只",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'流体交互式3D视差列表'。将CAD的曲面变形算法应用于ListView的滑动交互中。列表不再只是平移，而是沿着一条3D样条曲线(Spline)进行'卷曲'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

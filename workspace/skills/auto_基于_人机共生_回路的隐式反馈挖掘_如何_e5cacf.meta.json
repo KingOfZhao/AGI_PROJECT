@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机共生_回路的隐式反馈挖掘_如何_e5cacf",
+  "file": "skills/auto_基于_人机共生_回路的隐式反馈挖掘_如何_e5cacf.py",
+  "description": "基于'人机共生'回路的隐式反馈挖掘。如何从人类用户的'实践证伪'行为（如重写AI生成的代码、手动修正操作步骤）中提取负反馈信号？需要设计一种算法，将用户的编辑距离或操作回溯自动转化为对特定SKILL节点的'置信度惩罚值'，而非仅仅依赖显式的点赞/点踩。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.692482",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_95_Q3_2_985",
+  "design_spec": {
+    "name": "auto_基于_人机共生_回路的隐式反馈挖掘_如何_e5cacf",
+    "display_name": "基于'人机共生'回路的隐式反馈挖掘。如何从人类用户的'实践证伪'行为（如重写AI生成的代码、手动修正",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'人机共生'回路的隐式反馈挖掘。如何从人类用户的'实践证伪'行为（如重写AI生成的代码、手动修正操作步骤）中提取负反馈信号？需要设计一种算法，将用户的编辑距",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 259
+  }
+}

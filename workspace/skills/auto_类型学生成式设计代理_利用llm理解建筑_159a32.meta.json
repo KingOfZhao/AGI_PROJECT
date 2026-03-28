@@ -1,0 +1,30 @@
+{
+  "name": "auto_类型学生成式设计代理_利用llm理解建筑_159a32",
+  "file": "skills/auto_类型学生成式设计代理_利用llm理解建筑_159a32.py",
+  "description": "类型学生成式设计代理。利用LLM理解建筑规范与功能类型，构建一个'语义-空间'对齐的流形空间。在这个空间中，'厨房'到'餐厅'的测地线距离应极短，而到'厕所'的距离受规范约束。AI不仅能生成图纸，还能在潜在空间中进行'类型变异'（如将教堂的空间感融合到住宅中），创造出既符合功能逻辑又具备陌生化美感的建筑方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_94",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:50:15.563949",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_94_O2_1428",
+  "design_spec": {
+    "name": "auto_类型学生成式设计代理_利用llm理解建筑_159a32",
+    "display_name": "类型学生成式设计代理。利用LLM理解建筑规范与功能类型，构建一个'语义-空间'对齐的流形空间。在这个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "类型学生成式设计代理。利用LLM理解建筑规范与功能类型，构建一个'语义-空间'对齐的流形空间。在这个空间中，'厨房'到'餐厅'的测地线距离应极短，而到'厕所'的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

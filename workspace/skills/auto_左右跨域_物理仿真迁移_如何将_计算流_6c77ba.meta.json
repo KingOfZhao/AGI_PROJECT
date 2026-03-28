@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域_物理仿真迁移_如何将_计算流_6c77ba",
+  "file": "skills/auto_左右跨域_物理仿真迁移_如何将_计算流_6c77ba.py",
+  "description": "【左右跨域-物理仿真迁移】如何将‘计算流体力学（CFD）’的仿真参数转化为AGI系统的‘直觉’节点？即：不运行完整仿真（耗时），而是训练一个轻量级代理模型，根据几何形状快速预测流体阻力，使AGI能像资深工程师一样‘一眼看出’设计中的流线型缺陷。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "mechanical_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.448173",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q3_1_9813",
+  "design_spec": {
+    "name": "auto_左右跨域_物理仿真迁移_如何将_计算流_6c77ba",
+    "display_name": "【左右跨域-物理仿真迁移】如何将‘计算流体力学（CFD）’的仿真参数转化为AGI系统的‘直觉’节点？",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域-物理仿真迁移】如何将‘计算流体力学（CFD）’的仿真参数转化为AGI系统的‘直觉’节点？即：不运行完整仿真（耗时），而是训练一个轻量级代理模型，根据",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 322
+  }
+}

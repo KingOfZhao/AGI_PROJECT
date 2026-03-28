@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建多模态对齐模型_将高频振动传感器_7bea38",
+  "file": "skills/auto_如何构建多模态对齐模型_将高频振动传感器_7bea38.py",
+  "description": "如何构建多模态对齐模型，将高频振动传感器数据与自然语言描述（如'轴承磨损的异响'）进行语义绑定，以生成可被检索的感官-语义节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.763551",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_20_Q1_3_8637",
+  "design_spec": {
+    "name": "auto_如何构建多模态对齐模型_将高频振动传感器_7bea38",
+    "display_name": "如何构建多模态对齐模型，将高频振动传感器数据与自然语言描述（如'轴承磨损的异响'）进行语义绑定，以生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建多模态对齐模型，将高频振动传感器数据与自然语言描述（如'轴承磨损的异响'）进行语义绑定，以生成可被检索的感官-语义节点？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

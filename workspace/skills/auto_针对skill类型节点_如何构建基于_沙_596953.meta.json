@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对skill类型节点_如何构建基于_沙_596953",
+  "file": "skills/auto_针对skill类型节点_如何构建基于_沙_596953.py",
+  "description": "针对SKILL类型节点，如何构建基于‘沙箱模拟’的自动化回归测试机制？该机制需能动态生成测试用例（输入-输出对），并在隔离环境中执行代码类节点。目标是在无需人工干预的情况下，监测节点功能随环境变化（如依赖库版本更新、关联节点变动）的健壮性。若节点在沙箱中的执行成功率低于设定阈值，则触发淘汰警告。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.547875",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q1_0_5436",
+  "design_spec": {
+    "name": "auto_针对skill类型节点_如何构建基于_沙_596953",
+    "display_name": "针对SKILL类型节点，如何构建基于‘沙箱模拟’的自动化回归测试机制？该机制需能动态生成测试用例（输",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对SKILL类型节点，如何构建基于‘沙箱模拟’的自动化回归测试机制？该机制需能动态生成测试用例（输入-输出对），并在隔离环境中执行代码类节点。目标是在无需人工",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

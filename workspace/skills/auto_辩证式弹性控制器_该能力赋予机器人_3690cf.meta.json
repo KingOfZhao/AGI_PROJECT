@@ -1,0 +1,30 @@
+{
+  "name": "auto_辩证式弹性控制器_该能力赋予机器人_3690cf",
+  "file": "skills/auto_辩证式弹性控制器_该能力赋予机器人_3690cf.py",
+  "description": "‘辩证式弹性控制器’。该能力赋予机器人‘拥抱矛盾’的特性。当传感器检测到阻力（反题）超过阈值时，系统不是简单地进行刚性对抗，而是评估‘对抗’与‘顺应’的辩证关系。例如在装配任务中，遇到卡顿不是盲目增加力矩，而是通过‘退让’（否定当前动作）来寻找新的路径（合题）。系统持续记录这种‘冲突-解决’对，将物理交互转化为技能进化的辩证逻辑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.505737",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_22_O4_1176",
+  "design_spec": {
+    "name": "auto_辩证式弹性控制器_该能力赋予机器人_3690cf",
+    "display_name": "‘辩证式弹性控制器’。该能力赋予机器人‘拥抱矛盾’的特性。当传感器检测到阻力（反题）超过阈值时，系统",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘辩证式弹性控制器’。该能力赋予机器人‘拥抱矛盾’的特性。当传感器检测到阻力（反题）超过阈值时，系统不是简单地进行刚性对抗，而是评估‘对抗’与‘顺应’的辩证关系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

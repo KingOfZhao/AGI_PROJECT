@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于曲式逻辑的实践闭环检测器_用于评估一_f4fd07",
+  "file": "skills/auto_基于曲式逻辑的实践闭环检测器_用于评估一_f4fd07.py",
+  "description": "基于曲式逻辑的实践闭环检测器。用于评估一个AGI生成的方案是否具备'完整性'和'可执行性'。系统不检查代码逻辑，而是检查其'曲式结构'：是否有明确的'呈示部'（问题定义）、'展开部'（跨域迁移/碰撞）、'再现部'（回归原问题解决）。如果系统检测到知识链条缺失'再现部'（即未经过实践证伪或未产生真实反馈），则判定该节点为'开放乐段'，不予固化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.818950",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O5_2104",
+  "design_spec": {
+    "name": "auto_基于曲式逻辑的实践闭环检测器_用于评估一_f4fd07",
+    "display_name": "基于曲式逻辑的实践闭环检测器。用于评估一个AGI生成的方案是否具备'完整性'和'可执行性'。系统不检",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于曲式逻辑的实践闭环检测器。用于评估一个AGI生成的方案是否具备'完整性'和'可执行性'。系统不检查代码逻辑，而是检查其'曲式结构'：是否有明确的'呈示部'（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

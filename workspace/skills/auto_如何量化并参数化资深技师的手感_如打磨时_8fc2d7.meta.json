@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何量化并参数化资深技师的手感_如打磨时_8fc2d7",
+  "file": "skills/auto_如何量化并参数化资深技师的手感_如打磨时_8fc2d7.py",
+  "description": "如何量化并参数化资深技师的手感（如打磨时的阻力反馈、进刀节奏），将其转化为机器人可执行的轨迹规划参数，实现隐性知识的显性化？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "robotics_hri",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.766109",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_20_Q4_3_8637",
+  "design_spec": {
+    "name": "auto_如何量化并参数化资深技师的手感_如打磨时_8fc2d7",
+    "display_name": "如何量化并参数化资深技师的手感（如打磨时的阻力反馈、进刀节奏），将其转化为机器人可执行的轨迹规划参数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何量化并参数化资深技师的手感（如打磨时的阻力反馈、进刀节奏），将其转化为机器人可执行的轨迹规划参数，实现隐性知识的显性化？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

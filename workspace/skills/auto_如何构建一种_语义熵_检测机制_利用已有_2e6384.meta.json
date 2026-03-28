@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一种_语义熵_检测机制_利用已有_2e6384",
+  "file": "skills/auto_如何构建一种_语义熵_检测机制_利用已有_2e6384.py",
+  "description": "如何构建一种'语义熵'检测机制，利用已有的1778个节点作为上下文参照系，量化用户输入意图的模糊程度？该机制需判断用户输入是包含具体的逻辑结构（可自上而下拆解），还是仅仅包含模糊的情绪或愿景（需自下而上诱导）。目标是将非结构化意图映射到0-1的'结构化评分'，决定是触发'澄清对话'还是直接进入'代码生成'流水线。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "agi_cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.002292",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q1_1_7855",
+  "design_spec": {
+    "name": "auto_如何构建一种_语义熵_检测机制_利用已有_2e6384",
+    "display_name": "如何构建一种'语义熵'检测机制，利用已有的1778个节点作为上下文参照系，量化用户输入意图的模糊程度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一种'语义熵'检测机制，利用已有的1778个节点作为上下文参照系，量化用户输入意图的模糊程度？该机制需判断用户输入是包含具体的逻辑结构（可自上而下拆解）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

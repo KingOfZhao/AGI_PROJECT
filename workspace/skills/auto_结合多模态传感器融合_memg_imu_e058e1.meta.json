@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合多模态传感器融合_memg_imu_e058e1",
+  "file": "skills/auto_结合多模态传感器融合_memg_imu_e058e1.py",
+  "description": "结合多模态传感器融合（MEMG+IMU）与认知摩擦力检测，系统不仅能理解物理动作，还能感知动作执行过程中的'认知难度'。例如，AI不仅能模仿陶艺拉坯的动作，还能识别出哪些动作对新手来说是'高摩擦力'的难点，从而自动生成针对性的辅助教学或工具改进建议。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.954047",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_108_E1_7011",
+  "design_spec": {
+    "name": "auto_结合多模态传感器融合_memg_imu_e058e1",
+    "display_name": "结合多模态传感器融合（MEMG+IMU）与认知摩擦力检测，系统不仅能理解物理动作，还能感知动作执行过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合多模态传感器融合（MEMG+IMU）与认知摩擦力检测，系统不仅能理解物理动作，还能感知动作执行过程中的'认知难度'。例如，AI不仅能模仿陶艺拉坯的动作，还能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 344
+  }
+}

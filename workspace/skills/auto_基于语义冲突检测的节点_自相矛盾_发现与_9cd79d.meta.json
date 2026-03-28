@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于语义冲突检测的节点_自相矛盾_发现与_9cd79d",
+  "file": "skills/auto_基于语义冲突检测的节点_自相矛盾_发现与_9cd79d.py",
+  "description": "基于语义冲突检测的节点'自相矛盾'发现与仲裁机制。随着节点增加，新旧知识可能冲突（如'地球是平的' vs '地球是圆的'）。需要设计一个语义冲突检测算法，当两个高置信度节点在逻辑上互斥时，触发'认知失调'信号，并生成一个'待解决冲突'的新任务节点，而不是简单地根据时间戳淘汰旧节点。这符合'持续碰撞'的核心价值观。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "logic_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.798118",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q6_2_645",
+  "design_spec": {
+    "name": "auto_基于语义冲突检测的节点_自相矛盾_发现与_9cd79d",
+    "display_name": "基于语义冲突检测的节点'自相矛盾'发现与仲裁机制。随着节点增加，新旧知识可能冲突（如'地球是平的' ",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于语义冲突检测的节点'自相矛盾'发现与仲裁机制。随着节点增加，新旧知识可能冲突（如'地球是平的' vs '地球是圆的'）。需要设计一个语义冲突检测算法，当两个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "自性自动新技能生成器 v3",
+  "description": "根据描述自动生成完整新技能脚本，实现自进化。元规划→LLM生成全脚本→验证→保存→注册到v2协调器。与v1/v2无缝衔接，形成无穷层级闭环。",
+  "tags": [
+    "自进化",
+    "技能生成",
+    "本地模型",
+    "代码生成",
+    "自动化"
+  ],
+  "category": "meta_evolution",
+  "file": "workspace/skills/local_auto_skill_generator_v3.py",
+  "source": "local",
+  "safety_level": "warning",
+  "created_at": "2026-03-25T16:31:00.000000",
+  "forged_by": "user_skill_chain",
+  "version": "v3",
+  "design_spec": {
+    "name": "local_auto_skill_generator_v3",
+    "display_name": "自性自动新技能生成器 v3",
+    "description": "LLM驱动的技能自动生成器，可根据描述生成完整Python技能脚本并保存",
+    "functions": [
+      {
+        "name": "generate_new_skill",
+        "purpose": "根据描述自动生成完整新技能脚本",
+        "params": "skill_description (str): 技能描述, skill_name (str): 技能名, version (str): 版本号",
+        "returns": "str: 生成的完整Python脚本"
+      },
+      {
+        "name": "save_and_register",
+        "purpose": "保存生成的技能脚本并注册",
+        "params": "script_content (str): 脚本内容, filename (str): 文件名",
+        "returns": "str: 保存的文件路径"
+      },
+      {
+        "name": "run_full_chain",
+        "purpose": "启动完整自进化技能生成链",
+        "params": "skill_description (str): 技能描述, skill_name (str): 技能名",
+        "returns": "str: 保存的文件路径"
+      }
+    ],
+    "dependencies": ["requests", "importlib"],
+    "tags": ["自进化", "技能生成", "自动化"],
+    "estimated_lines": 80,
+    "chain_position": 3,
+    "chain_family": "自性技能链"
+  }
+}

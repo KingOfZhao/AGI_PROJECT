@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的技能重组_如何检索并重组异构_e0ce51",
+  "file": "skills/auto_跨域迁移中的技能重组_如何检索并重组异构_e0ce51.py",
+  "description": "跨域迁移中的技能重组：如何检索并重组异构领域的‘真实节点’（SKILL）以匹配当前意图？例如，将‘游戏开发中的碰撞检测’技能迁移到‘金融风控中的异常相交’。这要求系统能够忽略领域特定的变量名，提取底层的数学逻辑（几何碰撞模型），并在新上下文中重新实例化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.257977",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q4_3_4241",
+  "design_spec": {
+    "name": "auto_跨域迁移中的技能重组_如何检索并重组异构_e0ce51",
+    "display_name": "跨域迁移中的技能重组：如何检索并重组异构领域的‘真实节点’（SKILL）以匹配当前意图？例如，将‘游",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的技能重组：如何检索并重组异构领域的‘真实节点’（SKILL）以匹配当前意图？例如，将‘游戏开发中的碰撞检测’技能迁移到‘金融风控中的异常相交’。这要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 313
+  }
+}

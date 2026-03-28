@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_域随机化与因果干预_算法_测试节点_fdcf84",
+  "file": "skills/auto_开发_域随机化与因果干预_算法_测试节点_fdcf84.py",
+  "description": "开发'域随机化与因果干预'算法，测试节点在不同物理参数扰动下的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.146281",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_53_G3_7060",
+  "design_spec": {
+    "name": "auto_开发_域随机化与因果干预_算法_测试节点_fdcf84",
+    "display_name": "开发'域随机化与因果干预'算法，测试节点在不同物理参数扰动下的鲁棒性。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'域随机化与因果干预'算法，测试节点在不同物理参数扰动下的鲁棒性。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

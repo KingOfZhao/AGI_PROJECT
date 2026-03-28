@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈循环_如何构建一个最小化的_059726",
+  "file": "skills/auto_人机共生反馈循环_如何构建一个最小化的_059726.py",
+  "description": "【人机共生反馈循环】如何构建一个最小化的反馈协议，使得人类开发者可以对生成的代码进行“局部证伪”（如指出“这个循环效率太低”），而AI能理解这种非结构化反馈并精准定位到AST节点进行修改，而不是重写整个文件？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "Human-Computer Interaction/AGI",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:34.513864",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q8_3_4775",
+  "design_spec": {
+    "name": "auto_人机共生反馈循环_如何构建一个最小化的_059726",
+    "display_name": "【人机共生反馈循环】如何构建一个最小化的反馈协议，使得人类开发者可以对生成的代码进行“局部证伪”（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生反馈循环】如何构建一个最小化的反馈协议，使得人类开发者可以对生成的代码进行“局部证伪”（如指出“这个循环效率太低”），而AI能理解这种非结构化反馈并精",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

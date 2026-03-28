@@ -1,0 +1,30 @@
+{
+  "name": "auto_反事实数据增强的鲁棒性测试_针对现有的4_b93e85",
+  "file": "skills/auto_反事实数据增强的鲁棒性测试_针对现有的4_b93e85.py",
+  "description": "反事实数据增强的鲁棒性测试：针对现有的468个节点，自动生成'反事实'攻击样本。例如，针对'火焰烹饪'节点，生成'冷水煮食'的描述，测试系统是否能利用物理常识节点进行证伪，而非仅仅依靠概率生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "NLP/知识工程",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.152387",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_14_Q3_3_9530",
+  "design_spec": {
+    "name": "auto_反事实数据增强的鲁棒性测试_针对现有的4_b93e85",
+    "display_name": "反事实数据增强的鲁棒性测试：针对现有的468个节点，自动生成'反事实'攻击样本。例如，针对'火焰烹饪",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "反事实数据增强的鲁棒性测试：针对现有的468个节点，自动生成'反事实'攻击样本。例如，针对'火焰烹饪'节点，生成'冷水煮食'的描述，测试系统是否能利用物理常识节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

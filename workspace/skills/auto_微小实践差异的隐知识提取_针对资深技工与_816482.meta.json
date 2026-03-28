@@ -1,0 +1,30 @@
+{
+  "name": "auto_微小实践差异的隐知识提取_针对资深技工与_816482",
+  "file": "skills/auto_微小实践差异的隐知识提取_针对资深技工与_816482.py",
+  "description": "微小实践差异的隐知识提取：针对资深技工与普通工人的操作差异，这种差异往往未被记录但在实际生产中影响良率。验证AI能否通过对SKILL库中2288个技能节点的执行日志进行对比分析，自动生成新的“隐知识节点”（如“锁螺丝时的微小回旋防止热胀卡死”）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.557424",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q6_1_3869",
+  "design_spec": {
+    "name": "auto_微小实践差异的隐知识提取_针对资深技工与_816482",
+    "display_name": "微小实践差异的隐知识提取：针对资深技工与普通工人的操作差异，这种差异往往未被记录但在实际生产中影响良",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "微小实践差异的隐知识提取：针对资深技工与普通工人的操作差异，这种差异往往未被记录但在实际生产中影响良率。验证AI能否通过对SKILL库中2288个技能节点的执行",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

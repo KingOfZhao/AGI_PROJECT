@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_城市文脉大模型_该模型不凭空创造_d6a5e3",
+  "file": "skills/auto_建立_城市文脉大模型_该模型不凭空创造_d6a5e3.py",
+  "description": "建立'城市文脉大模型'。该模型不凭空创造，而是对海量历史建筑图谱进行'风格蒸馏'。当输入一个新设计的草图时，模型通过Cross-Attention机制，从历史'知识库'中检索并融合最合适的类型学特征（如柱式、开窗比例），生成既符合现代功能又具有深层历史文脉延续性的方案，避免后现代主义的表面拼贴。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.605775",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_60_O3_4387",
+  "design_spec": {
+    "name": "auto_建立_城市文脉大模型_该模型不凭空创造_d6a5e3",
+    "display_name": "建立'城市文脉大模型'。该模型不凭空创造，而是对海量历史建筑图谱进行'风格蒸馏'。当输入一个新设计的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'城市文脉大模型'。该模型不凭空创造，而是对海量历史建筑图谱进行'风格蒸馏'。当输入一个新设计的草图时，模型通过Cross-Attention机制，从历史'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

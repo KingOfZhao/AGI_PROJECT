@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_自然语言中间语言_nl_ir_2ed192",
+  "file": "skills/auto_融合能力_自然语言中间语言_nl_ir_2ed192.py",
+  "description": "融合能力：自然语言中间语言（NL-IR）编译器。将自然语言需求直接编译为一种'逻辑中间表示'，而非直接生成代码。这种NL-IR类似于形式化的伪代码，不仅包含逻辑，还包含意图约束。然后通过确定性的'后端'将NL-IR编译为可执行代码，或者将Legacy代码反编译为NL-IR进行重构。这使得'需求'到'实现'的过程变得可调试、可优化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.813172",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_122_O3_3987",
+  "design_spec": {
+    "name": "auto_融合能力_自然语言中间语言_nl_ir_2ed192",
+    "display_name": "融合能力：自然语言中间语言（NL-IR）编译器。将自然语言需求直接编译为一种'逻辑中间表示'，而非直",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：自然语言中间语言（NL-IR）编译器。将自然语言需求直接编译为一种'逻辑中间表示'，而非直接生成代码。这种NL-IR类似于形式化的伪代码，不仅包含逻辑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 410
+  }
+}

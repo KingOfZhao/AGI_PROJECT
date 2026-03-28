@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_公理涌现演示器_针对_博弈论_等_c34a1a",
+  "file": "skills/auto_开发_公理涌现演示器_针对_博弈论_等_c34a1a.py",
+  "description": "开发'公理涌现演示器'。针对《博弈论》等书籍，AI提取出3-5个最底层的'公理种子'（如：理性人、效用最大化）。用户可以在界面中像搭积木一样组合这些种子，AI实时展示这种组合会'涌现'出什么复杂的宏观现象（如囚徒困境、公地悲剧）。这种能力让用户从'背诵反直觉结论'升级为'重演结论的诞生过程'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.849197",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_129_O6_6746",
+  "design_spec": {
+    "name": "auto_开发_公理涌现演示器_针对_博弈论_等_c34a1a",
+    "display_name": "开发'公理涌现演示器'。针对《博弈论》等书籍，AI提取出3-5个最底层的'公理种子'（如：理性人、效",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'公理涌现演示器'。针对《博弈论》等书籍，AI提取出3-5个最底层的'公理种子'（如：理性人、效用最大化）。用户可以在界面中像搭积木一样组合这些种子，AI实",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

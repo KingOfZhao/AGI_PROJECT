@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态组块流生成器_ai实时监控用户的操作_3cb592",
+  "file": "skills/auto_动态组块流生成器_ai实时监控用户的操作_3cb592.py",
+  "description": "动态组块流生成器。AI实时监控用户的操作流，识别高频访问的'原子数据簇'，自动将其聚合为'认知组块'（物化视图）。例如，在复杂的项目管理中，不再展示所有原子任务，而是根据当前上下文，将一系列任务打包成一个'语义块'（如'冲刺阶段'）供用户处理。当用户聚焦时，系统自动隐藏微观细节（原子数据），展示宏观模式（聚合视图），辅助进入心流。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.153771",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_36_O3_4066",
+  "design_spec": {
+    "name": "auto_动态组块流生成器_ai实时监控用户的操作_3cb592",
+    "display_name": "动态组块流生成器。AI实时监控用户的操作流，识别高频访问的'原子数据簇'，自动将其聚合为'认知组块'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态组块流生成器。AI实时监控用户的操作流，识别高频访问的'原子数据簇'，自动将其聚合为'认知组块'（物化视图）。例如，在复杂的项目管理中，不再展示所有原子任务",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

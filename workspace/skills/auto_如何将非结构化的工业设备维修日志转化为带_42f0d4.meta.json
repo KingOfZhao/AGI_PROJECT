@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将非结构化的工业设备维修日志转化为带_42f0d4",
+  "file": "skills/auto_如何将非结构化的工业设备维修日志转化为带_42f0d4.py",
+  "description": "如何将非结构化的工业设备维修日志转化为带有因果权重的‘真实节点’？工业现场存在大量非标准化的故障描述文本。本子问题旨在构建一个解析器，能够提取故障现象与解决措施，并根据后续反馈（如设备再次故障率）计算该知识单元的‘真实性’权重，而非仅仅进行关键词匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "industrial_nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.318766",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_135_Q1_3_9255",
+  "design_spec": {
+    "name": "auto_如何将非结构化的工业设备维修日志转化为带_42f0d4",
+    "display_name": "如何将非结构化的工业设备维修日志转化为带有因果权重的‘真实节点’？工业现场存在大量非标准化的故障描述",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将非结构化的工业设备维修日志转化为带有因果权重的‘真实节点’？工业现场存在大量非标准化的故障描述文本。本子问题旨在构建一个解析器，能够提取故障现象与解决措施",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

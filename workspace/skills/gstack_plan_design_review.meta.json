@@ -1,0 +1,37 @@
+{
+  "name": "gstack/plan-design-review",
+  "slug": "gstack_plan_design_review",
+  "description": "Designer's eye plan review — interactive, like CEO and Eng review. Rates each design dimension 0-10, explains what would make it a 10, then fixes the plan to get there. Works in plan mode. For live site visual audits, use /design-review. Use when asked to \"review the design plan\" or \"design critique\". Proactively suggest when the user has a plan with UI/UX components that should be reviewed before implementation.",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "design-review",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/plan-design-review",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "2.0.0",
+  "category": "design-review",
+  "allowed_tools": [
+    "Read",
+    "Edit",
+    "Grep",
+    "Glob",
+    "Bash",
+    "AskUserQuestion"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)",
+    "WARNING: cookie_access — 访问浏览器 cookie / 系统钥匙串"
+  ],
+  "created_at": "2026-03-25T15:32:03.540784",
+  "imported_by": "gstack_skill_importer"
+}

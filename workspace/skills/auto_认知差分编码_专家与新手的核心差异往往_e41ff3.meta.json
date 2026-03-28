@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知差分编码_专家与新手的核心差异往往_e41ff3",
+  "file": "skills/auto_认知差分编码_专家与新手的核心差异往往_e41ff3.py",
+  "description": "【认知差分编码】专家与新手的核心差异往往在于‘注意力的分配’而非动作本身。AI能否构建一个‘注意力热力图差异模型’，通过对比专家与新手在处理相同工序时的眼动与手部轨迹差异，自动生成‘检查清单’（即专家隐性的质量控制点）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.532929",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_72_Q4_2_2877",
+  "design_spec": {
+    "name": "auto_认知差分编码_专家与新手的核心差异往往_e41ff3",
+    "display_name": "【认知差分编码】专家与新手的核心差异往往在于‘注意力的分配’而非动作本身。AI能否构建一个‘注意力热",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知差分编码】专家与新手的核心差异往往在于‘注意力的分配’而非动作本身。AI能否构建一个‘注意力热力图差异模型’，通过对比专家与新手在处理相同工序时的眼动与手",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

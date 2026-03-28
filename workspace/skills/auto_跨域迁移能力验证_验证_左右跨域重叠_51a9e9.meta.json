@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移能力验证_验证_左右跨域重叠_51a9e9",
+  "file": "skills/auto_跨域迁移能力验证_验证_左右跨域重叠_51a9e9.py",
+  "description": "【跨域迁移能力验证】验证'左右跨域重叠'的认知能力。随机抽取两个极不相关的已有节点（例如'微服务架构'与'番茄种植'），要求AI构建一个有实际商业价值的融合创新方案（如'基于植物生长节律的自愈型微服务'）。评估该方案是否包含具体的'真实节点'而非空洞的比喻。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.750848",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_24_Q2_0_9266",
+  "design_spec": {
+    "name": "auto_跨域迁移能力验证_验证_左右跨域重叠_51a9e9",
+    "display_name": "【跨域迁移能力验证】验证'左右跨域重叠'的认知能力。随机抽取两个极不相关的已有节点（例如'微服务架构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移能力验证】验证'左右跨域重叠'的认知能力。随机抽取两个极不相关的已有节点（例如'微服务架构'与'番茄种植'），要求AI构建一个有实际商业价值的融合创新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

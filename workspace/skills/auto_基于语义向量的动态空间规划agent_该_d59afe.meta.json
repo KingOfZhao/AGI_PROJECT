@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于语义向量的动态空间规划agent_该_d59afe",
+  "file": "skills/auto_基于语义向量的动态空间规划agent_该_d59afe.py",
+  "description": "基于语义向量的动态空间规划Agent。该能力将建筑功能图解转化为语义向量网络，不再依赖静态的功能泡泡图。AI通过分析用户的行为日志（文本/数据），实时生成空间布局建议。例如，发现业主频繁在'厨房'与'客厅'间切换（高注意力权重），系统自动建议开放式厨房布局，并生成对应的BIM模型调整方案。它将'动线'视为'Attention路径'，实现了从文本需求到物理空间拓扑的自动转译。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_136",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:13:09.840052",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_136_O1_8265",
+  "design_spec": {
+    "name": "auto_基于语义向量的动态空间规划agent_该_d59afe",
+    "display_name": "基于语义向量的动态空间规划Agent。该能力将建筑功能图解转化为语义向量网络，不再依赖静态的功能泡泡",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于语义向量的动态空间规划Agent。该能力将建筑功能图解转化为语义向量网络，不再依赖静态的功能泡泡图。AI通过分析用户的行为日志（文本/数据），实时生成空间布",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 283
+  }
+}

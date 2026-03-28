@@ -1,0 +1,30 @@
+{
+  "name": "auto_知识节点的_可执行化_包装协议_skil_e30423",
+  "file": "skills/auto_知识节点的_可执行化_包装协议_skil_e30423.py",
+  "description": "知识节点的'可执行化'包装协议（SKILL生成）。如何设计一种通用接口，使得任意一个'真实节点'（理论性知识）都能自动尝试转化为一个可调用的API或脚本（SKILL）？例如，将'番茄炒蛋做法'的文本节点转化为一段包含食材参数和步骤函数的可执行代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:29.949641",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q6_0_831",
+  "design_spec": {
+    "name": "auto_知识节点的_可执行化_包装协议_skil_e30423",
+    "display_name": "知识节点的'可执行化'包装协议（SKILL生成）。如何设计一种通用接口，使得任意一个'真实节点'（理",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "知识节点的'可执行化'包装协议（SKILL生成）。如何设计一种通用接口，使得任意一个'真实节点'（理论性知识）都能自动尝试转化为一个可调用的API或脚本（SKI",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 353
+  }
+}

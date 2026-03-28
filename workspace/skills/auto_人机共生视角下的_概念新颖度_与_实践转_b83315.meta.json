@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生视角下的_概念新颖度_与_实践转_b83315",
+  "file": "skills/auto_人机共生视角下的_概念新颖度_与_实践转_b83315.py",
+  "description": "人机共生视角下的'概念新颖度'与'实践转化率'的博弈平衡机制。人类赋予新概念后，AI需要评估该概念转化为SKILL（可执行技能）的潜力。针对新注入的节点，设计一个'期望价值'计算模型：V = P(转化概率) * I(影响力)。如果一个高抽象概念长期（如30天）未能下沉连接至任何SKILL节点（1359个之一），则标记为'空转概念'，需人类二次确认或降权。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "decision_support",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.797419",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q3_2_645",
+  "design_spec": {
+    "name": "auto_人机共生视角下的_概念新颖度_与_实践转_b83315",
+    "display_name": "人机共生视角下的'概念新颖度'与'实践转化率'的博弈平衡机制。人类赋予新概念后，AI需要评估该概念转",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生视角下的'概念新颖度'与'实践转化率'的博弈平衡机制。人类赋予新概念后，AI需要评估该概念转化为SKILL（可执行技能）的潜力。针对新注入的节点，设计一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

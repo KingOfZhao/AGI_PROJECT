@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态上下文约束的sop生成器_结合ag_999cb0",
+  "file": "skills/auto_动态上下文约束的sop生成器_结合ag_999cb0.py",
+  "description": "【动态上下文约束的SOP生成器】结合AGI的意图解析能力与实践技能的SOP逻辑，构建一个能够处理模糊指令的智能执行系统。不同于传统SOP的僵化，该系统能理解‘帮我搞一下那个报告’这类模糊指令，并根据当前环境上下文（如报告类型、截止时间），自动调用‘意图解析状态机’生成个性化的、可执行的微步骤清单，并在执行过程中实时根据反馈修正步骤，实现‘流动的标准化’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.045369",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_59_O1_6653",
+  "design_spec": {
+    "name": "auto_动态上下文约束的sop生成器_结合ag_999cb0",
+    "display_name": "【动态上下文约束的SOP生成器】结合AGI的意图解析能力与实践技能的SOP逻辑，构建一个能够处理模糊",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态上下文约束的SOP生成器】结合AGI的意图解析能力与实践技能的SOP逻辑，构建一个能够处理模糊指令的智能执行系统。不同于传统SOP的僵化，该系统能理解‘帮",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_反事实推理路径的构建与验证_当ai给出一_9b9780",
+  "file": "skills/auto_反事实推理路径的构建与验证_当ai给出一_9b9780.py",
+  "description": "反事实推理路径的构建与验证：当AI给出一个解决方案（如'如何增加摆摊收入'），系统必须自动生成一条'反事实路径'（如'如果降低价格会发生什么'）。通过对比现实反馈与反事实预测，验证AI是否真正理解了因果关系而非仅仅是相关性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.093776",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q5_1_8212",
+  "design_spec": {
+    "name": "auto_反事实推理路径的构建与验证_当ai给出一_9b9780",
+    "display_name": "反事实推理路径的构建与验证：当AI给出一个解决方案（如'如何增加摆摊收入'），系统必须自动生成一条'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "反事实推理路径的构建与验证：当AI给出一个解决方案（如'如何增加摆摊收入'），系统必须自动生成一条'反事实路径'（如'如果降低价格会发生什么'）。通过对比现实反",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

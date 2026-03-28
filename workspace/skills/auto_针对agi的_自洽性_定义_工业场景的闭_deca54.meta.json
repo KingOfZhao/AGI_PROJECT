@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对agi的_自洽性_定义_工业场景的闭_deca54",
+  "file": "skills/auto_针对agi的_自洽性_定义_工业场景的闭_deca54.py",
+  "description": "针对AGI的'自洽性'定义：工业场景的闭环必须包含物理反馈。如何构建一个最小闭环单元（Mini-Loop），使AGI能完成'提出工艺优化假设→仿真验证→反馈修正'的全过程？这需要将仿真软件作为AGI的'感官'延伸。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "digital_twin",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:39.568553",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q7_1_9242",
+  "design_spec": {
+    "name": "auto_针对agi的_自洽性_定义_工业场景的闭_deca54",
+    "display_name": "针对AGI的'自洽性'定义：工业场景的闭环必须包含物理反馈。如何构建一个最小闭环单元（Mini-Lo",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对AGI的'自洽性'定义：工业场景的闭环必须包含物理反馈。如何构建一个最小闭环单元（Mini-Loop），使AGI能完成'提出工艺优化假设→仿真验证→反馈修正",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

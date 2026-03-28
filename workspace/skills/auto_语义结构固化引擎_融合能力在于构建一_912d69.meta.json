@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义结构固化引擎_融合能力在于构建一_912d69",
+  "file": "skills/auto_语义结构固化引擎_融合能力在于构建一_912d69.py",
+  "description": "【语义结构固化引擎】：融合能力在于构建一个'意图-形式化-验证'的三明治结构。利用认知科学的'结构映射理论'来预处理自然语言需求，不仅仅是翻译，而是识别用户意图背后的'概念隐喻'（如'像管理图书馆一样管理内存'），自动生成带有'假设边界'标签的DSL规约。当AI生成代码时，这些假设边界被显式化为'防御性编程代码块'（如 if file_not_found:），从而实现从模糊意图到鲁棒代码的结构化降维打击。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.864791",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O1_9655",
+  "design_spec": {
+    "name": "auto_语义结构固化引擎_融合能力在于构建一_912d69",
+    "display_name": "【语义结构固化引擎】：融合能力在于构建一个'意图-形式化-验证'的三明治结构。利用认知科学的'结构映",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义结构固化引擎】：融合能力在于构建一个'意图-形式化-验证'的三明治结构。利用认知科学的'结构映射理论'来预处理自然语言需求，不仅仅是翻译，而是识别用户意图",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_虽然存在_逻辑冲突检测_但缺乏针对伦理_833fdd",
+  "file": "skills/auto_虽然存在_逻辑冲突检测_但缺乏针对伦理_833fdd.py",
+  "description": "虽然存在'逻辑冲突检测'，但缺乏针对伦理道德的硬约束层。在'跨域迁移'或'变异冗余'中，如何保证AI不会为了优化效率而突破人类伦理底线（如将生物进化论错误应用于社会达尔文主义）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.712981",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_95_G3_1476",
+  "design_spec": {
+    "name": "auto_虽然存在_逻辑冲突检测_但缺乏针对伦理_833fdd",
+    "display_name": "虽然存在'逻辑冲突检测'，但缺乏针对伦理道德的硬约束层。在'跨域迁移'或'变异冗余'中，如何保证AI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "虽然存在'逻辑冲突检测'，但缺乏针对伦理道德的硬约束层。在'跨域迁移'或'变异冗余'中，如何保证AI不会为了优化效率而突破人类伦理底线（如将生物进化论错误应用于",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

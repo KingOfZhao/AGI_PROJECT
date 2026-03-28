@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于时序衰减的节点活性量化算法设计_针对_1b39eb",
+  "file": "skills/auto_基于时序衰减的节点活性量化算法设计_针对_1b39eb.py",
+  "description": "基于时序衰减的节点活性量化算法设计：针对3882个已有节点，如何定义并计算一个随时间推移而自然下降的‘活性分数’？该算法需结合节点的‘最后验证时间’、‘历史被引用频率’与‘失效惩罚值’。若节点长期未被‘人机共生’循环中的实践调用，其分数应持续衰减，直至触发‘休眠’状态，以此模拟人类记忆的遗忘曲线，确保算力聚焦于高价值节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "algorithm_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.620513",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q1_0_9836",
+  "design_spec": {
+    "name": "auto_基于时序衰减的节点活性量化算法设计_针对_1b39eb",
+    "display_name": "基于时序衰减的节点活性量化算法设计：针对3882个已有节点，如何定义并计算一个随时间推移而自然下降的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于时序衰减的节点活性量化算法设计：针对3882个已有节点，如何定义并计算一个随时间推移而自然下降的‘活性分数’？该算法需结合节点的‘最后验证时间’、‘历史被引",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

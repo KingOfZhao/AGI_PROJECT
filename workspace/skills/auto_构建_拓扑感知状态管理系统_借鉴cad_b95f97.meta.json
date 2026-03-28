@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_拓扑感知状态管理系统_借鉴cad_b95f97",
+  "file": "skills/auto_构建_拓扑感知状态管理系统_借鉴cad_b95f97.py",
+  "description": "构建'拓扑感知状态管理系统'。借鉴CAD装配树的可视化，生成Flutter应用的'依赖拓扑图'。当某个状态发生变化时，系统不仅更新UI，还能在拓扑图上高亮显示受影响的Widget链路，并自动分析是否存在循环依赖或性能瓶颈（如过度重绘的子树），提供优化建议。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.987144",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_54_O4_3784",
+  "design_spec": {
+    "name": "auto_构建_拓扑感知状态管理系统_借鉴cad_b95f97",
+    "display_name": "构建'拓扑感知状态管理系统'。借鉴CAD装配树的可视化，生成Flutter应用的'依赖拓扑图'。当某",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'拓扑感知状态管理系统'。借鉴CAD装配树的可视化，生成Flutter应用的'依赖拓扑图'。当某个状态发生变化时，系统不仅更新UI，还能在拓扑图上高亮显示受",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计一套_认识论标签_体系_将节点分类为_d0a573",
+  "file": "skills/auto_设计一套_认识论标签_体系_将节点分类为_d0a573.py",
+  "description": "设计一套'认识论标签'体系，将节点分类为：公理、定理、经验、猜想、幻觉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.045303",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_123_G3_6221",
+  "design_spec": {
+    "name": "auto_设计一套_认识论标签_体系_将节点分类为_d0a573",
+    "display_name": "设计一套'认识论标签'体系，将节点分类为：公理、定理、经验、猜想、幻觉。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计一套'认识论标签'体系，将节点分类为：公理、定理、经验、猜想、幻觉。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

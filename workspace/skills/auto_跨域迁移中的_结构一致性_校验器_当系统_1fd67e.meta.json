@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_结构一致性_校验器_当系统_1fd67e",
+  "file": "skills/auto_跨域迁移中的_结构一致性_校验器_当系统_1fd67e.py",
+  "description": "跨域迁移中的'结构一致性'校验器：当系统试图将A域的Skill迁移至B域时（左右碰撞），必须通过一个'同构校验模块'。该模块不只比对语义相似度，而是比对关系结构（如A之于B如同C之于D）。若结构映射的信噪比低于阈值，则终止迁移以防幻觉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:07.978157",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_59_Q5_3_4429",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_结构一致性_校验器_当系统_1fd67e",
+    "display_name": "跨域迁移中的'结构一致性'校验器：当系统试图将A域的Skill迁移至B域时（左右碰撞），必须通过一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的'结构一致性'校验器：当系统试图将A域的Skill迁移至B域时（左右碰撞），必须通过一个'同构校验模块'。该模块不只比对语义相似度，而是比对关系结构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 259
+  }
+}

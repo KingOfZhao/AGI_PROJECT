@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点固化的可执行性_随机抽取20个_a570bb",
+  "file": "skills/auto_真实节点固化的可执行性_随机抽取20个_a570bb.py",
+  "description": "【真实节点固化的可执行性】随机抽取20个标记为'已知节点'的条目，要求AI将其转换为完全独立于人类干预的可执行脚本（Python/Shell）。验证这些节点是'可执行知识'还是'描述性知识'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_19",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:55:24.731942",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_19_Q5_0_7926",
+  "design_spec": {
+    "name": "auto_真实节点固化的可执行性_随机抽取20个_a570bb",
+    "display_name": "【真实节点固化的可执行性】随机抽取20个标记为'已知节点'的条目，要求AI将其转换为完全独立于人类干",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点固化的可执行性】随机抽取20个标记为'已知节点'的条目，要求AI将其转换为完全独立于人类干预的可执行脚本（Python/Shell）。验证这些节点是'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

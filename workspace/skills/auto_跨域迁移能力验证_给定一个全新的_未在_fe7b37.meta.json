@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移能力验证_给定一个全新的_未在_fe7b37",
+  "file": "skills/auto_跨域迁移能力验证_给定一个全新的_未在_fe7b37.py",
+  "description": "【跨域迁移能力验证】给定一个全新的、未在训练数据中出现的游戏规则文本（如'火星围棋'），AI能否在不进行额外权重训练的情况下，仅通过Prompt读取规则，生成一个可运行的Python脚本，并在模拟环境中战胜基于规则硬编码的弱AI（如随机走子或简单贪心算法）？这测试的是结构化认知网络对新逻辑的即时构建能力，而非单纯检索既有知识。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "agi_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:23.988828",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_11_Q1_2_7043",
+  "design_spec": {
+    "name": "auto_跨域迁移能力验证_给定一个全新的_未在_fe7b37",
+    "display_name": "【跨域迁移能力验证】给定一个全新的、未在训练数据中出现的游戏规则文本（如'火星围棋'），AI能否在不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移能力验证】给定一个全新的、未在训练数据中出现的游戏规则文本（如'火星围棋'），AI能否在不进行额外权重训练的情况下，仅通过Prompt读取规则，生成一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

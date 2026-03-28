@@ -1,0 +1,30 @@
+{
+  "name": "auto_环境物理反馈的数值边界探测_针对物理操作_02004d",
+  "file": "skills/auto_环境物理反馈的数值边界探测_针对物理操作_02004d.py",
+  "description": "环境物理反馈的数值边界探测：针对物理操作类技能节点，AI如何自动生成‘边缘测试用例’以探测该技能的失效边界？例如，对于‘抓取物体’的技能，自动生成物体重量梯度（1kg, 5kg, 10kg...）或表面摩擦系数变化，通过仿真环境反馈确定技能成立的‘置信区间’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_89",
+    "robotics_simulation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:04:54.801703",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_89_Q2_3_2909",
+  "design_spec": {
+    "name": "auto_环境物理反馈的数值边界探测_针对物理操作_02004d",
+    "display_name": "环境物理反馈的数值边界探测：针对物理操作类技能节点，AI如何自动生成‘边缘测试用例’以探测该技能的失",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "环境物理反馈的数值边界探测：针对物理操作类技能节点，AI如何自动生成‘边缘测试用例’以探测该技能的失效边界？例如，对于‘抓取物体’的技能，自动生成物体重量梯度（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 367
+  }
+}

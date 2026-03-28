@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_左右跨域_的启发式搜索机制_模_d9c25e",
+  "file": "skills/auto_如何构建_左右跨域_的启发式搜索机制_模_d9c25e.py",
+  "description": "如何构建'左右跨域'的启发式搜索机制，模拟人类隐喻思维？具体为：当面对一个无解的新问题时，自动检索结构同构（Isomorphic）的历史成功案例，并将旧案例的解决路径映射到新问题上。这需要忽略表面特征，仅关注深层结构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "creative_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.557328",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q4_2_2116",
+  "design_spec": {
+    "name": "auto_如何构建_左右跨域_的启发式搜索机制_模_d9c25e",
+    "display_name": "如何构建'左右跨域'的启发式搜索机制，模拟人类隐喻思维？具体为：当面对一个无解的新问题时，自动检索结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'左右跨域'的启发式搜索机制，模拟人类隐喻思维？具体为：当面对一个无解的新问题时，自动检索结构同构（Isomorphic）的历史成功案例，并将旧案例的解",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_沙箱模拟验证_物理边界校验_和_5acc23",
+  "file": "skills/auto_结合_沙箱模拟验证_物理边界校验_和_5acc23.py",
+  "description": "结合'沙箱模拟验证'、'物理边界校验'和'最小可行动作单元'，系统将具备在现实执行前进行'反事实推演'的能力。在指令下发前，系统在虚拟沙箱中模拟'如果...会怎样'的极端情况（如重力变化、能源中断），预判物理执行的潜在风险，并自动修正动作序列，实现零风险的预演性维护。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.315878",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_125_E3_7983",
+  "design_spec": {
+    "name": "auto_结合_沙箱模拟验证_物理边界校验_和_5acc23",
+    "display_name": "结合'沙箱模拟验证'、'物理边界校验'和'最小可行动作单元'，系统将具备在现实执行前进行'反事实推演",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'沙箱模拟验证'、'物理边界校验'和'最小可行动作单元'，系统将具备在现实执行前进行'反事实推演'的能力。在指令下发前，系统在虚拟沙箱中模拟'如果...会怎",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

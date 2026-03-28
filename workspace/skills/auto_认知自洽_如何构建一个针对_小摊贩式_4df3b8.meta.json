@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽_如何构建一个针对_小摊贩式_4df3b8",
+  "file": "skills/auto_认知自洽_如何构建一个针对_小摊贩式_4df3b8.py",
+  "description": "【认知自洽】如何构建一个针对‘小摊贩式’灵活制造环境的微型认知闭环？即在一个资源受限、非标准化的车间环境中，AGI能否利用有限节点（如300个以内）实现从接单、排产到售后的全流程自洽？此问题验证‘认知自洽’理论，即在狭小领域内，简单节点的组合是否能涌现出适应性，无需全知全能即可生存。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "production_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.663339",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q5_1_6206",
+  "design_spec": {
+    "name": "auto_认知自洽_如何构建一个针对_小摊贩式_4df3b8",
+    "display_name": "【认知自洽】如何构建一个针对‘小摊贩式’灵活制造环境的微型认知闭环？即在一个资源受限、非标准化的车间",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知自洽】如何构建一个针对‘小摊贩式’灵活制造环境的微型认知闭环？即在一个资源受限、非标准化的车间环境中，AGI能否利用有限节点（如300个以内）实现从接单、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

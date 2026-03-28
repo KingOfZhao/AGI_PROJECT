@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于代码语法的上下文无关文法_cfg_约_dddf98",
+  "file": "skills/auto_基于代码语法的上下文无关文法_cfg_约_dddf98.py",
+  "description": "基于代码语法的上下文无关文法（CFG）约束生成：代码是严格的结构化产物。本子问题探索在LLM生成代码过程中，强植入CFG（上下文无关文法）约束层，是否能将模糊意图强制映射为语法正确的骨架。这对应‘自上而下拆解’的过程，验证结构约束是否能优先于概率生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "compiler_principles",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.048533",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_93_Q2_3_2789",
+  "design_spec": {
+    "name": "auto_基于代码语法的上下文无关文法_cfg_约_dddf98",
+    "display_name": "基于代码语法的上下文无关文法（CFG）约束生成：代码是严格的结构化产物。本子问题探索在LLM生成代码",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于代码语法的上下文无关文法（CFG）约束生成：代码是严格的结构化产物。本子问题探索在LLM生成代码过程中，强植入CFG（上下文无关文法）约束层，是否能将模糊意",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

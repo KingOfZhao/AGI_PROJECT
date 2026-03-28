@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于约束传播的鲁棒推理引擎_开发一种融_3a6a62",
+  "file": "skills/auto_基于约束传播的鲁棒推理引擎_开发一种融_3a6a62.py",
+  "description": "【基于约束传播的鲁棒推理引擎】开发一种融合能力，能在生成代码或进行推理时，将自然语言中的边界条件（隐含约束）转化为'认知探针'，在每一步推理/代码生成中插入检查点。如果在中间步骤发现违反约束的可能性（如检测到写操作），立即触发强制回溯或修正机制，防止最终结果偏离用户意图。这解决了LLM常见的'中间遗忘'问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.622928",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_60_O2_6527",
+  "design_spec": {
+    "name": "auto_基于约束传播的鲁棒推理引擎_开发一种融_3a6a62",
+    "display_name": "【基于约束传播的鲁棒推理引擎】开发一种融合能力，能在生成代码或进行推理时，将自然语言中的边界条件（隐",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于约束传播的鲁棒推理引擎】开发一种融合能力，能在生成代码或进行推理时，将自然语言中的边界条件（隐含约束）转化为'认知探针'，在每一步推理/代码生成中插入检查",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

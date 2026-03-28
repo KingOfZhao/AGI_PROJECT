@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个具备_自我体检_和_自我疗愈_能_6e39e2",
+  "file": "skills/auto_这是一个具备_自我体检_和_自我疗愈_能_6e39e2.py",
+  "description": "这是一个具备'自我体检'和'自我疗愈'能力的智能体架构。不同于传统的盲目执行，它在行动前通过'反事实推理'生成对抗性输入，自动构建包含极端边界条件（如暴雨、断网、违规操作）的最小化沙箱环境进行预演。通过对比现实反馈与预期结果，验证节点的'认知自洽'性，从而在低样本下实现高鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.430882",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_63_P4_1081",
+  "design_spec": {
+    "name": "auto_这是一个具备_自我体检_和_自我疗愈_能_6e39e2",
+    "display_name": "这是一个具备'自我体检'和'自我疗愈'能力的智能体架构。不同于传统的盲目执行，它在行动前通过'反事实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个具备'自我体检'和'自我疗愈'能力的智能体架构。不同于传统的盲目执行，它在行动前通过'反事实推理'生成对抗性输入，自动构建包含极端边界条件（如暴雨、断网",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

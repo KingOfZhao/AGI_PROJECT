@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_技能解码器_利用agi的意图解析_5e6a68",
+  "file": "skills/auto_构建_技能解码器_利用agi的意图解析_5e6a68.py",
+  "description": "构建'技能解码器'。利用AGI的意图解析状态机，不仅仅是将自然语言转为代码，而是将资深从业者的'只可意会不可言传'的隐性直觉（如小摊贩对火候的把握、销售对客户微表情的捕捉）强制映射为结构化的'认知状态机'（JSON格式的决策树）。这能将人类专家的瞬间判断力固化为可教学的数字资产，解决技能传承中的'黑盒'问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.082096",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O1_3489",
+  "design_spec": {
+    "name": "auto_构建_技能解码器_利用agi的意图解析_5e6a68",
+    "display_name": "构建'技能解码器'。利用AGI的意图解析状态机，不仅仅是将自然语言转为代码，而是将资深从业者的'只可",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'技能解码器'。利用AGI的意图解析状态机，不仅仅是将自然语言转为代码，而是将资深从业者的'只可意会不可言传'的隐性直觉（如小摊贩对火候的把握、销售对客户微",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

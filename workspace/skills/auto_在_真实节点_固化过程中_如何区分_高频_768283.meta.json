@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_真实节点_固化过程中_如何区分_高频_768283",
+  "file": "skills/auto_在_真实节点_固化过程中_如何区分_高频_768283.py",
+  "description": "在'真实节点'固化过程中，如何区分'高频偶发事件'与'结构性必然规律'？例如，某类故障虽频率低但后果灾难性（黑天鹅事件）。验证系统是否具备'负样本采样'与'反事实推理'能力，将未被实践频繁验证但逻辑推导必然存在的风险固化为高权重的防御性节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_100",
+    "risk_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:43:01.611245",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_100_Q6_3_3799",
+  "design_spec": {
+    "name": "auto_在_真实节点_固化过程中_如何区分_高频_768283",
+    "display_name": "在'真实节点'固化过程中，如何区分'高频偶发事件'与'结构性必然规律'？例如，某类故障虽频率低但后果",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'真实节点'固化过程中，如何区分'高频偶发事件'与'结构性必然规律'？例如，某类故障虽频率低但后果灾难性（黑天鹅事件）。验证系统是否具备'负样本采样'与'反事",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

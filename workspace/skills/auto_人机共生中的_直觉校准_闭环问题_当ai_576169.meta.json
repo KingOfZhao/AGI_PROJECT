@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生中的_直觉校准_闭环问题_当ai_576169",
+  "file": "skills/auto_人机共生中的_直觉校准_闭环问题_当ai_576169.py",
+  "description": "人机共生中的“直觉校准”闭环问题：当AI生成一份工艺实践清单（如木工榫卯结构）后，人类执行并发现偏差。如何设计一种“差分反馈接口”，让人类不需要懂代码，仅通过自然交互（如“这里紧了”）就能将修正后的物理状态反向传播更新AI的隐层参数？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.795431",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q6_0_1755",
+  "design_spec": {
+    "name": "auto_人机共生中的_直觉校准_闭环问题_当ai_576169",
+    "display_name": "人机共生中的“直觉校准”闭环问题：当AI生成一份工艺实践清单（如木工榫卯结构）后，人类执行并发现偏差",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生中的“直觉校准”闭环问题：当AI生成一份工艺实践清单（如木工榫卯结构）后，人类执行并发现偏差。如何设计一种“差分反馈接口”，让人类不需要懂代码，仅通过自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_瞬时领域自适应引擎_融合认知科学的本体_bc63f5",
+  "file": "skills/auto_瞬时领域自适应引擎_融合认知科学的本体_bc63f5.py",
+  "description": "【瞬时领域自适应引擎】融合认知科学的本体映射能力，使AI在面对完全陌生的技术栈（如一个新的量子计算SDK）时，能像人类专家一样进行‘类比推理’。AI不再逐字阅读文档，而是先在内部知识库中检索‘结构相似’的已知API（如将‘量子比特’类比为‘内存对象’），构建‘源域->目标域’的功能映射图。这能极大地提升AI在零样本环境下对新工具、新语言的掌握速度和准确度，实现真正的‘举一反三’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.128071",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_53_O3_9072",
+  "design_spec": {
+    "name": "auto_瞬时领域自适应引擎_融合认知科学的本体_bc63f5",
+    "display_name": "【瞬时领域自适应引擎】融合认知科学的本体映射能力，使AI在面对完全陌生的技术栈（如一个新的量子计算S",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【瞬时领域自适应引擎】融合认知科学的本体映射能力，使AI在面对完全陌生的技术栈（如一个新的量子计算SDK）时，能像人类专家一样进行‘类比推理’。AI不再逐字阅读",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 633
+  }
+}

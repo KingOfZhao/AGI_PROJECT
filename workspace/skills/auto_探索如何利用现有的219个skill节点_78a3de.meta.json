@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索如何利用现有的219个skill节点_78a3de",
+  "file": "skills/auto_探索如何利用现有的219个skill节点_78a3de.py",
+  "description": "探索如何利用现有的219个Skill节点作为'认知基元'，通过组合而非生成，来满足新意图。即将用户意图分解后，优先在Skill库中检索匹配的子流程，仅对缺失部分进行代码生成。这验证了'重叠固化为真实节点'的价值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.034730",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_6_Q4_1_6196",
+  "design_spec": {
+    "name": "auto_探索如何利用现有的219个skill节点_78a3de",
+    "display_name": "探索如何利用现有的219个Skill节点作为'认知基元'，通过组合而非生成，来满足新意图。即将用户意",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索如何利用现有的219个Skill节点作为'认知基元'，通过组合而非生成，来满足新意图。即将用户意图分解后，优先在Skill库中检索匹配的子流程，仅对缺失部分",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 333
+  }
+}

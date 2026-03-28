@@ -1,0 +1,30 @@
+{
+  "name": "auto_高维意图空间的非欧几里得流形映射问题_人_654396",
+  "file": "skills/auto_高维意图空间的非欧几里得流形映射问题_人_654396.py",
+  "description": "高维意图空间的非欧几里得流形映射问题：人类模糊意图（如'做个好玩的游戏'）本质上是在高维语义空间中的不定型云团。如何构建一个基于流形学习的算法，将这种非结构化的云团映射为结构化的功能拓扑图？重点在于解决语义云团的边界模糊性与代码结构确定性之间的数学映射冲突，而非简单的语义匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.335789",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_133_Q1_3_2220",
+  "design_spec": {
+    "name": "auto_高维意图空间的非欧几里得流形映射问题_人_654396",
+    "display_name": "高维意图空间的非欧几里得流形映射问题：人类模糊意图（如'做个好玩的游戏'）本质上是在高维语义空间中的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "高维意图空间的非欧几里得流形映射问题：人类模糊意图（如'做个好玩的游戏'）本质上是在高维语义空间中的不定型云团。如何构建一个基于流形学习的算法，将这种非结构化的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 383
+  }
+}

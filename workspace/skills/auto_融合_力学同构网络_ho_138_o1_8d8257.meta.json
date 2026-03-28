@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_力学同构网络_ho_138_o1_8d8257",
+  "file": "skills/auto_融合_力学同构网络_ho_138_o1_8d8257.py",
+  "description": "融合'力学同构网络'（ho_138_O1_7965）与'反事实推理'（td_138_Q7_2_9508）。AI不仅能生成符合力学的建筑，还能自动生成'反事实'的结构破坏场景（如模拟地震、材料老化），并在虚拟环境中进行数千次'破坏-修正'迭代，从而在物理建造前就预演了全生命周期的结构韧性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.742879",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_139_E2_364",
+  "design_spec": {
+    "name": "auto_融合_力学同构网络_ho_138_o1_8d8257",
+    "display_name": "融合'力学同构网络'（ho_138_O1_7965）与'反事实推理'（td_138_Q7_2_950",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'力学同构网络'（ho_138_O1_7965）与'反事实推理'（td_138_Q7_2_9508）。AI不仅能生成符合力学的建筑，还能自动生成'反事实'的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

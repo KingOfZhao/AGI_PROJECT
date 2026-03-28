@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_操作原子化的协同设计系统_将ca_2ee612",
+  "file": "skills/auto_实现_操作原子化的协同设计系统_将ca_2ee612.py",
+  "description": "实现'操作原子化的协同设计系统'。将CAD的每一步特征操作（如'拉伸凸台'）封装为一个Action对象，利用Flutter的状态管理库（如Riverpod/Bloc）进行分发。通过CRDT（无冲突复制数据类型）算法，实现多人在移动端和桌面端对同一模型进行非锁定式的实时协同编辑，类似Google Docs但针对3D模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.792368",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_98_O4_9836",
+  "design_spec": {
+    "name": "auto_实现_操作原子化的协同设计系统_将ca_2ee612",
+    "display_name": "实现'操作原子化的协同设计系统'。将CAD的每一步特征操作（如'拉伸凸台'）封装为一个Action对",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'操作原子化的协同设计系统'。将CAD的每一步特征操作（如'拉伸凸台'）封装为一个Action对象，利用Flutter的状态管理库（如Riverpod/Bl",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 270
+  }
+}

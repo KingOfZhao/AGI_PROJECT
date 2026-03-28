@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_语义语法制导生成器_不仅让llm_80b0d1",
+  "file": "skills/auto_创建_语义语法制导生成器_不仅让llm_80b0d1.py",
+  "description": "创建'语义语法制导生成器'。不仅让LLM输出JSON，而是内嵌一套'文法规则'。LLM在生成每个Token时，受到预定义的'属性文法'约束，确保输出不仅语法正确，而且符合深层业务逻辑（如：生成API调用时，自动根据上文参数类型检查下文参数合法性）。这是Prompt Engineering迈向Prompt Grammar的进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.361424",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O5_5569",
+  "design_spec": {
+    "name": "auto_创建_语义语法制导生成器_不仅让llm_80b0d1",
+    "display_name": "创建'语义语法制导生成器'。不仅让LLM输出JSON，而是内嵌一套'文法规则'。LLM在生成每个To",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'语义语法制导生成器'。不仅让LLM输出JSON，而是内嵌一套'文法规则'。LLM在生成每个Token时，受到预定义的'属性文法'约束，确保输出不仅语法正确",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 250
+  }
+}

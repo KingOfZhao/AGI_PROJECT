@@ -1,0 +1,30 @@
+{
+  "name": "auto_人在回路_的贝叶斯纠错节点的固化协议_752db1",
+  "file": "skills/auto_人在回路_的贝叶斯纠错节点的固化协议_752db1.py",
+  "description": "“人在回路”的贝叶斯纠错节点的固化协议：设计一个标准化的API接口，专门用于处理人类实践反馈的“反例”。当人类用户标记AI输出为错误时，该接口不应仅修改权重，而应生成一个“负节点”（Anti-Node）。本问题旨在验证：引入负节点后的系统，在处理类似边缘案例时，错误率是否显著下降，且不发生灾难性遗忘。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "human_ai_symbiosis",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.019530",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q3_1_2858",
+  "design_spec": {
+    "name": "auto_人在回路_的贝叶斯纠错节点的固化协议_752db1",
+    "display_name": "“人在回路”的贝叶斯纠错节点的固化协议：设计一个标准化的API接口，专门用于处理人类实践反馈的“反例",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "“人在回路”的贝叶斯纠错节点的固化协议：设计一个标准化的API接口，专门用于处理人类实践反馈的“反例”。当人类用户标记AI输出为错误时，该接口不应仅修改权重，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

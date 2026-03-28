@@ -1,0 +1,30 @@
+{
+  "name": "auto_链式技能检索系统_改变传统rag_检_c61c36",
+  "file": "skills/auto_链式技能检索系统_改变传统rag_检_c61c36.py",
+  "description": "【链式技能检索系统】：改变传统RAG（检索增强生成）只检索'知识块'的模式，转而检索'技能链'。将知识库构建为'过程图谱'（Process Graph），节点是动作，边是前置条件。当用户查询时，系统返回的不是一段文本，而是一个可执行的、符合认知阻力的'行动脚本'（Action Script），大幅提升AI在解决实际问题时的可操作性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.633109",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_72_O3_3712",
+  "design_spec": {
+    "name": "auto_链式技能检索系统_改变传统rag_检_c61c36",
+    "display_name": "【链式技能检索系统】：改变传统RAG（检索增强生成）只检索'知识块'的模式，转而检索'技能链'。将知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【链式技能检索系统】：改变传统RAG（检索增强生成）只检索'知识块'的模式，转而检索'技能链'。将知识库构建为'过程图谱'（Process Graph），节点是",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理_功能双重约束的_硬核生成系统_现_b41767",
+  "file": "skills/auto_物理_功能双重约束的_硬核生成系统_现_b41767.py",
+  "description": "物理-功能双重约束的'硬核生成系统'。现有GAN/Diffusion常生成违反物理规律或功能逻辑的图像。融合建筑生成式设计的'性能驱动'逻辑，构建一个内嵌物理引擎与功能模拟器的'超级判别器'。它不仅判断图像真伪，还判断'这根柱子能不能支撑屋顶'、'这个动线是否绕路'。这将诞生真正可用于工程实践的AGI设计助手，而非仅仅是画图工具。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.840247",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_71_O4_5019",
+  "design_spec": {
+    "name": "auto_物理_功能双重约束的_硬核生成系统_现_b41767",
+    "display_name": "物理-功能双重约束的'硬核生成系统'。现有GAN/Diffusion常生成违反物理规律或功能逻辑的图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "物理-功能双重约束的'硬核生成系统'。现有GAN/Diffusion常生成违反物理规律或功能逻辑的图像。融合建筑生成式设计的'性能驱动'逻辑，构建一个内嵌物理引",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

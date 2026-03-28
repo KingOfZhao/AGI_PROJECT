@@ -1,0 +1,30 @@
+{
+  "name": "auto_在人机共生环节中_如何设计_最小可证伪单_f63210",
+  "file": "skills/auto_在人机共生环节中_如何设计_最小可证伪单_f63210.py",
+  "description": "在人机共生环节中，如何设计'最小可证伪单元（MFU）'的生成协议？AI需将宏大的'真实节点'拆解为粒度极细的、人类可在24小时内执行并反馈的微任务。这涉及到自然语言处理与实验设计的结合，确保任务不是'理解概念'而是'改变现实'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.611401",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q2_2_9798",
+  "design_spec": {
+    "name": "auto_在人机共生环节中_如何设计_最小可证伪单_f63210",
+    "display_name": "在人机共生环节中，如何设计'最小可证伪单元（MFU）'的生成协议？AI需将宏大的'真实节点'拆解为粒",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在人机共生环节中，如何设计'最小可证伪单元（MFU）'的生成协议？AI需将宏大的'真实节点'拆解为粒度极细的、人类可在24小时内执行并反馈的微任务。这涉及到自然",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

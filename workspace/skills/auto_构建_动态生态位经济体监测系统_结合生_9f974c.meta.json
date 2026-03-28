@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态生态位经济体监测系统_结合生_9f974c",
+  "file": "skills/auto_构建_动态生态位经济体监测系统_结合生_9f974c.py",
+  "description": "构建‘动态生态位经济体监测系统’。结合生态位的时空动态变化与经济边际分析，不仅能预测企业（物种）在特定市场（生境）中的存活率，还能计算最佳‘投入密度’以避免过度竞争导致的市场内卷（竞争排斥）。该系统能模拟当外部资源（如资本/降雨）突然变化时，系统崩溃的临界点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_28",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:20:59.477308",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_28_O1_6929",
+  "design_spec": {
+    "name": "auto_构建_动态生态位经济体监测系统_结合生_9f974c",
+    "display_name": "构建‘动态生态位经济体监测系统’。结合生态位的时空动态变化与经济边际分析，不仅能预测企业（物种）在特",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘动态生态位经济体监测系统’。结合生态位的时空动态变化与经济边际分析，不仅能预测企业（物种）在特定市场（生境）中的存活率，还能计算最佳‘投入密度’以避免过度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

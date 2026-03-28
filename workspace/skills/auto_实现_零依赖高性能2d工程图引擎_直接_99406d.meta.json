@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_零依赖高性能2d工程图引擎_直接_99406d",
+  "file": "skills/auto_实现_零依赖高性能2d工程图引擎_直接_99406d.py",
+  "description": "实现'零依赖高性能2D工程图引擎'。直接在Flutter Canvas上实现CAD内核的二维布尔运算（并集、交集、差集）和尺寸标注引擎。利用Flutter的Isolate并行计算复杂的剖面线填充，通过SceneBuilder实现图层合成，完全替代沉重的WebGL方案，在浏览器中流畅展示GB级图纸。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.951299",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_108_O4_6238",
+  "design_spec": {
+    "name": "auto_实现_零依赖高性能2d工程图引擎_直接_99406d",
+    "display_name": "实现'零依赖高性能2D工程图引擎'。直接在Flutter Canvas上实现CAD内核的二维布尔运算",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'零依赖高性能2D工程图引擎'。直接在Flutter Canvas上实现CAD内核的二维布尔运算（并集、交集、差集）和尺寸标注引擎。利用Flutter的Is",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐性知识包含_失败的经验_ai不仅要学_67fd5b",
+  "file": "skills/auto_隐性知识包含_失败的经验_ai不仅要学_67fd5b.py",
+  "description": "隐性知识包含‘失败的经验’。AI不仅要学习成功的案例，还要构建‘失败-原因’的映射库。问题：能否通过对比成功与失败的案例，自动提取‘故障模式’，并在实时操作中检测当前状态是否逼近故障模式，从而实现‘事前预警’？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "safety_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.312943",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q10_0_6710",
+  "design_spec": {
+    "name": "auto_隐性知识包含_失败的经验_ai不仅要学_67fd5b",
+    "display_name": "隐性知识包含‘失败的经验’。AI不仅要学习成功的案例，还要构建‘失败-原因’的映射库。问题：能否通过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "隐性知识包含‘失败的经验’。AI不仅要学习成功的案例，还要构建‘失败-原因’的映射库。问题：能否通过对比成功与失败的案例，自动提取‘故障模式’，并在实时操作中检",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

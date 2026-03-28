@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_逆向工程还原_作为证伪手段_当_80f8ee",
+  "file": "skills/auto_如何实现_逆向工程还原_作为证伪手段_当_80f8ee.py",
+  "description": "如何实现'逆向工程还原'作为证伪手段？当AI给出一个解决方案（如代码片段）时，系统应自动尝试从Solution逆向推导Problem Space。如果逆向推导出的'问题描述'与原始输入的'真实问题'在语义向量空间中的距离超过阈值，则判定该解决方案为'答非所问'，予以证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "Software Engineering / NLP",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.957726",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q6_1_3706",
+  "design_spec": {
+    "name": "auto_如何实现_逆向工程还原_作为证伪手段_当_80f8ee",
+    "display_name": "如何实现'逆向工程还原'作为证伪手段？当AI给出一个解决方案（如代码片段）时，系统应自动尝试从Sol",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'逆向工程还原'作为证伪手段？当AI给出一个解决方案（如代码片段）时，系统应自动尝试从Solution逆向推导Problem Space。如果逆向推导出",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

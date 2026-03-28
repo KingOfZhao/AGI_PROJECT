@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于证伪进化的自适应沙箱_传统沙箱只返_1e2d6d",
+  "file": "skills/auto_基于证伪进化的自适应沙箱_传统沙箱只返_1e2d6d.py",
+  "description": "【基于证伪进化的自适应沙箱】传统沙箱只返回Pass/Fail，融合后的沙箱具备'认知反思'能力。当代码运行失败时，系统不仅报告错误，还调用'失败归纳固化'机制，将错误堆栈与当时的代码意图进行比对，生成一个'反模式节点'（Anti-pattern Node）。下次生成代码时，AI会主动避开这些已固化的'错误记忆'。这实现了从'通过测试'到'通过排除错误逼近真理'的进化闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.466157",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O2_116",
+  "design_spec": {
+    "name": "auto_基于证伪进化的自适应沙箱_传统沙箱只返_1e2d6d",
+    "display_name": "【基于证伪进化的自适应沙箱】传统沙箱只返回Pass/Fail，融合后的沙箱具备'认知反思'能力。当代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于证伪进化的自适应沙箱】传统沙箱只返回Pass/Fail，融合后的沙箱具备'认知反思'能力。当代码运行失败时，系统不仅报告错误，还调用'失败归纳固化'机制，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_现有的794个skill多为通用逻辑或软_866f71",
+  "file": "skills/auto_现有的794个skill多为通用逻辑或软_866f71.py",
+  "description": "现有的794个SKILL多为通用逻辑或软件操作。如何将其'实例化'为工业专用Skill？例如，将通用的'图像识别'Skill转化为'焊点缺陷检测'Skill。这涉及到底层数据接口适配与阈值参数的固化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:37.977569",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q5_1_9242",
+  "design_spec": {
+    "name": "auto_现有的794个skill多为通用逻辑或软_866f71",
+    "display_name": "现有的794个SKILL多为通用逻辑或软件操作。如何将其'实例化'为工业专用Skill？例如，将通用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "现有的794个SKILL多为通用逻辑或软件操作。如何将其'实例化'为工业专用Skill？例如，将通用的'图像识别'Skill转化为'焊点缺陷检测'Skill。这",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

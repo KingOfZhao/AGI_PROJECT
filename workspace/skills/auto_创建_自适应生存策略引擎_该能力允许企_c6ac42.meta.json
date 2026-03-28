@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_自适应生存策略引擎_该能力允许企_c6ac42",
+  "file": "skills/auto_创建_自适应生存策略引擎_该能力允许企_c6ac42.py",
+  "description": "创建‘自适应生存策略引擎’。该能力允许企业在不同发展阶段动态切换r/K策略参数。在早期，系统建议通过‘表型可塑性’（快速迭代产品形态）探索环境；在成熟期，系统建议构建‘生殖隔离’（品牌壁垒、专利）来固化生态位。核心在于利用生态学中的‘扰动理论’，指导巨头如何在稳定期主动引入内部微小的‘灭绝风险’（内部创业）以避免大公司病。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.121023",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_36_O3_9806",
+  "design_spec": {
+    "name": "auto_创建_自适应生存策略引擎_该能力允许企_c6ac42",
+    "display_name": "创建‘自适应生存策略引擎’。该能力允许企业在不同发展阶段动态切换r/K策略参数。在早期，系统建议通过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建‘自适应生存策略引擎’。该能力允许企业在不同发展阶段动态切换r/K策略参数。在早期，系统建议通过‘表型可塑性’（快速迭代产品形态）探索环境；在成熟期，系统建",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 237
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_零样本资源重组修复_针对极少样本的工业_ce98b5",
+  "file": "skills/auto_零样本资源重组修复_针对极少样本的工业_ce98b5.py",
+  "description": "【零样本资源重组修复】针对极少样本的工业故障或新Bug，系统不再试图从头训练，而是模仿工匠的‘修修补补’。系统自动检索现有被废弃或低优先级的代码片段（‘边角料’），通过语义分析提取其原子功能，并尝试将其‘拼贴’到故障点。这种方法特别适合解决legacy system的疑难杂症，能以极低成本实现意想不到的修复效果。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.714661",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O4_9412",
+  "design_spec": {
+    "name": "auto_零样本资源重组修复_针对极少样本的工业_ce98b5",
+    "display_name": "【零样本资源重组修复】针对极少样本的工业故障或新Bug，系统不再试图从头训练，而是模仿工匠的‘修修补",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【零样本资源重组修复】针对极少样本的工业故障或新Bug，系统不再试图从头训练，而是模仿工匠的‘修修补补’。系统自动检索现有被废弃或低优先级的代码片段（‘边角料’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

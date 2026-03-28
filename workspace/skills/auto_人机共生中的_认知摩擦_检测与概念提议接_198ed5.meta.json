@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生中的_认知摩擦_检测与概念提议接_198ed5",
+  "file": "skills/auto_人机共生中的_认知摩擦_检测与概念提议接_198ed5.py",
+  "description": "人机共生中的'认知摩擦'检测与概念提议接口。当AI在构建网络遇到逻辑断裂或证据不足时，不应幻觉填补，而应生成一份标准化的'人类求助包'（包含上下文、尝试路径、具体疑惑）。此子问题在于定义何时中断计算并寻求人类介入，即'人类实践证伪'的触发阈值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.421550",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q5_2_223",
+  "design_spec": {
+    "name": "auto_人机共生中的_认知摩擦_检测与概念提议接_198ed5",
+    "display_name": "人机共生中的'认知摩擦'检测与概念提议接口。当AI在构建网络遇到逻辑断裂或证据不足时，不应幻觉填补，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生中的'认知摩擦'检测与概念提议接口。当AI在构建网络遇到逻辑断裂或证据不足时，不应幻觉填补，而应生成一份标准化的'人类求助包'（包含上下文、尝试路径、具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_实践清单的可执行性验证_在人机共生环节_0191fc",
+  "file": "skills/auto_实践清单的可执行性验证_在人机共生环节_0191fc.py",
+  "description": "【实践清单的可执行性验证】在人机共生环节，AI生成的'实践清单'必须能被人类物理或认知上执行。如何建立从'抽象概念'到'具体动作'的降维映射机制？例如，将'熵减'概念迁移到'房间整理'，生成的清单必须是'把物品放回原位'，而非'降低波函数坍缩概率'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_56",
+    "robotics_hri",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:30:48.728629",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_56_Q5_3_39",
+  "design_spec": {
+    "name": "auto_实践清单的可执行性验证_在人机共生环节_0191fc",
+    "display_name": "【实践清单的可执行性验证】在人机共生环节，AI生成的'实践清单'必须能被人类物理或认知上执行。如何建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【实践清单的可执行性验证】在人机共生环节，AI生成的'实践清单'必须能被人类物理或认知上执行。如何建立从'抽象概念'到'具体动作'的降维映射机制？例如，将'熵减",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

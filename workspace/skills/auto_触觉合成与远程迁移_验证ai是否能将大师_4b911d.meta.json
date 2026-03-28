@@ -1,0 +1,30 @@
+{
+  "name": "auto_触觉合成与远程迁移_验证ai是否能将大师_4b911d",
+  "file": "skills/auto_触觉合成与远程迁移_验证ai是否能将大师_4b911d.py",
+  "description": "触觉合成与远程迁移：验证AI是否能将大师手部的触觉传感器数据（高频振动、压力分布）合成为可被另一个体（人或机器）感知的触觉信号。这涉及将隐性'手感'数字化并传输，构建跨域触觉节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "haptic_technology",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.809835",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_122_Q7_2_7214",
+  "design_spec": {
+    "name": "auto_触觉合成与远程迁移_验证ai是否能将大师_4b911d",
+    "display_name": "触觉合成与远程迁移：验证AI是否能将大师手部的触觉传感器数据（高频振动、压力分布）合成为可被另一个体",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "触觉合成与远程迁移：验证AI是否能将大师手部的触觉传感器数据（高频振动、压力分布）合成为可被另一个体（人或机器）感知的触觉信号。这涉及将隐性'手感'数字化并传输",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

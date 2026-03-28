@@ -1,0 +1,30 @@
+{
+  "name": "auto_从非结构化文本流中_在线_提取与固化节点_36b542",
+  "file": "skills/auto_从非结构化文本流中_在线_提取与固化节点_36b542.py",
+  "description": "从非结构化文本流中‘在线’提取与固化节点：构建一个实时管道，监控特定数据流（如arXiv论文、新闻）。AI需实时识别出与现有1507个节点不匹配的新名词或新关系。关键难点在于‘去噪’：区分一时流行的俚语与真正的新兴概念。要求实时计算‘概念留存概率’，并在概率超过阈值时自动挂载新节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "stream_processing",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.350518",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_58_Q9_2_4923",
+  "design_spec": {
+    "name": "auto_从非结构化文本流中_在线_提取与固化节点_36b542",
+    "display_name": "从非结构化文本流中‘在线’提取与固化节点：构建一个实时管道，监控特定数据流（如arXiv论文、新闻）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "从非结构化文本流中‘在线’提取与固化节点：构建一个实时管道，监控特定数据流（如arXiv论文、新闻）。AI需实时识别出与现有1507个节点不匹配的新名词或新关系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 263
+  }
+}

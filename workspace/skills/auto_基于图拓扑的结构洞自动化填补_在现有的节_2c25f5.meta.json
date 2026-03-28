@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于图拓扑的结构洞自动化填补_在现有的节_2c25f5",
+  "file": "skills/auto_基于图拓扑的结构洞自动化填补_在现有的节_2c25f5.py",
+  "description": "基于图拓扑的结构洞自动化填补：在现有的节点网络中，寻找‘结构洞’（Structural Holes），即两个紧密连接的聚类之间缺乏连接的断崖。AI需要自动识别两个不相关的领域（如‘生物学’与‘建筑学’），并生成一个能够跨越这两个领域的‘桥接假设’。这是实现‘左右跨域重叠’的关键机制，测试AI能否不依赖人类提示词，仅凭图结构发现创新机会。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "图论与计算社会学",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.445880",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q2_2_7583",
+  "design_spec": {
+    "name": "auto_基于图拓扑的结构洞自动化填补_在现有的节_2c25f5",
+    "display_name": "基于图拓扑的结构洞自动化填补：在现有的节点网络中，寻找‘结构洞’（Structural Holes）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于图拓扑的结构洞自动化填补：在现有的节点网络中，寻找‘结构洞’（Structural Holes），即两个紧密连接的聚类之间缺乏连接的断崖。AI需要自动识别两",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_资源约束下的决策验证_设定一个生存游戏_4d7988",
+  "file": "skills/auto_资源约束下的决策验证_设定一个生存游戏_4d7988.py",
+  "description": "【资源约束下的决策验证】设定一个生存游戏场景（如火星求生），资源有限（氧气、水、能量）。要求AI连续进行100次决策，目标是最小化伤亡。验证AI是否具备'动态规划'能力，能在第50步时为了第100步的生存而牺牲第51步的短期利益，而非短视的贪婪算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "operations_research",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:23.991584",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_11_Q9_2_7043",
+  "design_spec": {
+    "name": "auto_资源约束下的决策验证_设定一个生存游戏_4d7988",
+    "display_name": "【资源约束下的决策验证】设定一个生存游戏场景（如火星求生），资源有限（氧气、水、能量）。要求AI连续",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【资源约束下的决策验证】设定一个生存游戏场景（如火星求生），资源有限（氧气、水、能量）。要求AI连续进行100次决策，目标是最小化伤亡。验证AI是否具备'动态规",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

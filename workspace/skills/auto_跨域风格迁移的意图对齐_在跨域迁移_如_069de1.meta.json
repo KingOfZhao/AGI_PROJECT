@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域风格迁移的意图对齐_在跨域迁移_如_069de1",
+  "file": "skills/auto_跨域风格迁移的意图对齐_在跨域迁移_如_069de1.py",
+  "description": "跨域风格迁移的意图对齐: 在跨域迁移(如将Web端的'登录体验'迁移到CLI工具)时, 如何剥离意图中的'领域特定形式'(如按钮、弹窗), 保留'核心认知逻辑'(如验证、反馈), 并映射到目标领域的原生结构中。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_13",
+    "domain_adaptation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:51:57.944623",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_13_Q8_3_9519",
+  "design_spec": {
+    "name": "auto_跨域风格迁移的意图对齐_在跨域迁移_如_069de1",
+    "display_name": "跨域风格迁移的意图对齐: 在跨域迁移(如将Web端的'登录体验'迁移到CLI工具)时, 如何剥离意图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域风格迁移的意图对齐: 在跨域迁移(如将Web端的'登录体验'迁移到CLI工具)时, 如何剥离意图中的'领域特定形式'(如按钮、弹窗), 保留'核心认知逻辑'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

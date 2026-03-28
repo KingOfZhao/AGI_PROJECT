@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式压力测试工厂_利用ai生成极端的_f5523f",
+  "file": "skills/auto_生成式压力测试工厂_利用ai生成极端的_f5523f.py",
+  "description": "【生成式压力测试工厂】利用AI生成极端的环境参数组合（虚拟魔鬼代言人），在数字孪生环境中对传统工艺流程进行‘虚拟攻击’。例如，AI生成一种前所未有的温湿度曲线来‘攻击’古法酿造流程，预测可能的变质点，从而在无需大量物理浪费的情况下，归纳出更优的工艺边界，实现‘零成本试错’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.486902",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_104_O2_5720",
+  "design_spec": {
+    "name": "auto_生成式压力测试工厂_利用ai生成极端的_f5523f",
+    "display_name": "【生成式压力测试工厂】利用AI生成极端的环境参数组合（虚拟魔鬼代言人），在数字孪生环境中对传统工艺流",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【生成式压力测试工厂】利用AI生成极端的环境参数组合（虚拟魔鬼代言人），在数字孪生环境中对传统工艺流程进行‘虚拟攻击’。例如，AI生成一种前所未有的温湿度曲线来",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 411
+  }
+}

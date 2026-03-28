@@ -1,0 +1,40 @@
+{
+  "skill_name": "concurrent_lru_cache",
+  "version": "1.0.0",
+  "deduction_round": "Round 1/5",
+  "deducer": "Claude Opus 4",
+  "framework": "ULDS v2.1",
+  "truth_level": "L3_capability",
+  "truth_evidence": "6/6 unit tests passed, concurrent safety verified with 10 threads",
+  "domain": "code/data_structures",
+  "tags": ["cache", "concurrency", "lru", "ttl", "thread_safety", "penetration_protection"],
+  "ulds_laws": ["L4_logic", "L9_computability", "L7_probability", "L6_systems"],
+  "surpass_strategies": ["S7_zero_avoidance", "S8_chain_convergence"],
+  "breakthrough_target": "B1_SWE_Bench",
+  "invariants": [
+    "INV-1: cache.size <= max_size (always)",
+    "INV-2: head→tail = most_recent→least_recent",
+    "INV-3: expired nodes evicted on next access"
+  ],
+  "zero_avoidance": {
+    "CD01_boundary": "None key/value protection, empty cache safe",
+    "CD02_concurrency": "RLock for thread safety, tested with 10 threads × 200 ops",
+    "CD03_memory_leak": "max_size + max_memory_bytes dual limit + TTL expiry"
+  },
+  "complexity": {
+    "get": "O(1)",
+    "put": "O(1)",
+    "delete": "O(1)"
+  },
+  "test_results": {
+    "test_basic_lru": "PASS",
+    "test_ttl_expiry": "PASS",
+    "test_concurrent_safety": "PASS",
+    "test_penetration_protection": "PASS",
+    "test_memory_limit": "PASS",
+    "test_none_key_safety": "PASS"
+  },
+  "file": "workspace/skills/concurrent_lru_cache.py",
+  "lines_of_code": 280,
+  "created": "2026-03-26T17:30:00+08:00"
+}

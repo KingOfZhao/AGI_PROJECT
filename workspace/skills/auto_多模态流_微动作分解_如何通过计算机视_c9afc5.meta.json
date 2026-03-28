@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态流_微动作分解_如何通过计算机视_c9afc5",
+  "file": "skills/auto_多模态流_微动作分解_如何通过计算机视_c9afc5.py",
+  "description": "【多模态流-微动作分解】如何通过计算机视觉（如MediaPipe或OpenPose）从视频中提取手工艺的微动作序列，将其从像素流转化为离散的‘运动原语’？这不仅仅是物体检测，而是需要构建一个时序动作分割模型，能够识别出如‘揉捏’、‘挑丝’等不可再分的原子操作，并将连续视频流映射为离散节点序列，作为后续认知构建的‘词袋’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.232961",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_102_Q1_2_1159",
+  "design_spec": {
+    "name": "auto_多模态流_微动作分解_如何通过计算机视_c9afc5",
+    "display_name": "【多模态流-微动作分解】如何通过计算机视觉（如MediaPipe或OpenPose）从视频中提取手工",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态流-微动作分解】如何通过计算机视觉（如MediaPipe或OpenPose）从视频中提取手工艺的微动作序列，将其从像素流转化为离散的‘运动原语’？这不仅",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 332
+  }
+}

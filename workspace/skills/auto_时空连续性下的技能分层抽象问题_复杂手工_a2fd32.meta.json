@@ -1,0 +1,30 @@
+{
+  "name": "auto_时空连续性下的技能分层抽象问题_复杂手工_a2fd32",
+  "file": "skills/auto_时空连续性下的技能分层抽象问题_复杂手工_a2fd32.py",
+  "description": "时空连续性下的技能分层抽象问题：复杂手工艺是连续的时间序列。如何将连续的视频流自动分割为具有语义意义的“原子技能单元”（如“起针”、“收针”），并构建分层级技能树，而非仅仅依赖人工标注的关键帧？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "temporal_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.796514",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q8_0_1755",
+  "design_spec": {
+    "name": "auto_时空连续性下的技能分层抽象问题_复杂手工_a2fd32",
+    "display_name": "时空连续性下的技能分层抽象问题：复杂手工艺是连续的时间序列。如何将连续的视频流自动分割为具有语义意义",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "时空连续性下的技能分层抽象问题：复杂手工艺是连续的时间序列。如何将连续的视频流自动分割为具有语义意义的“原子技能单元”（如“起针”、“收针”），并构建分层级技能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

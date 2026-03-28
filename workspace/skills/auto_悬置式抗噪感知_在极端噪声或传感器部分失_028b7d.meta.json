@@ -1,0 +1,30 @@
+{
+  "name": "auto_悬置式抗噪感知_在极端噪声或传感器部分失_028b7d",
+  "file": "skills/auto_悬置式抗噪感知_在极端噪声或传感器部分失_028b7d.py",
+  "description": "悬置式抗噪感知。在极端噪声或传感器部分失效环境下，传统几何模型失效。融合能力引入'现象学还原'机制：AI不急于将传感器数据强行拟合到预设的物理模型中（悬置自然态度），而是构建一个'纯粹意识流'网络，从碎片化的、高噪声的'现象'中直接映射到动作意图。这使得机器人在非结构化、甚至'欺骗性'环境中（如镜面反射、视觉错觉）仍能保持鲁棒的操作能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.730205",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_27_O4_9983",
+  "design_spec": {
+    "name": "auto_悬置式抗噪感知_在极端噪声或传感器部分失_028b7d",
+    "display_name": "悬置式抗噪感知。在极端噪声或传感器部分失效环境下，传统几何模型失效。融合能力引入'现象学还原'机制：",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "悬置式抗噪感知。在极端噪声或传感器部分失效环境下，传统几何模型失效。融合能力引入'现象学还原'机制：AI不急于将传感器数据强行拟合到预设的物理模型中（悬置自然态",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

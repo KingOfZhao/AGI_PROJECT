@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于力控动态系统的不变量提取_在雕刻工艺_67cd31",
+  "file": "skills/auto_基于力控动态系统的不变量提取_在雕刻工艺_67cd31.py",
+  "description": "基于力控动态系统的不变量提取：在雕刻工艺中，提取不随工匠肢体运动轨迹变化，但随工件表面反馈变化的'力-位'耦合关系。核心在于分离'过程噪声'(工匠习惯)与'核心算子'(物理约束)，获取纯粹的隐性力学逻辑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.487404",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_55_Q3_0_2630",
+  "design_spec": {
+    "name": "auto_基于力控动态系统的不变量提取_在雕刻工艺_67cd31",
+    "display_name": "基于力控动态系统的不变量提取：在雕刻工艺中，提取不随工匠肢体运动轨迹变化，但随工件表面反馈变化的'力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于力控动态系统的不变量提取：在雕刻工艺中，提取不随工匠肢体运动轨迹变化，但随工件表面反馈变化的'力-位'耦合关系。核心在于分离'过程噪声'(工匠习惯)与'核心",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 317
+  }
+}

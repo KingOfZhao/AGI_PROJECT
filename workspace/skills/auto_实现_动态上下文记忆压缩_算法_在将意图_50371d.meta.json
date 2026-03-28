@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_动态上下文记忆压缩_算法_在将意图_50371d",
+  "file": "skills/auto_实现_动态上下文记忆压缩_算法_在将意图_50371d.py",
+  "description": "实现'动态上下文记忆压缩'算法。在将意图转化为代码的长程交互中，Token限制会阻碍上下文连贯性。本实验旨在从3714个节点中动态检索与当前意图最相关的'高频核心节点'作为短期记忆背景，将其余信息压缩为潜在向量。验证该机制是否能在有限的Token预算内，保持代码生成逻辑的完整性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.439932",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q6_3_4954",
+  "design_spec": {
+    "name": "auto_实现_动态上下文记忆压缩_算法_在将意图_50371d",
+    "display_name": "实现'动态上下文记忆压缩'算法。在将意图转化为代码的长程交互中，Token限制会阻碍上下文连贯性。本",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'动态上下文记忆压缩'算法。在将意图转化为代码的长程交互中，Token限制会阻碍上下文连贯性。本实验旨在从3714个节点中动态检索与当前意图最相关的'高频核",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

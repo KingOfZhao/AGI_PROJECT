@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈循环_在代码生成过程中_如何_56d59e",
+  "file": "skills/auto_人机共生反馈循环_在代码生成过程中_如何_56d59e.py",
+  "description": "人机共生反馈循环：在代码生成过程中，如何识别AI的“不确定性盲区”并主动向人类请求“最小化干预”？目标是验证一种不确定性量化算法，它能在生成错误代码前暂停并提问，而非生成后报错。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.413571",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q6_3_8723",
+  "design_spec": {
+    "name": "auto_人机共生反馈循环_在代码生成过程中_如何_56d59e",
+    "display_name": "人机共生反馈循环：在代码生成过程中，如何识别AI的“不确定性盲区”并主动向人类请求“最小化干预”？目",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生反馈循环：在代码生成过程中，如何识别AI的“不确定性盲区”并主动向人类请求“最小化干预”？目标是验证一种不确定性量化算法，它能在生成错误代码前暂停并提问",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 390
+  }
+}

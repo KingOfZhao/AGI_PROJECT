@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_知行合一_的模拟沙箱闭环_ai_43fddd",
+  "file": "skills/auto_如何构建_知行合一_的模拟沙箱闭环_ai_43fddd.py",
+  "description": "如何构建'知行合一'的模拟沙箱闭环？AI生成的实践清单（清单A）在虚拟环境（沙箱）中模拟运行。若模拟结果显示节点B的预测与实践结果偏差>15%，则立即标记节点B为'待证伪'状态，并暂停其在核心网络中的调用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "cybernetics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.567962",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q8_1_7462",
+  "design_spec": {
+    "name": "auto_如何构建_知行合一_的模拟沙箱闭环_ai_43fddd",
+    "display_name": "如何构建'知行合一'的模拟沙箱闭环？AI生成的实践清单（清单A）在虚拟环境（沙箱）中模拟运行。若模拟",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'知行合一'的模拟沙箱闭环？AI生成的实践清单（清单A）在虚拟环境（沙箱）中模拟运行。若模拟结果显示节点B的预测与实践结果偏差>15%，则立即标记节点B",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 204
+  }
+}

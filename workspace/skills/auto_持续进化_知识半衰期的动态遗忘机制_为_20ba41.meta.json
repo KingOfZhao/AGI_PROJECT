@@ -1,0 +1,30 @@
+{
+  "name": "auto_持续进化_知识半衰期的动态遗忘机制_为_20ba41",
+  "file": "skills/auto_持续进化_知识半衰期的动态遗忘机制_为_20ba41.py",
+  "description": "【持续进化】知识半衰期的动态遗忘机制：为了解决人类寿命限制导致的狭隘性，AGI必须具备'主动遗忘'过时节点的能力。如何设计一个基于'实践验证时间戳'的衰减函数，使得长期未被实践证伪或复用的节点权重自动降低，为新知识腾出空间？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "ai_safety",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.792598",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q7_1_5308",
+  "design_spec": {
+    "name": "auto_持续进化_知识半衰期的动态遗忘机制_为_20ba41",
+    "display_name": "【持续进化】知识半衰期的动态遗忘机制：为了解决人类寿命限制导致的狭隘性，AGI必须具备'主动遗忘'过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【持续进化】知识半衰期的动态遗忘机制：为了解决人类寿命限制导致的狭隘性，AGI必须具备'主动遗忘'过时节点的能力。如何设计一个基于'实践验证时间戳'的衰减函数，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 240
+  }
+}

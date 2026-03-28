@@ -1,0 +1,30 @@
+{
+  "name": "auto_抽象阶梯的自动对齐_跨域迁移往往发生在_f6580f",
+  "file": "skills/auto_抽象阶梯的自动对齐_跨域迁移往往发生在_f6580f.py",
+  "description": "【抽象阶梯的自动对齐】跨域迁移往往发生在特定的抽象层级（如'病毒传播'与'谣言传播'在'网络扩散模型'层级重叠，但在'生物学'层级不重叠）。如何设计算法自动识别两个异构节点树的'最佳重叠层级'，并剪除非重叠的下位细节？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "knowledge_representation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.782900",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q3_1_562",
+  "design_spec": {
+    "name": "auto_抽象阶梯的自动对齐_跨域迁移往往发生在_f6580f",
+    "display_name": "【抽象阶梯的自动对齐】跨域迁移往往发生在特定的抽象层级（如'病毒传播'与'谣言传播'在'网络扩散模型",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【抽象阶梯的自动对齐】跨域迁移往往发生在特定的抽象层级（如'病毒传播'与'谣言传播'在'网络扩散模型'层级重叠，但在'生物学'层级不重叠）。如何设计算法自动识别",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_专家直觉结构化_如何将非结构化的专家口_91bff9",
+  "file": "skills/auto_专家直觉结构化_如何将非结构化的专家口_91bff9.py",
+  "description": "【专家直觉结构化】如何将非结构化的专家口语（'这个感觉不太对劲'）转化为结构化的条件判断树（If-Then规则）？重点在于提取'感觉'背后的潜变量（如震动频率的微小抖动），并将其显性化为可测量的节点属性，这是实现'人类赋予新概念->AI整合'的前提。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.815978",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q5_1_5025",
+  "design_spec": {
+    "name": "auto_专家直觉结构化_如何将非结构化的专家口_91bff9",
+    "display_name": "【专家直觉结构化】如何将非结构化的专家口语（'这个感觉不太对劲'）转化为结构化的条件判断树（If-T",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【专家直觉结构化】如何将非结构化的专家口语（'这个感觉不太对劲'）转化为结构化的条件判断树（If-Then规则）？重点在于提取'感觉'背后的潜变量（如震动频率的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

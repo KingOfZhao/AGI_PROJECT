@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_主动式生态位构建agent_传统_3931d5",
+  "file": "skills/auto_实现_主动式生态位构建agent_传统_3931d5.py",
+  "description": "实现'主动式生态位构建Agent'。传统的AI优化是寻找最优解，而该能力是'制造最优解'。例如在定价策略中，AI不只是根据市场定价，而是通过'话术注入'（改变客户心理环境）或'捆绑销售'（改变产品组合环境），人为构建一个高利润的微观生态位。AI将学习如何修改环境参数（规则、用户认知、物理空间），使得原本不可行的策略（如高价卖普通水）变为可行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.125166",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_101_O5_3453",
+  "design_spec": {
+    "name": "auto_实现_主动式生态位构建agent_传统_3931d5",
+    "display_name": "实现'主动式生态位构建Agent'。传统的AI优化是寻找最优解，而该能力是'制造最优解'。例如在定价",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'主动式生态位构建Agent'。传统的AI优化是寻找最优解，而该能力是'制造最优解'。例如在定价策略中，AI不只是根据市场定价，而是通过'话术注入'（改变客",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

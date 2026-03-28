@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于flutter框架构建_实时参数化c_67462c",
+  "file": "skills/auto_基于flutter框架构建_实时参数化c_67462c.py",
+  "description": "基于Flutter框架构建'实时参数化CAD轻量化引擎'。利用Flutter的不可变Widget树作为CAD参数依赖图的容器，将CAD的几何约束求解转化为Flutter的状态管理逻辑。当用户修改参数（类似setState）时，利用Diff算法仅重绘受影响的几何图层，而非重新加载整个模型。这使得移动端CAD具备原生级的响应速度，实现'所绘即所得'的流体设计体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.108080",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_6_O1_100",
+  "design_spec": {
+    "name": "auto_基于flutter框架构建_实时参数化c_67462c",
+    "display_name": "基于Flutter框架构建'实时参数化CAD轻量化引擎'。利用Flutter的不可变Widget树作",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于Flutter框架构建'实时参数化CAD轻量化引擎'。利用Flutter的不可变Widget树作为CAD参数依赖图的容器，将CAD的几何约束求解转化为Flu",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

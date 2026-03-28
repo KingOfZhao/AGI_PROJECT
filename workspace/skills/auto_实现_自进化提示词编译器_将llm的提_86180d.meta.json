@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_自进化提示词编译器_将llm的提_86180d",
+  "file": "skills/auto_实现_自进化提示词编译器_将llm的提_86180d.py",
+  "description": "实现'自进化提示词编译器'。将LLM的提示词视为源代码，应用编译器的JIT优化思想。系统监控LLM对各类提示词的响应质量，自动识别'高频低效'的提示模式，并在运行时动态重构提示词（如插入思维链、调整语序、检索特定案例），将通用的Prompt'编译'为针对当前任务最优的专用指令，实现推理速度与准确率的倍增。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.702905",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_111_O4_2888",
+  "design_spec": {
+    "name": "auto_实现_自进化提示词编译器_将llm的提_86180d",
+    "display_name": "实现'自进化提示词编译器'。将LLM的提示词视为源代码，应用编译器的JIT优化思想。系统监控LLM对",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'自进化提示词编译器'。将LLM的提示词视为源代码，应用编译器的JIT优化思想。系统监控LLM对各类提示词的响应质量，自动识别'高频低效'的提示模式，并在运",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

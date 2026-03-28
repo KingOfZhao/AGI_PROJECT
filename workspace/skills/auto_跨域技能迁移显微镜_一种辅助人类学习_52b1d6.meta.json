@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域技能迁移显微镜_一种辅助人类学习_52b1d6",
+  "file": "skills/auto_跨域技能迁移显微镜_一种辅助人类学习_52b1d6.py",
+  "description": "【跨域技能迁移显微镜】：一种辅助人类学习新技能的工具。通过分析用户已掌握的技能（源域）与目标技能（目标域）的深层拓扑结构，自动发现两者的同构性（如'游泳的换气节奏'与'举重的发力节奏'在压力管理上的同构）。系统利用这种重叠生成'隐喻教程'，利用旧技能的'真实节点'作为脚手架，加速新技能网络的构建。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.569403",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_138_O4_1853",
+  "design_spec": {
+    "name": "auto_跨域技能迁移显微镜_一种辅助人类学习_52b1d6",
+    "display_name": "【跨域技能迁移显微镜】：一种辅助人类学习新技能的工具。通过分析用户已掌握的技能（源域）与目标技能（目",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域技能迁移显微镜】：一种辅助人类学习新技能的工具。通过分析用户已掌握的技能（源域）与目标技能（目标域）的深层拓扑结构，自动发现两者的同构性（如'游泳的换气节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 266
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程依赖的遗忘曲线测试_验证ai_369d3b",
+  "file": "skills/auto_长程依赖的遗忘曲线测试_验证ai_369d3b.py",
+  "description": "**长程依赖的遗忘曲线测试**。验证AI在'持续碰撞'中是否会发生灾难性遗忘。先训练/激活一组冷门节点，经过1000轮不相关的对话/任务后，再次询问与该冷门节点相关的深层逻辑问题，检测节点连接是否依然稳固。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "neuroscience_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.774992",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q7_2_5247",
+  "design_spec": {
+    "name": "auto_长程依赖的遗忘曲线测试_验证ai_369d3b",
+    "display_name": "**长程依赖的遗忘曲线测试**。验证AI在'持续碰撞'中是否会发生灾难性遗忘。先训练/激活一组冷门节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "**长程依赖的遗忘曲线测试**。验证AI在'持续碰撞'中是否会发生灾难性遗忘。先训练/激活一组冷门节点，经过1000轮不相关的对话/任务后，再次询问与该冷门节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 327
+  }
+}

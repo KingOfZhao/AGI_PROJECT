@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合幻觉代码沙箱检测_td_133_q9_623d55",
+  "file": "skills/auto_整合幻觉代码沙箱检测_td_133_q9_623d55.py",
+  "description": "整合幻觉代码沙箱检测(td_133_Q9_3_2220)、技能鲁棒性对抗模拟(ho_133_O6_2735)与红蓝对抗演练(td_133_Q9_0_648)。构建一个主动进化的虚拟环境，新代码或新技能在上线前，必须在一个由AI红队控制的、充满极端边缘情况的“地狱级”沙箱中存活，只有通过严酷测试的节点才能进入真实网络。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_134",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:33:15.360645",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_134_E4_9153",
+  "design_spec": {
+    "name": "auto_整合幻觉代码沙箱检测_td_133_q9_623d55",
+    "display_name": "整合幻觉代码沙箱检测(td_133_Q9_3_2220)、技能鲁棒性对抗模拟(ho_133_O6_2",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合幻觉代码沙箱检测(td_133_Q9_3_2220)、技能鲁棒性对抗模拟(ho_133_O6_2735)与红蓝对抗演练(td_133_Q9_0_648)。构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_重叠固化为真实节点_的自动化流_07b2ee",
+  "file": "skills/auto_如何实现_重叠固化为真实节点_的自动化流_07b2ee.py",
+  "description": "如何实现'重叠固化为真实节点'的自动化流程？当AI生成的代码被人类实践证伪并修正后，如何提取差异部分（Delta），将其抽象为一个新的'修正模式'节点，并更新到1778个节点网络中，而不仅仅是记录为一条日志？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.020452",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q4_1_7855",
+  "design_spec": {
+    "name": "auto_如何实现_重叠固化为真实节点_的自动化流_07b2ee",
+    "display_name": "如何实现'重叠固化为真实节点'的自动化流程？当AI生成的代码被人类实践证伪并修正后，如何提取差异部分",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'重叠固化为真实节点'的自动化流程？当AI生成的代码被人类实践证伪并修正后，如何提取差异部分（Delta），将其抽象为一个新的'修正模式'节点，并更新到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

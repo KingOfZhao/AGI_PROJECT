@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发不可覆盖的_基岩节点_包含核心安全_c0b29f",
+  "file": "skills/auto_开发不可覆盖的_基岩节点_包含核心安全_c0b29f.py",
+  "description": "开发不可覆盖的'基岩节点'，包含核心安全约束，任何新生成的SKILL或计划必须先通过基岩节点的逻辑验证方可执行。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.866143",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_63_G3_2276",
+  "design_spec": {
+    "name": "auto_开发不可覆盖的_基岩节点_包含核心安全_c0b29f",
+    "display_name": "开发不可覆盖的'基岩节点'，包含核心安全约束，任何新生成的SKILL或计划必须先通过基岩节点的逻辑验",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发不可覆盖的'基岩节点'，包含核心安全约束，任何新生成的SKILL或计划必须先通过基岩节点的逻辑验证方可执行。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_可证伪性边界的形式化描述_根据_真实节点_83139e",
+  "file": "skills/auto_可证伪性边界的形式化描述_根据_真实节点_83139e.py",
+  "description": "可证伪性边界的形式化描述。根据'真实节点'定义，每个节点必须包含'在什么条件下可被推翻'的元数据。问题：如何利用LLM自动为现有的非结构化节点生成'可证伪条件'（Falsification Condition）？需要实验验证LLM生成的证伪条件是否具备实际可操作性（不是正确的废话）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "philosophy_of_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.336097",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q7_0_5411",
+  "design_spec": {
+    "name": "auto_可证伪性边界的形式化描述_根据_真实节点_83139e",
+    "display_name": "可证伪性边界的形式化描述。根据'真实节点'定义，每个节点必须包含'在什么条件下可被推翻'的元数据。问",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "可证伪性边界的形式化描述。根据'真实节点'定义，每个节点必须包含'在什么条件下可被推翻'的元数据。问题：如何利用LLM自动为现有的非结构化节点生成'可证伪条件'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

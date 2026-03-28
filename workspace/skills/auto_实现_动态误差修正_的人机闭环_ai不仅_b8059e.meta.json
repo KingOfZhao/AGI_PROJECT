@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_动态误差修正_的人机闭环_ai不仅_b8059e",
+  "file": "skills/auto_实现_动态误差修正_的人机闭环_ai不仅_b8059e.py",
+  "description": "实现‘动态误差修正’的人机闭环。AI不仅模仿动作，还通过力矩传感器实时监测执行误差，并查询‘认知网络’中类似的修正案例（如‘修补裂痕’的子图），实时生成微调建议。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.923251",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_15_Q9_0_1698",
+  "design_spec": {
+    "name": "auto_实现_动态误差修正_的人机闭环_ai不仅_b8059e",
+    "display_name": "实现‘动态误差修正’的人机闭环。AI不仅模仿动作，还通过力矩传感器实时监测执行误差，并查询‘认知网络",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现‘动态误差修正’的人机闭环。AI不仅模仿动作，还通过力矩传感器实时监测执行误差，并查询‘认知网络’中类似的修正案例（如‘修补裂痕’的子图），实时生成微调建议",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 263
+  }
+}

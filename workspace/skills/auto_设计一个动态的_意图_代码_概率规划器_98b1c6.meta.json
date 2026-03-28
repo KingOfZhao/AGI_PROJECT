@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计一个动态的_意图_代码_概率规划器_98b1c6",
+  "file": "skills/auto_设计一个动态的_意图_代码_概率规划器_98b1c6.py",
+  "description": "设计一个动态的'意图-代码'概率规划器，在代码生成前先进行思维链分解。问题在于如何将抽象意图映射到具体的API调用序列或代码逻辑块，同时处理上下文窗口限制。该模块需验证：是否能通过中间层的逻辑规划，显著降低直接生成代码的语法错误率和逻辑幻觉。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.552037",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q2_3_8714",
+  "design_spec": {
+    "name": "auto_设计一个动态的_意图_代码_概率规划器_98b1c6",
+    "display_name": "设计一个动态的'意图-代码'概率规划器，在代码生成前先进行思维链分解。问题在于如何将抽象意图映射到具",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计一个动态的'意图-代码'概率规划器，在代码生成前先进行思维链分解。问题在于如何将抽象意图映射到具体的API调用序列或代码逻辑块，同时处理上下文窗口限制。该模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 330
+  }
+}

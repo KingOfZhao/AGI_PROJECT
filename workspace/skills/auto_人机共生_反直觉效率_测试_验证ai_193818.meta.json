@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_反直觉效率_测试_验证ai_193818",
+  "file": "skills/auto_人机共生_反直觉效率_测试_验证ai_193818.py",
+  "description": "【人机共生】'反直觉效率'测试：验证AI整理的清单是否真的比人类直觉更高效。对比两组实验：A组使用AI生成的'最佳实践清单'，B组使用人类专家的'经验直觉'。如果B组在解决复杂问题上的速度或质量优于A组，则说明AI的节点评估逻辑存在系统性偏差。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "behavioral_economics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.299372",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q9_0_3605",
+  "design_spec": {
+    "name": "auto_人机共生_反直觉效率_测试_验证ai_193818",
+    "display_name": "【人机共生】'反直觉效率'测试：验证AI整理的清单是否真的比人类直觉更高效。对比两组实验：A组使用A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】'反直觉效率'测试：验证AI整理的清单是否真的比人类直觉更高效。对比两组实验：A组使用AI生成的'最佳实践清单'，B组使用人类专家的'经验直觉'。如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 409
+  }
+}

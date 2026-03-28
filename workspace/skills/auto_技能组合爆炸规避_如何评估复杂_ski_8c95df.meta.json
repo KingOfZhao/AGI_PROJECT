@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能组合爆炸规避_如何评估复杂_ski_8c95df",
+  "file": "skills/auto_技能组合爆炸规避_如何评估复杂_ski_8c95df.py",
+  "description": "【技能组合爆炸规避】如何评估复杂 Skill 节点的“原子化程度”以防止冗余组合？Skill 节点库（1960个）中可能包含大量“宏技能”（由多个基础技能组合而成），这会导致搜索空间爆炸。问题在于：如何计算技能的“依赖深度”与“不可替代性”，识别出那些完全可被基础序列替代的“伪高级技能”并予以删除？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.054214",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q10_2_3526",
+  "design_spec": {
+    "name": "auto_技能组合爆炸规避_如何评估复杂_ski_8c95df",
+    "display_name": "【技能组合爆炸规避】如何评估复杂 Skill 节点的“原子化程度”以防止冗余组合？Skill 节点库",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【技能组合爆炸规避】如何评估复杂 Skill 节点的“原子化程度”以防止冗余组合？Skill 节点库（1960个）中可能包含大量“宏技能”（由多个基础技能组合而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

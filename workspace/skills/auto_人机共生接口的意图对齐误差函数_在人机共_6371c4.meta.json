@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生接口的意图对齐误差函数_在人机共_6371c4",
+  "file": "skills/auto_人机共生接口的意图对齐误差函数_在人机共_6371c4.py",
+  "description": "人机共生接口的意图对齐误差函数：在人机共生环节中，AI生成的'实践清单'往往存在语义歧义。如何构建一个可微分的误差函数，量化'AI指令'与'人类理解'之间的潜在偏差？此函数需指导AI在人类实践证伪前进行预修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "NLP / Human-Computer Interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.576029",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_130_Q2_1_6497",
+  "design_spec": {
+    "name": "auto_人机共生接口的意图对齐误差函数_在人机共_6371c4",
+    "display_name": "人机共生接口的意图对齐误差函数：在人机共生环节中，AI生成的'实践清单'往往存在语义歧义。如何构建一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生接口的意图对齐误差函数：在人机共生环节中，AI生成的'实践清单'往往存在语义歧义。如何构建一个可微分的误差函数，量化'AI指令'与'人类理解'之间的潜在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

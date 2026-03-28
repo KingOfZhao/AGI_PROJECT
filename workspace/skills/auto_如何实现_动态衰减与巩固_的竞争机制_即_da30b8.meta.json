@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_动态衰减与巩固_的竞争机制_即_da30b8",
+  "file": "skills/auto_如何实现_动态衰减与巩固_的竞争机制_即_da30b8.py",
+  "description": "如何实现'动态衰减与巩固'的竞争机制？即不仅是静态评估，而是引入'代谢率'。每个节点都有'能量值'，被使用（碰撞）则充能，长期闲置则衰减。问题是：如何设定衰减系数使得不淘汰由于季节性或低频但高价值（如'危机处理'）的节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "system_dynamics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.493964",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q8_2_8838",
+  "design_spec": {
+    "name": "auto_如何实现_动态衰减与巩固_的竞争机制_即_da30b8",
+    "display_name": "如何实现'动态衰减与巩固'的竞争机制？即不仅是静态评估，而是引入'代谢率'。每个节点都有'能量值'，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'动态衰减与巩固'的竞争机制？即不仅是静态评估，而是引入'代谢率'。每个节点都有'能量值'，被使用（碰撞）则充能，长期闲置则衰减。问题是：如何设定衰减系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

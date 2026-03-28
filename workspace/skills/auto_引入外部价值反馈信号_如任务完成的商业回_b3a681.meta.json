@@ -1,0 +1,30 @@
+{
+  "name": "auto_引入外部价值反馈信号_如任务完成的商业回_b3a681",
+  "file": "skills/auto_引入外部价值反馈信号_如任务完成的商业回_b3a681.py",
+  "description": "引入外部价值反馈信号（如任务完成的商业回报或用户满意度评分），构建Value-Sensitive的节点权重体系。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.831025",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_88_G_Economic_Value_Assessment_7469",
+  "design_spec": {
+    "name": "auto_引入外部价值反馈信号_如任务完成的商业回_b3a681",
+    "display_name": "引入外部价值反馈信号（如任务完成的商业回报或用户满意度评分），构建Value-Sensitive的节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "引入外部价值反馈信号（如任务完成的商业回报或用户满意度评分），构建Value-Sensitive的节点权重体系。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 227
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于nerf_3d_gaussian_s_9450ba",
+  "file": "skills/auto_基于nerf_3d_gaussian_s_9450ba.py",
+  "description": "基于NeRF/3D Gaussian Splatting的动态微观过程固化：如何将手工艺中瞬息万变的材料状态（如陶泥在拉坯过程中的拓扑变化）实时固化为可查询的4D动态数字资产，以便AI进行'逐帧'的逆向工程和微观因果分析？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.140204",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_7_Q4_2_7659",
+  "design_spec": {
+    "name": "auto_基于nerf_3d_gaussian_s_9450ba",
+    "display_name": "基于NeRF/3D Gaussian Splatting的动态微观过程固化：如何将手工艺中瞬息万变的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于NeRF/3D Gaussian Splatting的动态微观过程固化：如何将手工艺中瞬息万变的材料状态（如陶泥在拉坯过程中的拓扑变化）实时固化为可查询的4",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 337
+  }
+}

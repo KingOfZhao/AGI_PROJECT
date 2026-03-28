@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图_代码映射的沙箱即时证伪机制_在代码_627c24",
+  "file": "skills/auto_意图_代码映射的沙箱即时证伪机制_在代码_627c24.py",
+  "description": "意图-代码映射的沙箱即时证伪机制：在代码生成后、提交给用户前，如何构建一个轻量级、带有形式化验证属性的沙箱环境，快速执行'意图测试用例'？如果执行结果与意图冲突（如意图是排序但输出无序），系统应自动回滚并调整代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "formal_verification",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.835773",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_71_Q7_1_4454",
+  "design_spec": {
+    "name": "auto_意图_代码映射的沙箱即时证伪机制_在代码_627c24",
+    "display_name": "意图-代码映射的沙箱即时证伪机制：在代码生成后、提交给用户前，如何构建一个轻量级、带有形式化验证属性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "意图-代码映射的沙箱即时证伪机制：在代码生成后、提交给用户前，如何构建一个轻量级、带有形式化验证属性的沙箱环境，快速执行'意图测试用例'？如果执行结果与意图冲突",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

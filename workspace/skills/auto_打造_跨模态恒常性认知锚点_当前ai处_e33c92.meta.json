@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_跨模态恒常性认知锚点_当前ai处_e33c92",
+  "file": "skills/auto_打造_跨模态恒常性认知锚点_当前ai处_e33c92.py",
+  "description": "打造'跨模态恒常性认知锚点'。当前AI处理不同模态（文本描述、图像、代码）时容易割裂。该能力通过模拟人类的客体永久性机制，在AGI的认知网络中建立'真实节点'。即使输入模态缺失或变形，AI也能通过结构化不变量锁定该概念。例如，看到代码片段和UI设计图，能像人类一样确认它们属于'同一个功能需求'，从而实现跨域的知识融合。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.976812",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_54_O3_5439",
+  "design_spec": {
+    "name": "auto_打造_跨模态恒常性认知锚点_当前ai处_e33c92",
+    "display_name": "打造'跨模态恒常性认知锚点'。当前AI处理不同模态（文本描述、图像、代码）时容易割裂。该能力通过模拟",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造'跨模态恒常性认知锚点'。当前AI处理不同模态（文本描述、图像、代码）时容易割裂。该能力通过模拟人类的客体永久性机制，在AGI的认知网络中建立'真实节点'。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

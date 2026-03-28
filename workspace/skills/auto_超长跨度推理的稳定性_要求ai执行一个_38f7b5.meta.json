@@ -1,0 +1,30 @@
+{
+  "name": "auto_超长跨度推理的稳定性_要求ai执行一个_38f7b5",
+  "file": "skills/auto_超长跨度推理的稳定性_要求ai执行一个_38f7b5.py",
+  "description": "【超长跨度推理的稳定性】要求AI执行一个需要连续调用超过20个现有Skill节点的超长任务（如'从零开发一个简易浏览器'）。验证其是否能在长上下文中保持对最初目标（Goal）的锁定，不发生'认知漂移'或中间节点遗忘。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "project_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.130260",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_49_Q8_0_3535",
+  "design_spec": {
+    "name": "auto_超长跨度推理的稳定性_要求ai执行一个_38f7b5",
+    "display_name": "【超长跨度推理的稳定性】要求AI执行一个需要连续调用超过20个现有Skill节点的超长任务（如'从零",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【超长跨度推理的稳定性】要求AI执行一个需要连续调用超过20个现有Skill节点的超长任务（如'从零开发一个简易浏览器'）。验证其是否能在长上下文中保持对最初目",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

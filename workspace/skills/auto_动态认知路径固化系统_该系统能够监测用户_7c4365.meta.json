@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态认知路径固化系统_该系统能够监测用户_7c4365",
+  "file": "skills/auto_动态认知路径固化系统_该系统能够监测用户_7c4365.py",
+  "description": "动态认知路径固化系统。该系统能够监测用户的交互模式或AI自身的推理路径。当发现某些推理链条（如特定的代码生成逻辑或写作风格）被高频调用时，系统自动将其从‘逐步推理’模式转换为‘即时检索’模式，甚至微调为一个专门的LoRA适配器。这使得AGI能像人类一样，通过‘熟能生巧’实现反应速度的数量级提升。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.525318",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O3_2222",
+  "design_spec": {
+    "name": "auto_动态认知路径固化系统_该系统能够监测用户_7c4365",
+    "display_name": "动态认知路径固化系统。该系统能够监测用户的交互模式或AI自身的推理路径。当发现某些推理链条（如特定的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态认知路径固化系统。该系统能够监测用户的交互模式或AI自身的推理路径。当发现某些推理链条（如特定的代码生成逻辑或写作风格）被高频调用时，系统自动将其从‘逐步推",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

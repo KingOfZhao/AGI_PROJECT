@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_高熵环境下的生态鲁棒代理_ec_9a2d7a",
+  "file": "skills/auto_开发_高熵环境下的生态鲁棒代理_ec_9a2d7a.py",
+  "description": "开发'高熵环境下的生态鲁棒代理' (Ecological Robustness Agent)。在模拟小摊贩场景中，AI不使用传统的最大化利润模型（容易过拟合导致库存积压），而是模拟生态系统的'冗余备份'策略。例如，AI在定价策略中引入'传粉网络鲁棒性'逻辑：不只看单次交易利润，而是计算与周围环境（人流、天气、竞对）的共生强度。如果下雨（环境扰动），AI自动触发'休眠机制'（不盲目进货）或'变异机制'（转卖雨伞），模仿生物群落的动态演替。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.690467",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_148_O2_4110",
+  "design_spec": {
+    "name": "auto_开发_高熵环境下的生态鲁棒代理_ec_9a2d7a",
+    "display_name": "开发'高熵环境下的生态鲁棒代理' (Ecological Robustness Agent)。在模拟",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'高熵环境下的生态鲁棒代理' (Ecological Robustness Agent)。在模拟小摊贩场景中，AI不使用传统的最大化利润模型（容易过拟合导致",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_理念_现实双重自适应层_一种新型的dom_d2d070",
+  "file": "skills/auto_理念_现实双重自适应层_一种新型的dom_d2d070.py",
+  "description": "理念-现实双重自适应层：一种新型的Domain Randomization策略，不仅仅是随机化物理参数，而是引入‘本体论差异’扰动。让AI在仿真中学习识别‘什么是不可信的感官输入’（类似于区分墙上的影子和实物），从而构建一种鲁棒的‘怀疑论智能’。这种AI在面对真实世界的突发状况时，能像哲学家一样区分‘本质’与‘表象’，保持核心任务的稳定性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.797223",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O5_7490",
+  "design_spec": {
+    "name": "auto_理念_现实双重自适应层_一种新型的dom_d2d070",
+    "display_name": "理念-现实双重自适应层：一种新型的Domain Randomization策略，不仅仅是随机化物理参",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "理念-现实双重自适应层：一种新型的Domain Randomization策略，不仅仅是随机化物理参数，而是引入‘本体论差异’扰动。让AI在仿真中学习识别‘什么",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

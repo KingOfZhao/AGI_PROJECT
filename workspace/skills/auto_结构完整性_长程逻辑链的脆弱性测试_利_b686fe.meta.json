@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构完整性_长程逻辑链的脆弱性测试_利_b686fe",
+  "file": "skills/auto_结构完整性_长程逻辑链的脆弱性测试_利_b686fe.py",
+  "description": "【结构完整性】长程逻辑链的脆弱性测试：利用现有2305个技能节点中的核心节点（如'代码生成'或'逻辑推理'），构建一个深度超过10层的嵌套任务链。要求AI在执行过程中，第N步的输出必须作为第N+1步的严格输入，且中间状态不可见。验证AI是否能在无人类干预的情况下，维持上下文的一致性，还是会因为'幻觉漂移'导致逻辑链条在深层断裂。这是检验AI是否具备'结构化认知'而非概率性拼凑的核心指标。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cognitive_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.664466",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q1_0_862",
+  "design_spec": {
+    "name": "auto_结构完整性_长程逻辑链的脆弱性测试_利_b686fe",
+    "display_name": "【结构完整性】长程逻辑链的脆弱性测试：利用现有2305个技能节点中的核心节点（如'代码生成'或'逻辑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【结构完整性】长程逻辑链的脆弱性测试：利用现有2305个技能节点中的核心节点（如'代码生成'或'逻辑推理'），构建一个深度超过10层的嵌套任务链。要求AI在执行",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

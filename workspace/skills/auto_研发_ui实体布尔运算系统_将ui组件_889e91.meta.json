@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_ui实体布尔运算系统_将ui组件_889e91",
+  "file": "skills/auto_研发_ui实体布尔运算系统_将ui组件_889e91.py",
+  "description": "研发'UI实体布尔运算系统'。将UI组件视为几何实体，引入交(逻辑与/可见区域)、并(逻辑或/节点合并)、差(逻辑非/镂空/蒙版)概念。允许开发者通过布尔运算动态合成复杂的UI形态，例如两个重叠Widget自动生成矢量化蒙版路径，极大提升复杂图形交互的开发效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.344233",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_133_O2_1879",
+  "design_spec": {
+    "name": "auto_研发_ui实体布尔运算系统_将ui组件_889e91",
+    "display_name": "研发'UI实体布尔运算系统'。将UI组件视为几何实体，引入交(逻辑与/可见区域)、并(逻辑或/节点合",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'UI实体布尔运算系统'。将UI组件视为几何实体，引入交(逻辑与/可见区域)、并(逻辑或/节点合并)、差(逻辑非/镂空/蒙版)概念。允许开发者通过布尔运算动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 451
+  }
+}

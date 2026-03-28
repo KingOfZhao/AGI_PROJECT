@@ -1,0 +1,30 @@
+{
+  "name": "auto_场景特异化表观配置协议_针对复杂工厂_16c68b",
+  "file": "skills/auto_场景特异化表观配置协议_针对复杂工厂_16c68b.py",
+  "description": "‘场景特异化表观配置协议’。针对复杂工厂产线，开发一种‘表观配置层’。核心微服务（如‘故障检测’）作为通用干细胞存在，不具备具体业务逻辑。当该微服务被部署到‘焊接车间’或‘组装车间’时，环境上下文自动作为‘甲基化标记’注入，动态修改微服务的推理Prompt、参数权重或知识库检索范围。这允许系统用极少的核心代码量，支撑极度复杂的差异化产线需求，实现‘一次构建，到处分化’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_136",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:13:09.838343",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_136_O2_1457",
+  "design_spec": {
+    "name": "auto_场景特异化表观配置协议_针对复杂工厂_16c68b",
+    "display_name": "‘场景特异化表观配置协议’。针对复杂工厂产线，开发一种‘表观配置层’。核心微服务（如‘故障检测’）作",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘场景特异化表观配置协议’。针对复杂工厂产线，开发一种‘表观配置层’。核心微服务（如‘故障检测’）作为通用干细胞存在，不具备具体业务逻辑。当该微服务被部署到‘焊",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

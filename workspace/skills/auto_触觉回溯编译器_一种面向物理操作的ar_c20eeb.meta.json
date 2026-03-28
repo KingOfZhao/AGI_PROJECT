@@ -1,0 +1,30 @@
+{
+  "name": "auto_触觉回溯编译器_一种面向物理操作的ar_c20eeb",
+  "file": "skills/auto_触觉回溯编译器_一种面向物理操作的ar_c20eeb.py",
+  "description": "【触觉回溯编译器】一种面向物理操作的AR辅助系统。当工匠在操作（如陶艺拉坯）感觉到阻力异常（物理报错）时，系统不仅记录数据，还能像RLHF一样，即时生成‘最小化修正动作’（如‘左手压力需减少10%’），并将此次‘排错’经验固化为一个新的‘避坑节点’。这使得新手能通过AR眼镜‘继承’老师傅的肌肉记忆，缩短数年的学徒周期。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.485154",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_104_O1_5720",
+  "design_spec": {
+    "name": "auto_触觉回溯编译器_一种面向物理操作的ar_c20eeb",
+    "display_name": "【触觉回溯编译器】一种面向物理操作的AR辅助系统。当工匠在操作（如陶艺拉坯）感觉到阻力异常（物理报错",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【触觉回溯编译器】一种面向物理操作的AR辅助系统。当工匠在操作（如陶艺拉坯）感觉到阻力异常（物理报错）时，系统不仅记录数据，还能像RLHF一样，即时生成‘最小化",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

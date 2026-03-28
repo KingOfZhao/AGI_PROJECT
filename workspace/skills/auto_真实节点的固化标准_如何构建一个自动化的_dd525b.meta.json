@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点的固化标准_如何构建一个自动化的_dd525b",
+  "file": "skills/auto_真实节点的固化标准_如何构建一个自动化的_dd525b.py",
+  "description": "真实节点的固化标准：如何构建一个自动化的'真理粘度'评估函数？一个新知识要成为'真实节点'，必须在模拟环境或真实API中通过压力测试。问题在于：如何量化'验证强度'，使得经过多轮碰撞（证伪尝试）幸存的知识比未经验证的知识拥有更高的权重？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_28",
+    "认识论/贝叶斯推断",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:20:59.436992",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_28_Q4_2_1501",
+  "design_spec": {
+    "name": "auto_真实节点的固化标准_如何构建一个自动化的_dd525b",
+    "display_name": "真实节点的固化标准：如何构建一个自动化的'真理粘度'评估函数？一个新知识要成为'真实节点'，必须在模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "真实节点的固化标准：如何构建一个自动化的'真理粘度'评估函数？一个新知识要成为'真实节点'，必须在模拟环境或真实API中通过压力测试。问题在于：如何量化'验证强",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 329
+  }
+}

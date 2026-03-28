@@ -1,0 +1,30 @@
+{
+  "name": "auto_模糊逻辑的概率性测试生成_如何将非功能性_c21872",
+  "file": "skills/auto_模糊逻辑的概率性测试生成_如何将非功能性_c21872.py",
+  "description": "模糊逻辑的概率性测试生成：如何将非功能性的模糊意图（如'系统要感觉很流畅'）转化为可量化的自动化测试脚本？这需要建立从自然语言形容词到性能指标（如FPS、延迟、丢包率）的概率映射模型，并生成对应的混沌工程实验用例。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "qa_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.814932",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_88_Q5_3_8354",
+  "design_spec": {
+    "name": "auto_模糊逻辑的概率性测试生成_如何将非功能性_c21872",
+    "display_name": "模糊逻辑的概率性测试生成：如何将非功能性的模糊意图（如'系统要感觉很流畅'）转化为可量化的自动化测试",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "模糊逻辑的概率性测试生成：如何将非功能性的模糊意图（如'系统要感觉很流畅'）转化为可量化的自动化测试脚本？这需要建立从自然语言形容词到性能指标（如FPS、延迟、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

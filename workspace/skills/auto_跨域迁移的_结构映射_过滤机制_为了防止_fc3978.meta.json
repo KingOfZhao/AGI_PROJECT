@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移的_结构映射_过滤机制_为了防止_fc3978",
+  "file": "skills/auto_跨域迁移的_结构映射_过滤机制_为了防止_fc3978.py",
+  "description": "跨域迁移的‘结构映射’过滤机制：为了防止无效的‘左右碰撞’，需要开发一种基于结构相似性而非仅仅是表面语义相似的检索算法。该算法必须能识别源域和目标域之间深层的关系结构匹配。例如，从‘免疫系统’迁移到‘网络安全’时，应匹配‘识别-攻击-记忆’的流程结构，而非‘细胞’与‘代码’的字面义。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.368247",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_97_Q6_1_2712",
+  "design_spec": {
+    "name": "auto_跨域迁移的_结构映射_过滤机制_为了防止_fc3978",
+    "display_name": "跨域迁移的‘结构映射’过滤机制：为了防止无效的‘左右碰撞’，需要开发一种基于结构相似性而非仅仅是表面",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移的‘结构映射’过滤机制：为了防止无效的‘左右碰撞’，需要开发一种基于结构相似性而非仅仅是表面语义相似的检索算法。该算法必须能识别源域和目标域之间深层的关",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 289
+  }
+}

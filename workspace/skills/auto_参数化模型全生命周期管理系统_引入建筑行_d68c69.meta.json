@@ -1,0 +1,30 @@
+{
+  "name": "auto_参数化模型全生命周期管理系统_引入建筑行_d68c69",
+  "file": "skills/auto_参数化模型全生命周期管理系统_引入建筑行_d68c69.py",
+  "description": "参数化模型全生命周期管理系统。引入建筑行业的BIM（建筑信息模型）理念来管理AI模型权重。不仅存储权重，还存储其'建造信息'（训练数据来源、验证指标、依赖关系）。这允许用户像查看建筑图纸一样查看模型的'结构构造'，并像预制件组装一样，通过语义指令快速组装不同风格的LoRA模块（例如：'赛博朋克外挂件' + '写实渲染核心'），实现零代码的复杂模型构建。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_89",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:04:54.813178",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_89_O3_4409",
+  "design_spec": {
+    "name": "auto_参数化模型全生命周期管理系统_引入建筑行_d68c69",
+    "display_name": "参数化模型全生命周期管理系统。引入建筑行业的BIM（建筑信息模型）理念来管理AI模型权重。不仅存储权",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "参数化模型全生命周期管理系统。引入建筑行业的BIM（建筑信息模型）理念来管理AI模型权重。不仅存储权重，还存储其'建造信息'（训练数据来源、验证指标、依赖关系）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

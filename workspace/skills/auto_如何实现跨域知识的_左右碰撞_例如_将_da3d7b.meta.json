@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现跨域知识的_左右碰撞_例如_将_da3d7b",
+  "file": "skills/auto_如何实现跨域知识的_左右碰撞_例如_将_da3d7b.py",
+  "description": "如何实现跨域知识的“左右碰撞”？例如，将“生物血管分布原理”（自然域）迁移到“工业冷却系统流道设计”（制造域）。如何计算两个截然不同的领域节点在语义向量空间中的“结构相似度”，并生成一个“跨界类比”建议供人类专家审核？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "analogy_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.136634",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_65_Q9_3_1183",
+  "design_spec": {
+    "name": "auto_如何实现跨域知识的_左右碰撞_例如_将_da3d7b",
+    "display_name": "如何实现跨域知识的“左右碰撞”？例如，将“生物血管分布原理”（自然域）迁移到“工业冷却系统流道设计”",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现跨域知识的“左右碰撞”？例如，将“生物血管分布原理”（自然域）迁移到“工业冷却系统流道设计”（制造域）。如何计算两个截然不同的领域节点在语义向量空间中的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 234
+  }
+}

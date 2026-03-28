@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_思维范式无损迁移架构_传统ai辅_fac195",
+  "file": "skills/auto_构建_思维范式无损迁移架构_传统ai辅_fac195.py",
+  "description": "构建'思维范式无损迁移架构'。传统AI辅助侧重于'填充内容'，此能力侧重于'修改结构'。当检测到用户面临全新类型的问题（如从线性思维环境进入指数级变化环境）时，AI不直接给答案，而是利用Schema Migration的原子性操作（如DROP CONSTRAINT, ADD COLUMN），引导人类进行'认知手术'。例如，AI识别出用户正试图用旧经验（旧表结构）解决新问题，并提示'此处发生Schema Mismatch'，强制人类进行范式升级，防止'在错误的表结构上堆砌垃圾数据'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:42:58.466817",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_2_O2_526",
+  "design_spec": {
+    "name": "auto_构建_思维范式无损迁移架构_传统ai辅_fac195",
+    "display_name": "构建'思维范式无损迁移架构'。传统AI辅助侧重于'填充内容'，此能力侧重于'修改结构'。当检测到用户",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'思维范式无损迁移架构'。传统AI辅助侧重于'填充内容'，此能力侧重于'修改结构'。当检测到用户面临全新类型的问题（如从线性思维环境进入指数级变化环境）时，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

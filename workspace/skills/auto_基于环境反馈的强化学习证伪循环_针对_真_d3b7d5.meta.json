@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于环境反馈的强化学习证伪循环_针对_真_d3b7d5",
+  "file": "skills/auto_基于环境反馈的强化学习证伪循环_针对_真_d3b7d5.py",
+  "description": "基于环境反馈的强化学习证伪循环：针对“真实节点”需要实践验证的要求，如何构建一个RL（强化学习）Agent，使其策略不是最大化奖励，而是最大化“节点证伪率”？即Agent主动寻找现有知识节点的边界条件（Corner Cases），通过与环境交互来打破现有节点的适用范围假设。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "reinforcement_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.399809",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q5_3_5254",
+  "design_spec": {
+    "name": "auto_基于环境反馈的强化学习证伪循环_针对_真_d3b7d5",
+    "display_name": "基于环境反馈的强化学习证伪循环：针对“真实节点”需要实践验证的要求，如何构建一个RL（强化学习）Ag",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于环境反馈的强化学习证伪循环：针对“真实节点”需要实践验证的要求，如何构建一个RL（强化学习）Agent，使其策略不是最大化奖励，而是最大化“节点证伪率”？即",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

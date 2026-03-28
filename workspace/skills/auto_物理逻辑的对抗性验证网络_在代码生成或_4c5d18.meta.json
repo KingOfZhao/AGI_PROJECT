@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理逻辑的对抗性验证网络_在代码生成或_4c5d18",
+  "file": "skills/auto_物理逻辑的对抗性验证网络_在代码生成或_4c5d18.py",
+  "description": "【物理逻辑的对抗性验证网络】在代码生成或逻辑推理中，引入物理世界的‘应力测试’概念。不仅仅做语义上的逻辑自洽，而是构建一个‘物理环境模拟器’作为判别器，主动生成极端边界条件（反例）攻击生成的代码逻辑，确保其在高并发或异常输入下仍具有‘榫卯般’的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.779160",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_109_O3_434",
+  "design_spec": {
+    "name": "auto_物理逻辑的对抗性验证网络_在代码生成或_4c5d18",
+    "display_name": "【物理逻辑的对抗性验证网络】在代码生成或逻辑推理中，引入物理世界的‘应力测试’概念。不仅仅做语义上的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【物理逻辑的对抗性验证网络】在代码生成或逻辑推理中，引入物理世界的‘应力测试’概念。不仅仅做语义上的逻辑自洽，而是构建一个‘物理环境模拟器’作为判别器，主动生成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

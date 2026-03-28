@@ -1,0 +1,30 @@
+{
+  "name": "auto_直觉容错解析引擎_一种能够理解_差不多_676c83",
+  "file": "skills/auto_直觉容错解析引擎_一种能够理解_差不多_676c83.py",
+  "description": "【直觉容错解析引擎】一种能够理解‘差不多’、‘看着办’等模糊指令的AGI子系统。它不追求绝对的逻辑精确，而是模仿老练手艺人的‘分寸感’。当用户输入模糊指令时，系统基于‘ Practical Skills’中的上下文约束（如材料限制、环境变量）自动补全缺失参数，生成一个带置信区间的‘可执行动作链’，而非报错。这实现了从‘代码逻辑’到‘工匠逻辑’的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.565705",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_73_O1_3776",
+  "design_spec": {
+    "name": "auto_直觉容错解析引擎_一种能够理解_差不多_676c83",
+    "display_name": "【直觉容错解析引擎】一种能够理解‘差不多’、‘看着办’等模糊指令的AGI子系统。它不追求绝对的逻辑精",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【直觉容错解析引擎】一种能够理解‘差不多’、‘看着办’等模糊指令的AGI子系统。它不追求绝对的逻辑精确，而是模仿老练手艺人的‘分寸感’。当用户输入模糊指令时，系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

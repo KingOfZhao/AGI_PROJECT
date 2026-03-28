@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_变构生存策略模块_agi通常追求_6f234b",
+  "file": "skills/auto_开发_变构生存策略模块_agi通常追求_6f234b.py",
+  "description": "开发'变构生存策略模块'。AGI通常追求高智能（K策略），但在资源（算力/电量）耗尽边缘，系统应能自动剥离高层认知功能（推理/规划），退化为类似'草履虫'的刺激-反射模式，仅保留核心生存功能。这种'主动退化与重组'能力是实现AGI鲁棒性的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.459631",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_78_O2_258",
+  "design_spec": {
+    "name": "auto_开发_变构生存策略模块_agi通常追求_6f234b",
+    "display_name": "开发'变构生存策略模块'。AGI通常追求高智能（K策略），但在资源（算力/电量）耗尽边缘，系统应能自",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'变构生存策略模块'。AGI通常追求高智能（K策略），但在资源（算力/电量）耗尽边缘，系统应能自动剥离高层认知功能（推理/规划），退化为类似'草履虫'的刺激",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

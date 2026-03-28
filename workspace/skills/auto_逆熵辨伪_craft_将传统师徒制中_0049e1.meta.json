@@ -1,0 +1,30 @@
+{
+  "name": "auto_逆熵辨伪_craft_将传统师徒制中_0049e1",
+  "file": "skills/auto_逆熵辨伪_craft_将传统师徒制中_0049e1.py",
+  "description": "【逆熵辨伪 craft】将传统师徒制中‘人为制造困难’的直觉数字化，构建一种基于GAN（生成对抗网络）逻辑的AI实训系统。该系统不再被动等待错误，而是像严苛的师傅一样，针对学习者当前的掌握程度，主动生成‘边缘陷阱’（如代码中隐含的逻辑漏洞、工艺中极易断裂的步骤）。通过这种‘主动找茬’机制，强迫学习者在实战中不断修补认知漏洞，将被动的‘试错学习’升级为‘攻防演练’，极大地缩短了从新手到专家的‘刻意练习’周期。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.771679",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_20_O1_9997",
+  "design_spec": {
+    "name": "auto_逆熵辨伪_craft_将传统师徒制中_0049e1",
+    "display_name": "【逆熵辨伪 craft】将传统师徒制中‘人为制造困难’的直觉数字化，构建一种基于GAN（生成对抗网络",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【逆熵辨伪 craft】将传统师徒制中‘人为制造困难’的直觉数字化，构建一种基于GAN（生成对抗网络）逻辑的AI实训系统。该系统不再被动等待错误，而是像严苛的师",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

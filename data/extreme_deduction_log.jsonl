@@ -1,0 +1,2 @@
+{"timestamp": "20260326_164940", "problem": "实现一个高性能的并发安全LRU缓存，支持TTL过期和内存限制", "laws": ["L4", "L9"], "surpass_avg": 89.4, "nodes_count": 8}
+{"timestamp": "20260326_165015", "problem": "实现高性能并发安全LRU缓存", "laws": ["L4", "L9"], "surpass_avg": 89.4, "nodes_count": 8}

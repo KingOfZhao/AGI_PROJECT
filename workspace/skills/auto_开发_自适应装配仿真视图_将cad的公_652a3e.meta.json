@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_自适应装配仿真视图_将cad的公_652a3e",
+  "file": "skills/auto_开发_自适应装配仿真视图_将cad的公_652a3e.py",
+  "description": "开发‘自适应装配仿真视图’。将CAD的公差带和装配约束映射为Flutter布局协议中的‘松约束’与‘紧约束’。在移动端查看复杂机械装配时，不仅仅是静态展示，而是根据设备性能和用户视点，动态计算零件的LOD(细节层次)和物理间隙。更进一步，允许用户在移动端模拟‘过盈配合’或‘间隙配合’的视觉效果，通过UI动画实时反馈装配公差对产品形态的影响。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.469256",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_90_O2_267",
+  "design_spec": {
+    "name": "auto_开发_自适应装配仿真视图_将cad的公_652a3e",
+    "display_name": "开发‘自适应装配仿真视图’。将CAD的公差带和装配约束映射为Flutter布局协议中的‘松约束’与‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘自适应装配仿真视图’。将CAD的公差带和装配约束映射为Flutter布局协议中的‘松约束’与‘紧约束’。在移动端查看复杂机械装配时，不仅仅是静态展示，而是",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

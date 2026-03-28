@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_异构数据融合知识图谱_以关联不_e94599",
+  "file": "skills/auto_如何设计_异构数据融合知识图谱_以关联不_e94599.py",
+  "description": "如何设计“异构数据融合知识图谱”以关联不相关的技能节点？例如将“揉面团”的力学数据与“按摩肌肉”的解剖学数据建立关联。目标是通过计算不同领域（跨域）技能节点的拓扑结构重叠度，自动发现隐性的通用原理（如流体力学与软组织形变的共性），实现从已有3403个节点向新领域的迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.007749",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q5_2_1672",
+  "design_spec": {
+    "name": "auto_如何设计_异构数据融合知识图谱_以关联不_e94599",
+    "display_name": "如何设计“异构数据融合知识图谱”以关联不相关的技能节点？例如将“揉面团”的力学数据与“按摩肌肉”的解",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计“异构数据融合知识图谱”以关联不相关的技能节点？例如将“揉面团”的力学数据与“按摩肌肉”的解剖学数据建立关联。目标是通过计算不同领域（跨域）技能节点的拓",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

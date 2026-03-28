@@ -1,0 +1,30 @@
+{
+  "name": "auto_只可意会_知识的跨域结构化映射_利用_a7c810",
+  "file": "skills/auto_只可意会_知识的跨域结构化映射_利用_a7c810.py",
+  "description": "‘只可意会’知识的跨域结构化映射：利用‘左右跨域重叠’原则，如何将难以量化的隐性知识（如‘这种漆面很有厚度感’）映射到结构化强领域（如声学频谱或材料力学参数）？通过寻找不同感官描述在数学结构上的同构性，将模糊的审美感受转化为可计算的工程参数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:49:02.535659",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_10_Q5_0_7756",
+  "design_spec": {
+    "name": "auto_只可意会_知识的跨域结构化映射_利用_a7c810",
+    "display_name": "‘只可意会’知识的跨域结构化映射：利用‘左右跨域重叠’原则，如何将难以量化的隐性知识（如‘这种漆面很",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘只可意会’知识的跨域结构化映射：利用‘左右跨域重叠’原则，如何将难以量化的隐性知识（如‘这种漆面很有厚度感’）映射到结构化强领域（如声学频谱或材料力学参数）？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 248
+  }
+}

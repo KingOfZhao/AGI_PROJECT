@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_程序化图形生成器_procedur_077dbc",
+  "file": "skills/auto_构建_程序化图形生成器_procedur_077dbc.py",
+  "description": "构建'程序化图形生成器(Procedural Shape Generator)'。利用CAD的样条曲线算法(NURBS)增强Flutter的Path能力，使Flutter能绘制极高精度的工程曲线(如汽车腰线、空气动力学轮廓)。同时引入CAD的'布尔运算'(并集、差集、交集)到Flutter中，使UI元素支持非矩形的复杂矢量遮罩和碰撞检测。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.834831",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O4_8882",
+  "design_spec": {
+    "name": "auto_构建_程序化图形生成器_procedur_077dbc",
+    "display_name": "构建'程序化图形生成器(Procedural Shape Generator)'。利用CAD的样条曲",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'程序化图形生成器(Procedural Shape Generator)'。利用CAD的样条曲线算法(NURBS)增强Flutter的Path能力，使Fl",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

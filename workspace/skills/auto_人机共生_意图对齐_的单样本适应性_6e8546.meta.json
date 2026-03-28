@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_意图对齐_的单样本适应性_6e8546",
+  "file": "skills/auto_人机共生_意图对齐_的单样本适应性_6e8546.py",
+  "description": "【人机共生】'意图对齐'的单样本适应性。AI能否根据用户的一次修正反馈（例如：'我不喜欢这种幽默风格，要严肃点'），立即更新其内部状态，并在后续的所有交互中保持这一偏好？这验证了AI能否将人类的'一次性实践'迅速转化为'稳定节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_76",
+    "interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:35:30.438922",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_76_Q5_2_6755",
+  "design_spec": {
+    "name": "auto_人机共生_意图对齐_的单样本适应性_6e8546",
+    "display_name": "【人机共生】'意图对齐'的单样本适应性。AI能否根据用户的一次修正反馈（例如：'我不喜欢这种幽默风格",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】'意图对齐'的单样本适应性。AI能否根据用户的一次修正反馈（例如：'我不喜欢这种幽默风格，要严肃点'），立即更新其内部状态，并在后续的所有交互中保持",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

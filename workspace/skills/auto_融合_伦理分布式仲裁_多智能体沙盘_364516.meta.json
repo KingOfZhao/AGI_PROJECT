@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_伦理分布式仲裁_多智能体沙盘_364516",
+  "file": "skills/auto_融合_伦理分布式仲裁_多智能体沙盘_364516.py",
+  "description": "融合'伦理分布式仲裁'、'多智能体沙盘'与'用户画像-代码风格映射'。在沙盘演练中，虚拟Agent不仅具备经济理性，还嵌入了简化的道德数模。系统能模拟不同伦理价值观（如功利主义 vs 义务论）下的群体演化结果，帮助学生理解宏观政策或伦理决策的长期蝴蝶效应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.583308",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_1_E3_6318",
+  "design_spec": {
+    "name": "auto_融合_伦理分布式仲裁_多智能体沙盘_364516",
+    "display_name": "融合'伦理分布式仲裁'、'多智能体沙盘'与'用户画像-代码风格映射'。在沙盘演练中，虚拟Agent不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'伦理分布式仲裁'、'多智能体沙盘'与'用户画像-代码风格映射'。在沙盘演练中，虚拟Agent不仅具备经济理性，还嵌入了简化的道德数模。系统能模拟不同伦理价",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

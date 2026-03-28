@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下_故障树证伪_在复杂设备停机时_7a9a07",
+  "file": "skills/auto_自上而下_故障树证伪_在复杂设备停机时_7a9a07.py",
+  "description": "【自上而下-故障树证伪】在复杂设备停机时，如何构建动态故障树生成器？基于当前传感器数据，自上而下拆解可能原因，并利用‘最小替换法’生成验证步骤。子问题在于：如何确定拆解的‘颗粒度’，避免陷入无限细分，这需要一个基于‘维修成本权重’的剪枝算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "system_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.451686",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q5_1_9813",
+  "design_spec": {
+    "name": "auto_自上而下_故障树证伪_在复杂设备停机时_7a9a07",
+    "display_name": "【自上而下-故障树证伪】在复杂设备停机时，如何构建动态故障树生成器？基于当前传感器数据，自上而下拆解",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下-故障树证伪】在复杂设备停机时，如何构建动态故障树生成器？基于当前传感器数据，自上而下拆解可能原因，并利用‘最小替换法’生成验证步骤。子问题在于：如何",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

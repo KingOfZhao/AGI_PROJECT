@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于标准化接口的_plug_and_pl_6ff66c",
+  "file": "skills/auto_基于标准化接口的_plug_and_pl_6ff66c.py",
+  "description": "基于标准化接口的'Plug-and-Play认知构件系统'。该能力允许像搭建乐高积木一样构建AI模型。当面对新任务时，系统不需要从头训练，而是从'构件库'中检索现成的视觉、逻辑、记忆模块，通过验证的标准化协议快速组装。这解决了传统AI训练资源消耗大、无法快速适应新场景的痛点，实现了认知能力的即插即用和无限扩展。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.949500",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_108_O1_7700",
+  "design_spec": {
+    "name": "auto_基于标准化接口的_plug_and_pl_6ff66c",
+    "display_name": "基于标准化接口的'Plug-and-Play认知构件系统'。该能力允许像搭建乐高积木一样构建AI模型",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于标准化接口的'Plug-and-Play认知构件系统'。该能力允许像搭建乐高积木一样构建AI模型。当面对新任务时，系统不需要从头训练，而是从'构件库'中检索",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 326
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_具身认知rlhf_系统_利用传感器_15cfe7",
+  "file": "skills/auto_构建_具身认知rlhf_系统_利用传感器_15cfe7.py",
+  "description": "构建'具身认知RLHF'系统。利用传感器捕捉工匠操作时的微振动、力度和声音数据，将物理反馈数字化为'负奖励信号'。AI不仅学习代码逻辑，还能根据物理反馈调整生成参数（如3D打印路径的力度或速度），形成'物理-数字'双向强化的技能固化闭环，极大提升机器人在精细工艺中的适应性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.696897",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O1_8317",
+  "design_spec": {
+    "name": "auto_构建_具身认知rlhf_系统_利用传感器_15cfe7",
+    "display_name": "构建'具身认知RLHF'系统。利用传感器捕捉工匠操作时的微振动、力度和声音数据，将物理反馈数字化为'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'具身认知RLHF'系统。利用传感器捕捉工匠操作时的微振动、力度和声音数据，将物理反馈数字化为'负奖励信号'。AI不仅学习代码逻辑，还能根据物理反馈调整生成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

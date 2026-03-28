@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_知识半衰期_衰减函数_为了解决静态_581309",
+  "file": "skills/auto_构建_知识半衰期_衰减函数_为了解决静态_581309.py",
+  "description": "构建'知识半衰期'衰减函数。为了解决静态知识库的僵化问题，每个节点需附带一个随时间推移自动降低权重的参数。核心问题是：如何根据节点被'调用'和'证伪'的频率，动态调整其权重，使得过时知识（如'软盘存储技能'）自动沉底，不再参与核心决策。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "Data Science/Time Series Analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.184938",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_57_Q8_3_9765",
+  "design_spec": {
+    "name": "auto_构建_知识半衰期_衰减函数_为了解决静态_581309",
+    "display_name": "构建'知识半衰期'衰减函数。为了解决静态知识库的僵化问题，每个节点需附带一个随时间推移自动降低权重的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'知识半衰期'衰减函数。为了解决静态知识库的僵化问题，每个节点需附带一个随时间推移自动降低权重的参数。核心问题是：如何根据节点被'调用'和'证伪'的频率，动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

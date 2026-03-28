@@ -1,0 +1,30 @@
+{
+  "name": "auto_该模式关注如何将一个领域_源域_的深层结_2fe221",
+  "file": "skills/auto_该模式关注如何将一个领域_源域_的深层结_2fe221.py",
+  "description": "该模式关注如何将一个领域（源域）的深层结构或物理属性映射到另一个领域（目标域），以激发创新或解决难题。它不局限于表层的语言相似，而是寻找底层的数学模型或逻辑结构同构（如GAN的博弈机制对应工艺耗损，向量空间距离对应语义关联）。通过建立这种“超语言”的映射协议，AI能够实现真正的“触类旁通”，将编程的“依赖地狱”经验迁移至供应链管理，或将生物进化机制迁移至算法优化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_39",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T06:51:21.163607",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_39_P6_1345",
+  "design_spec": {
+    "name": "auto_该模式关注如何将一个领域_源域_的深层结_2fe221",
+    "display_name": "该模式关注如何将一个领域（源域）的深层结构或物理属性映射到另一个领域（目标域），以激发创新或解决难题",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该模式关注如何将一个领域（源域）的深层结构或物理属性映射到另一个领域（目标域），以激发创新或解决难题。它不局限于表层的语言相似，而是寻找底层的数学模型或逻辑结构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 421
+  }
+}

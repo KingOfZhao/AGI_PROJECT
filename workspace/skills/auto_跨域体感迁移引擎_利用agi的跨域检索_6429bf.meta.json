@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域体感迁移引擎_利用agi的跨域检索_6429bf",
+  "file": "skills/auto_跨域体感迁移引擎_利用agi的跨域检索_6429bf.py",
+  "description": "【跨域体感迁移引擎】利用AGI的跨域检索能力，为难以理解的抽象技能或体感寻找最匹配的已知经验模型。当用户无法理解某个复杂操作（如‘核心收紧’）时，系统能检索用户已有的个人经验库（如‘穿紧身裤拉拉链’的感觉），生成个性化的结构映射解释，实现技能的瞬间‘顿悟’式习得。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.461771",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O3_9911",
+  "design_spec": {
+    "name": "auto_跨域体感迁移引擎_利用agi的跨域检索_6429bf",
+    "display_name": "【跨域体感迁移引擎】利用AGI的跨域检索能力，为难以理解的抽象技能或体感寻找最匹配的已知经验模型。当",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域体感迁移引擎】利用AGI的跨域检索能力，为难以理解的抽象技能或体感寻找最匹配的已知经验模型。当用户无法理解某个复杂操作（如‘核心收紧’）时，系统能检索用户",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "gateways": [
+    {
+      "id": "gw_1774582041_69ac",
+      "name": "知道",
+      "bot_token": null,
+      "base_url": "https://ilinkai.weixin.qq.com",
+      "created_at": "2026-03-27T11:27:21.144158",
+      "message_count": 15,
+      "last_active": "2026-03-27T21:16:58.535468"
+    }
+  ],
+  "saved_at": "2026-03-27T21:17:35.058425"
+}

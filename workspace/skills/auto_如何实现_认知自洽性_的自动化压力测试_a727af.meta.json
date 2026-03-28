@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_认知自洽性_的自动化压力测试_a727af",
+  "file": "skills/auto_如何实现_认知自洽性_的自动化压力测试_a727af.py",
+  "description": "如何实现'认知自洽性'的自动化压力测试？针对小摊贩逻辑等闭环领域，我们可以生成'对抗性输入'来测试由相关节点构成的子图是否能自圆其说。例如，给出一组矛盾的约束条件，看系统依赖的节点网络是会崩溃（死循环）还是能通过节点间的逻辑排斥解决问题。若系统无法在现有节点中找到解，说明节点网络存在逻辑漏洞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "adversarial_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.444586",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q7_0_3300",
+  "design_spec": {
+    "name": "auto_如何实现_认知自洽性_的自动化压力测试_a727af",
+    "display_name": "如何实现'认知自洽性'的自动化压力测试？针对小摊贩逻辑等闭环领域，我们可以生成'对抗性输入'来测试由",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'认知自洽性'的自动化压力测试？针对小摊贩逻辑等闭环领域，我们可以生成'对抗性输入'来测试由相关节点构成的子图是否能自圆其说。例如，给出一组矛盾的约束条",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

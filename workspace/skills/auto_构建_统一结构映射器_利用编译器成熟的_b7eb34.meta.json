@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_统一结构映射器_利用编译器成熟的_b7eb34",
+  "file": "skills/auto_构建_统一结构映射器_利用编译器成熟的_b7eb34.py",
+  "description": "构建'统一结构映射器'。利用编译器成熟的AST生成与遍历算法优化NLP的句法分析，实现毫秒级的语法错误检测与自动修正。更进一步，开发'双向转译引擎'：将自然语言的句法树直接映射为特定编程语言的AST节点，实现从'口语化需求'到'可执行代码骨架'的无损结构转换，大幅降低编程门槛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.695174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_111_O1_2888",
+  "design_spec": {
+    "name": "auto_构建_统一结构映射器_利用编译器成熟的_b7eb34",
+    "display_name": "构建'统一结构映射器'。利用编译器成熟的AST生成与遍历算法优化NLP的句法分析，实现毫秒级的语法错",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'统一结构映射器'。利用编译器成熟的AST生成与遍历算法优化NLP的句法分析，实现毫秒级的语法错误检测与自动修正。更进一步，开发'双向转译引擎'：将自然语言",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 352
+  }
+}

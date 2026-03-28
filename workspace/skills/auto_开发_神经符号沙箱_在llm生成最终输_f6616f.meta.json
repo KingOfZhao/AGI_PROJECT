@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_神经符号沙箱_在llm生成最终输_f6616f",
+  "file": "skills/auto_开发_神经符号沙箱_在llm生成最终输_f6616f.py",
+  "description": "开发'神经符号沙箱'。在LLM生成最终输出前，引入一个轻量级的符号层进行'静态扫描'。该层不生成内容，而是检查LLM推理路径中的逻辑一致性（如矛盾检测、事实溯源）。如果发现'类型不匹配'或'逻辑死循环'（幻觉），强制LLM回溯重生成。这将把软件工程的'测试覆盖率'概念引入思维过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.355948",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O2_5541",
+  "design_spec": {
+    "name": "auto_开发_神经符号沙箱_在llm生成最终输_f6616f",
+    "display_name": "开发'神经符号沙箱'。在LLM生成最终输出前，引入一个轻量级的符号层进行'静态扫描'。该层不生成内容",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'神经符号沙箱'。在LLM生成最终输出前，引入一个轻量级的符号层进行'静态扫描'。该层不生成内容，而是检查LLM推理路径中的逻辑一致性（如矛盾检测、事实溯源",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

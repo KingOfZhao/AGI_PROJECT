@@ -1,0 +1,30 @@
+{
+  "name": "auto_边缘端认知的算力约束_将庞大的认知网络_48c61a",
+  "file": "skills/auto_边缘端认知的算力约束_将庞大的认知网络_48c61a.py",
+  "description": "【边缘端认知的算力约束】将庞大的认知网络部署到算力有限的工业边缘端（如机械臂控制器）。验证通过蒸馏或剪枝后的‘轻量化真实节点’，在失去部分连接后，是否仍能维持核心技能（如避障、精度控制）的执行？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "edge_computing",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.280021",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q12_1_9997",
+  "design_spec": {
+    "name": "auto_边缘端认知的算力约束_将庞大的认知网络_48c61a",
+    "display_name": "【边缘端认知的算力约束】将庞大的认知网络部署到算力有限的工业边缘端（如机械臂控制器）。验证通过蒸馏或",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【边缘端认知的算力约束】将庞大的认知网络部署到算力有限的工业边缘端（如机械臂控制器）。验证通过蒸馏或剪枝后的‘轻量化真实节点’，在失去部分连接后，是否仍能维持核",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

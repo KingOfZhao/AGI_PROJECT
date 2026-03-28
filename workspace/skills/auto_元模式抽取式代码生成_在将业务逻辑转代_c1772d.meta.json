@@ -1,0 +1,30 @@
+{
+  "name": "auto_元模式抽取式代码生成_在将业务逻辑转代_c1772d",
+  "file": "skills/auto_元模式抽取式代码生成_在将业务逻辑转代_c1772d.py",
+  "description": "【元模式抽取式代码生成】在将业务逻辑转代码时，不仅输出代码，还输出一个'抽象业务对象'（Abstract Business Object）。例如，处理订票逻辑时，系统识别出这是一个'有限资源竞争'模型，自动从知识库中调取通用的'锁机制'或'队列调度'设计模式（元模式），并将业务细节映射进去。这实现了从'翻译'到'架构设计'的跃迁，代码不仅可执行，且具备深层结构自洽性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:26:29.563374",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O5_5967",
+  "design_spec": {
+    "name": "auto_元模式抽取式代码生成_在将业务逻辑转代_c1772d",
+    "display_name": "【元模式抽取式代码生成】在将业务逻辑转代码时，不仅输出代码，还输出一个'抽象业务对象'（Abstra",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【元模式抽取式代码生成】在将业务逻辑转代码时，不仅输出代码，还输出一个'抽象业务对象'（Abstract Business Object）。例如，处理订票逻辑时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

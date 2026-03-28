@@ -1,0 +1,30 @@
+{
+  "name": "auto_原生agi孵化器_一种加速agi_认知_e1c7af",
+  "file": "skills/auto_原生agi孵化器_一种加速agi_认知_e1c7af.py",
+  "description": "【原生AGI孵化器】一种加速AGI'认知胚胎'发育的验证框架。在让AI处理复杂的现实世界任务（K策略）前，先将其置于高度抽象的'数字培养基'（如小摊贩模拟器）中。AI必须利用极少的初始算力和代码（r策略），在短时间内通过数万次迭代学会'低买高卖'等生存本能。只有在这个极简生态中实现'认知闭环'（即系统能量输入>输出）的AI核心，才被允许加载更复杂的推理模块。这是AGI实现自主进化的第一性原理验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.618081",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_72_O4_448",
+  "design_spec": {
+    "name": "auto_原生agi孵化器_一种加速agi_认知_e1c7af",
+    "display_name": "【原生AGI孵化器】一种加速AGI'认知胚胎'发育的验证框架。在让AI处理复杂的现实世界任务（K策略",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【原生AGI孵化器】一种加速AGI'认知胚胎'发育的验证框架。在让AI处理复杂的现实世界任务（K策略）前，先将其置于高度抽象的'数字培养基'（如小摊贩模拟器）中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

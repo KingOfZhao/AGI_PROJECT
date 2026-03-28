@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_自动定理证明_价值对齐量化_与_b519b2",
+  "file": "skills/auto_整合_自动定理证明_价值对齐量化_与_b519b2.py",
+  "description": "整合'自动定理证明'、'价值对齐量化'与'自上而下拆解'。当AI接收到一个模糊目标（如'优化城市交通'）时，它在拆解子目标的过程中，会并行运行伦理约束层。如果拆解出的子目标（如'牺牲边缘地区效率'）违反了价值函数，定理证明器会自动判定该逻辑路径无效并回溯，从而生成符合人类道德的代码或方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_28",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:20:59.492163",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_28_E5_5594",
+  "design_spec": {
+    "name": "auto_整合_自动定理证明_价值对齐量化_与_b519b2",
+    "display_name": "整合'自动定理证明'、'价值对齐量化'与'自上而下拆解'。当AI接收到一个模糊目标（如'优化城市交通",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'自动定理证明'、'价值对齐量化'与'自上而下拆解'。当AI接收到一个模糊目标（如'优化城市交通'）时，它在拆解子目标的过程中，会并行运行伦理约束层。如果拆",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

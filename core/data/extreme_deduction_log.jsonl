@@ -1,0 +1,2 @@
+{"timestamp": "20260326_165855", "problem": "test", "laws": ["L7", "L4", "L9"], "surpass_avg": 89.4, "nodes_count": 8}
+{"timestamp": "20260326_172642", "problem": "设计并实现一个支持并发安全的LRU缓存系统，要求：1)线程安全 2)支持TTL过期 3)内存限制自动淘汰 4)O(1)读写 5)支持缓存穿透防护", "laws": ["L4", "L9"], "surpass_avg": 89.4, "nodes_count": 8}

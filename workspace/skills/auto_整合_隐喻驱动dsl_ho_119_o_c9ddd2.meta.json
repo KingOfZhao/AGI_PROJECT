@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_隐喻驱动dsl_ho_119_o_c9ddd2",
+  "file": "skills/auto_整合_隐喻驱动dsl_ho_119_o_c9ddd2.py",
+  "description": "整合'隐喻驱动DSL'（ho_119_O1_2945）、'意图参数化中间件'（td_118_Q1_3_6830）与'原型代码生成'（td_119_Q6_2_6658）。用户只需通过自然语言描述一个模糊的隐喻（如'像切蛋糕一样分割数据'），系统即可即时定义一套DSL，编译成可执行代码，并在沙盒中验证，极大降低编程门槛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.201042",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_120_E2_8796",
+  "design_spec": {
+    "name": "auto_整合_隐喻驱动dsl_ho_119_o_c9ddd2",
+    "display_name": "整合'隐喻驱动DSL'（ho_119_O1_2945）、'意图参数化中间件'（td_118_Q1_3",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'隐喻驱动DSL'（ho_119_O1_2945）、'意图参数化中间件'（td_118_Q1_3_6830）与'原型代码生成'（td_119_Q6_2_66",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 339
+  }
+}

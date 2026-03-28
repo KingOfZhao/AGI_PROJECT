@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于向量空间稀疏度的_跨域意外发现_s_86ce31",
+  "file": "skills/auto_基于向量空间稀疏度的_跨域意外发现_s_86ce31.py",
+  "description": "基于向量空间稀疏度的'跨域意外发现'（Serendipity）算法。推荐系统容易陷入信息茧房。本问题要求利用已有719个节点的嵌入表示，寻找'高距离但结构相似'的节点对（例如：将'生物进化'算法迁移到'代码优化'），强制AI探索这些重叠区，生成假设性节点。这是'左右跨域重叠'的具体实现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.420718",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q3_2_223",
+  "design_spec": {
+    "name": "auto_基于向量空间稀疏度的_跨域意外发现_s_86ce31",
+    "display_name": "基于向量空间稀疏度的'跨域意外发现'（Serendipity）算法。推荐系统容易陷入信息茧房。本问题",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于向量空间稀疏度的'跨域意外发现'（Serendipity）算法。推荐系统容易陷入信息茧房。本问题要求利用已有719个节点的嵌入表示，寻找'高距离但结构相似'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

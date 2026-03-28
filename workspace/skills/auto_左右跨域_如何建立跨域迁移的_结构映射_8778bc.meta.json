@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域_如何建立跨域迁移的_结构映射_8778bc",
+  "file": "skills/auto_左右跨域_如何建立跨域迁移的_结构映射_8778bc.py",
+  "description": "【左右跨域】如何建立跨域迁移的'结构映射'算法，识别不同领域SKILL间的同构性？例如，将'小摊贩的库存管理'（认知自洽）迁移到'服务器的资源调度'。系统需忽略表面特征的差异（蔬菜vs数据包），提取底层的控制结构（补货阈值vs自动扩缩容策略），从而利用旧节点快速构建新领域的认知模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.753671",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_20_Q4_1_7887",
+  "design_spec": {
+    "name": "auto_左右跨域_如何建立跨域迁移的_结构映射_8778bc",
+    "display_name": "【左右跨域】如何建立跨域迁移的'结构映射'算法，识别不同领域SKILL间的同构性？例如，将'小摊贩的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域】如何建立跨域迁移的'结构映射'算法，识别不同领域SKILL间的同构性？例如，将'小摊贩的库存管理'（认知自洽）迁移到'服务器的资源调度'。系统需忽略",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

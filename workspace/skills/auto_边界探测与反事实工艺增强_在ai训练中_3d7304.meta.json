@@ -1,0 +1,30 @@
+{
+  "name": "auto_边界探测与反事实工艺增强_在ai训练中_3d7304",
+  "file": "skills/auto_边界探测与反事实工艺增强_在ai训练中_3d7304.py",
+  "description": "【边界探测与反事实工艺增强】在AI训练中引入‘破坏性工匠思维’。不仅仅让AI学习成功的案例（完美的代码/完美的器物），而是构建一个‘破坏性智能体’，它像寻找木材裂痕一样寻找代码的边缘情况。系统不再追求单纯的‘正确率’，而是追求‘破坏边界’，自动生成能够抵御极端攻击的‘反脆弱’算法结构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.773053",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_32_O2_8776",
+  "design_spec": {
+    "name": "auto_边界探测与反事实工艺增强_在ai训练中_3d7304",
+    "display_name": "【边界探测与反事实工艺增强】在AI训练中引入‘破坏性工匠思维’。不仅仅让AI学习成功的案例（完美的代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【边界探测与反事实工艺增强】在AI训练中引入‘破坏性工匠思维’。不仅仅让AI学习成功的案例（完美的代码/完美的器物），而是构建一个‘破坏性智能体’，它像寻找木材",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 263
+  }
+}

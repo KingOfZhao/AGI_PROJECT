@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_认知自洽性的形式化验证器_针对如_9111c5",
+  "file": "skills/auto_设计_认知自洽性的形式化验证器_针对如_9111c5.py",
+  "description": "设计'认知自洽性的形式化验证器'。针对如'小摊贩知识'这样的闭环领域，如何自动检测其内部的逻辑一致性？例如，'成本控制'节点与'提高质量'节点在某些边界条件下是否存在冲突？AI需要能遍历节点间的逻辑关系，发现'认知失调'点，并标记为待解决的碰撞点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "logic_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.138598",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_7_Q7_0_1554",
+  "design_spec": {
+    "name": "auto_设计_认知自洽性的形式化验证器_针对如_9111c5",
+    "display_name": "设计'认知自洽性的形式化验证器'。针对如'小摊贩知识'这样的闭环领域，如何自动检测其内部的逻辑一致性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计'认知自洽性的形式化验证器'。针对如'小摊贩知识'这样的闭环领域，如何自动检测其内部的逻辑一致性？例如，'成本控制'节点与'提高质量'节点在某些边界条件下是",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 219
+  }
+}

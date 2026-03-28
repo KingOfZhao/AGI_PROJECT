@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程逻辑一致性验证_在构建超过100个步_6ce904",
+  "file": "skills/auto_长程逻辑一致性验证_在构建超过100个步_6ce904.py",
+  "description": "长程逻辑一致性验证：在构建超过100个步骤的长任务链条时（如编写一个简单游戏），AI能否维持顶层目标的约束，不发生目标漂移？这是验证'结构化认知网络'能否作为全局导航图的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.773341",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q8_0_5713",
+  "design_spec": {
+    "name": "auto_长程逻辑一致性验证_在构建超过100个步_6ce904",
+    "display_name": "长程逻辑一致性验证：在构建超过100个步骤的长任务链条时（如编写一个简单游戏），AI能否维持顶层目标",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "长程逻辑一致性验证：在构建超过100个步骤的长任务链条时（如编写一个简单游戏），AI能否维持顶层目标的约束，不发生目标漂移？这是验证'结构化认知网络'能否作为全",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 498
+  }
+}

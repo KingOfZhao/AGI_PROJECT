@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立一套动态的_节点信用评分体系_根据_b56c5e",
+  "file": "skills/auto_建立一套动态的_节点信用评分体系_根据_b56c5e.py",
+  "description": "建立一套动态的'节点信用评分体系'，根据节点被调用的场景复杂度和成功率，动态调整其权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.740709",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_27_G1_2914",
+  "design_spec": {
+    "name": "auto_建立一套动态的_节点信用评分体系_根据_b56c5e",
+    "display_name": "建立一套动态的'节点信用评分体系'，根据节点被调用的场景复杂度和成功率，动态调整其权重。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立一套动态的'节点信用评分体系'，根据节点被调用的场景复杂度和成功率，动态调整其权重。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发一套_自然语言策略修正接口_允许人_452063",
+  "file": "skills/auto_开发一套_自然语言策略修正接口_允许人_452063.py",
+  "description": "开发一套“自然语言策略修正接口”，允许人类通过纯语言交互（而非代码）来微调AI的物理操作策略。例如，当AI画直线抖动时，人类输入“手肘沉下来”，AI需将此语义指令转化为具体的控制参数调整（如降低Joint 5的震动阻尼）。这是验证人机共生闭环的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.009602",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q6_2_1672",
+  "design_spec": {
+    "name": "auto_开发一套_自然语言策略修正接口_允许人_452063",
+    "display_name": "开发一套“自然语言策略修正接口”，允许人类通过纯语言交互（而非代码）来微调AI的物理操作策略。例如，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发一套“自然语言策略修正接口”，允许人类通过纯语言交互（而非代码）来微调AI的物理操作策略。例如，当AI画直线抖动时，人类输入“手肘沉下来”，AI需将此语义指",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 255
+  }
+}

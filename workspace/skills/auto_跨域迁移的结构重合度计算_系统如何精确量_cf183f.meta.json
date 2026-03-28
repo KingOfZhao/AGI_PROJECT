@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移的结构重合度计算_系统如何精确量_cf183f",
+  "file": "skills/auto_跨域迁移的结构重合度计算_系统如何精确量_cf183f.py",
+  "description": "跨域迁移的结构重合度计算：系统如何精确量化两个不同领域节点（如'生物进化论'与'产品迭代'）之间的结构相似度，并判定是否可以进行逻辑迁移？需要开发一种'认知几何'度量算法，过滤掉表面语义相似但因果结构不同的伪关联。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.702545",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_99_Q5_3_7999",
+  "design_spec": {
+    "name": "auto_跨域迁移的结构重合度计算_系统如何精确量_cf183f",
+    "display_name": "跨域迁移的结构重合度计算：系统如何精确量化两个不同领域节点（如'生物进化论'与'产品迭代'）之间的结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移的结构重合度计算：系统如何精确量化两个不同领域节点（如'生物进化论'与'产品迭代'）之间的结构相似度，并判定是否可以进行逻辑迁移？需要开发一种'认知几何",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 369
+  }
+}

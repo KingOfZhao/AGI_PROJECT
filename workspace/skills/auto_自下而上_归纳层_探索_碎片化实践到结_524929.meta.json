@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上_归纳层_探索_碎片化实践到结_524929",
+  "file": "skills/auto_自下而上_归纳层_探索_碎片化实践到结_524929.py",
+  "description": "【自下而上-归纳层】探索'碎片化实践到结构化节点'的自动编码算法。当人类在执行'摆摊'等非标任务时，如何从非结构化的日志、语音或甚至生理数据中，提取出可复用的'真实节点'（True Node）？需要验证从隐性行为到显性知识的转化效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.453972",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_17_Q3_0_5046",
+  "design_spec": {
+    "name": "auto_自下而上_归纳层_探索_碎片化实践到结_524929",
+    "display_name": "【自下而上-归纳层】探索'碎片化实践到结构化节点'的自动编码算法。当人类在执行'摆摊'等非标任务时，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上-归纳层】探索'碎片化实践到结构化节点'的自动编码算法。当人类在执行'摆摊'等非标任务时，如何从非结构化的日志、语音或甚至生理数据中，提取出可复用的'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_面向开放环境交互的_最小风险探针_设计_572e32",
+  "file": "skills/auto_面向开放环境交互的_最小风险探针_设计_572e32.py",
+  "description": "面向开放环境交互的‘最小风险探针’设计（人机共生环节）。AI在无法确定知识真伪时，不应直接执行，而应生成一个‘最小化副作用’的物理或数字动作（探针）来请求人类反馈。问题在于：如何算法化生成这个‘探针’，使其能最大化信息增益（熵减）同时最小化潜在损失？例如，在不确定‘水是否导电’时，不直接尝试触摸电源，而是生成‘查阅绝缘手册’的数字动作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "Reinforcement Learning / Safety Engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.047243",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_127_Q3_1_419",
+  "design_spec": {
+    "name": "auto_面向开放环境交互的_最小风险探针_设计_572e32",
+    "display_name": "面向开放环境交互的‘最小风险探针’设计（人机共生环节）。AI在无法确定知识真伪时，不应直接执行，而应",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "面向开放环境交互的‘最小风险探针’设计（人机共生环节）。AI在无法确定知识真伪时，不应直接执行，而应生成一个‘最小化副作用’的物理或数字动作（探针）来请求人类反",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

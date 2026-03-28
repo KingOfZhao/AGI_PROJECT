@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生中的_错误成本_量化协议_开发一_a80fab",
+  "file": "skills/auto_人机共生中的_错误成本_量化协议_开发一_a80fab.py",
+  "description": "人机共生中的'错误成本'量化协议：开发一套动态权重系统，根据AI建议被人类证伪后的后果严重性，调整节点的'置信度'。系统需将SKILL中的实践行为分类（如'医疗诊断' vs '文案润色'），赋予不同的风险系数。当人类反馈'证伪'时，不仅回退该节点，还需通过反向传播降低同源、同构节点的权重。此机制旨在解决AI因缺乏物理身体而无法感知'痛感'的问题，用数值模拟生存风险。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "human_ai_symbiosis",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.186911",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_144_Q2_3_2675",
+  "design_spec": {
+    "name": "auto_人机共生中的_错误成本_量化协议_开发一_a80fab",
+    "display_name": "人机共生中的'错误成本'量化协议：开发一套动态权重系统，根据AI建议被人类证伪后的后果严重性，调整节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生中的'错误成本'量化协议：开发一套动态权重系统，根据AI建议被人类证伪后的后果严重性，调整节点的'置信度'。系统需将SKILL中的实践行为分类（如'医疗",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

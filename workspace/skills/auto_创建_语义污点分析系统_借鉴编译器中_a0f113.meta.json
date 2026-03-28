@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_语义污点分析系统_借鉴编译器中_a0f113",
+  "file": "skills/auto_创建_语义污点分析系统_借鉴编译器中_a0f113.py",
+  "description": "创建‘语义污点分析系统’。借鉴编译器中‘污点分析’的技术，将Prompt中的不可信输入（如用户注入的指令）标记为‘污点源’，追踪其在语义解析树中的传播路径。如果‘污点’流入了‘执行逻辑’的关键节点（如系统指令覆盖），则触发拦截。这比传统的关键词过滤高维得多，是基于逻辑流的防御。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.373491",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_97_O3_8517",
+  "design_spec": {
+    "name": "auto_创建_语义污点分析系统_借鉴编译器中_a0f113",
+    "display_name": "创建‘语义污点分析系统’。借鉴编译器中‘污点分析’的技术，将Prompt中的不可信输入（如用户注入的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建‘语义污点分析系统’。借鉴编译器中‘污点分析’的技术，将Prompt中的不可信输入（如用户注入的指令）标记为‘污点源’，追踪其在语义解析树中的传播路径。如果",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 473
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_人机共生_循环中_人类专家往往只能提_cff4fa",
+  "file": "skills/auto_在_人机共生_循环中_人类专家往往只能提_cff4fa.py",
+  "description": "在'人机共生'循环中，人类专家往往只能提供'失败案例'（什么导致了报废）。研究如何利用'反事实推理'，仅从失败样本中反向构建'成功状态'的边界条件，从而更新SKILL节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.794678",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q6_1_9737",
+  "design_spec": {
+    "name": "auto_在_人机共生_循环中_人类专家往往只能提_cff4fa",
+    "display_name": "在'人机共生'循环中，人类专家往往只能提供'失败案例'（什么导致了报废）。研究如何利用'反事实推理'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'人机共生'循环中，人类专家往往只能提供'失败案例'（什么导致了报废）。研究如何利用'反事实推理'，仅从失败样本中反向构建'成功状态'的边界条件，从而更新SK",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

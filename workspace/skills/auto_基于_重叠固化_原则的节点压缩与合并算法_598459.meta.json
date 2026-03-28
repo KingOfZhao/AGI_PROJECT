@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_重叠固化_原则的节点压缩与合并算法_598459",
+  "file": "skills/auto_基于_重叠固化_原则的节点压缩与合并算法_598459.py",
+  "description": "基于'重叠固化'原则的节点压缩与合并算法。当多个相似的'真实节点'在结构上高度重叠，且在功能上表现一致时，系统应自动提议将它们'固化'为一个更高抽象层级的通用节点，并归档原节点。这解决了节点膨胀问题。算法需计算节点间的语义相似度与行为一致性，若超过阈值（如0.95），则触发合并建议。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.800019",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q8_2_645",
+  "design_spec": {
+    "name": "auto_基于_重叠固化_原则的节点压缩与合并算法_598459",
+    "display_name": "基于'重叠固化'原则的节点压缩与合并算法。当多个相似的'真实节点'在结构上高度重叠，且在功能上表现一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'重叠固化'原则的节点压缩与合并算法。当多个相似的'真实节点'在结构上高度重叠，且在功能上表现一致时，系统应自动提议将它们'固化'为一个更高抽象层级的通用节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理仿真引擎的_幻觉_消除_agi在模_b47c76",
+  "file": "skills/auto_物理仿真引擎的_幻觉_消除_agi在模_b47c76.py",
+  "description": "【物理仿真引擎的‘幻觉’消除】AGI在模拟环境中学习手工艺（如流体塑形）时，如何通过‘真实节点’（少量真实物理数据）来约束仿真引擎的‘物理幻觉’（如穿模、非自然的张力），实现Sim-to-Real的有效迁移？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "robotics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.700971",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_95_Q10_0_9248",
+  "design_spec": {
+    "name": "auto_物理仿真引擎的_幻觉_消除_agi在模_b47c76",
+    "display_name": "【物理仿真引擎的‘幻觉’消除】AGI在模拟环境中学习手工艺（如流体塑形）时，如何通过‘真实节点’（少",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【物理仿真引擎的‘幻觉’消除】AGI在模拟环境中学习手工艺（如流体塑形）时，如何通过‘真实节点’（少量真实物理数据）来约束仿真引擎的‘物理幻觉’（如穿模、非自然",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 238
+  }
+}

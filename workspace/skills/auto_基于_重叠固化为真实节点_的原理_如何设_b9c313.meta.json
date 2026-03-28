@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_重叠固化为真实节点_的原理_如何设_b9c313",
+  "file": "skills/auto_基于_重叠固化为真实节点_的原理_如何设_b9c313.py",
+  "description": "基于“重叠固化为真实节点”的原理，如何设计算法从多个工匠的异构操作视频流中提取共同的结构化骨架（Common Structural Skeleton），同时过滤掉个人习惯导致的噪声？这用于从大量非结构化案例中归纳出核心技艺“真实节点”。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.271502",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_45_Q3_0_4766",
+  "design_spec": {
+    "name": "auto_基于_重叠固化为真实节点_的原理_如何设_b9c313",
+    "display_name": "基于“重叠固化为真实节点”的原理，如何设计算法从多个工匠的异构操作视频流中提取共同的结构化骨架（Co",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于“重叠固化为真实节点”的原理，如何设计算法从多个工匠的异构操作视频流中提取共同的结构化骨架（Common Structural Skeleton），同时过滤",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

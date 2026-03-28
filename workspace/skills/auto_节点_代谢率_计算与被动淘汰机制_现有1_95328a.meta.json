@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点_代谢率_计算与被动淘汰机制_现有1_95328a",
+  "file": "skills/auto_节点_代谢率_计算与被动淘汰机制_现有1_95328a.py",
+  "description": "节点'代谢率'计算与被动淘汰机制。现有1687个节点可能包含过时信息。需建立时间衰减函数，该函数不仅基于时间，还基于'被调用频率'与'依赖该节点的上层节点存活率'。如果一个节点长期未被调用，且依赖它的父节点都已消亡，则判定为'低代谢'节点。验证如何动态调整衰减系数以平衡知识保留与系统冗余。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "system_dynamics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.324519",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q4_0_5411",
+  "design_spec": {
+    "name": "auto_节点_代谢率_计算与被动淘汰机制_现有1_95328a",
+    "display_name": "节点'代谢率'计算与被动淘汰机制。现有1687个节点可能包含过时信息。需建立时间衰减函数，该函数不仅",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "节点'代谢率'计算与被动淘汰机制。现有1687个节点可能包含过时信息。需建立时间衰减函数，该函数不仅基于时间，还基于'被调用频率'与'依赖该节点的上层节点存活率",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

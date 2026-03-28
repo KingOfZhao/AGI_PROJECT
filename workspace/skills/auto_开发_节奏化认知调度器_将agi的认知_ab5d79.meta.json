@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_节奏化认知调度器_将agi的认知_ab5d79",
+  "file": "skills/auto_开发_节奏化认知调度器_将agi的认知_ab5d79.py",
+  "description": "开发'节奏化认知调度器'。将AGI的认知任务流转化为具有律动感的'认知复调'。系统不再是均匀的滴答声，而是根据任务的密度和重要性自动生成'认知节奏型'。在'强拍'时刻强制执行'自上而下'的证伪（高算力），在'弱拍'时刻进行'自下而上'的归纳（低算力）。这能防止系统在处理动态环境（如突发IT故障）时发生'踩脚'（资源死锁），实现更自然的负载均衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.814975",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O2_408",
+  "design_spec": {
+    "name": "auto_开发_节奏化认知调度器_将agi的认知_ab5d79",
+    "display_name": "开发'节奏化认知调度器'。将AGI的认知任务流转化为具有律动感的'认知复调'。系统不再是均匀的滴答声",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'节奏化认知调度器'。将AGI的认知任务流转化为具有律动感的'认知复调'。系统不再是均匀的滴答声，而是根据任务的密度和重要性自动生成'认知节奏型'。在'强拍",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

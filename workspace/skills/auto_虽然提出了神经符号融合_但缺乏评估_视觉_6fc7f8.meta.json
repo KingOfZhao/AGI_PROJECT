@@ -1,0 +1,30 @@
+{
+  "name": "auto_虽然提出了神经符号融合_但缺乏评估_视觉_6fc7f8",
+  "file": "skills/auto_虽然提出了神经符号融合_但缺乏评估_视觉_6fc7f8.py",
+  "description": "虽然提出了神经符号融合，但缺乏评估‘视觉特征’与‘逻辑概念’对齐精度的指标。如何量化‘监控视频中的油污’与文本节点‘滑倒风险’之间的语义距离？建议开发跨模态嵌入空间的统一度量标准。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_84",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:20:23.839475",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_84_G_Cross_Modality_4041",
+  "design_spec": {
+    "name": "auto_虽然提出了神经符号融合_但缺乏评估_视觉_6fc7f8",
+    "display_name": "虽然提出了神经符号融合，但缺乏评估‘视觉特征’与‘逻辑概念’对齐精度的指标。如何量化‘监控视频中的油",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "虽然提出了神经符号融合，但缺乏评估‘视觉特征’与‘逻辑概念’对齐精度的指标。如何量化‘监控视频中的油污’与文本节点‘滑倒风险’之间的语义距离？建议开发跨模态嵌入",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 254
+  }
+}

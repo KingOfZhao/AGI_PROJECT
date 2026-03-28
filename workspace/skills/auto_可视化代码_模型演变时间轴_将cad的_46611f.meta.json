@@ -1,0 +1,30 @@
+{
+  "name": "auto_可视化代码_模型演变时间轴_将cad的_46611f",
+  "file": "skills/auto_可视化代码_模型演变时间轴_将cad的_46611f.py",
+  "description": "可视化代码/模型演变时间轴。将CAD的'特征历史树'交互范式引入IDE或低代码平台。开发者不再只能看到当前的代码报错，而是可以像CAD软件回滚模型一样，拖动'构建进度条'查看每一步代码变更对UI树产生的具体Delta影响，快速定位是哪一次setState导致了界面崩溃。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_96",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:29:05.401745",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_96_O4_3957",
+  "design_spec": {
+    "name": "auto_可视化代码_模型演变时间轴_将cad的_46611f",
+    "display_name": "可视化代码/模型演变时间轴。将CAD的'特征历史树'交互范式引入IDE或低代码平台。开发者不再只能看",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "可视化代码/模型演变时间轴。将CAD的'特征历史树'交互范式引入IDE或低代码平台。开发者不再只能看到当前的代码报错，而是可以像CAD软件回滚模型一样，拖动'构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

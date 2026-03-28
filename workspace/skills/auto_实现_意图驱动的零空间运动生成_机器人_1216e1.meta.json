@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_意图驱动的零空间运动生成_机器人_1216e1",
+  "file": "skills/auto_实现_意图驱动的零空间运动生成_机器人_1216e1.py",
+  "description": "实现'意图驱动的零空间运动生成'。机器人在执行确定性任务（如焊接）时，利用其冗余自由度（身体姿态、朝向）进行'解释性表达'。AI分析任务上下文（全局意图），动态调整非关键运动轨迹，使其动作展现出类似人类工匠的'韵律感'或'审慎感'。例如，在易碎品旁自动放慢速度（不仅是物理需要，更是传递'小心'的信号），实现机器人的非语言沟通能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.374864",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O3_3772",
+  "design_spec": {
+    "name": "auto_实现_意图驱动的零空间运动生成_机器人_1216e1",
+    "display_name": "实现'意图驱动的零空间运动生成'。机器人在执行确定性任务（如焊接）时，利用其冗余自由度（身体姿态、朝",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'意图驱动的零空间运动生成'。机器人在执行确定性任务（如焊接）时，利用其冗余自由度（身体姿态、朝向）进行'解释性表达'。AI分析任务上下文（全局意图），动态",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 313
+  }
+}

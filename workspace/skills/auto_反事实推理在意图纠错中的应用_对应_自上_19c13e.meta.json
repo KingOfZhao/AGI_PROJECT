@@ -1,0 +1,30 @@
+{
+  "name": "auto_反事实推理在意图纠错中的应用_对应_自上_19c13e",
+  "file": "skills/auto_反事实推理在意图纠错中的应用_对应_自上_19c13e.py",
+  "description": "反事实推理在意图纠错中的应用：对应‘自上而下拆解证伪’。当用户意图包含逻辑矛盾（如‘查询没有ID的用户信息’）时，验证AI是否能构建反事实路径（如‘假设用户没有ID，数据库索引将失效’）来识别并提示矛盾，而非强行生成错误代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "logic_programming",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.059448",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_93_Q9_3_2789",
+  "design_spec": {
+    "name": "auto_反事实推理在意图纠错中的应用_对应_自上_19c13e",
+    "display_name": "反事实推理在意图纠错中的应用：对应‘自上而下拆解证伪’。当用户意图包含逻辑矛盾（如‘查询没有ID的用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "反事实推理在意图纠错中的应用：对应‘自上而下拆解证伪’。当用户意图包含逻辑矛盾（如‘查询没有ID的用户信息’）时，验证AI是否能构建反事实路径（如‘假设用户没有",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

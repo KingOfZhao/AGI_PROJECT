@@ -1,0 +1,30 @@
+{
+  "name": "auto_反直觉物理常识验证_验证ai是否具备_b44656",
+  "file": "skills/auto_反直觉物理常识验证_验证ai是否具备_b44656.py",
+  "description": "【反直觉物理常识验证】验证AI是否具备‘真实节点’中的物理体感。提问：‘在零重力环境下，如何用普通的锤子把钉子敲进木头？’ AI必须指出这在物理上是反直觉的（锤子击打时人会反方向飞出），并提出解决方案（如将锤子吸附在墙壁上，或使用磁力靴，或使用爆炸钉）。如果AI仅描述‘挥动锤子’，则证明其节点仅来源于文本统计，非物理真实。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "物理学",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.081234",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_36_Q8_2_8730",
+  "design_spec": {
+    "name": "auto_反直觉物理常识验证_验证ai是否具备_b44656",
+    "display_name": "【反直觉物理常识验证】验证AI是否具备‘真实节点’中的物理体感。提问：‘在零重力环境下，如何用普通的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【反直觉物理常识验证】验证AI是否具备‘真实节点’中的物理体感。提问：‘在零重力环境下，如何用普通的锤子把钉子敲进木头？’ AI必须指出这在物理上是反直觉的（锤",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

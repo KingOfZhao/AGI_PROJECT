@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_可解释性建筑生成器_xai_ar_4f64dc",
+  "file": "skills/auto_开发_可解释性建筑生成器_xai_ar_4f64dc.py",
+  "description": "开发'可解释性建筑生成器'（XAI-Arch）。不同于黑盒GAN生成的不可控图像，该工具生成的每一个建筑构件都有明确的性能指标支撑。用户看到的不仅是3D模型，更是每个形态背后的决策逻辑（例如：'窗户扩大15%是为了采光系数达到2.0'）。这让人机共生中的'人类证伪'环节变得极其高效。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.611836",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_60_O4_4387",
+  "design_spec": {
+    "name": "auto_开发_可解释性建筑生成器_xai_ar_4f64dc",
+    "display_name": "开发'可解释性建筑生成器'（XAI-Arch）。不同于黑盒GAN生成的不可控图像，该工具生成的每一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'可解释性建筑生成器'（XAI-Arch）。不同于黑盒GAN生成的不可控图像，该工具生成的每一个建筑构件都有明确的性能指标支撑。用户看到的不仅是3D模型，更",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

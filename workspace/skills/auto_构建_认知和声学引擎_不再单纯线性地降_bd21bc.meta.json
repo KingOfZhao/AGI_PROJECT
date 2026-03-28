@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知和声学引擎_不再单纯线性地降_bd21bc",
+  "file": "skills/auto_构建_认知和声学引擎_不再单纯线性地降_bd21bc.py",
+  "description": "构建'认知和声学引擎'。不再单纯线性地降低节点权重，而是赋予节点'和声功能'（如主功能、属功能）。长期未调用的节点（过时知识）被视为'延留音'，产生必须被解决的系统性张力。系统将自动调整'衰减速率'如同调节节奏，在需要稳定时减慢衰减，在需要创新时加速衰减以逼迫新知识的生成。这使得知识库的维护从机械降权变为一种有节奏的'认知演奏'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.452803",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O1_5937",
+  "design_spec": {
+    "name": "auto_构建_认知和声学引擎_不再单纯线性地降_bd21bc",
+    "display_name": "构建'认知和声学引擎'。不再单纯线性地降低节点权重，而是赋予节点'和声功能'（如主功能、属功能）。长",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知和声学引擎'。不再单纯线性地降低节点权重，而是赋予节点'和声功能'（如主功能、属功能）。长期未调用的节点（过时知识）被视为'延留音'，产生必须被解决的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

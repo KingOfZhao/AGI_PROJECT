@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于现有1487个节点的拓扑结构_如何构_b1cc3b",
+  "file": "skills/auto_基于现有1487个节点的拓扑结构_如何构_b1cc3b.py",
+  "description": "基于现有1487个节点的拓扑结构，如何构建动态的'认知碰撞引力场'算法？该算法需自动计算节点间的'概念引力'，识别出虽然距离遥远（跨域）但潜在关联度极高的节点对，并主动生成'碰撞假设'。目标是解决静态知识库无法产生创新的问题，实现'左右跨域重叠'的自动化发现，而非等待人工输入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "Cognitive Science/Graph Theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.166870",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_57_Q1_3_9764",
+  "design_spec": {
+    "name": "auto_基于现有1487个节点的拓扑结构_如何构_b1cc3b",
+    "display_name": "基于现有1487个节点的拓扑结构，如何构建动态的'认知碰撞引力场'算法？该算法需自动计算节点间的'概",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于现有1487个节点的拓扑结构，如何构建动态的'认知碰撞引力场'算法？该算法需自动计算节点间的'概念引力'，识别出虽然距离遥远（跨域）但潜在关联度极高的节点对",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

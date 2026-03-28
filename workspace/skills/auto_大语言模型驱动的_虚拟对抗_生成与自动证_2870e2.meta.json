@@ -1,0 +1,30 @@
+{
+  "name": "auto_大语言模型驱动的_虚拟对抗_生成与自动证_2870e2",
+  "file": "skills/auto_大语言模型驱动的_虚拟对抗_生成与自动证_2870e2.py",
+  "description": "大语言模型驱动的‘虚拟对抗’生成与自动证伪测试。为了解决人类反馈成本高的问题，如何构建一个自动化‘红队’Agent，利用LLM生成针对特定节点的边缘测试用例？该Agent需根据节点的描述自动生成‘如果...那么...’的反事实假设，并尝试执行以证伪该节点的有效性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.071103",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q3_0_3746",
+  "design_spec": {
+    "name": "auto_大语言模型驱动的_虚拟对抗_生成与自动证_2870e2",
+    "display_name": "大语言模型驱动的‘虚拟对抗’生成与自动证伪测试。为了解决人类反馈成本高的问题，如何构建一个自动化‘红",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "大语言模型驱动的‘虚拟对抗’生成与自动证伪测试。为了解决人类反馈成本高的问题，如何构建一个自动化‘红队’Agent，利用LLM生成针对特定节点的边缘测试用例？该",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 344
+  }
+}

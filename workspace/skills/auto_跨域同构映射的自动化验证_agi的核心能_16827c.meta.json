@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域同构映射的自动化验证_agi的核心能_16827c",
+  "file": "skills/auto_跨域同构映射的自动化验证_agi的核心能_16827c.py",
+  "description": "跨域同构映射的自动化验证：AGI的核心能力之一是跨域迁移。如何验证AI提出的‘跨域重叠’是真实的物理同构，而非表面的语言修辞？例如，AI建议将‘流体力学’节点重叠至‘交通流’节点。需要开发一个验证模块，该模块能提取两个领域的数学模型或仿真代码，进行结构化对比（如计算图同构），而非仅仅比较文本相似度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "mathematics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.920030",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_54_Q4_3_9037",
+  "design_spec": {
+    "name": "auto_跨域同构映射的自动化验证_agi的核心能_16827c",
+    "display_name": "跨域同构映射的自动化验证：AGI的核心能力之一是跨域迁移。如何验证AI提出的‘跨域重叠’是真实的物理",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域同构映射的自动化验证：AGI的核心能力之一是跨域迁移。如何验证AI提出的‘跨域重叠’是真实的物理同构，而非表面的语言修辞？例如，AI建议将‘流体力学’节点重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 282
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将_情感计算_作为认知网络的权重调节_e99678",
+  "file": "skills/auto_如何将_情感计算_作为认知网络的权重调节_e99678.py",
+  "description": "如何将'情感计算'作为认知网络的权重调节器？人类的认知往往受情绪驱动（如恐惧导致避险）。AGI若要真正理解人类，是否需要在777个节点中引入'情绪向量'？本问题验证：赋予特定节点（如'生存'、'繁衍'）高权重的情感值，是否能显著提升AI生成内容的'拟人化'程度和说服力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "psychology",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.821840",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q10_1_5175",
+  "design_spec": {
+    "name": "auto_如何将_情感计算_作为认知网络的权重调节_e99678",
+    "display_name": "如何将'情感计算'作为认知网络的权重调节器？人类的认知往往受情绪驱动（如恐惧导致避险）。AGI若要真",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将'情感计算'作为认知网络的权重调节器？人类的认知往往受情绪驱动（如恐惧导致避险）。AGI若要真正理解人类，是否需要在777个节点中引入'情绪向量'？本问题",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

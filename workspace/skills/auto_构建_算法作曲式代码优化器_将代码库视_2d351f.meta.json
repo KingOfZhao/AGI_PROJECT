@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_算法作曲式代码优化器_将代码库视_2d351f",
+  "file": "skills/auto_构建_算法作曲式代码优化器_将代码库视_2d351f.py",
+  "description": "构建‘算法作曲式代码优化器’。将代码库视为一个乐章，识别其中的‘核心动机’（重复的代码逻辑模式）。应用音乐动机发展技术（模进、倒影、紧缩）来重构代码，结合MDL评分函数，不仅消除冗余，还能自动生成更优雅的抽象结构。例如，将一段重复的逻辑块识别为‘主题’，自动提取为函数（变奏），确保代码像乐谱一样既精炼又具有结构美感，实现‘描述长度-解释力’的最优解。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.978608",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O2_360",
+  "design_spec": {
+    "name": "auto_构建_算法作曲式代码优化器_将代码库视_2d351f",
+    "display_name": "构建‘算法作曲式代码优化器’。将代码库视为一个乐章，识别其中的‘核心动机’（重复的代码逻辑模式）。应",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘算法作曲式代码优化器’。将代码库视为一个乐章，识别其中的‘核心动机’（重复的代码逻辑模式）。应用音乐动机发展技术（模进、倒影、紧缩）来重构代码，结合MDL",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_奏鸣曲式问题求解器_针对agi面_96b524",
+  "file": "skills/auto_打造_奏鸣曲式问题求解器_针对agi面_96b524.py",
+  "description": "打造'奏鸣曲式问题求解器'。针对AGI面对的复杂未知问题，不再进行单调的梯度下降。第一阶段（呈示）：生成对立的假设/模型（主部主题与副部主题）；第二阶段（展开）：故意引入噪声和对抗样本，让模型在极端条件下'游离'和'碎片化'，测试边界；第三阶段（再现）：存活下来的结构融合为一个更高阶的、自洽的'真实节点'。这种模式能避免局部最优。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.478483",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_17_O3_2141",
+  "design_spec": {
+    "name": "auto_打造_奏鸣曲式问题求解器_针对agi面_96b524",
+    "display_name": "打造'奏鸣曲式问题求解器'。针对AGI面对的复杂未知问题，不再进行单调的梯度下降。第一阶段（呈示）：",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造'奏鸣曲式问题求解器'。针对AGI面对的复杂未知问题，不再进行单调的梯度下降。第一阶段（呈示）：生成对立的假设/模型（主部主题与副部主题）；第二阶段（展开）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 307
+  }
+}

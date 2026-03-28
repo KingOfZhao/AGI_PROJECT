@@ -1,0 +1,30 @@
+{
+  "name": "auto_失败归纳固化_当人类通过实践证伪了ai_495756",
+  "file": "skills/auto_失败归纳固化_当人类通过实践证伪了ai_495756.py",
+  "description": "【失败归纳固化】当人类通过实践证伪了AI生成的代码（如运行报错或结果不符），如何将这次失败转化为一个新的‘真实节点’？系统需要能够分析错误堆栈和用户反馈，提炼出‘错误模式’（Pattern），并将其固化为一条规则（如‘在处理CSV时，必须先检测BOM头’），从而避免再次犯同样的错误。这是实现‘持续碰撞’和进化的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.746296",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q8_3_5832",
+  "design_spec": {
+    "name": "auto_失败归纳固化_当人类通过实践证伪了ai_495756",
+    "display_name": "【失败归纳固化】当人类通过实践证伪了AI生成的代码（如运行报错或结果不符），如何将这次失败转化为一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【失败归纳固化】当人类通过实践证伪了AI生成的代码（如运行报错或结果不符），如何将这次失败转化为一个新的‘真实节点’？系统需要能够分析错误堆栈和用户反馈，提炼出",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

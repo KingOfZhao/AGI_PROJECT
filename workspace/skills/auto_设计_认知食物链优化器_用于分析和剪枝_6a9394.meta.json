@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_认知食物链优化器_用于分析和剪枝_6a9394",
+  "file": "skills/auto_设计_认知食物链优化器_用于分析和剪枝_6a9394.py",
+  "description": "设计'认知食物链优化器'。用于分析和剪枝AGI的认知网络结构。该能力可以计算每个高级概念（顶级捕食者）所依赖的基础数据（生产者）的路径长度，识别那些'能量损耗过大'的复杂逻辑链。AI会自动寻找'短路'路径，或者淘汰那些维持成本过高且对最终输出贡献极小的'虚胖'高级概念。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_114",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:34:56.202958",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_114_O4_7106",
+  "design_spec": {
+    "name": "auto_设计_认知食物链优化器_用于分析和剪枝_6a9394",
+    "display_name": "设计'认知食物链优化器'。用于分析和剪枝AGI的认知网络结构。该能力可以计算每个高级概念（顶级捕食者",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计'认知食物链优化器'。用于分析和剪枝AGI的认知网络结构。该能力可以计算每个高级概念（顶级捕食者）所依赖的基础数据（生产者）的路径长度，识别那些'能量损耗过",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

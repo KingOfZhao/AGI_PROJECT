@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态计划修正机_在执行长期复杂任务时_5b4d2e",
+  "file": "skills/auto_动态计划修正机_在执行长期复杂任务时_5b4d2e.py",
+  "description": "【动态计划修正机】在执行长期复杂任务时，系统能够实时监测‘现实数据’与‘顶层目标’的偏离度。一旦发现底层实践证伪了顶层假设，系统不是报错停止，而是自动生成‘修正方案’或‘降级目标’。它模拟了人类项目经理在突发状况下的应变能力，实现了计划与执行的动态平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.038657",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_132_O5_3421",
+  "design_spec": {
+    "name": "auto_动态计划修正机_在执行长期复杂任务时_5b4d2e",
+    "display_name": "【动态计划修正机】在执行长期复杂任务时，系统能够实时监测‘现实数据’与‘顶层目标’的偏离度。一旦发现",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态计划修正机】在执行长期复杂任务时，系统能够实时监测‘现实数据’与‘顶层目标’的偏离度。一旦发现底层实践证伪了顶层假设，系统不是报错停止，而是自动生成‘修正",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 283
+  }
+}

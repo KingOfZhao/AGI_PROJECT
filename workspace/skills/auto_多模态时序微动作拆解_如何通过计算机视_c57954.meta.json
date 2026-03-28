@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态时序微动作拆解_如何通过计算机视_c57954",
+  "file": "skills/auto_多模态时序微动作拆解_如何通过计算机视_c57954.py",
+  "description": "【多模态时序微动作拆解】如何通过计算机视觉（CV）从非结构化的手工艺视频（如陶艺拉坯）中，提取出高精度的‘关键帧序列’而非孤立图像？这涉及将连续的视频流转化为离散的、带有时间戳的‘原子操作’（如‘拇指下压’、‘手掌扶正’），解决隐性知识中‘只可意会不可言传’的动作节奏捕捉问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.697089",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_95_Q1_0_9248",
+  "design_spec": {
+    "name": "auto_多模态时序微动作拆解_如何通过计算机视_c57954",
+    "display_name": "【多模态时序微动作拆解】如何通过计算机视觉（CV）从非结构化的手工艺视频（如陶艺拉坯）中，提取出高精",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态时序微动作拆解】如何通过计算机视觉（CV）从非结构化的手工艺视频（如陶艺拉坯）中，提取出高精度的‘关键帧序列’而非孤立图像？这涉及将连续的视频流转化为离",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 350
+  }
+}

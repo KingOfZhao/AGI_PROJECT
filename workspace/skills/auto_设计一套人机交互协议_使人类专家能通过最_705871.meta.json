@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计一套人机交互协议_使人类专家能通过最_705871",
+  "file": "skills/auto_设计一套人机交互协议_使人类专家能通过最_705871.py",
+  "description": "设计一套人机交互协议，使人类专家能通过最小化反馈（如修正/确认）快速证伪AI生成的“操作假设”，并将其固化为新节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:49:02.548002",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_10_Q3_3_3513",
+  "design_spec": {
+    "name": "auto_设计一套人机交互协议_使人类专家能通过最_705871",
+    "display_name": "设计一套人机交互协议，使人类专家能通过最小化反馈（如修正/确认）快速证伪AI生成的“操作假设”，并将",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计一套人机交互协议，使人类专家能通过最小化反馈（如修正/确认）快速证伪AI生成的“操作假设”，并将其固化为新节点。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 644
+  }
+}

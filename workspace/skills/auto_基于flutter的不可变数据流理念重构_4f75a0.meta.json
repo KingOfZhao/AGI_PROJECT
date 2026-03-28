@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于flutter的不可变数据流理念重构_4f75a0",
+  "file": "skills/auto_基于flutter的不可变数据流理念重构_4f75a0.py",
+  "description": "基于Flutter的不可变数据流理念重构CAD内核的前端交互层。构建一个'响应式CAD工作台'，利用Flutter的Diffing算法优化CAD中的'模型重建'过程。当用户修改参数时，系统能像Flutter刷新UI一样，仅局部重生成受影响的几何特征，而非全量重建。这能将复杂装配体的修改响应速度提升一个数量级，实现类游戏引擎的实时建模反馈体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.351563",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_8_O1_3669",
+  "design_spec": {
+    "name": "auto_基于flutter的不可变数据流理念重构_4f75a0",
+    "display_name": "基于Flutter的不可变数据流理念重构CAD内核的前端交互层。构建一个'响应式CAD工作台'，利用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于Flutter的不可变数据流理念重构CAD内核的前端交互层。构建一个'响应式CAD工作台'，利用Flutter的Diffing算法优化CAD中的'模型重建'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

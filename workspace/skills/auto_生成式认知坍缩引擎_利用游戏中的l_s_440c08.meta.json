@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式认知坍缩引擎_利用游戏中的l_s_440c08",
+  "file": "skills/auto_生成式认知坍缩引擎_利用游戏中的l_s_440c08.py",
+  "description": "【生成式认知坍缩引擎】利用游戏中的L-System或元胞自动机逻辑，重构知识压缩方式。AI不再仅仅是总结摘要，而是提取书本中的‘核心生成规则’和‘反直觉变量’。用户只需输入核心公理，系统即推演出整个知识树的骨架。不同于线性摘要，该能力允许用户像玩游戏一样‘探索’压缩后的A4纸，修改任意节点参数，系统即时演算其对整体知识结构的影响，从而验证对该领域的掌握程度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.718344",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_99_O1_2406",
+  "design_spec": {
+    "name": "auto_生成式认知坍缩引擎_利用游戏中的l_s_440c08",
+    "display_name": "【生成式认知坍缩引擎】利用游戏中的L-System或元胞自动机逻辑，重构知识压缩方式。AI不再仅仅是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【生成式认知坍缩引擎】利用游戏中的L-System或元胞自动机逻辑，重构知识压缩方式。AI不再仅仅是总结摘要，而是提取书本中的‘核心生成规则’和‘反直觉变量’。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

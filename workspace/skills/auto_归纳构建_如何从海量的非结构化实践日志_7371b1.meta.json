@@ -1,0 +1,30 @@
+{
+  "name": "auto_归纳构建_如何从海量的非结构化实践日志_7371b1",
+  "file": "skills/auto_归纳构建_如何从海量的非结构化实践日志_7371b1.py",
+  "description": "【归纳构建】如何从海量的非结构化实践日志（如代码运行报错、摆摊销售记录）中'自下而上'地提取可复用的'真实节点'？需开发一种算法，能识别重复出现的'模式-结果'链，并将其固化为新的Skill，而非仅仅存储为文本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "data_mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.625175",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q5_3_8162",
+  "design_spec": {
+    "name": "auto_归纳构建_如何从海量的非结构化实践日志_7371b1",
+    "display_name": "【归纳构建】如何从海量的非结构化实践日志（如代码运行报错、摆摊销售记录）中'自下而上'地提取可复用的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【归纳构建】如何从海量的非结构化实践日志（如代码运行报错、摆摊销售记录）中'自下而上'地提取可复用的'真实节点'？需开发一种算法，能识别重复出现的'模式-结果'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

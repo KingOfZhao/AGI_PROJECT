@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构化文法_如何设计一种中间表示_in_99a0e0",
+  "file": "skills/auto_结构化文法_如何设计一种中间表示_in_99a0e0.py",
+  "description": "【结构化文法】如何设计一种中间表示（Intermediate Representation, IR），介于自然语言意图和AST（抽象语法树）之间？这种IR需要具备严格的形式逻辑（如类SQL或类Lisp），能够承载模糊意图中的概率分布，同时可被确定性地编译为Python/Rust代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "programming_languages",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.810830",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q6_3_4004",
+  "design_spec": {
+    "name": "auto_结构化文法_如何设计一种中间表示_in_99a0e0",
+    "display_name": "【结构化文法】如何设计一种中间表示（Intermediate Representation, IR）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【结构化文法】如何设计一种中间表示（Intermediate Representation, IR），介于自然语言意图和AST（抽象语法树）之间？这种IR需要具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 266
+  }
+}

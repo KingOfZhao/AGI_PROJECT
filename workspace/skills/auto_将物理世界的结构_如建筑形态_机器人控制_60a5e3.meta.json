@@ -1,0 +1,30 @@
+{
+  "name": "auto_将物理世界的结构_如建筑形态_机器人控制_60a5e3",
+  "file": "skills/auto_将物理世界的结构_如建筑形态_机器人控制_60a5e3.py",
+  "description": "将物理世界的结构（如建筑形态、机器人控制）视为一个巨大的可微分神经网络。利用深度学习中的‘反向传播’算法，直接对物理构件的几何参数或控制策略进行微分求解，结合生成式AI的创造力与物理定律的硬约束，实现结构效能的自动化极值优化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.561724",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_138_P4_4460",
+  "design_spec": {
+    "name": "auto_将物理世界的结构_如建筑形态_机器人控制_60a5e3",
+    "display_name": "将物理世界的结构（如建筑形态、机器人控制）视为一个巨大的可微分神经网络。利用深度学习中的‘反向传播’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将物理世界的结构（如建筑形态、机器人控制）视为一个巨大的可微分神经网络。利用深度学习中的‘反向传播’算法，直接对物理构件的几何参数或控制策略进行微分求解，结合生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 377
+  }
+}

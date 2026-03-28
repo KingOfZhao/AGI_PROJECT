@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念将传统的_一次性提示词工程_重构为_0b1be6",
+  "file": "skills/auto_该概念将传统的_一次性提示词工程_重构为_0b1be6.py",
+  "description": "该概念将传统的“一次性提示词工程”重构为软件工程中的“编译过程”。它不直接将自然语言映射为代码或动作，而是先将其编译为一种中间表示——意图IR。通过‘意图-代码同构校验’和‘自适应粒度分解’，系统在中间层进行逻辑调试和结构优化，确保语义的确定性，最后再‘坍缩’为物理执行。这是一种将模糊性逐步降维为确定性的结构化认知过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.707388",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_99_P1_2184",
+  "design_spec": {
+    "name": "auto_该概念将传统的_一次性提示词工程_重构为_0b1be6",
+    "display_name": "该概念将传统的“一次性提示词工程”重构为软件工程中的“编译过程”。它不直接将自然语言映射为代码或动作",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念将传统的“一次性提示词工程”重构为软件工程中的“编译过程”。它不直接将自然语言映射为代码或动作，而是先将其编译为一种中间表示——意图IR。通过‘意图-代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

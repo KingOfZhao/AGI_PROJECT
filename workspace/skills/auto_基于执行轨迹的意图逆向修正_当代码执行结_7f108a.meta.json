@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于执行轨迹的意图逆向修正_当代码执行结_7f108a",
+  "file": "skills/auto_基于执行轨迹的意图逆向修正_当代码执行结_7f108a.py",
+  "description": "基于执行轨迹的意图逆向修正：当代码执行结果部分符合意图时，如何对比'预期状态'与'实际状态'的差异，自动生成修正补丁？这要求系统具备'代码因果性'理解能力，能定位到导致偏差的具体代码行并进行微调。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "agi_meta_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.837399",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_71_Q8_1_4454",
+  "design_spec": {
+    "name": "auto_基于执行轨迹的意图逆向修正_当代码执行结_7f108a",
+    "display_name": "基于执行轨迹的意图逆向修正：当代码执行结果部分符合意图时，如何对比'预期状态'与'实际状态'的差异，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于执行轨迹的意图逆向修正：当代码执行结果部分符合意图时，如何对比'预期状态'与'实际状态'的差异，自动生成修正补丁？这要求系统具备'代码因果性'理解能力，能定",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

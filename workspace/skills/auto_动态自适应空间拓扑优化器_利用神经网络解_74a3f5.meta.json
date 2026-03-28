@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态自适应空间拓扑优化器_利用神经网络解_74a3f5",
+  "file": "skills/auto_动态自适应空间拓扑优化器_利用神经网络解_74a3f5.py",
+  "description": "动态自适应空间拓扑优化器。利用神经网络解决复杂建筑平面的自动布局问题。不仅是简单的摆放，而是基于多智能体强化学习，模拟大量用户在空间内的行为轨迹（动线），将'人流效率'和'体验感'作为Reward Function。AI动态调整墙体位置（改变拓扑结构），就像修剪神经网络中的无效连接一样，自动消除建筑中的死角和低效区域，实现'人流反向塑造空间结构'的生成式设计。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.358864",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_58_O2_7142",
+  "design_spec": {
+    "name": "auto_动态自适应空间拓扑优化器_利用神经网络解_74a3f5",
+    "display_name": "动态自适应空间拓扑优化器。利用神经网络解决复杂建筑平面的自动布局问题。不仅是简单的摆放，而是基于多智",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态自适应空间拓扑优化器。利用神经网络解决复杂建筑平面的自动布局问题。不仅是简单的摆放，而是基于多智能体强化学习，模拟大量用户在空间内的行为轨迹（动线），将'人",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 338
+  }
+}

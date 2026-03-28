@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于向量空间拓扑结构的_认知失调_自动检_f2afc7",
+  "file": "skills/auto_基于向量空间拓扑结构的_认知失调_自动检_f2afc7.py",
+  "description": "基于向量空间拓扑结构的'认知失调'自动检测机制：如何在高维向量数据库中，量化并识别出逻辑互斥或事实冲突的节点对？这要求系统不仅要识别语义相似度，还要识别语义对立（如'地球是平的'与'地球是圆的'在空间中的对抗关系）。该机制需要建立一个'冲突势能'函数，当两个节点在同一上下文语境中出现时，若无法通过逻辑门（如AND/OR）融合，则标记为待证伪节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.700404",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q1_3_1447",
+  "design_spec": {
+    "name": "auto_基于向量空间拓扑结构的_认知失调_自动检_f2afc7",
+    "display_name": "基于向量空间拓扑结构的'认知失调'自动检测机制：如何在高维向量数据库中，量化并识别出逻辑互斥或事实冲",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于向量空间拓扑结构的'认知失调'自动检测机制：如何在高维向量数据库中，量化并识别出逻辑互斥或事实冲突的节点对？这要求系统不仅要识别语义相似度，还要识别语义对立",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

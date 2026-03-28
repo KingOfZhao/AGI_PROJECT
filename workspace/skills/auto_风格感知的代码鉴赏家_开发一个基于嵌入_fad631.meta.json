@@ -1,0 +1,30 @@
+{
+  "name": "auto_风格感知的代码鉴赏家_开发一个基于嵌入_fad631",
+  "file": "skills/auto_风格感知的代码鉴赏家_开发一个基于嵌入_fad631.py",
+  "description": "【风格感知的代码鉴赏家】开发一个基于嵌入模型的评估函数，不仅评估代码执行结果的正确性，还评估代码风格与项目现有代码库（或特定架构模式如DDD、Functional）的‘审美一致性’。它能拒绝虽然正确但风格突兀的代码（就像拒绝一个修补得很难看的陶罐），从而保持系统的长期可维护性和‘代码美学’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.770821",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O5_9413",
+  "design_spec": {
+    "name": "auto_风格感知的代码鉴赏家_开发一个基于嵌入_fad631",
+    "display_name": "【风格感知的代码鉴赏家】开发一个基于嵌入模型的评估函数，不仅评估代码执行结果的正确性，还评估代码风格",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【风格感知的代码鉴赏家】开发一个基于嵌入模型的评估函数，不仅评估代码执行结果的正确性，还评估代码风格与项目现有代码库（或特定架构模式如DDD、Functiona",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应材料反馈语义解析器_融合能力在于_ba6162",
+  "file": "skills/auto_自适应材料反馈语义解析器_融合能力在于_ba6162.py",
+  "description": "【自适应材料反馈语义解析器】融合能力在于将手工艺人对‘物性’的直觉量化。构建一个系统，能将物理世界的传感器数据（如刀具震动频率、泥土湿度阻力）转化为类似‘代码报错’的结构化反馈信号。AI不仅处理逻辑错误，还能处理物理属性偏差，指导机器人或辅助工具像老匠人一样，根据材料的‘脾气’（实时反馈）微调操作力度与路径，实现从‘死板执行’到‘顺势而为’的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.762219",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_61_O1_4247",
+  "design_spec": {
+    "name": "auto_自适应材料反馈语义解析器_融合能力在于_ba6162",
+    "display_name": "【自适应材料反馈语义解析器】融合能力在于将手工艺人对‘物性’的直觉量化。构建一个系统，能将物理世界的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自适应材料反馈语义解析器】融合能力在于将手工艺人对‘物性’的直觉量化。构建一个系统，能将物理世界的传感器数据（如刀具震动频率、泥土湿度阻力）转化为类似‘代码报",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 458
+  }
+}

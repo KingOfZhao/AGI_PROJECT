@@ -1,0 +1,30 @@
+{
+  "name": "auto_因果链路可视化教练_当用户陷入负面反_4d5c20",
+  "file": "skills/auto_因果链路可视化教练_当用户陷入负面反_4d5c20.py",
+  "description": "‘因果链路可视化教练’。当用户陷入负面反刍（循环思维）时，该能力将用户的思维过程外化为数据血缘图。通过可视化展示用户的‘归因路径’（例如：失败->归因于能力差（内部）->导致抑郁），并像数据治理一样检测‘断点’或‘脏数据’（逻辑谬误），帮助用户重写归因路径，从循环死锁中跳出。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.028263",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_132_O4_7065",
+  "design_spec": {
+    "name": "auto_因果链路可视化教练_当用户陷入负面反_4d5c20",
+    "display_name": "‘因果链路可视化教练’。当用户陷入负面反刍（循环思维）时，该能力将用户的思维过程外化为数据血缘图。通",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘因果链路可视化教练’。当用户陷入负面反刍（循环思维）时，该能力将用户的思维过程外化为数据血缘图。通过可视化展示用户的‘归因路径’（例如：失败->归因于能力差（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 250
+  }
+}

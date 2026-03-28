@@ -1,0 +1,30 @@
+{
+  "name": "auto_沙箱化证伪机制_如何构建一个低成本_高隔_6ab9dd",
+  "file": "skills/auto_沙箱化证伪机制_如何构建一个低成本_高隔_6ab9dd.py",
+  "description": "沙箱化证伪机制：如何构建一个低成本、高隔离的代码执行环境，用于验证生成的代码是否满足意图？这不仅仅是运行代码，还包括对副作用的监控（如意外删除文件）。这是“实践证伪”的核心物理载体。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "devops",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.414586",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q7_3_8723",
+  "design_spec": {
+    "name": "auto_沙箱化证伪机制_如何构建一个低成本_高隔_6ab9dd",
+    "display_name": "沙箱化证伪机制：如何构建一个低成本、高隔离的代码执行环境，用于验证生成的代码是否满足意图？这不仅仅是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "沙箱化证伪机制：如何构建一个低成本、高隔离的代码执行环境，用于验证生成的代码是否满足意图？这不仅仅是运行代码，还包括对副作用的监控（如意外删除文件）。这是“实践",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 416
+  }
+}

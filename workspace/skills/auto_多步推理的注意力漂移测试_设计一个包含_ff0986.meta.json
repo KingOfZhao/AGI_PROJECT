@@ -1,0 +1,30 @@
+{
+  "name": "auto_多步推理的注意力漂移测试_设计一个包含_ff0986",
+  "file": "skills/auto_多步推理的注意力漂移测试_设计一个包含_ff0986.py",
+  "description": "【多步推理的注意力漂移测试】设计一个包含8-10步推理链的数学或逻辑谜题，中间引入大量无关的干扰信息（噪音）。要求AI一步步推导并给出最终答案。此测试旨在验证AI是否具备“工作记忆”下的结构化推理能力，能否在长上下文中锁定核心变量，还是会被统计概率上的高频干扰词带偏。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.299350",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q2_2_2222",
+  "design_spec": {
+    "name": "auto_多步推理的注意力漂移测试_设计一个包含_ff0986",
+    "display_name": "【多步推理的注意力漂移测试】设计一个包含8-10步推理链的数学或逻辑谜题，中间引入大量无关的干扰信息",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多步推理的注意力漂移测试】设计一个包含8-10步推理链的数学或逻辑谜题，中间引入大量无关的干扰信息（噪音）。要求AI一步步推导并给出最终答案。此测试旨在验证A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

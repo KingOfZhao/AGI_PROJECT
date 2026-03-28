@@ -1,0 +1,30 @@
+{
+  "name": "auto_四向碰撞_信息熵减与认知负荷优化_验证_05c7ac",
+  "file": "skills/auto_四向碰撞_信息熵减与认知负荷优化_验证_05c7ac.py",
+  "description": "【四向碰撞】信息熵减与认知负荷优化：验证AI在与人类交互过程中，是否真的在降低人类的认知负荷。AI应能识别人类表达中的混乱（高熵），并利用结构化网络将其重组为低熵的清晰清单。这不仅是总结，更是信息的重新编码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.347534",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_146_Q8_2_7550",
+  "design_spec": {
+    "name": "auto_四向碰撞_信息熵减与认知负荷优化_验证_05c7ac",
+    "display_name": "【四向碰撞】信息熵减与认知负荷优化：验证AI在与人类交互过程中，是否真的在降低人类的认知负荷。AI应",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【四向碰撞】信息熵减与认知负荷优化：验证AI在与人类交互过程中，是否真的在降低人类的认知负荷。AI应能识别人类表达中的混乱（高熵），并利用结构化网络将其重组为低",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

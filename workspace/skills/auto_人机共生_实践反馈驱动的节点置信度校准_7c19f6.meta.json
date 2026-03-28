@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_实践反馈驱动的节点置信度校准_7c19f6",
+  "file": "skills/auto_人机共生_实践反馈驱动的节点置信度校准_7c19f6.py",
+  "description": "【人机共生】实践反馈驱动的节点置信度校准。当一个节点（如‘某种销售话术’）被人类在真实世界证伪或验证后，如何反向传播更新该节点的权重及其相连的边缘理论？这是实现‘持续碰撞’与进化的关键机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.443221",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_35_Q4_1_4346",
+  "design_spec": {
+    "name": "auto_人机共生_实践反馈驱动的节点置信度校准_7c19f6",
+    "display_name": "【人机共生】实践反馈驱动的节点置信度校准。当一个节点（如‘某种销售话术’）被人类在真实世界证伪或验证",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】实践反馈驱动的节点置信度校准。当一个节点（如‘某种销售话术’）被人类在真实世界证伪或验证后，如何反向传播更新该节点的权重及其相连的边缘理论？这是实现",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_可玩式认知晶体_不仅仅是将书压缩_5b5343",
+  "file": "skills/auto_构建_可玩式认知晶体_不仅仅是将书压缩_5b5343.py",
+  "description": "构建'可玩式认知晶体'。不仅仅是将书压缩为图谱，而是将《博弈论》等复杂系统书籍转化为一个极简的'交互式思维实验室'（Micro-Game）。该能力利用AI提取书中的核心冲突（如囚徒困境），生成只有几行代码的交互规则。学习者通过调整参数（如修改背叛的收益），在30秒内直观体验'反直觉结论'的涌现。这实现了从'阅读高密度信息'到'操弄高密度模型'的质变，极大突破了人类理解复杂系统的寿命限制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.636378",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_106_O1_8047",
+  "design_spec": {
+    "name": "auto_构建_可玩式认知晶体_不仅仅是将书压缩_5b5343",
+    "display_name": "构建'可玩式认知晶体'。不仅仅是将书压缩为图谱，而是将《博弈论》等复杂系统书籍转化为一个极简的'交互",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'可玩式认知晶体'。不仅仅是将书压缩为图谱，而是将《博弈论》等复杂系统书籍转化为一个极简的'交互式思维实验室'（Micro-Game）。该能力利用AI提取书",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 254
+  }
+}

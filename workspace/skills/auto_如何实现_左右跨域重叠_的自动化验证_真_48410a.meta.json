@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_左右跨域重叠_的自动化验证_真_48410a",
+  "file": "skills/auto_如何实现_左右跨域重叠_的自动化验证_真_48410a.py",
+  "description": "如何实现'左右跨域重叠'的自动化验证？真实节点往往存在于不同领域的交叉点。需要开发一个语义重叠检测器，计算一个节点描述与其它异构节点描述的余弦相似度。如果一个节点声称是'跨域'的，但在向量空间中找不到其它域的强关联节点，则该节点的'通用性'质量评分应降低。此问题旨在筛选出真正的'通识'节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "nlp_semantic_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.442684",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q3_0_3300",
+  "design_spec": {
+    "name": "auto_如何实现_左右跨域重叠_的自动化验证_真_48410a",
+    "display_name": "如何实现'左右跨域重叠'的自动化验证？真实节点往往存在于不同领域的交叉点。需要开发一个语义重叠检测器",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'左右跨域重叠'的自动化验证？真实节点往往存在于不同领域的交叉点。需要开发一个语义重叠检测器，计算一个节点描述与其它异构节点描述的余弦相似度。如果一个节",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

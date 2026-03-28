@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现跨域知识迁移_将化学领域的_催化_6af5ed",
+  "file": "skills/auto_如何实现跨域知识迁移_将化学领域的_催化_6af5ed.py",
+  "description": "如何实现跨域知识迁移，将化学领域的‘催化反应动力学’节点迁移应用至食品发酵工艺？这对应‘左右跨域重叠’。系统需要识别出‘温度/时间/活性物质’在不同领域中的同构结构，自动生成一份映射表，并推算出由于介质不同所需的参数修正系数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.685695",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q5_3_6928",
+  "design_spec": {
+    "name": "auto_如何实现跨域知识迁移_将化学领域的_催化_6af5ed",
+    "display_name": "如何实现跨域知识迁移，将化学领域的‘催化反应动力学’节点迁移应用至食品发酵工艺？这对应‘左右跨域重叠",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现跨域知识迁移，将化学领域的‘催化反应动力学’节点迁移应用至食品发酵工艺？这对应‘左右跨域重叠’。系统需要识别出‘温度/时间/活性物质’在不同领域中的同构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

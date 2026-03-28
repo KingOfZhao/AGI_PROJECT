@@ -1,0 +1,32 @@
+{
+  "name": "gstack/unfreeze",
+  "slug": "gstack_unfreeze",
+  "description": "Clear the freeze boundary set by /freeze, allowing edits to all directories again. Use when you want to widen edit scope without ending the session. Use when asked to \"unfreeze\", \"unlock edits\", \"remove freeze\", or \"allow all edits\".",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "safety-guardrails",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/unfreeze",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "0.1.0",
+  "category": "safety-guardrails",
+  "allowed_tools": [
+    "Bash",
+    "Read"
+  ],
+  "has_hooks": false,
+  "safety_level": "safe",
+  "safety_reasons": [
+    "INFO: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)"
+  ],
+  "created_at": "2026-03-25T15:32:03.542447",
+  "imported_by": "gstack_skill_importer"
+}

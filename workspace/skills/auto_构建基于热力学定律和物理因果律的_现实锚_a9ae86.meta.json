@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建基于热力学定律和物理因果律的_现实锚_a9ae86",
+  "file": "skills/auto_构建基于热力学定律和物理因果律的_现实锚_a9ae86.py",
+  "description": "构建基于热力学定律和物理因果律的“现实锚定过滤器”。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.953114",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_108_G_Semantic_Collapse_3436",
+  "design_spec": {
+    "name": "auto_构建基于热力学定律和物理因果律的_现实锚_a9ae86",
+    "display_name": "构建基于热力学定律和物理因果律的“现实锚定过滤器”。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建基于热力学定律和物理因果律的“现实锚定过滤器”。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 257
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_奥卡姆剃刀测试_针对同一个复杂问题_如_28f12a",
+  "file": "skills/auto_奥卡姆剃刀测试_针对同一个复杂问题_如_28f12a.py",
+  "description": "【奥卡姆剃刀测试】针对同一个复杂问题（如‘如何优化服务器负载’），要求AI利用现有节点生成解决方案。验证AI是否能优先激活最少的关键节点来解决问题，而不是堆砌所有相关节点。这测试的是‘结构化认知’的效率，而非检索能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.524597",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_149_Q6_0_3237",
+  "design_spec": {
+    "name": "auto_奥卡姆剃刀测试_针对同一个复杂问题_如_28f12a",
+    "display_name": "【奥卡姆剃刀测试】针对同一个复杂问题（如‘如何优化服务器负载’），要求AI利用现有节点生成解决方案。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【奥卡姆剃刀测试】针对同一个复杂问题（如‘如何优化服务器负载’），要求AI利用现有节点生成解决方案。验证AI是否能优先激活最少的关键节点来解决问题，而不是堆砌所",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

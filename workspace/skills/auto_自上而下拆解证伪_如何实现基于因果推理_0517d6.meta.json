@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解证伪_如何实现基于因果推理_0517d6",
+  "file": "skills/auto_自上而下拆解证伪_如何实现基于因果推理_0517d6.py",
+  "description": "【自上而下拆解证伪】如何实现基于因果推理的自动归因分析？当人类在实践某SKILL（如‘摆摊’）失败时，系统需自动拆解失败原因，是归咎于环境噪声（不可控）、技能本身缺陷（可修正），还是执行偏差（人类错误），而非简单地标记失败。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:43:59.965899",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_67_Q5_3_7554",
+  "design_spec": {
+    "name": "auto_自上而下拆解证伪_如何实现基于因果推理_0517d6",
+    "display_name": "【自上而下拆解证伪】如何实现基于因果推理的自动归因分析？当人类在实践某SKILL（如‘摆摊’）失败时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下拆解证伪】如何实现基于因果推理的自动归因分析？当人类在实践某SKILL（如‘摆摊’）失败时，系统需自动拆解失败原因，是归咎于环境噪声（不可控）、技能本",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

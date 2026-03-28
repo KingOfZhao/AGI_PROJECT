@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将非结构化的环境感知_如车间监控视频_830a63",
+  "file": "skills/auto_如何将非结构化的环境感知_如车间监控视频_830a63.py",
+  "description": "如何将非结构化的环境感知（如车间监控视频流）实时固化为‘瞬时真实节点’，供当前任务使用？例如，识别到地面有油污，立即生成一个‘滑倒风险’节点并接入当前的‘搬运任务’网络。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.550135",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_83_Q9_1_5544",
+  "design_spec": {
+    "name": "auto_如何将非结构化的环境感知_如车间监控视频_830a63",
+    "display_name": "如何将非结构化的环境感知（如车间监控视频流）实时固化为‘瞬时真实节点’，供当前任务使用？例如，识别到",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将非结构化的环境感知（如车间监控视频流）实时固化为‘瞬时真实节点’，供当前任务使用？例如，识别到地面有油污，立即生成一个‘滑倒风险’节点并接入当前的‘搬运任",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

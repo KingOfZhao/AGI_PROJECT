@@ -1,0 +1,30 @@
+{
+  "name": "auto_具有再巩固特性的自演化知识图谱_该融合能_6ed50d",
+  "file": "skills/auto_具有再巩固特性的自演化知识图谱_该融合能_6ed50d.py",
+  "description": "具有再巩固特性的自演化知识图谱。该融合能力允许知识图谱在每次被查询（记忆提取）时，根据查询上下文（当前环境）微调节点权重和连接边（记忆重构）。这打破了传统数据库'读不改变数据'的刚性，引入了人类记忆的'模糊性'和'动态性'，使知识库能随使用场景自然演化，防止知识僵化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.849662",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_115_O2_9245",
+  "design_spec": {
+    "name": "auto_具有再巩固特性的自演化知识图谱_该融合能_6ed50d",
+    "display_name": "具有再巩固特性的自演化知识图谱。该融合能力允许知识图谱在每次被查询（记忆提取）时，根据查询上下文（当",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "具有再巩固特性的自演化知识图谱。该融合能力允许知识图谱在每次被查询（记忆提取）时，根据查询上下文（当前环境）微调节点权重和连接边（记忆重构）。这打破了传统数据库",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

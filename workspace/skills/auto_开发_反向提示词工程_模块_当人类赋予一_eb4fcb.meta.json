@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_反向提示词工程_模块_当人类赋予一_eb4fcb",
+  "file": "skills/auto_开发_反向提示词工程_模块_当人类赋予一_eb4fcb.py",
+  "description": "开发'反向提示词工程'模块：当人类赋予一个新概念（如'元宇宙中的地缘政治'）时，AI不应仅存储定义，而应自动生成一系列'攻击性测试用例'（如'若服务器断电，国界是否存在？'）来撞击该概念，以验证其边界和鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "prompt_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.180039",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_144_Q6_2_6384",
+  "design_spec": {
+    "name": "auto_开发_反向提示词工程_模块_当人类赋予一_eb4fcb",
+    "display_name": "开发'反向提示词工程'模块：当人类赋予一个新概念（如'元宇宙中的地缘政治'）时，AI不应仅存储定义，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'反向提示词工程'模块：当人类赋予一个新概念（如'元宇宙中的地缘政治'）时，AI不应仅存储定义，而应自动生成一系列'攻击性测试用例'（如'若服务器断电，国界",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 332
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域概念的_结构重用_与自动迁移机制_如_72e419",
+  "file": "skills/auto_跨域概念的_结构重用_与自动迁移机制_如_72e419.py",
+  "description": "跨域概念的'结构重用'与自动迁移机制。如何识别不同领域（如'流体力学'与'交通流'）深层结构的高维同构性，并自动将成熟领域的SKILL（如伯努利方程的应用）映射到新领域生成假设？这要求系统不仅识别语义相似，更要识别'关系相似'（如压力-速度关系 vs 密度-速度关系）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.642062",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q3_2_8624",
+  "design_spec": {
+    "name": "auto_跨域概念的_结构重用_与自动迁移机制_如_72e419",
+    "display_name": "跨域概念的'结构重用'与自动迁移机制。如何识别不同领域（如'流体力学'与'交通流'）深层结构的高维同",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域概念的'结构重用'与自动迁移机制。如何识别不同领域（如'流体力学'与'交通流'）深层结构的高维同构性，并自动将成熟领域的SKILL（如伯努利方程的应用）映射",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

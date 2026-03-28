@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_小摊贩_这类认知自洽的领域_如何设_149602",
+  "file": "skills/auto_针对_小摊贩_这类认知自洽的领域_如何设_149602.py",
+  "description": "针对'小摊贩'这类认知自洽的领域，如何设计'最小实践闭环检测器'？系统需从非结构化文本中提取出的碎片化动作节点（如'吆喝'、'找零'），自动识别出能够产生价值流动的最小闭合回路，并将其固化为一个具有输入输出定义的'真实节点'（Real Node）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "Workflow Mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.783994",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_98_Q3_2_4117",
+  "design_spec": {
+    "name": "auto_针对_小摊贩_这类认知自洽的领域_如何设_149602",
+    "display_name": "针对'小摊贩'这类认知自洽的领域，如何设计'最小实践闭环检测器'？系统需从非结构化文本中提取出的碎片",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'小摊贩'这类认知自洽的领域，如何设计'最小实践闭环检测器'？系统需从非结构化文本中提取出的碎片化动作节点（如'吆喝'、'找零'），自动识别出能够产生价值流",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

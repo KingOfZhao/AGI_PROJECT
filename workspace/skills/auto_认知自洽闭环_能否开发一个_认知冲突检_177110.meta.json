@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽闭环_能否开发一个_认知冲突检_177110",
+  "file": "skills/auto_认知自洽闭环_能否开发一个_认知冲突检_177110.py",
+  "description": "【认知自洽闭环】能否开发一个'认知冲突检测器'？当用户新输入的实践数据与系统内已有的333个SKILL产生逻辑矛盾时（例如：SKILL A说'加冰'，SKILL B说'加热'，但在特定上下文二者可能冲突），系统需标记冲突并触发'同步协商'流程。如果系统无法识别这种隐式冲突，导致生成的行动清单自相矛盾，则认知网络不具备自洽性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "knowledge_representation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.161582",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_14_Q8_2_2266",
+  "design_spec": {
+    "name": "auto_认知自洽闭环_能否开发一个_认知冲突检_177110",
+    "display_name": "【认知自洽闭环】能否开发一个'认知冲突检测器'？当用户新输入的实践数据与系统内已有的333个SKIL",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知自洽闭环】能否开发一个'认知冲突检测器'？当用户新输入的实践数据与系统内已有的333个SKILL产生逻辑矛盾时（例如：SKILL A说'加冰'，SKILL",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 229
+  }
+}

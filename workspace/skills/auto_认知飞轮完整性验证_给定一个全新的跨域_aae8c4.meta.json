@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知飞轮完整性验证_给定一个全新的跨域_aae8c4",
+  "file": "skills/auto_认知飞轮完整性验证_给定一个全新的跨域_aae8c4.py",
+  "description": "【认知飞轮完整性验证】给定一个全新的跨域任务（如'用生物进化论优化城市交通信号灯'），AI能否自动识别所需的知识节点缺口，并生成'假设-验证'循环的完整伪代码，而非直接生成不可解释的答案。重点在于验证AI是否具备'知道自己不知道什么'的元认知能力，以及是否能主动触发人机共生流程来获取缺失信息。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "meta_cognition",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:53.985068",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_49_Q1_0_3535",
+  "design_spec": {
+    "name": "auto_认知飞轮完整性验证_给定一个全新的跨域_aae8c4",
+    "display_name": "【认知飞轮完整性验证】给定一个全新的跨域任务（如'用生物进化论优化城市交通信号灯'），AI能否自动识",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知飞轮完整性验证】给定一个全新的跨域任务（如'用生物进化论优化城市交通信号灯'），AI能否自动识别所需的知识节点缺口，并生成'假设-验证'循环的完整伪代码，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 240
+  }
+}

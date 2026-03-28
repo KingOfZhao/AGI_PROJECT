@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽性的自动化验证闭环_如何针对低频_7cdd26",
+  "file": "skills/auto_认知自洽性的自动化验证闭环_如何针对低频_7cdd26.py",
+  "description": "认知自洽性的自动化验证闭环：如何针对低频或边缘节点（如小摊贩经济学）构建模拟环境，自动生成'情境-行动-反馈'三元组，以验证该认知单元是否形成闭环（自洽），而非仅仅是孤立的信息碎片？这需要将自然语言描述转化为可执行的仿真逻辑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "Simulation/Reinforcement Learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.675456",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q2_1_7781",
+  "design_spec": {
+    "name": "auto_认知自洽性的自动化验证闭环_如何针对低频_7cdd26",
+    "display_name": "认知自洽性的自动化验证闭环：如何针对低频或边缘节点（如小摊贩经济学）构建模拟环境，自动生成'情境-行",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知自洽性的自动化验证闭环：如何针对低频或边缘节点（如小摊贩经济学）构建模拟环境，自动生成'情境-行动-反馈'三元组，以验证该认知单元是否形成闭环（自洽），而非",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 295
+  }
+}

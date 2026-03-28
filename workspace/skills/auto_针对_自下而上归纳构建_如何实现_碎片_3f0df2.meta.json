@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_自下而上归纳构建_如何实现_碎片_3f0df2",
+  "file": "skills/auto_针对_自下而上归纳构建_如何实现_碎片_3f0df2.py",
+  "description": "针对'自下而上归纳构建'，如何实现'碎片拼图引擎'？系统需从海量的对话日志、实践清单反馈等非结构化数据中，提取离散的'微技能'，并在396个现有节点之外，自动聚类形成新的潜在节点簇，当簇密度超过阈值时，向人类提议创建新节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "data_mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:49:02.542919",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_10_Q6_1_7866",
+  "design_spec": {
+    "name": "auto_针对_自下而上归纳构建_如何实现_碎片_3f0df2",
+    "display_name": "针对'自下而上归纳构建'，如何实现'碎片拼图引擎'？系统需从海量的对话日志、实践清单反馈等非结构化数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'自下而上归纳构建'，如何实现'碎片拼图引擎'？系统需从海量的对话日志、实践清单反馈等非结构化数据中，提取离散的'微技能'，并在396个现有节点之外，自动聚",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 263
+  }
+}

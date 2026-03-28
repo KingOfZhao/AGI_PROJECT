@@ -1,0 +1,30 @@
+{
+  "name": "auto_社会力场模拟与空间整形器_将建筑空间_199af1",
+  "file": "skills/auto_社会力场模拟与空间整形器_将建筑空间_199af1.py",
+  "description": "'社会力场模拟与空间整形器'。将建筑空间建模为一个能量场，人的行为意图建模为梯度。传统的动线设计是静态的，该融合能力允许空间'液化'。通过强化学习，让AI智能体在虚拟空间中数百万次地尝试行走，反向优化墙壁和开口的位置。这不仅是模拟人流，而是**让空间形态根据人流梯度的反向传播自动演化**，得出诱导最优行为模式的物理空间解。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.123239",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_101_O5_844",
+  "design_spec": {
+    "name": "auto_社会力场模拟与空间整形器_将建筑空间_199af1",
+    "display_name": "'社会力场模拟与空间整形器'。将建筑空间建模为一个能量场，人的行为意图建模为梯度。传统的动线设计是静",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'社会力场模拟与空间整形器'。将建筑空间建模为一个能量场，人的行为意图建模为梯度。传统的动线设计是静态的，该融合能力允许空间'液化'。通过强化学习，让AI智能体",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 542
+  }
+}

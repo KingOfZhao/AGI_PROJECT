@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态意图输入的结构化统一表示_如何将人_9edb7d",
+  "file": "skills/auto_多模态意图输入的结构化统一表示_如何将人_9edb7d.py",
+  "description": "多模态意图输入的结构化统一表示：如何将人类通过语音、草图、截图或混合模态表达的模糊意图，统一转化为机器可执行的结构化中间表示（IR），消除不同输入模态带来的语义歧义？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "multimodal_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.348918",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_8_Q7_3_5963",
+  "design_spec": {
+    "name": "auto_多模态意图输入的结构化统一表示_如何将人_9edb7d",
+    "display_name": "多模态意图输入的结构化统一表示：如何将人类通过语音、草图、截图或混合模态表达的模糊意图，统一转化为机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态意图输入的结构化统一表示：如何将人类通过语音、草图、截图或混合模态表达的模糊意图，统一转化为机器可执行的结构化中间表示（IR），消除不同输入模态带来的语义",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

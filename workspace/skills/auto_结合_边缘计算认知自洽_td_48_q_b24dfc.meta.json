@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_边缘计算认知自洽_td_48_q_b24dfc",
+  "file": "skills/auto_结合_边缘计算认知自洽_td_48_q_b24dfc.py",
+  "description": "结合'边缘计算认知自洽'(td_48_Q7_1_4889)、'最小化惊扰修正'(td_47_Q4_1_2682)与'物理衰减预测'(td_48_Q3_1_4889)。系统在云端拥有全量高维认知，在边缘端能自动提取轻量化子图。当物理环境发生漂移或网络中断时，本地子图能进行'手术式'的自我微调，适应物理磨损，待连接恢复后仅同步'增量修正'，极大提升工业场景的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.215715",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_49_E3_320",
+  "design_spec": {
+    "name": "auto_结合_边缘计算认知自洽_td_48_q_b24dfc",
+    "display_name": "结合'边缘计算认知自洽'(td_48_Q7_1_4889)、'最小化惊扰修正'(td_47_Q4_1",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'边缘计算认知自洽'(td_48_Q7_1_4889)、'最小化惊扰修正'(td_47_Q4_1_2682)与'物理衰减预测'(td_48_Q3_1_488",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 345
+  }
+}

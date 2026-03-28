@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立基于_认知碰撞_价值的淘汰机制_bdc673",
+  "file": "skills/auto_如何建立基于_认知碰撞_价值的淘汰机制_bdc673.py",
+  "description": "如何建立基于'认知碰撞'价值的淘汰机制？若一个节点虽然长期未被直接使用（冷门），但在'跨域重叠'生成新想法时起到了关键的'桥梁'作用（高介数中心性），它是否应被保留？需验证：移除低频、高介数节点对系统创新能力的具体损害程度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "network_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.023784",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_123_Q8_0_9686",
+  "design_spec": {
+    "name": "auto_如何建立基于_认知碰撞_价值的淘汰机制_bdc673",
+    "display_name": "如何建立基于'认知碰撞'价值的淘汰机制？若一个节点虽然长期未被直接使用（冷门），但在'跨域重叠'生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立基于'认知碰撞'价值的淘汰机制？若一个节点虽然长期未被直接使用（冷门），但在'跨域重叠'生成新想法时起到了关键的'桥梁'作用（高介数中心性），它是否应被",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 557
+  }
+}

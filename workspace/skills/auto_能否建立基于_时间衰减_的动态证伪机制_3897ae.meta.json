@@ -1,0 +1,30 @@
+{
+  "name": "auto_能否建立基于_时间衰减_的动态证伪机制_3897ae",
+  "file": "skills/auto_能否建立基于_时间衰减_的动态证伪机制_3897ae.py",
+  "description": "能否建立基于'时间衰减'的动态证伪机制？知识具有时效性。系统需监测节点的'调用成功率'随时间的变化。如果一个'真实节点'（如某特定版本的API用法）在连续T个时间窗口内被调用且引发错误（需结合外部环境变化检测），则触发'休眠证伪'，将其标记为待验证状态，直到重新通过测试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "Time Series Analysis / Concept Drift",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.965150",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q8_1_3706",
+  "design_spec": {
+    "name": "auto_能否建立基于_时间衰减_的动态证伪机制_3897ae",
+    "display_name": "能否建立基于'时间衰减'的动态证伪机制？知识具有时效性。系统需监测节点的'调用成功率'随时间的变化。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "能否建立基于'时间衰减'的动态证伪机制？知识具有时效性。系统需监测节点的'调用成功率'随时间的变化。如果一个'真实节点'（如某特定版本的API用法）在连续T个时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下分层拆解_在代码生成过程中_如_888338",
+  "file": "skills/auto_自上而下分层拆解_在代码生成过程中_如_888338.py",
+  "description": "【自上而下分层拆解】在代码生成过程中，如何动态确定拆解的“颗粒度”？太粗导致无法执行，太细导致上下文溢出。需要建立一个基于当前复杂度的自适应递归模型，判断何时停止拆解并开始执行，这直接对应认知框架中的“结构化认知网络”构建深度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "AGI Architecture/Algorithm",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:29.026933",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q3_3_4775",
+  "design_spec": {
+    "name": "auto_自上而下分层拆解_在代码生成过程中_如_888338",
+    "display_name": "【自上而下分层拆解】在代码生成过程中，如何动态确定拆解的“颗粒度”？太粗导致无法执行，太细导致上下文",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下分层拆解】在代码生成过程中，如何动态确定拆解的“颗粒度”？太粗导致无法执行，太细导致上下文溢出。需要建立一个基于当前复杂度的自适应递归模型，判断何时停",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

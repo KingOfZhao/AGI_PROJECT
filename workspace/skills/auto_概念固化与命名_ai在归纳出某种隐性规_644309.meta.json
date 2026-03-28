@@ -1,0 +1,30 @@
+{
+  "name": "auto_概念固化与命名_ai在归纳出某种隐性规_644309",
+  "file": "skills/auto_概念固化与命名_ai在归纳出某种隐性规_644309.py",
+  "description": "【概念固化与命名】AI在归纳出某种隐性规律（如'某种特定频率的敲击声代表瓷器有裂纹'）后，如何自动生成一个'概念节点'（Concept Node）并用自然语言命名（如'哑音裂纹检测法'），以便能被人类理解并复用？这是'自下而上归纳构建'的最后一步。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "符号主义AI",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.046558",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_127_Q10_2_6488",
+  "design_spec": {
+    "name": "auto_概念固化与命名_ai在归纳出某种隐性规_644309",
+    "display_name": "【概念固化与命名】AI在归纳出某种隐性规律（如'某种特定频率的敲击声代表瓷器有裂纹'）后，如何自动生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【概念固化与命名】AI在归纳出某种隐性规律（如'某种特定频率的敲击声代表瓷器有裂纹'）后，如何自动生成一个'概念节点'（Concept Node）并用自然语言命",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

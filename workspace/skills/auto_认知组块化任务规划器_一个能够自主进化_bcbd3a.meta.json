@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知组块化任务规划器_一个能够自主进化_bcbd3a",
+  "file": "skills/auto_认知组块化任务规划器_一个能够自主进化_bcbd3a.py",
+  "description": "【认知组块化任务规划器】一个能够自主进化技能库的规划系统。在进行自上而下的任务拆解时，系统不再机械地切分，而是检测子任务与已有知识库的'重叠度'。如果发现某个子任务结构（如'读取配置文件并解析'）在软件工程、数据分析等多个领域频繁出现（跨域重叠），系统会自动将其'固化'为一个标准化的'真实节点'（Skill），并定义其最小可执行接口。这不仅优化了任务拆解的粒度，还实现了技能库的自动化迭代。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.144573",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O4_6067",
+  "design_spec": {
+    "name": "auto_认知组块化任务规划器_一个能够自主进化_bcbd3a",
+    "display_name": "【认知组块化任务规划器】一个能够自主进化技能库的规划系统。在进行自上而下的任务拆解时，系统不再机械地",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知组块化任务规划器】一个能够自主进化技能库的规划系统。在进行自上而下的任务拆解时，系统不再机械地切分，而是检测子任务与已有知识库的'重叠度'。如果发现某个子",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

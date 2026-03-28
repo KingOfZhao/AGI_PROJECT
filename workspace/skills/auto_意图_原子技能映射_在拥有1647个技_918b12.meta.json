@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图_原子技能映射_在拥有1647个技_918b12",
+  "file": "skills/auto_意图_原子技能映射_在拥有1647个技_918b12.py",
+  "description": "【意图-原子技能映射】在拥有1647个技能节点的系统中，如何构建一个动态路由算法，判断一个高层意图（如‘分析这张图表’）是需要调用单一的‘skill_022_image_recognition’，还是需要编排‘skill_022’+‘skill_108_data_analysis’+‘skill_209_report_generation’？这涉及到对技能颗粒度的评估和依赖关系的自动解析。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_96",
+    "agi_orchestration",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:29:05.393508",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_96_Q3_1_2423",
+  "design_spec": {
+    "name": "auto_意图_原子技能映射_在拥有1647个技_918b12",
+    "display_name": "【意图-原子技能映射】在拥有1647个技能节点的系统中，如何构建一个动态路由算法，判断一个高层意图（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图-原子技能映射】在拥有1647个技能节点的系统中，如何构建一个动态路由算法，判断一个高层意图（如‘分析这张图表’）是需要调用单一的‘skill_022_i",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 415
+  }
+}

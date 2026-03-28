@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机共生_回路的节点置信度修正机制_f74068",
+  "file": "skills/auto_基于_人机共生_回路的节点置信度修正机制_f74068.py",
+  "description": "基于'人机共生'回路的节点置信度修正机制：如何设计一个双向校验算法，利用'AI梳理清单→人类证伪'的闭环数据？当一个节点生成的实践清单被人类大量修改或否决时，如何通过贝叶斯更新实时降低该节点的置信度，并将其标记为'待重构'状态，而非直接删除？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.839092",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_115_Q3_2_8801",
+  "design_spec": {
+    "name": "auto_基于_人机共生_回路的节点置信度修正机制_f74068",
+    "display_name": "基于'人机共生'回路的节点置信度修正机制：如何设计一个双向校验算法，利用'AI梳理清单→人类证伪'的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'人机共生'回路的节点置信度修正机制：如何设计一个双向校验算法，利用'AI梳理清单→人类证伪'的闭环数据？当一个节点生成的实践清单被人类大量修改或否决时，如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

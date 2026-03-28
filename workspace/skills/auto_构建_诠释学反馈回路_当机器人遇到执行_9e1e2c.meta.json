@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_诠释学反馈回路_当机器人遇到执行_9e1e2c",
+  "file": "skills/auto_构建_诠释学反馈回路_当机器人遇到执行_9e1e2c.py",
+  "description": "构建‘诠释学反馈回路’。当机器人遇到执行误差时，不再机械匹配最近邻案例，而是计算当前误差状态与历史案例库之间的‘语义距离’。系统理解历史案例的‘意图’（Why），而非仅仅模仿‘动作’（How）。它能像人类专家一样，根据当前独特的物理语境，对历史经验进行‘创造性的误读’或‘适应性改编’，生成前所未有的微调建议，实现真正的智能修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.812613",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O3_7317",
+  "design_spec": {
+    "name": "auto_构建_诠释学反馈回路_当机器人遇到执行_9e1e2c",
+    "display_name": "构建‘诠释学反馈回路’。当机器人遇到执行误差时，不再机械匹配最近邻案例，而是计算当前误差状态与历史案",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘诠释学反馈回路’。当机器人遇到执行误差时，不再机械匹配最近邻案例，而是计算当前误差状态与历史案例库之间的‘语义距离’。系统理解历史案例的‘意图’（Why）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

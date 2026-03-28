@@ -1,0 +1,30 @@
+{
+  "name": "auto_状态机与模糊逻辑的固化_如何将碎片化的_ff6420",
+  "file": "skills/auto_状态机与模糊逻辑的固化_如何将碎片化的_ff6420.py",
+  "description": "【状态机与模糊逻辑的固化】如何将碎片化的隐性知识片段（如‘少许’、‘片刻’）转化为可执行的概率分布函数，而非僵化的固定值？这要求系统能够处理‘认知自洽’中的模糊边界，构建动态调整的‘真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "fuzzy_logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.450687",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_35_Q7_0_9732",
+  "design_spec": {
+    "name": "auto_状态机与模糊逻辑的固化_如何将碎片化的_ff6420",
+    "display_name": "【状态机与模糊逻辑的固化】如何将碎片化的隐性知识片段（如‘少许’、‘片刻’）转化为可执行的概率分布函",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【状态机与模糊逻辑的固化】如何将碎片化的隐性知识片段（如‘少许’、‘片刻’）转化为可执行的概率分布函数，而非僵化的固定值？这要求系统能够处理‘认知自洽’中的模糊",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

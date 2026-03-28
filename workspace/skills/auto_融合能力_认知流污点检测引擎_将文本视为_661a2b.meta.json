@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_认知流污点检测引擎_将文本视为_661a2b",
+  "file": "skills/auto_融合能力_认知流污点检测引擎_将文本视为_661a2b.py",
+  "description": "融合能力：认知流污点检测引擎。将文本视为'程序'，将观点或事实视为'变量'。利用编译器的数据流分析技术，自动构建长文档或跨文档的'逻辑流图'。系统可以自动检测'未定义的变量'（毫无根据的论点）、'类型冲突'（前后矛盾的陈述）以及'死代码'（无关的冗余信息）。这对于深度假新闻检测和法律合同审查具有极高的实用价值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.356485",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_146_O3_6929",
+  "design_spec": {
+    "name": "auto_融合能力_认知流污点检测引擎_将文本视为_661a2b",
+    "display_name": "融合能力：认知流污点检测引擎。将文本视为'程序'，将观点或事实视为'变量'。利用编译器的数据流分析技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：认知流污点检测引擎。将文本视为'程序'，将观点或事实视为'变量'。利用编译器的数据流分析技术，自动构建长文档或跨文档的'逻辑流图'。系统可以自动检测'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

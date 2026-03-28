@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_工具_效果函数映射_与_表观遗传容_e5b067",
+  "file": "skills/auto_基于_工具_效果函数映射_与_表观遗传容_e5b067.py",
+  "description": "基于'工具-效果函数映射'与'表观遗传容器'。当环境或工具发生变化（如从重锤换轻锤，或从CPU换GPU），系统不重新学习，而是利用'表观遗传'机制动态重写自身的配置基因，结合已有的'工具-效果'映射函数，瞬间调整参数（力度/速度），实现零样本或小样本的技能迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.568491",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_126_E3_2598",
+  "design_spec": {
+    "name": "auto_基于_工具_效果函数映射_与_表观遗传容_e5b067",
+    "display_name": "基于'工具-效果函数映射'与'表观遗传容器'。当环境或工具发生变化（如从重锤换轻锤，或从CPU换GP",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'工具-效果函数映射'与'表观遗传容器'。当环境或工具发生变化（如从重锤换轻锤，或从CPU换GPU），系统不重新学习，而是利用'表观遗传'机制动态重写自身的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

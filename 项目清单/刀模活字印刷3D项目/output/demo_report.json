@@ -1,0 +1,151 @@
+{
+  "name": "demo",
+  "generated_at": "/Users/administruter/Desktop/AGI_PROJECT",
+  "total_modules": 10,
+  "total_length": 300.0,
+  "module_count": {
+    "straight": 6,
+    "corner_90": 4
+  },
+  "estimated_cost": 70,
+  "stl_files": [
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/STR_0001.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/STR_0002.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/STR_0003.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/STR_0004.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/STR_0005.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/STR_0006.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/CRN_0007.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/CRN_0008.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/CRN_0009.stl",
+    "/Users/administruter/Desktop/AGI_PROJECT/项目清单/刀模活字印刷3D项目/output/CRN_0010.stl"
+  ],
+  "notes": [
+    "所有模块使用燕尾榫连接",
+    "建议使用PETG-CF材料打印",
+    "打印层高: 0.2mm",
+    "填充率: 40%"
+  ],
+  "modules": [
+    {
+      "module_id": "STR_0001",
+      "module_type": "straight",
+      "position": [
+        0,
+        0
+      ],
+      "rotation": 0.0,
+      "length": 50,
+      "angle": 0.0,
+      "params": {}
+    },
+    {
+      "module_id": "STR_0002",
+      "module_type": "straight",
+      "position": [
+        50.0,
+        0.0
+      ],
+      "rotation": 0.0,
+      "length": 50,
+      "angle": 0.0,
+      "params": {}
+    },
+    {
+      "module_id": "STR_0003",
+      "module_type": "straight",
+      "position": [
+        100,
+        0
+      ],
+      "rotation": 1.5707963267948966,
+      "length": 50,
+      "angle": 0.0,
+      "params": {}
+    },
+    {
+      "module_id": "STR_0004",
+      "module_type": "straight",
+      "position": [
+        100,
+        50
+      ],
+      "rotation": 3.141592653589793,
+      "length": 50,
+      "angle": 0.0,
+      "params": {}
+    },
+    {
+      "module_id": "STR_0005",
+      "module_type": "straight",
+      "position": [
+        50.0,
+        50.00000000000001
+      ],
+      "rotation": 3.141592653589793,
+      "length": 50,
+      "angle": 0.0,
+      "params": {}
+    },
+    {
+      "module_id": "STR_0006",
+      "module_type": "straight",
+      "position": [
+        0,
+        50
+      ],
+      "rotation": -1.5707963267948966,
+      "length": 50,
+      "angle": 0.0,
+      "params": {}
+    },
+    {
+      "module_id": "CRN_0007",
+      "module_type": "corner_90",
+      "position": [
+        0,
+        0
+      ],
+      "rotation": 0.0,
+      "length": 0.0,
+      "angle": 90.0,
+      "params": {}
+    },
+    {
+      "module_id": "CRN_0008",
+      "module_type": "corner_90",
+      "position": [
+        100,
+        0
+      ],
+      "rotation": 0.0,
+      "length": 0.0,
+      "angle": 90.0,
+      "params": {}
+    },
+    {
+      "module_id": "CRN_0009",
+      "module_type": "corner_90",
+      "position": [
+        100,
+        50
+      ],
+      "rotation": 0.0,
+      "length": 0.0,
+      "angle": 90.0,
+      "params": {}
+    },
+    {
+      "module_id": "CRN_0010",
+      "module_type": "corner_90",
+      "position": [
+        0,
+        50
+      ],
+      "rotation": 0.0,
+      "length": 0.0,
+      "angle": 90.0,
+      "params": {}
+    }
+  ]
+}

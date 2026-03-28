@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点_固化判定_因果强度与鲁棒性量_7507ac",
+  "file": "skills/auto_真实节点_固化判定_因果强度与鲁棒性量_7507ac.py",
+  "description": "‘真实节点’固化判定：因果强度与鲁棒性量化。什么样的工业经验可以被升级为‘真实节点’？需要建立一套量化标准：当一个知识单元在至少3种不同工况（温度、负载、环境）下被重复验证，且其输入输出变化的因果效应值大于阈值，方可固化。需设计算法自动监测节点的‘成熟度’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "epistemology",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.819284",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_88_Q6_1_6049",
+  "design_spec": {
+    "name": "auto_真实节点_固化判定_因果强度与鲁棒性量_7507ac",
+    "display_name": "‘真实节点’固化判定：因果强度与鲁棒性量化。什么样的工业经验可以被升级为‘真实节点’？需要建立一套量",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘真实节点’固化判定：因果强度与鲁棒性量化。什么样的工业经验可以被升级为‘真实节点’？需要建立一套量化标准：当一个知识单元在至少3种不同工况（温度、负载、环境）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

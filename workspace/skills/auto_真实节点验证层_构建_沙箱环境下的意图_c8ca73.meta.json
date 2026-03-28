@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点验证层_构建_沙箱环境下的意图_c8ca73",
+  "file": "skills/auto_真实节点验证层_构建_沙箱环境下的意图_c8ca73.py",
+  "description": "【真实节点验证层】构建'沙箱环境下的意图执行轨迹追踪器'。代码语法正确不代表意图被满足。需要在沙箱中运行代码，对比'执行轨迹'与'意图预期状态'的差异。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "software_testing",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.252567",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q9_3_725",
+  "design_spec": {
+    "name": "auto_真实节点验证层_构建_沙箱环境下的意图_c8ca73",
+    "display_name": "【真实节点验证层】构建'沙箱环境下的意图执行轨迹追踪器'。代码语法正确不代表意图被满足。需要在沙箱中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点验证层】构建'沙箱环境下的意图执行轨迹追踪器'。代码语法正确不代表意图被满足。需要在沙箱中运行代码，对比'执行轨迹'与'意图预期状态'的差异。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 334
+  }
+}

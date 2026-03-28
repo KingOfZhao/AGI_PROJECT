@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于现有的skill节点_开发一套_专家_48a906",
+  "file": "skills/auto_基于现有的skill节点_开发一套_专家_48a906.py",
+  "description": "基于现有的SKILL节点，开发一套'专家直觉提取'交互界面。在工匠进行实操录像回放时，利用眼动追踪技术记录其注意力焦点，并让其在'决策关键帧'（如力度转变瞬间）进行暂停并口述决策理由。问题是：如何设计算法自动识别这些'隐性决策关键帧'，而不是依赖人工标注？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.425697",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_17_Q3_2_8733",
+  "design_spec": {
+    "name": "auto_基于现有的skill节点_开发一套_专家_48a906",
+    "display_name": "基于现有的SKILL节点，开发一套'专家直觉提取'交互界面。在工匠进行实操录像回放时，利用眼动追踪技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于现有的SKILL节点，开发一套'专家直觉提取'交互界面。在工匠进行实操录像回放时，利用眼动追踪技术记录其注意力焦点，并让其在'决策关键帧'（如力度转变瞬间）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

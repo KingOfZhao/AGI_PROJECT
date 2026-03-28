@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域节点的_概念投影_与冲突检测_如何自_ffc568",
+  "file": "skills/auto_跨域节点的_概念投影_与冲突检测_如何自_ffc568.py",
+  "description": "跨域节点的‘概念投影’与冲突检测：如何自动识别两个看似无关的领域（如‘生物学细胞’与‘分布式系统’）在结构上的同构性？需要建立一种结构映射算法，提取节点的深层拓扑特征（而非仅仅是文本特征），强制将领域A的解决结构映射到领域B，并自动生成‘跨域假设’（例如：将细胞凋亡机制映射到微服务熔断策略）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "structural_mapping",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.333542",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_58_Q2_2_4923",
+  "design_spec": {
+    "name": "auto_跨域节点的_概念投影_与冲突检测_如何自_ffc568",
+    "display_name": "跨域节点的‘概念投影’与冲突检测：如何自动识别两个看似无关的领域（如‘生物学细胞’与‘分布式系统’）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域节点的‘概念投影’与冲突检测：如何自动识别两个看似无关的领域（如‘生物学细胞’与‘分布式系统’）在结构上的同构性？需要建立一种结构映射算法，提取节点的深层拓",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

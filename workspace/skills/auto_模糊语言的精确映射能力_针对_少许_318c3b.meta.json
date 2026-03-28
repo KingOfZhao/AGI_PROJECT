@@ -1,0 +1,30 @@
+{
+  "name": "auto_模糊语言的精确映射能力_针对_少许_318c3b",
+  "file": "skills/auto_模糊语言的精确映射能力_针对_少许_318c3b.py",
+  "description": "模糊语言的精确映射能力：针对'少许'、'适量'等烹饪隐性词汇，AI需结合环境上下文（食材总量、锅的大小）将其转化为具体的克数或毫升数。验证AI是否具备语境感知的动态量化能力，构建动态词典节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "nlp_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.808788",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_122_Q6_2_7214",
+  "design_spec": {
+    "name": "auto_模糊语言的精确映射能力_针对_少许_318c3b",
+    "display_name": "模糊语言的精确映射能力：针对'少许'、'适量'等烹饪隐性词汇，AI需结合环境上下文（食材总量、锅的大",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "模糊语言的精确映射能力：针对'少许'、'适量'等烹饪隐性词汇，AI需结合环境上下文（食材总量、锅的大小）将其转化为具体的克数或毫升数。验证AI是否具备语境感知的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

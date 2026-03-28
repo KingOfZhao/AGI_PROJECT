@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_人类实践反馈量化_q3_3_78_8a5ae5",
+  "file": "skills/auto_整合_人类实践反馈量化_q3_3_78_8a5ae5.py",
+  "description": "整合‘人类实践反馈量化’（Q3_3_7871）、‘认知负荷平衡’（Q4_0_4921）与‘延迟敏感性分析’（Q2_1_8212）。系统不再是被动的工具，而是主动感知人类导师状态的‘教练’。它能根据人类的疲劳度和反馈延迟，动态调整教学的颗粒度，并在检测到人类产生‘负迁移’（Q7_1_8212）风险时，自动介入并阻断错误信息的传递。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.887005",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_63_E4_6341",
+  "design_spec": {
+    "name": "auto_整合_人类实践反馈量化_q3_3_78_8a5ae5",
+    "display_name": "整合‘人类实践反馈量化’（Q3_3_7871）、‘认知负荷平衡’（Q4_0_4921）与‘延迟敏感性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合‘人类实践反馈量化’（Q3_3_7871）、‘认知负荷平衡’（Q4_0_4921）与‘延迟敏感性分析’（Q2_1_8212）。系统不再是被动的工具，而是主动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

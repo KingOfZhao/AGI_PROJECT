@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_价值驱动型知识修剪与路由引擎_该_bb8853",
+  "file": "skills/auto_开发_价值驱动型知识修剪与路由引擎_该_bb8853.py",
+  "description": "开发'价值驱动型知识修剪与路由引擎'。该能力模仿生物突触修剪，应用于庞大的分布式知识图谱。系统实时监控知识节点的调用频率与解决实际问题的成功率（多巴胺奖励信号）。对于长期未被实践验证或导致错误的'僵尸节点'（冗余知识），系统自动降低其权重或进入'休眠/归档'状态（Pruning），从而释放算力资源给高频使用的'真实节点'。这实现了认知资源的动态优化配置。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.584172",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_52_O2_5361",
+  "design_spec": {
+    "name": "auto_开发_价值驱动型知识修剪与路由引擎_该_bb8853",
+    "display_name": "开发'价值驱动型知识修剪与路由引擎'。该能力模仿生物突触修剪，应用于庞大的分布式知识图谱。系统实时监",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'价值驱动型知识修剪与路由引擎'。该能力模仿生物突触修剪，应用于庞大的分布式知识图谱。系统实时监控知识节点的调用频率与解决实际问题的成功率（多巴胺奖励信号）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 379
+  }
+}

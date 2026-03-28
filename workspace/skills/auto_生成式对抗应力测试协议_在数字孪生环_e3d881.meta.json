@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式对抗应力测试协议_在数字孪生环_e3d881",
+  "file": "skills/auto_生成式对抗应力测试协议_在数字孪生环_e3d881.py",
+  "description": "【生成式对抗应力测试协议】：在数字孪生环境中，构建一个‘魔鬼代言人’AI，专门针对设计好的数字工艺品生成极端环境（如温度剧变、非均匀受力）。AI不只是检测错误，而是主动寻找能导致结构崩溃的‘最小扰动’。通过这种对抗，迫使设计模型在制造前就固化出具备极高鲁棒性的‘真实节点’，避免理论可行但实际易碎的‘伪节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.028860",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_123_O2_7667",
+  "design_spec": {
+    "name": "auto_生成式对抗应力测试协议_在数字孪生环_e3d881",
+    "display_name": "【生成式对抗应力测试协议】：在数字孪生环境中，构建一个‘魔鬼代言人’AI，专门针对设计好的数字工艺品",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【生成式对抗应力测试协议】：在数字孪生环境中，构建一个‘魔鬼代言人’AI，专门针对设计好的数字工艺品生成极端环境（如温度剧变、非均匀受力）。AI不只是检测错误，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

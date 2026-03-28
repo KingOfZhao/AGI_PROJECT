@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种模拟生物大脑遗忘与巩固机制的图网络维_b40bd6",
+  "file": "skills/auto_一种模拟生物大脑遗忘与巩固机制的图网络维_b40bd6.py",
+  "description": "一种模拟生物大脑遗忘与巩固机制的图网络维护算法。该算法引入'热力学隐喻'，为每个知识节点计算'生命周期成本'。它结合【时序衰减】（Time-Decay）与【实践反馈】（Feedback-Score）来判定节点的'活力状态'，并利用图拓扑结构（介数中心性、PageRank）分析节点的'系统脆弱性'。通过定期'修剪'低活力节点并'加固'高影响力节点，防止认知网络的'熵增'（过时或错误知识的堆积），从而实现AGI系统的自我修复与自我演进。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.737728",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_87_P4_3366",
+  "design_spec": {
+    "name": "auto_一种模拟生物大脑遗忘与巩固机制的图网络维_b40bd6",
+    "display_name": "一种模拟生物大脑遗忘与巩固机制的图网络维护算法。该算法引入'热力学隐喻'，为每个知识节点计算'生命周",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种模拟生物大脑遗忘与巩固机制的图网络维护算法。该算法引入'热力学隐喻'，为每个知识节点计算'生命周期成本'。它结合【时序衰减】（Time-Decay）与【实践",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 270
+  }
+}

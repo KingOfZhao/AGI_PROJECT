@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_实时响应式参数化cad引擎_将c_77448e",
+  "file": "skills/auto_提出_实时响应式参数化cad引擎_将c_77448e.py",
+  "description": "提出'实时响应式参数化CAD引擎'。将CAD中繁重的几何求解过程封装为异步计算单元，利用Flutter的Diffing算法局部刷新几何视图。当用户修改一个参数（类似setState），系统仅重绘受影响的几何构件（局部重绘），而非整个图纸。这能将Web端CAD的交互流畅度提升至原生级别，实现'60fps的工程设计'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.567078",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_37_O1_3197",
+  "design_spec": {
+    "name": "auto_提出_实时响应式参数化cad引擎_将c_77448e",
+    "display_name": "提出'实时响应式参数化CAD引擎'。将CAD中繁重的几何求解过程封装为异步计算单元，利用Flutte",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'实时响应式参数化CAD引擎'。将CAD中繁重的几何求解过程封装为异步计算单元，利用Flutter的Diffing算法局部刷新几何视图。当用户修改一个参数（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 803
+  }
+}

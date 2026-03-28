@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_知识凋亡与重生协议_针对小摊贩式_47f2a1",
+  "file": "skills/auto_开发_知识凋亡与重生协议_针对小摊贩式_47f2a1.py",
+  "description": "开发‘知识凋亡与重生协议’。针对小摊贩式简单逻辑与工厂复杂逻辑的冲突，当系统检测到某个微服务产生的结论严重偏离基准（即不自洽）时，标记为‘癌变风险’。系统不是尝试修复它，而是切断其输入（熔断），并指令其释放资源后下线，同时通知父级服务重新孵化一个新的、基于更基础数据（类似于干细胞分化）的实例。这保证了整体系统的‘机体健康’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.789749",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_131_O2_1686",
+  "design_spec": {
+    "name": "auto_开发_知识凋亡与重生协议_针对小摊贩式_47f2a1",
+    "display_name": "开发‘知识凋亡与重生协议’。针对小摊贩式简单逻辑与工厂复杂逻辑的冲突，当系统检测到某个微服务产生的结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘知识凋亡与重生协议’。针对小摊贩式简单逻辑与工厂复杂逻辑的冲突，当系统检测到某个微服务产生的结论严重偏离基准（即不自洽）时，标记为‘癌变风险’。系统不是尝",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

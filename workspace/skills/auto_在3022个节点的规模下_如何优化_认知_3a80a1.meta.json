@@ -1,0 +1,30 @@
+{
+  "name": "auto_在3022个节点的规模下_如何优化_认知_3a80a1",
+  "file": "skills/auto_在3022个节点的规模下_如何优化_认知_3a80a1.py",
+  "description": "在3022个节点的规模下，如何优化'认知检索'（Cognitive Retrieval）以支持毫秒级的碰撞推理？随着节点增长，遍历式搜索不可行。需要设计一种混合索引机制，结合符号逻辑（显性关系）与向量检索（隐性关联），确保在提出复杂问题时，系统能瞬间调动最相关的'记忆碎片'进行重组。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.150348",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q7_1_9468",
+  "design_spec": {
+    "name": "auto_在3022个节点的规模下_如何优化_认知_3a80a1",
+    "display_name": "在3022个节点的规模下，如何优化'认知检索'（Cognitive Retrieval）以支持毫秒级",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在3022个节点的规模下，如何优化'认知检索'（Cognitive Retrieval）以支持毫秒级的碰撞推理？随着节点增长，遍历式搜索不可行。需要设计一种混合",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 288
+  }
+}

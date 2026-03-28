@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何量化并验证_直觉决策树_的压缩率_手_38d4d6",
+  "file": "skills/auto_如何量化并验证_直觉决策树_的压缩率_手_38d4d6.py",
+  "description": "如何量化并验证“直觉决策树”的压缩率？手工艺大师往往跳过推理直接给结果（直觉）。研究能否通过监控专家的眼动追踪数据与AI的注意力机制（Attention Map）的热力图重合度，来验证AI是否学会了人类的“直觉性关注点”，而非仅仅是记住了数据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.011305",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q7_2_1672",
+  "design_spec": {
+    "name": "auto_如何量化并验证_直觉决策树_的压缩率_手_38d4d6",
+    "display_name": "如何量化并验证“直觉决策树”的压缩率？手工艺大师往往跳过推理直接给结果（直觉）。研究能否通过监控专家",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何量化并验证“直觉决策树”的压缩率？手工艺大师往往跳过推理直接给结果（直觉）。研究能否通过监控专家的眼动追踪数据与AI的注意力机制（Attention Map",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

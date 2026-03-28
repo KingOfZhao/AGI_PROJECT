@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点依赖图中的_级联失效_风险评估_当淘_bb8cff",
+  "file": "skills/auto_节点依赖图中的_级联失效_风险评估_当淘_bb8cff.py",
+  "description": "节点依赖图中的'级联失效'风险评估。当淘汰一个节点时，必须评估其下游依赖节点的存活率。如果淘汰节点A导致节点B和C无法运行，而B和C是高价值节点，那么A即使低质量也必须保留（或重构）。需要构建一个基于图论的'系统关键度'算法，计算每个节点的PageRank变体值，低质量但高连接度的节点应被标记为'待重构'而非'直接删除'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.318363",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_58_Q10_0_6545",
+  "design_spec": {
+    "name": "auto_节点依赖图中的_级联失效_风险评估_当淘_bb8cff",
+    "display_name": "节点依赖图中的'级联失效'风险评估。当淘汰一个节点时，必须评估其下游依赖节点的存活率。如果淘汰节点A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "节点依赖图中的'级联失效'风险评估。当淘汰一个节点时，必须评估其下游依赖节点的存活率。如果淘汰节点A导致节点B和C无法运行，而B和C是高价值节点，那么A即使低质",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

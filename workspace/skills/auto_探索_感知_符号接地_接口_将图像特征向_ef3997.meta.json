@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索_感知_符号接地_接口_将图像特征向_ef3997",
+  "file": "skills/auto_探索_感知_符号接地_接口_将图像特征向_ef3997.py",
+  "description": "探索‘感知-符号接地’接口，将图像特征向量直接映射为知识图谱中的潜在空间坐标，实现多模态的统一检索。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.044477",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_132_G3_9403",
+  "design_spec": {
+    "name": "auto_探索_感知_符号接地_接口_将图像特征向_ef3997",
+    "display_name": "探索‘感知-符号接地’接口，将图像特征向量直接映射为知识图谱中的潜在空间坐标，实现多模态的统一检索。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索‘感知-符号接地’接口，将图像特征向量直接映射为知识图谱中的潜在空间坐标，实现多模态的统一检索。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

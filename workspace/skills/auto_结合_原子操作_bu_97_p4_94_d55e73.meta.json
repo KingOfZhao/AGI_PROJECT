@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_原子操作_bu_97_p4_94_d55e73",
+  "file": "skills/auto_结合_原子操作_bu_97_p4_94_d55e73.py",
+  "description": "结合‘原子操作’（bu_97_P4_9406）、‘代谢流式组块’（bu_96_P5_9323）与‘意图-原子技能映射’（td_96_Q3_1_2423）。系统具备了一种类似生物酶的能力，能根据高层意图，从庞大的休眠节点库中‘唤醒’特定的原子技能，并将其组装成临时的‘宏技能’执行。任务结束后，自动拆解并回收能量（权重），实现了计算资源的按需动态重构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.798846",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_98_E5_4726",
+  "design_spec": {
+    "name": "auto_结合_原子操作_bu_97_p4_94_d55e73",
+    "display_name": "结合‘原子操作’（bu_97_P4_9406）、‘代谢流式组块’（bu_96_P5_9323）与‘意",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合‘原子操作’（bu_97_P4_9406）、‘代谢流式组块’（bu_96_P5_9323）与‘意图-原子技能映射’（td_96_Q3_1_2423）。系统具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

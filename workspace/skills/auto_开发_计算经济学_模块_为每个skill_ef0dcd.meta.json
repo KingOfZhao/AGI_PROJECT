@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_计算经济学_模块_为每个skill_ef0dcd",
+  "file": "skills/auto_开发_计算经济学_模块_为每个skill_ef0dcd.py",
+  "description": "开发'计算经济学'模块，为每个Skill打上'计算成本标签'，并在推理时引入资源约束条件。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.955263",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_92_G3_5280",
+  "design_spec": {
+    "name": "auto_开发_计算经济学_模块_为每个skill_ef0dcd",
+    "display_name": "开发'计算经济学'模块，为每个Skill打上'计算成本标签'，并在推理时引入资源约束条件。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'计算经济学'模块，为每个Skill打上'计算成本标签'，并在推理时引入资源约束条件。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_元认知监控_推理步数与资源消耗异常检测_917438",
+  "file": "skills/auto_元认知监控_推理步数与资源消耗异常检测_917438.py",
+  "description": "元认知监控：推理步数与资源消耗异常检测：建立‘认知经济性’基线。如果解决一个简单问题（如‘1+1’）调用了过深的节点层级或极长的推理链，或者某个节点的调用导致了系统算力/时间的非线性爆炸，这通常意味着推理路径中存在死循环或逻辑黑洞，需作为潜在错误进行阻断。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "complexity_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.826602",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q8_3_4569",
+  "design_spec": {
+    "name": "auto_元认知监控_推理步数与资源消耗异常检测_917438",
+    "display_name": "元认知监控：推理步数与资源消耗异常检测：建立‘认知经济性’基线。如果解决一个简单问题（如‘1+1’）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "元认知监控：推理步数与资源消耗异常检测：建立‘认知经济性’基线。如果解决一个简单问题（如‘1+1’）调用了过深的节点层级或极长的推理链，或者某个节点的调用导致了",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

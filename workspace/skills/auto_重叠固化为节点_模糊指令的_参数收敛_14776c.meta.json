@@ -1,0 +1,30 @@
+{
+  "name": "auto_重叠固化为节点_模糊指令的_参数收敛_14776c",
+  "file": "skills/auto_重叠固化为节点_模糊指令的_参数收敛_14776c.py",
+  "description": "【重叠固化为节点】模糊指令的'参数收敛'精确度验证。在人机共生中，人类指令往往是模糊的（如'把代码写得更优雅些'）。AI能否将这种模糊指令转化为具体的、可量化的代码重构步骤（如'降低圈复杂度至10以下'、'消除重复代码'）？这验证了AI是否将'代码优雅'这一人类概念固化为机器可执行的'真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_76",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:35:30.434556",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_76_Q2_2_6755",
+  "design_spec": {
+    "name": "auto_重叠固化为节点_模糊指令的_参数收敛_14776c",
+    "display_name": "【重叠固化为节点】模糊指令的'参数收敛'精确度验证。在人机共生中，人类指令往往是模糊的（如'把代码写",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【重叠固化为节点】模糊指令的'参数收敛'精确度验证。在人机共生中，人类指令往往是模糊的（如'把代码写得更优雅些'）。AI能否将这种模糊指令转化为具体的、可量化的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

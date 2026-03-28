@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上_零样本环境下的规则归纳与压缩_37a8b1",
+  "file": "skills/auto_自下而上_零样本环境下的规则归纳与压缩_37a8b1.py",
+  "description": "【自下而上】零样本环境下的规则归纳与压缩。给定一个完全虚构的、具有隐含规律的字符串变换游戏，测试AI是否具备'自下而上归纳构建'的能力。AI必须在无先验知识的情况下，通过观察少量样本，提炼出核心生成规则，并将其固化为一个可执行的'真实节点'（代码或正则表达式），而非用模糊的自然语言描述。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "inductive_programming",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.247311",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q2_2_4155",
+  "design_spec": {
+    "name": "auto_自下而上_零样本环境下的规则归纳与压缩_37a8b1",
+    "display_name": "【自下而上】零样本环境下的规则归纳与压缩。给定一个完全虚构的、具有隐含规律的字符串变换游戏，测试AI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上】零样本环境下的规则归纳与压缩。给定一个完全虚构的、具有隐含规律的字符串变换游戏，测试AI是否具备'自下而上归纳构建'的能力。AI必须在无先验知识的情",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 320
+  }
+}

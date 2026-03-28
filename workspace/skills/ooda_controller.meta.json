@@ -1,0 +1,18 @@
+{
+  "name": "OODA双环执行引擎",
+  "description": "双环态势网络体系的执行控制器。内环OODA(Observe→Orient→Decide→Act)快速执行，外环EvolutionLoop异步进化。集成v1-v7全链技能，通过COP共享态势层协调。",
+  "tags": [
+    "OODA", "双环", "执行引擎", "技能编排", "路径规划",
+    "进化外环", "链式调用", "态势网络", "自主执行"
+  ],
+  "category": "orchestration",
+  "file": "workspace/ooda_controller.py",
+  "version": "2.0",
+  "author": "local",
+  "safety_level": "safe",
+  "chain_position": "controller",
+  "design": {
+    "components": ["SkillLoader", "OODAController", "EvolutionLoop", "DualLoopEngine"],
+    "dependencies": ["cop_shared_awareness", "v1-v7 skill chain", "PCM Skill Router"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_双向动态意图解析器_利用agi的_意_76e095",
+  "file": "skills/auto_双向动态意图解析器_利用agi的_意_76e095.py",
+  "description": "‘双向动态意图解析器’。利用AGI的‘意图解析状态机’逻辑，构建一个通用的需求澄清引擎。它不局限于代码或报告，而是将任何模糊的‘人类自然语言需求’（如装修、活动策划）映射为严格的JSON规范文档。该能力引入‘认知阻力’机制，当用户需求逻辑不自洽时（如既要极简又要繁复），强制中断并询问，模拟资深专家的Demanding特性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.246791",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_85_O1_150",
+  "design_spec": {
+    "name": "auto_双向动态意图解析器_利用agi的_意_76e095",
+    "display_name": "‘双向动态意图解析器’。利用AGI的‘意图解析状态机’逻辑，构建一个通用的需求澄清引擎。它不局限于代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘双向动态意图解析器’。利用AGI的‘意图解析状态机’逻辑，构建一个通用的需求澄清引擎。它不局限于代码或报告，而是将任何模糊的‘人类自然语言需求’（如装修、活动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

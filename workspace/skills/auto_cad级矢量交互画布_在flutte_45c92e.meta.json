@@ -1,0 +1,30 @@
+{
+  "name": "auto_cad级矢量交互画布_在flutte_45c92e",
+  "file": "skills/auto_cad级矢量交互画布_在flutte_45c92e.py",
+  "description": "‘CAD级矢量交互画布’。在Flutter中实现一套轻量级的几何约束内核。允许用户在App界面上像操作CAD一样绘制草图（如绘制一个圆角矩形并标注边长），系统实时通过几何约束求解（如两线垂直、相切），并将求解结果直接映射为Widget的layout属性。这在‘定制化电商’（如定制家具、戒指）场景具有极高价值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.361081",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O3_9168",
+  "design_spec": {
+    "name": "auto_cad级矢量交互画布_在flutte_45c92e",
+    "display_name": "‘CAD级矢量交互画布’。在Flutter中实现一套轻量级的几何约束内核。允许用户在App界面上像操",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘CAD级矢量交互画布’。在Flutter中实现一套轻量级的几何约束内核。允许用户在App界面上像操作CAD一样绘制草图（如绘制一个圆角矩形并标注边长），系统实",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

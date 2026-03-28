@@ -1,0 +1,30 @@
+{
+  "name": "auto_技能鲁棒性的对抗性模拟器_融合能力描述_96cab1",
+  "file": "skills/auto_技能鲁棒性的对抗性模拟器_融合能力描述_96cab1.py",
+  "description": "【技能鲁棒性的对抗性模拟器】融合能力描述：构建一个基于物理引擎或虚拟环境的‘红队’系统。当用户掌握了一项技能（如驾驶、手术、代码编写）后，AI不再只是重复标准场景，而是充当‘对抗者’，利用LLM生成针对该技能弱点的极端环境（如‘暴雨+爆胎+前方急刹’的组合）。这种‘自动证伪’式的训练，旨在寻找用户技能网络中的薄弱节点，进行定向爆破训练，从而在安全环境下构建高鲁棒性的‘肌肉记忆’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.351944",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_133_O6_2735",
+  "design_spec": {
+    "name": "auto_技能鲁棒性的对抗性模拟器_融合能力描述_96cab1",
+    "display_name": "【技能鲁棒性的对抗性模拟器】融合能力描述：构建一个基于物理引擎或虚拟环境的‘红队’系统。当用户掌握了",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【技能鲁棒性的对抗性模拟器】融合能力描述：构建一个基于物理引擎或虚拟环境的‘红队’系统。当用户掌握了一项技能（如驾驶、手术、代码编写）后，AI不再只是重复标准场",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

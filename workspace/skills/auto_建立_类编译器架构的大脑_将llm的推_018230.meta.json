@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_类编译器架构的大脑_将llm的推_018230",
+  "file": "skills/auto_建立_类编译器架构的大脑_将llm的推_018230.py",
+  "description": "建立‘类编译器架构的大脑’。将LLM的推理过程显式化为编译Pass。第一遍扫描做‘意图识别’，第二遍做‘知识检索’，第三遍做‘结构规划’，第四遍做‘细节生成’。每一遍都可以独立调试和优化（如LLVM的Pass管理器）。这种方法将黑盒的LLM推理拆解为白盒的可编程流水线，允许人类在特定Pass介入干预（人机共生）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.736547",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_139_O3_7046",
+  "design_spec": {
+    "name": "auto_建立_类编译器架构的大脑_将llm的推_018230",
+    "display_name": "建立‘类编译器架构的大脑’。将LLM的推理过程显式化为编译Pass。第一遍扫描做‘意图识别’，第二遍",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立‘类编译器架构的大脑’。将LLM的推理过程显式化为编译Pass。第一遍扫描做‘意图识别’，第二遍做‘知识检索’，第三遍做‘结构规划’，第四遍做‘细节生成’。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

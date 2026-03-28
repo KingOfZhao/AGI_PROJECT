@@ -1,0 +1,30 @@
+{
+  "name": "auto_为了解决agi在长期运行或长链条任务中的_e81921",
+  "file": "skills/auto_为了解决agi在长期运行或长链条任务中的_e81921.py",
+  "description": "为了解决AGI在长期运行或长链条任务中的“认知漂移”和“灾难性遗忘”，构建的一套包含时间维度的元认知架构。它允许系统在面临错误或异常时，回溯到特定的“认知节点”进行分支重试（类似Git的版本控制）；同时具备“认知抗干扰”能力，能区分有效的“真实证伪”与噪声导致的“伪证伪”。通过黑盒测试自动生成和异常处理封装，确保系统在动态环境中的鲁棒性和自我修复能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.340748",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_3_P5_5960",
+  "design_spec": {
+    "name": "auto_为了解决agi在长期运行或长链条任务中的_e81921",
+    "display_name": "为了解决AGI在长期运行或长链条任务中的“认知漂移”和“灾难性遗忘”，构建的一套包含时间维度的元认知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "为了解决AGI在长期运行或长链条任务中的“认知漂移”和“灾难性遗忘”，构建的一套包含时间维度的元认知架构。它允许系统在面临错误或异常时，回溯到特定的“认知节点”",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

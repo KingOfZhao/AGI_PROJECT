@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_物理约束动画引擎_将cad的运动_5e5531",
+  "file": "skills/auto_开发_物理约束动画引擎_将cad的运动_5e5531.py",
+  "description": "开发'物理约束动画引擎'。将CAD的运动学（连杆机构、齿轮传动）引入Flutter动画。开发者定义'关节'和'连杆'，设置驱动源（如电机），UI组件的运动将遵循物理定律（如曲柄摇杆运动），而非简单的贝塞尔曲线插值，实现极具机械感和真实感的交互动画。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.992789",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_54_O5_3784",
+  "design_spec": {
+    "name": "auto_开发_物理约束动画引擎_将cad的运动_5e5531",
+    "display_name": "开发'物理约束动画引擎'。将CAD的运动学（连杆机构、齿轮传动）引入Flutter动画。开发者定义'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'物理约束动画引擎'。将CAD的运动学（连杆机构、齿轮传动）引入Flutter动画。开发者定义'关节'和'连杆'，设置驱动源（如电机），UI组件的运动将遵循",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 561
+  }
+}

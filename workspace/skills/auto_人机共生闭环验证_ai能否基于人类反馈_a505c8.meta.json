@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生闭环验证_ai能否基于人类反馈_a505c8",
+  "file": "skills/auto_人机共生闭环验证_ai能否基于人类反馈_a505c8.py",
+  "description": "【人机共生闭环验证】AI能否基于人类反馈的'失败实践'，精准修正认知节点？模拟场景：人类执行AI生成的代码并报错，AI需根据错误日志定位到知识库中具体的错误节点，并提出修改建议，而非仅仅修补代码。这是验证'人类实践证伪->AI整合'的闭环效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:29.979958",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_66_Q3_2_4168",
+  "design_spec": {
+    "name": "auto_人机共生闭环验证_ai能否基于人类反馈_a505c8",
+    "display_name": "【人机共生闭环验证】AI能否基于人类反馈的'失败实践'，精准修正认知节点？模拟场景：人类执行AI生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生闭环验证】AI能否基于人类反馈的'失败实践'，精准修正认知节点？模拟场景：人类执行AI生成的代码并报错，AI需根据错误日志定位到知识库中具体的错误节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

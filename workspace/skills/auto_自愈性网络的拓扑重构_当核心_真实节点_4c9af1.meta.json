@@ -1,0 +1,30 @@
+{
+  "name": "auto_自愈性网络的拓扑重构_当核心_真实节点_4c9af1",
+  "file": "skills/auto_自愈性网络的拓扑重构_当核心_真实节点_4c9af1.py",
+  "description": "自愈性网络的拓扑重构：当核心'真实节点'被证伪推翻时，其下游依赖的1680个Skill节点可能瞬间失效。系统如何自动计算'冲击半径'，并触发局部网络的紧急重构或降级处理，而非导致全局崩溃（BSOD）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.703732",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_99_Q8_3_7999",
+  "design_spec": {
+    "name": "auto_自愈性网络的拓扑重构_当核心_真实节点_4c9af1",
+    "display_name": "自愈性网络的拓扑重构：当核心'真实节点'被证伪推翻时，其下游依赖的1680个Skill节点可能瞬间失",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自愈性网络的拓扑重构：当核心'真实节点'被证伪推翻时，其下游依赖的1680个Skill节点可能瞬间失效。系统如何自动计算'冲击半径'，并触发局部网络的紧急重构或",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 269
+  }
+}

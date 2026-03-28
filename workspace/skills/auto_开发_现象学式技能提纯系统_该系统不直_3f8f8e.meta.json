@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_现象学式技能提纯系统_该系统不直_3f8f8e",
+  "file": "skills/auto_开发_现象学式技能提纯系统_该系统不直_3f8f8e.py",
+  "description": "开发‘现象学式技能提纯系统’。该系统不直接模仿人类的原始轨迹，而是对人类操作数据进行‘双层解构’。第一层是‘显象层’（人类动作噪音），通过变分自编码器（VAE）进行隐性剥离；第二层是‘本质层’（力-位耦合关系），即‘意向性对象’。系统仅将‘本质层’固化为Skill节点，使机器人能跨越不同体型和关节限制，直接作用于‘事物本身’的逻辑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.811475",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O2_7317",
+  "design_spec": {
+    "name": "auto_开发_现象学式技能提纯系统_该系统不直_3f8f8e",
+    "display_name": "开发‘现象学式技能提纯系统’。该系统不直接模仿人类的原始轨迹，而是对人类操作数据进行‘双层解构’。第",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘现象学式技能提纯系统’。该系统不直接模仿人类的原始轨迹，而是对人类操作数据进行‘双层解构’。第一层是‘显象层’（人类动作噪音），通过变分自编码器（VAE）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

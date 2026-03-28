@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点间的_逻辑覆盖度_测试_类似于软件工_277fc3",
+  "file": "skills/auto_节点间的_逻辑覆盖度_测试_类似于软件工_277fc3.py",
+  "description": "节点间的'逻辑覆盖度'测试。类似于软件工程中的代码覆盖率，针对AGI的认知网络，需验证现有节点对'问题空间'的覆盖能力。具体为：生成一组未见过的'边界测试用例'（Edge Cases），检查现有1687个节点能否通过组合（最多3跳）覆盖这些用例的逻辑需求。如果不能，则标记为'认知盲区'节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.343206",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q9_0_5411",
+  "design_spec": {
+    "name": "auto_节点间的_逻辑覆盖度_测试_类似于软件工_277fc3",
+    "display_name": "节点间的'逻辑覆盖度'测试。类似于软件工程中的代码覆盖率，针对AGI的认知网络，需验证现有节点对'问",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "节点间的'逻辑覆盖度'测试。类似于软件工程中的代码覆盖率，针对AGI的认知网络，需验证现有节点对'问题空间'的覆盖能力。具体为：生成一组未见过的'边界测试用例'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

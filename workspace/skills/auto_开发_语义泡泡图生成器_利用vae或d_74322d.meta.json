@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_语义泡泡图生成器_利用vae或d_74322d",
+  "file": "skills/auto_开发_语义泡泡图生成器_利用vae或d_74322d.py",
+  "description": "开发'语义泡泡图生成器'。利用VAE或Diffusion Model的Latent Space作为建筑设计的'数字基地'。AI不再是画图工具，而是生成具有拓扑逻辑的'功能泡泡图'。设计师在Latent Space中通过调整向量（即'移墙'），AI实时生成符合结构约束与功能邻接需求的三维形态，实现从抽象逻辑到具象几何的双向实时映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.593045",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_60_O1_4387",
+  "design_spec": {
+    "name": "auto_开发_语义泡泡图生成器_利用vae或d_74322d",
+    "display_name": "开发'语义泡泡图生成器'。利用VAE或Diffusion Model的Latent Space作为建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'语义泡泡图生成器'。利用VAE或Diffusion Model的Latent Space作为建筑设计的'数字基地'。AI不再是画图工具，而是生成具有拓扑逻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

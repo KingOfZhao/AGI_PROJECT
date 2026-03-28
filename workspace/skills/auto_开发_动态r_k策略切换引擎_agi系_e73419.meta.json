@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_动态r_k策略切换引擎_agi系_e73419",
+  "file": "skills/auto_开发_动态r_k策略切换引擎_agi系_e73419.py",
+  "description": "开发'动态r-K策略切换引擎'。AGI系统不再追求单一的'全能型'架构，而是具备形态发生能力。当监测到资源边界压力（算力断供、资金链断裂）时，系统自动解构复杂的深度神经网络（K型结构），退化为极其简化的启发式规则或随机搜索算法（r型结构），以低智商但高鲁棒性的方式维持核心目标（如'保持在线'或'最小可用功能'），待环境恢复后再重构复杂结构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.841538",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_71_O2_5312",
+  "design_spec": {
+    "name": "auto_开发_动态r_k策略切换引擎_agi系_e73419",
+    "display_name": "开发'动态r-K策略切换引擎'。AGI系统不再追求单一的'全能型'架构，而是具备形态发生能力。当监测",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'动态r-K策略切换引擎'。AGI系统不再追求单一的'全能型'架构，而是具备形态发生能力。当监测到资源边界压力（算力断供、资金链断裂）时，系统自动解构复杂的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

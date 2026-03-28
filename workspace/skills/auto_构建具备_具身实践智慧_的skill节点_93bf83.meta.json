@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建具备_具身实践智慧_的skill节点_93bf83",
+  "file": "skills/auto_构建具备_具身实践智慧_的skill节点_93bf83.py",
+  "description": "构建具备'具身实践智慧'的Skill节点。该能力不再将'抓取'视为单纯的几何轨迹，而是将其重构为一个'伦理决策函数'。机器人通过多模态感知（触觉、视觉）获取当前情境的'语境参数'（如物体易碎性、重量），并调用一个轻量级的'实践智慧库'（即经验先验），动态调整抓取的力矩与速度。这使静态Skill具备了类似人类'审时度势'的生存本能，而非仅仅是执行命令的奴隶。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.258517",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_16_O1_4073",
+  "design_spec": {
+    "name": "auto_构建具备_具身实践智慧_的skill节点_93bf83",
+    "display_name": "构建具备'具身实践智慧'的Skill节点。该能力不再将'抓取'视为单纯的几何轨迹，而是将其重构为一个",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建具备'具身实践智慧'的Skill节点。该能力不再将'抓取'视为单纯的几何轨迹，而是将其重构为一个'伦理决策函数'。机器人通过多模态感知（触觉、视觉）获取当前",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

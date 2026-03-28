@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于多模态传感器融合_触觉手套_视觉_肌_0d0513",
+  "file": "skills/auto_基于多模态传感器融合_触觉手套_视觉_肌_0d0513.py",
+  "description": "基于多模态传感器融合(触觉手套+视觉+肌电EMG)的细粒度动作原语分解：如何将陶艺拉胚这一连续隐性过程，从连续视频流中切分为具有语义意义的原子操作单元(如'开孔'、'提拉')？此问题旨在解决隐性知识的时间边界模糊性，将非结构化的经验流转化为可被计算处理的离散序列。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "robotics_cv",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.481425",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_55_Q1_0_2630",
+  "design_spec": {
+    "name": "auto_基于多模态传感器融合_触觉手套_视觉_肌_0d0513",
+    "display_name": "基于多模态传感器融合(触觉手套+视觉+肌电EMG)的细粒度动作原语分解：如何将陶艺拉胚这一连续隐性过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于多模态传感器融合(触觉手套+视觉+肌电EMG)的细粒度动作原语分解：如何将陶艺拉胚这一连续隐性过程，从连续视频流中切分为具有语义意义的原子操作单元(如'开孔",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 349
+  }
+}

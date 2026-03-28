@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态意图对齐_如果输入意图包含图片或_5ed29d",
+  "file": "skills/auto_多模态意图对齐_如果输入意图包含图片或_5ed29d.py",
+  "description": "【多模态意图对齐】如果输入意图包含图片或手绘草图（如'画一个这样的布局'），如何将视觉特征提取并与文本意图对齐，生成前端UI代码？这是认知节点中'重叠固化'的体现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.113049",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q8_1_8386",
+  "design_spec": {
+    "name": "auto_多模态意图对齐_如果输入意图包含图片或_5ed29d",
+    "display_name": "【多模态意图对齐】如果输入意图包含图片或手绘草图（如'画一个这样的布局'），如何将视觉特征提取并与文",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态意图对齐】如果输入意图包含图片或手绘草图（如'画一个这样的布局'），如何将视觉特征提取并与文本意图对齐，生成前端UI代码？这是认知节点中'重叠固化'的体",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

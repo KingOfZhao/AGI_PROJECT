@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_信念完整性与净化系统_在_80605e",
+  "file": "skills/auto_构建_信念完整性与净化系统_在_80605e.py",
+  "description": "构建**'信念完整性与净化系统'**。在'后真相'时代，人类极易被碎片信息误导。该系统将'数据血缘'技术引入个人知识管理。每当用户采纳一个新观点，AI自动生成其'认知血缘图'，标记出源头可信度、逻辑转换节点（是否存在逻辑谬误的转换）。如果血缘链条断裂（如缺乏证据源），系统会降低该信念的权重并预警。这实质上是给人类大脑安装了一个'元数据管理器'，强制提升认知的严谨度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.183527",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O4_206",
+  "design_spec": {
+    "name": "auto_构建_信念完整性与净化系统_在_80605e",
+    "display_name": "构建**'信念完整性与净化系统'**。在'后真相'时代，人类极易被碎片信息误导。该系统将'数据血缘'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建**'信念完整性与净化系统'**。在'后真相'时代，人类极易被碎片信息误导。该系统将'数据血缘'技术引入个人知识管理。每当用户采纳一个新观点，AI自动生成其",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

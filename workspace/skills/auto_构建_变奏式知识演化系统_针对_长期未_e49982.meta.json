@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_变奏式知识演化系统_针对_长期未_e49982",
+  "file": "skills/auto_构建_变奏式知识演化系统_针对_长期未_e49982.py",
+  "description": "构建‘变奏式知识演化系统’。针对‘长期未被调用的节点’，系统不直接降权删除，而是尝试‘转调’——自动将其核心结构（动机）抽象出来，置于新的上下文（新环境/新领域）中进行测试。例如，将旧的网络协议故障解决方案的‘逻辑骨架’提取出来，尝试映射到当前的API故障排查中。如果产生新的连接（变奏成功），则复活该节点并赋予更高的‘普适性权重’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.120667",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_101_O3_7253",
+  "design_spec": {
+    "name": "auto_构建_变奏式知识演化系统_针对_长期未_e49982",
+    "display_name": "构建‘变奏式知识演化系统’。针对‘长期未被调用的节点’，系统不直接降权删除，而是尝试‘转调’——自动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘变奏式知识演化系统’。针对‘长期未被调用的节点’，系统不直接降权删除，而是尝试‘转调’——自动将其核心结构（动机）抽象出来，置于新的上下文（新环境/新领域",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 595
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_语义污点分析系统_借鉴编译器中污_08149e",
+  "file": "skills/auto_创建_语义污点分析系统_借鉴编译器中污_08149e.py",
+  "description": "创建‘语义污点分析系统’。借鉴编译器中污点分析的概念，在Prompt处理过程中，将不可信的用户输入标记为‘污点’。追踪这些‘污点’在LLM上下文窗口中的传播路径及对最终生成结果的影响。如果发现‘污点’试图控制核心指令（类似代码注入），则在生成前进行阻断，从而从根本上解决Prompt注入问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.748131",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_141_O3_5407",
+  "design_spec": {
+    "name": "auto_创建_语义污点分析系统_借鉴编译器中污_08149e",
+    "display_name": "创建‘语义污点分析系统’。借鉴编译器中污点分析的概念，在Prompt处理过程中，将不可信的用户输入标",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建‘语义污点分析系统’。借鉴编译器中污点分析的概念，在Prompt处理过程中，将不可信的用户输入标记为‘污点’。追踪这些‘污点’在LLM上下文窗口中的传播路径",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

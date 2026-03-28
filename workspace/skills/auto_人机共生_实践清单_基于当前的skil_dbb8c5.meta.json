@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_实践清单_基于当前的skil_dbb8c5",
+  "file": "skills/auto_人机共生_实践清单_基于当前的skil_dbb8c5.py",
+  "description": "【人机共生-实践清单】基于当前的SKILL库，AI如何生成具有'最小可执行单元'性质的实验清单？问题在于如何将宏大的认知节点（如'创业'）拆解为人类可在24小时内完成的具体行动（如'访谈3个潜在用户'），并保证该行动能反馈有效信息以更新节点权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "agentic_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.734550",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q3_3_9946",
+  "design_spec": {
+    "name": "auto_人机共生_实践清单_基于当前的skil_dbb8c5",
+    "display_name": "【人机共生-实践清单】基于当前的SKILL库，AI如何生成具有'最小可执行单元'性质的实验清单？问题",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生-实践清单】基于当前的SKILL库，AI如何生成具有'最小可执行单元'性质的实验清单？问题在于如何将宏大的认知节点（如'创业'）拆解为人类可在24小时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 373
+  }
+}

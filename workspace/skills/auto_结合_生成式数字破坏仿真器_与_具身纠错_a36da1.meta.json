@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_生成式数字破坏仿真器_与_具身纠错_a36da1",
+  "file": "skills/auto_结合_生成式数字破坏仿真器_与_具身纠错_a36da1.py",
+  "description": "结合【生成式数字破坏仿真器】与【具身纠错反馈系统】。AI不仅在仿真中预测物体的耗损（破坏），还将真实世界中机器人操作失败的反馈（纠错）实时回传给仿真器，修正物理引擎的参数。这创造了一个能够自我进化的数字孪生体，随着使用时间的增加，它对真实物理规律（如材料疲劳、摩擦系数变化）的模拟精度会越来越高，从而实现对未来的精准预测。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_39",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T06:51:21.209401",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_39_E1_5759",
+  "design_spec": {
+    "name": "auto_结合_生成式数字破坏仿真器_与_具身纠错_a36da1",
+    "display_name": "结合【生成式数字破坏仿真器】与【具身纠错反馈系统】。AI不仅在仿真中预测物体的耗损（破坏），还将真实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合【生成式数字破坏仿真器】与【具身纠错反馈系统】。AI不仅在仿真中预测物体的耗损（破坏），还将真实世界中机器人操作失败的反馈（纠错）实时回传给仿真器，修正物理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 502
+  }
+}

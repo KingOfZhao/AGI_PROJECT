@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_认知带宽压缩_q8_认知负荷_440f0d",
+  "file": "skills/auto_融合_认知带宽压缩_q8_认知负荷_440f0d.py",
+  "description": "融合'认知带宽压缩'(Q8)、'认知负荷自适应接口'(Q2)与'实践清单生成'(Q5)。系统能实时监测用户的认知状态（疲惫、专注、浅层浏览），动态调整输出的信息密度。在用户专注时提供高保真细节，在疲惫时自动切换为极简的'思维模型'或'行动清单'，实现信息流与人脑处理能力的完美匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.333344",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_135_E3_1357",
+  "design_spec": {
+    "name": "auto_融合_认知带宽压缩_q8_认知负荷_440f0d",
+    "display_name": "融合'认知带宽压缩'(Q8)、'认知负荷自适应接口'(Q2)与'实践清单生成'(Q5)。系统能实时监",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'认知带宽压缩'(Q8)、'认知负荷自适应接口'(Q2)与'实践清单生成'(Q5)。系统能实时监测用户的认知状态（疲惫、专注、浅层浏览），动态调整输出的信息",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 205
+  }
+}

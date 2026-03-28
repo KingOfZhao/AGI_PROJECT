@@ -1,0 +1,30 @@
+{
+  "name": "auto_面对设备全生命周期的数据漂移_data_72d8f0",
+  "file": "skills/auto_面对设备全生命周期的数据漂移_data_72d8f0.py",
+  "description": "面对设备全生命周期的数据漂移（Data Drift），如何构建“节点衰退模型”？工业设备会老化，昨日构建的“最佳参数节点”在今日可能已不再是全局最优。系统需要具备自动检测节点有效性的能力，一旦检测到环境参数分布变化，自动触发“重新学习”或“参数微调”的子流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "ml_ops",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.320991",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q10_1_2332",
+  "design_spec": {
+    "name": "auto_面对设备全生命周期的数据漂移_data_72d8f0",
+    "display_name": "面对设备全生命周期的数据漂移（Data Drift），如何构建“节点衰退模型”？工业设备会老化，昨日",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "面对设备全生命周期的数据漂移（Data Drift），如何构建“节点衰退模型”？工业设备会老化，昨日构建的“最佳参数节点”在今日可能已不再是全局最优。系统需要具",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 347
+  }
+}

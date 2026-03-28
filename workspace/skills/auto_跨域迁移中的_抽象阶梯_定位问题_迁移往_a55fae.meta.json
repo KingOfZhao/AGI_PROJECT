@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_抽象阶梯_定位问题_迁移往_a55fae",
+  "file": "skills/auto_跨域迁移中的_抽象阶梯_定位问题_迁移往_a55fae.py",
+  "description": "跨域迁移中的'抽象阶梯'定位问题：迁移往往发生在特定的抽象层级（如将'生物进化'迁移到'算法迭代'是在'优化策略'层级）。若源域节点位于L3抽象层，目标域问题在L2层，直接迁移会导致'维度灾难'。如何设计一个层级探测器，确保迁移发生在最优抽象层级？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_29",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:41:07.539048",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_29_Q5_1_222",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_抽象阶梯_定位问题_迁移往_a55fae",
+    "display_name": "跨域迁移中的'抽象阶梯'定位问题：迁移往往发生在特定的抽象层级（如将'生物进化'迁移到'算法迭代'是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的'抽象阶梯'定位问题：迁移往往发生在特定的抽象层级（如将'生物进化'迁移到'算法迭代'是在'优化策略'层级）。若源域节点位于L3抽象层，目标域问题在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 289
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_交互式物理ui设计系统_将cad的物理仿_20c7c5",
+  "file": "skills/auto_交互式物理ui设计系统_将cad的物理仿_20c7c5.py",
+  "description": "交互式物理UI设计系统。将CAD的物理仿真（如流体力学、结构力学）嵌入到Flutter的布局过程中。设计UI时，不仅仅是看静态图，而是让UI元素像物理实体一样响应重力或碰撞。Hot Reload不仅仅是更新UI，而是实时更新物理参数（刚度、阻尼），让开发者在'物理引擎'中调试UI动效。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.185369",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O4_5389",
+  "design_spec": {
+    "name": "auto_交互式物理ui设计系统_将cad的物理仿_20c7c5",
+    "display_name": "交互式物理UI设计系统。将CAD的物理仿真（如流体力学、结构力学）嵌入到Flutter的布局过程中。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "交互式物理UI设计系统。将CAD的物理仿真（如流体力学、结构力学）嵌入到Flutter的布局过程中。设计UI时，不仅仅是看静态图，而是让UI元素像物理实体一样响",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

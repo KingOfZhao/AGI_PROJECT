@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式数字破坏仿真器_利用gan_生成_951724",
+  "file": "skills/auto_生成式数字破坏仿真器_利用gan_生成_951724.py",
+  "description": "【生成式数字破坏仿真器】利用GAN（生成对抗网络）的'判别器-生成器'博弈机制，模拟传统工艺品的'使用耗损'过程。输入一个3D数字模型（如榫卯结构），AI不仅仅是做静态力学分析，而是扮演'魔鬼代言人'，生成极端的物理破坏场景（如百年一遇的地震、湿度剧变），观察模型何处先断裂。通过这种虚拟'碰撞'，自动优化工艺设计参数，无需制造大量实物样品即可完成'真实节点'的耐久性验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_38",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T05:24:13.113619",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_38_O2_4055",
+  "design_spec": {
+    "name": "auto_生成式数字破坏仿真器_利用gan_生成_951724",
+    "display_name": "【生成式数字破坏仿真器】利用GAN（生成对抗网络）的'判别器-生成器'博弈机制，模拟传统工艺品的'使",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【生成式数字破坏仿真器】利用GAN（生成对抗网络）的'判别器-生成器'博弈机制，模拟传统工艺品的'使用耗损'过程。输入一个3D数字模型（如榫卯结构），AI不仅仅",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_长时任务规划与拆解_给定一个模糊的高层_595c50",
+  "file": "skills/auto_长时任务规划与拆解_给定一个模糊的高层_595c50.py",
+  "description": "【长时任务规划与拆解】给定一个模糊的高层目标（如“帮我搭建一个个人博客并优化SEO”），AI能否生成一个包含10-20个步骤的甘特图，且每个步骤都有明确的依赖关系和可验证的完成标准（DoD）？这测试了自上而下的拆解能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_21",
+    "management",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:48:16.347909",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_21_Q5_2_8666",
+  "design_spec": {
+    "name": "auto_长时任务规划与拆解_给定一个模糊的高层_595c50",
+    "display_name": "【长时任务规划与拆解】给定一个模糊的高层目标（如“帮我搭建一个个人博客并优化SEO”），AI能否生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【长时任务规划与拆解】给定一个模糊的高层目标（如“帮我搭建一个个人博客并优化SEO”），AI能否生成一个包含10-20个步骤的甘特图，且每个步骤都有明确的依赖关",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 355
+  }
+}

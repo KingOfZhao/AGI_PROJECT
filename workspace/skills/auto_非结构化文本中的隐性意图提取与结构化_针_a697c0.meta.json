@@ -1,0 +1,30 @@
+{
+  "name": "auto_非结构化文本中的隐性意图提取与结构化_针_a697c0",
+  "file": "skills/auto_非结构化文本中的隐性意图提取与结构化_针_a697c0.py",
+  "description": "非结构化文本中的隐性意图提取与结构化：针对工匠口语化、非线性的教学文本（如‘感觉泥有点硬，稍微加点水’），如何利用大语言模型结合上下文语境，将其转化为结构化的<状态, 动作, 预期效果>三元组？这需要解决自然语言歧义性与物理操作精确性之间的映射冲突。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_30",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:02:19.365907",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_30_Q2_0_4494",
+  "design_spec": {
+    "name": "auto_非结构化文本中的隐性意图提取与结构化_针_a697c0",
+    "display_name": "非结构化文本中的隐性意图提取与结构化：针对工匠口语化、非线性的教学文本（如‘感觉泥有点硬，稍微加点水",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "非结构化文本中的隐性意图提取与结构化：针对工匠口语化、非线性的教学文本（如‘感觉泥有点硬，稍微加点水’），如何利用大语言模型结合上下文语境，将其转化为结构化的<",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 162
+  }
+}

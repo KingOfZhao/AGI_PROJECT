@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_自下而上归纳构建_中的碎片化s_2de43a",
+  "file": "skills/auto_如何实现_自下而上归纳构建_中的碎片化s_2de43a.py",
+  "description": "如何实现'自下而上归纳构建'中的碎片化Skill聚合？当前有1761个Skill，很多可能是同一核心能力的不同变体。本问题要求开发算法，自动检测并合并这些碎片化的Skill，形成一个更通用的'元技能'节点，从而提升系统的抽象层级。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_105",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:08:47.245840",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_105_Q6_1_6402",
+  "design_spec": {
+    "name": "auto_如何实现_自下而上归纳构建_中的碎片化s_2de43a",
+    "display_name": "如何实现'自下而上归纳构建'中的碎片化Skill聚合？当前有1761个Skill，很多可能是同一核心",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'自下而上归纳构建'中的碎片化Skill聚合？当前有1761个Skill，很多可能是同一核心能力的不同变体。本问题要求开发算法，自动检测并合并这些碎片化",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

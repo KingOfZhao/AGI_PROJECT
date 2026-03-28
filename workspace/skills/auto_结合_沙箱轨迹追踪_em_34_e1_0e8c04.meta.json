@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_沙箱轨迹追踪_em_34_e1_0e8c04",
+  "file": "skills/auto_结合_沙箱轨迹追踪_em_34_e1_0e8c04.py",
+  "description": "结合‘沙箱轨迹追踪’（em_34_E1_9853）、‘认知代谢机制’（bu_34_P3_7356）与‘反馈压缩算法’（td_34_Q4_1_9520）。当代码在沙箱中被模拟攻击或环境变迁‘杀伤’后，系统自动提取失败特征，压缩为反模式节点，并代谢掉过时的防御逻辑，自动生成并验证新的防御变体。代码库不再是静态仓库，而是一个具有免疫系统的有机体。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.501232",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_35_E1_9101",
+  "design_spec": {
+    "name": "auto_结合_沙箱轨迹追踪_em_34_e1_0e8c04",
+    "display_name": "结合‘沙箱轨迹追踪’（em_34_E1_9853）、‘认知代谢机制’（bu_34_P3_7356）与",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合‘沙箱轨迹追踪’（em_34_E1_9853）、‘认知代谢机制’（bu_34_P3_7356）与‘反馈压缩算法’（td_34_Q4_1_9520）。当代码在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

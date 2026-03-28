@@ -1,0 +1,30 @@
+{
+  "name": "auto_组织能流与信息熵衰监控_将企业科层制_30394a",
+  "file": "skills/auto_组织能流与信息熵衰监控_将企业科层制_30394a.py",
+  "description": "‘组织能流与信息熵衰监控’。将企业科层制视为生态食物链。高层决策（太阳能）在向下传达执行时，往往面临类似‘林德曼效率’的信息损耗和熵增。该能力通过计算企业的‘信息传递效率’，识别哪一层级（营养级）出现了严重的能量（执行力）泄露，并据此优化组织架构，使其趋近于高效的食物网结构，而非低效的线性链条。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.474751",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_17_O3_9850",
+  "design_spec": {
+    "name": "auto_组织能流与信息熵衰监控_将企业科层制_30394a",
+    "display_name": "‘组织能流与信息熵衰监控’。将企业科层制视为生态食物链。高层决策（太阳能）在向下传达执行时，往往面临",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘组织能流与信息熵衰监控’。将企业科层制视为生态食物链。高层决策（太阳能）在向下传达执行时，往往面临类似‘林德曼效率’的信息损耗和熵增。该能力通过计算企业的‘信",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 232
+  }
+}

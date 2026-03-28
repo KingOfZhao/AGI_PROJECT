@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_类脑事务性工作记忆架构_目前的l_0bb6c5",
+  "file": "skills/auto_开发_类脑事务性工作记忆架构_目前的l_0bb6c5.py",
+  "description": "开发'类脑事务性工作记忆架构'。目前的LLM上下文窗口是线性的，缺乏结构化的'操作台'。该能力模仿数据库事务机制，允许AI在长上下文中锁定关键信息（Lock），进行多步推理（Update），并在任务失败时回滚（Rollback）到之前的认知状态。这能显著提升AI解决复杂数学证明或代码生成任务的准确性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.999168",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O5_2542",
+  "design_spec": {
+    "name": "auto_开发_类脑事务性工作记忆架构_目前的l_0bb6c5",
+    "display_name": "开发'类脑事务性工作记忆架构'。目前的LLM上下文窗口是线性的，缺乏结构化的'操作台'。该能力模仿数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'类脑事务性工作记忆架构'。目前的LLM上下文窗口是线性的，缺乏结构化的'操作台'。该能力模仿数据库事务机制，允许AI在长上下文中锁定关键信息（Lock），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

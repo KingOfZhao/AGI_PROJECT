@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生视角下的_灰天鹅_节点保护机制_509a6a",
+  "file": "skills/auto_人机共生视角下的_灰天鹅_节点保护机制_509a6a.py",
+  "description": "人机共生视角下的'灰天鹅'节点保护机制：如何设计算法以识别那些'长期低频调用'但在'极端关键任务'中表现优异的节点？这需要对抗简单的统计学淘汰，建立一个'场景稀缺性'与'价值密度'的平衡函数，防止系统为了优化效率而丧失处理黑天鹅事件的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "risk_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.914000",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_15_Q3_2_9885",
+  "design_spec": {
+    "name": "auto_人机共生视角下的_灰天鹅_节点保护机制_509a6a",
+    "display_name": "人机共生视角下的'灰天鹅'节点保护机制：如何设计算法以识别那些'长期低频调用'但在'极端关键任务'中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生视角下的'灰天鹅'节点保护机制：如何设计算法以识别那些'长期低频调用'但在'极端关键任务'中表现优异的节点？这需要对抗简单的统计学淘汰，建立一个'场景稀",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

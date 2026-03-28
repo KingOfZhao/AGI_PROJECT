@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对q1获取的数据流_如何构建_动态故障_6e89c8",
+  "file": "skills/auto_针对q1获取的数据流_如何构建_动态故障_6e89c8.py",
+  "description": "针对Q1获取的数据流，如何构建‘动态故障模式本体论’？工业环境中的故障往往是非线性的、级联的。需要验证AGI能否从海量日志中自动归纳出故障的‘拓扑结构’，而非仅靠人工预设的规则，实现自下而上的归纳构建。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "industrial_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.322685",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_58_Q2_1_7296",
+  "design_spec": {
+    "name": "auto_针对q1获取的数据流_如何构建_动态故障_6e89c8",
+    "display_name": "针对Q1获取的数据流，如何构建‘动态故障模式本体论’？工业环境中的故障往往是非线性的、级联的。需要验",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对Q1获取的数据流，如何构建‘动态故障模式本体论’？工业环境中的故障往往是非线性的、级联的。需要验证AGI能否从海量日志中自动归纳出故障的‘拓扑结构’，而非仅",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 288
+  }
+}

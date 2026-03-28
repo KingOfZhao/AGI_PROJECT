@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的_结构映射_有效性验证_四_169dab",
+  "file": "skills/auto_跨域迁移中的_结构映射_有效性验证_四_169dab.py",
+  "description": "跨域迁移中的‘结构映射’有效性验证。‘四向碰撞’中的左右跨域重叠要求将A领域的结构映射到B领域。如何验证这种映射不是生搬硬套？例如，将‘流体力学’节点迁移到‘交通流量’分析时，如何自动检测边界条件失效（如流体不可压缩 vs 汽车的个体意愿）导致的映射错误？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_109",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:14:58.753779",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_109_Q8_3_9735",
+  "design_spec": {
+    "name": "auto_跨域迁移中的_结构映射_有效性验证_四_169dab",
+    "display_name": "跨域迁移中的‘结构映射’有效性验证。‘四向碰撞’中的左右跨域重叠要求将A领域的结构映射到B领域。如何",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的‘结构映射’有效性验证。‘四向碰撞’中的左右跨域重叠要求将A领域的结构映射到B领域。如何验证这种映射不是生搬硬套？例如，将‘流体力学’节点迁移到‘交",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

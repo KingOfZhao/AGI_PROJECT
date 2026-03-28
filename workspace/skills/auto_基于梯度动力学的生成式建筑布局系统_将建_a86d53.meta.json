@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于梯度动力学的生成式建筑布局系统_将建_a86d53",
+  "file": "skills/auto_基于梯度动力学的生成式建筑布局系统_将建_a86d53.py",
+  "description": "基于梯度动力学的生成式建筑布局系统。将建筑平面图建模为可微分的计算图，把人的行为动线视为'信息流'，将功能需求（如隐私、采光）定义为'损失函数'。利用神经网络的反向传播算法直接优化建筑墙体的位置，生成的不仅是静态图纸，而是经过数千次'虚拟人流迭代'后的最优动力学空间形态，实现从'画图'到'计算最优解'的范式转移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_83",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:01:53.555571",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_83_O1_4161",
+  "design_spec": {
+    "name": "auto_基于梯度动力学的生成式建筑布局系统_将建_a86d53",
+    "display_name": "基于梯度动力学的生成式建筑布局系统。将建筑平面图建模为可微分的计算图，把人的行为动线视为'信息流'，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于梯度动力学的生成式建筑布局系统。将建筑平面图建模为可微分的计算图，把人的行为动线视为'信息流'，将功能需求（如隐私、采光）定义为'损失函数'。利用神经网络的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 330
+  }
+}

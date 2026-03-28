@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域技能迁移的合成_面对全新的模糊意图_6a39f2",
+  "file": "skills/auto_跨域技能迁移的合成_面对全新的模糊意图_6a39f2.py",
+  "description": "跨域技能迁移的合成。面对全新的模糊意图，如何通过计算现有1865个技能节点之间的‘重叠区’，组合出新的复合技能？例如，将‘爬虫技能’与‘数据清洗技能’和‘邮件发送技能’合成为‘每日竞品监控并汇报’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.846543",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_113_Q6_3_4935",
+  "design_spec": {
+    "name": "auto_跨域技能迁移的合成_面对全新的模糊意图_6a39f2",
+    "display_name": "跨域技能迁移的合成。面对全新的模糊意图，如何通过计算现有1865个技能节点之间的‘重叠区’，组合出新",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域技能迁移的合成。面对全新的模糊意图，如何通过计算现有1865个技能节点之间的‘重叠区’，组合出新的复合技能？例如，将‘爬虫技能’与‘数据清洗技能’和‘邮件发",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 361
+  }
+}

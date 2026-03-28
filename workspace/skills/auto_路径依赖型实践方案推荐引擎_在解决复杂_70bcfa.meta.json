@@ -1,0 +1,30 @@
+{
+  "name": "auto_路径依赖型实践方案推荐引擎_在解决复杂_70bcfa",
+  "file": "skills/auto_路径依赖型实践方案推荐引擎_在解决复杂_70bcfa.py",
+  "description": "【路径依赖型实践方案推荐引擎】在解决复杂实践问题（如排错、维修、战略规划）时，传统的搜索引擎只提供碎片化信息。该融合能力结合AGI的拓扑检索，构建'情境-方案-后果'的立体网络。当你描述一个问题时，它不只给你一个标准答案，而是检索出'符合你当前工具箱（节点）、避开你之前失败尝试（路径）、且不破坏后续步骤（拓扑结构）'的定制化解决方案。这实现了从'信息检索'到'认知导航'的进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_29",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:41:07.566371",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_29_O3_8496",
+  "design_spec": {
+    "name": "auto_路径依赖型实践方案推荐引擎_在解决复杂_70bcfa",
+    "display_name": "【路径依赖型实践方案推荐引擎】在解决复杂实践问题（如排错、维修、战略规划）时，传统的搜索引擎只提供碎",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【路径依赖型实践方案推荐引擎】在解决复杂实践问题（如排错、维修、战略规划）时，传统的搜索引擎只提供碎片化信息。该融合能力结合AGI的拓扑检索，构建'情境-方案-",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 454
+  }
+}

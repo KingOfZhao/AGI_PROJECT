@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_运行时意图漂移检测器_人类意图往_280984",
+  "file": "skills/auto_开发_运行时意图漂移检测器_人类意图往_280984.py",
+  "description": "开发'运行时意图漂移检测器'。人类意图往往在执行过程中发生变化（'我改主意了'）。系统需要维护一个意图状态向量，实时监控用户的修正反馈，判断是需要'回滚代码'还是'增量修补'。重点在于区分'噪音'与'真实的意图变更'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.618778",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q7_3_7298",
+  "design_spec": {
+    "name": "auto_开发_运行时意图漂移检测器_人类意图往_280984",
+    "display_name": "开发'运行时意图漂移检测器'。人类意图往往在执行过程中发生变化（'我改主意了'）。系统需要维护一个意",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'运行时意图漂移检测器'。人类意图往往在执行过程中发生变化（'我改主意了'）。系统需要维护一个意图状态向量，实时监控用户的修正反馈，判断是需要'回滚代码'还",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 230
+  }
+}

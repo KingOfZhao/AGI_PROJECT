@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态上下文窗口与状态记忆管理_在将意图转_d861ba",
+  "file": "skills/auto_动态上下文窗口与状态记忆管理_在将意图转_d861ba.py",
+  "description": "动态上下文窗口与状态记忆管理：在将意图转化为长链条代码的过程中，如何构建一个动态上下文管理器，使其能够像人类工作记忆一样，保持核心意图不变的同时，根据当前编码进度动态调整短期记忆（当前函数上下文）和长期记忆（项目全局结构）的权重？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.241856",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q4_1_9079",
+  "design_spec": {
+    "name": "auto_动态上下文窗口与状态记忆管理_在将意图转_d861ba",
+    "display_name": "动态上下文窗口与状态记忆管理：在将意图转化为长链条代码的过程中，如何构建一个动态上下文管理器，使其能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态上下文窗口与状态记忆管理：在将意图转化为长链条代码的过程中，如何构建一个动态上下文管理器，使其能够像人类工作记忆一样，保持核心意图不变的同时，根据当前编码进",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 233
+  }
+}

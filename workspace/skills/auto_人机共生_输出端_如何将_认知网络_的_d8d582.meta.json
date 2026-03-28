@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_输出端_如何将_认知网络_的_d8d582",
+  "file": "skills/auto_人机共生_输出端_如何将_认知网络_的_d8d582.py",
+  "description": "【人机共生-输出端】如何将'认知网络'的状态变化实时转化为人类可执行的'TODO-List'？系统内部是复杂的图结构，人类需要的是线性指令。问题在于：如何设计一个'调度器'，它能评估人类当前的状态（精力、技能水平），并从网络中摘取当前最需要被验证的'边缘节点'，生成具体的行动指令。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_112",
+    "hci_scheduling",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:03:11.514528",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_112_Q6_0_9928",
+  "design_spec": {
+    "name": "auto_人机共生_输出端_如何将_认知网络_的_d8d582",
+    "display_name": "【人机共生-输出端】如何将'认知网络'的状态变化实时转化为人类可执行的'TODO-List'？系统内",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生-输出端】如何将'认知网络'的状态变化实时转化为人类可执行的'TODO-List'？系统内部是复杂的图结构，人类需要的是线性指令。问题在于：如何设计一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

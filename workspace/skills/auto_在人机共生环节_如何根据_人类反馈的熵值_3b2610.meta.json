@@ -1,0 +1,30 @@
+{
+  "name": "auto_在人机共生环节_如何根据_人类反馈的熵值_3b2610",
+  "file": "skills/auto_在人机共生环节_如何根据_人类反馈的熵值_3b2610.py",
+  "description": "在人机共生环节，如何根据'人类反馈的熵值'来决定节点的淘汰？当不同人类用户对同一节点的反馈呈现两极分化（高熵）vs 一致性否定（低熵）时，处理策略应不同。高熵可能意味着语境依赖，低熵否定则意味着节点错误。需要建立反馈熵的分类决策树。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.829684",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q6_2_7701",
+  "design_spec": {
+    "name": "auto_在人机共生环节_如何根据_人类反馈的熵值_3b2610",
+    "display_name": "在人机共生环节，如何根据'人类反馈的熵值'来决定节点的淘汰？当不同人类用户对同一节点的反馈呈现两极分",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在人机共生环节，如何根据'人类反馈的熵值'来决定节点的淘汰？当不同人类用户对同一节点的反馈呈现两极分化（高熵）vs 一致性否定（低熵）时，处理策略应不同。高熵可",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

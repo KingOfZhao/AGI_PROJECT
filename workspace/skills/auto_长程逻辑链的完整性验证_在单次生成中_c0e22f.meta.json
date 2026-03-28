@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程逻辑链的完整性验证_在单次生成中_c0e22f",
+  "file": "skills/auto_长程逻辑链的完整性验证_在单次生成中_c0e22f.py",
+  "description": "【长程逻辑链的完整性验证】在单次生成中，要求AI构建一个涉及10个步骤的复杂业务流程（如'从零开始建立一个合规的跨境电商独立站'），并强制要求在每一步引用上一步的输出作为输入。验证AI是否具备维持长程上下文逻辑一致性的能力，而非仅仅是局部流畅的文本生成。这是区分'鹦鹉学舌'与'结构化推理'的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.379404",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q1_0_4123",
+  "design_spec": {
+    "name": "auto_长程逻辑链的完整性验证_在单次生成中_c0e22f",
+    "display_name": "【长程逻辑链的完整性验证】在单次生成中，要求AI构建一个涉及10个步骤的复杂业务流程（如'从零开始建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【长程逻辑链的完整性验证】在单次生成中，要求AI构建一个涉及10个步骤的复杂业务流程（如'从零开始建立一个合规的跨境电商独立站'），并强制要求在每一步引用上一步",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 355
+  }
+}

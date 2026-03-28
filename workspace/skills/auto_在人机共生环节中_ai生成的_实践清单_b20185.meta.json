@@ -1,0 +1,30 @@
+{
+  "name": "auto_在人机共生环节中_ai生成的_实践清单_b20185",
+  "file": "skills/auto_在人机共生环节中_ai生成的_实践清单_b20185.py",
+  "description": "在人机共生环节中，AI生成的'实践清单'往往因过于抽象而难以执行。如何利用已有的1554个技能节点，开发一个'可执行性评分器'？该模块需将抽象的实践建议自动拆解为子步骤，并检索现有技能库，若缺乏对应技能则提示风险，确保输出给人类的清单在认知负荷和技能门槛上均为'可立即行动'的。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_89",
+    "task_planning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:04:54.778419",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_89_Q2_2_325",
+  "design_spec": {
+    "name": "auto_在人机共生环节中_ai生成的_实践清单_b20185",
+    "display_name": "在人机共生环节中，AI生成的'实践清单'往往因过于抽象而难以执行。如何利用已有的1554个技能节点，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在人机共生环节中，AI生成的'实践清单'往往因过于抽象而难以执行。如何利用已有的1554个技能节点，开发一个'可执行性评分器'？该模块需将抽象的实践建议自动拆解",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

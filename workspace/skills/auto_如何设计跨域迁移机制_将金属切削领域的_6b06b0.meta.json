@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计跨域迁移机制_将金属切削领域的_6b06b0",
+  "file": "skills/auto_如何设计跨域迁移机制_将金属切削领域的_6b06b0.py",
+  "description": "如何设计跨域迁移机制，将金属切削领域的'颤振识别'技能抽象后，成功迁移至复合材料加工领域，且无需大量重新训练？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_20",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T15:25:31.767465",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_20_Q5_3_8637",
+  "design_spec": {
+    "name": "auto_如何设计跨域迁移机制_将金属切削领域的_6b06b0",
+    "display_name": "如何设计跨域迁移机制，将金属切削领域的'颤振识别'技能抽象后，成功迁移至复合材料加工领域，且无需大量",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计跨域迁移机制，将金属切削领域的'颤振识别'技能抽象后，成功迁移至复合材料加工领域，且无需大量重新训练？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

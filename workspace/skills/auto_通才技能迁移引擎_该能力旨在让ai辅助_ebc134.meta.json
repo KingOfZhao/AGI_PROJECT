@@ -1,0 +1,30 @@
+{
+  "name": "auto_通才技能迁移引擎_该能力旨在让ai辅助_ebc134",
+  "file": "skills/auto_通才技能迁移引擎_该能力旨在让ai辅助_ebc134.py",
+  "description": "【通才技能迁移引擎】该能力旨在让AI辅助人类快速掌握陌生技能。通过分析用户已掌握的技能库（领域B），提取其深层结构（如节奏感、空间几何、力度控制），当用户学习新技能时，系统自动寻找跨域重叠点。例如，系统发现'编程逻辑'与'烹饪流程'在结构上高度同构（顺序、循环、条件判断、变量配比），从而生成一套'像做菜一样写代码'的个性化教学方案，利用旧技能的'真实节点'作为脚手架搭建新技能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.698091",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_91_O4_8187",
+  "design_spec": {
+    "name": "auto_通才技能迁移引擎_该能力旨在让ai辅助_ebc134",
+    "display_name": "【通才技能迁移引擎】该能力旨在让AI辅助人类快速掌握陌生技能。通过分析用户已掌握的技能库（领域B），",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【通才技能迁移引擎】该能力旨在让AI辅助人类快速掌握陌生技能。通过分析用户已掌握的技能库（领域B），提取其深层结构（如节奏感、空间几何、力度控制），当用户学习新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 325
+  }
+}

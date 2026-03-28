@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_反馈闭环_人类专家的反馈往往_ea84af",
+  "file": "skills/auto_人机共生_反馈闭环_人类专家的反馈往往_ea84af.py",
+  "description": "【人机共生：反馈闭环】人类专家的反馈往往是非结构化的自然语言（如‘这个参数太激进了’）。问题：如何构建一个NLP解析接口，能够实时将专家的模糊评价转化为具体的PID参数调整向量（ΔKp, ΔKi, ΔKd），并更新到当前技能节点的权重中？这需要解决自然语言歧义性与工程参数精确性之间的矛盾。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.344993",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q5_3_8808",
+  "design_spec": {
+    "name": "auto_人机共生_反馈闭环_人类专家的反馈往往_ea84af",
+    "display_name": "【人机共生：反馈闭环】人类专家的反馈往往是非结构化的自然语言（如‘这个参数太激进了’）。问题：如何构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生：反馈闭环】人类专家的反馈往往是非结构化的自然语言（如‘这个参数太激进了’）。问题：如何构建一个NLP解析接口，能够实时将专家的模糊评价转化为具体的P",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_技能预演渲染引擎_将结构化的技能_2a21e0",
+  "file": "skills/auto_开发_技能预演渲染引擎_将结构化的技能_2a21e0.py",
+  "description": "开发‘技能预演渲染引擎’，将结构化的技能节点数据转化为简化的物理仿真动画，形成‘感知-数字化-预演-修正’的完整闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.495502",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_104_G1_1347",
+  "design_spec": {
+    "name": "auto_开发_技能预演渲染引擎_将结构化的技能_2a21e0",
+    "display_name": "开发‘技能预演渲染引擎’，将结构化的技能节点数据转化为简化的物理仿真动画，形成‘感知-数字化-预演-",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘技能预演渲染引擎’，将结构化的技能节点数据转化为简化的物理仿真动画，形成‘感知-数字化-预演-修正’的完整闭环。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

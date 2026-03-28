@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_同构检测算法_在1337个s_a5285c",
+  "file": "skills/auto_如何设计_同构检测算法_在1337个s_a5285c.py",
+  "description": "如何设计‘同构检测算法’，在1337个SKILL节点中识别出结构一致但领域迥异的‘认知同构体’？例如，识别出‘小摊贩库存管理’与‘大型服务器内存缓存淘汰策略’在决策树结构上的拓扑同构性。要求算法能忽略具体的领域实体词，仅关注节点间的因果链条结构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "topology",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.740731",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_74_Q2_1_6067",
+  "design_spec": {
+    "name": "auto_如何设计_同构检测算法_在1337个s_a5285c",
+    "display_name": "如何设计‘同构检测算法’，在1337个SKILL节点中识别出结构一致但领域迥异的‘认知同构体’？例如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计‘同构检测算法’，在1337个SKILL节点中识别出结构一致但领域迥异的‘认知同构体’？例如，识别出‘小摊贩库存管理’与‘大型服务器内存缓存淘汰策略’在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

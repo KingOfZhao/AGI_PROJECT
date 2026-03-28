@@ -1,0 +1,30 @@
+{
+  "name": "auto_公理驱动的api探索代理_针对_量子咖_b7a599",
+  "file": "skills/auto_公理驱动的api探索代理_针对_量子咖_b7a599.py",
+  "description": "【公理驱动的API探索代理】针对‘量子咖啡机’这类虚构或全新API，AI不直接尝试调用，而是先构建一个‘API心理模型’（Axiom Model）。它将API文档视为‘公理系统’，生成一系列‘探测性代码片段’（最小可执行单元）来验证公理的正确性（例如：‘调用参数A是否真的影响B？’）。通过这种‘自我证伪’的实验循环，AI在正式执行任务前，已完全构建了该陌生领域的‘真实节点’映射图。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.031455",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_132_O4_8761",
+  "design_spec": {
+    "name": "auto_公理驱动的api探索代理_针对_量子咖_b7a599",
+    "display_name": "【公理驱动的API探索代理】针对‘量子咖啡机’这类虚构或全新API，AI不直接尝试调用，而是先构建一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【公理驱动的API探索代理】针对‘量子咖啡机’这类虚构或全新API，AI不直接尝试调用，而是先构建一个‘API心理模型’（Axiom Model）。它将API文",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_具有物理直觉的迭代调试代理_该能_9d0076",
+  "file": "skills/auto_构建_具有物理直觉的迭代调试代理_该能_9d0076.py",
+  "description": "构建‘具有物理直觉的迭代调试代理’。该能力不仅仅是根据报错信息修正代码，而是引入‘材料阻力模拟器’。当代码（数字动作）产生逻辑冲突时，系统不仅返回语法错误，还模拟物理世界中的‘断裂’或‘形变’（如高并发导致的系统‘疲劳’），让AI像工匠对待木材纹理一样对待代码逻辑，进行顺应性的‘打磨’而非生硬的修补，直至形成高鲁棒性的真实节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.350323",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_146_O1_9638",
+  "design_spec": {
+    "name": "auto_构建_具有物理直觉的迭代调试代理_该能_9d0076",
+    "display_name": "构建‘具有物理直觉的迭代调试代理’。该能力不仅仅是根据报错信息修正代码，而是引入‘材料阻力模拟器’。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘具有物理直觉的迭代调试代理’。该能力不仅仅是根据报错信息修正代码，而是引入‘材料阻力模拟器’。当代码（数字动作）产生逻辑冲突时，系统不仅返回语法错误，还模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

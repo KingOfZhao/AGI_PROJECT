@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一种超越人类经验的_第二进化空间_a4a4fe",
+  "file": "skills/auto_这是一种超越人类经验的_第二进化空间_a4a4fe.py",
+  "description": "这是一种超越人类经验的'第二进化空间'。该概念不依赖人类历史数据，而是构建一个基于物理或逻辑规则的虚拟环境（'环境-行为'损失函数）。通过模拟数百万次智能体的'试错'（如火星求生、重力反转），AI能自动演化出人类未曾设想的最优解（如生成式演化建筑）。这种方法用于在极端或未知条件下，通过'穷举未来'来验证决策的鲁棒性，生成'创新实践清单'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_13",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:51:57.947737",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_13_P5_8987",
+  "design_spec": {
+    "name": "auto_这是一种超越人类经验的_第二进化空间_a4a4fe",
+    "display_name": "这是一种超越人类经验的'第二进化空间'。该概念不依赖人类历史数据，而是构建一个基于物理或逻辑规则的虚",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一种超越人类经验的'第二进化空间'。该概念不依赖人类历史数据，而是构建一个基于物理或逻辑规则的虚拟环境（'环境-行为'损失函数）。通过模拟数百万次智能体的'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何通过_逻辑一致性检查_自动发现节点间_4c659d",
+  "file": "skills/auto_如何通过_逻辑一致性检查_自动发现节点间_4c659d.py",
+  "description": "如何通过'逻辑一致性检查'自动发现节点间的冲突？当新节点生成时，需要检测其是否与现有'真实节点'库中的公理或高频节点产生逻辑矛盾（例如：新节点'通过AJAX实现SEO完美优化'与现有节点'JS渲染对爬虫的限制'冲突）。这需要将自然语言节点形式化或向量化，进行蕴含矛盾检测。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "natural_language_processing",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.517485",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_5_Q2_2_5377",
+  "design_spec": {
+    "name": "auto_如何通过_逻辑一致性检查_自动发现节点间_4c659d",
+    "display_name": "如何通过'逻辑一致性检查'自动发现节点间的冲突？当新节点生成时，需要检测其是否与现有'真实节点'库中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何通过'逻辑一致性检查'自动发现节点间的冲突？当新节点生成时，需要检测其是否与现有'真实节点'库中的公理或高频节点产生逻辑矛盾（例如：新节点'通过AJAX实现",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

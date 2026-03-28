@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_物理基准漂移追踪_gap_81_29e931",
+  "file": "skills/auto_基于_物理基准漂移追踪_gap_81_29e931.py",
+  "description": "基于'物理基准漂移追踪'（gap_81_G1_8197）、'渐进式精度加载'（ho_79_O3_4066）和'数字孪生漂移修复'（gap_79_G2_226）。构建一个动态对齐的映射网络，数字孪生不再是静态快照，而是随着物理世界的磨损和环境变化而自动'生长'和'漂移'的活体模型。系统能根据观察者的注意力（LOD）动态调整虚实同步的精度，实现计算资源与保真度的完美平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_82",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T19:40:26.392834",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_82_E4_3417",
+  "design_spec": {
+    "name": "auto_基于_物理基准漂移追踪_gap_81_29e931",
+    "display_name": "基于'物理基准漂移追踪'（gap_81_G1_8197）、'渐进式精度加载'（ho_79_O3_40",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'物理基准漂移追踪'（gap_81_G1_8197）、'渐进式精度加载'（ho_79_O3_4066）和'数字孪生漂移修复'（gap_79_G2_226）。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 269
+  }
+}

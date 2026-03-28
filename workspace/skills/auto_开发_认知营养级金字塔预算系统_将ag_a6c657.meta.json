@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知营养级金字塔预算系统_将ag_a6c657",
+  "file": "skills/auto_开发_认知营养级金字塔预算系统_将ag_a6c657.py",
+  "description": "开发'认知营养级金字塔预算系统'。将AGI的算力资源分配模拟为生态系统能量流。设定底层感知（植物层）必须占据大部分算力且低成本；中层逻辑（动物层）消耗适中；顶层决策/元认知（顶级捕食者）必须极其精简且高效。任何试图增加顶层复杂度的操作，必须先证明底层（感知数据）有足够的'初级生产力'来支撑，否则禁止生成高层节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.449927",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O5_6398",
+  "design_spec": {
+    "name": "auto_开发_认知营养级金字塔预算系统_将ag_a6c657",
+    "display_name": "开发'认知营养级金字塔预算系统'。将AGI的算力资源分配模拟为生态系统能量流。设定底层感知（植物层）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知营养级金字塔预算系统'。将AGI的算力资源分配模拟为生态系统能量流。设定底层感知（植物层）必须占据大部分算力且低成本；中层逻辑（动物层）消耗适中；顶层",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

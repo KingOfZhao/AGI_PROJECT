@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移的_同构指纹_提取器_如何从17_e6dcf4",
+  "file": "skills/auto_跨域迁移的_同构指纹_提取器_如何从17_e6dcf4.py",
+  "description": "跨域迁移的“同构指纹”提取器：如何从1742个SKILL中提取抽象的“结构化模式”而非具体的“执行内容”，以实现真正的左右跨域重叠？例如，将‘小摊贩库存管理’的结构提取出来，迁移至‘LLM上下文窗口管理’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.442264",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_104_Q3_2_3313",
+  "design_spec": {
+    "name": "auto_跨域迁移的_同构指纹_提取器_如何从17_e6dcf4",
+    "display_name": "跨域迁移的“同构指纹”提取器：如何从1742个SKILL中提取抽象的“结构化模式”而非具体的“执行内",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移的“同构指纹”提取器：如何从1742个SKILL中提取抽象的“结构化模式”而非具体的“执行内容”，以实现真正的左右跨域重叠？例如，将‘小摊贩库存管理’的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

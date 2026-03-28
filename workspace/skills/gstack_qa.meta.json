@@ -1,0 +1,40 @@
+{
+  "name": "gstack/qa",
+  "slug": "gstack_qa",
+  "description": "Systematically QA test a web application and fix bugs found. Runs QA testing, then iteratively fixes bugs in source code, committing each fix atomically and re-verifying. Use when asked to \"qa\", \"QA\", \"test this site\", \"find bugs\", \"test and fix\", or \"fix what's broken\". Proactively suggest when the user says a feature is ready for testing or asks \"does this work?\". Three tiers: Quick (critical/high only), Standard (+ medium), Exhaustive (+ cosmetic). Produces before/after health scores, fix evi",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "qa-testing",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/qa",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "2.0.0",
+  "category": "qa-testing",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep",
+    "AskUserQuestion",
+    "WebSearch"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)",
+    "WARNING: cookie_access — 访问浏览器 cookie / 系统钥匙串",
+    "WARNING: external_network — 存在外部网络请求"
+  ],
+  "created_at": "2026-03-25T15:32:03.541392",
+  "imported_by": "gstack_skill_importer"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究one_shot_learning结_ce7fa3",
+  "file": "skills/auto_研究one_shot_learning结_ce7fa3.py",
+  "description": "研究One-Shot Learning结合神经符号推理，探索如何从单次视频流中提取运动原语并生成参数化逻辑代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.494468",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_104_G2_887",
+  "design_spec": {
+    "name": "auto_研究one_shot_learning结_ce7fa3",
+    "display_name": "研究One-Shot Learning结合神经符号推理，探索如何从单次视频流中提取运动原语并生成参数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究One-Shot Learning结合神经符号推理，探索如何从单次视频流中提取运动原语并生成参数化逻辑代码。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

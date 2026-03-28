@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_通用工程数据总线_开发一套基于d_84760b",
+  "file": "skills/auto_构建_通用工程数据总线_开发一套基于d_84760b.py",
+  "description": "构建‘通用工程数据总线’。开发一套基于Dart FFI的高性能中间件，将晦涩的CAD二进制格式(如DWG/SAT)直接映射为Dart的NativeObject，不仅用于显示，更用于提取元数据(如BOM表、公差信息)。这使得Flutter APP不仅仅是看图工具，而是能直接读取工程文件属性的‘工程智能体’，例如扫码图纸即刻生成报价单或维保清单。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.471285",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_90_O5_267",
+  "design_spec": {
+    "name": "auto_构建_通用工程数据总线_开发一套基于d_84760b",
+    "display_name": "构建‘通用工程数据总线’。开发一套基于Dart FFI的高性能中间件，将晦涩的CAD二进制格式(如D",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘通用工程数据总线’。开发一套基于Dart FFI的高性能中间件，将晦涩的CAD二进制格式(如DWG/SAT)直接映射为Dart的NativeObject，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

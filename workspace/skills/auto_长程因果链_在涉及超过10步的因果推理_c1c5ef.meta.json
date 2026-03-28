@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程因果链_在涉及超过10步的因果推理_c1c5ef",
+  "file": "skills/auto_长程因果链_在涉及超过10步的因果推理_c1c5ef.py",
+  "description": "【长程因果链】在涉及超过10步的因果推理中（如‘蝴蝶效应’式的经济推演），AI能否准确追踪中间每一步的状态变化，而不发生‘中间状态丢失’？这是验证其是否具备结构化记忆而非短期窗口记忆。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "复杂系统",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.829035",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q8_0_728",
+  "design_spec": {
+    "name": "auto_长程因果链_在涉及超过10步的因果推理_c1c5ef",
+    "display_name": "【长程因果链】在涉及超过10步的因果推理中（如‘蝴蝶效应’式的经济推演），AI能否准确追踪中间每一步",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【长程因果链】在涉及超过10步的因果推理中（如‘蝴蝶效应’式的经济推演），AI能否准确追踪中间每一步的状态变化，而不发生‘中间状态丢失’？这是验证其是否具备结构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

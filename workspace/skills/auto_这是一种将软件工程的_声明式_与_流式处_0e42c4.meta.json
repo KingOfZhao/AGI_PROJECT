@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一种将软件工程的_声明式_与_流式处_0e42c4",
+  "file": "skills/auto_这是一种将软件工程的_声明式_与_流式处_0e42c4.py",
+  "description": "这是一种将软件工程的“声明式”与“流式处理”思想引入物理世界构建的高阶范式。它将静态的3D模型或工程图纸转化为流动的、可计算的“数据流”。在这个概念中，几何体不再是静止的顶点集合，而是带有逻辑属性的“形素”流。系统通过Dart FFI等高性能管道，允许工程师像修改代码一样（Hot Reload）实时修改物理空间的参数，并能处理海量的高维工程数据，实现了从“绘图”到“编程物质”的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_105",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:08:47.249668",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_105_P4_6473",
+  "design_spec": {
+    "name": "auto_这是一种将软件工程的_声明式_与_流式处_0e42c4",
+    "display_name": "这是一种将软件工程的“声明式”与“流式处理”思想引入物理世界构建的高阶范式。它将静态的3D模型或工程",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一种将软件工程的“声明式”与“流式处理”思想引入物理世界构建的高阶范式。它将静态的3D模型或工程图纸转化为流动的、可计算的“数据流”。在这个概念中，几何体不",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

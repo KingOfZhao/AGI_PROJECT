@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳构建_如何设计增量式聚类算_58c1f8",
+  "file": "skills/auto_自下而上归纳构建_如何设计增量式聚类算_58c1f8.py",
+  "description": "【自下而上归纳构建】如何设计增量式聚类算法，从1530个非结构化SKILL节点中自动抽取出高维度的抽象概念（即新Parent Node）？当前系统可能存在大量碎片化的技能描述（如'切菜'与'烹饪'），需要验证算法能否在无需人工标注的情况下，基于节点间的语义距离和共现频率，自动生成'食品加工'这类层级结构，并计算信息熵的减少量。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "unsupervised_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.729595",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q1_3_9946",
+  "design_spec": {
+    "name": "auto_自下而上归纳构建_如何设计增量式聚类算_58c1f8",
+    "display_name": "【自下而上归纳构建】如何设计增量式聚类算法，从1530个非结构化SKILL节点中自动抽取出高维度的抽",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳构建】如何设计增量式聚类算法，从1530个非结构化SKILL节点中自动抽取出高维度的抽象概念（即新Parent Node）？当前系统可能存在大量碎",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 364
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_预测性认知节拍器_通过分析节点历_ef955d",
+  "file": "skills/auto_打造_预测性认知节拍器_通过分析节点历_ef955d.py",
+  "description": "打造'预测性认知节拍器'。通过分析节点历史调用记录，识别其'内在节奏'（周期性），而非机械的线性衰减。例如，某些季节性知识的'半衰期'应随季节动态调整。该能力能预测何时某个'休眠节点'（如去年的某个故障方案）即将进入'强拍'，从而提前进行预加载或预警，实现从'被动衰减'到'主动律动'的转变。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.457875",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O4_5998",
+  "design_spec": {
+    "name": "auto_打造_预测性认知节拍器_通过分析节点历_ef955d",
+    "display_name": "打造'预测性认知节拍器'。通过分析节点历史调用记录，识别其'内在节奏'（周期性），而非机械的线性衰减",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造'预测性认知节拍器'。通过分析节点历史调用记录，识别其'内在节奏'（周期性），而非机械的线性衰减。例如，某些季节性知识的'半衰期'应随季节动态调整。该能力能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

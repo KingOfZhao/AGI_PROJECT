@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_长程记忆无损压缩协议_借鉴编译器_50ddec",
+  "file": "skills/auto_开发_长程记忆无损压缩协议_借鉴编译器_50ddec.py",
+  "description": "开发‘长程记忆无损压缩协议’。借鉴编译器内存管理的堆栈模型，将长对话中的实体和关系建模为‘内存堆’上的对象。利用指针分析技术，精准追踪对话中每一个‘它’或‘这件事’在几百轮对话前的‘内存地址’（原始上下文）。当‘引用计数’归零（话题结束）时，自动进行‘垃圾回收’（压缩记忆），防止上下文窗口溢出，同时确保关键信息永不丢失。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.522876",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_147_O5_4955",
+  "design_spec": {
+    "name": "auto_开发_长程记忆无损压缩协议_借鉴编译器_50ddec",
+    "display_name": "开发‘长程记忆无损压缩协议’。借鉴编译器内存管理的堆栈模型，将长对话中的实体和关系建模为‘内存堆’上",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘长程记忆无损压缩协议’。借鉴编译器内存管理的堆栈模型，将长对话中的实体和关系建模为‘内存堆’上的对象。利用指针分析技术，精准追踪对话中每一个‘它’或‘这件",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

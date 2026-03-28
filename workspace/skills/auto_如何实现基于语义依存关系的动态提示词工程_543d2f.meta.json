@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现基于语义依存关系的动态提示词工程_543d2f",
+  "file": "skills/auto_如何实现基于语义依存关系的动态提示词工程_543d2f.py",
+  "description": "如何实现基于语义依存关系的动态提示词工程（DSPy），使其能够根据IR的变化自动调整代码生成的上下文窗口？重点在于验证“上下文敏感度”对代码生成质量的影响。需利用已有的2368个SKILL节点作为Few-shot示例库，动态检索最相关的技能示例注入Prompt。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "prompt_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.740701",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_141_Q2_1_693",
+  "design_spec": {
+    "name": "auto_如何实现基于语义依存关系的动态提示词工程_543d2f",
+    "display_name": "如何实现基于语义依存关系的动态提示词工程（DSPy），使其能够根据IR的变化自动调整代码生成的上下文",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现基于语义依存关系的动态提示词工程（DSPy），使其能够根据IR的变化自动调整代码生成的上下文窗口？重点在于验证“上下文敏感度”对代码生成质量的影响。需利",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 183
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_故障现象_与_物理机理_的跨域_b44e97",
+  "file": "skills/auto_如何实现_故障现象_与_物理机理_的跨域_b44e97.py",
+  "description": "如何实现‘故障现象’与‘物理机理’的跨域语义对齐？现有知识图谱往往割裂了表象（如‘电机异响’）与深层物理（如‘轴承疲劳剥落’）。本问题要求构建一个映射函数，将非结构化的维修日志文本映射到底层的物理方程参数，验证AGI是否具备透过现象看本质的认知能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "knowledge_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.492343",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_55_Q2_3_7336",
+  "design_spec": {
+    "name": "auto_如何实现_故障现象_与_物理机理_的跨域_b44e97",
+    "display_name": "如何实现‘故障现象’与‘物理机理’的跨域语义对齐？现有知识图谱往往割裂了表象（如‘电机异响’）与深层",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现‘故障现象’与‘物理机理’的跨域语义对齐？现有知识图谱往往割裂了表象（如‘电机异响’）与深层物理（如‘轴承疲劳剥落’）。本问题要求构建一个映射函数，将非",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

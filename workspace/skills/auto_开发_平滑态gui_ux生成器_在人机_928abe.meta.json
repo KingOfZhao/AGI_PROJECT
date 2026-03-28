@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_平滑态gui_ux生成器_在人机_928abe",
+  "file": "skills/auto_开发_平滑态gui_ux生成器_在人机_928abe.py",
+  "description": "开发'平滑态GUI/UX生成器'。在人机共生界面中，当AGI后台数据发生剧烈结构变化时，前端展示层应用'声部连接'逻辑，自动计算出视觉上最平滑的过渡动画或数据迁移路径，减少用户的认知负荷。不仅仅是为了美观，更是为了保持'认知连续性'，防止因后台突变导致的用户迷失。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.592905",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_52_O5_280",
+  "design_spec": {
+    "name": "auto_开发_平滑态gui_ux生成器_在人机_928abe",
+    "display_name": "开发'平滑态GUI/UX生成器'。在人机共生界面中，当AGI后台数据发生剧烈结构变化时，前端展示层应",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'平滑态GUI/UX生成器'。在人机共生界面中，当AGI后台数据发生剧烈结构变化时，前端展示层应用'声部连接'逻辑，自动计算出视觉上最平滑的过渡动画或数据迁",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 384
+  }
+}

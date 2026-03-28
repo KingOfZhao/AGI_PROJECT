@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_直觉形式化_系统_如何将非结构化的_5a4bd1",
+  "file": "skills/auto_构建_直觉形式化_系统_如何将非结构化的_5a4bd1.py",
+  "description": "构建'直觉形式化'系统：如何将非结构化的、潜意识的专家直觉（如老中医把脉、资深司机的预判）转化为显性的、可执行的结构化代码或决策树？重点在于捕捉'非典型成功案例'中的隐性特征。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_54",
+    "expert_systems",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:53:15.937061",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_54_Q6_2_5357",
+  "design_spec": {
+    "name": "auto_构建_直觉形式化_系统_如何将非结构化的_5a4bd1",
+    "display_name": "构建'直觉形式化'系统：如何将非结构化的、潜意识的专家直觉（如老中医把脉、资深司机的预判）转化为显性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'直觉形式化'系统：如何将非结构化的、潜意识的专家直觉（如老中医把脉、资深司机的预判）转化为显性的、可执行的结构化代码或决策树？重点在于捕捉'非典型成功案例",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应认知编译系统_ai模型根据问题_65808e",
+  "file": "skills/auto_自适应认知编译系统_ai模型根据问题_65808e.py",
+  "description": "'自适应认知编译系统'。AI模型根据问题难度动态调整计算资源。对于简单对话，回退到小型稀疏模型（解释执行/快思考）；对于复杂推理，自动激活大型MoE（Mixture of Experts）架构并进行深度CoT（编译优化/慢思考），并缓存推理路径为'思维宏'，下次遇到类似问题直接调用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.751971",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_32_O4_7408",
+  "design_spec": {
+    "name": "auto_自适应认知编译系统_ai模型根据问题_65808e",
+    "display_name": "'自适应认知编译系统'。AI模型根据问题难度动态调整计算资源。对于简单对话，回退到小型稀疏模型（解释",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'自适应认知编译系统'。AI模型根据问题难度动态调整计算资源。对于简单对话，回退到小型稀疏模型（解释执行/快思考）；对于复杂推理，自动激活大型MoE（Mixtu",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

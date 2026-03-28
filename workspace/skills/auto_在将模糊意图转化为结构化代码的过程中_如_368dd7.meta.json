@@ -1,0 +1,30 @@
+{
+  "name": "auto_在将模糊意图转化为结构化代码的过程中_如_368dd7",
+  "file": "skills/auto_在将模糊意图转化为结构化代码的过程中_如_368dd7.py",
+  "description": "在将模糊意图转化为结构化代码的过程中，如何设计'上下文状态机'来管理会话级的状态？意图往往是流变的，如何确保当前代码生成指令与之前的约束条件在逻辑上是自洽的，而不是孤立的？需要解决长程依赖中的'意图遗忘'问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "software_eng",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:26:29.552578",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q4_1_7950",
+  "design_spec": {
+    "name": "auto_在将模糊意图转化为结构化代码的过程中_如_368dd7",
+    "display_name": "在将模糊意图转化为结构化代码的过程中，如何设计'上下文状态机'来管理会话级的状态？意图往往是流变的，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在将模糊意图转化为结构化代码的过程中，如何设计'上下文状态机'来管理会话级的状态？意图往往是流变的，如何确保当前代码生成指令与之前的约束条件在逻辑上是自洽的，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 322
+  }
+}

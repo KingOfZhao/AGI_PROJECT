@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一个_反事实模拟器_作为_真实节_5b7ff7",
+  "file": "skills/auto_如何构建一个_反事实模拟器_作为_真实节_5b7ff7.py",
+  "description": "如何构建一个‘反事实模拟器’作为‘真实节点’验证前的过滤器？该子问题要求AI在执行物理或不可逆操作前，在内部构建一个简化的世界模型，通过模拟‘如果...会怎样’（What-if）来自行证伪那些高风险或逻辑不通的假设，从而保护人机共生系统的安全性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "model_based_rl",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.786680",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q7_2_3114",
+  "design_spec": {
+    "name": "auto_如何构建一个_反事实模拟器_作为_真实节_5b7ff7",
+    "display_name": "如何构建一个‘反事实模拟器’作为‘真实节点’验证前的过滤器？该子问题要求AI在执行物理或不可逆操作前",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一个‘反事实模拟器’作为‘真实节点’验证前的过滤器？该子问题要求AI在执行物理或不可逆操作前，在内部构建一个简化的世界模型，通过模拟‘如果...会怎样’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 233
+  }
+}

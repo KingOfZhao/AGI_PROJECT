@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_生成式结构骨骼进化_ho_5_o_b86f3c",
+  "file": "skills/auto_融合_生成式结构骨骼进化_ho_5_o_b86f3c.py",
+  "description": "融合'生成式结构骨骼进化'（ho_5_O2）与'神经模块库'（ho_5_O5）。系统不再是凭空生成建筑，而是像生物进化一样，从已有的高性能'骨骼'（模块）出发，通过FEM剪枝和对抗网络优化，'生长'出最优的建筑形态。这种能力使得设计不再是画图，而是基于物理法则的'培植'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.141208",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_6_E4_1857",
+  "design_spec": {
+    "name": "auto_融合_生成式结构骨骼进化_ho_5_o_b86f3c",
+    "display_name": "融合'生成式结构骨骼进化'（ho_5_O2）与'神经模块库'（ho_5_O5）。系统不再是凭空生成建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'生成式结构骨骼进化'（ho_5_O2）与'神经模块库'（ho_5_O5）。系统不再是凭空生成建筑，而是像生物进化一样，从已有的高性能'骨骼'（模块）出发，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 335
+  }
+}

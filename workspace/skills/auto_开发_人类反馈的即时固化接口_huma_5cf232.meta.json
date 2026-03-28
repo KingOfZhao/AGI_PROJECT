@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_人类反馈的即时固化接口_huma_5cf232",
+  "file": "skills/auto_开发_人类反馈的即时固化接口_huma_5cf232.py",
+  "description": "开发'人类反馈的即时固化接口'（Human-in-the-loop Solidification）。当AI生成的代码被人类修正后，系统需自动提取修正前后的'Diff'，并将其转化为一个新的'待验证节点'。本子问题关注如何将非结构化的代码修改转化为结构化的知识单元（如'修复了变量命名冲突'），并计算其成为'真实节点'的置信度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "interaction_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.440642",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q7_3_4954",
+  "design_spec": {
+    "name": "auto_开发_人类反馈的即时固化接口_huma_5cf232",
+    "display_name": "开发'人类反馈的即时固化接口'（Human-in-the-loop Solidification）。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'人类反馈的即时固化接口'（Human-in-the-loop Solidification）。当AI生成的代码被人类修正后，系统需自动提取修正前后的'Di",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

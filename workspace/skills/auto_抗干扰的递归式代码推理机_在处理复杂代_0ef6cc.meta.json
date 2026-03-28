@@ -1,0 +1,30 @@
+{
+  "name": "auto_抗干扰的递归式代码推理机_在处理复杂代_0ef6cc",
+  "file": "skills/auto_抗干扰的递归式代码推理机_在处理复杂代_0ef6cc.py",
+  "description": "【抗干扰的递归式代码推理机】在处理复杂代码生成或调试时，AI容易'遗忘'最初的约束条件（即注意力漂移）。融合能力引入'工作记忆锚点'机制。在生成代码的每一步递归或每一次调试循环中，系统强制重新校准'当前状态'与'初始意图'的相似度。如果发现注意力漂移（生成的代码偏离了修复原始Bug的目标），系统自动触发回滚或重置上下文窗口，确保长链路逻辑的连贯性和正确性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.476562",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O5_116",
+  "design_spec": {
+    "name": "auto_抗干扰的递归式代码推理机_在处理复杂代_0ef6cc",
+    "display_name": "【抗干扰的递归式代码推理机】在处理复杂代码生成或调试时，AI容易'遗忘'最初的约束条件（即注意力漂移",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【抗干扰的递归式代码推理机】在处理复杂代码生成或调试时，AI容易'遗忘'最初的约束条件（即注意力漂移）。融合能力引入'工作记忆锚点'机制。在生成代码的每一步递归",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

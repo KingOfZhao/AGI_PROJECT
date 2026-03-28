@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知生态位演化引擎_不再静态计算_ba1a8b",
+  "file": "skills/auto_构建_认知生态位演化引擎_不再静态计算_ba1a8b.py",
+  "description": "构建'认知生态位演化引擎'。不再静态计算ROI，而是引入生态学'最优化觅食理论(OFT)'动态评估知识节点的生存权。系统将模拟一个'认知生态系统'，每个知识节点视为一个物种，根据其解决当前问题（捕食）产生的价值与占用算力/存储（代谢）的比值，动态调整其'种群规模'（权重）。当环境（任务域）变化时，低价值的节点因'能量亏缺'自动退化（淘汰），高价值节点通过'复制变异'强化，实现认知网络的自动瘦身与进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.970229",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O1_6503",
+  "design_spec": {
+    "name": "auto_构建_认知生态位演化引擎_不再静态计算_ba1a8b",
+    "display_name": "构建'认知生态位演化引擎'。不再静态计算ROI，而是引入生态学'最优化觅食理论(OFT)'动态评估知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知生态位演化引擎'。不再静态计算ROI，而是引入生态学'最优化觅食理论(OFT)'动态评估知识节点的生存权。系统将模拟一个'认知生态系统'，每个知识节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

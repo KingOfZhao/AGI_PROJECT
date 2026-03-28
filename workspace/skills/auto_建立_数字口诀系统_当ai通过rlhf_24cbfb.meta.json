@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_数字口诀系统_当ai通过rlhf_24cbfb",
+  "file": "skills/auto_建立_数字口诀系统_当ai通过rlhf_24cbfb.py",
+  "description": "建立'数字口诀系统'。当AI通过RLHF或对抗训练学会一个高难度的Bug修复逻辑或特定的业务处理技巧后，不仅保存权重，还利用LLM自动生成一段'人类可读的隐喻性口诀'（如：'若遇死锁，如解绳结，先松后紧'）。这允许人类开发者像学习手艺一样，通过'背诵口诀'快速理解AI的复杂逻辑，实现真正的'人机共生'与'知识传承'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.974957",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O5_4562",
+  "design_spec": {
+    "name": "auto_建立_数字口诀系统_当ai通过rlhf_24cbfb",
+    "display_name": "建立'数字口诀系统'。当AI通过RLHF或对抗训练学会一个高难度的Bug修复逻辑或特定的业务处理技巧",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'数字口诀系统'。当AI通过RLHF或对抗训练学会一个高难度的Bug修复逻辑或特定的业务处理技巧后，不仅保存权重，还利用LLM自动生成一段'人类可读的隐喻性",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 287
+  }
+}

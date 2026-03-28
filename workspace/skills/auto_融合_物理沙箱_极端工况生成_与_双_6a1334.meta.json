@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_物理沙箱_极端工况生成_与_双_6a1334",
+  "file": "skills/auto_融合_物理沙箱_极端工况生成_与_双_6a1334.py",
+  "description": "融合'物理沙箱'、'极端工况生成'与'双向转译引擎'。当用户提出一个意图（如'设计抗震建筑'），系统不仅生成设计图，还在虚拟物理沙箱中自动生成极端地震工况（基于概率分布），运行仿真并将物理反馈（应力形变）实时转译回自然语言报告（'此结构在9级地震下承重墙会断裂'），实现意图到物理现实的零距离验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_112",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:03:11.521174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_112_E2_8873",
+  "design_spec": {
+    "name": "auto_融合_物理沙箱_极端工况生成_与_双_6a1334",
+    "display_name": "融合'物理沙箱'、'极端工况生成'与'双向转译引擎'。当用户提出一个意图（如'设计抗震建筑'），系统",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'物理沙箱'、'极端工况生成'与'双向转译引擎'。当用户提出一个意图（如'设计抗震建筑'），系统不仅生成设计图，还在虚拟物理沙箱中自动生成极端地震工况（基于",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 537
+  }
+}

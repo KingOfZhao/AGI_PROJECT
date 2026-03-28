@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_深渊凝视压缩法_ho_50_o1_8d95ee",
+  "file": "skills/auto_结合_深渊凝视压缩法_ho_50_o1_8d95ee.py",
+  "description": "结合'深渊凝视压缩法'(ho_50_O1_3662)与'终身事件溯源日志'(ho_50_O5_2188)。系统不仅记录错误，而是利用'深渊凝视'将历史日志中的失败点转化为'认知陷阱'。在培训新技工或优化模型时，它不会平铺直叙正确流程，而是构建一个基于真实失败案例的'模拟Boss战'，迫使学习者在与历史错误的对抗中建立更鲁棒的神经回路，实现从'错误中学习'的反脆弱进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_51",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:49:54.184982",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_51_E5_6691",
+  "design_spec": {
+    "name": "auto_结合_深渊凝视压缩法_ho_50_o1_8d95ee",
+    "display_name": "结合'深渊凝视压缩法'(ho_50_O1_3662)与'终身事件溯源日志'(ho_50_O5_218",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'深渊凝视压缩法'(ho_50_O1_3662)与'终身事件溯源日志'(ho_50_O5_2188)。系统不仅记录错误，而是利用'深渊凝视'将历史日志中的失",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

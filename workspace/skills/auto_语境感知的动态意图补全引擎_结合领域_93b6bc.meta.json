@@ -1,0 +1,30 @@
+{
+  "name": "auto_语境感知的动态意图补全引擎_结合领域_93b6bc",
+  "file": "skills/auto_语境感知的动态意图补全引擎_结合领域_93b6bc.py",
+  "description": "【语境感知的动态意图补全引擎】：结合领域A的JSON状态机逻辑与领域B的实践情境补全能力，构建一个能够处理极度模糊指令的执行系统。该系统不要求用户输入完整指令，而是像老练的摊贩对待熟客一样，根据历史交互、环境传感器数据（时间、地点、设备状态）自动填充缺失参数，生成具备容错性的执行结构，极大降低人机交互的认知摩擦。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.364887",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O1_8758",
+  "design_spec": {
+    "name": "auto_语境感知的动态意图补全引擎_结合领域_93b6bc",
+    "display_name": "【语境感知的动态意图补全引擎】：结合领域A的JSON状态机逻辑与领域B的实践情境补全能力，构建一个能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语境感知的动态意图补全引擎】：结合领域A的JSON状态机逻辑与领域B的实践情境补全能力，构建一个能够处理极度模糊指令的执行系统。该系统不要求用户输入完整指令，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

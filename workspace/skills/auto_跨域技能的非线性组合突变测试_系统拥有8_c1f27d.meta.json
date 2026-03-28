@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域技能的非线性组合突变测试_系统拥有8_c1f27d",
+  "file": "skills/auto_跨域技能的非线性组合突变测试_系统拥有8_c1f27d.py",
+  "description": "跨域技能的非线性组合突变测试：系统拥有839个技能，简单的线性组合（如A+B）不足以产生创新。能否构建一个'碰撞引擎'，选取两个在向量空间中距离极远（跨域）但在结构逻辑上高度同构（如'生物进化'与'代码迭代'）的技能节点进行强制映射？目标是生成一个新的元技能（Meta-Skill），例如'遗传编程'。关键在于如何定义'结构同构'，以及如何自动化这种跨域映射过程，使其产生可执行的代码逻辑而非仅仅是比喻。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.862019",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_46_Q2_0_5981",
+  "design_spec": {
+    "name": "auto_跨域技能的非线性组合突变测试_系统拥有8_c1f27d",
+    "display_name": "跨域技能的非线性组合突变测试：系统拥有839个技能，简单的线性组合（如A+B）不足以产生创新。能否构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域技能的非线性组合突变测试：系统拥有839个技能，简单的线性组合（如A+B）不足以产生创新。能否构建一个'碰撞引擎'，选取两个在向量空间中距离极远（跨域）但在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

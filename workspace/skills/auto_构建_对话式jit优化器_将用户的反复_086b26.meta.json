@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_对话式jit优化器_将用户的反复_086b26",
+  "file": "skills/auto_构建_对话式jit优化器_将用户的反复_086b26.py",
+  "description": "构建‘对话式JIT优化器’。将用户的反复追问或高频指令识别为‘语义热点’。系统不再每次都重新处理原始Prompt，而是像JIT编译器缓存机器码一样，动态生成一个专属的‘微型适配器模块’或‘缓存键值对’。当检测到相似语义意图时，直接调用缓存的‘编译后’的高权重路径，大幅降低推理成本和延迟，并实现越用越快的‘个性化对话缓存’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.521429",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_147_O4_4955",
+  "design_spec": {
+    "name": "auto_构建_对话式jit优化器_将用户的反复_086b26",
+    "display_name": "构建‘对话式JIT优化器’。将用户的反复追问或高频指令识别为‘语义热点’。系统不再每次都重新处理原始",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘对话式JIT优化器’。将用户的反复追问或高频指令识别为‘语义热点’。系统不再每次都重新处理原始Prompt，而是像JIT编译器缓存机器码一样，动态生成一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

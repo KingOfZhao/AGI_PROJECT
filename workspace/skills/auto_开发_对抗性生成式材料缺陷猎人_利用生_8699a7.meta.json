@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_对抗性生成式材料缺陷猎人_利用生_8699a7",
+  "file": "skills/auto_开发_对抗性生成式材料缺陷猎人_利用生_8699a7.py",
+  "description": "开发‘对抗性生成式材料缺陷猎人’。利用生成式模型主动创造极端的、非典型的工艺参数组合（如异常的温湿度曲线、罕见的纹理组合），模拟‘虚拟破坏性测试’。这不仅用于检测AI模型的鲁棒性，更用于辅助人类工匠发现传统经验中未曾覆盖的‘认知盲区’（例如某种木材在特定高频震动下的断裂模式），从而生成新的抗毁坏工艺节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.742880",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_87_O2_1142",
+  "design_spec": {
+    "name": "auto_开发_对抗性生成式材料缺陷猎人_利用生_8699a7",
+    "display_name": "开发‘对抗性生成式材料缺陷猎人’。利用生成式模型主动创造极端的、非典型的工艺参数组合（如异常的温湿度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘对抗性生成式材料缺陷猎人’。利用生成式模型主动创造极端的、非典型的工艺参数组合（如异常的温湿度曲线、罕见的纹理组合），模拟‘虚拟破坏性测试’。这不仅用于检",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

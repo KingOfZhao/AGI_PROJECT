@@ -1,0 +1,30 @@
+{
+  "name": "auto_最小能量认知路径搜索_在拥有3372个节_34206c",
+  "file": "skills/auto_最小能量认知路径搜索_在拥有3372个节_34206c.py",
+  "description": "最小能量认知路径搜索：在拥有3372个节点的复杂网络中，如何快速检索出解决特定问题的最优技能组合？需要验证是否存在一种基于‘认知阻力’（类似物理能量）的寻路算法，能从2182个SKILL中组合出新流程，且该流程比人工设计的更短、更高效。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.768295",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q5_0_742",
+  "design_spec": {
+    "name": "auto_最小能量认知路径搜索_在拥有3372个节_34206c",
+    "display_name": "最小能量认知路径搜索：在拥有3372个节点的复杂网络中，如何快速检索出解决特定问题的最优技能组合？需",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "最小能量认知路径搜索：在拥有3372个节点的复杂网络中，如何快速检索出解决特定问题的最优技能组合？需要验证是否存在一种基于‘认知阻力’（类似物理能量）的寻路算法",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 425
+  }
+}

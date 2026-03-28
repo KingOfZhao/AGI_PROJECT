@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对那些无法在现实世界直接试错_如手术_7ec06c",
+  "file": "skills/auto_针对那些无法在现实世界直接试错_如手术_7ec06c.py",
+  "description": "针对那些无法在现实世界直接试错（如手术、核电站故障）或成本极高的认知节点，构建一个基于Agent的仿真验证环境。它结合了静态语义检查（ho_26_O3_2031）与动态反事实推理（td_25_Q10_2_7701），在沙箱中模拟'若无此节点'或'节点参数改变'后的系统演化。通过监测模拟结果与预期目标的偏差，来量化节点的'逻辑气泡'（td_25_Q5_1_5175）风险，从而低成本地剔除谬误。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.717162",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_27_P4_3629",
+  "design_spec": {
+    "name": "auto_针对那些无法在现实世界直接试错_如手术_7ec06c",
+    "display_name": "针对那些无法在现实世界直接试错（如手术、核电站故障）或成本极高的认知节点，构建一个基于Agent的仿",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对那些无法在现实世界直接试错（如手术、核电站故障）或成本极高的认知节点，构建一个基于Agent的仿真验证环境。它结合了静态语义检查（ho_26_O3_2031",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

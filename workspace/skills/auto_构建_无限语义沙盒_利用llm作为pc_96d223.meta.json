@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_无限语义沙盒_利用llm作为pc_96d223",
+  "file": "skills/auto_构建_无限语义沙盒_利用llm作为pc_96d223.py",
+  "description": "构建'无限语义沙盒'。利用LLM作为PCG引擎，结合知识图谱约束，生成非重复、具有叙事性的个性化学习案例。不同于题库，它是为学生当前认知盲区定制的'专属副本'。例如，针对'物理力学'薄弱点，系统生成一个以此为核心机制的'星际航行'故事线，让学生在解决剧情冲突中完成知识点的'探矿'与'加工'，实现'千人千面'的生成式教材。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.366103",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O3_3767",
+  "design_spec": {
+    "name": "auto_构建_无限语义沙盒_利用llm作为pc_96d223",
+    "display_name": "构建'无限语义沙盒'。利用LLM作为PCG引擎，结合知识图谱约束，生成非重复、具有叙事性的个性化学习",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'无限语义沙盒'。利用LLM作为PCG引擎，结合知识图谱约束，生成非重复、具有叙事性的个性化学习案例。不同于题库，它是为学生当前认知盲区定制的'专属副本'。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

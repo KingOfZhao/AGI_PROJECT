@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_生成式结构骨骼进化引擎_将建筑力_ae54cd",
+  "file": "skills/auto_开发_生成式结构骨骼进化引擎_将建筑力_ae54cd.py",
+  "description": "开发'生成式结构骨骼进化引擎'。将建筑力学中的有限元分析（FEM）与神经网络的'彩票假说'结合。AI在生成建筑形态时，自动进行'结构剪枝'，移除对整体稳定性贡献为零的非承重构件，同时利用对抗网络确保形态的美学多样性。实现极致的材料利用率与形态创新的平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.523036",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_5_O2_7067",
+  "design_spec": {
+    "name": "auto_开发_生成式结构骨骼进化引擎_将建筑力_ae54cd",
+    "display_name": "开发'生成式结构骨骼进化引擎'。将建筑力学中的有限元分析（FEM）与神经网络的'彩票假说'结合。AI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'生成式结构骨骼进化引擎'。将建筑力学中的有限元分析（FEM）与神经网络的'彩票假说'结合。AI在生成建筑形态时，自动进行'结构剪枝'，移除对整体稳定性贡献",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

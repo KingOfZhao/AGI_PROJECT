@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点融合的_信息熵_增益评估_当_四向碰_9dc4bd",
+  "file": "skills/auto_节点融合的_信息熵_增益评估_当_四向碰_9dc4bd.py",
+  "description": "节点融合的'信息熵'增益评估：当'四向碰撞'产生重叠固化时，新节点的生成是否真的带来了信息量的提升？需计算新节点与原节点集之间的KL散度。如果合并后的节点导致信息丢失或分辨率下降，则阻止固化，保持原子节点独立。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.301261",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q8_2_4309",
+  "design_spec": {
+    "name": "auto_节点融合的_信息熵_增益评估_当_四向碰_9dc4bd",
+    "display_name": "节点融合的'信息熵'增益评估：当'四向碰撞'产生重叠固化时，新节点的生成是否真的带来了信息量的提升？",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "节点融合的'信息熵'增益评估：当'四向碰撞'产生重叠固化时，新节点的生成是否真的带来了信息量的提升？需计算新节点与原节点集之间的KL散度。如果合并后的节点导致信",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

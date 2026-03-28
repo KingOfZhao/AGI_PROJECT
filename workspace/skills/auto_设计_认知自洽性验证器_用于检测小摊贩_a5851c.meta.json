@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_认知自洽性验证器_用于检测小摊贩_a5851c",
+  "file": "skills/auto_设计_认知自洽性验证器_用于检测小摊贩_a5851c.py",
+  "description": "设计'认知自洽性验证器'，用于检测小摊贩式闭环知识是否构成有效的'真实节点'。该验证器需能区分'逻辑自洽但无法落地'的伪知识（如传销话术）与'逻辑粗糙但有效'的实践知识（如街头智慧），重点验证其在边界条件下的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.775360",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q4_2_2226",
+  "design_spec": {
+    "name": "auto_设计_认知自洽性验证器_用于检测小摊贩_a5851c",
+    "display_name": "设计'认知自洽性验证器'，用于检测小摊贩式闭环知识是否构成有效的'真实节点'。该验证器需能区分'逻辑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计'认知自洽性验证器'，用于检测小摊贩式闭环知识是否构成有效的'真实节点'。该验证器需能区分'逻辑自洽但无法落地'的伪知识（如传销话术）与'逻辑粗糙但有效'的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 245
+  }
+}

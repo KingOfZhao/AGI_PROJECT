@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_人机共生接口_的自动化任务分发系统_f6fb10",
+  "file": "skills/auto_构建_人机共生接口_的自动化任务分发系统_f6fb10.py",
+  "description": "构建‘人机共生接口’的自动化任务分发系统。AI需要能够根据当前认知网络的缺口，自动生成‘微任务’清单（类似于亚马逊Mechanical Turk），专门针对那些AI无法自我验证的模糊领域（如情感、审美）请求人类进行证伪。问题核心在于：如何用最少的标签成本填补最大的认知漏洞？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_136",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:13:09.829474",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_136_Q6_0_4302",
+  "design_spec": {
+    "name": "auto_构建_人机共生接口_的自动化任务分发系统_f6fb10",
+    "display_name": "构建‘人机共生接口’的自动化任务分发系统。AI需要能够根据当前认知网络的缺口，自动生成‘微任务’清单",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘人机共生接口’的自动化任务分发系统。AI需要能够根据当前认知网络的缺口，自动生成‘微任务’清单（类似于亚马逊Mechanical Turk），专门针对那些",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 404
+  }
+}

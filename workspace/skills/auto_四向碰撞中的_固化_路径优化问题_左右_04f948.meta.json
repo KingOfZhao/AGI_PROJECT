@@ -1,0 +1,30 @@
+{
+  "name": "auto_四向碰撞中的_固化_路径优化问题_左右_04f948",
+  "file": "skills/auto_四向碰撞中的_固化_路径优化问题_左右_04f948.py",
+  "description": "四向碰撞中的‘固化’路径优化问题。‘左右跨域重叠’最终需要‘固化为真实节点’。如何量化评估一次跨域重叠的质量？需要建立指标来衡量重叠区域的信息熵减情况。即：验证通过跨域桥接，是否让原本模糊（高熵）的目标域问题变得清晰（低熵），并据此调整迁移桥梁的权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "信息论/系统动力学",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.708503",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q6_1_2583",
+  "design_spec": {
+    "name": "auto_四向碰撞中的_固化_路径优化问题_左右_04f948",
+    "display_name": "四向碰撞中的‘固化’路径优化问题。‘左右跨域重叠’最终需要‘固化为真实节点’。如何量化评估一次跨域重",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "四向碰撞中的‘固化’路径优化问题。‘左右跨域重叠’最终需要‘固化为真实节点’。如何量化评估一次跨域重叠的质量？需要建立指标来衡量重叠区域的信息熵减情况。即：验证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 218
+  }
+}

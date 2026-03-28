@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于时间序列的_预言机_验证_对于预测类_6a80c6",
+  "file": "skills/auto_基于时间序列的_预言机_验证_对于预测类_6a80c6.py",
+  "description": "基于时间序列的'预言机'验证：对于预测类或策略类节点，如何自动追踪其生成的建议在长周期（如1周/1月）后的实际结果？构建一个'现实校验器'，定期扫描历史建议与当前现实状态的差异，自动回填置信度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "TimeSeriesAnalysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.389620",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_128_Q10_0_3176",
+  "design_spec": {
+    "name": "auto_基于时间序列的_预言机_验证_对于预测类_6a80c6",
+    "display_name": "基于时间序列的'预言机'验证：对于预测类或策略类节点，如何自动追踪其生成的建议在长周期（如1周/1月",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于时间序列的'预言机'验证：对于预测类或策略类节点，如何自动追踪其生成的建议在长周期（如1周/1月）后的实际结果？构建一个'现实校验器'，定期扫描历史建议与当",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

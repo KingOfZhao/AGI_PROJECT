@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_自证伪实验设计_td_61_q3_1c57db",
+  "file": "skills/auto_结合_自证伪实验设计_td_61_q3_1c57db.py",
+  "description": "结合'自证伪实验设计'（td_61_Q3_0_5246）与'微理论自动形式化'（td_61_Q8_0_5246），系统不再仅仅是执行任务，而是具备初级科研能力。对于不确定的现象，系统能自动提出假设，生成验证代码（Python/物理实验），并根据结果修正内部的知识图谱节点，实现从'经验主义'到'实证主义'的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.255514",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_62_E3_5238",
+  "design_spec": {
+    "name": "auto_结合_自证伪实验设计_td_61_q3_1c57db",
+    "display_name": "结合'自证伪实验设计'（td_61_Q3_0_5246）与'微理论自动形式化'（td_61_Q8_0",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'自证伪实验设计'（td_61_Q3_0_5246）与'微理论自动形式化'（td_61_Q8_0_5246），系统不再仅仅是执行任务，而是具备初级科研能力。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

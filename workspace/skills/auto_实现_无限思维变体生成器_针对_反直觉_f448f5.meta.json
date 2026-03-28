@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_无限思维变体生成器_针对_反直觉_f448f5",
+  "file": "skills/auto_实现_无限思维变体生成器_针对_反直觉_f448f5.py",
+  "description": "实现'无限思维变体生成器'。针对'反直觉结论'，AI不只提供一个例子，而是根据用户的职业背景或兴趣，程序化生成无限个场景来验证同一个真理。例如，对于'纳什均衡'，给程序员生成'代码冲突'场景，给商人生成'价格战'场景，给生物学生成'物种竞争'场景。通过不断变换表象参数，强迫用户识别深层结构，从而实现真正的'跨域迁移'能力。这是对'信息密度'的终极压缩：不仅压缩结论，还压缩了验证过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.602745",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_130_O5_1889",
+  "design_spec": {
+    "name": "auto_实现_无限思维变体生成器_针对_反直觉_f448f5",
+    "display_name": "实现'无限思维变体生成器'。针对'反直觉结论'，AI不只提供一个例子，而是根据用户的职业背景或兴趣，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'无限思维变体生成器'。针对'反直觉结论'，AI不只提供一个例子，而是根据用户的职业背景或兴趣，程序化生成无限个场景来验证同一个真理。例如，对于'纳什均衡'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

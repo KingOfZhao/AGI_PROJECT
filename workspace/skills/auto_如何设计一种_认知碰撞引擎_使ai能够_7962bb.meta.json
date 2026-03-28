@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计一种_认知碰撞引擎_使ai能够_7962bb",
+  "file": "skills/auto_如何设计一种_认知碰撞引擎_使ai能够_7962bb.py",
+  "description": "如何设计一种‘认知碰撞引擎’，使AI能够自动检测不同领域节点（如‘生物学细胞分裂’与‘社会学城市扩张’）之间的高维拓扑同构性，从而实现跨域迁移，而不依赖于表面的语义相似度？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.227562",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q2_0_788",
+  "design_spec": {
+    "name": "auto_如何设计一种_认知碰撞引擎_使ai能够_7962bb",
+    "display_name": "如何设计一种‘认知碰撞引擎’，使AI能够自动检测不同领域节点（如‘生物学细胞分裂’与‘社会学城市扩张",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计一种‘认知碰撞引擎’，使AI能够自动检测不同领域节点（如‘生物学细胞分裂’与‘社会学城市扩张’）之间的高维拓扑同构性，从而实现跨域迁移，而不依赖于表面的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 530
+  }
+}

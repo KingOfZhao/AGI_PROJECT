@@ -1,0 +1,30 @@
+{
+  "name": "auto_上下文边界_在将模糊意图转化为代码的过_84abc9",
+  "file": "skills/auto_上下文边界_在将模糊意图转化为代码的过_84abc9.py",
+  "description": "【上下文边界】在将模糊意图转化为代码的过程中，如何实现“变量作用域的上下文剪枝”？即在一个多轮对话生成的长代码序列中，如何精准识别并仅保留当前执行步骤所需的“真实节点”和变量状态，剔除无关噪声，以确保LLM的注意力机制不被冗余信息稀释。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_58",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:16:28.292518",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_58_Q3_3_5420",
+  "design_spec": {
+    "name": "auto_上下文边界_在将模糊意图转化为代码的过_84abc9",
+    "display_name": "【上下文边界】在将模糊意图转化为代码的过程中，如何实现“变量作用域的上下文剪枝”？即在一个多轮对话生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【上下文边界】在将模糊意图转化为代码的过程中，如何实现“变量作用域的上下文剪枝”？即在一个多轮对话生成的长代码序列中，如何精准识别并仅保留当前执行步骤所需的“真",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

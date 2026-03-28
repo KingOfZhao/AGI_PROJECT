@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_自上而下拆解证伪_路径中_如何将高级_c47327",
+  "file": "skills/auto_在_自上而下拆解证伪_路径中_如何将高级_c47327.py",
+  "description": "在'自上而下拆解证伪'路径中，如何将高级工艺参数（如'表面光洁度Ra0.4'）自动分解为底层可执行的机台指令序列（G-code修正）？需要测试AGI系统能否利用现有1932个SKILL节点，通过蒙特卡洛树搜索(MCTS)找到从参数到指令的最短因果路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "precision_manufacturing",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.792026",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q2_1_9737",
+  "design_spec": {
+    "name": "auto_在_自上而下拆解证伪_路径中_如何将高级_c47327",
+    "display_name": "在'自上而下拆解证伪'路径中，如何将高级工艺参数（如'表面光洁度Ra0.4'）自动分解为底层可执行的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'自上而下拆解证伪'路径中，如何将高级工艺参数（如'表面光洁度Ra0.4'）自动分解为底层可执行的机台指令序列（G-code修正）？需要测试AGI系统能否利用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

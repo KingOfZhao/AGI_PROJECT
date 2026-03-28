@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_生物拟态反脆弱微内核_该能力不再_35f5ea",
+  "file": "skills/auto_构建_生物拟态反脆弱微内核_该能力不再_35f5ea.py",
+  "description": "构建'生物拟态反脆弱微内核'。该能力不再依赖传统的预设规则（如固定阈值），而是引入生物免疫机制。当某个'认知微服务'（如特定业务逻辑）出现异常（生病）时，系统自动进入'发烧模式'（资源倾斜与日志高频采样）或'切除模式'（降级并隔离）。进一步地，利用AI观察隔离期间的系统表现，像生物进化一样，在沙箱中尝试修补代码并灰度发布，实现系统的自我进化与持续适应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.595738",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_130_O1_7115",
+  "design_spec": {
+    "name": "auto_构建_生物拟态反脆弱微内核_该能力不再_35f5ea",
+    "display_name": "构建'生物拟态反脆弱微内核'。该能力不再依赖传统的预设规则（如固定阈值），而是引入生物免疫机制。当某",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'生物拟态反脆弱微内核'。该能力不再依赖传统的预设规则（如固定阈值），而是引入生物免疫机制。当某个'认知微服务'（如特定业务逻辑）出现异常（生病）时，系统自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

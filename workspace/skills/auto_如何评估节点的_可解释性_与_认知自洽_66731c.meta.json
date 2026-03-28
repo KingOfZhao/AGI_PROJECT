@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何评估节点的_可解释性_与_认知自洽_66731c",
+  "file": "skills/auto_如何评估节点的_可解释性_与_认知自洽_66731c.py",
+  "description": "如何评估节点的'可解释性'与'认知自洽'？一个高质量的节点必须能够向人类或其他AI解释其自身逻辑。如果一个节点是黑盒（如未经处理的原始神经网络权重），它在'认知自洽'框架下质量极低。需要开发一种'解释器'探针，向节点提问'为什么'，并根据回答的逻辑链条完整度打分。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "agi_alignment",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.806111",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_70_Q9_2_886",
+  "design_spec": {
+    "name": "auto_如何评估节点的_可解释性_与_认知自洽_66731c",
+    "display_name": "如何评估节点的'可解释性'与'认知自洽'？一个高质量的节点必须能够向人类或其他AI解释其自身逻辑。如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何评估节点的'可解释性'与'认知自洽'？一个高质量的节点必须能够向人类或其他AI解释其自身逻辑。如果一个节点是黑盒（如未经处理的原始神经网络权重），它在'认知",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

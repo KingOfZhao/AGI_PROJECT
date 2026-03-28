@@ -1,0 +1,30 @@
+{
+  "name": "auto_零样本结构迁移编程代理_赋予ai一种_53e21b",
+  "file": "skills/auto_零样本结构迁移编程代理_赋予ai一种_53e21b.py",
+  "description": "【零样本结构迁移编程代理】赋予AI一种'元认知'能力：面对未知的API（如'量子咖啡机控制库'），系统将其视为一个'待填充的结构槽位'。AI首先运用跨域映射能力，将已知的'普通咖啡机'或'通用设备控制'的逻辑结构映射到新API的文档结构上，快速建立心智模型。随后，在沙箱中进行'试探性调用'（类似科学探索），验证假设的API结构是否正确，从而在无样本情况下快速掌握并组合使用陌生工具完成复杂任务。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_7",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:34:07.155679",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_7_O4_4152",
+  "design_spec": {
+    "name": "auto_零样本结构迁移编程代理_赋予ai一种_53e21b",
+    "display_name": "【零样本结构迁移编程代理】赋予AI一种'元认知'能力：面对未知的API（如'量子咖啡机控制库'），系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【零样本结构迁移编程代理】赋予AI一种'元认知'能力：面对未知的API（如'量子咖啡机控制库'），系统将其视为一个'待填充的结构槽位'。AI首先运用跨域映射能力",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

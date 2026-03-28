@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_自适应代谢流控中间件_不同于传统_417b1f",
+  "file": "skills/auto_构建_自适应代谢流控中间件_不同于传统_417b1f.py",
+  "description": "构建‘自适应代谢流控中间件’。不同于传统的‘全有或全无’限流，该系统模仿细胞在缺氧或饥饿下的代谢切换（如切换无氧呼吸）。当分布式系统面临极端负载（资源匮乏）时，系统能自动降级服务质量（QoS），计算‘近似结果’而非精确结果，就像肌肉细胞在缺氧时产生乳酸以维持生存，保证核心服务不中断，待负载降低后进行‘氧债’偿还（数据最终一致性修复）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_9",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:23:18.126735",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_9_O3_7790",
+  "design_spec": {
+    "name": "auto_构建_自适应代谢流控中间件_不同于传统_417b1f",
+    "display_name": "构建‘自适应代谢流控中间件’。不同于传统的‘全有或全无’限流，该系统模仿细胞在缺氧或饥饿下的代谢切换",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘自适应代谢流控中间件’。不同于传统的‘全有或全无’限流，该系统模仿细胞在缺氧或饥饿下的代谢切换（如切换无氧呼吸）。当分布式系统面临极端负载（资源匮乏）时，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 225
+  }
+}

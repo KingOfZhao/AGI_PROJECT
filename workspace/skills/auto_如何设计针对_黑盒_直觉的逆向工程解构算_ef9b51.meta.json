@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计针对_黑盒_直觉的逆向工程解构算_ef9b51",
+  "file": "skills/auto_如何设计针对_黑盒_直觉的逆向工程解构算_ef9b51.py",
+  "description": "如何设计针对'黑盒'直觉的逆向工程解构算法？AI常输出结果但无法解释过程。该机制需将AI输出的'直觉式'判断拆解为显性的推理链条（Chain of Thought），并将其映射回已有的认知网络节点。若无法映射，则标记为'未知孤岛'，触发人类介入请求。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "xai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.551604",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q2_1_7462",
+  "design_spec": {
+    "name": "auto_如何设计针对_黑盒_直觉的逆向工程解构算_ef9b51",
+    "display_name": "如何设计针对'黑盒'直觉的逆向工程解构算法？AI常输出结果但无法解释过程。该机制需将AI输出的'直觉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计针对'黑盒'直觉的逆向工程解构算法？AI常输出结果但无法解释过程。该机制需将AI输出的'直觉式'判断拆解为显性的推理链条（Chain of Though",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

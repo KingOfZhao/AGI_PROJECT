@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳的抗噪性_人类反馈往往带有_d6a7cc",
+  "file": "skills/auto_自下而上归纳的抗噪性_人类反馈往往带有_d6a7cc.py",
+  "description": "【自下而上归纳的抗噪性】人类反馈往往带有噪声（情绪化、记忆错误）。在‘自下而上归纳构建’中，如何从碎片化、甚至矛盾的实践日志中提取出高保真的‘新概念’？需要验证鲁棒性聚类算法在处理非结构化人类语言时的表现。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.015432",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q6_0_2707",
+  "design_spec": {
+    "name": "auto_自下而上归纳的抗噪性_人类反馈往往带有_d6a7cc",
+    "display_name": "【自下而上归纳的抗噪性】人类反馈往往带有噪声（情绪化、记忆错误）。在‘自下而上归纳构建’中，如何从碎",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳的抗噪性】人类反馈往往带有噪声（情绪化、记忆错误）。在‘自下而上归纳构建’中，如何从碎片化、甚至矛盾的实践日志中提取出高保真的‘新概念’？需要验证",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

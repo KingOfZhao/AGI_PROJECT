@@ -1,0 +1,30 @@
+{
+  "name": "auto_多维对位式算法重构器_在代码优化或漏洞挖_f9eb51",
+  "file": "skills/auto_多维对位式算法重构器_在代码优化或漏洞挖_f9eb51.py",
+  "description": "多维对位式算法重构器。在代码优化或漏洞挖掘中，不仅仅进行控制流分析，而是引入音乐对位法的'镜像变换'。将一段核心算法逻辑进行'倒影'（将Max改为Min，Push改为Pop，If-Else互换），生成'伴生算法'。在并行环境中运行原算法与伴生算法，通过比对两者在边界条件下的输出差异（不和谐音程），来快速定位逻辑漏洞或寻找更优解。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.033164",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_59_O2_2319",
+  "design_spec": {
+    "name": "auto_多维对位式算法重构器_在代码优化或漏洞挖_f9eb51",
+    "display_name": "多维对位式算法重构器。在代码优化或漏洞挖掘中，不仅仅进行控制流分析，而是引入音乐对位法的'镜像变换'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多维对位式算法重构器。在代码优化或漏洞挖掘中，不仅仅进行控制流分析，而是引入音乐对位法的'镜像变换'。将一段核心算法逻辑进行'倒影'（将Max改为Min，Pus",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

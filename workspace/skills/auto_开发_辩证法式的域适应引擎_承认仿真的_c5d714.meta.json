@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_辩证法式的域适应引擎_承认仿真的_c5d714",
+  "file": "skills/auto_开发_辩证法式的域适应引擎_承认仿真的_c5d714.py",
+  "description": "开发'辩证法式的域适应引擎'。承认仿真的'理念性'与现实的'物质性'差距，不再追求像素级还原，而是建立'理念-现实'的映射函数。利用辩证法中的'否定之否定'原理：在仿真中训练'理想模型'（正），在真实环境中引入'扰动'（反），通过对抗生成网络（GAN）让模型在'矛盾'中上升为具备鲁棒性的'具体真理'（合）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.219264",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O2_2161",
+  "design_spec": {
+    "name": "auto_开发_辩证法式的域适应引擎_承认仿真的_c5d714",
+    "display_name": "开发'辩证法式的域适应引擎'。承认仿真的'理念性'与现实的'物质性'差距，不再追求像素级还原，而是建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'辩证法式的域适应引擎'。承认仿真的'理念性'与现实的'物质性'差距，不再追求像素级还原，而是建立'理念-现实'的映射函数。利用辩证法中的'否定之否定'原理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

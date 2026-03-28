@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_在_ai梳理清单_人类实践_83c24e",
+  "file": "skills/auto_人机共生_在_ai梳理清单_人类实践_83c24e.py",
+  "description": "【人机共生】在'AI梳理清单→人类实践'的闭环中，如何量化'实践成本'并据此优化任务推荐策略？系统拥有2067个SKILL，但人类精力有限。需要构建一个'技能依赖与成本图'，验证基于用户当前状态的最近邻推荐算法是否优于随机推荐。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "decision_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.302956",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q3_1_5993",
+  "design_spec": {
+    "name": "auto_人机共生_在_ai梳理清单_人类实践_83c24e",
+    "display_name": "【人机共生】在'AI梳理清单→人类实践'的闭环中，如何量化'实践成本'并据此优化任务推荐策略？系统拥",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】在'AI梳理清单→人类实践'的闭环中，如何量化'实践成本'并据此优化任务推荐策略？系统拥有2067个SKILL，但人类精力有限。需要构建一个'技能依",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

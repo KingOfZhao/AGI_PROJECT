@@ -1,0 +1,30 @@
+{
+  "name": "auto_极简奥卡姆剃刀的代码实现_在_重叠固化为_e93579",
+  "file": "skills/auto_极简奥卡姆剃刀的代码实现_在_重叠固化为_e93579.py",
+  "description": "极简奥卡姆剃刀的代码实现：在“重叠固化为真实节点”的过程中，系统倾向于生成复杂度冗余的节点。如何定义并实现一个“描述长度-解释力”评分函数（类似MDL原则），自动证伪那些虽然符合数据但过于复杂的过拟合节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "algorithm_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.402541",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q9_3_5254",
+  "design_spec": {
+    "name": "auto_极简奥卡姆剃刀的代码实现_在_重叠固化为_e93579",
+    "display_name": "极简奥卡姆剃刀的代码实现：在“重叠固化为真实节点”的过程中，系统倾向于生成复杂度冗余的节点。如何定义",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "极简奥卡姆剃刀的代码实现：在“重叠固化为真实节点”的过程中，系统倾向于生成复杂度冗余的节点。如何定义并实现一个“描述长度-解释力”评分函数（类似MDL原则），自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

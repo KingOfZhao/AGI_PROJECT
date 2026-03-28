@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_文化基因组_断层扫描仪_利用nlp_0ccfe8",
+  "file": "skills/auto_开发_文化基因组_断层扫描仪_利用nlp_0ccfe8.py",
+  "description": "开发'文化基因组'断层扫描仪。利用NLP分析历史文献与现代技术文档的向量分布差异，自动识别'失传技艺'对应的认知空洞。系统不仅仅是发现空洞，还能基于周边节点的逻辑（如相关工具的使用、半成品的制作）自动生成'复现假设'（候选节点），指导现代工匠进行针对性的'考古式'实践证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.697945",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O2_8317",
+  "design_spec": {
+    "name": "auto_开发_文化基因组_断层扫描仪_利用nlp_0ccfe8",
+    "display_name": "开发'文化基因组'断层扫描仪。利用NLP分析历史文献与现代技术文档的向量分布差异，自动识别'失传技艺",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'文化基因组'断层扫描仪。利用NLP分析历史文献与现代技术文档的向量分布差异，自动识别'失传技艺'对应的认知空洞。系统不仅仅是发现空洞，还能基于周边节点的逻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

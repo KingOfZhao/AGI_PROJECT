@@ -1,0 +1,30 @@
+{
+  "name": "auto_可微分的建筑空间语法库_将经典的建筑类型_d61404",
+  "file": "skills/auto_可微分的建筑空间语法库_将经典的建筑类型_d61404.py",
+  "description": "可微分的建筑空间语法库。将经典的建筑类型学（如围合、并置、串联）编码为神经网络的特定初始化权重或模块化的'归纳偏置'层。AI不再是凭空生成，而是像人类建筑师一样'引用'历史类型，并在特定场地限制下进行微调。这使得AI生成的方案具有历史延续性和文化可读性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.799182",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O3_9001",
+  "design_spec": {
+    "name": "auto_可微分的建筑空间语法库_将经典的建筑类型_d61404",
+    "display_name": "可微分的建筑空间语法库。将经典的建筑类型学（如围合、并置、串联）编码为神经网络的特定初始化权重或模块",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "可微分的建筑空间语法库。将经典的建筑类型学（如围合、并置、串联）编码为神经网络的特定初始化权重或模块化的'归纳偏置'层。AI不再是凭空生成，而是像人类建筑师一样",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生的反馈闭环接口_如何设计一种极简_63bd2a",
+  "file": "skills/auto_人机共生的反馈闭环接口_如何设计一种极简_63bd2a.py",
+  "description": "人机共生的反馈闭环接口：如何设计一种极简的‘结构化干预协议’，允许人类在AI执行过程中注入‘纠偏信号’（如‘这个颜色不对，要更暖一点’），AI能实时将此信号转化为参数修正并更新代码，而无需重新运行整个生成流程？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "hci_interaction_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.942607",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_108_Q4_3_3795",
+  "design_spec": {
+    "name": "auto_人机共生的反馈闭环接口_如何设计一种极简_63bd2a",
+    "display_name": "人机共生的反馈闭环接口：如何设计一种极简的‘结构化干预协议’，允许人类在AI执行过程中注入‘纠偏信号",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生的反馈闭环接口：如何设计一种极简的‘结构化干预协议’，允许人类在AI执行过程中注入‘纠偏信号’（如‘这个颜色不对，要更暖一点’），AI能实时将此信号转化",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 265
+  }
+}

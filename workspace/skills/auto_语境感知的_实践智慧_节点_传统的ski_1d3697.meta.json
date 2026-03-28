@@ -1,0 +1,30 @@
+{
+  "name": "auto_语境感知的_实践智慧_节点_传统的ski_1d3697",
+  "file": "skills/auto_语境感知的_实践智慧_节点_传统的ski_1d3697.py",
+  "description": "语境感知的'实践智慧'节点。传统的Skill节点是死的，融合后的节点具备'机缘主义'特征。当机器人执行'抓取'时，节点不再是一个开环指令，而是一个包含伦理判断(不破坏物体)和物理判断(防滑)的微推理循环。它允许机器人在遇到未预设的物理阻力时，像一位有经验的工匠一样，自动在'力量'与'技巧'之间寻找平衡，将'失败'转化为'变体执行'，实现真正的具身智能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.780473",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O2_1720",
+  "design_spec": {
+    "name": "auto_语境感知的_实践智慧_节点_传统的ski_1d3697",
+    "display_name": "语境感知的'实践智慧'节点。传统的Skill节点是死的，融合后的节点具备'机缘主义'特征。当机器人执",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "语境感知的'实践智慧'节点。传统的Skill节点是死的，融合后的节点具备'机缘主义'特征。当机器人执行'抓取'时，节点不再是一个开环指令，而是一个包含伦理判断(",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

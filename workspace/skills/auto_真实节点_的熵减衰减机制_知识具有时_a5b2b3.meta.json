@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点_的熵减衰减机制_知识具有时_a5b2b3",
+  "file": "skills/auto_真实节点_的熵减衰减机制_知识具有时_a5b2b3.py",
+  "description": "'真实节点'的熵减衰减机制: 知识具有时效性。如何为每个节点设计一个'半衰期'函数，该函数不仅基于时间流逝，更基于'未被重新验证'的次数？当节点置信度低于阈值时，自动将其从'核心技能库'降级为'待验证假设'，强迫人机循环重新介入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "knowledge_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.001853",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_59_Q5_2_2882",
+  "design_spec": {
+    "name": "auto_真实节点_的熵减衰减机制_知识具有时_a5b2b3",
+    "display_name": "'真实节点'的熵减衰减机制: 知识具有时效性。如何为每个节点设计一个'半衰期'函数，该函数不仅基于时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'真实节点'的熵减衰减机制: 知识具有时效性。如何为每个节点设计一个'半衰期'函数，该函数不仅基于时间流逝，更基于'未被重新验证'的次数？当节点置信度低于阈值时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

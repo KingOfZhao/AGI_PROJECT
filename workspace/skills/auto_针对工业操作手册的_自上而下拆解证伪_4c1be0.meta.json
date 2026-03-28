@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对工业操作手册的_自上而下拆解证伪_4c1be0",
+  "file": "skills/auto_针对工业操作手册的_自上而下拆解证伪_4c1be0.py",
+  "description": "针对工业操作手册的'自上而下拆解证伪'：如何将长篇大论的PDF文档解析为原子化的'动作原语'（Action Primitives），并自动检测其中的逻辑矛盾（如手册说'严禁带电操作'，但故障排查章节暗示需通电检测）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "document_understanding",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.106312",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q9_1_7461",
+  "design_spec": {
+    "name": "auto_针对工业操作手册的_自上而下拆解证伪_4c1be0",
+    "display_name": "针对工业操作手册的'自上而下拆解证伪'：如何将长篇大论的PDF文档解析为原子化的'动作原语'（Act",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对工业操作手册的'自上而下拆解证伪'：如何将长篇大论的PDF文档解析为原子化的'动作原语'（Action Primitives），并自动检测其中的逻辑矛盾（如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

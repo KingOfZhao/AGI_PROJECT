@@ -1,0 +1,30 @@
+{
+  "name": "auto_反事实模拟_在代码生成之前_如何构建一_79590e",
+  "file": "skills/auto_反事实模拟_在代码生成之前_如何构建一_79590e.py",
+  "description": "【反事实模拟】在代码生成之前，如何构建一个轻量级的'思维沙盒'，通过推演代码执行后的'可能状态'来验证意图的完整性？例如，意图是'删除文件'，沙盒推演发现文件被占用，从而在生成代码前就抛出异常处理逻辑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "model_based_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.813564",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q8_3_4004",
+  "design_spec": {
+    "name": "auto_反事实模拟_在代码生成之前_如何构建一_79590e",
+    "display_name": "【反事实模拟】在代码生成之前，如何构建一个轻量级的'思维沙盒'，通过推演代码执行后的'可能状态'来验",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【反事实模拟】在代码生成之前，如何构建一个轻量级的'思维沙盒'，通过推演代码执行后的'可能状态'来验证意图的完整性？例如，意图是'删除文件'，沙盒推演发现文件被",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

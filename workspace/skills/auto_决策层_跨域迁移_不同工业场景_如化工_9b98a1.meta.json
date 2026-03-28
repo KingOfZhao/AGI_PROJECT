@@ -1,0 +1,30 @@
+{
+  "name": "auto_决策层_跨域迁移_不同工业场景_如化工_9b98a1",
+  "file": "skills/auto_决策层_跨域迁移_不同工业场景_如化工_9b98a1.py",
+  "description": "【决策层：跨域迁移】不同工业场景（如化工反应釜与水泥回转窑）存在相似的热传导控制逻辑。如何构建‘跨域同构映射器’，识别源领域（化工）与目标领域（水泥）之间的结构相似性，将已验证的控制策略‘真实节点’进行参数化变形并迁移，从而大幅降低新场景下的试错成本？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.908073",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_15_Q4_3_4873",
+  "design_spec": {
+    "name": "auto_决策层_跨域迁移_不同工业场景_如化工_9b98a1",
+    "display_name": "【决策层：跨域迁移】不同工业场景（如化工反应釜与水泥回转窑）存在相似的热传导控制逻辑。如何构建‘跨域",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【决策层：跨域迁移】不同工业场景（如化工反应釜与水泥回转窑）存在相似的热传导控制逻辑。如何构建‘跨域同构映射器’，识别源领域（化工）与目标领域（水泥）之间的结构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 228
+  }
+}

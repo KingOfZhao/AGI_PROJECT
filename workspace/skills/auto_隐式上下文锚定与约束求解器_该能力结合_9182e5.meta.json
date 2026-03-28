@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐式上下文锚定与约束求解器_该能力结合_9182e5",
+  "file": "skills/auto_隐式上下文锚定与约束求解器_该能力结合_9182e5.py",
+  "description": "【隐式上下文锚定与约束求解器】该能力结合了代码生成的严谨性与认知科学的语境理解。当AI生成代码或调用API时，它不仅检查显式参数，还利用长程记忆图谱回溯对话历史，主动识别并‘锚定’用户未明说的隐含约束。例如，用户说‘处理它’，系统不仅解析‘它’指代哪个文件（B域能力），还根据该文件的历史操作上下文（如‘这是刚下载的原始数据’），自动推断出‘只读’、‘异常编码处理’等隐式约束（A域能力），并在代码生成中显式固化为参数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.729695",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_139_O2_7183",
+  "design_spec": {
+    "name": "auto_隐式上下文锚定与约束求解器_该能力结合_9182e5",
+    "display_name": "【隐式上下文锚定与约束求解器】该能力结合了代码生成的严谨性与认知科学的语境理解。当AI生成代码或调用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【隐式上下文锚定与约束求解器】该能力结合了代码生成的严谨性与认知科学的语境理解。当AI生成代码或调用API时，它不仅检查显式参数，还利用长程记忆图谱回溯对话历史",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_现实意图编译器_一种能够处理极高语境依_dc5b25",
+  "file": "skills/auto_现实意图编译器_一种能够处理极高语境依_dc5b25.py",
+  "description": "【现实意图编译器】一种能够处理极高语境依赖的技能执行引擎。它不局限于计算机指令，而是能将生活或工作中的模糊口头指令（如‘把这事办得体面点’）结合环境上下文，编译成具体的‘Primitives’（基础动作原语）序列。例如，将‘办得体面点’映射为礼仪规范、着装要求、场地布置等一系列具体可执行的技能节点，并能根据反馈动态调整编译结果。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.461060",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O1_9911",
+  "design_spec": {
+    "name": "auto_现实意图编译器_一种能够处理极高语境依_dc5b25",
+    "display_name": "【现实意图编译器】一种能够处理极高语境依赖的技能执行引擎。它不局限于计算机指令，而是能将生活或工作中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【现实意图编译器】一种能够处理极高语境依赖的技能执行引擎。它不局限于计算机指令，而是能将生活或工作中的模糊口头指令（如‘把这事办得体面点’）结合环境上下文，编译",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

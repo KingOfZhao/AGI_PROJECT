@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念定义了一种将物理世界的微观阻力与感_ee9b09",
+  "file": "skills/auto_该概念定义了一种将物理世界的微观阻力与感_ee9b09.py",
+  "description": "该概念定义了一种将物理世界的微观阻力与感官体验（如工匠手感、材料纹理）转化为可计算数字信号，并反向控制执行机构的闭环系统。它超越了单纯的视觉模拟，引入了‘物理损失函数’。通过高精度传感器捕捉非结构化数据（力度、角度），将其形式化为时序边界，再通过Sim-to-Real适配器修正虚拟与现实的残差，最终使AI具备处理物理世界‘非完美性’的能力，实现真正的具身智能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.738628",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_32_P1_7896",
+  "design_spec": {
+    "name": "auto_该概念定义了一种将物理世界的微观阻力与感_ee9b09",
+    "display_name": "该概念定义了一种将物理世界的微观阻力与感官体验（如工匠手感、材料纹理）转化为可计算数字信号，并反向控",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念定义了一种将物理世界的微观阻力与感官体验（如工匠手感、材料纹理）转化为可计算数字信号，并反向控制执行机构的闭环系统。它超越了单纯的视觉模拟，引入了‘物理损",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 269
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_geom_driven_ui_几_ca5c5c",
+  "file": "skills/auto_提出_geom_driven_ui_几_ca5c5c.py",
+  "description": "提出'Geom-Driven-UI'（几何驱动界面）框架。利用CAD内核作为'逻辑层'，Flutter作为'渲染层'。用户在2D界面的操作直接映射为3D几何参数的变更，反之亦然。例如，在Flutter中拖动一个滑块，不仅仅是数值变化，而是实时重计算CAD内核中的拓扑关系，并将反馈以像素级精度推送到界面。这能实现超越常规矢量图形的高精度参数化UI设计工具，如在线定制化鞋底设计或工业组态软件。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.704239",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_140_O1_2349",
+  "design_spec": {
+    "name": "auto_提出_geom_driven_ui_几_ca5c5c",
+    "display_name": "提出'Geom-Driven-UI'（几何驱动界面）框架。利用CAD内核作为'逻辑层'，Flutte",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'Geom-Driven-UI'（几何驱动界面）框架。利用CAD内核作为'逻辑层'，Flutter作为'渲染层'。用户在2D界面的操作直接映射为3D几何参数",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

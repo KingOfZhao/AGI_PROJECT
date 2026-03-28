@@ -1,0 +1,30 @@
+{
+  "name": "auto_本体驱动的api模拟演绎器_融合能力_bcf94f",
+  "file": "skills/auto_本体驱动的api模拟演绎器_融合能力_bcf94f.py",
+  "description": "【本体驱动的API模拟演绎器】融合能力：将API学习视为一个'跨域迁移'问题。当面对'量子咖啡机'这种完全虚构的API时，系统不应仅靠概率生成代码，而应先构建一个'临时本体模型'（Temporary Ontology Model）。它分析文档，提取出'实体'（量子豆、咖啡杯）、'关系'（纠缠、冲泡）和'约束'（测不准原理）。然后，系统在这个抽象本体上进行'思维实验'（Mental Simulation，即CS中的认知模拟），验证逻辑闭环后，再映射回具体的Python代码。这能显著提高在完全陌生环境下的代码一次成功率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.468498",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_78_O5_1115",
+  "design_spec": {
+    "name": "auto_本体驱动的api模拟演绎器_融合能力_bcf94f",
+    "display_name": "【本体驱动的API模拟演绎器】融合能力：将API学习视为一个'跨域迁移'问题。当面对'量子咖啡机'这",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【本体驱动的API模拟演绎器】融合能力：将API学习视为一个'跨域迁移'问题。当面对'量子咖啡机'这种完全虚构的API时，系统不应仅靠概率生成代码，而应先构建一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 250
+  }
+}

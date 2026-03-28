@@ -1,0 +1,30 @@
+{
+  "name": "auto_因果机制的结构同构性验证_如何通过图神_fb47ec",
+  "file": "skills/auto_因果机制的结构同构性验证_如何通过图神_fb47ec.py",
+  "description": "【因果机制的结构同构性验证】如何通过图神经网络（GNN）验证源域与目标域的因果图是否具备'结构同构性'？即，不仅节点相似，节点间的因果边（如A导致B）的结构模式也必须一一对应，以防止'错误归因'的迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "causal_inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.783724",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q4_1_562",
+  "design_spec": {
+    "name": "auto_因果机制的结构同构性验证_如何通过图神_fb47ec",
+    "display_name": "【因果机制的结构同构性验证】如何通过图神经网络（GNN）验证源域与目标域的因果图是否具备'结构同构性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【因果机制的结构同构性验证】如何通过图神经网络（GNN）验证源域与目标域的因果图是否具备'结构同构性'？即，不仅节点相似，节点间的因果边（如A导致B）的结构模式",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

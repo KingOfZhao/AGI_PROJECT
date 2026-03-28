@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_对位式代码净化器_不只是检查代码_3c8c81",
+  "file": "skills/auto_开发_对位式代码净化器_不只是检查代码_3c8c81.py",
+  "description": "开发'对位式代码净化器'。不只是检查代码行数，而是将代码模块视为'声部'。通过算法分析各模块间的逻辑距离（音程），如果两个模块做完全相同的逻辑运动（平行八度/五度），则判定为冗余，自动建议合并或重构。这超越了MDL原则的单一维度，引入了结构性的'横向可预测性'与'纵向独立性'双重检验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.441775",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_142_O2_3011",
+  "design_spec": {
+    "name": "auto_开发_对位式代码净化器_不只是检查代码_3c8c81",
+    "display_name": "开发'对位式代码净化器'。不只是检查代码行数，而是将代码模块视为'声部'。通过算法分析各模块间的逻辑",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'对位式代码净化器'。不只是检查代码行数，而是将代码模块视为'声部'。通过算法分析各模块间的逻辑距离（音程），如果两个模块做完全相同的逻辑运动（平行八度/五",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

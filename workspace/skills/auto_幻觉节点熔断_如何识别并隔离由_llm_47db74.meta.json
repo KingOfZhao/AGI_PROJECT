@@ -1,0 +1,30 @@
+{
+  "name": "auto_幻觉节点熔断_如何识别并隔离由_llm_47db74",
+  "file": "skills/auto_幻觉节点熔断_如何识别并隔离由_llm_47db74.py",
+  "description": "【幻觉节点熔断】如何识别并隔离由 LLM 幻觉生成的“伪节点”？在自下而上的归纳中，LLM 可能会生成看似逻辑自洽但现实不存在的概念（如虚构的 API 或错误的物理定律）。问题在于：如何建立一个“现实锚定测试”，要求新归纳的节点必须在短期内获得至少一次人类确认或外部工具（如搜索引擎/代码解释器）的验证，否则视为幻觉并触发熔断？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.039891",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q9_2_3526",
+  "design_spec": {
+    "name": "auto_幻觉节点熔断_如何识别并隔离由_llm_47db74",
+    "display_name": "【幻觉节点熔断】如何识别并隔离由 LLM 幻觉生成的“伪节点”？在自下而上的归纳中，LLM 可能会生",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【幻觉节点熔断】如何识别并隔离由 LLM 幻觉生成的“伪节点”？在自下而上的归纳中，LLM 可能会生成看似逻辑自洽但现实不存在的概念（如虚构的 API 或错误的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 344
+  }
+}

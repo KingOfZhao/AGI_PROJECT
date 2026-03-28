@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对1416个skill节点_如何实施_c7a903",
+  "file": "skills/auto_针对1416个skill节点_如何实施_c7a903.py",
+  "description": "针对1416个Skill节点，如何实施'结果分布漂移'监测？如果一个Skill（如'Python邮件发送'）在过去的执行结果中，成功/失败率是稳定的，但近期失败率突然上升（可能是外部API变更），如何快速通过统计检验（如CUSUM控制图）自动触发'待证伪'标记，而等待人类介入？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "statistical_process_control",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.424516",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q6_0_1342",
+  "design_spec": {
+    "name": "auto_针对1416个skill节点_如何实施_c7a903",
+    "display_name": "针对1416个Skill节点，如何实施'结果分布漂移'监测？如果一个Skill（如'Python邮件",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对1416个Skill节点，如何实施'结果分布漂移'监测？如果一个Skill（如'Python邮件发送'）在过去的执行结果中，成功/失败率是稳定的，但近期失败",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

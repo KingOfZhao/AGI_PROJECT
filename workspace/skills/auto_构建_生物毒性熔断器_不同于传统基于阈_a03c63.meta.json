@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_生物毒性熔断器_不同于传统基于阈_a03c63",
+  "file": "skills/auto_构建_生物毒性熔断器_不同于传统基于阈_a03c63.py",
+  "description": "构建'生物毒性熔断器'。不同于传统基于阈值（如CPU 90%）的熔断，该能力引入'病理特征检测'。AI监控微服务的'代谢产物'（日志特征、内存碎片模式），当检测到'癌变'前兆（如死锁、慢泄漏）而非仅仅是高负载时，主动诱导服务'凋亡'，并通知网关层进行流量'吞噬'（隔离）。这能解决传统系统'带病运行'导致的雪崩问题，实现故障的免疫清除。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.633508",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_106_O1_4121",
+  "design_spec": {
+    "name": "auto_构建_生物毒性熔断器_不同于传统基于阈_a03c63",
+    "display_name": "构建'生物毒性熔断器'。不同于传统基于阈值（如CPU 90%）的熔断，该能力引入'病理特征检测'。A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'生物毒性熔断器'。不同于传统基于阈值（如CPU 90%）的熔断，该能力引入'病理特征检测'。AI监控微服务的'代谢产物'（日志特征、内存碎片模式），当检测",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 271
+  }
+}

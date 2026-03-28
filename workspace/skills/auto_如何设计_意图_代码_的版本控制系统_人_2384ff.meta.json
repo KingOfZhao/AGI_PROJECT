@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_意图_代码_的版本控制系统_人_2384ff",
+  "file": "skills/auto_如何设计_意图_代码_的版本控制系统_人_2384ff.py",
+  "description": "如何设计'意图-代码'的版本控制系统？人类的意图是流动的（随时间、情绪、环境变化），系统需要捕捉这种演变，生成带有时间戳和意图标签的代码版本，使得代码的演进史就是人类认知的演变史。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.300306",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q9_3_6847",
+  "design_spec": {
+    "name": "auto_如何设计_意图_代码_的版本控制系统_人_2384ff",
+    "display_name": "如何设计'意图-代码'的版本控制系统？人类的意图是流动的（随时间、情绪、环境变化），系统需要捕捉这种",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'意图-代码'的版本控制系统？人类的意图是流动的（随时间、情绪、环境变化），系统需要捕捉这种演变，生成带有时间戳和意图标签的代码版本，使得代码的演进史就",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

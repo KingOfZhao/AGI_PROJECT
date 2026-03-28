@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生循环中的_贝叶斯置信度_动态校准_25d317",
+  "file": "skills/auto_人机共生循环中的_贝叶斯置信度_动态校准_25d317.py",
+  "description": "人机共生循环中的'贝叶斯置信度'动态校准：如何设计一个反馈接口，将人类的实践结果（成功/失败）转化为具体的数值信号，实时更新相关节点的贝叶斯后验概率？这要求将模糊的人类反馈（'这个方法不太好'）映射为精确的数学调整。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.941985",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_92_Q7_1_9931",
+  "design_spec": {
+    "name": "auto_人机共生循环中的_贝叶斯置信度_动态校准_25d317",
+    "display_name": "人机共生循环中的'贝叶斯置信度'动态校准：如何设计一个反馈接口，将人类的实践结果（成功/失败）转化为",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生循环中的'贝叶斯置信度'动态校准：如何设计一个反馈接口，将人类的实践结果（成功/失败）转化为具体的数值信号，实时更新相关节点的贝叶斯后验概率？这要求将模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 321
+  }
+}

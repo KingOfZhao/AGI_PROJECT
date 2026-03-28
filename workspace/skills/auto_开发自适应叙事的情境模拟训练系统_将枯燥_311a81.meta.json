@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发自适应叙事的情境模拟训练系统_将枯燥_311a81",
+  "file": "skills/auto_开发自适应叙事的情境模拟训练系统_将枯燥_311a81.py",
+  "description": "开发自适应叙事的情境模拟训练系统。将枯燥的案例教学转化为互动电影式的角色扮演体验。AI生成具有复杂性格的NPC，学生扮演其中一方（如管理者、历史人物、生物细胞），通过对话和决策推动剧情发展。系统根据学生的选择动态生成后续情节，不仅传授知识，更通过情感体验培养同理心、伦理判断力和复杂决策能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T06:58:25.430739",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_2_O5_7934",
+  "design_spec": {
+    "name": "auto_开发自适应叙事的情境模拟训练系统_将枯燥_311a81",
+    "display_name": "开发自适应叙事的情境模拟训练系统。将枯燥的案例教学转化为互动电影式的角色扮演体验。AI生成具有复杂性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发自适应叙事的情境模拟训练系统。将枯燥的案例教学转化为互动电影式的角色扮演体验。AI生成具有复杂性格的NPC，学生扮演其中一方（如管理者、历史人物、生物细胞）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

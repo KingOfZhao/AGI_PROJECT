@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知图拓扑结构中的_预测性冗余_检测_在_12a61e",
+  "file": "skills/auto_认知图拓扑结构中的_预测性冗余_检测_在_12a61e.py",
+  "description": "认知图拓扑结构中的‘预测性冗余’检测：在3882个节点的网络中，如何通过图神经网络（GNN）或随机游走算法检测‘结构冗余’？即验证某节点A的‘上下文’（左右跨域重叠）是否已完全被其相邻节点B和C的组合所覆盖。若节点A的功能可由B+C的组合无损替代，则A应被标记为‘待淘汰’或‘归档’，以实现认知网络的精简。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.621314",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q2_0_9836",
+  "design_spec": {
+    "name": "auto_认知图拓扑结构中的_预测性冗余_检测_在_12a61e",
+    "display_name": "认知图拓扑结构中的‘预测性冗余’检测：在3882个节点的网络中，如何通过图神经网络（GNN）或随机游",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知图拓扑结构中的‘预测性冗余’检测：在3882个节点的网络中，如何通过图神经网络（GNN）或随机游走算法检测‘结构冗余’？即验证某节点A的‘上下文’（左右跨域",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

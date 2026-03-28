@@ -1,0 +1,30 @@
+{
+  "name": "auto_多智能体视角下的_内部辩论_模拟器_为了_309fc9",
+  "file": "skills/auto_多智能体视角下的_内部辩论_模拟器_为了_309fc9.py",
+  "description": "多智能体视角下的‘内部辩论’模拟器：为了加速‘四向碰撞’，可以在系统内部署两个对抗性Agent（保守派vs创新派），针对一个待定节点进行辩论。设计一个评估函数来判断辩论结果是否足以替代人类证伪。这能大幅降低对人类精力的消耗。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.949581",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q8_0_7667",
+  "design_spec": {
+    "name": "auto_多智能体视角下的_内部辩论_模拟器_为了_309fc9",
+    "display_name": "多智能体视角下的‘内部辩论’模拟器：为了加速‘四向碰撞’，可以在系统内部署两个对抗性Agent（保守",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多智能体视角下的‘内部辩论’模拟器：为了加速‘四向碰撞’，可以在系统内部署两个对抗性Agent（保守派vs创新派），针对一个待定节点进行辩论。设计一个评估函数来",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 240
+  }
+}

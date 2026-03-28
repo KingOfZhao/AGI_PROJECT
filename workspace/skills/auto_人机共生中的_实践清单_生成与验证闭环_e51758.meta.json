@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生中的_实践清单_生成与验证闭环_e51758",
+  "file": "skills/auto_人机共生中的_实践清单_生成与验证闭环_e51758.py",
+  "description": "人机共生中的‘实践清单’生成与验证闭环：AI如何将模糊的工业目标（如‘优化热处理工艺’）转化为人类可执行、可打勾的具体物理实验清单，并能准确解读人类反馈的实验结果（成功/失败/异常），进而修正理论模型？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "industrial_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.003960",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_93_Q9_1_8105",
+  "design_spec": {
+    "name": "auto_人机共生中的_实践清单_生成与验证闭环_e51758",
+    "display_name": "人机共生中的‘实践清单’生成与验证闭环：AI如何将模糊的工业目标（如‘优化热处理工艺’）转化为人类可",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生中的‘实践清单’生成与验证闭环：AI如何将模糊的工业目标（如‘优化热处理工艺’）转化为人类可执行、可打勾的具体物理实验清单，并能准确解读人类反馈的实验结",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 270
+  }
+}

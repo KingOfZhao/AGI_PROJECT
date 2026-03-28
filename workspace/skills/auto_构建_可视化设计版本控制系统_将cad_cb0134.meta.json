@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_可视化设计版本控制系统_将cad_cb0134",
+  "file": "skills/auto_构建_可视化设计版本控制系统_将cad_cb0134.py",
+  "description": "构建'可视化设计版本控制系统'。将CAD的每一步特征操作（拉伸、倒角）封装为Flutter的Action对象。利用Flutter的状态回溯能力驱动CAD模型的'时间滑块'。用户可以通过拖动UI上的时间轴，直观看到模型从零维草图到三维实体的生长过程，并随时点击任意历史节点进行参数修改（分支），实现非线性的设计探索。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.113572",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_6_O4_100",
+  "design_spec": {
+    "name": "auto_构建_可视化设计版本控制系统_将cad_cb0134",
+    "display_name": "构建'可视化设计版本控制系统'。将CAD的每一步特征操作（拉伸、倒角）封装为Flutter的Acti",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'可视化设计版本控制系统'。将CAD的每一步特征操作（拉伸、倒角）封装为Flutter的Action对象。利用Flutter的状态回溯能力驱动CAD模型的'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 230
+  }
+}

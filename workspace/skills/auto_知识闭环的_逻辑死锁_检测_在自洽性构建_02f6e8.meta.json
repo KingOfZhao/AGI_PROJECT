@@ -1,0 +1,30 @@
+{
+  "name": "auto_知识闭环的_逻辑死锁_检测_在自洽性构建_02f6e8",
+  "file": "skills/auto_知识闭环的_逻辑死锁_检测_在自洽性构建_02f6e8.py",
+  "description": "知识闭环的'逻辑死锁'检测：在自洽性构建中，如果节点A依赖B，B依赖C，C又依赖A（循环依赖），且该闭环在近期实践中从未产生对外输出，这可能是一个'逻辑空转'的封闭系统。如何设计算法自动识别并打破这种无价值的强连通分量？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "GraphTheory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.387917",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_128_Q6_0_3176",
+  "design_spec": {
+    "name": "auto_知识闭环的_逻辑死锁_检测_在自洽性构建_02f6e8",
+    "display_name": "知识闭环的'逻辑死锁'检测：在自洽性构建中，如果节点A依赖B，B依赖C，C又依赖A（循环依赖），且该",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "知识闭环的'逻辑死锁'检测：在自洽性构建中，如果节点A依赖B，B依赖C，C又依赖A（循环依赖），且该闭环在近期实践中从未产生对外输出，这可能是一个'逻辑空转'的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

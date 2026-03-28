@@ -1,0 +1,30 @@
+{
+  "name": "auto_注意力锚定的任务分解器_结合认知科学_e39db3",
+  "file": "skills/auto_注意力锚定的任务分解器_结合认知科学_e39db3.py",
+  "description": "【注意力锚定的任务分解器】：结合认知科学的注意力机制，设计一种'动态粒度调整'的代码生成策略。在拆解复杂任务时，系统自动识别'高风险推理节点'（类似逻辑谜题中的干扰项），并在这些节点插入'锚点'（中间验证步骤）。这既解决了代码生成的粒度问题（避免一步跨太大出错），也模拟了人类解决复杂问题时的'草稿纸'认知机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.877719",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_25_O3_9655",
+  "design_spec": {
+    "name": "auto_注意力锚定的任务分解器_结合认知科学_e39db3",
+    "display_name": "【注意力锚定的任务分解器】：结合认知科学的注意力机制，设计一种'动态粒度调整'的代码生成策略。在拆解",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【注意力锚定的任务分解器】：结合认知科学的注意力机制，设计一种'动态粒度调整'的代码生成策略。在拆解复杂任务时，系统自动识别'高风险推理节点'（类似逻辑谜题中的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

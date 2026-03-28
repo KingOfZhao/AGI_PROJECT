@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究hebbian学习规则在技能图网络中_8215c2",
+  "file": "skills/auto_研究hebbian学习规则在技能图网络中_8215c2.py",
+  "description": "研究Hebbian学习规则在技能图网络中的应用，设计'高频共现固化'算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.144867",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_6_G_Cognitive_Crystallization_1857",
+  "design_spec": {
+    "name": "auto_研究hebbian学习规则在技能图网络中_8215c2",
+    "display_name": "研究Hebbian学习规则在技能图网络中的应用，设计'高频共现固化'算法。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究Hebbian学习规则在技能图网络中的应用，设计'高频共现固化'算法。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_动态技能固化系统_当人类在某一领_deb51c",
+  "file": "skills/auto_实现_动态技能固化系统_当人类在某一领_deb51c.py",
+  "description": "实现'动态技能固化系统'。当人类在某一领域频繁交互（如反复修改代码风格），AI识别出该模式为'热点'，自动触发'JIT编译'——即动态生成一个专属的微调适配器或结构化Prompt模板，将临时的上下文学习转化为半永久的'条件反射'，从而降低延迟和Token成本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.357950",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O3_5552",
+  "design_spec": {
+    "name": "auto_实现_动态技能固化系统_当人类在某一领_deb51c",
+    "display_name": "实现'动态技能固化系统'。当人类在某一领域频繁交互（如反复修改代码风格），AI识别出该模式为'热点'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'动态技能固化系统'。当人类在某一领域频繁交互（如反复修改代码风格），AI识别出该模式为'热点'，自动触发'JIT编译'——即动态生成一个专属的微调适配器或",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

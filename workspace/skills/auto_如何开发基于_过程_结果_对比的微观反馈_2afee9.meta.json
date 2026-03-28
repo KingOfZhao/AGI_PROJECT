@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何开发基于_过程_结果_对比的微观反馈_2afee9",
+  "file": "skills/auto_如何开发基于_过程_结果_对比的微观反馈_2afee9.py",
+  "description": "如何开发基于‘过程-结果’对比的微观反馈机制？在缺乏显式标签的情况下，利用最终成品的良品/次品状态，通过时间差分（TD）算法回溯分析，识别出导致失败的关键动作片段（即‘错误节点’），从而在没有教练的情况下自动生成‘避坑指南’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "algorithm",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.312796",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_135_Q3_0_6118",
+  "design_spec": {
+    "name": "auto_如何开发基于_过程_结果_对比的微观反馈_2afee9",
+    "display_name": "如何开发基于‘过程-结果’对比的微观反馈机制？在缺乏显式标签的情况下，利用最终成品的良品/次品状态，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何开发基于‘过程-结果’对比的微观反馈机制？在缺乏显式标签的情况下，利用最终成品的良品/次品状态，通过时间差分（TD）算法回溯分析，识别出导致失败的关键动作片",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 411
+  }
+}

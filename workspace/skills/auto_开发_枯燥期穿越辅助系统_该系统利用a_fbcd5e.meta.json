@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_枯燥期穿越辅助系统_该系统利用a_fbcd5e",
+  "file": "skills/auto_开发_枯燥期穿越辅助系统_该系统利用a_fbcd5e.py",
+  "description": "开发'枯燥期穿越辅助系统'。该系统利用AI监控学习者的实践数据，当检测到进入'技能高原期'（Reward Sparse Zone）时，AI基于强化学习中的Value Decomposition技术，人为生成微小的阶段性子目标（内在动机），将长期的稀疏奖励转化为高频的即时反馈，帮助人类维持多巴胺水平，坚持度过技能习得的关键瓶颈期。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.368493",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O1_3383",
+  "design_spec": {
+    "name": "auto_开发_枯燥期穿越辅助系统_该系统利用a_fbcd5e",
+    "display_name": "开发'枯燥期穿越辅助系统'。该系统利用AI监控学习者的实践数据，当检测到进入'技能高原期'（Rewa",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'枯燥期穿越辅助系统'。该系统利用AI监控学习者的实践数据，当检测到进入'技能高原期'（Reward Sparse Zone）时，AI基于强化学习中的Val",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

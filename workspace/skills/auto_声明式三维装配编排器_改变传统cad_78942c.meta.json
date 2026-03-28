@@ -1,0 +1,30 @@
+{
+  "name": "auto_声明式三维装配编排器_改变传统cad_78942c",
+  "file": "skills/auto_声明式三维装配编排器_改变传统cad_78942c.py",
+  "description": "‘声明式三维装配编排器’。改变传统CAD‘逐一添加配合关系’的繁琐操作。借鉴Flutter的Row/Column布局思维，构建3D版的‘AssemblyLayout’组件。工程师只需声明‘这组零件按圆周均布’或‘这两个部件保持间距且轴对齐’，系统自动推导具体的几何约束，大幅简化装配体设计流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.694548",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_91_O3_6702",
+  "design_spec": {
+    "name": "auto_声明式三维装配编排器_改变传统cad_78942c",
+    "display_name": "‘声明式三维装配编排器’。改变传统CAD‘逐一添加配合关系’的繁琐操作。借鉴Flutter的Row/",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘声明式三维装配编排器’。改变传统CAD‘逐一添加配合关系’的繁琐操作。借鉴Flutter的Row/Column布局思维，构建3D版的‘AssemblyLayo",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 265
+  }
+}

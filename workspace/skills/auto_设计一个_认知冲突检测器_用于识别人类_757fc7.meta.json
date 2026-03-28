@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计一个_认知冲突检测器_用于识别人类_757fc7",
+  "file": "skills/auto_设计一个_认知冲突检测器_用于识别人类_757fc7.py",
+  "description": "设计一个'认知冲突检测器'，用于识别人类意图中的逻辑自洽性。当用户提出一个宏观意图（如'开发一个即安全又完全开放的系统'）时，系统需遍历节点库中的逻辑约束，识别出互斥的子目标。本子问题重点解决如何在结构化网络中快速检索并标记'互斥节点对'，防止生成不可执行的代码路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cognitive_logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.436538",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q2_3_4953",
+  "design_spec": {
+    "name": "auto_设计一个_认知冲突检测器_用于识别人类_757fc7",
+    "display_name": "设计一个'认知冲突检测器'，用于识别人类意图中的逻辑自洽性。当用户提出一个宏观意图（如'开发一个即安",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计一个'认知冲突检测器'，用于识别人类意图中的逻辑自洽性。当用户提出一个宏观意图（如'开发一个即安全又完全开放的系统'）时，系统需遍历节点库中的逻辑约束，识别",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

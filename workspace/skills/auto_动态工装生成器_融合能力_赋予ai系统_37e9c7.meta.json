@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态工装生成器_融合能力_赋予ai系统_37e9c7",
+  "file": "skills/auto_动态工装生成器_融合能力_赋予ai系统_37e9c7.py",
+  "description": "【动态工装生成器】融合能力：赋予AI系统一种'工匠式'的即兴创作能力。当面对复杂的跨域任务（如既有代码逻辑又有物理操作）时，系统不再仅检索现有API，而是能自动编写'一次性脚本'（代码工装）来适配异构系统或物理环境。例如，在迁移数据时，自动生成一个'临时转换器'（类似木匠做的夹具），确保数据格式在传输中不发生'形变'，任务完成后自动销毁，实现极致的灵活性与适应性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.330364",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_135_O4_2360",
+  "design_spec": {
+    "name": "auto_动态工装生成器_融合能力_赋予ai系统_37e9c7",
+    "display_name": "【动态工装生成器】融合能力：赋予AI系统一种'工匠式'的即兴创作能力。当面对复杂的跨域任务（如既有代",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【动态工装生成器】融合能力：赋予AI系统一种'工匠式'的即兴创作能力。当面对复杂的跨域任务（如既有代码逻辑又有物理操作）时，系统不再仅检索现有API，而是能自动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 236
+  }
+}

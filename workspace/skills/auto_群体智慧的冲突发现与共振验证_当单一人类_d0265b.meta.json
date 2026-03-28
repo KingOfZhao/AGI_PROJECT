@@ -1,0 +1,30 @@
+{
+  "name": "auto_群体智慧的冲突发现与共振验证_当单一人类_d0265b",
+  "file": "skills/auto_群体智慧的冲突发现与共振验证_当单一人类_d0265b.py",
+  "description": "群体智慧的冲突发现与共振验证：当单一人类个体的实践反馈与系统节点冲突时，可能是主观误差。系统需构建机制，追踪特定节点在不同用户、不同上下文中的表现。只有当跨域、跨人群的反馈出现统计学显著的‘共振冲突’时，才启动证伪程序。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "sociology_statistics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.825098",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_129_Q7_3_4569",
+  "design_spec": {
+    "name": "auto_群体智慧的冲突发现与共振验证_当单一人类_d0265b",
+    "display_name": "群体智慧的冲突发现与共振验证：当单一人类个体的实践反馈与系统节点冲突时，可能是主观误差。系统需构建机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "群体智慧的冲突发现与共振验证：当单一人类个体的实践反馈与系统节点冲突时，可能是主观误差。系统需构建机制，追踪特定节点在不同用户、不同上下文中的表现。只有当跨域、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

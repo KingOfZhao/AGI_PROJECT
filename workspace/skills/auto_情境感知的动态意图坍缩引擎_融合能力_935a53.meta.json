@@ -1,0 +1,30 @@
+{
+  "name": "auto_情境感知的动态意图坍缩引擎_融合能力_935a53",
+  "file": "skills/auto_情境感知的动态意图坍缩引擎_融合能力_935a53.py",
+  "description": "【情境感知的动态意图坍缩引擎】：融合能力在于引入领域B的‘人情世故与潜规则’处理机制，改造领域A的死板JSON映射。系统能根据用户的历史行为‘习惯’（类似老客户档案）和环境‘状态’（类似摆摊位置），将极度省略的指令（如‘搞定那个事’）自动填充为可执行的完整JSON参数，并附带置信度，模拟人类老手间的默契，极大降低交互成本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.716539",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_95_O1_2861",
+  "design_spec": {
+    "name": "auto_情境感知的动态意图坍缩引擎_融合能力_935a53",
+    "display_name": "【情境感知的动态意图坍缩引擎】：融合能力在于引入领域B的‘人情世故与潜规则’处理机制，改造领域A的死",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【情境感知的动态意图坍缩引擎】：融合能力在于引入领域B的‘人情世故与潜规则’处理机制，改造领域A的死板JSON映射。系统能根据用户的历史行为‘习惯’（类似老客户",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 339
+  }
+}

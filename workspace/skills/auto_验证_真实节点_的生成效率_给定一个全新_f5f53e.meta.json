@@ -1,0 +1,30 @@
+{
+  "name": "auto_验证_真实节点_的生成效率_给定一个全新_f5f53e",
+  "file": "skills/auto_验证_真实节点_的生成效率_给定一个全新_f5f53e.py",
+  "description": "验证'真实节点'的生成效率。给定一个全新的、AI训练集中未曾见过的工具（如一个刚发布的冷门库），要求AI在阅读文档后，自动生成一个符合系统规范的SKILL节点（包含API映射、常见错误处理、用例代码），并计算生成耗时。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_86",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:02:52.169653",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_86_Q10_2_3982",
+  "design_spec": {
+    "name": "auto_验证_真实节点_的生成效率_给定一个全新_f5f53e",
+    "display_name": "验证'真实节点'的生成效率。给定一个全新的、AI训练集中未曾见过的工具（如一个刚发布的冷门库），要求",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "验证'真实节点'的生成效率。给定一个全新的、AI训练集中未曾见过的工具（如一个刚发布的冷门库），要求AI在阅读文档后，自动生成一个符合系统规范的SKILL节点（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

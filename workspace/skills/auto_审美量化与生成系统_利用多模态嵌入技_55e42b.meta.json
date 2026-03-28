@@ -1,0 +1,30 @@
+{
+  "name": "auto_审美量化与生成系统_利用多模态嵌入技_55e42b",
+  "file": "skills/auto_审美量化与生成系统_利用多模态嵌入技_55e42b.py",
+  "description": "【审美量化与生成系统】：利用多模态嵌入技术，建立“自然语言审美”与“工艺物理参数”的共享语义空间。用户只需输入“古朴、厚重”等抽象词汇，系统通过计算语义相似度，直接映射到具体的工艺参数组合（如粗糙度、上釉厚度、烧制气氛），并生成可执行方案。这打破了传统工艺“只可意会不可言传”的壁垒，让AI理解“道”，并输出“术”。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_27",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:46:27.720183",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_27_O4_4500",
+  "design_spec": {
+    "name": "auto_审美量化与生成系统_利用多模态嵌入技_55e42b",
+    "display_name": "【审美量化与生成系统】：利用多模态嵌入技术，建立“自然语言审美”与“工艺物理参数”的共享语义空间。用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【审美量化与生成系统】：利用多模态嵌入技术，建立“自然语言审美”与“工艺物理参数”的共享语义空间。用户只需输入“古朴、厚重”等抽象词汇，系统通过计算语义相似度，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

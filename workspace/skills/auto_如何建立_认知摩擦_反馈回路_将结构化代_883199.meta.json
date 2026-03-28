@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立_认知摩擦_反馈回路_将结构化代_883199",
+  "file": "skills/auto_如何建立_认知摩擦_反馈回路_将结构化代_883199.py",
+  "description": "如何建立'认知摩擦'反馈回路：将结构化代码反向转化为自然语言描述以纠正意图？这是'人机共生'的关键。当AI将模糊意图转化为结构化代码后，不应直接执行，而是将其'回译'为人类可懂的描述（如：'你是指要把这个循环改成并行处理吗？'）。本问题验证这种双向转化的准确度及其对最终意图对齐的贡献。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.254390",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_16_Q4_1_8514",
+  "design_spec": {
+    "name": "auto_如何建立_认知摩擦_反馈回路_将结构化代_883199",
+    "display_name": "如何建立'认知摩擦'反馈回路：将结构化代码反向转化为自然语言描述以纠正意图？这是'人机共生'的关键。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立'认知摩擦'反馈回路：将结构化代码反向转化为自然语言描述以纠正意图？这是'人机共生'的关键。当AI将模糊意图转化为结构化代码后，不应直接执行，而是将其'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

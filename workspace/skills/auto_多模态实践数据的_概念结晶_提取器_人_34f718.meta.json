@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态实践数据的_概念结晶_提取器_人_34f718",
+  "file": "skills/auto_多模态实践数据的_概念结晶_提取器_人_34f718.py",
+  "description": "多模态实践数据的'概念结晶'提取器: 人类在执行'摆摊'等实践后，会反馈视频、日志或语音。如何设计一个提取算法，能从这些非结构化数据中识别出'原有知识图谱中不存在的模式'，并将其抽象为新的概念节点，而非仅仅归档为数据？这是从归纳(2)到固化(4)的关键跳转。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:07.991662",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_59_Q2_2_2882",
+  "design_spec": {
+    "name": "auto_多模态实践数据的_概念结晶_提取器_人_34f718",
+    "display_name": "多模态实践数据的'概念结晶'提取器: 人类在执行'摆摊'等实践后，会反馈视频、日志或语音。如何设计一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态实践数据的'概念结晶'提取器: 人类在执行'摆摊'等实践后，会反馈视频、日志或语音。如何设计一个提取算法，能从这些非结构化数据中识别出'原有知识图谱中不存",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

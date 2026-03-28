@@ -1,0 +1,30 @@
+{
+  "name": "auto_价值对齐_工业安全红线与生产效率的帕累_02aae4",
+  "file": "skills/auto_价值对齐_工业安全红线与生产效率的帕累_02aae4.py",
+  "description": "【价值对齐】工业安全红线与生产效率的帕累托最优冲突解决。在AGI决策中，安全节点拥有最高权重，但过度安全会导致生产停滞。如何将抽象的安全法规转化为具体的、可计算的‘停止损失函数’，并在实时生产流中动态平衡安全与效率？即验证系统是否懂得‘合理的冒险’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "safety_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.700008",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_110_Q9_3_6086",
+  "design_spec": {
+    "name": "auto_价值对齐_工业安全红线与生产效率的帕累_02aae4",
+    "display_name": "【价值对齐】工业安全红线与生产效率的帕累托最优冲突解决。在AGI决策中，安全节点拥有最高权重，但过度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【价值对齐】工业安全红线与生产效率的帕累托最优冲突解决。在AGI决策中，安全节点拥有最高权重，但过度安全会导致生产停滞。如何将抽象的安全法规转化为具体的、可计算",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

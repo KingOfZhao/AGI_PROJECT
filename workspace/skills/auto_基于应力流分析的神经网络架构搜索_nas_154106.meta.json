@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于应力流分析的神经网络架构搜索_nas_154106",
+  "file": "skills/auto_基于应力流分析的神经网络架构搜索_nas_154106.py",
+  "description": "基于应力流分析的神经网络架构搜索(NAS)与生成式结构工程。将建筑力学中的有限元分析(FEA)算法引入NN架构设计，视网络层为建筑楼层，连接为柱梁，动态'剪枝'掉对最终输出（屋顶承载力）贡献小的结构，反之，用拓扑优化算法生成最省材料的建筑形态。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.798137",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O2_9001",
+  "design_spec": {
+    "name": "auto_基于应力流分析的神经网络架构搜索_nas_154106",
+    "display_name": "基于应力流分析的神经网络架构搜索(NAS)与生成式结构工程。将建筑力学中的有限元分析(FEA)算法引",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于应力流分析的神经网络架构搜索(NAS)与生成式结构工程。将建筑力学中的有限元分析(FEA)算法引入NN架构设计，视网络层为建筑楼层，连接为柱梁，动态'剪枝'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

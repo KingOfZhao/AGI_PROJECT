@@ -1,0 +1,50 @@
+{
+  "name": "ULDS v2.1 十一大规律通用推演框架",
+  "description": "Universal Laws Deduction Skill v2.1 — 以十一大必然规律(数学/物理/化学/逻辑/信息论/系统论/概率统计/对称性/可计算性/演化动力学/认识论极限)为不可突破的硬编码底层。人类认知的一切科学技能和能力都从这十一大规律出发，从规律到答案之间的路径就是推演——逐级细化直到路径清晰可见、可执行。通过F→V→F链式收敛+PHRP五级渐进细化+六步闭环推演，适用于人类认知所能触及的一切问题。~90%自动化，全程标注[CODE]/[HUMAN]，不回避任何问题（包括框架自身局限）。",
+  "tags": [
+    "十一大规律", "通用推演", "固定变量链", "PHRP", "链式收敛",
+    "universal-laws", "deduction", "reasoning-framework", "fixed-variable-chain",
+    "packaging", "die-cutting", "manufacturing", "engineering", "optimization",
+    "software", "medicine", "business", "ai-training", "education",
+    "constraint-propagation", "error-budget", "RSS", "DFM",
+    "math", "physics", "chemistry", "logic", "information-theory",
+    "systems-theory", "probability", "statistics", "symmetry", "computability",
+    "evolution", "adaptation", "epistemology", "cognitive-limits", "godel",
+    "P0-priority", "highest-priority", "meta-skill", "core-framework"
+  ],
+  "category": "core-framework",
+  "source": "local",
+  "safety_level": "safe",
+  "priority": "P0",
+  "version": "2.1",
+  "author": "Zhao Dylan",
+  "created": "2026-03-26",
+  "updated": "2026-03-26",
+  "skill_file": "/Users/administruter/Desktop/DiePre AI/DiePreAI/ULDS_v2.0_九大规律推演框架.md",
+  "url": "",
+  "integration": {
+    "diepre_reasoning_engine": "SYSTEM_PROMPT + call_glm5_claude_mode 已注入十一大规律摘要",
+    "ooda_controller": "P0 最高优先级加载 + SkillLoader.call() 自动注入",
+    "pcm_router": "core-framework 类别 + 全意图关键词匹配"
+  },
+  "eleven_laws": [
+    "L1 数学公理与定理",
+    "L2 物理定律",
+    "L3 化学定律",
+    "L4 逻辑规律",
+    "L5 信息论规律",
+    "L6 系统理论与控制论",
+    "L7 概率与统计规律",
+    "L8 对称性与守恒原理",
+    "L9 可计算性与算法极限",
+    "L10 演化动力学(变异+选择+保留→适应)",
+    "L11 认识论极限(Gödel不完备+观测者效应+有限理性)"
+  ],
+  "pipeline": ["Step0 输入初始化", "Step1 规律→约束映射", "Step2 变量引入", "Step3 迭代提炼", "Step4 全链路验证", "Step5 输出交付", "Step6 反馈闭环"],
+  "self_limitations": [
+    "ULDS不是万能的——没有领域Skill只给出空框架",
+    "十一大规律可能不完备——保留L12+拓展性",
+    "清晰度95%≠正确——清晰地走向错误方向最危险",
+    "ULDS本身受L9(递归风险)和L11(模型≠现实)约束"
+  ]
+}

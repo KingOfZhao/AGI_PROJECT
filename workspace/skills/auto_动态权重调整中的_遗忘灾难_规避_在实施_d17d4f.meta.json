@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态权重调整中的_遗忘灾难_规避_在实施_d17d4f",
+  "file": "skills/auto_动态权重调整中的_遗忘灾难_规避_在实施_d17d4f.py",
+  "description": "动态权重调整中的‘遗忘灾难’规避：在实施淘汰机制时，如何确保不破坏认知网络的拓扑完整性？即，如何验证被删除的节点不是连接两个看似无关领域（左右跨域）的关键‘桥梁节点’？需要开发一种基于介数中心性的保护算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "network_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.523789",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_40_Q3_2_3921",
+  "design_spec": {
+    "name": "auto_动态权重调整中的_遗忘灾难_规避_在实施_d17d4f",
+    "display_name": "动态权重调整中的‘遗忘灾难’规避：在实施淘汰机制时，如何确保不破坏认知网络的拓扑完整性？即，如何验证",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态权重调整中的‘遗忘灾难’规避：在实施淘汰机制时，如何确保不破坏认知网络的拓扑完整性？即，如何验证被删除的节点不是连接两个看似无关领域（左右跨域）的关键‘桥梁",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 237
+  }
+}

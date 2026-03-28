@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于模拟环境的_真实节点_压力测试_对于_1b6582",
+  "file": "skills/auto_基于模拟环境的_真实节点_压力测试_对于_1b6582.py",
+  "description": "基于模拟环境的‘真实节点’压力测试：对于无法立即在物理世界验证的节点（如高成本操作），如何构建虚拟沙箱进行预证伪？需建立一套将SKILL节点映射为可执行代码的代理机制，在模拟环境中批量运行并观察异常。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "digital_twin",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.536288",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_40_Q7_2_3921",
+  "design_spec": {
+    "name": "auto_基于模拟环境的_真实节点_压力测试_对于_1b6582",
+    "display_name": "基于模拟环境的‘真实节点’压力测试：对于无法立即在物理世界验证的节点（如高成本操作），如何构建虚拟沙",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于模拟环境的‘真实节点’压力测试：对于无法立即在物理世界验证的节点（如高成本操作），如何构建虚拟沙箱进行预证伪？需建立一套将SKILL节点映射为可执行代码的代",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 322
+  }
+}

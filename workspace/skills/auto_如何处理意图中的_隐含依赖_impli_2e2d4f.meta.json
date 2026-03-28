@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何处理意图中的_隐含依赖_impli_2e2d4f",
+  "file": "skills/auto_如何处理意图中的_隐含依赖_impli_2e2d4f.py",
+  "description": "如何处理意图中的'隐含依赖'（Implicit Dependencies）？人类常说'把A处理一下给B用'，却往往忽略A到B之间需要的数据格式转换（如JSON转CSV）。系统需要建立一种'依赖连通性检测机制'，基于已有节点网络，自动识别并插入缺失的'胶水代码节点'（Glue Code Nodes），确保意图到代码的流水线是物理连通的。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_51",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:49:54.145341",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_51_Q8_1_8653",
+  "design_spec": {
+    "name": "auto_如何处理意图中的_隐含依赖_impli_2e2d4f",
+    "display_name": "如何处理意图中的'隐含依赖'（Implicit Dependencies）？人类常说'把A处理一下给",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何处理意图中的'隐含依赖'（Implicit Dependencies）？人类常说'把A处理一下给B用'，却往往忽略A到B之间需要的数据格式转换（如JSON转",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

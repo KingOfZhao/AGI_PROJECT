@@ -112,20 +112,36 @@ def run_shell(cmd, cwd=None, timeout=DEFAULT_TIMEOUT, confirm=False, env=None):
 
 
 def run_python(code, timeout=DEFAULT_TIMEOUT):
-    """执行Python代码片段
+    """执行Python代码片段 — tempfile模式(解决heredoc>卡死问题)
+    
+    使用临时文件执行, 彻底避免:
+      - heredoc> 卡死 (shell等待EOF标记)
+      - python -c 引号嵌套解析错误
+      - 管道截断/特殊字符展开
     
     Args:
-        code: Python代码字符串
+        code: Python代码字符串 (任意长度/引号嵌套均安全)
         timeout: 超时秒数
     
     Returns:
-        dict: {success, output, error, duration}
+        dict: {success, stdout, stderr, returncode, duration}
     """
+    import tempfile
+    
     python = str(PROJECT_ROOT / 'venv' / 'bin' / 'python')
     if not os.path.exists(python):
         python = sys.executable
     
-    return run_shell([python, '-c', code], timeout=timeout)
+    fd, temp_path = tempfile.mkstemp(suffix='.py', prefix='shell_exec_')
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            f.write(code)
+        return run_shell([python, temp_path], timeout=timeout)
+    finally:
+        try:
+            os.unlink(temp_path)
+        except OSError:
+            pass
 
 
 def run_script(script_path, args=None, timeout=60):

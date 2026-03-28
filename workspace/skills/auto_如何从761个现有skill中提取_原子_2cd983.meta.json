@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从761个现有skill中提取_原子_2cd983",
+  "file": "skills/auto_如何从761个现有skill中提取_原子_2cd983.py",
+  "description": "如何从761个现有Skill中提取'原子化能力单元'并构建知识图谱？当前Skill可能存在功能重叠或层级混乱。需要开发一种自动化分析工具，对现有代码库进行静态分析和聚类，识别出不可再分的'真实节点'（如HTTP请求、字符串裁剪、数组过滤），并以此为基座，验证所有高阶Skill均可由这些原子节点组合而成（认知自洽）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_41",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:25:13.360162",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_41_Q3_1_7393",
+  "design_spec": {
+    "name": "auto_如何从761个现有skill中提取_原子_2cd983",
+    "display_name": "如何从761个现有Skill中提取'原子化能力单元'并构建知识图谱？当前Skill可能存在功能重叠或",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从761个现有Skill中提取'原子化能力单元'并构建知识图谱？当前Skill可能存在功能重叠或层级混乱。需要开发一种自动化分析工具，对现有代码库进行静态分",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 313
+  }
+}

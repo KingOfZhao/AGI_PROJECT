@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_跨维度的所见即所得_wysiwyg_53269d",
+  "file": "skills/auto_开发_跨维度的所见即所得_wysiwyg_53269d.py",
+  "description": "开发'跨维度的所见即所得(WYSIWYG)钣金编程器'。在Flutter中直接实现钣金展开算法，利用CustomPainter实时绘制展开图。结合Flutter的热重载，工程师修改3D参数时，2D展开图（及加工G代码）在毫秒级内同步生成。这不仅是一个查看器，更是一个基于Web的轻量级CAM（计算机辅助制造）工具。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.572679",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_37_O3_3197",
+  "design_spec": {
+    "name": "auto_开发_跨维度的所见即所得_wysiwyg_53269d",
+    "display_name": "开发'跨维度的所见即所得(WYSIWYG)钣金编程器'。在Flutter中直接实现钣金展开算法，利用",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'跨维度的所见即所得(WYSIWYG)钣金编程器'。在Flutter中直接实现钣金展开算法，利用CustomPainter实时绘制展开图。结合Flutter",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

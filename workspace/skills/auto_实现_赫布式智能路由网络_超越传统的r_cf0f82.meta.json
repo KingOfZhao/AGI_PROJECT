@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_赫布式智能路由网络_超越传统的r_cf0f82",
+  "file": "skills/auto_实现_赫布式智能路由网络_超越传统的r_cf0f82.py",
+  "description": "实现‘赫布式智能路由网络’。超越传统的Round-Robin或加权轮询，引入类脑的‘可塑性’机制。路由网格能基于‘业务成功率’和‘知识密度’（而非仅仅是TCP连接数）来动态重塑流量拓扑。如果某个人类专家-AI协作节点产出了高质量的‘真实节点’（经过验证的知识），系统自动将更多复杂请求路由至该节点，并建立长期的‘突触连接’（优先级队列）。反之，对于由于数据过时导致准确率下降的节点，通过‘突触抑制’逐渐边缘化，实现知识流动的神经化调控。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.460403",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O4_5660",
+  "design_spec": {
+    "name": "auto_实现_赫布式智能路由网络_超越传统的r_cf0f82",
+    "display_name": "实现‘赫布式智能路由网络’。超越传统的Round-Robin或加权轮询，引入类脑的‘可塑性’机制。路",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现‘赫布式智能路由网络’。超越传统的Round-Robin或加权轮询，引入类脑的‘可塑性’机制。路由网格能基于‘业务成功率’和‘知识密度’（而非仅仅是TCP连",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

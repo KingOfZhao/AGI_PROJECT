@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现从非结构化自然语言到可证伪逻辑表_4260cf",
+  "file": "skills/auto_如何实现从非结构化自然语言到可证伪逻辑表_4260cf.py",
+  "description": "如何实现从非结构化自然语言到可证伪逻辑表达式的自动编译？人类输入的'实践证伪'往往是口语化的（如'这菜炒糊了'）。系统需将其实时编译为可执行的操作代码（Check: Temperature > 200C AND Time > 5mins），以修正SKILL库中的参数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "natural_language_processing",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.505448",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_147_Q7_1_6066",
+  "design_spec": {
+    "name": "auto_如何实现从非结构化自然语言到可证伪逻辑表_4260cf",
+    "display_name": "如何实现从非结构化自然语言到可证伪逻辑表达式的自动编译？人类输入的'实践证伪'往往是口语化的（如'这",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现从非结构化自然语言到可证伪逻辑表达式的自动编译？人类输入的'实践证伪'往往是口语化的（如'这菜炒糊了'）。系统需将其实时编译为可执行的操作代码（Chec",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 206
+  }
+}

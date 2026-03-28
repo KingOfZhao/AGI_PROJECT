@@ -1,0 +1,30 @@
+{
+  "name": "auto_长程规划与状态空间搜索_在一个具有延迟_74d36c",
+  "file": "skills/auto_长程规划与状态空间搜索_在一个具有延迟_74d36c.py",
+  "description": "【长程规划与状态空间搜索】在一个具有延迟奖励的环境（如简化的版图经营游戏或复杂的物流调度）中，要求AI制定一个跨越10个时间步以上的计划。验证AI是否具备在状态空间中进行前瞻搜索的能力，还是仅仅基于当前状态进行贪心优化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "reinforcement_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.310517",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q9_2_2222",
+  "design_spec": {
+    "name": "auto_长程规划与状态空间搜索_在一个具有延迟_74d36c",
+    "display_name": "【长程规划与状态空间搜索】在一个具有延迟奖励的环境（如简化的版图经营游戏或复杂的物流调度）中，要求A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【长程规划与状态空间搜索】在一个具有延迟奖励的环境（如简化的版图经营游戏或复杂的物流调度）中，要求AI制定一个跨越10个时间步以上的计划。验证AI是否具备在状态",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

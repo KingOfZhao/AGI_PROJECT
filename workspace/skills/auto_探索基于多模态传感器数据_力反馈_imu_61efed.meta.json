@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索基于多模态传感器数据_力反馈_imu_61efed",
+  "file": "skills/auto_探索基于多模态传感器数据_力反馈_imu_61efed.py",
+  "description": "探索基于多模态传感器数据（力反馈、IMU）的动作原语（Motion Primitives）提取技术，构建'肌肉记忆'数字化节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.954094",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_92_G1_5280",
+  "design_spec": {
+    "name": "auto_探索基于多模态传感器数据_力反馈_imu_61efed",
+    "display_name": "探索基于多模态传感器数据（力反馈、IMU）的动作原语（Motion Primitives）提取技术，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索基于多模态传感器数据（力反馈、IMU）的动作原语（Motion Primitives）提取技术，构建'肌肉记忆'数字化节点。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

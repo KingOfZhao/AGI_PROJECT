@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_自证闭环的原子技能图谱_将哲学追_ee3632",
+  "file": "skills/auto_构建_自证闭环的原子技能图谱_将哲学追_ee3632.py",
+  "description": "构建'自证闭环的原子技能图谱'。将哲学追问机制转化为代码层面的'依赖性检查'。当AI尝试拆解一个技能（如'抓取'）时，系统自动发起递归质询：'为了执行抓取，需要什么前置条件？'直到遇到物理硬件直接支持的指令（如'电机通电'，即不可再分的物理公理）。这种'基于公理的自动停机机制'能防止过度拆解导致的计算爆炸，并确保每一个生成的Skill节点都具备物理上的可执行性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.676970",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_148_O4_6448",
+  "design_spec": {
+    "name": "auto_构建_自证闭环的原子技能图谱_将哲学追_ee3632",
+    "display_name": "构建'自证闭环的原子技能图谱'。将哲学追问机制转化为代码层面的'依赖性检查'。当AI尝试拆解一个技能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'自证闭环的原子技能图谱'。将哲学追问机制转化为代码层面的'依赖性检查'。当AI尝试拆解一个技能（如'抓取'）时，系统自动发起递归质询：'为了执行抓取，需要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知范式化引擎_该能力能自动识别_edd837",
+  "file": "skills/auto_开发_认知范式化引擎_该能力能自动识别_edd837.py",
+  "description": "开发‘认知范式化引擎’。该能力能自动识别用户混乱的输入信息，像数据库拆分多对多关系一样，将纠缠在一起的‘情绪’、‘事实’、‘价值观’进行拆解和重组。这不仅是清洗数据，而是清洗思维，帮助用户将‘情绪化的抱怨’转化为‘结构化的问题陈述’，实现认知的降熵和清晰化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.027225",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_132_O1_7065",
+  "design_spec": {
+    "name": "auto_开发_认知范式化引擎_该能力能自动识别_edd837",
+    "display_name": "开发‘认知范式化引擎’。该能力能自动识别用户混乱的输入信息，像数据库拆分多对多关系一样，将纠缠在一起",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘认知范式化引擎’。该能力能自动识别用户混乱的输入信息，像数据库拆分多对多关系一样，将纠缠在一起的‘情绪’、‘事实’、‘价值观’进行拆解和重组。这不仅是清洗",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

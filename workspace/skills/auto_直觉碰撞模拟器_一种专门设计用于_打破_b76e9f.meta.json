@@ -1,0 +1,30 @@
+{
+  "name": "auto_直觉碰撞模拟器_一种专门设计用于_打破_b76e9f",
+  "file": "skills/auto_直觉碰撞模拟器_一种专门设计用于_打破_b76e9f.py",
+  "description": "【直觉碰撞模拟器】一种专门设计用于'打破直觉'的教学游戏模式。针对《博弈论》中的'囚徒困境'，不直接讲授结论，而是构建一个AI对手，诱导学习者基于'人性本能'（如信任、背叛）做决策，系统通过严酷的数学结果（长期坐牢）对学习者的直觉进行'降维打击'。这种通过'痛苦体验'获得的知识节点，比阅读文字具有更强的固化作用（Limbic Resonance）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_136",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:13:09.835931",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_136_O3_7793",
+  "design_spec": {
+    "name": "auto_直觉碰撞模拟器_一种专门设计用于_打破_b76e9f",
+    "display_name": "【直觉碰撞模拟器】一种专门设计用于'打破直觉'的教学游戏模式。针对《博弈论》中的'囚徒困境'，不直接",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【直觉碰撞模拟器】一种专门设计用于'打破直觉'的教学游戏模式。针对《博弈论》中的'囚徒困境'，不直接讲授结论，而是构建一个AI对手，诱导学习者基于'人性本能'（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 211
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_证伪反馈闭环_人机共生中_人类实践证伪_a444dc",
+  "file": "skills/auto_证伪反馈闭环_人机共生中_人类实践证伪_a444dc.py",
+  "description": "【证伪反馈闭环】人机共生中'人类实践证伪'如何结构化反馈给AI？当人类在物理世界执行SKILL失败时，如何将非结构化的'失败原因'映射回认知网络，精准削弱相关'真实节点'的权重或切断其连接，而非简单的负样本训练？这决定了系统是否具备自我纠错能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "reinforcement_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.665529",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_95_Q2_1_9265",
+  "design_spec": {
+    "name": "auto_证伪反馈闭环_人机共生中_人类实践证伪_a444dc",
+    "display_name": "【证伪反馈闭环】人机共生中'人类实践证伪'如何结构化反馈给AI？当人类在物理世界执行SKILL失败时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【证伪反馈闭环】人机共生中'人类实践证伪'如何结构化反馈给AI？当人类在物理世界执行SKILL失败时，如何将非结构化的'失败原因'映射回认知网络，精准削弱相关'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

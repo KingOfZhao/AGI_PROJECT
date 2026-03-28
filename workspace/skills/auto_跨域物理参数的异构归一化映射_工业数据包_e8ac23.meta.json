@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域物理参数的异构归一化映射_工业数据包_e8ac23",
+  "file": "skills/auto_跨域物理参数的异构归一化映射_工业数据包_e8ac23.py",
+  "description": "跨域物理参数的异构归一化映射：工业数据包含异构源（振动频谱、热成像图、PLC时序日志）。问题是如何构建一个统一的‘物理实体状态向量’，能够将不同时间尺度、不同维度的传感器数据映射到同一个认知节点的输入空间，使得‘振动异常’和‘温度异常’能被映射为同一故障节点的不同激活权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_40",
+    "industrial_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:08:42.547799",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_40_Q2_3_6812",
+  "design_spec": {
+    "name": "auto_跨域物理参数的异构归一化映射_工业数据包_e8ac23",
+    "display_name": "跨域物理参数的异构归一化映射：工业数据包含异构源（振动频谱、热成像图、PLC时序日志）。问题是如何构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域物理参数的异构归一化映射：工业数据包含异构源（振动频谱、热成像图、PLC时序日志）。问题是如何构建一个统一的‘物理实体状态向量’，能够将不同时间尺度、不同维",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

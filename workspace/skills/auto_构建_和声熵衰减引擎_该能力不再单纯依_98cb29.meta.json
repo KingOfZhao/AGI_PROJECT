@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_和声熵衰减引擎_该能力不再单纯依_98cb29",
+  "file": "skills/auto_构建_和声熵衰减引擎_该能力不再单纯依_98cb29.py",
+  "description": "构建'和声熵衰减引擎'。该能力不再单纯依赖时间戳进行线性降权，而是计算节点与当前上下文环境的'不协和度'（冲突程度）。当一个节点长期未被调用且与当前活跃知识网络产生逻辑冲突（高张力）时，其权重衰减速度呈指数级加快，模拟音乐中属七和弦迫切需要解决到主和弦的物理倾向，从而快速清理噪音节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:49:02.553581",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_10_O1_2901",
+  "design_spec": {
+    "name": "auto_构建_和声熵衰减引擎_该能力不再单纯依_98cb29",
+    "display_name": "构建'和声熵衰减引擎'。该能力不再单纯依赖时间戳进行线性降权，而是计算节点与当前上下文环境的'不协和",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'和声熵衰减引擎'。该能力不再单纯依赖时间戳进行线性降权，而是计算节点与当前上下文环境的'不协和度'（冲突程度）。当一个节点长期未被调用且与当前活跃知识网络",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 217
+  }
+}

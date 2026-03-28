@@ -1,0 +1,30 @@
+{
+  "name": "auto_自然语言到类型化函数签名的零样本映射机制_f9641a",
+  "file": "skills/auto_自然语言到类型化函数签名的零样本映射机制_f9641a.py",
+  "description": "自然语言到类型化函数签名的零样本映射机制：如何在不依赖特定领域训练数据的情况下，将非结构化的意图描述转化为强类型的函数定义（包含输入输出类型定义、异常处理声明），确保后续代码生成的结构安全性？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_8",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:02:30.347134",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_8_Q2_3_5963",
+  "design_spec": {
+    "name": "auto_自然语言到类型化函数签名的零样本映射机制_f9641a",
+    "display_name": "自然语言到类型化函数签名的零样本映射机制：如何在不依赖特定领域训练数据的情况下，将非结构化的意图描述",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自然语言到类型化函数签名的零样本映射机制：如何在不依赖特定领域训练数据的情况下，将非结构化的意图描述转化为强类型的函数定义（包含输入输出类型定义、异常处理声明）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 319
+  }
+}

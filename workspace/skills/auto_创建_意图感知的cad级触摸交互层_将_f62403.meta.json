@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_意图感知的cad级触摸交互层_将_f62403",
+  "file": "skills/auto_创建_意图感知的cad级触摸交互层_将_f62403.py",
+  "description": "创建‘意图感知的CAD级触摸交互层’。将CAD中成熟的‘对象捕捉’逻辑移植到Flutter的手势识别中。在平板端的大型绘图或图表应用中，不仅判断点击了哪个组件，还能根据手指移动的轨迹向量和速度，智能‘吸附’到最近的网格、中心线或正交方向，消除手指触控的抖动，提供像素级的精准操控体验。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_14",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:11:20.163045",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_14_O3_7612",
+  "design_spec": {
+    "name": "auto_创建_意图感知的cad级触摸交互层_将_f62403",
+    "display_name": "创建‘意图感知的CAD级触摸交互层’。将CAD中成熟的‘对象捕捉’逻辑移植到Flutter的手势识别",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建‘意图感知的CAD级触摸交互层’。将CAD中成熟的‘对象捕捉’逻辑移植到Flutter的手势识别中。在平板端的大型绘图或图表应用中，不仅判断点击了哪个组件，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

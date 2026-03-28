@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_信念溯源与证伪雷达_在人机共生中_46c39b",
+  "file": "skills/auto_建立_信念溯源与证伪雷达_在人机共生中_46c39b.py",
+  "description": "建立'信念溯源与证伪雷达'。在人机共生中，AI不仅存储结论，更严格存储'认知路径'（Data Lineage）。当人类准备基于某个信念做决策时，AI能瞬间回溯该信念生成的源头、中间的推理逻辑（ETL过程）以及当时的情绪上下文（环境变量）。如果源头已被证伪，AI自动触发全链路'级联更新'，修正所有基于该错误信念衍生出的子信念，实现真正的'认知自愈'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_114",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:34:56.209322",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_114_O4_1417",
+  "design_spec": {
+    "name": "auto_建立_信念溯源与证伪雷达_在人机共生中_46c39b",
+    "display_name": "建立'信念溯源与证伪雷达'。在人机共生中，AI不仅存储结论，更严格存储'认知路径'（Data Lin",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'信念溯源与证伪雷达'。在人机共生中，AI不仅存储结论，更严格存储'认知路径'（Data Lineage）。当人类准备基于某个信念做决策时，AI能瞬间回溯该",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

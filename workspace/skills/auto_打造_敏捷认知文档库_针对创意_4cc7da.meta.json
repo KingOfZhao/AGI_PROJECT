@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_敏捷认知文档库_针对创意_4cc7da",
+  "file": "skills/auto_打造_敏捷认知文档库_针对创意_4cc7da.py",
+  "description": "打造**'敏捷认知文档库'**。针对创意设计、艺术创作或混乱危机现场，AI不再强迫用户填写结构化表单，而是像MongoDB存储JSON文档一样，以非结构化方式捕捉人类的灵感碎片（语音、草图、情绪）。系统后台运行'延迟归约'算法，不在即时强求统一分类，而是在后期通过聚类算法慢慢浮现出结构。这种能力保护了人类在创新早期的'模糊直觉'不被僵化的工具扼杀，实现了'先捕获，后结构'的创新流。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.175526",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_67_O3_206",
+  "design_spec": {
+    "name": "auto_打造_敏捷认知文档库_针对创意_4cc7da",
+    "display_name": "打造**'敏捷认知文档库'**。针对创意设计、艺术创作或混乱危机现场，AI不再强迫用户填写结构化表单",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造**'敏捷认知文档库'**。针对创意设计、艺术创作或混乱危机现场，AI不再强迫用户填写结构化表单，而是像MongoDB存储JSON文档一样，以非结构化方式捕",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

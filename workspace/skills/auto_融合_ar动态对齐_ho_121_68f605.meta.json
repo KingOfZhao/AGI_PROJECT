@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_ar动态对齐_ho_121_68f605",
+  "file": "skills/auto_融合_ar动态对齐_ho_121_68f605.py",
+  "description": "融合'AR动态对齐'（ho_121）、'端云协同'（ho_121）和'意图显化解析'（td_121）。当用户说出模糊指令（如'帮我修好这个'），系统解析出意图，检索云端CAD数据，实时生成AR指导界面，并根据物理公差实时调整UI位置。这不仅是显示，更是将意图直接合成为视觉引导动作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.817975",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_122_E3_9921",
+  "design_spec": {
+    "name": "auto_融合_ar动态对齐_ho_121_68f605",
+    "display_name": "融合'AR动态对齐'（ho_121）、'端云协同'（ho_121）和'意图显化解析'（td_121）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'AR动态对齐'（ho_121）、'端云协同'（ho_121）和'意图显化解析'（td_121）。当用户说出模糊指令（如'帮我修好这个'），系统解析出意图，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

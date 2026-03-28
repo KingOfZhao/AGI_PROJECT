@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_生成式破坏性测试agent_在产_40b008",
+  "file": "skills/auto_构建_生成式破坏性测试agent_在产_40b008.py",
+  "description": "构建‘生成式破坏性测试Agent’。在产品设计或制造流程规划阶段，AI不仅生成标准方案，还利用对抗网络自动生成‘极端工况集’（如超常温度、暴力使用）。AI在数字孪生环境中进行‘虚拟破坏’，主动发现设计的薄弱环节。这种机制能将工艺中的‘容错经验’提前固化到设计阶段，实现‘未造先知弊’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.793395",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_98_O2_6221",
+  "design_spec": {
+    "name": "auto_构建_生成式破坏性测试agent_在产_40b008",
+    "display_name": "构建‘生成式破坏性测试Agent’。在产品设计或制造流程规划阶段，AI不仅生成标准方案，还利用对抗网",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘生成式破坏性测试Agent’。在产品设计或制造流程规划阶段，AI不仅生成标准方案，还利用对抗网络自动生成‘极端工况集’（如超常温度、暴力使用）。AI在数字",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

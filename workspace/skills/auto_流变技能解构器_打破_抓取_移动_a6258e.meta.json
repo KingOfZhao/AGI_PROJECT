@@ -1,0 +1,30 @@
+{
+  "name": "auto_流变技能解构器_打破_抓取_移动_a6258e",
+  "file": "skills/auto_流变技能解构器_打破_抓取_移动_a6258e.py",
+  "description": "【流变技能解构器】。打破‘抓取’、‘移动’等静态Skill的固定定义，将其解构为更底层的‘原子动作流’（如肌肉收缩、关节刚度变化）。AI不再调用‘抓取’这个函数，而是根据环境参数（物体重量、表面纹理），实时‘解构’并‘重写’出一个仅适用于当下的临时Skill。这种Skill在执行前一刻才生成，执行后即消散，完美契合‘环境自适应’的要求。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.037901",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_123_O5_2496",
+  "design_spec": {
+    "name": "auto_流变技能解构器_打破_抓取_移动_a6258e",
+    "display_name": "【流变技能解构器】。打破‘抓取’、‘移动’等静态Skill的固定定义，将其解构为更底层的‘原子动作流",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【流变技能解构器】。打破‘抓取’、‘移动’等静态Skill的固定定义，将其解构为更底层的‘原子动作流’（如肌肉收缩、关节刚度变化）。AI不再调用‘抓取’这个函数",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

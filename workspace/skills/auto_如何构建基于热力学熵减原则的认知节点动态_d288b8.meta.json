@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建基于热力学熵减原则的认知节点动态_d288b8",
+  "file": "skills/auto_如何构建基于热力学熵减原则的认知节点动态_d288b8.py",
+  "description": "如何构建基于热力学熵减原则的认知节点动态遗忘与固化机制？当前系统拥有2257个节点，静态存储导致‘认知僵化’。需设计一种算法，根据节点的‘人机交互频率’与‘证伪成功率’动态调整其连接权重。若某节点长期未被实践调用（孤立熵增），或在连续N次证伪实验中失效，系统应将其降级为‘待修剪’状态，而非直接删除，以保留潜在的跨域价值。此机制旨在模拟人类睡眠中的记忆巩固与遗忘过程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_82",
+    "cognitive_computing",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T19:40:26.358002",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_82_Q1_3_4161",
+  "design_spec": {
+    "name": "auto_如何构建基于热力学熵减原则的认知节点动态_d288b8",
+    "display_name": "如何构建基于热力学熵减原则的认知节点动态遗忘与固化机制？当前系统拥有2257个节点，静态存储导致‘认",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建基于热力学熵减原则的认知节点动态遗忘与固化机制？当前系统拥有2257个节点，静态存储导致‘认知僵化’。需设计一种算法，根据节点的‘人机交互频率’与‘证伪",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 368
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_金缮认知修复引擎_当ai在任务链_bd20b8",
+  "file": "skills/auto_开发_金缮认知修复引擎_当ai在任务链_bd20b8.py",
+  "description": "开发“金缮认知修复引擎”。当AI在任务链中遭遇人类证伪导致某个节点断裂时，不单纯回滚，而是像金缮工艺一样，分析“断裂”的语义特征，保留失败中有价值的信息（如为什么人类认为这个逻辑不通），并在修正后的新逻辑链中显式标记这次“修补”。这能构建具有“伤痕记忆”的AI，使知识网络在断裂处长得更结实，甚至衍生出处理异常情况的新美学或新风格。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.737915",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_139_O3_98",
+  "design_spec": {
+    "name": "auto_开发_金缮认知修复引擎_当ai在任务链_bd20b8",
+    "display_name": "开发“金缮认知修复引擎”。当AI在任务链中遭遇人类证伪导致某个节点断裂时，不单纯回滚，而是像金缮工艺",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发“金缮认知修复引擎”。当AI在任务链中遭遇人类证伪导致某个节点断裂时，不单纯回滚，而是像金缮工艺一样，分析“断裂”的语义特征，保留失败中有价值的信息（如为什",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

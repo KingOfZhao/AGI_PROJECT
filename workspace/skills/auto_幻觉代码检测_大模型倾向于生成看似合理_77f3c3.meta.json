@@ -1,0 +1,30 @@
+{
+  "name": "auto_幻觉代码检测_大模型倾向于生成看似合理_77f3c3",
+  "file": "skills/auto_幻觉代码检测_大模型倾向于生成看似合理_77f3c3.py",
+  "description": "【幻觉代码检测】大模型倾向于生成看似合理但实际不存在的API调用。如何构建一个'事实核查'层，利用已有的2621个节点作为白名单，拦截对不存在库函数的调用？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "reliable_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.114878",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q9_1_8386",
+  "design_spec": {
+    "name": "auto_幻觉代码检测_大模型倾向于生成看似合理_77f3c3",
+    "display_name": "【幻觉代码检测】大模型倾向于生成看似合理但实际不存在的API调用。如何构建一个'事实核查'层，利用已",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【幻觉代码检测】大模型倾向于生成看似合理但实际不存在的API调用。如何构建一个'事实核查'层，利用已有的2621个节点作为白名单，拦截对不存在库函数的调用？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

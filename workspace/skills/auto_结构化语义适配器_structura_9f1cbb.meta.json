@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构化语义适配器_structura_9f1cbb",
+  "file": "skills/auto_结构化语义适配器_structura_9f1cbb.py",
+  "description": "【结构化语义适配器 (Structural Semantic Adapter)】结合领域A的代码生成能力与领域B的结构映射算法，构建一个能理解并迁移‘逻辑骨架’的智能体。该能力不仅能根据文档生成代码，还能像生物进化一样，将已知的设计模式（如观察者模式）作为‘源域结构’，通过结构映射算法，自适应地迁移到全新的、文档缺失的‘目标域’（如一个只有函数签名的陌生API），生成符合隐含架构风格的高可用代码，而非仅仅拼凑语法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.074175",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_42_O1_8887",
+  "design_spec": {
+    "name": "auto_结构化语义适配器_structura_9f1cbb",
+    "display_name": "【结构化语义适配器 (Structural Semantic Adapter)】结合领域A的代码生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【结构化语义适配器 (Structural Semantic Adapter)】结合领域A的代码生成能力与领域B的结构映射算法，构建一个能理解并迁移‘逻辑骨架’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 740
+  }
+}

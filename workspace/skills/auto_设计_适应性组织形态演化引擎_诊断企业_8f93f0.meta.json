@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_适应性组织形态演化引擎_诊断企业_8f93f0",
+  "file": "skills/auto_设计_适应性组织形态演化引擎_诊断企业_8f93f0.py",
+  "description": "设计‘适应性组织形态演化引擎’。诊断企业当前所处的环境密度与增长阶段。在早期（环境空旷），AI建议采取‘r策略’：快速迭代、高容错率、抢占市场（繁殖优先）；在成熟期（环境拥挤），切换为‘K策略’：提升服务质量、运营效率、客户留存（生存优先）。实现企业从‘野蛮生长’到‘基业长青’的自动化策略切换。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_18",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:37:35.689675",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_18_O5_3345",
+  "design_spec": {
+    "name": "auto_设计_适应性组织形态演化引擎_诊断企业_8f93f0",
+    "display_name": "设计‘适应性组织形态演化引擎’。诊断企业当前所处的环境密度与增长阶段。在早期（环境空旷），AI建议采",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计‘适应性组织形态演化引擎’。诊断企业当前所处的环境密度与增长阶段。在早期（环境空旷），AI建议采取‘r策略’：快速迭代、高容错率、抢占市场（繁殖优先）；在成",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 232
+  }
+}

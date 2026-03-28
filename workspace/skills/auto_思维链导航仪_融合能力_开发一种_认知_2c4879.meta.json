@@ -1,0 +1,30 @@
+{
+  "name": "auto_思维链导航仪_融合能力_开发一种_认知_2c4879",
+  "file": "skills/auto_思维链导航仪_融合能力_开发一种_认知_2c4879.py",
+  "description": "【思维链导航仪】融合能力：开发一种‘认知GPS’，不仅给出答案，还能根据用户的当前认知状态，规划出一条‘最优学习/解决路径’。如果用户在解决问题时走弯路（检索路径非最优），系统能识别出缺失的‘中间节点’（知识断层），并实时生成填补断层的微课程或提示，实现真正的按需教学。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.626065",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_150_O3_3684",
+  "design_spec": {
+    "name": "auto_思维链导航仪_融合能力_开发一种_认知_2c4879",
+    "display_name": "【思维链导航仪】融合能力：开发一种‘认知GPS’，不仅给出答案，还能根据用户的当前认知状态，规划出一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【思维链导航仪】融合能力：开发一种‘认知GPS’，不仅给出答案，还能根据用户的当前认知状态，规划出一条‘最优学习/解决路径’。如果用户在解决问题时走弯路（检索路",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

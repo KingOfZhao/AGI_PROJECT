@@ -1,0 +1,30 @@
+{
+  "name": "auto_4d空间形态的代码回溯与分支管理系统_将_3dbf69",
+  "file": "skills/auto_4d空间形态的代码回溯与分支管理系统_将_3dbf69.py",
+  "description": "4D空间形态的代码回溯与分支管理系统。将CAD的'特征历史树'概念引入Flutter开发流。不仅仅是状态回溯，而是将整个UI构建过程视为可编辑的特征树。开发者可以在IDE中拖拽重排Widget的构建顺序（类似CAD特征重排），IDE自动生成对应的代码重构建议，并能可视化展示每一步代码变更对UI渲染树的几何影响。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.172116",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O2_5389",
+  "design_spec": {
+    "name": "auto_4d空间形态的代码回溯与分支管理系统_将_3dbf69",
+    "display_name": "4D空间形态的代码回溯与分支管理系统。将CAD的'特征历史树'概念引入Flutter开发流。不仅仅是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "4D空间形态的代码回溯与分支管理系统。将CAD的'特征历史树'概念引入Flutter开发流。不仅仅是状态回溯，而是将整个UI构建过程视为可编辑的特征树。开发者可",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 266
+  }
+}

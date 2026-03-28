@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知动线优化器_一种基于建筑空间句法原_65c43f",
+  "file": "skills/auto_认知动线优化器_一种基于建筑空间句法原_65c43f.py",
+  "description": "【认知动线优化器】一种基于建筑空间句法原理的神经网络架构搜索与正则化工具。将网络层视为'房间'，激活函数视为'门禁'，利用空间句法中的'整合度'和'选择度'指标来分析网络拓扑结构。该能力可自动识别网络中的'死胡同'（梯度消失区域）和'拥堵点'（过拟合区域），并动态调整网络拓扑，使信息流像建筑中的理想人流一样顺畅，实现'零摩擦'的前向传播。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.901461",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_46_O1_614",
+  "design_spec": {
+    "name": "auto_认知动线优化器_一种基于建筑空间句法原_65c43f",
+    "display_name": "【认知动线优化器】一种基于建筑空间句法原理的神经网络架构搜索与正则化工具。将网络层视为'房间'，激活",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知动线优化器】一种基于建筑空间句法原理的神经网络架构搜索与正则化工具。将网络层视为'房间'，激活函数视为'门禁'，利用空间句法中的'整合度'和'选择度'指标",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 270
+  }
+}

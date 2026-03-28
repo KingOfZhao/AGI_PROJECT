@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于人机共生理念_设计_逆向物理建模_的_159b80",
+  "file": "skills/auto_基于人机共生理念_设计_逆向物理建模_的_159b80.py",
+  "description": "基于人机共生理念，设计'逆向物理建模'的交互接口。当AI无法理解某个动作的意图时，如何生成'反事实询问'（Counterfactual Query），例如模拟出'如果此时角度偏移5度会发生什么'的视觉推演，向人类专家索要评价，从而将人类的直觉纠正转化为AI的边界条件参数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "human_ai_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.027788",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q4_2_7850",
+  "design_spec": {
+    "name": "auto_基于人机共生理念_设计_逆向物理建模_的_159b80",
+    "display_name": "基于人机共生理念，设计'逆向物理建模'的交互接口。当AI无法理解某个动作的意图时，如何生成'反事实询",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于人机共生理念，设计'逆向物理建模'的交互接口。当AI无法理解某个动作的意图时，如何生成'反事实询问'（Counterfactual Query），例如模拟出",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 321
+  }
+}

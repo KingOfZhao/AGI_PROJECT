@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点固化_动态记忆的衰减与固化_验_f79b36",
+  "file": "skills/auto_真实节点固化_动态记忆的衰减与固化_验_f79b36.py",
+  "description": "【真实节点固化】动态记忆的衰减与固化：验证AI是否能将一次成功的'实践证伪'过程（例如在上一轮对话中人类纠正了AI的一个错误假设）转化为一个持久的'真实节点'。在经过大量无关对话干扰后（超过上下文窗口限制），重新询问该特定问题。如果AI需要依赖外部存储机制读取该修正后的节点，而非重新训练或依赖短期上下文，则验证了'重叠固化为真实节点'的架构有效性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.677247",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q6_0_862",
+  "design_spec": {
+    "name": "auto_真实节点固化_动态记忆的衰减与固化_验_f79b36",
+    "display_name": "【真实节点固化】动态记忆的衰减与固化：验证AI是否能将一次成功的'实践证伪'过程（例如在上一轮对话中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点固化】动态记忆的衰减与固化：验证AI是否能将一次成功的'实践证伪'过程（例如在上一轮对话中人类纠正了AI的一个错误假设）转化为一个持久的'真实节点'。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

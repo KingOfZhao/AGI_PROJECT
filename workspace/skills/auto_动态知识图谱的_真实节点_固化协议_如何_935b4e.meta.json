@@ -1,0 +1,30 @@
+{
+  "name": "auto_动态知识图谱的_真实节点_固化协议_如何_935b4e",
+  "file": "skills/auto_动态知识图谱的_真实节点_固化协议_如何_935b4e.py",
+  "description": "动态知识图谱的'真实节点'固化协议：如何设计一个算法机制，能够识别'人机共生'循环（AI建议->人类实践->人类反馈）完成闭环的时刻，并将该过程中的临时信息流转化为一个永久的、不可轻易篡改的'真实节点'？这涉及到如何量化'实践验证'的权重，防止错误或低质量数据污染核心网络。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_12",
+    "knowledge_graph",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:33:04.191199",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_12_Q2_3_3114",
+  "design_spec": {
+    "name": "auto_动态知识图谱的_真实节点_固化协议_如何_935b4e",
+    "display_name": "动态知识图谱的'真实节点'固化协议：如何设计一个算法机制，能够识别'人机共生'循环（AI建议->人类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "动态知识图谱的'真实节点'固化协议：如何设计一个算法机制，能够识别'人机共生'循环（AI建议->人类实践->人类反馈）完成闭环的时刻，并将该过程中的临时信息流转",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

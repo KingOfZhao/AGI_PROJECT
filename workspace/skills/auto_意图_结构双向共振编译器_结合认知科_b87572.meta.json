@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图_结构双向共振编译器_结合认知科_b87572",
+  "file": "skills/auto_意图_结构双向共振编译器_结合认知科_b87572.py",
+  "description": "【意图-结构双向共振编译器】：结合认知科学的结构映射引擎与软件工程的DSL生成技术。当用户输入模糊意图（如'像生物进化一样优化排序'）时，系统不再仅仅是生成代码，而是先构建一个'中间认知图谱'，显式列出从源域（生物进化）提取的结构特征（变异、交叉、选择），并将其强制转化为目标域（代码）的形式化前置条件（Pre-conditions）和后置条件（Post-conditions）。如果无法映射，则直接向用户询问缺失的结构节点，而非盲目生成代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.565997",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_126_O1_3916",
+  "design_spec": {
+    "name": "auto_意图_结构双向共振编译器_结合认知科_b87572",
+    "display_name": "【意图-结构双向共振编译器】：结合认知科学的结构映射引擎与软件工程的DSL生成技术。当用户输入模糊意",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图-结构双向共振编译器】：结合认知科学的结构映射引擎与软件工程的DSL生成技术。当用户输入模糊意图（如'像生物进化一样优化排序'）时，系统不再仅仅是生成代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

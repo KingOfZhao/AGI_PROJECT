@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知熵减编码器_针对算法设计中_cde4c6",
+  "file": "skills/auto_构建_认知熵减编码器_针对算法设计中_cde4c6.py",
+  "description": "构建'认知熵减编码器'。针对算法设计中'系统倾向于生成复杂度冗余节点'的痛点，引入音乐和声学的'紧张度-解决'模型。当系统生成新知识节点时，计算其'认知不协和度'（即复杂度与解释力的比值）。如果节点过于复杂（噪音），系统自动进行'调性解决'，将其降维打击或合并，确保固化后的真实节点具有爵士乐般的'流畅性'与'经济性'，实现知识库的自我净化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.844959",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_71_O1_4125",
+  "design_spec": {
+    "name": "auto_构建_认知熵减编码器_针对算法设计中_cde4c6",
+    "display_name": "构建'认知熵减编码器'。针对算法设计中'系统倾向于生成复杂度冗余节点'的痛点，引入音乐和声学的'紧张",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知熵减编码器'。针对算法设计中'系统倾向于生成复杂度冗余节点'的痛点，引入音乐和声学的'紧张度-解决'模型。当系统生成新知识节点时，计算其'认知不协和度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

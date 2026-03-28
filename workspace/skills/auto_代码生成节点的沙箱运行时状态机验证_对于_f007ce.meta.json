@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码生成节点的沙箱运行时状态机验证_对于_f007ce",
+  "file": "skills/auto_代码生成节点的沙箱运行时状态机验证_对于_f007ce.py",
+  "description": "代码生成节点的沙箱运行时状态机验证。对于1188个技能节点，特别是涉及可执行代码的节点，在固化前必须通过沙箱环境的执行测试。不仅是语法检查，更是对运行时状态（内存溢出、死循环、输出异常）的动态检测。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "软件工程与自动化测试",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:44:00.044209",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_67_Q5_1_6033",
+  "design_spec": {
+    "name": "auto_代码生成节点的沙箱运行时状态机验证_对于_f007ce",
+    "display_name": "代码生成节点的沙箱运行时状态机验证。对于1188个技能节点，特别是涉及可执行代码的节点，在固化前必须",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "代码生成节点的沙箱运行时状态机验证。对于1188个技能节点，特别是涉及可执行代码的节点，在固化前必须通过沙箱环境的执行测试。不仅是语法检查，更是对运行时状态（内",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

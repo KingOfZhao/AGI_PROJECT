@@ -10,7 +10,10 @@ PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PORT=5002
 VENV_DIR="$PROJECT_DIR/venv"
 PYTHON="$VENV_DIR/bin/python3"
-SERVER="$PROJECT_DIR/api_server.py"
+SERVER="$PROJECT_DIR/api/api_server.py"
+
+# 设置 PYTHONPATH 使 core/ 和 api/ 中的模块可互相导入
+export PYTHONPATH="$PROJECT_DIR/core:$PROJECT_DIR/api:$PROJECT_DIR:$PYTHONPATH"
 
 echo "============================================================"
 echo "  AGI v13.3 Cognitive Lattice — 启动中..."

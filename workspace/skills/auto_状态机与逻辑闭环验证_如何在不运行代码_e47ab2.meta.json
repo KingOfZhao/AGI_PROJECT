@@ -1,0 +1,30 @@
+{
+  "name": "auto_状态机与逻辑闭环验证_如何在不运行代码_e47ab2",
+  "file": "skills/auto_状态机与逻辑闭环验证_如何在不运行代码_e47ab2.py",
+  "description": "【状态机与逻辑闭环验证】如何在不运行代码的情况下，通过静态分析或形式化验证方法，检测生成的结构化代码中是否存在死循环、不可达状态或逻辑死锁？这是保证'认知自洽'的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.109426",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_101_Q3_1_8386",
+  "design_spec": {
+    "name": "auto_状态机与逻辑闭环验证_如何在不运行代码_e47ab2",
+    "display_name": "【状态机与逻辑闭环验证】如何在不运行代码的情况下，通过静态分析或形式化验证方法，检测生成的结构化代码",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【状态机与逻辑闭环验证】如何在不运行代码的情况下，通过静态分析或形式化验证方法，检测生成的结构化代码中是否存在死循环、不可达状态或逻辑死锁？这是保证'认知自洽'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 249
+  }
+}

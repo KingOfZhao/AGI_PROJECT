@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_隐性知识具身编码_td_122_b0c07a",
+  "file": "skills/auto_结合_隐性知识具身编码_td_122_b0c07a.py",
+  "description": "结合'隐性知识具身编码'(td_122_Q1)、'触觉合成'(td_122_Q7)与'AR动态对齐'(ho_121_O2)。系统能不仅记录大师的操作视频，还能捕获肌肉电信号与触觉压力，生成包含物理反馈的'全息指导包'。学徒带上AR眼镜和触觉手套，不仅能看到操作，还能在正确的时间点感受到'恰到好处'的阻力与震动，实现隐性技能的无损传递。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.077288",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_123_E1_7466",
+  "design_spec": {
+    "name": "auto_结合_隐性知识具身编码_td_122_b0c07a",
+    "display_name": "结合'隐性知识具身编码'(td_122_Q1)、'触觉合成'(td_122_Q7)与'AR动态对齐'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'隐性知识具身编码'(td_122_Q1)、'触觉合成'(td_122_Q7)与'AR动态对齐'(ho_121_O2)。系统能不仅记录大师的操作视频，还能捕",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_引入_计算能耗预算_机制_为每个节点分配_598f16",
+  "file": "skills/auto_引入_计算能耗预算_机制_为每个节点分配_598f16.py",
+  "description": "引入'计算能耗预算'机制，为每个节点分配'激活成本'与'维护成本'，研究基于有限理性的启发式搜索算法，替代昂贵的全图遍历。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.777605",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_24_G2_6062",
+  "design_spec": {
+    "name": "auto_引入_计算能耗预算_机制_为每个节点分配_598f16",
+    "display_name": "引入'计算能耗预算'机制，为每个节点分配'激活成本'与'维护成本'，研究基于有限理性的启发式搜索算法",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "引入'计算能耗预算'机制，为每个节点分配'激活成本'与'维护成本'，研究基于有限理性的启发式搜索算法，替代昂贵的全图遍历。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

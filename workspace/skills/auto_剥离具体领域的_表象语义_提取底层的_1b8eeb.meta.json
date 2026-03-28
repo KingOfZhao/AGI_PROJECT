@@ -1,0 +1,30 @@
+{
+  "name": "auto_剥离具体领域的_表象语义_提取底层的_1b8eeb",
+  "file": "skills/auto_剥离具体领域的_表象语义_提取底层的_1b8eeb.py",
+  "description": "剥离具体领域的'表象语义'，提取底层的'结构逻辑'。该概念认为AGI的认知核心在于识别不同领域间相同的微分方程或逻辑拓扑（如'流体力学'与'交通流量'共享的扩散方程）。通过构建'同构映射器'，系统可将源域（如小摊贩经营）的节点结构直接投影到目标域（如初创企业），实现零样本或小样本的快速跨域迁移，而非简单的类比修辞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.695955",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_140_P2_3120",
+  "design_spec": {
+    "name": "auto_剥离具体领域的_表象语义_提取底层的_1b8eeb",
+    "display_name": "剥离具体领域的'表象语义'，提取底层的'结构逻辑'。该概念认为AGI的认知核心在于识别不同领域间相同",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "剥离具体领域的'表象语义'，提取底层的'结构逻辑'。该概念认为AGI的认知核心在于识别不同领域间相同的微分方程或逻辑拓扑（如'流体力学'与'交通流量'共享的扩散",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_认知自洽_的自动化验证_即当新_68175d",
+  "file": "skills/auto_如何实现_认知自洽_的自动化验证_即当新_68175d.py",
+  "description": "如何实现'认知自洽'的自动化验证？即当新节点加入网络时，系统能自动遍历相关联的旧节点，检查是否存在逻辑冲突（如'天鹅是白色的'与'发现黑天鹅'）。如果存在冲突，需触发'重估'机制而非简单覆盖。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "truth_maintenance",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.560119",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q10_2_2116",
+  "design_spec": {
+    "name": "auto_如何实现_认知自洽_的自动化验证_即当新_68175d",
+    "display_name": "如何实现'认知自洽'的自动化验证？即当新节点加入网络时，系统能自动遍历相关联的旧节点，检查是否存在逻",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'认知自洽'的自动化验证？即当新节点加入网络时，系统能自动遍历相关联的旧节点，检查是否存在逻辑冲突（如'天鹅是白色的'与'发现黑天鹅'）。如果存在冲突，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

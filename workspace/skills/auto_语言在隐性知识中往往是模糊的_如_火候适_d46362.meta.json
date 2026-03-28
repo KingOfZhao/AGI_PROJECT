@@ -1,0 +1,30 @@
+{
+  "name": "auto_语言在隐性知识中往往是模糊的_如_火候适_d46362",
+  "file": "skills/auto_语言在隐性知识中往往是模糊的_如_火候适_d46362.py",
+  "description": "语言在隐性知识中往往是模糊的（如‘火候适中’）。如何构建一个跨模态检索系统，将模糊的语言描述符（Lexical Node）强行映射到具体的多模态数据切片（Video/Thermal Tensor）？例如，将‘用力’映射到肌电信号的峰值区间，建立‘语言-物理’的刚性连接。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "nlp_cross_modal",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.308929",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q4_0_6710",
+  "design_spec": {
+    "name": "auto_语言在隐性知识中往往是模糊的_如_火候适_d46362",
+    "display_name": "语言在隐性知识中往往是模糊的（如‘火候适中’）。如何构建一个跨模态检索系统，将模糊的语言描述符（Le",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "语言在隐性知识中往往是模糊的（如‘火候适中’）。如何构建一个跨模态检索系统，将模糊的语言描述符（Lexical Node）强行映射到具体的多模态数据切片（Vid",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

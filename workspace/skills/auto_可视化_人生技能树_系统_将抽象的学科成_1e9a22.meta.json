@@ -1,0 +1,30 @@
+{
+  "name": "auto_可视化_人生技能树_系统_将抽象的学科成_1e9a22",
+  "file": "skills/auto_可视化_人生技能树_系统_将抽象的学科成_1e9a22.py",
+  "description": "可视化'人生技能树'系统。将抽象的学科成绩转化为具象的'职业天赋树'。学生不再看到的是'数学90分'，而是点亮了'逻辑构筑'分支下的'微积分基础'节点，并解锁了'物理学II'的地图迷雾。系统支持跨学科的能力组合(如'编程+艺术'解锁'交互设计师'隐藏职业路径)，让学习路径从线性变为网状探索，通过可视化的'数值成长'提供长尾动力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.367630",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O4_3767",
+  "design_spec": {
+    "name": "auto_可视化_人生技能树_系统_将抽象的学科成_1e9a22",
+    "display_name": "可视化'人生技能树'系统。将抽象的学科成绩转化为具象的'职业天赋树'。学生不再看到的是'数学90分'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "可视化'人生技能树'系统。将抽象的学科成绩转化为具象的'职业天赋树'。学生不再看到的是'数学90分'，而是点亮了'逻辑构筑'分支下的'微积分基础'节点，并解锁了",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 421
+  }
+}

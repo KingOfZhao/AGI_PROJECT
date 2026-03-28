@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_否定性辩证自适应策略_ho_12_d09ae3",
+  "file": "skills/auto_结合_否定性辩证自适应策略_ho_12_d09ae3.py",
+  "description": "结合'否定性辩证自适应策略'（ho_123_O3_2496）与'数字组织再生系统'（ho_123_O1_1091）。传统物理引擎仅计算状态，该引擎引入'否定'逻辑，主动寻找物理模拟中的薄弱环节（否定），一旦发现逻辑崩溃，立即触发'组织再生'机制，自动修补代码或调整物理参数，形成一个不断自我完善的物理仿真闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.800619",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_124_E1_4099",
+  "design_spec": {
+    "name": "auto_结合_否定性辩证自适应策略_ho_12_d09ae3",
+    "display_name": "结合'否定性辩证自适应策略'（ho_123_O3_2496）与'数字组织再生系统'（ho_123_O",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'否定性辩证自适应策略'（ho_123_O3_2496）与'数字组织再生系统'（ho_123_O1_1091）。传统物理引擎仅计算状态，该引擎引入'否定'逻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

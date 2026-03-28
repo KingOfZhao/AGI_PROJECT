@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现基于_人机共生_的交互式意图澄清循环_a2c9d0",
+  "file": "skills/auto_实现基于_人机共生_的交互式意图澄清循环_a2c9d0.py",
+  "description": "实现基于'人机共生'的交互式意图澄清循环。当模糊意图的置信度低于阈值时，系统应生成'最小代价证伪问题'询问人类。问题在于：如何从3882个节点中快速检索出能够区分当前意图分支的关键决策点，并以人类易懂的自然语言提问，而非技术术语。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.608815",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_148_Q4_3_7298",
+  "design_spec": {
+    "name": "auto_实现基于_人机共生_的交互式意图澄清循环_a2c9d0",
+    "display_name": "实现基于'人机共生'的交互式意图澄清循环。当模糊意图的置信度低于阈值时，系统应生成'最小代价证伪问题",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现基于'人机共生'的交互式意图澄清循环。当模糊意图的置信度低于阈值时，系统应生成'最小代价证伪问题'询问人类。问题在于：如何从3882个节点中快速检索出能够区",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 321
+  }
+}

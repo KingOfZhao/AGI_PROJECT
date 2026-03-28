@@ -1,0 +1,30 @@
+{
+  "name": "auto_寿命限制与知识压缩_考虑到_解决人类寿_0faa7a",
+  "file": "skills/auto_寿命限制与知识压缩_考虑到_解决人类寿_0faa7a.py",
+  "description": "【寿命限制与知识压缩】考虑到‘解决人类寿命限制’的价值，如何将专家的‘隐性知识’压缩为可被快速迁移的‘显性模式’？这不仅仅是编码，而是寻找知识的最小充分集。需要开发一种算法，能从专家的少量示范中提取‘因果链’，剔除‘冗余动作’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "expert_systems",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.784303",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q9_3_5248",
+  "design_spec": {
+    "name": "auto_寿命限制与知识压缩_考虑到_解决人类寿_0faa7a",
+    "display_name": "【寿命限制与知识压缩】考虑到‘解决人类寿命限制’的价值，如何将专家的‘隐性知识’压缩为可被快速迁移的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【寿命限制与知识压缩】考虑到‘解决人类寿命限制’的价值，如何将专家的‘隐性知识’压缩为可被快速迁移的‘显性模式’？这不仅仅是编码，而是寻找知识的最小充分集。需要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 221
+  }
+}

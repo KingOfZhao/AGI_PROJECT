@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_渐进式细节注入_的交互范式_人_7984b3",
+  "file": "skills/auto_如何实现_渐进式细节注入_的交互范式_人_7984b3.py",
+  "description": "如何实现'渐进式细节注入'的交互范式？人类在表达意图时无法一次性给出所有细节。本问题要求验证一种分层交互协议：先生成骨架代码（Class/Function定义），再通过多轮对话填充具体实现。关键在于系统需自动识别哪些是'已知'，哪些是'未知需追问'的，并维护一个结构化的'未知状态列表'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.255725",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_16_Q10_1_8514",
+  "design_spec": {
+    "name": "auto_如何实现_渐进式细节注入_的交互范式_人_7984b3",
+    "display_name": "如何实现'渐进式细节注入'的交互范式？人类在表达意图时无法一次性给出所有细节。本问题要求验证一种分层",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'渐进式细节注入'的交互范式？人类在表达意图时无法一次性给出所有细节。本问题要求验证一种分层交互协议：先生成骨架代码（Class/Function定义）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 206
+  }
+}

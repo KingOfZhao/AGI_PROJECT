@@ -1,0 +1,30 @@
+{
+  "name": "auto_研发_可交互式设计历史时间轴_将cad_238aba",
+  "file": "skills/auto_研发_可交互式设计历史时间轴_将cad_238aba.py",
+  "description": "研发'可交互式设计历史时间轴'。将CAD中线性的操作历史树转化为Flutter中可分支、可合并的'状态树'。用户在3D预览界面不仅是回退步骤，而是像操作Git分支一样，在任意历史节点创建'平行宇宙'（设计变体），通过Merge算法合并不同分支的特征。利用Flutter的高性能渲染，实时预览不同历史路径生成的模型差异。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.485924",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O2_4066",
+  "design_spec": {
+    "name": "auto_研发_可交互式设计历史时间轴_将cad_238aba",
+    "display_name": "研发'可交互式设计历史时间轴'。将CAD中线性的操作历史树转化为Flutter中可分支、可合并的'状",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研发'可交互式设计历史时间轴'。将CAD中线性的操作历史树转化为Flutter中可分支、可合并的'状态树'。用户在3D预览界面不仅是回退步骤，而是像操作Git分",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

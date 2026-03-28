@@ -1,0 +1,30 @@
+{
+  "name": "auto_未知未知_的探测能力_给定一个_db9562",
+  "file": "skills/auto_未知未知_的探测能力_给定一个_db9562.py",
+  "description": "**'未知未知'的探测能力**。给定一个模糊的目标（如'提升用户体验'），验证AI是否能主动扫描已有节点，识别出'缺失的节点'（Missing Nodes）。例如，指出当前知识库中缺少'用户情绪分析'节点，并主动请求相关数据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_131",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:46:30.778858",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_131_Q9_2_5247",
+  "design_spec": {
+    "name": "auto_未知未知_的探测能力_给定一个_db9562",
+    "display_name": "**'未知未知'的探测能力**。给定一个模糊的目标（如'提升用户体验'），验证AI是否能主动扫描已有",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "**'未知未知'的探测能力**。给定一个模糊的目标（如'提升用户体验'），验证AI是否能主动扫描已有节点，识别出'缺失的节点'（Missing Nodes）。例",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

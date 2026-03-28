@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义参数化ui生成引擎_利用cad的_b5ffae",
+  "file": "skills/auto_语义参数化ui生成引擎_利用cad的_b5ffae.py",
+  "description": "‘语义参数化UI生成引擎’。利用CAD的参数化建模思维重构UI开发。不再硬编码像素坐标，而是定义组件间的‘几何约束’（如：按钮永远保持在卡片黄金分割点）。结合Flutter的Transform矩阵，引入CAD级的‘关联尺寸’机制，当父容器（类似CAD的基准面）发生变化时，子组件能像机械连杆一样进行有逻辑的形变，而非简单的流体布局。实现真正的‘工程级’响应式界面。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.358109",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O1_9168",
+  "design_spec": {
+    "name": "auto_语义参数化ui生成引擎_利用cad的_b5ffae",
+    "display_name": "‘语义参数化UI生成引擎’。利用CAD的参数化建模思维重构UI开发。不再硬编码像素坐标，而是定义组件",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘语义参数化UI生成引擎’。利用CAD的参数化建模思维重构UI开发。不再硬编码像素坐标，而是定义组件间的‘几何约束’（如：按钮永远保持在卡片黄金分割点）。结合F",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

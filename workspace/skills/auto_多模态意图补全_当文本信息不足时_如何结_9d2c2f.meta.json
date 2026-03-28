@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态意图补全_当文本信息不足时_如何结_9d2c2f",
+  "file": "skills/auto_多模态意图补全_当文本信息不足时_如何结_9d2c2f.py",
+  "description": "多模态意图补全：当文本信息不足时，如何结合用户的历史操作轨迹、UI交互截图或鼠标移动路径来推断隐含意图？人类意图往往不仅在于'说了什么'，还在于'看了什么'和'点了什么'。需要验证多模态融合是否能显著降低歧义性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.044182",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q2_3_6903",
+  "design_spec": {
+    "name": "auto_多模态意图补全_当文本信息不足时_如何结_9d2c2f",
+    "display_name": "多模态意图补全：当文本信息不足时，如何结合用户的历史操作轨迹、UI交互截图或鼠标移动路径来推断隐含意",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态意图补全：当文本信息不足时，如何结合用户的历史操作轨迹、UI交互截图或鼠标移动路径来推断隐含意图？人类意图往往不仅在于'说了什么'，还在于'看了什么'和'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

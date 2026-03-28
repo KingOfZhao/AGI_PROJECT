@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于认知资源优化的自适应知识图谱重构系统_4ad42c",
+  "file": "skills/auto_基于认知资源优化的自适应知识图谱重构系统_4ad42c.py",
+  "description": "基于认知资源优化的自适应知识图谱重构系统。该能力不仅仅是数据清洗，而是模拟人类'顿悟'或'熟练化'的过程。它能实时监测AI与人类交互中的认知负载，当发现人类频繁联合查询某些分散节点时，系统自动进行'反范式化'（Denormalization），将这些节点融合为一个可直接调用的'认知组块'（Cognitive Chunk），固化为例行程序，从而降低人类大脑的算力消耗，实现外挂式的大脑皮层扩展。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_134",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:33:15.355370",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_134_O1_2826",
+  "design_spec": {
+    "name": "auto_基于认知资源优化的自适应知识图谱重构系统_4ad42c",
+    "display_name": "基于认知资源优化的自适应知识图谱重构系统。该能力不仅仅是数据清洗，而是模拟人类'顿悟'或'熟练化'的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于认知资源优化的自适应知识图谱重构系统。该能力不仅仅是数据清洗，而是模拟人类'顿悟'或'熟练化'的过程。它能实时监测AI与人类交互中的认知负载，当发现人类频繁",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 228
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_碰撞接口_设计一个_人机证伪接口_用_fa45f4",
+  "file": "skills/auto_碰撞接口_设计一个_人机证伪接口_用_fa45f4.py",
+  "description": "【碰撞接口】设计一个‘人机证伪接口’，用于解决工业操作中的模糊性。当AI建议的工艺参数（如温度设定）与工人当前经验冲突时，系统应能记录工人的反直觉操作及其结果（成功/失败），并将此‘异常数据’标记为高优先级的待归纳节点，而非简单的错误忽略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "HCI / Interaction Design",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.706991",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q3_1_2866",
+  "design_spec": {
+    "name": "auto_碰撞接口_设计一个_人机证伪接口_用_fa45f4",
+    "display_name": "【碰撞接口】设计一个‘人机证伪接口’，用于解决工业操作中的模糊性。当AI建议的工艺参数（如温度设定）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【碰撞接口】设计一个‘人机证伪接口’，用于解决工业操作中的模糊性。当AI建议的工艺参数（如温度设定）与工人当前经验冲突时，系统应能记录工人的反直觉操作及其结果（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 251
+  }
+}

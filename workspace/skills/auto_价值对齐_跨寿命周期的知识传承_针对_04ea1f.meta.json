@@ -1,0 +1,30 @@
+{
+  "name": "auto_价值对齐_跨寿命周期的知识传承_针对_04ea1f",
+  "file": "skills/auto_价值对齐_跨寿命周期的知识传承_针对_04ea1f.py",
+  "description": "【价值对齐】跨寿命周期的知识传承。针对'解决人类寿命限制'的价值点，测试AI的长时程记忆与知识迭代能力。构建一个跨越'三代人'的虚构项目，第一代输入核心愿景，第二代环境巨变，第三代需要解决新问题。验证AI是否能保留第一代的核心约束（不忘初心），同时整合第二、三代的变异，形成更强大的'复合真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_116",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:24:09.250232",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_116_Q8_2_4155",
+  "design_spec": {
+    "name": "auto_价值对齐_跨寿命周期的知识传承_针对_04ea1f",
+    "display_name": "【价值对齐】跨寿命周期的知识传承。针对'解决人类寿命限制'的价值点，测试AI的长时程记忆与知识迭代能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【价值对齐】跨寿命周期的知识传承。针对'解决人类寿命限制'的价值点，测试AI的长时程记忆与知识迭代能力。构建一个跨越'三代人'的虚构项目，第一代输入核心愿景，第",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

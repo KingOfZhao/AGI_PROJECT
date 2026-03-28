@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图形式化层_如何通过多轮对话将高维模_fe0c9e",
+  "file": "skills/auto_意图形式化层_如何通过多轮对话将高维模_fe0c9e.py",
+  "description": "【意图形式化层】如何通过多轮对话将高维模糊意图（如'做一个好用的后台'）降维投影为结构化的JSON Schema？这不仅仅是语义解析，而是需要构建一个'意图梯度下降'机制，通过最小化'歧义熵'来锁定用户真实需求边界。核心在于设计一种状态机，能自动识别模糊点并生成澄清性问题，将非结构化语言转化为计算机可理解的严格类型定义。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_31",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:21:49.624932",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_31_Q1_1_4687",
+  "design_spec": {
+    "name": "auto_意图形式化层_如何通过多轮对话将高维模_fe0c9e",
+    "display_name": "【意图形式化层】如何通过多轮对话将高维模糊意图（如'做一个好用的后台'）降维投影为结构化的JSON ",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图形式化层】如何通过多轮对话将高维模糊意图（如'做一个好用的后台'）降维投影为结构化的JSON Schema？这不仅仅是语义解析，而是需要构建一个'意图梯度",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 569
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_创立_生态级功能降级协议_ecolo_c24a7b",
+  "file": "skills/auto_创立_生态级功能降级协议_ecolo_c24a7b.py",
+  "description": "创立'生态级功能降级协议' (Ecological Graceful Degradation)。不同于传统的硬性报错，AI被赋予一套'生物应激反应'谱系。当CPU/内存资源进入'饥荒模式'，AI按照生态系统的'营养级'顺序关闭功能：先关闭顶层的高级抽象推理（类似停止生长），保留中间层数据处理，最后才动用底层生存数据。实现'濒死态'下的核心数据保全，并在资源恢复后像生态恢复一样'休眠发芽'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.698031",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_148_O4_4110",
+  "design_spec": {
+    "name": "auto_创立_生态级功能降级协议_ecolo_c24a7b",
+    "display_name": "创立'生态级功能降级协议' (Ecological Graceful Degradation)。不同",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创立'生态级功能降级协议' (Ecological Graceful Degradation)。不同于传统的硬性报错，AI被赋予一套'生物应激反应'谱系。当CP",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

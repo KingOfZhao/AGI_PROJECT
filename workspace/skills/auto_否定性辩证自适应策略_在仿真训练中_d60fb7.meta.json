@@ -1,0 +1,30 @@
+{
+  "name": "auto_否定性辩证自适应策略_在仿真训练中_d60fb7",
+  "file": "skills/auto_否定性辩证自适应策略_在仿真训练中_d60fb7.py",
+  "description": "【否定性辩证自适应策略】。在仿真训练中，不再仅追求‘随机化’，而是引入‘对抗性否定’机制。AI生成一个‘最理想’的执行计划，环境（模拟器）则基于哲学中的‘否定’逻辑，生成针对该计划弱点的‘反环境’（如极端摩擦力、重力异常）。通过这种‘正-反-合’的训练循环，使Skill节点具备‘抗否定性’，即在面对真实世界的物理摩擦时，能像辩证法一样自动修正自身，达到更高维度的‘真实’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.036378",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_123_O3_2496",
+  "design_spec": {
+    "name": "auto_否定性辩证自适应策略_在仿真训练中_d60fb7",
+    "display_name": "【否定性辩证自适应策略】。在仿真训练中，不再仅追求‘随机化’，而是引入‘对抗性否定’机制。AI生成一",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【否定性辩证自适应策略】。在仿真训练中，不再仅追求‘随机化’，而是引入‘对抗性否定’机制。AI生成一个‘最理想’的执行计划，环境（模拟器）则基于哲学中的‘否定’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

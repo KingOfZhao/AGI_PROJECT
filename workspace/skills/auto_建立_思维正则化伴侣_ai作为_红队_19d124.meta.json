@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_思维正则化伴侣_ai作为_红队_19d124",
+  "file": "skills/auto_建立_思维正则化伴侣_ai作为_红队_19d124.py",
+  "description": "建立'思维正则化伴侣'。AI作为'红队'，专门检测人类专家在决策中是否出现'认知过拟合'迹象（如过度解释偶然事件）。通过引入'认知Dropout'机制——即在模拟推演中随机屏蔽用户的某些核心经验假设，强迫人类大脑寻找新的特征路径。这种融合能力将数据科学的正则化手段转化为人类打破思维牢笼的认知工具，维持认知网络的'稀疏性'与'鲁棒性'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.559477",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_37_O3_328",
+  "design_spec": {
+    "name": "auto_建立_思维正则化伴侣_ai作为_红队_19d124",
+    "display_name": "建立'思维正则化伴侣'。AI作为'红队'，专门检测人类专家在决策中是否出现'认知过拟合'迹象（如过度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'思维正则化伴侣'。AI作为'红队'，专门检测人类专家在决策中是否出现'认知过拟合'迹象（如过度解释偶然事件）。通过引入'认知Dropout'机制——即在模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

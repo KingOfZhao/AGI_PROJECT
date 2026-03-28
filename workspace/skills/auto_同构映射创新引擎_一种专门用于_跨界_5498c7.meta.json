@@ -1,0 +1,30 @@
+{
+  "name": "auto_同构映射创新引擎_一种专门用于_跨界_5498c7",
+  "file": "skills/auto_同构映射创新引擎_一种专门用于_跨界_5498c7.py",
+  "description": "【同构映射创新引擎】：一种专门用于'跨界抄袭'的算法。系统不关注内容的字面意义，而是提取其'拓扑结构'（如：A产生B，B反馈给A，导致A变化）。当用户在一个领域（如软件开发）遇到瓶颈时，系统自动从完全无关的领域（如农业轮作、生物免疫系统）检索具有相同'拓扑结构'的解决方案，并进行强制映射，生成极具颠覆性的建议。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_72",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:12:24.635783",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_72_O4_3712",
+  "design_spec": {
+    "name": "auto_同构映射创新引擎_一种专门用于_跨界_5498c7",
+    "display_name": "【同构映射创新引擎】：一种专门用于'跨界抄袭'的算法。系统不关注内容的字面意义，而是提取其'拓扑结构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【同构映射创新引擎】：一种专门用于'跨界抄袭'的算法。系统不关注内容的字面意义，而是提取其'拓扑结构'（如：A产生B，B反馈给A，导致A变化）。当用户在一个领域",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

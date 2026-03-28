@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_酶促计算资源池_目前的serve_d7e119",
+  "file": "skills/auto_打造_酶促计算资源池_目前的serve_d7e119.py",
+  "description": "打造'酶促计算资源池'。目前的Serverless冷启动是痛点。借鉴酶的'锁钥模型'，系统不再通用启动容器，而是维护一个'底物预热池'。当特定类型的事件流（底物）进入系统时，调度器（酶）迅速匹配并激活处于'半睡眠态'的专用内核实例（核糖体），实现零延迟启动。同时，引入'变构调节'机制，当系统监测到某类任务（底物）浓度过高时，自动改变调度器的亲和性，加速此类资源的分配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.391178",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O4_5914",
+  "design_spec": {
+    "name": "auto_打造_酶促计算资源池_目前的serve_d7e119",
+    "display_name": "打造'酶促计算资源池'。目前的Serverless冷启动是痛点。借鉴酶的'锁钥模型'，系统不再通用启",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造'酶促计算资源池'。目前的Serverless冷启动是痛点。借鉴酶的'锁钥模型'，系统不再通用启动容器，而是维护一个'底物预热池'。当特定类型的事件流（底物",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 255
+  }
+}

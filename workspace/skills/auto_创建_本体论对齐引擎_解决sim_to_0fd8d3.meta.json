@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_本体论对齐引擎_解决sim_to_0fd8d3",
+  "file": "skills/auto_创建_本体论对齐引擎_解决sim_to_0fd8d3.py",
+  "description": "创建'本体论对齐引擎'。解决Sim-to-Real鸿沟的关键不在于让仿真更逼真，而在于让AI理解'仿真'与'现实'的本体论差异。该能力赋予AI一种'二阶观察'能力：AI不仅执行任务，还实时评估'当前环境是仿真还是现实'，并动态调整其控制策略的'置信度'。在仿真中追求极致效率，在现实中优先考虑生存与安全。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.855200",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_129_O4_9103",
+  "design_spec": {
+    "name": "auto_创建_本体论对齐引擎_解决sim_to_0fd8d3",
+    "display_name": "创建'本体论对齐引擎'。解决Sim-to-Real鸿沟的关键不在于让仿真更逼真，而在于让AI理解'仿",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'本体论对齐引擎'。解决Sim-to-Real鸿沟的关键不在于让仿真更逼真，而在于让AI理解'仿真'与'现实'的本体论差异。该能力赋予AI一种'二阶观察'能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

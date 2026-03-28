@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_反事实推理_td_40_q3_3_066e4b",
+  "file": "skills/auto_融合_反事实推理_td_40_q3_3_066e4b.py",
+  "description": "融合'反事实推理'（td_40_Q3_3_6812）、'自愈式仿真'（em_40_E_Self_Healing_Sim_1056）与'认知回溯'（td_40_Q2_1_2204）。当发生故障时，系统在虚拟沙箱中自动生成反事实假设（如'如果没有A'），利用仿真器验证因果链条，精准定位失效节点，并自动修复物理模型，实现从'故障发现'到'模型自愈'的飞跃。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_41",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:25:13.437371",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_41_E2_9115",
+  "design_spec": {
+    "name": "auto_融合_反事实推理_td_40_q3_3_066e4b",
+    "display_name": "融合'反事实推理'（td_40_Q3_3_6812）、'自愈式仿真'（em_40_E_Self_He",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'反事实推理'（td_40_Q3_3_6812）、'自愈式仿真'（em_40_E_Self_Healing_Sim_1056）与'认知回溯'（td_40_Q",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 352
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态感官冲突的仲裁机制_当文本信息与视_96c123",
+  "file": "skills/auto_多模态感官冲突的仲裁机制_当文本信息与视_96c123.py",
+  "description": "多模态感官冲突的仲裁机制：当文本信息与视觉信息（如有）发生冲突时（例如文本说“红色的苹果”，图片是“青色”），AI如何判断哪一个是“真实”的？本问题要求建立一个多模态融合层的权重动态调整机制，并验证在信息冲突时，AI能否依据“可证伪性”原则（如视觉证据更难伪造）做出正确判断。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.025078",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q9_1_2858",
+  "design_spec": {
+    "name": "auto_多模态感官冲突的仲裁机制_当文本信息与视_96c123",
+    "display_name": "多模态感官冲突的仲裁机制：当文本信息与视觉信息（如有）发生冲突时（例如文本说“红色的苹果”，图片是“",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态感官冲突的仲裁机制：当文本信息与视觉信息（如有）发生冲突时（例如文本说“红色的苹果”，图片是“青色”），AI如何判断哪一个是“真实”的？本问题要求建立一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 306
+  }
+}

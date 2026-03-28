@@ -1,0 +1,30 @@
+{
+  "name": "auto_解决寿命限制_如何构建_代际遗忘_与_a9e7df",
+  "file": "skills/auto_解决寿命限制_如何构建_代际遗忘_与_a9e7df.py",
+  "description": "【解决寿命限制】如何构建‘代际遗忘’与‘核心记忆’的分层存储机制？为了解决人类寿命限制导致的狭隘性，AGI需模拟人类文明的传承机制：高频变动的细节（如今日菜价）存入短期记忆（易遗忘），不变的底层逻辑（如供需关系）固化为核心节点（基因化）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_67",
+    "database_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:43:59.988562",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_67_Q6_3_7554",
+  "design_spec": {
+    "name": "auto_解决寿命限制_如何构建_代际遗忘_与_a9e7df",
+    "display_name": "【解决寿命限制】如何构建‘代际遗忘’与‘核心记忆’的分层存储机制？为了解决人类寿命限制导致的狭隘性，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【解决寿命限制】如何构建‘代际遗忘’与‘核心记忆’的分层存储机制？为了解决人类寿命限制导致的狭隘性，AGI需模拟人类文明的传承机制：高频变动的细节（如今日菜价）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 289
+  }
+}

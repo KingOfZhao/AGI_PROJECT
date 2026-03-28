@@ -1,0 +1,30 @@
+{
+  "name": "auto_在人机共生环节中_如何检测_认知自洽但错_2851c5",
+  "file": "skills/auto_在人机共生环节中_如何检测_认知自洽但错_2851c5.py",
+  "description": "在人机共生环节中，如何检测'认知自洽但错误'的节点？即节点内部逻辑闭环（自洽），但与物理世界反馈不符。需要设计一种'压力测试Prompt'生成器，针对现有的1341个节点自动生成具有对抗性的测试用例，试图通过罗素悖论式的问题诱导模型产生逻辑崩溃或幻觉，从而识别出那些并未真正锚定真实的'伪真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "adversarial_ml",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.723122",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_50_Q2_2_6078",
+  "design_spec": {
+    "name": "auto_在人机共生环节中_如何检测_认知自洽但错_2851c5",
+    "display_name": "在人机共生环节中，如何检测'认知自洽但错误'的节点？即节点内部逻辑闭环（自洽），但与物理世界反馈不符",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在人机共生环节中，如何检测'认知自洽但错误'的节点？即节点内部逻辑闭环（自洽），但与物理世界反馈不符。需要设计一种'压力测试Prompt'生成器，针对现有的13",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

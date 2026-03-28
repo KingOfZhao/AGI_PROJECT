@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域灵感生成器_融合能力_一个专门用于_63e223",
+  "file": "skills/auto_跨域灵感生成器_融合能力_一个专门用于_63e223.py",
+  "description": "【跨域灵感生成器】融合能力：一个专门用于‘降维打击’或‘跨界创新’的辅助工具。用户输入一个本领域的难题（如‘如何提高团队协作效率’），系统通过计算结构相似性，自动检索并映射其他领域的解决方案（如‘从细胞信号传导机制’中寻找去中心化协作模型）。它强制打破思维定势，提供结构上等价但语义上完全新颖的解决方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.644958",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_150_O6_3684",
+  "design_spec": {
+    "name": "auto_跨域灵感生成器_融合能力_一个专门用于_63e223",
+    "display_name": "【跨域灵感生成器】融合能力：一个专门用于‘降维打击’或‘跨界创新’的辅助工具。用户输入一个本领域的难",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域灵感生成器】融合能力：一个专门用于‘降维打击’或‘跨界创新’的辅助工具。用户输入一个本领域的难题（如‘如何提高团队协作效率’），系统通过计算结构相似性，自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

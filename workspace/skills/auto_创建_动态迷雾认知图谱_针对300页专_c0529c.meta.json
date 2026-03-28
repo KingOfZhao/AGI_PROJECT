@@ -1,0 +1,30 @@
+{
+  "name": "auto_创建_动态迷雾认知图谱_针对300页专_c0529c",
+  "file": "skills/auto_创建_动态迷雾认知图谱_针对300页专_c0529c.py",
+  "description": "创建'动态迷雾认知图谱'。针对300页专业书籍，AI不直接生成一张满是文字的A4纸，而是生成一个'被迷雾覆盖的技能树'。用户只能看到当前能力可达的节点（核心概念）。只有当用户通过验证（如正确回答了'基础概念'的问题）后，相邻的'进阶概念'迷雾才会消散，显露其中的'反直觉结论'。这种能力将阅读过程转化为'探索游戏'，利用好奇心驱动多巴胺回路，而非意志力驱动。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.601916",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_130_O3_1889",
+  "design_spec": {
+    "name": "auto_创建_动态迷雾认知图谱_针对300页专_c0529c",
+    "display_name": "创建'动态迷雾认知图谱'。针对300页专业书籍，AI不直接生成一张满是文字的A4纸，而是生成一个'被",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创建'动态迷雾认知图谱'。针对300页专业书籍，AI不直接生成一张满是文字的A4纸，而是生成一个'被迷雾覆盖的技能树'。用户只能看到当前能力可达的节点（核心概念",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

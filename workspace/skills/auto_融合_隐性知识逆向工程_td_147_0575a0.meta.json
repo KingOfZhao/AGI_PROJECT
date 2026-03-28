@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_隐性知识逆向工程_td_147_0575a0",
+  "file": "skills/auto_融合_隐性知识逆向工程_td_147_0575a0.py",
+  "description": "融合‘隐性知识逆向工程’（td_147_Q7_0_2541）与‘神经符号中间态’（ho_147_O2_4955），系统可以将人类无法言传的‘手感’或‘直觉’（通过生物反馈捕捉），直接编译为可执行的‘神经-符号混合代码’。这允许AI直接复制工匠的肌肉记忆，而不仅仅是复制书本知识。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.702213",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_148_E2_8978",
+  "design_spec": {
+    "name": "auto_融合_隐性知识逆向工程_td_147_0575a0",
+    "display_name": "融合‘隐性知识逆向工程’（td_147_Q7_0_2541）与‘神经符号中间态’（ho_147_O2",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合‘隐性知识逆向工程’（td_147_Q7_0_2541）与‘神经符号中间态’（ho_147_O2_4955），系统可以将人类无法言传的‘手感’或‘直觉’（通",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

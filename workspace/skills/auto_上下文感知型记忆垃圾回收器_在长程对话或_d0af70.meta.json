@@ -1,0 +1,30 @@
+{
+  "name": "auto_上下文感知型记忆垃圾回收器_在长程对话或_d0af70",
+  "file": "skills/auto_上下文感知型记忆垃圾回收器_在长程对话或_d0af70.py",
+  "description": "上下文感知型记忆垃圾回收器。在长程对话或长文本生成中，自动管理上下文窗口。不使用简单的FIFO（先进先出），而是采用‘分代收集’策略：早期的、且后续未被再次引用（非热点）的对话轮次被视为‘垃圾’，被压缩成摘要或直接丢弃，保留高引用密度的关键细节。这能显著降低Token消耗并提升长程关注的焦点准确性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.786617",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_61_O6_9291",
+  "design_spec": {
+    "name": "auto_上下文感知型记忆垃圾回收器_在长程对话或_d0af70",
+    "display_name": "上下文感知型记忆垃圾回收器。在长程对话或长文本生成中，自动管理上下文窗口。不使用简单的FIFO（先进",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "上下文感知型记忆垃圾回收器。在长程对话或长文本生成中，自动管理上下文窗口。不使用简单的FIFO（先进先出），而是采用‘分代收集’策略：早期的、且后续未被再次引用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 320
+  }
+}

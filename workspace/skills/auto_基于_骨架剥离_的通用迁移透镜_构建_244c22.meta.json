@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_骨架剥离_的通用迁移透镜_构建_244c22",
+  "file": "skills/auto_基于_骨架剥离_的通用迁移透镜_构建_244c22.py",
+  "description": "【基于‘骨架剥离’的通用迁移透镜】：构建一种专门的‘透视镜’Agent，它不关注内容的字面意思，而是提取事物的‘动词-名词’结构骨架（如：进化=变异+筛选；代码迭代=随机修改+单元测试）。当遇到难题时，系统自动在向量空间中搜索结构相似但领域迥异的案例（如用‘生物免疫’解决‘计算机病毒’），提供跨域启发式解决方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.719206",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_95_O4_2861",
+  "design_spec": {
+    "name": "auto_基于_骨架剥离_的通用迁移透镜_构建_244c22",
+    "display_name": "【基于‘骨架剥离’的通用迁移透镜】：构建一种专门的‘透视镜’Agent，它不关注内容的字面意思，而是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于‘骨架剥离’的通用迁移透镜】：构建一种专门的‘透视镜’Agent，它不关注内容的字面意思，而是提取事物的‘动词-名词’结构骨架（如：进化=变异+筛选；代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 316
+  }
+}

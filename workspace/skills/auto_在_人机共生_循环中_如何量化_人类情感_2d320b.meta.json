@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_人机共生_循环中_如何量化_人类情感_2d320b",
+  "file": "skills/auto_在_人机共生_循环中_如何量化_人类情感_2d320b.py",
+  "description": "在‘人机共生’循环中，如何量化‘人类情感/生理状态’对‘真实节点’固化效率的影响？需设计一种多模态输入接口，除文本/代码外，接入人类实践时的生物反馈（如心率变异性、面部表情）。验证是否在‘适度压力’（Eustress）区间内，节点固化的成功率最高。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "neuroscience",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.516031",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_147_Q5_0_2541",
+  "design_spec": {
+    "name": "auto_在_人机共生_循环中_如何量化_人类情感_2d320b",
+    "display_name": "在‘人机共生’循环中，如何量化‘人类情感/生理状态’对‘真实节点’固化效率的影响？需设计一种多模态输",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在‘人机共生’循环中，如何量化‘人类情感/生理状态’对‘真实节点’固化效率的影响？需设计一种多模态输入接口，除文本/代码外，接入人类实践时的生物反馈（如心率变异",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

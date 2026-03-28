@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_仿生结构生成_ho_131_o3_82c16d",
+  "file": "skills/auto_整合_仿生结构生成_ho_131_o3_82c16d.py",
+  "description": "整合‘仿生结构生成’（ho_131_O3_2797）、‘反直觉物理验证’（td_131_Q5_2_5247）和‘环境响应嵌入’（ho_131_O4_2797）。超越传统的生成式模型，构建一个内嵌物理法则的仿真沙盒。AI不仅能生成图像，还能理解图像背后的应力分布、光照逻辑和材料属性，从而在生成‘反直觉’设计时，能自动进行物理层面的自我证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.040004",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_132_E3_9403",
+  "design_spec": {
+    "name": "auto_整合_仿生结构生成_ho_131_o3_82c16d",
+    "display_name": "整合‘仿生结构生成’（ho_131_O3_2797）、‘反直觉物理验证’（td_131_Q5_2_5",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合‘仿生结构生成’（ho_131_O3_2797）、‘反直觉物理验证’（td_131_Q5_2_5247）和‘环境响应嵌入’（ho_131_O4_2797）。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

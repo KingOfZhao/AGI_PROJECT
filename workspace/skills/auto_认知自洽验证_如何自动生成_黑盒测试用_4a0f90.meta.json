@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽验证_如何自动生成_黑盒测试用_4a0f90",
+  "file": "skills/auto_认知自洽验证_如何自动生成_黑盒测试用_4a0f90.py",
+  "description": "【认知自洽验证】如何自动生成‘黑盒测试用例’来验证某个‘认知自洽’领域的闭环性？例如，针对‘小摊贩经济’节点，系统应能自动生成一系列模拟场景（城管来了、下雨、进货涨价），测试该节点下的子节点是否能产出合理应对策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_2",
+    "simulation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:42:58.463841",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_2_Q8_0_9416",
+  "design_spec": {
+    "name": "auto_认知自洽验证_如何自动生成_黑盒测试用_4a0f90",
+    "display_name": "【认知自洽验证】如何自动生成‘黑盒测试用例’来验证某个‘认知自洽’领域的闭环性？例如，针对‘小摊贩经",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【认知自洽验证】如何自动生成‘黑盒测试用例’来验证某个‘认知自洽’领域的闭环性？例如，针对‘小摊贩经济’节点，系统应能自动生成一系列模拟场景（城管来了、下雨、进",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

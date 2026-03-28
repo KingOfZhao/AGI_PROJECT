@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态和声置信度网络_不再使用简单_7dde5d",
+  "file": "skills/auto_构建_动态和声置信度网络_不再使用简单_7dde5d.py",
+  "description": "构建'动态和声置信度网络'。不再使用简单的指数衰减，而是引入音乐中的'预备-解决'逻辑。当一个IT解决方案（节点）长期未被调用（过时），它不会直接归零，而是进入'属七和弦'状态（高张力/警示区），主动发出'回归'（验证）请求。如果验证失败，则解决到'废弃'状态；如果成功，则解决回'稳定'状态。这创造了具有呼吸感的知识库，而非僵化的遗忘曲线。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.407016",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_69_O1_9677",
+  "design_spec": {
+    "name": "auto_构建_动态和声置信度网络_不再使用简单_7dde5d",
+    "display_name": "构建'动态和声置信度网络'。不再使用简单的指数衰减，而是引入音乐中的'预备-解决'逻辑。当一个IT解",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'动态和声置信度网络'。不再使用简单的指数衰减，而是引入音乐中的'预备-解决'逻辑。当一个IT解决方案（节点）长期未被调用（过时），它不会直接归零，而是进入",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

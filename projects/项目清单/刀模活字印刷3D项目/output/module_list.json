@@ -1,0 +1,580 @@
+{
+  "blade_point": "2pt",
+  "modules": [
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 250,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 0,
+            "y": 0
+          },
+          "end": {
+            "x": 300,
+            "y": 0
+          },
+          "length_mm": 300.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 24000.0,
+      "print_time_min": 42.0,
+      "weight_g": 25.0
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 50,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 0,
+            "y": 0
+          },
+          "end": {
+            "x": 300,
+            "y": 0
+          },
+          "length_mm": 300.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 4800.0,
+      "print_time_min": 10.0,
+      "weight_g": 5.0
+    },
+    {
+      "type": "CORNER_VAR",
+      "params": {
+        "blade_point": "2pt",
+        "angle_deg": 90.0,
+        "inner_radius_mm": 1.42,
+        "block_mm": 15
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 6480.0,
+      "print_time_min": 12.8,
+      "weight_g": 6.7
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 200,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 300,
+            "y": 0
+          },
+          "end": {
+            "x": 300,
+            "y": 200
+          },
+          "length_mm": 200.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 19200.0,
+      "print_time_min": 34.0,
+      "weight_g": 20.0
+    },
+    {
+      "type": "CORNER_VAR",
+      "params": {
+        "blade_point": "2pt",
+        "angle_deg": 90.0,
+        "inner_radius_mm": 1.42,
+        "block_mm": 15
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 6480.0,
+      "print_time_min": 12.8,
+      "weight_g": 6.7
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 250,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 300,
+            "y": 200
+          },
+          "end": {
+            "x": 0,
+            "y": 200
+          },
+          "length_mm": 300.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 24000.0,
+      "print_time_min": 42.0,
+      "weight_g": 25.0
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 50,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 300,
+            "y": 200
+          },
+          "end": {
+            "x": 0,
+            "y": 200
+          },
+          "length_mm": 300.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 4800.0,
+      "print_time_min": 10.0,
+      "weight_g": 5.0
+    },
+    {
+      "type": "CORNER_VAR",
+      "params": {
+        "blade_point": "2pt",
+        "angle_deg": 90.0,
+        "inner_radius_mm": 1.42,
+        "block_mm": 15
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 6480.0,
+      "print_time_min": 12.8,
+      "weight_g": 6.7
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 200,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 0,
+            "y": 200
+          },
+          "end": {
+            "x": 0,
+            "y": 0
+          },
+          "length_mm": 200.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 19200.0,
+      "print_time_min": 34.0,
+      "weight_g": 20.0
+    },
+    {
+      "type": "CORNER_VAR",
+      "params": {
+        "blade_point": "2pt",
+        "angle_deg": 90.0,
+        "inner_radius_mm": 1.42,
+        "block_mm": 15
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 6480.0,
+      "print_time_min": 12.8,
+      "weight_g": 6.7
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 150,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": -150,
+            "y": 0
+          },
+          "end": {
+            "x": 0,
+            "y": 0
+          },
+          "length_mm": 150.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 14400.0,
+      "print_time_min": 26.0,
+      "weight_g": 15.0
+    },
+    {
+      "type": "CORNER_VAR",
+      "params": {
+        "blade_point": "2pt",
+        "angle_deg": 90.0,
+        "inner_radius_mm": 1.42,
+        "block_mm": 15
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 6480.0,
+      "print_time_min": 12.8,
+      "weight_g": 6.7
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 200,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": -150,
+            "y": 200
+          },
+          "end": {
+            "x": -150,
+            "y": 0
+          },
+          "length_mm": 200.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 19200.0,
+      "print_time_min": 34.0,
+      "weight_g": 20.0
+    },
+    {
+      "type": "CORNER_VAR",
+      "params": {
+        "blade_point": "2pt",
+        "angle_deg": 90.0,
+        "inner_radius_mm": 1.42,
+        "block_mm": 15
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 6480.0,
+      "print_time_min": 12.8,
+      "weight_g": 6.7
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 150,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 0,
+            "y": 200
+          },
+          "end": {
+            "x": -150,
+            "y": 200
+          },
+          "length_mm": 150.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 14400.0,
+      "print_time_min": 26.0,
+      "weight_g": 15.0
+    },
+    {
+      "type": "CORNER_VAR",
+      "params": {
+        "blade_point": "2pt",
+        "angle_deg": 90.0,
+        "inner_radius_mm": 1.42,
+        "block_mm": 15
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 6480.0,
+      "print_time_min": 12.8,
+      "weight_g": 6.7
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 200,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 0,
+            "y": 0
+          },
+          "end": {
+            "x": 0,
+            "y": 200
+          },
+          "length_mm": 200.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 19200.0,
+      "print_time_min": 34.0,
+      "weight_g": 20.0
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 150,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 300,
+            "y": 0
+          },
+          "end": {
+            "x": 450,
+            "y": 0
+          },
+          "length_mm": 150.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 14400.0,
+      "print_time_min": 26.0,
+      "weight_g": 15.0
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 200,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 450,
+            "y": 0
+          },
+          "end": {
+            "x": 450,
+            "y": 200
+          },
+          "length_mm": 200.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 19200.0,
+      "print_time_min": 34.0,
+      "weight_g": 20.0
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 150,
+        "role": "CUT"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CUT",
+          "start": {
+            "x": 450,
+            "y": 200
+          },
+          "end": {
+            "x": 300,
+            "y": 200
+          },
+          "length_mm": 150.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 14400.0,
+      "print_time_min": 26.0,
+      "weight_g": 15.0
+    },
+    {
+      "type": "STRAIGHT",
+      "params": {
+        "blade_point": "2pt",
+        "length_mm": 200,
+        "role": "CREASE"
+      },
+      "segments": [
+        {
+          "type": "LINE",
+          "layer": "CREASE",
+          "start": {
+            "x": 300,
+            "y": 0
+          },
+          "end": {
+            "x": 300,
+            "y": 200
+          },
+          "length_mm": 200.0
+        }
+      ],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 19200.0,
+      "print_time_min": 34.0,
+      "weight_g": 20.0
+    },
+    {
+      "type": "CROSS_JOINT",
+      "params": {
+        "blade_point": "2pt",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 11520.0,
+      "print_time_min": 21.2,
+      "weight_g": 12.0
+    },
+    {
+      "type": "CROSS_JOINT",
+      "params": {
+        "blade_point": "2pt",
+        "position": {
+          "x": 300,
+          "y": 0
+        }
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 11520.0,
+      "print_time_min": 21.2,
+      "weight_g": 12.0
+    },
+    {
+      "type": "CROSS_JOINT",
+      "params": {
+        "blade_point": "2pt",
+        "position": {
+          "x": 300,
+          "y": 200
+        }
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 11520.0,
+      "print_time_min": 21.2,
+      "weight_g": 12.0
+    },
+    {
+      "type": "CROSS_JOINT",
+      "params": {
+        "blade_point": "2pt",
+        "position": {
+          "x": 0,
+          "y": 200
+        }
+      },
+      "segments": [],
+      "position": null,
+      "rotation_deg": 0,
+      "print_volume_mm3": 11520.0,
+      "print_time_min": 21.2,
+      "weight_g": 12.0
+    }
+  ],
+  "summary": {
+    "total_modules": 25,
+    "unique_types": 10,
+    "type_breakdown": {
+      "STRAIGHT": 14,
+      "CORNER_VAR": 7,
+      "CROSS_JOINT": 4
+    },
+    "reuse_rate": 0.6,
+    "total_weight_g": 334.7,
+    "total_print_time_min": 586.4,
+    "total_print_time_hours": 9.8,
+    "est_material_cost_yuan": 16.74
+  }
+}

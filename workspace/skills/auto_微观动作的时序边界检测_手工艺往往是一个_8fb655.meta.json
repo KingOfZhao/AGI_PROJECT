@@ -1,0 +1,30 @@
+{
+  "name": "auto_微观动作的时序边界检测_手工艺往往是一个_8fb655",
+  "file": "skills/auto_微观动作的时序边界检测_手工艺往往是一个_8fb655.py",
+  "description": "微观动作的时序边界检测。手工艺往往是一个连续的长流程，如何精准切分出具有独立语义的‘原子技能’？例如，将一段长达10分钟的打磨视频，自动切分为‘粗磨’、‘检查’、‘精磨’等子片段。这需要算法能够识别动作的停顿、意图转换及工具更换。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_30",
+    "temporal_segmentation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:02:19.373719",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_30_Q4_0_4494",
+  "design_spec": {
+    "name": "auto_微观动作的时序边界检测_手工艺往往是一个_8fb655",
+    "display_name": "微观动作的时序边界检测。手工艺往往是一个连续的长流程，如何精准切分出具有独立语义的‘原子技能’？例如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "微观动作的时序边界检测。手工艺往往是一个连续的长流程，如何精准切分出具有独立语义的‘原子技能’？例如，将一段长达10分钟的打磨视频，自动切分为‘粗磨’、‘检查’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

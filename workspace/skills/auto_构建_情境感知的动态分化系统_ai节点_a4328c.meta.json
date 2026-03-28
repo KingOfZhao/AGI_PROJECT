@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_情境感知的动态分化系统_ai节点_a4328c",
+  "file": "skills/auto_构建_情境感知的动态分化系统_ai节点_a4328c.py",
+  "description": "构建'情境感知的动态分化系统'。AI节点不应是静态的。当系统检测到外部环境变化（如从'和平时期'转入'618大促'战时状态），配置中心充当'表观遗传酶'，无需重新部署代码（修改DNA），实时对现有节点进行'去甲基化'操作——激活休眠的高并发处理模块，关闭非必要的分析模块，实现'瞬间进化'。这种能力允许单一通用镜像在运行时根据'生态位'（业务场景）自动特化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.824443",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_88_O4_5292",
+  "design_spec": {
+    "name": "auto_构建_情境感知的动态分化系统_ai节点_a4328c",
+    "display_name": "构建'情境感知的动态分化系统'。AI节点不应是静态的。当系统检测到外部环境变化（如从'和平时期'转入",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'情境感知的动态分化系统'。AI节点不应是静态的。当系统检测到外部环境变化（如从'和平时期'转入'618大促'战时状态），配置中心充当'表观遗传酶'，无需重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 268
+  }
+}

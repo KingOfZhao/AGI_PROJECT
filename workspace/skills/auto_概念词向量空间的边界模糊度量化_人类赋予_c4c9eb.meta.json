@@ -1,0 +1,30 @@
+{
+  "name": "auto_概念词向量空间的边界模糊度量化_人类赋予_c4c9eb",
+  "file": "skills/auto_概念词向量空间的边界模糊度量化_人类赋予_c4c9eb.py",
+  "description": "概念词向量空间的边界模糊度量化：人类赋予的新概念往往具有模糊性。开发一个算法来计算新概念节点与现有3403个节点之间的语义边界清晰度。如果新概念与现有节点的余弦相似度过高（>0.95）且无功能性差异，或者相似度过低（<0.1）导致孤立，均视为无效概念，不应固化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "conceptual_blending",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.022806",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_132_Q6_1_2858",
+  "design_spec": {
+    "name": "auto_概念词向量空间的边界模糊度量化_人类赋予_c4c9eb",
+    "display_name": "概念词向量空间的边界模糊度量化：人类赋予的新概念往往具有模糊性。开发一个算法来计算新概念节点与现有3",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "概念词向量空间的边界模糊度量化：人类赋予的新概念往往具有模糊性。开发一个算法来计算新概念节点与现有3403个节点之间的语义边界清晰度。如果新概念与现有节点的余弦",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

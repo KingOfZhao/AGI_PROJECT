@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域技能迁移率_工业制造中_焊接与3d_b7d43e",
+  "file": "skills/auto_跨域技能迁移率_工业制造中_焊接与3d_b7d43e.py",
+  "description": "【跨域技能迁移率】工业制造中，焊接与3D打印存在底层物理重叠。如何利用现有的3325个节点计算‘认知重叠度’，自动将焊接技能节点中的‘热场控制’参数迁移至3D打印技能树中？需验证迁移后的参数调优收敛速度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.584696",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_130_Q6_3_2626",
+  "design_spec": {
+    "name": "auto_跨域技能迁移率_工业制造中_焊接与3d_b7d43e",
+    "display_name": "【跨域技能迁移率】工业制造中，焊接与3D打印存在底层物理重叠。如何利用现有的3325个节点计算‘认知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域技能迁移率】工业制造中，焊接与3D打印存在底层物理重叠。如何利用现有的3325个节点计算‘认知重叠度’，自动将焊接技能节点中的‘热场控制’参数迁移至3D打",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

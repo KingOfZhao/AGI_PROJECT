@@ -1,0 +1,30 @@
+{
+  "name": "auto_具备_认知流体验证_能力的智能规划age_dea5b5",
+  "file": "skills/auto_具备_认知流体验证_能力的智能规划age_dea5b5.py",
+  "description": "具备'认知流体验证'能力的智能规划Agent。利用GNN模拟人类在空间中的移动轨迹（视线、步数），将建筑师的'直觉流线'转化为可量化的'拓扑损失函数'。该能力能让AI在设计初期自动检测'死胡同'或'社交孤岛'，并实时生成符合人类潜意识社交偏好的空间拓扑结构，实现人机共生的设计优化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.510001",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_22_O2_1734",
+  "design_spec": {
+    "name": "auto_具备_认知流体验证_能力的智能规划age_dea5b5",
+    "display_name": "具备'认知流体验证'能力的智能规划Agent。利用GNN模拟人类在空间中的移动轨迹（视线、步数），将",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "具备'认知流体验证'能力的智能规划Agent。利用GNN模拟人类在空间中的移动轨迹（视线、步数），将建筑师的'直觉流线'转化为可量化的'拓扑损失函数'。该能力能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

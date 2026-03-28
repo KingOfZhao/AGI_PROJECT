@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_结构_梯度双重优化算法_在生成式_ab6c24",
+  "file": "skills/auto_开发_结构_梯度双重优化算法_在生成式_ab6c24.py",
+  "description": "开发'结构-梯度双重优化算法'。在生成式建筑设计中，不仅评估几何美观，更引入一个'梯度模拟器'。将建筑构件视为网络节点，模拟'视觉流'或'人流动线'在建筑中的反向传播。如果一个空间布局导致'人流梯度'在底层消失（即没人愿意去，或者动线死胡同），则通过'结构残差连接'（如增设通高庭院、自动扶梯）来疏通流线，实现物理空间与行为逻辑的结构同构。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.806446",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_118_O2_9660",
+  "design_spec": {
+    "name": "auto_开发_结构_梯度双重优化算法_在生成式_ab6c24",
+    "display_name": "开发'结构-梯度双重优化算法'。在生成式建筑设计中，不仅评估几何美观，更引入一个'梯度模拟器'。将建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'结构-梯度双重优化算法'。在生成式建筑设计中，不仅评估几何美观，更引入一个'梯度模拟器'。将建筑构件视为网络节点，模拟'视觉流'或'人流动线'在建筑中的反",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 244
+  }
+}

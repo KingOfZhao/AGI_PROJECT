@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_代谢适应性知识修剪系统_该_bffdcc",
+  "file": "skills/auto_融合能力_代谢适应性知识修剪系统_该_bffdcc.py",
+  "description": "融合能力：'代谢适应性知识修剪系统'。该能力模仿生态系统中物种在能量受限时的优胜劣汰机制，构建一个动态的知识库清理Agent。它不仅统计节点的调用频率（类似进食频率），更引入'认知代谢成本'参数（如节点依赖链的复杂度、存储占用）。系统模拟'生态寒冬'（资源受限场景），强制淘汰那些'摄入能量（价值）< 代谢成本（维护开销）'的知识节点，从而防止知识库的'肥胖症'，保持AGI认知网络的健康与敏捷。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_95",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:10:59.707387",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_95_O1_1004",
+  "design_spec": {
+    "name": "auto_融合能力_代谢适应性知识修剪系统_该_bffdcc",
+    "display_name": "融合能力：'代谢适应性知识修剪系统'。该能力模仿生态系统中物种在能量受限时的优胜劣汰机制，构建一个动",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：'代谢适应性知识修剪系统'。该能力模仿生态系统中物种在能量受限时的优胜劣汰机制，构建一个动态的知识库清理Agent。它不仅统计节点的调用频率（类似进食",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 269
+  }
+}

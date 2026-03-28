@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_辩证式运动控制器_将机器人的执行_c8a3a9",
+  "file": "skills/auto_构建_辩证式运动控制器_将机器人的执行_c8a3a9.py",
+  "description": "构建'辩证式运动控制器'。将机器人的执行过程视为不断的'否定之否定'循环。系统不再视'误差'为单纯的噪声，而是将其视为'现实的反馈'（反题）。系统内置'冲突监测器'，一旦检测到意图与现实的冲突（如阻力过大），立即触发'综合推理'，检索认知网络中的类似案例进行策略重构，而非简单的线性修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.851193",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_129_O3_9103",
+  "design_spec": {
+    "name": "auto_构建_辩证式运动控制器_将机器人的执行_c8a3a9",
+    "display_name": "构建'辩证式运动控制器'。将机器人的执行过程视为不断的'否定之否定'循环。系统不再视'误差'为单纯的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'辩证式运动控制器'。将机器人的执行过程视为不断的'否定之否定'循环。系统不再视'误差'为单纯的噪声，而是将其视为'现实的反馈'（反题）。系统内置'冲突监测",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 325
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "自性项目脚手架生成器 v5",
+  "description": "根据描述一键生成完整项目结构与代码文件。链式调用：规划目录结构→生成多文件代码→组装完整项目→保存并给出启动指令。与前序技能无缝衔接。",
+  "tags": [
+    "项目生成",
+    "脚手架",
+    "本地模型",
+    "代码生成",
+    "自动化",
+    "项目脚手架",
+    "一键生成",
+    "目录结构",
+    "脚手架生成器"
+  ],
+  "category": "scaffolding",
+  "file": "workspace/skills/local_project_scaffolder_v5.py",
+  "source": "local",
+  "safety_level": "warning",
+  "created_at": "2026-03-25T16:31:00.000000",
+  "forged_by": "user_skill_chain",
+  "version": "v5",
+  "design_spec": {
+    "name": "local_project_scaffolder_v5",
+    "display_name": "自性项目脚手架生成器 v5",
+    "description": "一键生成完整项目结构、多文件代码并保存到本地",
+    "functions": [
+      {
+        "name": "run_full_chain",
+        "purpose": "启动完整项目脚手架生成链（规划→生成→组装→保存）",
+        "params": "project_desc (str): 项目描述",
+        "returns": "str: 生成的完整项目脚手架内容"
+      }
+    ],
+    "dependencies": ["requests"],
+    "tags": ["项目生成", "脚手架", "自动化"],
+    "estimated_lines": 65,
+    "chain_position": 5,
+    "chain_family": "自性技能链"
+  }
+}

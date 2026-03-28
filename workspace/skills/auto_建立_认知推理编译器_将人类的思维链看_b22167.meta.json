@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_认知推理编译器_将人类的思维链看_b22167",
+  "file": "skills/auto_建立_认知推理编译器_将人类的思维链看_b22167.py",
+  "description": "建立'认知推理编译器'。将人类的思维链看作一种高级IR，AI不再直接生成答案，而是生成一段可执行的'推理代码'（IR）。然后运行一系列'逻辑优化Pass'（如逻辑一致性检查、偏见消除、事实性校验），最后'编译'（JIT）成自然语言答案。这使得AI的推理过程像编译器优化代码一样，变得可调试、可插拔且确定性更高。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_128",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:22:04.391536",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_128_O3_9612",
+  "design_spec": {
+    "name": "auto_建立_认知推理编译器_将人类的思维链看_b22167",
+    "display_name": "建立'认知推理编译器'。将人类的思维链看作一种高级IR，AI不再直接生成答案，而是生成一段可执行的'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'认知推理编译器'。将人类的思维链看作一种高级IR，AI不再直接生成答案，而是生成一段可执行的'推理代码'（IR）。然后运行一系列'逻辑优化Pass'（如逻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

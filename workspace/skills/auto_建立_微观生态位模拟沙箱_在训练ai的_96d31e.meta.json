@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_微观生态位模拟沙箱_在训练ai的_96d31e",
+  "file": "skills/auto_建立_微观生态位模拟沙箱_在训练ai的_96d31e.py",
+  "description": "建立'微观生态位模拟沙箱'。在训练AI的商业闭环能力时，引入生态学'种间竞争'与'环境容纳量(K值)'模型。AI不仅要计算成本收益，还需评估该商业行为在特定'商业生态位'中的竞争压力（密度制约）。例如，模拟卖烤肠时，AI需分析周边'捕食者'（竞争对手）和'猎物'（潜在客户）的分布密度，动态调整策略（如发生竞争排斥时进行特征置换/差异化经营），从而生成更具鲁棒性的实战方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.971142",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O3_6504",
+  "design_spec": {
+    "name": "auto_建立_微观生态位模拟沙箱_在训练ai的_96d31e",
+    "display_name": "建立'微观生态位模拟沙箱'。在训练AI的商业闭环能力时，引入生态学'种间竞争'与'环境容纳量(K值)",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'微观生态位模拟沙箱'。在训练AI的商业闭环能力时，引入生态学'种间竞争'与'环境容纳量(K值)'模型。AI不仅要计算成本收益，还需评估该商业行为在特定'商",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

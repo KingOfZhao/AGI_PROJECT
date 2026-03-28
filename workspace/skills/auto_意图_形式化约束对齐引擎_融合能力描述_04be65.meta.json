@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图_形式化约束对齐引擎_融合能力描述_04be65",
+  "file": "skills/auto_意图_形式化约束对齐引擎_融合能力描述_04be65.py",
+  "description": "【意图-形式化约束对齐引擎】融合能力描述：结合代码生成的静态分析与认知意图的动态解析，构建一个能够主动探测并显式提问‘隐性边界’的AI系统。该系统不仅能生成代码，还能利用认知模型预判人类可能忽略的边界条件（如‘如果文件不存在是创建还是报错？’），并将其转化为代码中的Assert语句或异常处理块。这实现了从‘盲目执行’到‘契约式生成’的跨越，将AI的假设与人类的意图进行强制对齐。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.570699",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_138_O1_3828",
+  "design_spec": {
+    "name": "auto_意图_形式化约束对齐引擎_融合能力描述_04be65",
+    "display_name": "【意图-形式化约束对齐引擎】融合能力描述：结合代码生成的静态分析与认知意图的动态解析，构建一个能够主",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【意图-形式化约束对齐引擎】融合能力描述：结合代码生成的静态分析与认知意图的动态解析，构建一个能够主动探测并显式提问‘隐性边界’的AI系统。该系统不仅能生成代码",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

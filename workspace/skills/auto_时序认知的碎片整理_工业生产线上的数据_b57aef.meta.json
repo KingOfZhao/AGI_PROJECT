@@ -1,0 +1,30 @@
+{
+  "name": "auto_时序认知的碎片整理_工业生产线上的数据_b57aef",
+  "file": "skills/auto_时序认知的碎片整理_工业生产线上的数据_b57aef.py",
+  "description": "【时序认知的碎片整理】工业生产线上的数据流是连续的，但认知节点是离散的。如何实现‘连续-离散’的无损压缩？验证是否存在信息丢失导致的‘认知盲区’，特别是对于缓变信号（如刀具磨损）的检测。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "time_series_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.275019",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q11_1_9997",
+  "design_spec": {
+    "name": "auto_时序认知的碎片整理_工业生产线上的数据_b57aef",
+    "display_name": "【时序认知的碎片整理】工业生产线上的数据流是连续的，但认知节点是离散的。如何实现‘连续-离散’的无损",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【时序认知的碎片整理】工业生产线上的数据流是连续的，但认知节点是离散的。如何实现‘连续-离散’的无损压缩？验证是否存在信息丢失导致的‘认知盲区’，特别是对于缓变",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 242
+  }
+}

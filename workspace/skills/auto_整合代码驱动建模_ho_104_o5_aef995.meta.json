@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合代码驱动建模_ho_104_o5_aef995",
+  "file": "skills/auto_整合代码驱动建模_ho_104_o5_aef995.py",
+  "description": "整合代码驱动建模（ho_104_O5）、流式几何管道（ho_104_O3_9410）与高性能矢量视图（ho_104_O2_9410）。这是一个全新的设计与制造环境，工程师不再处理静态模型，而是编写“生成逻辑”。系统通过FFI管道实时编译逻辑为几何体，并在高维空间中即时可视化，消除了设计与工程数据之间的隔阂。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_105",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:08:47.251851",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_105_E4_2068",
+  "design_spec": {
+    "name": "auto_整合代码驱动建模_ho_104_o5_aef995",
+    "display_name": "整合代码驱动建模（ho_104_O5）、流式几何管道（ho_104_O3_9410）与高性能矢量视图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合代码驱动建模（ho_104_O5）、流式几何管道（ho_104_O3_9410）与高性能矢量视图（ho_104_O2_9410）。这是一个全新的设计与制造环",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 266
+  }
+}

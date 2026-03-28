@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_动态可执行图_动态参数化ui_a0343f",
+  "file": "skills/auto_结合_动态可执行图_动态参数化ui_a0343f.py",
+  "description": "结合【动态可执行图】、【动态参数化UI】与【人机共生工作流】。系统能根据环境变化（如螺栓生锈）自动调整标准作业程序，并通过动态UI引擎实时生成操作界面。当人类操作员修正步骤时，系统自动更新SOP图结构，形成具备'弹性'和'记忆'的操作指导系统。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.683664",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_121_E4_9546",
+  "design_spec": {
+    "name": "auto_结合_动态可执行图_动态参数化ui_a0343f",
+    "display_name": "结合【动态可执行图】、【动态参数化UI】与【人机共生工作流】。系统能根据环境变化（如螺栓生锈）自动调",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合【动态可执行图】、【动态参数化UI】与【人机共生工作流】。系统能根据环境变化（如螺栓生锈）自动调整标准作业程序，并通过动态UI引擎实时生成操作界面。当人类操",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机共生_的主动提问策略_ai不应_74f24e",
+  "file": "skills/auto_基于_人机共生_的主动提问策略_ai不应_74f24e.py",
+  "description": "基于‘人机共生’的主动提问策略：AI不应被动等待数据。如何根据当前网络的‘最短板’（即信息熵最高的不确定区域），自动生成向人类提问的‘最优问题’？这个问题必须满足：回答成本低（对人类而言），但信息增益极大（对AI网络构建而言）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_91",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:48:30.685313",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_91_Q6_0_1415",
+  "design_spec": {
+    "name": "auto_基于_人机共生_的主动提问策略_ai不应_74f24e",
+    "display_name": "基于‘人机共生’的主动提问策略：AI不应被动等待数据。如何根据当前网络的‘最短板’（即信息熵最高的不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘人机共生’的主动提问策略：AI不应被动等待数据。如何根据当前网络的‘最短板’（即信息熵最高的不确定区域），自动生成向人类提问的‘最优问题’？这个问题必须满",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

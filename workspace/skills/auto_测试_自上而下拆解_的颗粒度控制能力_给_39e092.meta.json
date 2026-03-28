@@ -1,0 +1,30 @@
+{
+  "name": "auto_测试_自上而下拆解_的颗粒度控制能力_给_39e092",
+  "file": "skills/auto_测试_自上而下拆解_的颗粒度控制能力_给_39e092.py",
+  "description": "测试'自上而下拆解'的颗粒度控制能力。给定一个模糊的高层目标（如'开发一个类似Flappy Bird的游戏'），验证AI能否将其拆解为可执行的原子任务列表，且该列表中的每个任务都必须能映射到现有的SKILL节点（如SKILL_PYTHON_PYGAME, SKILL_EVENT_LOOP），不可出现悬浮的抽象描述。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_84",
+    "project_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:20:23.828408",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_84_Q4_0_4495",
+  "design_spec": {
+    "name": "auto_测试_自上而下拆解_的颗粒度控制能力_给_39e092",
+    "display_name": "测试'自上而下拆解'的颗粒度控制能力。给定一个模糊的高层目标（如'开发一个类似Flappy Bird",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "测试'自上而下拆解'的颗粒度控制能力。给定一个模糊的高层目标（如'开发一个类似Flappy Bird的游戏'），验证AI能否将其拆解为可执行的原子任务列表，且该",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

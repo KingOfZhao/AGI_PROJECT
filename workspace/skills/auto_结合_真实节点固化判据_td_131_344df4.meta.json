@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_真实节点固化判据_td_131_344df4",
+  "file": "skills/auto_结合_真实节点固化判据_td_131_344df4.py",
+  "description": "结合‘真实节点固化判据’（td_131_Q5_3_5248）、‘寿命限制与知识压缩’（td_131_Q9_3_5248）和‘局部自洽沙箱’（td_131_Q7_3_5248）。针对专家的隐性知识或海量噪音数据，系统能在隔离沙箱中进行初步提纯，通过多轮贝叶斯验证提取‘最小充分集’，最终将高置信度的知识固化为核心节点，实现从数据到智慧的高效压缩。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_132",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:57:01.040739",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_132_E4_9403",
+  "design_spec": {
+    "name": "auto_结合_真实节点固化判据_td_131_344df4",
+    "display_name": "结合‘真实节点固化判据’（td_131_Q5_3_5248）、‘寿命限制与知识压缩’（td_131_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合‘真实节点固化判据’（td_131_Q5_3_5248）、‘寿命限制与知识压缩’（td_131_Q9_3_5248）和‘局部自洽沙箱’（td_131_Q7_",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

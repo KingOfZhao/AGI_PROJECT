@@ -1,0 +1,30 @@
+{
+  "name": "auto_通过_认知盲区_扫描进行的负向验证_ne_ed8909",
+  "file": "skills/auto_通过_认知盲区_扫描进行的负向验证_ne_ed8909.py",
+  "description": "通过'认知盲区'扫描进行的负向验证（Negative Verification via Cognitive Blind Spot Scanning）。AI系统容易陷入'确认偏误'。如何设计算法，专门搜索'反例'？例如，当节点网络认为'A导致B'时，AI主动在数据库中检索'A发生但B未发生'的实例。如果反例数量超过阈值，且无法用现有条件节点解释，则必须在网络中创建'异常节点'作为警示。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "information_retrieval",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.472907",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_104_Q8_3_3038",
+  "design_spec": {
+    "name": "auto_通过_认知盲区_扫描进行的负向验证_ne_ed8909",
+    "display_name": "通过'认知盲区'扫描进行的负向验证（Negative Verification via Cognit",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "通过'认知盲区'扫描进行的负向验证（Negative Verification via Cognitive Blind Spot Scanning）。AI系统容",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 289
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对高精细度手工艺_如陶艺拉坯_雕刻_cf24e9",
+  "file": "skills/auto_针对高精细度手工艺_如陶艺拉坯_雕刻_cf24e9.py",
+  "description": "针对高精细度手工艺（如陶艺拉坯、雕刻），如何构建一个基于多模态传感器（肌电信号EMG+惯性测量单元IMU+视频）的'数字孪生'编码协议？该协议需将人类大师的肌肉微动作、力度变化及视觉反馈实时转化为时间序列数据，并能有效去除环境噪声，保留'手感'特征。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "bio_signal_processing",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.830725",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_115_Q1_0_3283",
+  "design_spec": {
+    "name": "auto_针对高精细度手工艺_如陶艺拉坯_雕刻_cf24e9",
+    "display_name": "针对高精细度手工艺（如陶艺拉坯、雕刻），如何构建一个基于多模态传感器（肌电信号EMG+惯性测量单元I",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对高精细度手工艺（如陶艺拉坯、雕刻），如何构建一个基于多模态传感器（肌电信号EMG+惯性测量单元IMU+视频）的'数字孪生'编码协议？该协议需将人类大师的肌肉",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 490
+  }
+}

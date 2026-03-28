@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态意图的结构化融合_如果用户输入包_d3cd52",
+  "file": "skills/auto_多模态意图的结构化融合_如果用户输入包_d3cd52.py",
+  "description": "多模态意图的结构化融合: 如果用户输入包含截图、语音语调和文本，系统如何将视觉布局信息（UI结构）与文本指令融合，生成统一的结构化描述（如HTML DOM树与JS逻辑的结合）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.906234",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_48_Q10_3_999",
+  "design_spec": {
+    "name": "auto_多模态意图的结构化融合_如果用户输入包_d3cd52",
+    "display_name": "多模态意图的结构化融合: 如果用户输入包含截图、语音语调和文本，系统如何将视觉布局信息（UI结构）与",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态意图的结构化融合: 如果用户输入包含截图、语音语调和文本，系统如何将视觉布局信息（UI结构）与文本指令融合，生成统一的结构化描述（如HTML DOM树与J",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 417
+  }
+}

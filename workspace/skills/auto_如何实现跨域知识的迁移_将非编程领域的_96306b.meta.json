@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现跨域知识的迁移_将非编程领域的_96306b",
+  "file": "skills/auto_如何实现跨域知识的迁移_将非编程领域的_96306b.py",
+  "description": "如何实现跨域知识的迁移，将非编程领域的'真实节点'（如摆摊的经济逻辑）映射为代码中的业务逻辑约束？人类意图往往来自非计算机领域。问题在于如何将'小摊贩的利润最大化'这种模糊的社会经济学概念，转化为具体的算法约束（如'收益函数 = 价格 * 销量 - 成本'，且需满足特定边界条件）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "agi/domain_adaptation",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.559140",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_126_Q5_1_2725",
+  "design_spec": {
+    "name": "auto_如何实现跨域知识的迁移_将非编程领域的_96306b",
+    "display_name": "如何实现跨域知识的迁移，将非编程领域的'真实节点'（如摆摊的经济逻辑）映射为代码中的业务逻辑约束？人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现跨域知识的迁移，将非编程领域的'真实节点'（如摆摊的经济逻辑）映射为代码中的业务逻辑约束？人类意图往往来自非计算机领域。问题在于如何将'小摊贩的利润最大",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

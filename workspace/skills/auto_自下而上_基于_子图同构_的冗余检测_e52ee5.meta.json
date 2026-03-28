@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上_基于_子图同构_的冗余检测_e52ee5",
+  "file": "skills/auto_自下而上_基于_子图同构_的冗余检测_e52ee5.py",
+  "description": "【自下而上】基于'子图同构'的冗余检测：系统是否存在大量重复或高度相似的'低价值节点'？利用子图同构算法，检测网络中是否存在多个节点实际上描述了同一个'真实节点'的不同侧面。如果有，则这些节点应合并，未合并前应降低其独立评分。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "graph_mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.289824",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q6_0_3605",
+  "design_spec": {
+    "name": "auto_自下而上_基于_子图同构_的冗余检测_e52ee5",
+    "display_name": "【自下而上】基于'子图同构'的冗余检测：系统是否存在大量重复或高度相似的'低价值节点'？利用子图同构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上】基于'子图同构'的冗余检测：系统是否存在大量重复或高度相似的'低价值节点'？利用子图同构算法，检测网络中是否存在多个节点实际上描述了同一个'真实节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 315
+  }
+}

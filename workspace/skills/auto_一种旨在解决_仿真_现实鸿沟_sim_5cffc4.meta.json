@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种旨在解决_仿真_现实鸿沟_sim_5cffc4",
+  "file": "skills/auto_一种旨在解决_仿真_现实鸿沟_sim_5cffc4.py",
+  "description": "一种旨在解决'仿真-现实鸿沟'（Sim-to-Real Gap）的高保真训练环境。它反对理想化的虚拟训练，主张在数字孪生中主动引入'对抗性'和'阻力'。系统利用高维传感器数据（力觉/视觉）对齐物理真实（bu_97_P1_7461），并利用对抗网络生成针对AI弱点的极端物理场景（ho_97_O2_3011）和突发危机（ho_97_O4_2506）。通过在虚拟环境中预设'阻力因式'（bu_96_P5_50），迫使AI在压力下学习鲁棒性，从而实现低成本、零风险的'数字试错，物理获益'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.791080",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_98_P4_2462",
+  "design_spec": {
+    "name": "auto_一种旨在解决_仿真_现实鸿沟_sim_5cffc4",
+    "display_name": "一种旨在解决'仿真-现实鸿沟'（Sim-to-Real Gap）的高保真训练环境。它反对理想化的虚拟",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种旨在解决'仿真-现实鸿沟'（Sim-to-Real Gap）的高保真训练环境。它反对理想化的虚拟训练，主张在数字孪生中主动引入'对抗性'和'阻力'。系统利用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

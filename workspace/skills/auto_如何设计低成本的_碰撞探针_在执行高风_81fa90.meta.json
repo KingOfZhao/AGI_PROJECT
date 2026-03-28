@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计低成本的_碰撞探针_在执行高风_81fa90",
+  "file": "skills/auto_如何设计低成本的_碰撞探针_在执行高风_81fa90.py",
+  "description": "如何设计低成本的'碰撞探针'，在执行高风险或高成本的真实节点前进行预演？AGI不能仅靠人类试错，需构建内部仿真器。问题在于如何用极小的算力生成'足够真实'的碰撞反馈，从而在人机共生环节中过滤掉90%的必然失败路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "agi_simulation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.536086",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q2_3_6364",
+  "design_spec": {
+    "name": "auto_如何设计低成本的_碰撞探针_在执行高风_81fa90",
+    "display_name": "如何设计低成本的'碰撞探针'，在执行高风险或高成本的真实节点前进行预演？AGI不能仅靠人类试错，需构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计低成本的'碰撞探针'，在执行高风险或高成本的真实节点前进行预演？AGI不能仅靠人类试错，需构建内部仿真器。问题在于如何用极小的算力生成'足够真实'的碰撞",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 269
+  }
+}

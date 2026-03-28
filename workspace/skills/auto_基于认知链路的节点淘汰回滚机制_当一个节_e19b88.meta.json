@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于认知链路的节点淘汰回滚机制_当一个节_e19b88",
+  "file": "skills/auto_基于认知链路的节点淘汰回滚机制_当一个节_e19b88.py",
+  "description": "基于认知链路的节点淘汰回滚机制：当一个节点被标记为'待淘汰'时，如何自动分析其依赖树，识别出哪些上游的高级认知节点会因此失效？并设计一种'软淘汰'机制，即在完全删除前先进入'隔离区'，观察系统是否有报错或调用失败。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "system_safety",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.551794",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_60_Q9_2_4971",
+  "design_spec": {
+    "name": "auto_基于认知链路的节点淘汰回滚机制_当一个节_e19b88",
+    "display_name": "基于认知链路的节点淘汰回滚机制：当一个节点被标记为'待淘汰'时，如何自动分析其依赖树，识别出哪些上游",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于认知链路的节点淘汰回滚机制：当一个节点被标记为'待淘汰'时，如何自动分析其依赖树，识别出哪些上游的高级认知节点会因此失效？并设计一种'软淘汰'机制，即在完全",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

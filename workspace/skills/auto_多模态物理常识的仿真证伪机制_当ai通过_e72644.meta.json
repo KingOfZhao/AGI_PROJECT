@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态物理常识的仿真证伪机制_当ai通过_e72644",
+  "file": "skills/auto_多模态物理常识的仿真证伪机制_当ai通过_e72644.py",
+  "description": "多模态物理常识的仿真证伪机制：当AI通过归纳生成一个新的物理常识节点（如“叠放不稳物体erry会倒塌”）时，如何自动生成Blender或Unity仿真代码进行验证？系统需具备将自然语言描述转化为物理引擎参数的能力，并观察仿真结果是否违背预测。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.394445",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q2_3_5254",
+  "design_spec": {
+    "name": "auto_多模态物理常识的仿真证伪机制_当ai通过_e72644",
+    "display_name": "多模态物理常识的仿真证伪机制：当AI通过归纳生成一个新的物理常识节点（如“叠放不稳物体erry会倒塌",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态物理常识的仿真证伪机制：当AI通过归纳生成一个新的物理常识节点（如“叠放不稳物体erry会倒塌”）时，如何自动生成Blender或Unity仿真代码进行验",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

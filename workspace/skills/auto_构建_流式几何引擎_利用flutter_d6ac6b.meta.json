@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_流式几何引擎_利用flutter_d6ac6b",
+  "file": "skills/auto_构建_流式几何引擎_利用flutter_d6ac6b.py",
+  "description": "构建'流式几何引擎'。利用Flutter的FrameWork层直接映射CAD的Feature Tree，将CAD模型作为'状态'进行管理。这允许开发者使用Flutter的Hot Reload机制实时修改CAD参数并立即看到几何变化，打破了传统CAD软件沉重的编译求解过程。可以实现'像修图一样修模型'的体验，将参数化建模带入Web和移动端，支持多人实时协同编辑几何体。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.051221",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_127_O1_653",
+  "design_spec": {
+    "name": "auto_构建_流式几何引擎_利用flutter_d6ac6b",
+    "display_name": "构建'流式几何引擎'。利用Flutter的FrameWork层直接映射CAD的Feature Tre",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'流式几何引擎'。利用Flutter的FrameWork层直接映射CAD的Feature Tree，将CAD模型作为'状态'进行管理。这允许开发者使用Flu",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

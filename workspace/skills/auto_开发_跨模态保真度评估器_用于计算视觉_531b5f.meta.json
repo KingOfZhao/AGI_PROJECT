@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_跨模态保真度评估器_用于计算视觉_531b5f",
+  "file": "skills/auto_开发_跨模态保真度评估器_用于计算视觉_531b5f.py",
+  "description": "开发'跨模态保真度评估器'，用于计算视觉意图与生成代码之间的语义距离，并引入'信息损耗补偿'算法。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.745421",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_139_G1_364",
+  "design_spec": {
+    "name": "auto_开发_跨模态保真度评估器_用于计算视觉_531b5f",
+    "display_name": "开发'跨模态保真度评估器'，用于计算视觉意图与生成代码之间的语义距离，并引入'信息损耗补偿'算法。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'跨模态保真度评估器'，用于计算视觉意图与生成代码之间的语义距离，并引入'信息损耗补偿'算法。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

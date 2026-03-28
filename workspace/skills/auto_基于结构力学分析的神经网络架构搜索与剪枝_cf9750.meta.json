@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于结构力学分析的神经网络架构搜索与剪枝_cf9750",
+  "file": "skills/auto_基于结构力学分析的神经网络架构搜索与剪枝_cf9750.py",
+  "description": "基于结构力学分析的神经网络架构搜索与剪枝系统（SM-NAS）。利用建筑结构力学中的有限元分析（FEA）思想，将神经网络的层视为结构构件，信息流视为荷载。该系统能自动检测网络中的'低应力区'（冗余参数）进行拆除，或识别'高应力区'（梯度爆炸/消失风险）进行结构加固（如引入残差连接作为'结构支撑'）。这不仅是模型压缩，更是基于结构稳定性的网络拓扑进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.856354",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_113_O1_750",
+  "design_spec": {
+    "name": "auto_基于结构力学分析的神经网络架构搜索与剪枝_cf9750",
+    "display_name": "基于结构力学分析的神经网络架构搜索与剪枝系统（SM-NAS）。利用建筑结构力学中的有限元分析（FEA",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于结构力学分析的神经网络架构搜索与剪枝系统（SM-NAS）。利用建筑结构力学中的有限元分析（FEA）思想，将神经网络的层视为结构构件，信息流视为荷载。该系统能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

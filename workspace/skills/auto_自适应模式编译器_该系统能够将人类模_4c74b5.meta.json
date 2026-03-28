@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应模式编译器_该系统能够将人类模_4c74b5",
+  "file": "skills/auto_自适应模式编译器_该系统能够将人类模_4c74b5.py",
+  "description": "'自适应模式编译器'。该系统能够将人类模糊的自然语言需求，自动转化为高保真的'生成式模式语言'（Generative Pattern Language），并直接编译为建筑图纸或代码。不同于当前简单的文生图，它会先构建一个由相互关联的微观模式（如'私密角落'、'光线穿透'）组成的语义图，确保生成结果在功能和社会学意义上'自洽'，解决当前AI生成内容缺乏深层逻辑一致性的痛点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_66",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:38:30.068015",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_66_O2_6986",
+  "design_spec": {
+    "name": "auto_自适应模式编译器_该系统能够将人类模_4c74b5",
+    "display_name": "'自适应模式编译器'。该系统能够将人类模糊的自然语言需求，自动转化为高保真的'生成式模式语言'（Ge",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "'自适应模式编译器'。该系统能够将人类模糊的自然语言需求，自动转化为高保真的'生成式模式语言'（Generative Pattern Language），并直接",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

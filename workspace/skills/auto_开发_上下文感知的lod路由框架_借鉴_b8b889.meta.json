@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_上下文感知的lod路由框架_借鉴_b8b889",
+  "file": "skills/auto_开发_上下文感知的lod路由框架_借鉴_b8b889.py",
+  "description": "开发'上下文感知的LOD路由框架'。借鉴CAD的LOD(Level of Detail)思想，当用户在App深层页面(如商品详情)停留时，后台自动'卸载'或'降级'不可见的父级页面资源(如首页列表图片)，模拟CAD中'视锥体剔除'，极大降低内存占用，实现无限深度的路由栈而不OOM。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.345845",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_133_O4_1879",
+  "design_spec": {
+    "name": "auto_开发_上下文感知的lod路由框架_借鉴_b8b889",
+    "display_name": "开发'上下文感知的LOD路由框架'。借鉴CAD的LOD(Level of Detail)思想，当用户",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'上下文感知的LOD路由框架'。借鉴CAD的LOD(Level of Detail)思想，当用户在App深层页面(如商品详情)停留时，后台自动'卸载'或'降",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

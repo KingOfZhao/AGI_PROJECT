@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_认知多样性保险_ho_138_o_92dab7",
+  "file": "skills/auto_整合_认知多样性保险_ho_138_o_92dab7.py",
+  "description": "整合'认知多样性保险'（ho_138_O5_4063）与'自适应纠错'（ho_138_O2_3828）。构建一个系统级的免疫层，当主逻辑路径因环境突变失效时，系统能无缝切换至逻辑异构的备用节点，并在后台启动'纠错分析'修复主路径。这赋予了AGI在动荡环境中的极高生存能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.744175",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_139_E5_364",
+  "design_spec": {
+    "name": "auto_整合_认知多样性保险_ho_138_o_92dab7",
+    "display_name": "整合'认知多样性保险'（ho_138_O5_4063）与'自适应纠错'（ho_138_O2_3828",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'认知多样性保险'（ho_138_O5_4063）与'自适应纠错'（ho_138_O2_3828）。构建一个系统级的免疫层，当主逻辑路径因环境突变失效时，系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 376
+  }
+}

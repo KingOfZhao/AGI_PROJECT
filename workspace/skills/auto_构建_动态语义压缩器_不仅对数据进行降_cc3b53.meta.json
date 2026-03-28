@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态语义压缩器_不仅对数据进行降_cc3b53",
+  "file": "skills/auto_构建_动态语义压缩器_不仅对数据进行降_cc3b53.py",
+  "description": "构建'动态语义压缩器'。不仅对数据进行降维，而是模拟人类认知的'注意机制'，根据当前目标动态调整降维的'焦距'。这不再是静态的PCA，而是一个能够根据上下文自动调整特征权重的'认知流形学习网络'，使AI在面对海量数据时，能像人类专家一样瞬间抓住问题的'骨架'，忽略无关噪音，实现极高压缩比的语义保留。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.194763",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_120_O1_6899",
+  "design_spec": {
+    "name": "auto_构建_动态语义压缩器_不仅对数据进行降_cc3b53",
+    "display_name": "构建'动态语义压缩器'。不仅对数据进行降维，而是模拟人类认知的'注意机制'，根据当前目标动态调整降维",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'动态语义压缩器'。不仅对数据进行降维，而是模拟人类认知的'注意机制'，根据当前目标动态调整降维的'焦距'。这不再是静态的PCA，而是一个能够根据上下文自动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 241
+  }
+}

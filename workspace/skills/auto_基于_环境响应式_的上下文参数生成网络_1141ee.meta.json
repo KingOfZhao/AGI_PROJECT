@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_环境响应式_的上下文参数生成网络_1141ee",
+  "file": "skills/auto_基于_环境响应式_的上下文参数生成网络_1141ee.py",
+  "description": "基于'环境响应式'的上下文参数生成网络。不再使用固定的LoRA权重，而是借鉴'气候适应性建筑表皮'（如呼吸幕墙），设计一种能根据输入数据特征实时调整网络权重的微架构。模型能感知'数据气候'（Data Climate，即数据的统计分布特征），并像向日葵或自适应建筑一样，动态调整自身的'形态'（参数插值），实现零样本的领域自适应。这不仅是微调，而是一种实时的形态发生学。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.471436",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_78_O4_4475",
+  "design_spec": {
+    "name": "auto_基于_环境响应式_的上下文参数生成网络_1141ee",
+    "display_name": "基于'环境响应式'的上下文参数生成网络。不再使用固定的LoRA权重，而是借鉴'气候适应性建筑表皮'（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'环境响应式'的上下文参数生成网络。不再使用固定的LoRA权重，而是借鉴'气候适应性建筑表皮'（如呼吸幕墙），设计一种能根据输入数据特征实时调整网络权重的微",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

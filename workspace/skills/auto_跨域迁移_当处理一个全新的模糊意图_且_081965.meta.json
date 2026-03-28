@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移_当处理一个全新的模糊意图_且_081965",
+  "file": "skills/auto_跨域迁移_当处理一个全新的模糊意图_且_081965.py",
+  "description": "【跨域迁移】当处理一个全新的模糊意图，且该意图在现有1841个节点中无直接匹配时，如何利用'重叠固化'原理，计算不同领域（如'烹饪'与'化学实验'）节点间的结构相似性，从而复用旧领域的流程模板来解决新问题？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.809242",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q5_3_4004",
+  "design_spec": {
+    "name": "auto_跨域迁移_当处理一个全新的模糊意图_且_081965",
+    "display_name": "【跨域迁移】当处理一个全新的模糊意图，且该意图在现有1841个节点中无直接匹配时，如何利用'重叠固化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域迁移】当处理一个全新的模糊意图，且该意图在现有1841个节点中无直接匹配时，如何利用'重叠固化'原理，计算不同领域（如'烹饪'与'化学实验'）节点间的结构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_客观实在性校验层_在ai决策层与_88149e",
+  "file": "skills/auto_构建_客观实在性校验层_在ai决策层与_88149e.py",
+  "description": "构建'客观实在性校验层'。在AI决策层与执行层之间加入'物质阻力'反馈机制。AI不仅输出指令，还必须预测'物质反馈'。如果预测与实际反馈不符（如误判摩擦力），即判定为'唯心主义错误'（主观臆断）。通过强制物理交互验证，将那些仅在数据层面自洽但在物理层面无效的'伪知识'剔除。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.716348",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_110_O5_415",
+  "design_spec": {
+    "name": "auto_构建_客观实在性校验层_在ai决策层与_88149e",
+    "display_name": "构建'客观实在性校验层'。在AI决策层与执行层之间加入'物质阻力'反馈机制。AI不仅输出指令，还必须",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'客观实在性校验层'。在AI决策层与执行层之间加入'物质阻力'反馈机制。AI不仅输出指令，还必须预测'物质反馈'。如果预测与实际反馈不符（如误判摩擦力），即",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 274
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于动态有限状态机的上下文感知分词系统_404471",
+  "file": "skills/auto_基于动态有限状态机的上下文感知分词系统_404471.py",
+  "description": "基于动态有限状态机的上下文感知分词系统。结合编译原理的DFA确定性与NLP的概率模型，构建一种能够根据上下文（如专业领域、代码混排）动态重构分词规则的引擎。这能解决传统分词器面对新造词或混合文本（如中文代码注释）时的刚性缺陷，实现从'硬规则'到'概率状态机'的跃迁，显著提升预处理阶段的鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_51",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:49:54.169637",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_51_O1_8103",
+  "design_spec": {
+    "name": "auto_基于动态有限状态机的上下文感知分词系统_404471",
+    "display_name": "基于动态有限状态机的上下文感知分词系统。结合编译原理的DFA确定性与NLP的概率模型，构建一种能够根",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于动态有限状态机的上下文感知分词系统。结合编译原理的DFA确定性与NLP的概率模型，构建一种能够根据上下文（如专业领域、代码混排）动态重构分词规则的引擎。这能",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 236
+  }
+}

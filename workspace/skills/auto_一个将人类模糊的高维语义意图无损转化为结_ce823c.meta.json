@@ -1,0 +1,30 @@
+{
+  "name": "auto_一个将人类模糊的高维语义意图无损转化为结_ce823c",
+  "file": "skills/auto_一个将人类模糊的高维语义意图无损转化为结_ce823c.py",
+  "description": "一个将人类模糊的高维语义意图无损转化为结构化可执行代码的编译系统。它不仅关注代码生成，更前置解决了‘意图对齐’的问题。通过‘跨模态意图对齐’（结合截图、草图与文本）和‘思维链分解’，将抽象需求显式化为逻辑约束树。在编码前，它先构建概率规划；在编码后，它通过静态分析探测隐性边界。这本质上是一个‘认知编译器’，将人类的自然语言编译为机器的逻辑逻辑，同时保留原始语义的完整性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.719848",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_139_P3_7430",
+  "design_spec": {
+    "name": "auto_一个将人类模糊的高维语义意图无损转化为结_ce823c",
+    "display_name": "一个将人类模糊的高维语义意图无损转化为结构化可执行代码的编译系统。它不仅关注代码生成，更前置解决了‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一个将人类模糊的高维语义意图无损转化为结构化可执行代码的编译系统。它不仅关注代码生成，更前置解决了‘意图对齐’的问题。通过‘跨模态意图对齐’（结合截图、草图与文",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

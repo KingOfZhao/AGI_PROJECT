@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_创伤恢复与一致性协议系统_将心理_19930b",
+  "file": "skills/auto_构建_创伤恢复与一致性协议系统_将心理_19930b.py",
+  "description": "构建'创伤恢复与一致性协议系统'。将心理治疗过程视为分布式事务处理。当人类遭遇无法处理的'异常事务'（创伤事件）时，AI协助进行'回滚'（解离情绪与事实）或'补偿事务'（重构认知框架），最终提交一个新的、一致的'自我版本'（Commit），解决心理死锁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.334745",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_1_O2_945",
+  "design_spec": {
+    "name": "auto_构建_创伤恢复与一致性协议系统_将心理_19930b",
+    "display_name": "构建'创伤恢复与一致性协议系统'。将心理治疗过程视为分布式事务处理。当人类遭遇无法处理的'异常事务'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'创伤恢复与一致性协议系统'。将心理治疗过程视为分布式事务处理。当人类遭遇无法处理的'异常事务'（创伤事件）时，AI协助进行'回滚'（解离情绪与事实）或'补",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

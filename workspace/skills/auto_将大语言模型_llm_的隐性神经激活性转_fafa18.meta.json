@@ -1,0 +1,30 @@
+{
+  "name": "auto_将大语言模型_llm_的隐性神经激活性转_fafa18",
+  "file": "skills/auto_将大语言模型_llm_的隐性神经激活性转_fafa18.py",
+  "description": "将大语言模型（LLM）的隐性神经激活性转化为显性、可操作的‘思维原语’（如[DECOMPOSE], [ANALOGIZE], [VERIFY]）。这层中间表示（IR）允许系统将复杂的跨域推理（如将生物免疫机制迁移到网络安全）拆解为结构化的步骤：提取源域核心逻辑 -> 映射结构 -> 验证目标域有效性。它解决了黑盒模型难以进行精确逻辑控制和迁移的问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.707745",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_110_P5_6554",
+  "design_spec": {
+    "name": "auto_将大语言模型_llm_的隐性神经激活性转_fafa18",
+    "display_name": "将大语言模型（LLM）的隐性神经激活性转化为显性、可操作的‘思维原语’（如[DECOMPOSE], ",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "将大语言模型（LLM）的隐性神经激活性转化为显性、可操作的‘思维原语’（如[DECOMPOSE], [ANALOGIZE], [VERIFY]）。这层中间表示（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 238
+  }
+}

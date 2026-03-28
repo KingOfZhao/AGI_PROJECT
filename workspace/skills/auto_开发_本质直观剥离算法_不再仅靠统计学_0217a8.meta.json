@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_本质直观剥离算法_不再仅靠统计学_0217a8",
+  "file": "skills/auto_开发_本质直观剥离算法_不再仅靠统计学_0217a8.py",
+  "description": "开发'本质直观剥离算法'。不再仅靠统计学提取特征，而是引入现象学方法，主动识别并'悬置'（Epoche）与任务意图无关的肢体属性。AI将学习建立'意向性弧'（Intentional Arc），即技能不再存储于关节角度，而是存储于'肢体-目标'的动态意向关系中，实现真正的'具身通用性'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_76",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:35:30.448296",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_76_O2_7085",
+  "design_spec": {
+    "name": "auto_开发_本质直观剥离算法_不再仅靠统计学_0217a8",
+    "display_name": "开发'本质直观剥离算法'。不再仅靠统计学提取特征，而是引入现象学方法，主动识别并'悬置'（Epoch",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'本质直观剥离算法'。不再仅靠统计学提取特征，而是引入现象学方法，主动识别并'悬置'（Epoche）与任务意图无关的肢体属性。AI将学习建立'意向性弧'（I",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

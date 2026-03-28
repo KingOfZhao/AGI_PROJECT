@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念关注人机交互中的_摩擦力_与_负荷_5a429d",
+  "file": "skills/auto_该概念关注人机交互中的_摩擦力_与_负荷_5a429d.py",
+  "description": "该概念关注人机交互中的“摩擦力”与“负荷”。它不再追求单向的最高信息密度，而是通过实时监测人类的认知状态（如交互延迟、报错率），动态调节AI输出的粒度和频率。当检测到意图歧义或人类过载时，系统自动降级或生成澄清性提问，实现一种“自适应阻抗匹配”，确保认知流的顺畅。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_99",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:24:59.714288",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_99_P4_2184",
+  "design_spec": {
+    "name": "auto_该概念关注人机交互中的_摩擦力_与_负荷_5a429d",
+    "display_name": "该概念关注人机交互中的“摩擦力”与“负荷”。它不再追求单向的最高信息密度，而是通过实时监测人类的认知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念关注人机交互中的“摩擦力”与“负荷”。它不再追求单向的最高信息密度，而是通过实时监测人类的认知状态（如交互延迟、报错率），动态调节AI输出的粒度和频率。当",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 295
+  }
+}

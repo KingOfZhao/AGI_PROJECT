@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态调性搜索优化引擎_该能力将音_4ab966",
+  "file": "skills/auto_构建_动态调性搜索优化引擎_该能力将音_4ab966.py",
+  "description": "构建'动态调性搜索优化引擎'。该能力将音乐中和声解决张力的逻辑转化为算法中的搜索权重调节机制。当算法陷入局部最优（相当于音乐中的'离调'或'停滞'）时，引入'重属和弦'式的临时目标偏移策略，强制跳脱当前状态；当接近全局最优（'主和弦'）时，指数级增加收敛权重。这能显著提升AI在复杂迷宫或资源调度问题中的鲁棒性，模拟人类作曲家'制造冲突-解决冲突'的高级认知模式。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.756052",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O1_9774",
+  "design_spec": {
+    "name": "auto_构建_动态调性搜索优化引擎_该能力将音_4ab966",
+    "display_name": "构建'动态调性搜索优化引擎'。该能力将音乐中和声解决张力的逻辑转化为算法中的搜索权重调节机制。当算法",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'动态调性搜索优化引擎'。该能力将音乐中和声解决张力的逻辑转化为算法中的搜索权重调节机制。当算法陷入局部最优（相当于音乐中的'离调'或'停滞'）时，引入'重",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 218
+  }
+}

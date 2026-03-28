@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_意图坍缩_bu_97_p3_74_7367fa",
+  "file": "skills/auto_融合_意图坍缩_bu_97_p3_74_7367fa.py",
+  "description": "融合‘意图坍缩’（bu_97_P3_7461）、‘认知负载调节’（td_97_Q6_3_9182）与‘人格演变数仓’（ho_97_O3_1200）。系统不再被动等待指令，而是根据用户的历史决策偏好和当前情绪状态，动态调整‘意图坍缩’的概率分布。它能在用户思维模糊时提供结构化选项，在用户意图明确时快速执行，实现人机思维的同频共振，将模糊的念头直接结晶为可执行的代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.796483",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_98_E2_4726",
+  "design_spec": {
+    "name": "auto_融合_意图坍缩_bu_97_p3_74_7367fa",
+    "display_name": "融合‘意图坍缩’（bu_97_P3_7461）、‘认知负载调节’（td_97_Q6_3_9182）与",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合‘意图坍缩’（bu_97_P3_7461）、‘认知负载调节’（td_97_Q6_3_9182）与‘人格演变数仓’（ho_97_O3_1200）。系统不再被动",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 227
+  }
+}

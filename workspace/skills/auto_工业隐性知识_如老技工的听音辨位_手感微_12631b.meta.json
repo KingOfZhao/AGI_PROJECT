@@ -1,0 +1,30 @@
+{
+  "name": "auto_工业隐性知识_如老技工的听音辨位_手感微_12631b",
+  "file": "skills/auto_工业隐性知识_如老技工的听音辨位_手感微_12631b.py",
+  "description": "工业隐性知识（如老技工的听音辨位、手感微调）往往是非结构化的。如何设计一种‘人机共生编码器’，将老师傅的口语描述（如‘稍微紧一点’）映射为具有明确物理边界（如扭矩值Nm的标准差范围）的数字化向量，且该向量需能与现有2852个概念节点进行语义对齐？此过程需区分‘主观感受’与‘客观物理量’，构建中间层的模糊逻辑映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.849568",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_113_Q1_1_6945",
+  "design_spec": {
+    "name": "auto_工业隐性知识_如老技工的听音辨位_手感微_12631b",
+    "display_name": "工业隐性知识（如老技工的听音辨位、手感微调）往往是非结构化的。如何设计一种‘人机共生编码器’，将老师",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "工业隐性知识（如老技工的听音辨位、手感微调）往往是非结构化的。如何设计一种‘人机共生编码器’，将老师傅的口语描述（如‘稍微紧一点’）映射为具有明确物理边界（如扭",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

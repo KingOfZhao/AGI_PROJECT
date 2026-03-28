@@ -220,3 +220,8 @@
 {"action": "turbo_start", "model": "glm-5", "interval": 30, "batch_size": 5, "timestamp": "2026-03-21T09:06:29.727210"}
 {"action": "turbo_stop", "cycles": 2, "timestamp": "2026-03-21T09:07:28.293035"}
 {"action": "turbo_start", "model": "glm-5", "interval": 30, "batch_size": 5, "timestamp": "2026-03-21T22:23:47.902767"}
+{"action": "turbo_start", "model": "glm-5", "interval": 30, "batch_size": 5, "timestamp": "2026-03-23T22:44:20.411874"}
+{"action": "turbo_stop", "cycles": 6, "timestamp": "2026-03-23T22:47:10.528323"}
+{"action": "turbo_start", "model": "glm-5", "interval": 30, "batch_size": 5, "timestamp": "2026-03-24T07:03:01.432211"}
+{"action": "turbo_stop", "cycles": 56, "timestamp": "2026-03-24T07:30:37.529874"}
+{"action": "turbo_start", "model": "glm-5", "interval": 30, "batch_size": 5, "timestamp": "2026-03-24T07:30:38.238010"}

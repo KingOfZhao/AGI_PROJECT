@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一套_认知etl流水线_系统_该系统_ab5701",
+  "file": "skills/auto_构建一套_认知etl流水线_系统_该系统_ab5701.py",
+  "description": "构建一套'认知ETL流水线'系统。该系统不仅处理外部数据，还将人类的情绪、直觉和记忆作为'原始数据'进行清洗。通过AI辅助识别高频出现的认知噪声（如确认偏误），自动标记并隔离低质量的思维输入，强制用户在决策前进行'数据质量校验'。这能显著降低人类在压力或疲劳状态下的决策失误，实现思维层面的'去重与格式化'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.748001",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_74_O1_4290",
+  "design_spec": {
+    "name": "auto_构建一套_认知etl流水线_系统_该系统_ab5701",
+    "display_name": "构建一套'认知ETL流水线'系统。该系统不仅处理外部数据，还将人类的情绪、直觉和记忆作为'原始数据'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一套'认知ETL流水线'系统。该系统不仅处理外部数据，还将人类的情绪、直觉和记忆作为'原始数据'进行清洗。通过AI辅助识别高频出现的认知噪声（如确认偏误），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

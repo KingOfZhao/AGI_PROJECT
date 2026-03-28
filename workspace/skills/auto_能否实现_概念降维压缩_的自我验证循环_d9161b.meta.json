@@ -1,0 +1,30 @@
+{
+  "name": "auto_能否实现_概念降维压缩_的自我验证循环_d9161b",
+  "file": "skills/auto_能否实现_概念降维压缩_的自我验证循环_d9161b.py",
+  "description": "能否实现'概念降维压缩'的自我验证循环？AI生成的'新概念'往往冗余。本子问题要求开发算法，尝试用更少的既有节点来解释新现象。如果新概念的解释力（R^2）可以被一个由3个旧节点组成的线性组合覆盖，则该新概念应被'证伪'并回退为一条'组合技能'，而非独立节点。这是防止知识图谱膨胀的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "Model Compression / Epistemology",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.956541",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q5_1_3706",
+  "design_spec": {
+    "name": "auto_能否实现_概念降维压缩_的自我验证循环_d9161b",
+    "display_name": "能否实现'概念降维压缩'的自我验证循环？AI生成的'新概念'往往冗余。本子问题要求开发算法，尝试用更",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "能否实现'概念降维压缩'的自我验证循环？AI生成的'新概念'往往冗余。本子问题要求开发算法，尝试用更少的既有节点来解释新现象。如果新概念的解释力（R^2）可以被",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

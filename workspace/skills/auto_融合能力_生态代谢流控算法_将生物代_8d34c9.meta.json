@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_生态代谢流控算法_将生物代_8d34c9",
+  "file": "skills/auto_融合能力_生态代谢流控算法_将生物代_8d34c9.py",
+  "description": "融合能力：'生态代谢流控算法'。将生物代谢通路中的'变构调节'（Allosteric Regulation，即效应物结合到酶的非活性位点改变其构象）引入微服务流量控制。传统的背压往往是二元的（开/关）或线性的。融合算法能根据系统的'多维度能量状态'（如CPU温度、内存碎片率、网络抖动，模拟细胞内的pH值、温度等）动态调整流量阈值。这不仅是队列满才拒绝，而是在系统'感到疲劳'时，通过'变构效应'微妙地降低服务处理的'酶活性'（线程优先级），实现更平滑的过载保护，避免雪崩。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.507029",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_22_O2_5420",
+  "design_spec": {
+    "name": "auto_融合能力_生态代谢流控算法_将生物代_8d34c9",
+    "display_name": "融合能力：'生态代谢流控算法'。将生物代谢通路中的'变构调节'（Allosteric Regulat",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：'生态代谢流控算法'。将生物代谢通路中的'变构调节'（Allosteric Regulation，即效应物结合到酶的非活性位点改变其构象）引入微服务流",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

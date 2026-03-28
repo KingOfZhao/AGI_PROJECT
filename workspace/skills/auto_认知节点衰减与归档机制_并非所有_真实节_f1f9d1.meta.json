@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知节点衰减与归档机制_并非所有_真实节_f1f9d1",
+  "file": "skills/auto_认知节点衰减与归档机制_并非所有_真实节_f1f9d1.py",
+  "description": "认知节点衰减与归档机制：并非所有‘真实节点’都永久有效。如何根据时间推移和环境变化设计节点的半衰期算法？如果一个曾验证过的技能（如‘软盘修复’）长期未被调用且上下文环境已巨变，系统应如何自动降低其权重或归档？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "information_retrieval",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.947457",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q7_0_7667",
+  "design_spec": {
+    "name": "auto_认知节点衰减与归档机制_并非所有_真实节_f1f9d1",
+    "display_name": "认知节点衰减与归档机制：并非所有‘真实节点’都永久有效。如何根据时间推移和环境变化设计节点的半衰期算",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知节点衰减与归档机制：并非所有‘真实节点’都永久有效。如何根据时间推移和环境变化设计节点的半衰期算法？如果一个曾验证过的技能（如‘软盘修复’）长期未被调用且上",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

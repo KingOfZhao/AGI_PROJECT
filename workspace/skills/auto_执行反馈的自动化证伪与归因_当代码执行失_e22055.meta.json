@@ -1,0 +1,30 @@
+{
+  "name": "auto_执行反馈的自动化证伪与归因_当代码执行失_e22055",
+  "file": "skills/auto_执行反馈的自动化证伪与归因_当代码执行失_e22055.py",
+  "description": "执行反馈的自动化证伪与归因。当代码执行失败，如何将报错信息准确映射回认知网络中的具体节点（如某个API参数变更），实现‘自下而上’的节点更新？即如何判断是意图理解错误，还是技能节点过时？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "agi_meta",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.845332",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_113_Q5_3_4935",
+  "design_spec": {
+    "name": "auto_执行反馈的自动化证伪与归因_当代码执行失_e22055",
+    "display_name": "执行反馈的自动化证伪与归因。当代码执行失败，如何将报错信息准确映射回认知网络中的具体节点（如某个AP",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "执行反馈的自动化证伪与归因。当代码执行失败，如何将报错信息准确映射回认知网络中的具体节点（如某个API参数变更），实现‘自下而上’的节点更新？即如何判断是意图理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

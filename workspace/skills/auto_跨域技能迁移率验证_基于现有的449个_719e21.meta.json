@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域技能迁移率验证_基于现有的449个_719e21",
+  "file": "skills/auto_跨域技能迁移率验证_基于现有的449个_719e21.py",
+  "description": "【跨域技能迁移率验证】基于现有的449个技能节点，AI能否通过‘结构映射’将‘摊煎饼’（已验证技能）中的面糊流体控制经验，迁移到‘制作宣纸’或‘刮腻子’等涉及流体涂层的陌生领域？这需要验证认知网络中的‘流体力学控制’抽象节点是否具备普适性，实现左右跨域重叠。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.498771",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_22_Q3_2_9071",
+  "design_spec": {
+    "name": "auto_跨域技能迁移率验证_基于现有的449个_719e21",
+    "display_name": "【跨域技能迁移率验证】基于现有的449个技能节点，AI能否通过‘结构映射’将‘摊煎饼’（已验证技能）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【跨域技能迁移率验证】基于现有的449个技能节点，AI能否通过‘结构映射’将‘摊煎饼’（已验证技能）中的面糊流体控制经验，迁移到‘制作宣纸’或‘刮腻子’等涉及流",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 440
+  }
+}

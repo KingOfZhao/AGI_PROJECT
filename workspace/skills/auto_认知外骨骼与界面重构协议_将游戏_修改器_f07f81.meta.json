@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知外骨骼与界面重构协议_将游戏_修改器_f07f81",
+  "file": "skills/auto_认知外骨骼与界面重构协议_将游戏_修改器_f07f81.py",
+  "description": "认知外骨骼与界面重构协议。将游戏'修改器'思维引入通用教育界面。允许学习者（特别是神经多样性人群）'修改'学习界面的底层参数（如修改时间流速、改变信息密度、重构逻辑结构为视觉结构）。这不只是放大字体，而是允许AI作为中介，将'不适合人类处理的格式'实时转码为'最适合该个体认知特征的格式'，实现从'人适应系统'到'系统适应人'的根本性反转。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_9",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:23:18.123737",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_9_O5_5859",
+  "design_spec": {
+    "name": "auto_认知外骨骼与界面重构协议_将游戏_修改器_f07f81",
+    "display_name": "认知外骨骼与界面重构协议。将游戏'修改器'思维引入通用教育界面。允许学习者（特别是神经多样性人群）'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知外骨骼与界面重构协议。将游戏'修改器'思维引入通用教育界面。允许学习者（特别是神经多样性人群）'修改'学习界面的底层参数（如修改时间流速、改变信息密度、重构",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 234
+  }
+}

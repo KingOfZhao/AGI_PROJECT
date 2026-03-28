@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于反例的强化学习固化系统_构建一个_96a64f",
+  "file": "skills/auto_基于反例的强化学习固化系统_构建一个_96a64f.py",
+  "description": "【基于反例的强化学习固化系统】构建一个‘自愈型沙箱’，它不仅是测试环境，更是认知更新环境。当代码在沙箱中运行失败时，系统不仅报错，还触发‘认知固化’流程：AI自动分析错误堆栈与用户反馈，将‘错误模式’抽象化（如‘在此类循环中修改列表会导致索引越界’），并将其作为‘负例节点’存入知识库。在下次生成代码时，这些‘负例节点’作为硬约束前置加载，从而实现‘吃一堑长一智’的持续进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_144",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:49:50.229540",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_144_O2_5783",
+  "design_spec": {
+    "name": "auto_基于反例的强化学习固化系统_构建一个_96a64f",
+    "display_name": "【基于反例的强化学习固化系统】构建一个‘自愈型沙箱’，它不仅是测试环境，更是认知更新环境。当代码在沙",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【基于反例的强化学习固化系统】构建一个‘自愈型沙箱’，它不仅是测试环境，更是认知更新环境。当代码在沙箱中运行失败时，系统不仅报错，还触发‘认知固化’流程：AI自",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

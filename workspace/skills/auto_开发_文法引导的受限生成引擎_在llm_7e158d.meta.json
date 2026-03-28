@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_文法引导的受限生成引擎_在llm_7e158d",
+  "file": "skills/auto_开发_文法引导的受限生成引擎_在llm_7e158d.py",
+  "description": "开发‘文法引导的受限生成引擎’。在LLM推理时，将编译器的文法规则（CFG）转化为Logit偏置掩码。每生成一个Token，都实时检测当前前缀是否符合文法，强行截断非法分支的概率。这使得自然语言模型能够零错误率地生成SQL、API调用或特定格式的报告，彻底消除‘幻觉’导致的语法错误。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.680586",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_121_O2_5443",
+  "design_spec": {
+    "name": "auto_开发_文法引导的受限生成引擎_在llm_7e158d",
+    "display_name": "开发‘文法引导的受限生成引擎’。在LLM推理时，将编译器的文法规则（CFG）转化为Logit偏置掩码",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘文法引导的受限生成引擎’。在LLM推理时，将编译器的文法规则（CFG）转化为Logit偏置掩码。每生成一个Token，都实时检测当前前缀是否符合文法，强行",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

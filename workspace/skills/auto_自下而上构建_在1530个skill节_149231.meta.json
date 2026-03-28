@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上构建_在1530个skill节_149231",
+  "file": "skills/auto_自下而上构建_在1530个skill节_149231.py",
+  "description": "【自下而上构建】在1530个SKILL节点的执行日志中，如何利用因果推断算法自动挖掘出隐性的“最佳实践序列”？目标是从人类零散的操作行为中归纳出高可复用的“真实节点”，将非结构化的实践转化为结构化的SOP（标准作业程序），并评估其鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_87",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:24:42.718887",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_87_Q2_0_7706",
+  "design_spec": {
+    "name": "auto_自下而上构建_在1530个skill节_149231",
+    "display_name": "【自下而上构建】在1530个SKILL节点的执行日志中，如何利用因果推断算法自动挖掘出隐性的“最佳实",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上构建】在1530个SKILL节点的执行日志中，如何利用因果推断算法自动挖掘出隐性的“最佳实践序列”？目标是从人类零散的操作行为中归纳出高可复用的“真实",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

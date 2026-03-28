@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立多模态传感器数据_视觉_力觉_听_3acda5",
+  "file": "skills/auto_如何建立多模态传感器数据_视觉_力觉_听_3acda5.py",
+  "description": "如何建立多模态传感器数据（视觉、力觉、听觉）与人类模糊自然语言描述（如'手感粘稠'、'声音清脆'）之间的定量映射模型，以实现对隐性感知的数字化编码？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.834341",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q1_0_7406",
+  "design_spec": {
+    "name": "auto_如何建立多模态传感器数据_视觉_力觉_听_3acda5",
+    "display_name": "如何建立多模态传感器数据（视觉、力觉、听觉）与人类模糊自然语言描述（如'手感粘稠'、'声音清脆'）之",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立多模态传感器数据（视觉、力觉、听觉）与人类模糊自然语言描述（如'手感粘稠'、'声音清脆'）之间的定量映射模型，以实现对隐性感知的数字化编码？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 221
+  }
+}

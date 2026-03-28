@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_物理衰减预测_td_48_q3_1862e2",
+  "file": "skills/auto_融合_物理衰减预测_td_48_q3_1862e2.py",
+  "description": "融合'物理衰减预测'(td_48_Q3_1_4889)与'因果干预图'(gap_49_G3)。系统不仅预测未来（刀具会磨损），还能在虚拟环境中逆向推演：'如果我在10分钟前调整了转速，现在的精度误差是否会消失？'。这种结合了物理实时数据与虚拟干预的能力，赋予了系统'后悔药'机制，使其能从过去的操作中提取更深层的因果关系，而不仅仅是相关性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.824233",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_50_E4_4704",
+  "design_spec": {
+    "name": "auto_融合_物理衰减预测_td_48_q3_1862e2",
+    "display_name": "融合'物理衰减预测'(td_48_Q3_1_4889)与'因果干预图'(gap_49_G3)。系统不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'物理衰减预测'(td_48_Q3_1_4889)与'因果干预图'(gap_49_G3)。系统不仅预测未来（刀具会磨损），还能在虚拟环境中逆向推演：'如果我",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 296
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_产业代谢与价值循环引擎_融合生态系统_48f172",
+  "file": "skills/auto_产业代谢与价值循环引擎_融合生态系统_48f172.py",
+  "description": "‘产业代谢与价值循环引擎’。融合生态系统能量流动模型，分析企业或宏观经济的‘价值营养级’。识别经济系统中的‘呼吸消耗’（无效损耗）与‘次级生产’（有效产出）。利用生态学的‘分解者’原理，重新设计经济系统中的废料处理环节，将‘尾部企业’转化为生态循环中的‘分解者’，实现从线性增长到螺旋上升的范式转移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_10",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T11:49:02.556273",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_10_O3_3939",
+  "design_spec": {
+    "name": "auto_产业代谢与价值循环引擎_融合生态系统_48f172",
+    "display_name": "‘产业代谢与价值循环引擎’。融合生态系统能量流动模型，分析企业或宏观经济的‘价值营养级’。识别经济系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘产业代谢与价值循环引擎’。融合生态系统能量流动模型，分析企业或宏观经济的‘价值营养级’。识别经济系统中的‘呼吸消耗’（无效损耗）与‘次级生产’（有效产出）。利",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_实践清单生成的可执行性检验_ai生成的_6bf7f5",
+  "file": "skills/auto_实践清单生成的可执行性检验_ai生成的_6bf7f5.py",
+  "description": "【实践清单生成的可执行性检验】AI生成的跨域'实践清单'是否具备物理世界的可执行性？例如，将'免疫系统识别病毒'的机制迁移到'防火墙识别攻击'时，生成的清单是否包含当前硬件或代码库（SKILL:1842）无法支持的操作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "软件工程/机器人学",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.642967",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_111_Q4_3_4185",
+  "design_spec": {
+    "name": "auto_实践清单生成的可执行性检验_ai生成的_6bf7f5",
+    "display_name": "【实践清单生成的可执行性检验】AI生成的跨域'实践清单'是否具备物理世界的可执行性？例如，将'免疫系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【实践清单生成的可执行性检验】AI生成的跨域'实践清单'是否具备物理世界的可执行性？例如，将'免疫系统识别病毒'的机制迁移到'防火墙识别攻击'时，生成的清单是否",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

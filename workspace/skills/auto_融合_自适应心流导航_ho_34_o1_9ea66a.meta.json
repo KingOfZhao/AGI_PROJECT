@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_自适应心流导航_ho_34_o1_9ea66a",
+  "file": "skills/auto_融合_自适应心流导航_ho_34_o1_9ea66a.py",
+  "description": "融合‘自适应心流导航’(ho_34_O1_2125)、‘意图漂移检测’(td_33_Q4_3_725)与‘反直觉节点固化’(td_34_Q2_2_7071)。当人类用户表现出混乱、矛盾的意图时，系统不直接报错，而是利用心流导航平滑地引导用户通过‘试错’来澄清意图，并将这一过程中的混乱与修正过程本身固化为新的‘冲突解决技能’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.490809",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_35_E2_2634",
+  "design_spec": {
+    "name": "auto_融合_自适应心流导航_ho_34_o1_9ea66a",
+    "display_name": "融合‘自适应心流导航’(ho_34_O1_2125)、‘意图漂移检测’(td_33_Q4_3_725",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合‘自适应心流导航’(ho_34_O1_2125)、‘意图漂移检测’(td_33_Q4_3_725)与‘反直觉节点固化’(td_34_Q2_2_7071)。当",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 332
+  }
+}

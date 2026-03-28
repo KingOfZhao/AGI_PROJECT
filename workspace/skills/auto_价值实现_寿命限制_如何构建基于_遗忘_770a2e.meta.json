@@ -1,0 +1,30 @@
+{
+  "name": "auto_价值实现_寿命限制_如何构建基于_遗忘_770a2e",
+  "file": "skills/auto_价值实现_寿命限制_如何构建基于_遗忘_770a2e.py",
+  "description": "【价值实现-寿命限制】如何构建基于‘遗忘曲线’的节点激活机制，以对抗人类寿命限制导致的‘知识折旧’？系统应能识别长期未被人类调用或验证的节点，标记为‘僵尸知识’，并触发强制复用或归档流程，确保认知网络始终反映最新的生存环境。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "knowledge_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.041998",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_127_Q6_0_9351",
+  "design_spec": {
+    "name": "auto_价值实现_寿命限制_如何构建基于_遗忘_770a2e",
+    "display_name": "【价值实现-寿命限制】如何构建基于‘遗忘曲线’的节点激活机制，以对抗人类寿命限制导致的‘知识折旧’？",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【价值实现-寿命限制】如何构建基于‘遗忘曲线’的节点激活机制，以对抗人类寿命限制导致的‘知识折旧’？系统应能识别长期未被人类调用或验证的节点，标记为‘僵尸知识’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 277
+  }
+}

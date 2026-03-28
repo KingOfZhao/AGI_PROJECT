@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_四向碰撞_中的_左右跨域重叠_如_bf1151",
+  "file": "skills/auto_基于_四向碰撞_中的_左右跨域重叠_如_bf1151.py",
+  "description": "基于'四向碰撞'中的'左右跨域重叠'，如何实现'类比映射'的自动化？给定一个源域（Source Domain，如'流体力学'）和一个目标域（Target Domain，如'交通流'），系统需要自动寻找结构相似性，并将源域的解决模型迁移到目标域，从而生成新的假设。这要求系统具备跨模态的'结构同构'识别能力，而非简单的关键词匹配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.241582",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_16_Q4_0_9088",
+  "design_spec": {
+    "name": "auto_基于_四向碰撞_中的_左右跨域重叠_如_bf1151",
+    "display_name": "基于'四向碰撞'中的'左右跨域重叠'，如何实现'类比映射'的自动化？给定一个源域（Source Do",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'四向碰撞'中的'左右跨域重叠'，如何实现'类比映射'的自动化？给定一个源域（Source Domain，如'流体力学'）和一个目标域（Target Dom",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 359
+  }
+}

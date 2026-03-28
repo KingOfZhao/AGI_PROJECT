@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发基于_信息价值理论_的评估函数_计算_07226c",
+  "file": "skills/auto_开发基于_信息价值理论_的评估函数_计算_07226c.py",
+  "description": "开发基于'信息价值理论'的评估函数，计算新节点生成的预期效用与探索成本（时间/算力）的比值。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.069291",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_93_G_CostBenefit_1_5613",
+  "design_spec": {
+    "name": "auto_开发基于_信息价值理论_的评估函数_计算_07226c",
+    "display_name": "开发基于'信息价值理论'的评估函数，计算新节点生成的预期效用与探索成本（时间/算力）的比值。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发基于'信息价值理论'的评估函数，计算新节点生成的预期效用与探索成本（时间/算力）的比值。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

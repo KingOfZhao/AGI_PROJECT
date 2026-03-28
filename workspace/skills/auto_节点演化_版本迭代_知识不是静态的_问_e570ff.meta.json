@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点演化_版本迭代_知识不是静态的_问_e570ff",
+  "file": "skills/auto_节点演化_版本迭代_知识不是静态的_问_e570ff.py",
+  "description": "【节点演化：版本迭代】知识不是静态的。问题：设计一种基于贝叶斯更新的节点版本控制机制。当新的传感器数据（自下而上）与旧的专家经验节点（固化）发生冲突时（例如：旧节点认为油温80度正常，新数据显示75度即发生微变形），系统如何自动降级旧节点权重，并生成‘待验证新节点’？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.349314",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q9_3_8808",
+  "design_spec": {
+    "name": "auto_节点演化_版本迭代_知识不是静态的_问_e570ff",
+    "display_name": "【节点演化：版本迭代】知识不是静态的。问题：设计一种基于贝叶斯更新的节点版本控制机制。当新的传感器数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【节点演化：版本迭代】知识不是静态的。问题：设计一种基于贝叶斯更新的节点版本控制机制。当新的传感器数据（自下而上）与旧的专家经验节点（固化）发生冲突时（例如：旧",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

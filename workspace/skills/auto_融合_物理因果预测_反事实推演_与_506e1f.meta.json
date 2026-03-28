@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合_物理因果预测_反事实推演_与_506e1f",
+  "file": "skills/auto_融合_物理因果预测_反事实推演_与_506e1f.py",
+  "description": "融合'物理因果预测'、'反事实推演'与'变分自编码器'。在进行现实世界的任务（如机器人操作）之前，系统在潜空间中快速运行数千次低成本的物理模拟，利用VAE压缩状态空间，预测'下一秒'的物理结果。这赋予了AGI在毫秒级内的'直觉性'避险能力，而非单纯的逻辑计算。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.567856",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_126_E2_2598",
+  "design_spec": {
+    "name": "auto_融合_物理因果预测_反事实推演_与_506e1f",
+    "display_name": "融合'物理因果预测'、'反事实推演'与'变分自编码器'。在进行现实世界的任务（如机器人操作）之前，系",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合'物理因果预测'、'反事实推演'与'变分自编码器'。在进行现实世界的任务（如机器人操作）之前，系统在潜空间中快速运行数千次低成本的物理模拟，利用VAE压缩状",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

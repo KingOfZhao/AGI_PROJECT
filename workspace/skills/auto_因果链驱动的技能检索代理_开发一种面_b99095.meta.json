@@ -1,0 +1,30 @@
+{
+  "name": "auto_因果链驱动的技能检索代理_开发一种面_b99095",
+  "file": "skills/auto_因果链驱动的技能检索代理_开发一种面_b99095.py",
+  "description": "【因果链驱动的技能检索代理】：开发一种面向复杂任务的检索系统，它不返回‘最相关’的知识点，而是返回‘最可行’的操作链。例如查询‘换轮胎’，系统不展示轮胎图片，而是生成‘备胎-千斤顶-扳手’的拓扑依赖图。它利用AGI的图结构逻辑，将散落的技能点重组为具备因果逻辑的‘行动脚手架’，解决新手‘懂道理但不会动手’的痛点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.365924",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O3_8758",
+  "design_spec": {
+    "name": "auto_因果链驱动的技能检索代理_开发一种面_b99095",
+    "display_name": "【因果链驱动的技能检索代理】：开发一种面向复杂任务的检索系统，它不返回‘最相关’的知识点，而是返回‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【因果链驱动的技能检索代理】：开发一种面向复杂任务的检索系统，它不返回‘最相关’的知识点，而是返回‘最可行’的操作链。例如查询‘换轮胎’，系统不展示轮胎图片，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于代码执行沙箱的_物理性证伪_对于涉_5d5e66",
+  "file": "skills/auto_基于代码执行沙箱的_物理性证伪_对于涉_5d5e66.py",
+  "description": "基于代码执行沙箱的‘物理性证伪’：对于涉及物理世界或逻辑严密性的节点（如编程、物理定律），单纯的语义推理不够。AI需要自动生成‘测试代码’或‘仿真实验’，在沙箱环境中运行，根据运行结果（通过/报错/崩溃）来修正认知节点。这是将‘认知自洽’从文本层面推向实践层面的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "软件工程与仿真",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.446546",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q7_2_7583",
+  "design_spec": {
+    "name": "auto_基于代码执行沙箱的_物理性证伪_对于涉_5d5e66",
+    "display_name": "基于代码执行沙箱的‘物理性证伪’：对于涉及物理世界或逻辑严密性的节点（如编程、物理定律），单纯的语义",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于代码执行沙箱的‘物理性证伪’：对于涉及物理世界或逻辑严密性的节点（如编程、物理定律），单纯的语义推理不够。AI需要自动生成‘测试代码’或‘仿真实验’，在沙箱",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

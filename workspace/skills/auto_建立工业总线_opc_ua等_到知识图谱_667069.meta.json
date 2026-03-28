@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立工业总线_opc_ua等_到知识图谱_667069",
+  "file": "skills/auto_建立工业总线_opc_ua等_到知识图谱_667069.py",
+  "description": "建立工业总线（OPC-UA等）到知识图谱节点的映射管道，实现基于真实生产数据的反向传播。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.342453",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_45_G3_9068",
+  "design_spec": {
+    "name": "auto_建立工业总线_opc_ua等_到知识图谱_667069",
+    "display_name": "建立工业总线（OPC-UA等）到知识图谱节点的映射管道，实现基于真实生产数据的反向传播。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立工业总线（OPC-UA等）到知识图谱节点的映射管道，实现基于真实生产数据的反向传播。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 522
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_面向认知自洽的_沙盒模拟器_构建_ai生_c901ba",
+  "file": "skills/auto_面向认知自洽的_沙盒模拟器_构建_ai生_c901ba.py",
+  "description": "面向认知自洽的'沙盒模拟器'构建。AI生成的知识在未经过实践验证前仅为'假说'。能否构建一个逻辑沙盒，让AI将新知识（如某种代码算法或逻辑推论）在沙盒中运行，根据'认知自洽'原则（如小摊贩逻辑闭环）进行内部证伪？即在接触真实世界前，先通过逻辑一致性过滤掉矛盾的节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "formal_logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.273592",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q2_2_39",
+  "design_spec": {
+    "name": "auto_面向认知自洽的_沙盒模拟器_构建_ai生_c901ba",
+    "display_name": "面向认知自洽的'沙盒模拟器'构建。AI生成的知识在未经过实践验证前仅为'假说'。能否构建一个逻辑沙盒",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "面向认知自洽的'沙盒模拟器'构建。AI生成的知识在未经过实践验证前仅为'假说'。能否构建一个逻辑沙盒，让AI将新知识（如某种代码算法或逻辑推论）在沙盒中运行，根",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 390
+  }
+}

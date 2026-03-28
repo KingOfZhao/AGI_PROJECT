@@ -1,0 +1,30 @@
+{
+  "name": "auto_微观标准化_如何将非结构化的维修工单文_7679a5",
+  "file": "skills/auto_微观标准化_如何将非结构化的维修工单文_7679a5.py",
+  "description": "【微观标准化】如何将非结构化的维修工单文本（包含大量口语、错别字、非标术语）转化为标准的‘故障-操作-结果’（F-A-R）三元组结构？这需要一种能够容忍噪声的NLP解析器，从碎片化的维修日志中提取出可复用的‘真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "NLP / Data Mining",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.709928",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q5_1_2866",
+  "design_spec": {
+    "name": "auto_微观标准化_如何将非结构化的维修工单文_7679a5",
+    "display_name": "【微观标准化】如何将非结构化的维修工单文本（包含大量口语、错别字、非标术语）转化为标准的‘故障-操作",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【微观标准化】如何将非结构化的维修工单文本（包含大量口语、错别字、非标术语）转化为标准的‘故障-操作-结果’（F-A-R）三元组结构？这需要一种能够容忍噪声的N",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理世界_微动作_的数字孪生表征问题_在_9c2dc2",
+  "file": "skills/auto_物理世界_微动作_的数字孪生表征问题_在_9c2dc2.py",
+  "description": "物理世界“微动作”的数字孪生表征问题：在刺绣或雕刻中，核心技巧往往在于微米级的微操。现有的动作捕捉往往丢失这些细节。如何设计一种压缩表征算法，能够从高帧率视频中提取出“关键微动作帧”，并过滤掉无意义的抖动？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.794707",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_75_Q3_0_1755",
+  "design_spec": {
+    "name": "auto_物理世界_微动作_的数字孪生表征问题_在_9c2dc2",
+    "display_name": "物理世界“微动作”的数字孪生表征问题：在刺绣或雕刻中，核心技巧往往在于微米级的微操。现有的动作捕捉往",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "物理世界“微动作”的数字孪生表征问题：在刺绣或雕刻中，核心技巧往往在于微米级的微操。现有的动作捕捉往往丢失这些细节。如何设计一种压缩表征算法，能够从高帧率视频中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

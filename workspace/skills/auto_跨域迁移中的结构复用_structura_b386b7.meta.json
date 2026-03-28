@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域迁移中的结构复用_structura_b386b7",
+  "file": "skills/auto_跨域迁移中的结构复用_structura_b386b7.py",
+  "description": "跨域迁移中的结构复用（Structural Mapping）: 如何识别当前意图与现有1298个节点中跨域的结构同构性？例如，将'文件系统遍历'的逻辑结构迁移到'组织架构树遍历'的代码生成中，实现真正的举一反三。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.892203",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_48_Q8_3_999",
+  "design_spec": {
+    "name": "auto_跨域迁移中的结构复用_structura_b386b7",
+    "display_name": "跨域迁移中的结构复用（Structural Mapping）: 如何识别当前意图与现有1298个节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域迁移中的结构复用（Structural Mapping）: 如何识别当前意图与现有1298个节点中跨域的结构同构性？例如，将'文件系统遍历'的逻辑结构迁移到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

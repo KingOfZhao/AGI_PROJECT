@@ -1,0 +1,30 @@
+{
+  "name": "auto_建立_认知碰撞反馈环_当ai输出a4纸_7210b8",
+  "file": "skills/auto_建立_认知碰撞反馈环_当ai输出a4纸_7210b8.py",
+  "description": "建立'认知碰撞反馈环'。当AI输出A4纸的'行动清单'后，不仅是让人类去执行，而是设计一个'反馈协议'。人类输入实践的'战报'（如：按博弈论策略出牌输了），AI像游戏系统判定'Weak!'或'Miss!'一样，判定该知识节点为'失效'或'边界条件不足'，并立即触发'知识节点重构'。这不仅仅是学习，而是将知识变成了'可迭代版本'，AI与人类共同维护一份'经实战验证的活体攻略'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.233685",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O5_6186",
+  "design_spec": {
+    "name": "auto_建立_认知碰撞反馈环_当ai输出a4纸_7210b8",
+    "display_name": "建立'认知碰撞反馈环'。当AI输出A4纸的'行动清单'后，不仅是让人类去执行，而是设计一个'反馈协议",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "建立'认知碰撞反馈环'。当AI输出A4纸的'行动清单'后，不仅是让人类去执行，而是设计一个'反馈协议'。人类输入实践的'战报'（如：按博弈论策略出牌输了），AI",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立_左右跨域重叠_的向量化量化标准_c377d0",
+  "file": "skills/auto_如何建立_左右跨域重叠_的向量化量化标准_c377d0.py",
+  "description": "如何建立'左右跨域重叠'的向量化量化标准，以发现潜在的新'真实节点'？人类创新往往是两个不相关概念的碰撞（如生物学+工程学=仿生学）。本问题要求设计一种非欧几里得距离的度量算法，计算现有777个节点之间的高维'结构重合度'，而非单纯的语义相似度。目标是识别出那些描述不同但底层逻辑结构完全相同的节点对。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.795687",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q3_1_5175",
+  "design_spec": {
+    "name": "auto_如何建立_左右跨域重叠_的向量化量化标准_c377d0",
+    "display_name": "如何建立'左右跨域重叠'的向量化量化标准，以发现潜在的新'真实节点'？人类创新往往是两个不相关概念的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立'左右跨域重叠'的向量化量化标准，以发现潜在的新'真实节点'？人类创新往往是两个不相关概念的碰撞（如生物学+工程学=仿生学）。本问题要求设计一种非欧几里",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 292
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究_模糊语义到物理参数的射影映射_探_8e79b8",
+  "file": "skills/auto_研究_模糊语义到物理参数的射影映射_探_8e79b8.py",
+  "description": "研究‘模糊语义到物理参数的射影映射’，探索如何用概率分布表示物理约束以适应模糊输入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_117",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:40:33.885682",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_117_G3_7746",
+  "design_spec": {
+    "name": "auto_研究_模糊语义到物理参数的射影映射_探_8e79b8",
+    "display_name": "研究‘模糊语义到物理参数的射影映射’，探索如何用概率分布表示物理约束以适应模糊输入。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究‘模糊语义到物理参数的射影映射’，探索如何用概率分布表示物理约束以适应模糊输入。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

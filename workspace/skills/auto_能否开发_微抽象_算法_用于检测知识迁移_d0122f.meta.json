@@ -1,0 +1,30 @@
+{
+  "name": "auto_能否开发_微抽象_算法_用于检测知识迁移_d0122f",
+  "file": "skills/auto_能否开发_微抽象_算法_用于检测知识迁移_d0122f.py",
+  "description": "能否开发'微抽象'算法，用于检测知识迁移中的'表面相似性'陷阱？在'左右跨域重叠'过程中，AI常因表面特征相似（如'太阳黑子'与'经济周期'）而错误地建立连接。该子问题要求构建一个特征解耦器，将问题的'结构特征'与'表面属性'分离，并强制AI在迁移前解释结构同构性，以此过滤无效的跨域映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "Transfer Learning / Causal Inference",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.953036",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q2_1_3706",
+  "design_spec": {
+    "name": "auto_能否开发_微抽象_算法_用于检测知识迁移_d0122f",
+    "display_name": "能否开发'微抽象'算法，用于检测知识迁移中的'表面相似性'陷阱？在'左右跨域重叠'过程中，AI常因表",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "能否开发'微抽象'算法，用于检测知识迁移中的'表面相似性'陷阱？在'左右跨域重叠'过程中，AI常因表面特征相似（如'太阳黑子'与'经济周期'）而错误地建立连接。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

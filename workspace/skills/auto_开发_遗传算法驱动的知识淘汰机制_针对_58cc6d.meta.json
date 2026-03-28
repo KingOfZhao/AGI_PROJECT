@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_遗传算法驱动的知识淘汰机制_针对_58cc6d",
+  "file": "skills/auto_开发_遗传算法驱动的知识淘汰机制_针对_58cc6d.py",
+  "description": "开发‘遗传算法驱动的知识淘汰机制’。针对工业知识库的‘熵增’（过时、冗余知识堆积）问题，引入生物学‘适者生存’法则。给每个知识节点赋予‘代谢率’（使用频率）和‘适应度’（实践成功率）。长期未被调用或被人类实践频繁证伪的节点将‘凋亡’（标记为历史归档），高频使用的节点通过‘重组’（与其他节点连接）产生新变异。这使知识库能像生物种群一样动态演化，避免僵化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.155800",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_65_O2_5766",
+  "design_spec": {
+    "name": "auto_开发_遗传算法驱动的知识淘汰机制_针对_58cc6d",
+    "display_name": "开发‘遗传算法驱动的知识淘汰机制’。针对工业知识库的‘熵增’（过时、冗余知识堆积）问题，引入生物学‘",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘遗传算法驱动的知识淘汰机制’。针对工业知识库的‘熵增’（过时、冗余知识堆积）问题，引入生物学‘适者生存’法则。给每个知识节点赋予‘代谢率’（使用频率）和‘",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 308
+  }
+}

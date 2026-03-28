@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_四向碰撞_框架中_如何设计一个可计算_adab59",
+  "file": "skills/auto_在_四向碰撞_框架中_如何设计一个可计算_adab59.py",
+  "description": "在‘四向碰撞’框架中，如何设计一个可计算的‘跨域抽象度’指标，用于量化两个不同领域节点（如‘生物学细胞’与‘软件微服务’）之间的‘左右跨域重叠’潜力？该指标需要超越简单的关键词匹配，能够识别结构同构性（Isomorphism），从而指导AI自动连接看似无关的节点以产生新洞察。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.782568",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q2_2_3114",
+  "design_spec": {
+    "name": "auto_在_四向碰撞_框架中_如何设计一个可计算_adab59",
+    "display_name": "在‘四向碰撞’框架中，如何设计一个可计算的‘跨域抽象度’指标，用于量化两个不同领域节点（如‘生物学细",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在‘四向碰撞’框架中，如何设计一个可计算的‘跨域抽象度’指标，用于量化两个不同领域节点（如‘生物学细胞’与‘软件微服务’）之间的‘左右跨域重叠’潜力？该指标需要",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

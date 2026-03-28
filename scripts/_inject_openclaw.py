@@ -7,6 +7,15 @@ OpenClaw 项目能力总结 + 知识注入 + 模型强化
 - 注入为proven节点到认知格
 - 将可复用能力集成到技能系统（MMR/时间衰减/查询扩展/可验证性分类）
 """
+
+# [PATH_BOOTSTRAP]
+import sys as _sys, os as _os
+_PROJECT_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+for _d in [_PROJECT_ROOT, _os.path.join(_PROJECT_ROOT, 'core'), _os.path.join(_PROJECT_ROOT, 'api')]:
+    if _d not in _sys.path:
+        _sys.path.insert(0, _d)
+
+
 import sys, sqlite3, json, time
 from pathlib import Path
 

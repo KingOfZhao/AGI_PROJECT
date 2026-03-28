@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_动态语义拓扑_q1_7871_207ff7",
+  "file": "skills/auto_结合_动态语义拓扑_q1_7871_207ff7.py",
+  "description": "结合‘动态语义拓扑’（Q1_7871）、‘自动生成测试用例’（Q6_3_7871）与‘对抗性输入压力测试’（Q4_1_8212）。系统不仅能存储知识，还能为每个知识节点自动构建一个高保真的数字孪生沙箱。在该沙箱中，AI通过不断注入由生成式模型创造的‘极端边界条件’（Q8_0_4921）来模拟知识失效，从而在无需人类干预的情况下实现知识的‘模拟自然选择’，主动淘汰鲁棒性差的节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.877210",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_63_E1_6341",
+  "design_spec": {
+    "name": "auto_结合_动态语义拓扑_q1_7871_207ff7",
+    "display_name": "结合‘动态语义拓扑’（Q1_7871）、‘自动生成测试用例’（Q6_3_7871）与‘对抗性输入压力",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合‘动态语义拓扑’（Q1_7871）、‘自动生成测试用例’（Q6_3_7871）与‘对抗性输入压力测试’（Q4_1_8212）。系统不仅能存储知识，还能为每个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_重叠固化为真实节点_的自动化过_b3194c",
+  "file": "skills/auto_如何实现_重叠固化为真实节点_的自动化过_b3194c.py",
+  "description": "如何实现'重叠固化为真实节点'的自动化过程？当两个跨域节点（如'经济泡沫'与'链式反应'）发生高维碰撞后，系统应自动生成一个包含两者共同特征的新节点（如'临界阈值理论'）。本问题要求验证一种图神经网络(GNN)的聚类算法，能否自动识别这种碰撞产生的'概念聚类'并提议新节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.817968",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q7_1_5175",
+  "design_spec": {
+    "name": "auto_如何实现_重叠固化为真实节点_的自动化过_b3194c",
+    "display_name": "如何实现'重叠固化为真实节点'的自动化过程？当两个跨域节点（如'经济泡沫'与'链式反应'）发生高维碰",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'重叠固化为真实节点'的自动化过程？当两个跨域节点（如'经济泡沫'与'链式反应'）发生高维碰撞后，系统应自动生成一个包含两者共同特征的新节点（如'临界阈",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

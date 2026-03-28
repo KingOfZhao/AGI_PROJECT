@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_价值流追溯_机制_评估叶子节点_6bcade",
+  "file": "skills/auto_如何构建_价值流追溯_机制_评估叶子节点_6bcade.py",
+  "description": "如何构建'价值流追溯'机制，评估叶子节点对'核心价值节点'的边际贡献率？在AGI系统中，并非所有节点平等重要。需要设计一种反向传播算法，从已验证的'真实价值节点'（如'解决了客户X的Bug'）出发，回溯依赖链，计算上游节点的价值贡献权重，以此淘汰低贡献节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "decision_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.443763",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q3_2_8838",
+  "design_spec": {
+    "name": "auto_如何构建_价值流追溯_机制_评估叶子节点_6bcade",
+    "display_name": "如何构建'价值流追溯'机制，评估叶子节点对'核心价值节点'的边际贡献率？在AGI系统中，并非所有节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'价值流追溯'机制，评估叶子节点对'核心价值节点'的边际贡献率？在AGI系统中，并非所有节点平等重要。需要设计一种反向传播算法，从已验证的'真实价值节点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

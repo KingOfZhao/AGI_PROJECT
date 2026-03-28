@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上构建_工业非结构化语料的去噪与_10389d",
+  "file": "skills/auto_自下而上构建_工业非结构化语料的去噪与_10389d.py",
+  "description": "【自下而上构建】工业非结构化语料的去噪与原子化分割：鉴于工业现场记录（如维修日志、交接班记录）充斥着口语、噪音和碎片化信息，如何设计一种基于语义完整性聚类的算法，将连续的非结构化文本流精准切割为不可再分的“原子经验节点”？该算法需过滤无效噪音，同时保留“设备-故障-现象”的原始关联，避免过度清洗导致的关键上下文丢失。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "nlp_industrial",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.458458",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_90_Q1_3_1964",
+  "design_spec": {
+    "name": "auto_自下而上构建_工业非结构化语料的去噪与_10389d",
+    "display_name": "【自下而上构建】工业非结构化语料的去噪与原子化分割：鉴于工业现场记录（如维修日志、交接班记录）充斥着",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上构建】工业非结构化语料的去噪与原子化分割：鉴于工业现场记录（如维修日志、交接班记录）充斥着口语、噪音和碎片化信息，如何设计一种基于语义完整性聚类的算法",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

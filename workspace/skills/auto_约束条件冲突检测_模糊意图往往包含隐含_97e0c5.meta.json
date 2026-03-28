@@ -1,0 +1,30 @@
+{
+  "name": "auto_约束条件冲突检测_模糊意图往往包含隐含_97e0c5",
+  "file": "skills/auto_约束条件冲突检测_模糊意图往往包含隐含_97e0c5.py",
+  "description": "【约束条件冲突检测】模糊意图往往包含隐含约束（如性能要求、安全性、语言版本）。如何构建一个“约束冲突检测器”，在代码生成前扫描意图中的显性与隐性约束，识别逻辑互斥（如“既要实时性又要高精度加密”），并主动提问进行证伪？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "Formal Logic/Requirements Engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:29.053424",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q4_3_4775",
+  "design_spec": {
+    "name": "auto_约束条件冲突检测_模糊意图往往包含隐含_97e0c5",
+    "display_name": "【约束条件冲突检测】模糊意图往往包含隐含约束（如性能要求、安全性、语言版本）。如何构建一个“约束冲突",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【约束条件冲突检测】模糊意图往往包含隐含约束（如性能要求、安全性、语言版本）。如何构建一个“约束冲突检测器”，在代码生成前扫描意图中的显性与隐性约束，识别逻辑互",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

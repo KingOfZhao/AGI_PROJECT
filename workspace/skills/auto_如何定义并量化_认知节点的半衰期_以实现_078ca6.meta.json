@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何定义并量化_认知节点的半衰期_以实现_078ca6",
+  "file": "skills/auto_如何定义并量化_认知节点的半衰期_以实现_078ca6.py",
+  "description": "如何定义并量化'认知节点的半衰期'以实现基于时间的自动降权？针对不同类型节点（如事实类vs技能类），其衰减函数是否存在显著差异？我们需要设计一个算法，根据节点的最后验证时间、历史被调用频率和所属领域的变动速率，动态计算其当前的'可信度分数'，而非简单的线性衰减。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "agi_cognitive_dynamics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.824574",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q1_2_7701",
+  "design_spec": {
+    "name": "auto_如何定义并量化_认知节点的半衰期_以实现_078ca6",
+    "display_name": "如何定义并量化'认知节点的半衰期'以实现基于时间的自动降权？针对不同类型节点（如事实类vs技能类），",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何定义并量化'认知节点的半衰期'以实现基于时间的自动降权？针对不同类型节点（如事实类vs技能类），其衰减函数是否存在显著差异？我们需要设计一个算法，根据节点的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

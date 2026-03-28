@@ -1,0 +1,30 @@
+{
+  "name": "auto_零样本工具学习的语义锚定导航_融合能力_86e9e7",
+  "file": "skills/auto_零样本工具学习的语义锚定导航_融合能力_86e9e7.py",
+  "description": "【零样本工具学习的语义锚定导航】融合能力：结合认知科学的'注意力漂移'测试机制，开发一种能处理'未知API'的智能体。它不仅阅读文档，还能像人类解题一样，构建一个'API语义地图'，显式标注'假设边界'（Assumption Boundaries）。当调用失败时，利用注意力回溯机制（Backtracking Attention）调整对API参数的理解，实现零样本工具使用的快速收敛。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.048612",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_127_O3_5538",
+  "design_spec": {
+    "name": "auto_零样本工具学习的语义锚定导航_融合能力_86e9e7",
+    "display_name": "【零样本工具学习的语义锚定导航】融合能力：结合认知科学的'注意力漂移'测试机制，开发一种能处理'未知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【零样本工具学习的语义锚定导航】融合能力：结合认知科学的'注意力漂移'测试机制，开发一种能处理'未知API'的智能体。它不仅阅读文档，还能像人类解题一样，构建一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 243
+  }
+}

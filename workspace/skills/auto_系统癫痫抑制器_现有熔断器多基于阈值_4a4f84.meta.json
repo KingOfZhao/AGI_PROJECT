@@ -1,0 +1,30 @@
+{
+  "name": "auto_系统癫痫抑制器_现有熔断器多基于阈值_4a4f84",
+  "file": "skills/auto_系统癫痫抑制器_现有熔断器多基于阈值_4a4f84.py",
+  "description": "‘系统癫痫抑制器’。现有熔断器多基于阈值，是刚性的。融合能力引入生物学‘抑制性神经元’概念，在系统中部署‘负反馈AI代理’。当检测到网络流量出现高频振荡（癫痫波）时，代理不是简单切断，而是注入‘抑制性信号’（如延迟响应、空响应或指数级退避的阻尼），主动平滑波形。这模拟了神经胶质细胞对神经元的调节，防止系统自毁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.473608",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_35_O4_2866",
+  "design_spec": {
+    "name": "auto_系统癫痫抑制器_现有熔断器多基于阈值_4a4f84",
+    "display_name": "‘系统癫痫抑制器’。现有熔断器多基于阈值，是刚性的。融合能力引入生物学‘抑制性神经元’概念，在系统中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘系统癫痫抑制器’。现有熔断器多基于阈值，是刚性的。融合能力引入生物学‘抑制性神经元’概念，在系统中部署‘负反馈AI代理’。当检测到网络流量出现高频振荡（癫痫波",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 222
+  }
+}

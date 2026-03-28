@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身纠错智能体_将rlhf从纯数字空间_25f1db",
+  "file": "skills/auto_具身纠错智能体_将rlhf从纯数字空间_25f1db.py",
+  "description": "【具身纠错智能体】将RLHF从纯数字空间拓展至物理实践空间。AI不仅通过代码报错迭代，还能通过解析人类专家（工匠）对物理操作的实时评价（语音或传感器数据），构建“物理操作奖励模型”。例如，AI辅助焊接或雕刻时，根据工匠的“这里手要稳”的语音反馈或通过视觉捕捉工匠的纠正动作，自动调整机械臂的控制参数，实现人机共生的技能传递，解决纯监督学习无法捕捉“手感”的难题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.344681",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O1_8868",
+  "design_spec": {
+    "name": "auto_具身纠错智能体_将rlhf从纯数字空间_25f1db",
+    "display_name": "【具身纠错智能体】将RLHF从纯数字空间拓展至物理实践空间。AI不仅通过代码报错迭代，还能通过解析人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身纠错智能体】将RLHF从纯数字空间拓展至物理实践空间。AI不仅通过代码报错迭代，还能通过解析人类专家（工匠）对物理操作的实时评价（语音或传感器数据），构建",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 364
+  }
+}

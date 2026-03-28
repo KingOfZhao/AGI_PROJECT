@@ -1,0 +1,30 @@
+{
+  "name": "auto_意图形式化的语义熵减机制_如何通过结构化_5394e2",
+  "file": "skills/auto_意图形式化的语义熵减机制_如何通过结构化_5394e2.py",
+  "description": "意图形式化的语义熵减机制：如何通过结构化对话将高熵的模糊人类意图（如'做一个好用的后台'）转化为低熵的受限语义空间？此问题要求构建一个迭代询问算法，每次交互通过最大化信息增益来消除歧义，直到意图的语义熵低于特定阈值，从而为代码生成提供确定性输入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.624495",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_106_Q1_1_5552",
+  "design_spec": {
+    "name": "auto_意图形式化的语义熵减机制_如何通过结构化_5394e2",
+    "display_name": "意图形式化的语义熵减机制：如何通过结构化对话将高熵的模糊人类意图（如'做一个好用的后台'）转化为低熵",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "意图形式化的语义熵减机制：如何通过结构化对话将高熵的模糊人类意图（如'做一个好用的后台'）转化为低熵的受限语义空间？此问题要求构建一个迭代询问算法，每次交互通过",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 652
+  }
+}

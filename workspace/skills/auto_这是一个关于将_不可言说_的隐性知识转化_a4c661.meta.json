@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个关于将_不可言说_的隐性知识转化_a4c661",
+  "file": "skills/auto_这是一个关于将_不可言说_的隐性知识转化_a4c661.py",
+  "description": "这是一个关于将‘不可言说’的隐性知识转化为‘可计算’结构化数据的认知协议。该概念不仅关注简单的数字化，而是利用‘左右跨域重叠’原则，寻找感官体验（如漆面厚度感、手术手感）与物理参数（如声学频谱、力学反馈）之间的同构映射。结合MR/VR环境，系统构建‘高分辨率语境’，使得人类专家在沉浸式操作中，AI能够捕捉那些在语言叙述中流失的微观反馈，从而实现从‘经验主义’到‘参数化直觉’的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_11",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:13:24.008835",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_11_P1_6537",
+  "design_spec": {
+    "name": "auto_这是一个关于将_不可言说_的隐性知识转化_a4c661",
+    "display_name": "这是一个关于将‘不可言说’的隐性知识转化为‘可计算’结构化数据的认知协议。该概念不仅关注简单的数字化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个关于将‘不可言说’的隐性知识转化为‘可计算’结构化数据的认知协议。该概念不仅关注简单的数字化，而是利用‘左右跨域重叠’原则，寻找感官体验（如漆面厚度感、",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 280
+  }
+}

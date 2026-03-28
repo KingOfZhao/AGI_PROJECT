@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_功能胶囊_的生成式重构系统_不再从_0ccc3f",
+  "file": "skills/auto_基于_功能胶囊_的生成式重构系统_不再从_0ccc3f.py",
+  "description": "基于'功能胶囊'的生成式重构系统。不再从零开始生成设计，而是利用图匹配算法检索海量历史建筑数据中的'高价值拓扑片段'（如一个采光极佳的转角组合），像搭积木一样通过图缝合重组成新方案。这实现了知识的'固化为真实节点'，将人类大师的经验封装为可调用的AI模块。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.511118",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_22_O4_1734",
+  "design_spec": {
+    "name": "auto_基于_功能胶囊_的生成式重构系统_不再从_0ccc3f",
+    "display_name": "基于'功能胶囊'的生成式重构系统。不再从零开始生成设计，而是利用图匹配算法检索海量历史建筑数据中的'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'功能胶囊'的生成式重构系统。不再从零开始生成设计，而是利用图匹配算法检索海量历史建筑数据中的'高价值拓扑片段'（如一个采光极佳的转角组合），像搭积木一样通",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于ast_抽象语法树_逻辑的_硬逻辑文_d1d223",
+  "file": "skills/auto_基于ast_抽象语法树_逻辑的_硬逻辑文_d1d223.py",
+  "description": "基于AST（抽象语法树）逻辑的‘硬逻辑文本结构化引擎’。利用编译器严格的错误恢复与增量解析技术，解决NLP在处理长难句或逻辑严密文本（如法律合同、医疗处方）时结构松散、无法容错的问题。该能力不依赖概率猜测，而是构建‘逻辑语法骨架’，能精准定位文本中的逻辑断点与违规条款，实现从自然语言到结构化逻辑对象的零损失转换。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.750164",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_74_O1_6045",
+  "design_spec": {
+    "name": "auto_基于ast_抽象语法树_逻辑的_硬逻辑文_d1d223",
+    "display_name": "基于AST（抽象语法树）逻辑的‘硬逻辑文本结构化引擎’。利用编译器严格的错误恢复与增量解析技术，解决",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于AST（抽象语法树）逻辑的‘硬逻辑文本结构化引擎’。利用编译器严格的错误恢复与增量解析技术，解决NLP在处理长难句或逻辑严密文本（如法律合同、医疗处方）时结",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

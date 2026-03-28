@@ -1,0 +1,30 @@
+{
+  "name": "auto_场景拓扑感知的技能外脑_融合能力描述_08788c",
+  "file": "skills/auto_场景拓扑感知的技能外脑_融合能力描述_08788c.py",
+  "description": "【场景拓扑感知的技能外脑】融合能力描述：构建一个‘知识图谱化’的技能助手。不同于传统的搜索工具，它利用AGI的结构化检索技术，根据用户当前的操作步骤（节点位置）和最终目标，预测下一步最可能需要的技能、工具或知识点，并高亮显示它们在整体技能树中的‘路径’。例如，修车时，系统不只显示‘扳手’，而是根据故障拓扑图，推荐‘先拧松A，再检查B’的路径化工具包，模拟专家的直觉联想。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_133",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:13:39.349782",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_133_O3_2735",
+  "design_spec": {
+    "name": "auto_场景拓扑感知的技能外脑_融合能力描述_08788c",
+    "display_name": "【场景拓扑感知的技能外脑】融合能力描述：构建一个‘知识图谱化’的技能助手。不同于传统的搜索工具，它利",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【场景拓扑感知的技能外脑】融合能力描述：构建一个‘知识图谱化’的技能助手。不同于传统的搜索工具，它利用AGI的结构化检索技术，根据用户当前的操作步骤（节点位置）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 591
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_对抗性空间生成引擎_利用空间句法_6b50bb",
+  "file": "skills/auto_提出_对抗性空间生成引擎_利用空间句法_6b50bb.py",
+  "description": "提出'对抗性空间生成引擎'。利用空间句法的算法(如视域分析、整合度核心)作为GAN判别器的先验规则(Inductive Bias)。这不仅是生成'像建筑的图像'，而是生成'具有社会属性和功能流线的可居住空间'。这能让AI在设计阶段就预判人流拥堵点和社交热点，从单纯的像素生成跃迁到社会行为场的生成。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.557697",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_149_O2_7455",
+  "design_spec": {
+    "name": "auto_提出_对抗性空间生成引擎_利用空间句法_6b50bb",
+    "display_name": "提出'对抗性空间生成引擎'。利用空间句法的算法(如视域分析、整合度核心)作为GAN判别器的先验规则(",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'对抗性空间生成引擎'。利用空间句法的算法(如视域分析、整合度核心)作为GAN判别器的先验规则(Inductive Bias)。这不仅是生成'像建筑的图像'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

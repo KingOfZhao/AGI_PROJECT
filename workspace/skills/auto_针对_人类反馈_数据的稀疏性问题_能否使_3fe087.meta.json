@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_人类反馈_数据的稀疏性问题_能否使_3fe087",
+  "file": "skills/auto_针对_人类反馈_数据的稀疏性问题_能否使_3fe087.py",
+  "description": "针对'人类反馈'数据的稀疏性问题，能否使用'反事实推理'（Counterfactual Reasoning）来评估未被人类触碰的节点？鉴于人类寿命和精力限制，不可能对所有3989个节点进行反馈。问题是：AI能否基于已验证节点，推断未验证节点的正确性概率？例如，若A->B已验证，B->C已验证，推断A->C的可信度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.477183",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q6_2_8838",
+  "design_spec": {
+    "name": "auto_针对_人类反馈_数据的稀疏性问题_能否使_3fe087",
+    "display_name": "针对'人类反馈'数据的稀疏性问题，能否使用'反事实推理'（Counterfactual Reason",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'人类反馈'数据的稀疏性问题，能否使用'反事实推理'（Counterfactual Reasoning）来评估未被人类触碰的节点？鉴于人类寿命和精力限制，不",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

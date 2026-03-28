@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建基于_认知惯性_的对抗性攻击算法_5697fb",
+  "file": "skills/auto_如何构建基于_认知惯性_的对抗性攻击算法_5697fb.py",
+  "description": "如何构建基于'认知惯性'的对抗性攻击算法？此机制旨在识别AI模型在处理长链条逻辑时的'思维偷懒'区域。具体而言，当AI调用高置信度（>0.95）的既有节点解决新问题时，系统应自动生成反向干扰样本，迫使模型证明其结论非单纯依赖历史统计相关性，而是基于因果逻辑。这是解决'自上而下拆解'中僵化思维的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "Adversarial Machine Learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.951182",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q1_1_3706",
+  "design_spec": {
+    "name": "auto_如何构建基于_认知惯性_的对抗性攻击算法_5697fb",
+    "display_name": "如何构建基于'认知惯性'的对抗性攻击算法？此机制旨在识别AI模型在处理长链条逻辑时的'思维偷懒'区域",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建基于'认知惯性'的对抗性攻击算法？此机制旨在识别AI模型在处理长链条逻辑时的'思维偷懒'区域。具体而言，当AI调用高置信度（>0.95）的既有节点解决新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

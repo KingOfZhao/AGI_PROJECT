@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从非结构化的工业设备维护日志_文本_5f35e3",
+  "file": "skills/auto_如何从非结构化的工业设备维护日志_文本_5f35e3.py",
+  "description": "如何从非结构化的工业设备维护日志（文本）中提取因果对，并将其转化为具有权重的有向边？工业现场充斥着“设备A报警后调整了参数B”的模糊描述，需要通过NLP提取实体并与现有‘故障现象’节点连接，构建动态的故障排查知识图谱。此过程需过滤掉操作员的无效尝试，仅保留具有因果关联的‘真实节点’连接。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "industrial_nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.683062",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q1_3_6928",
+  "design_spec": {
+    "name": "auto_如何从非结构化的工业设备维护日志_文本_5f35e3",
+    "display_name": "如何从非结构化的工业设备维护日志（文本）中提取因果对，并将其转化为具有权重的有向边？工业现场充斥着“",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从非结构化的工业设备维护日志（文本）中提取因果对，并将其转化为具有权重的有向边？工业现场充斥着“设备A报警后调整了参数B”的模糊描述，需要通过NLP提取实体",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

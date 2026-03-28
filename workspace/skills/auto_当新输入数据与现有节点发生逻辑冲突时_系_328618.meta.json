@@ -1,0 +1,30 @@
+{
+  "name": "auto_当新输入数据与现有节点发生逻辑冲突时_系_328618",
+  "file": "skills/auto_当新输入数据与现有节点发生逻辑冲突时_系_328618.py",
+  "description": "当新输入数据与现有节点发生逻辑冲突时，系统能否自动触发'自上而下拆解'协议，暂停相关技能执行，并生成包含冲突点与假设验证路径的人类验证请求，而非直接覆盖或报错？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "logic_engine",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.492866",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_22_Q1_3_6811",
+  "design_spec": {
+    "name": "auto_当新输入数据与现有节点发生逻辑冲突时_系_328618",
+    "display_name": "当新输入数据与现有节点发生逻辑冲突时，系统能否自动触发'自上而下拆解'协议，暂停相关技能执行，并生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "当新输入数据与现有节点发生逻辑冲突时，系统能否自动触发'自上而下拆解'协议，暂停相关技能执行，并生成包含冲突点与假设验证路径的人类验证请求，而非直接覆盖或报错？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

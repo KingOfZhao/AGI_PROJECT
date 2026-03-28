@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_实践智慧_的自适应技能修正器_该能_ac28d7",
+  "file": "skills/auto_基于_实践智慧_的自适应技能修正器_该能_ac28d7.py",
+  "description": "基于'实践智慧'的自适应技能修正器。该能力将Skill的定义从'动作序列'升级为'目的论导向的交互过程'。当机器人在执行'抓取'时遇到未知变量（如重量突变），系统不再报错停止，而是调用'Phronesis引擎'，评估当前状态与最终目的（稳定抓取）的偏差，动态生成非标准动作（如调整指尖力矩或滑动物体），实现类似人类老练工人的'就势利导'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.785782",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_32_O1_4364",
+  "design_spec": {
+    "name": "auto_基于_实践智慧_的自适应技能修正器_该能_ac28d7",
+    "display_name": "基于'实践智慧'的自适应技能修正器。该能力将Skill的定义从'动作序列'升级为'目的论导向的交互过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于'实践智慧'的自适应技能修正器。该能力将Skill的定义从'动作序列'升级为'目的论导向的交互过程'。当机器人在执行'抓取'时遇到未知变量（如重量突变），系",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

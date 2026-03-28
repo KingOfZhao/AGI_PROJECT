@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_认知_物理_对齐接口_解决人类_83b10b",
+  "file": "skills/auto_如何构建_认知_物理_对齐接口_解决人类_83b10b.py",
+  "description": "如何构建‘认知-物理’对齐接口，解决人类模糊语言（‘火候大一点’）与机器精确参数（‘温度230度’）之间的映射问题？这需要建立一个动态词典，将人类的模糊指令映射为特定上下文环境下的精确参数范围。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.314956",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_135_Q4_0_6118",
+  "design_spec": {
+    "name": "auto_如何构建_认知_物理_对齐接口_解决人类_83b10b",
+    "display_name": "如何构建‘认知-物理’对齐接口，解决人类模糊语言（‘火候大一点’）与机器精确参数（‘温度230度’）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建‘认知-物理’对齐接口，解决人类模糊语言（‘火候大一点’）与机器精确参数（‘温度230度’）之间的映射问题？这需要建立一个动态词典，将人类的模糊指令映射",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

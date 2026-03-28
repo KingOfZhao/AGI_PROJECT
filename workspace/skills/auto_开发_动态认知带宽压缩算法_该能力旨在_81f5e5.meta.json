@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_动态认知带宽压缩算法_该能力旨在_81f5e5",
+  "file": "skills/auto_开发_动态认知带宽压缩算法_该能力旨在_81f5e5.py",
+  "description": "开发'动态认知带宽压缩算法'。该能力旨在模拟人类专家的直觉，通过识别高频共现的复杂特征链，将其'退化'为单一的语义标签（真实节点），从而释放AI系统的算力与上下文窗口。例如，在自动驾驶中，不再分别处理'红灯'、'停车线'、'行人'，而是将此模式组合退化为'路口等待'这一单一维度，实现毫秒级的直觉决策，极大提升系统在信息过载环境下的反应速度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.359265",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_146_O2_9699",
+  "design_spec": {
+    "name": "auto_开发_动态认知带宽压缩算法_该能力旨在_81f5e5",
+    "display_name": "开发'动态认知带宽压缩算法'。该能力旨在模拟人类专家的直觉，通过识别高频共现的复杂特征链，将其'退化",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'动态认知带宽压缩算法'。该能力旨在模拟人类专家的直觉，通过识别高频共现的复杂特征链，将其'退化'为单一的语义标签（真实节点），从而释放AI系统的算力与上下",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨域_认知脚手架_的同构检测与映射问题_9432f0",
+  "file": "skills/auto_跨域_认知脚手架_的同构检测与映射问题_9432f0.py",
+  "description": "跨域‘认知脚手架’的同构检测与映射问题。不同领域（如‘小摊贩经营’与‘初创企业管理’）在底层逻辑上可能存在同构（如成本控制、获客），但表象术语完全不同。如何构建算法自动识别源域中高密度的‘认知闭环’子图，并将其结构映射到目标域的稀疏区，从而建立迁移桥梁？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "迁移学习/图匹配",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.707139",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q2_1_2583",
+  "design_spec": {
+    "name": "auto_跨域_认知脚手架_的同构检测与映射问题_9432f0",
+    "display_name": "跨域‘认知脚手架’的同构检测与映射问题。不同领域（如‘小摊贩经营’与‘初创企业管理’）在底层逻辑上可",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "跨域‘认知脚手架’的同构检测与映射问题。不同领域（如‘小摊贩经营’与‘初创企业管理’）在底层逻辑上可能存在同构（如成本控制、获客），但表象术语完全不同。如何构建",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

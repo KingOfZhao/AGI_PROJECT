@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_风险隔离沙盒系统_构建一个_58a43f",
+  "file": "skills/auto_融合能力_风险隔离沙盒系统_构建一个_58a43f.py",
+  "description": "融合能力：【风险隔离沙盒系统】。构建一个低成本的'试错魔圈'。AI生成的不仅是'实践清单'，而是一套具有明确胜负条件、反馈机制和'虚拟后果'的沙盒规则。例如，在学习投资时，AI生成一个包含'反直觉市场波动'的模拟环境，人类在其中决策，证伪自身的贪婪或恐惧。'真实节点'固化不再是因为'记住'，而是因为在魔圈中'存活'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.066284",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_93_O2_958",
+  "design_spec": {
+    "name": "auto_融合能力_风险隔离沙盒系统_构建一个_58a43f",
+    "display_name": "融合能力：【风险隔离沙盒系统】。构建一个低成本的'试错魔圈'。AI生成的不仅是'实践清单'，而是一套",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：【风险隔离沙盒系统】。构建一个低成本的'试错魔圈'。AI生成的不仅是'实践清单'，而是一套具有明确胜负条件、反馈机制和'虚拟后果'的沙盒规则。例如，在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 446
+  }
+}

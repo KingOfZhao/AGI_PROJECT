@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下拆解的_子目标独立性_检验_当高_6392fc",
+  "file": "skills/auto_自上而下拆解的_子目标独立性_检验_当高_6392fc.py",
+  "description": "自上而下拆解的'子目标独立性'检验：当高层目标（如'开发AGI'）被拆解为子节点时，如何验证子节点之间是否解耦？如果修改子节点A的参数会导致子节点B失效，说明拆解是不正交的。需开发一种'雅可比矩阵'式的依赖性检测工具，确保每个子问题可以独立被证伪和修正。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "systems_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.538279",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_37_Q6_1_3711",
+  "design_spec": {
+    "name": "auto_自上而下拆解的_子目标独立性_检验_当高_6392fc",
+    "display_name": "自上而下拆解的'子目标独立性'检验：当高层目标（如'开发AGI'）被拆解为子节点时，如何验证子节点之",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自上而下拆解的'子目标独立性'检验：当高层目标（如'开发AGI'）被拆解为子节点时，如何验证子节点之间是否解耦？如果修改子节点A的参数会导致子节点B失效，说明拆",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

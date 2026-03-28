@@ -1,0 +1,30 @@
+{
+  "name": "auto_结构完整性证伪_针对已建立的708个s_3114c3",
+  "file": "skills/auto_结构完整性证伪_针对已建立的708个s_3114c3.py",
+  "description": "【结构完整性证伪】针对已建立的708个SKILL节点，AI能否生成针对每个技能的‘对抗性破坏测试用例’？例如，针对‘Python文件读写’技能，不只是读写标准文件，而是生成一个权限受限或磁盘已满的模拟环境脚本。如果AI只能生成 Happy Path 代码而无法构建破坏性环境，则证明其对该技能的理解仅停留在语法层面，未形成包含边界条件的‘真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "软件工程",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.059538",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_36_Q1_2_8730",
+  "design_spec": {
+    "name": "auto_结构完整性证伪_针对已建立的708个s_3114c3",
+    "display_name": "【结构完整性证伪】针对已建立的708个SKILL节点，AI能否生成针对每个技能的‘对抗性破坏测试用例",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【结构完整性证伪】针对已建立的708个SKILL节点，AI能否生成针对每个技能的‘对抗性破坏测试用例’？例如，针对‘Python文件读写’技能，不只是读写标准文",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 378
+  }
+}

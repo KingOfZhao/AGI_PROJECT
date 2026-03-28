@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域_api调用链_的生态位价值_1fe2b7",
+  "file": "skills/auto_左右跨域_api调用链_的生态位价值_1fe2b7.py",
+  "description": "【左右跨域】'API调用链'的生态位价值评估：针对SKILL节点，评估其是否作为其他节点的'依赖项'。如果一个节点从未被其他节点调用（叶子节点），且直接解决人类问题的频率低，则它是孤立的。质量评估应包含'被引用权重'（PageRank变体）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.294142",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q8_0_3605",
+  "design_spec": {
+    "name": "auto_左右跨域_api调用链_的生态位价值_1fe2b7",
+    "display_name": "【左右跨域】'API调用链'的生态位价值评估：针对SKILL节点，评估其是否作为其他节点的'依赖项'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域】'API调用链'的生态位价值评估：针对SKILL节点，评估其是否作为其他节点的'依赖项'。如果一个节点从未被其他节点调用（叶子节点），且直接解决人类",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

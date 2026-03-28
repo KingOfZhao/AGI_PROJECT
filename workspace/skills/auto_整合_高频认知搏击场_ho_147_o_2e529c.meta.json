@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_高频认知搏击场_ho_147_o_2e529c",
+  "file": "skills/auto_整合_高频认知搏击场_ho_147_o_2e529c.py",
+  "description": "整合‘高频认知搏击场’（ho_147_O4_8867）与‘反事实攻击生成’（td_147_Q6_0_2541），构建一个自适应的敌对学习环境。AI不再是被动的问答机，而是主动的‘陪练对手’，根据学员的薄弱环节（通过眼动或答题数据检测）实时生成最具攻击性的反例，实现‘通过防御来学习’的高维教育模式。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_148",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:15:18.718693",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_148_E3_8978",
+  "design_spec": {
+    "name": "auto_整合_高频认知搏击场_ho_147_o_2e529c",
+    "display_name": "整合‘高频认知搏击场’（ho_147_O4_8867）与‘反事实攻击生成’（td_147_Q6_0_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合‘高频认知搏击场’（ho_147_O4_8867）与‘反事实攻击生成’（td_147_Q6_0_2541），构建一个自适应的敌对学习环境。AI不再是被动的问",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

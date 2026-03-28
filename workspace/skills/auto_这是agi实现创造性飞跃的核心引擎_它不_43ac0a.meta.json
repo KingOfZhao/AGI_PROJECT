@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是agi实现创造性飞跃的核心引擎_它不_43ac0a",
+  "file": "skills/auto_这是agi实现创造性飞跃的核心引擎_它不_43ac0a.py",
+  "description": "这是AGI实现创造性飞跃的核心引擎。它不满足于表面的语言相似性，而是致力于发现不同领域深层的'结构同构'。通过向量空间探测'距离极近但分类极远'的节点对，将一个领域的'真实节点'（经过验证的可执行知识）映射到另一个领域，从而生成全新的隐喻或解决方案。该机制包含严格的验证流程，区分'语言修辞'与'物理同构'，确保创新具备可落地性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.509230",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_55_P4_4797",
+  "design_spec": {
+    "name": "auto_这是agi实现创造性飞跃的核心引擎_它不_43ac0a",
+    "display_name": "这是AGI实现创造性飞跃的核心引擎。它不满足于表面的语言相似性，而是致力于发现不同领域深层的'结构同",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是AGI实现创造性飞跃的核心引擎。它不满足于表面的语言相似性，而是致力于发现不同领域深层的'结构同构'。通过向量空间探测'距离极近但分类极远'的节点对，将一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

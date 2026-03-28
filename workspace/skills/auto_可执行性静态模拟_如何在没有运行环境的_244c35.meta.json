@@ -1,0 +1,30 @@
+{
+  "name": "auto_可执行性静态模拟_如何在没有运行环境的_244c35",
+  "file": "skills/auto_可执行性静态模拟_如何在没有运行环境的_244c35.py",
+  "description": "【可执行性静态模拟】如何在没有运行环境的情况下，通过“认知沙箱”模拟代码执行路径？这要求AI模拟解释器的行为，预判空指针、越界等运行时错误。这是从“生成代码”到“生成正确代码”的关键跨越，属于自洽性验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "Program Analysis/Cognitive Simulation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:34.097344",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q7_3_4775",
+  "design_spec": {
+    "name": "auto_可执行性静态模拟_如何在没有运行环境的_244c35",
+    "display_name": "【可执行性静态模拟】如何在没有运行环境的情况下，通过“认知沙箱”模拟代码执行路径？这要求AI模拟解释",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【可执行性静态模拟】如何在没有运行环境的情况下，通过“认知沙箱”模拟代码执行路径？这要求AI模拟解释器的行为，预判空指针、越界等运行时错误。这是从“生成代码”到",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

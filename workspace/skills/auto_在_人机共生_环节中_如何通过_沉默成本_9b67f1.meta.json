@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_人机共生_环节中_如何通过_沉默成本_9b67f1",
+  "file": "skills/auto_在_人机共生_环节中_如何通过_沉默成本_9b67f1.py",
+  "description": "在'人机共生'环节中，如何通过'沉默成本'分析来识别'伪认知闭环'？人类可能因懒惰或盲从而通过AI的方案，导致低质量节点被误标记为'真实节点'。需要设计一种博弈论机制，即如果一个人机交互产生的节点在后续被其他独立用户/Agent挑战成功，当初赋予该节点'通过'标签的信用度应被回溯扣除。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "game_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.801777",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_70_Q2_2_886",
+  "design_spec": {
+    "name": "auto_在_人机共生_环节中_如何通过_沉默成本_9b67f1",
+    "display_name": "在'人机共生'环节中，如何通过'沉默成本'分析来识别'伪认知闭环'？人类可能因懒惰或盲从而通过AI的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'人机共生'环节中，如何通过'沉默成本'分析来识别'伪认知闭环'？人类可能因懒惰或盲从而通过AI的方案，导致低质量节点被误标记为'真实节点'。需要设计一种博弈",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

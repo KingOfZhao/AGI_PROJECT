@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈闭环_在人类实践证伪环节_a46d31",
+  "file": "skills/auto_人机共生反馈闭环_在人类实践证伪环节_a46d31.py",
+  "description": "【人机共生反馈闭环】在人类实践证伪环节，如何量化'人的直觉'？即当人类说'不对，感觉不对'时，如何将这种模糊反馈转化为对AI模型参数的具体梯度调整？需要开发一个'直觉映射接口'，允许人类通过简单的交互（如滑动条、力度推杆）来微调AI的生成结果。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "人机交互(HCI)",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.045735",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_127_Q7_2_6488",
+  "design_spec": {
+    "name": "auto_人机共生反馈闭环_在人类实践证伪环节_a46d31",
+    "display_name": "【人机共生反馈闭环】在人类实践证伪环节，如何量化'人的直觉'？即当人类说'不对，感觉不对'时，如何将",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生反馈闭环】在人类实践证伪环节，如何量化'人的直觉'？即当人类说'不对，感觉不对'时，如何将这种模糊反馈转化为对AI模型参数的具体梯度调整？需要开发一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

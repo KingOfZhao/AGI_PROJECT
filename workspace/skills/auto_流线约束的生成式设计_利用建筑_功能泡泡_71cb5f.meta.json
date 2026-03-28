@@ -1,0 +1,30 @@
+{
+  "name": "auto_流线约束的生成式设计_利用建筑_功能泡泡_71cb5f",
+  "file": "skills/auto_流线约束的生成式设计_利用建筑_功能泡泡_71cb5f.py",
+  "description": "流线约束的生成式设计。利用建筑'功能泡泡图'的逻辑来优化VAE或GAN的潜在空间结构。不再依赖传统的欧氏距离，而是引入'流线距离'作为潜在空间的度量标准。这使得生成模型在生成设计方案时，自动满足功能逻辑（如厨房必须靠近餐厅），而不需要大量后处理修正，实现从'形式生成'到'逻辑生成'的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.565775",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_138_O2_7965",
+  "design_spec": {
+    "name": "auto_流线约束的生成式设计_利用建筑_功能泡泡_71cb5f",
+    "display_name": "流线约束的生成式设计。利用建筑'功能泡泡图'的逻辑来优化VAE或GAN的潜在空间结构。不再依赖传统的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "流线约束的生成式设计。利用建筑'功能泡泡图'的逻辑来优化VAE或GAN的潜在空间结构。不再依赖传统的欧氏距离，而是引入'流线距离'作为潜在空间的度量标准。这使得",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 259
+  }
+}

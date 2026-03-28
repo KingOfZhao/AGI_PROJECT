@@ -1,0 +1,30 @@
+{
+  "name": "auto_跨尺度风格迁移生成器_将cnn的特征_37278c",
+  "file": "skills/auto_跨尺度风格迁移生成器_将cnn的特征_37278c.py",
+  "description": "‘跨尺度风格迁移生成器’。将CNN的特征金字塔（Feature Pyramid Networks）应用于城市设计。通过风格迁移技术，将一个历史街区的‘肌理风格’（微观尺度）与另一个现代城市的‘路网结构’（宏观尺度）进行融合，生成既符合现代功能需求又保留历史文脉的新城市设计方案。这不仅是视觉上的生成，更是基于语义的结构重组。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.451269",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_143_O4_688",
+  "design_spec": {
+    "name": "auto_跨尺度风格迁移生成器_将cnn的特征_37278c",
+    "display_name": "‘跨尺度风格迁移生成器’。将CNN的特征金字塔（Feature Pyramid Networks）应",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘跨尺度风格迁移生成器’。将CNN的特征金字塔（Feature Pyramid Networks）应用于城市设计。通过风格迁移技术，将一个历史街区的‘肌理风格’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

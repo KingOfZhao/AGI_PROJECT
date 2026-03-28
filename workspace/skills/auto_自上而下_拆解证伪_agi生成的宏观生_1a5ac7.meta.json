@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下_拆解证伪_agi生成的宏观生_1a5ac7",
+  "file": "skills/auto_自上而下_拆解证伪_agi生成的宏观生_1a5ac7.py",
+  "description": "【自上而下：拆解证伪】AGI生成的宏观生产计划需要拆解为微观动作。问题：如何建立一个层级任务网络（HTN）分解器，将‘月产1万件’的目标拆解为‘每日排班’和‘物料采购’子节点，并能自动检测资源冲突（如两道工序抢占同一台机床）？证伪的关键在于‘死锁检测’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "operations_research",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.346567",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_145_Q6_3_8808",
+  "design_spec": {
+    "name": "auto_自上而下_拆解证伪_agi生成的宏观生_1a5ac7",
+    "display_name": "【自上而下：拆解证伪】AGI生成的宏观生产计划需要拆解为微观动作。问题：如何建立一个层级任务网络（H",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下：拆解证伪】AGI生成的宏观生产计划需要拆解为微观动作。问题：如何建立一个层级任务网络（HTN）分解器，将‘月产1万件’的目标拆解为‘每日排班’和‘物",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

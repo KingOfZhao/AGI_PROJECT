@@ -1,0 +1,30 @@
+{
+  "name": "auto_信息熵减损控制_跨域迁移往往伴随着信息_7bbfec",
+  "file": "skills/auto_信息熵减损控制_跨域迁移往往伴随着信息_7bbfec.py",
+  "description": "【信息熵减损控制】跨域迁移往往伴随着信息的有损压缩，如何量化和控制这种'语义熵减'？需要开发一个监控模块，计算源领域知识单元在迁移到目标领域后的信息保留率。例如，将'青光眼治疗流程'（医学）迁移到'管道疏通'（工程）时，保留'阻塞-压力-损伤'的核心结构，但剥离生物特异性细节。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_56",
+    "information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:30:48.719596",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_56_Q3_3_39",
+  "design_spec": {
+    "name": "auto_信息熵减损控制_跨域迁移往往伴随着信息_7bbfec",
+    "display_name": "【信息熵减损控制】跨域迁移往往伴随着信息的有损压缩，如何量化和控制这种'语义熵减'？需要开发一个监控",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【信息熵减损控制】跨域迁移往往伴随着信息的有损压缩，如何量化和控制这种'语义熵减'？需要开发一个监控模块，计算源领域知识单元在迁移到目标领域后的信息保留率。例如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 302
+  }
+}

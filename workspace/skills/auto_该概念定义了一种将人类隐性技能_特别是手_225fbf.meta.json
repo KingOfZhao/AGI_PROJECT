@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念定义了一种将人类隐性技能_特别是手_225fbf",
+  "file": "skills/auto_该概念定义了一种将人类隐性技能_特别是手_225fbf.py",
+  "description": "该概念定义了一种将人类隐性技能（特别是手工艺、肌肉记忆等非结构化数据）转化为机器可执行代码的标准化流水线。它整合了视频的时空分解、听觉反馈的因果映射、肌电信号的生理状态关联，以及最终的自然语言概念蒸馏。这不仅仅是多模态识别，而是构建一个'数字孪生教师'，能够将高维的感官体验压缩为低维的'口诀'或可执行的逻辑单元，实现从'只可意会'到'算法可复现'的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:39.962150",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_43_P1_939",
+  "design_spec": {
+    "name": "auto_该概念定义了一种将人类隐性技能_特别是手_225fbf",
+    "display_name": "该概念定义了一种将人类隐性技能（特别是手工艺、肌肉记忆等非结构化数据）转化为机器可执行代码的标准化流",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念定义了一种将人类隐性技能（特别是手工艺、肌肉记忆等非结构化数据）转化为机器可执行代码的标准化流水线。它整合了视频的时空分解、听觉反馈的因果映射、肌电信号的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

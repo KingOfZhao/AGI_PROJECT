@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计_认知roi_投入产出比_算法_549133",
+  "file": "skills/auto_如何设计_认知roi_投入产出比_算法_549133.py",
+  "description": "如何设计'认知ROI'（投入产出比）算法来决定节点的存亡？考虑到AGI算力资源限制，每个节点的存储、索引和匹配都有成本。需要定义一个公式：ROI = (节点被调用频次 * 解决问题的平均价值) / (节点向量维度 * 维护依赖数)。对于ROI持续低于系统平均水平的节点，实施'休眠'处理，将其移出热数据层，而非物理删除。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_13",
+    "system_optimization",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:51:57.946307",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_13_Q6_0_4216",
+  "design_spec": {
+    "name": "auto_如何设计_认知roi_投入产出比_算法_549133",
+    "display_name": "如何设计'认知ROI'（投入产出比）算法来决定节点的存亡？考虑到AGI算力资源限制，每个节点的存储、",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计'认知ROI'（投入产出比）算法来决定节点的存亡？考虑到AGI算力资源限制，每个节点的存储、索引和匹配都有成本。需要定义一个公式：ROI = (节点被调",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 217
+  }
+}

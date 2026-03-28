@@ -1,0 +1,30 @@
+{
+  "name": "auto_非结构化文本到可执行_真实节点_的结构化_48404b",
+  "file": "skills/auto_非结构化文本到可执行_真实节点_的结构化_48404b.py",
+  "description": "非结构化文本到可执行'真实节点'的结构化固化协议。AI阅读论文或文档后，通常只生成摘要。本问题要求AI自动将文本中的方法论转化为可执行的Python函数或标准操作程序（SOP），并自动生成单元测试。只有通过测试的代码块才能被认证为新的'真实节点'。这是'重叠固化为真实节点'的关键步骤。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.419963",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q2_2_223",
+  "design_spec": {
+    "name": "auto_非结构化文本到可执行_真实节点_的结构化_48404b",
+    "display_name": "非结构化文本到可执行'真实节点'的结构化固化协议。AI阅读论文或文档后，通常只生成摘要。本问题要求A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "非结构化文本到可执行'真实节点'的结构化固化协议。AI阅读论文或文档后，通常只生成摘要。本问题要求AI自动将文本中的方法论转化为可执行的Python函数或标准操",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 55
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_能否建立一个_隐性错误检测器_通过分析_64cecf",
+  "file": "skills/auto_能否建立一个_隐性错误检测器_通过分析_64cecf.py",
+  "description": "能否建立一个'隐性错误检测器'，通过分析微表情、微动作迟滞等非显性数据，在人类专家意识到之前预判操作失误？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "predictive_analytics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.851039",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q7_0_7406",
+  "design_spec": {
+    "name": "auto_能否建立一个_隐性错误检测器_通过分析_64cecf",
+    "display_name": "能否建立一个'隐性错误检测器'，通过分析微表情、微动作迟滞等非显性数据，在人类专家意识到之前预判操作",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "能否建立一个'隐性错误检测器'，通过分析微表情、微动作迟滞等非显性数据，在人类专家意识到之前预判操作失误？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 272
+  }
+}

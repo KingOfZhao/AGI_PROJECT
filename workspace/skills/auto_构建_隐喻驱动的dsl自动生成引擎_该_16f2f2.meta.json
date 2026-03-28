@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_隐喻驱动的dsl自动生成引擎_该_16f2f2",
+  "file": "skills/auto_构建_隐喻驱动的dsl自动生成引擎_该_16f2f2.py",
+  "description": "构建'隐喻驱动的DSL自动生成引擎'。该能力不仅仅是生成代码，而是先解析用户意图中的隐喻结构（如'像管理图书馆一样管理内存'），自动定义一套临时的、高阶的DSL（领域特定语言），其中包含'借阅'、'归还'、'逾期'等原语及其约束条件，然后在此DSL之上生成最终代码。这使得AI能够处理极具风格化或特定业务逻辑的需求，实现从'翻译'到'构架'的跃迁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_119",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:17:51.167138",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_119_O1_2945",
+  "design_spec": {
+    "name": "auto_构建_隐喻驱动的dsl自动生成引擎_该_16f2f2",
+    "display_name": "构建'隐喻驱动的DSL自动生成引擎'。该能力不仅仅是生成代码，而是先解析用户意图中的隐喻结构（如'像",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'隐喻驱动的DSL自动生成引擎'。该能力不仅仅是生成代码，而是先解析用户意图中的隐喻结构（如'像管理图书馆一样管理内存'），自动定义一套临时的、高阶的DSL",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 354
+  }
+}

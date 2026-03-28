@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索_多模态对齐_机制_建立手工艺中_视_8ad0d8",
+  "file": "skills/auto_探索_多模态对齐_机制_建立手工艺中_视_8ad0d8.py",
+  "description": "探索'多模态对齐'机制，建立手工艺中'视觉结果'与'听觉反馈'（如敲击声、撕裂声）之间的因果映射。目标是将'听声辨位'这种隐性经验转化为可计算的概率图模型，使AI能仅凭声音频谱预测工艺结构的质量（如陶瓷是否有暗裂）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "multimodal_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.018630",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q3_2_7850",
+  "design_spec": {
+    "name": "auto_探索_多模态对齐_机制_建立手工艺中_视_8ad0d8",
+    "display_name": "探索'多模态对齐'机制，建立手工艺中'视觉结果'与'听觉反馈'（如敲击声、撕裂声）之间的因果映射。目",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索'多模态对齐'机制，建立手工艺中'视觉结果'与'听觉反馈'（如敲击声、撕裂声）之间的因果映射。目标是将'听声辨位'这种隐性经验转化为可计算的概率图模型，使A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 300
+  }
+}

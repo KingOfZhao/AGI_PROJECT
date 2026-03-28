@@ -1,0 +1,30 @@
+{
+  "name": "auto_语境敏感的解构式技能重组_在拆解ski_d7093c",
+  "file": "skills/auto_语境敏感的解构式技能重组_在拆解ski_d7093c.py",
+  "description": "【语境敏感的解构式技能重组】在拆解Skill为原子（Atomism）的同时，保留'语境指纹'（Context Fingerprint）。每个原子Skill不仅是动作代码，还附带有'前置差异链'和'后置期望链'。当AI尝试重组这些原子完成新任务时，会进行'语境兼容性检查'，确保原子A的输出符合原子B的输入期望。这能避免死板拼凑导致的执行失败。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_82",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T19:40:26.388709",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_82_O4_3268",
+  "design_spec": {
+    "name": "auto_语境敏感的解构式技能重组_在拆解ski_d7093c",
+    "display_name": "【语境敏感的解构式技能重组】在拆解Skill为原子（Atomism）的同时，保留'语境指纹'（Con",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语境敏感的解构式技能重组】在拆解Skill为原子（Atomism）的同时，保留'语境指纹'（Context Fingerprint）。每个原子Skill不仅是",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域重叠_跨模态结构同构_向ai提_55ab61",
+  "file": "skills/auto_左右跨域重叠_跨模态结构同构_向ai提_55ab61.py",
+  "description": "【左右跨域重叠】跨模态结构同构：向AI提供一段无标题的复杂音乐结构（如赋格曲）的MIDI数据，要求AI将其映射为一段具有相同逻辑结构的商业谈判流程图。这验证了AI是否具备剥离内容、保留纯结构（认知节点）并进行跨域迁移的能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_26",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:31:20.248678",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_26_Q5_2_7673",
+  "design_spec": {
+    "name": "auto_左右跨域重叠_跨模态结构同构_向ai提_55ab61",
+    "display_name": "【左右跨域重叠】跨模态结构同构：向AI提供一段无标题的复杂音乐结构（如赋格曲）的MIDI数据，要求A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域重叠】跨模态结构同构：向AI提供一段无标题的复杂音乐结构（如赋格曲）的MIDI数据，要求AI将其映射为一段具有相同逻辑结构的商业谈判流程图。这验证了A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

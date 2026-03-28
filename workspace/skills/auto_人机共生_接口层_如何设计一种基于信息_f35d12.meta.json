@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_接口层_如何设计一种基于信息_f35d12",
+  "file": "skills/auto_人机共生_接口层_如何设计一种基于信息_f35d12.py",
+  "description": "【人机共生-接口层】如何设计一种基于信息熵的动态提示词协议，使其能根据用户的实时反馈（如修正、犹豫时间）自动调整认知颗粒度？当前系统拥有374个技能节点，需要验证是否能通过语义向量聚类，自动将高层意图拆解为这374个技能的特定组合，而非依赖静态的指令模板。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_17",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T14:15:52.449938",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_17_Q1_0_5046",
+  "design_spec": {
+    "name": "auto_人机共生_接口层_如何设计一种基于信息_f35d12",
+    "display_name": "【人机共生-接口层】如何设计一种基于信息熵的动态提示词协议，使其能根据用户的实时反馈（如修正、犹豫时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生-接口层】如何设计一种基于信息熵的动态提示词协议，使其能根据用户的实时反馈（如修正、犹豫时间）自动调整认知颗粒度？当前系统拥有374个技能节点，需要验",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

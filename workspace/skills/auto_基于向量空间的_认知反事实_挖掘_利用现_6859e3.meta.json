@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于向量空间的_认知反事实_挖掘_利用现_6859e3",
+  "file": "skills/auto_基于向量空间的_认知反事实_挖掘_利用现_6859e3.py",
+  "description": "基于向量空间的“认知反事实”挖掘：利用现有的3714个节点，计算其在高维向量空间中的‘中间点’或‘补集’。系统往往只能在已有数据上归纳（自下而上），难以发现‘已知之外’的盲区。此问题旨在验证：能否通过数学插值算法（如Vector Arithmetic）生成目前知识网络中‘缺失’且‘低密度’的语义区域，作为‘潜在新知识’的候选？这直接挑战AI仅靠归纳无法突破现有知识边界的局限。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_143",
+    "认知几何学",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:44:15.445223",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_143_Q1_2_7583",
+  "design_spec": {
+    "name": "auto_基于向量空间的_认知反事实_挖掘_利用现_6859e3",
+    "display_name": "基于向量空间的“认知反事实”挖掘：利用现有的3714个节点，计算其在高维向量空间中的‘中间点’或‘补",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于向量空间的“认知反事实”挖掘：利用现有的3714个节点，计算其在高维向量空间中的‘中间点’或‘补集’。系统往往只能在已有数据上归纳（自下而上），难以发现‘已",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

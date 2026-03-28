@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发一种基于已有skill节点的_认知检_981ce4",
+  "file": "skills/auto_开发一种基于已有skill节点的_认知检_981ce4.py",
+  "description": "开发一种基于已有SKILL节点的'认知检索增强生成(RAG)'算法。核心挑战在于：当用户提出模糊意图时，如何从2288个技能节点中精准检索出可复用的代码块或模式，而不是从零生成。这需要建立一种超越关键词匹配的'意图-技能'语义索引机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "knowledge_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.553607",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q3_3_8714",
+  "design_spec": {
+    "name": "auto_开发一种基于已有skill节点的_认知检_981ce4",
+    "display_name": "开发一种基于已有SKILL节点的'认知检索增强生成(RAG)'算法。核心挑战在于：当用户提出模糊意图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发一种基于已有SKILL节点的'认知检索增强生成(RAG)'算法。核心挑战在于：当用户提出模糊意图时，如何从2288个技能节点中精准检索出可复用的代码块或模式",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 350
+  }
+}

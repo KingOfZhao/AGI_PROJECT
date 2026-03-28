@@ -1,0 +1,30 @@
+{
+  "name": "auto_高维数据空间的可视化与交互框架_利用fl_a92b72",
+  "file": "skills/auto_高维数据空间的可视化与交互框架_利用fl_a92b72.py",
+  "description": "高维数据空间的可视化与交互框架。利用Flutter的高性能光栅化能力，构建一个专门用于处理海量工程图纸（如建筑总平图、电路图）的矢量视图引擎。不同于普通的图片查看器，该引擎具备CAD级的'对象识别'能力——即点阵图像背后的矢量逻辑。用户在移动端查看GB级图纸时，不仅能流畅缩放，还能像在Web上一样点击单个线条获取BIM属性，实现'轻量化BIM浏览'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.487862",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_104_O2_9410",
+  "design_spec": {
+    "name": "auto_高维数据空间的可视化与交互框架_利用fl_a92b72",
+    "display_name": "高维数据空间的可视化与交互框架。利用Flutter的高性能光栅化能力，构建一个专门用于处理海量工程图",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "高维数据空间的可视化与交互框架。利用Flutter的高性能光栅化能力，构建一个专门用于处理海量工程图纸（如建筑总平图、电路图）的矢量视图引擎。不同于普通的图片查",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 404
+  }
+}

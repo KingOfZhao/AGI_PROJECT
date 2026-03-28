@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机反馈的意图对齐校准_在人机共生环节_b65d39",
+  "file": "skills/auto_人机反馈的意图对齐校准_在人机共生环节_b65d39.py",
+  "description": "【人机反馈的意图对齐校准】在人机共生环节，人类可能给出模糊或情绪化的反馈（如'这不对'）。AI需具备'意图澄清'机制，将人类的非结构化反馈映射为对特定节点的参数调整。问题是：如何区分'人类偏见'与'真实的系统错误'？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.731562",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_32_Q9_1_8887",
+  "design_spec": {
+    "name": "auto_人机反馈的意图对齐校准_在人机共生环节_b65d39",
+    "display_name": "【人机反馈的意图对齐校准】在人机共生环节，人类可能给出模糊或情绪化的反馈（如'这不对'）。AI需具备",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机反馈的意图对齐校准】在人机共生环节，人类可能给出模糊或情绪化的反馈（如'这不对'）。AI需具备'意图澄清'机制，将人类的非结构化反馈映射为对特定节点的参数",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 243
+  }
+}

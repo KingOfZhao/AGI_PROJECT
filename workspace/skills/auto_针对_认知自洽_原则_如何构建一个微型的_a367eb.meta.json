@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_认知自洽_原则_如何构建一个微型的_a367eb",
+  "file": "skills/auto_针对_认知自洽_原则_如何构建一个微型的_a367eb.py",
+  "description": "针对“认知自洽”原则，如何构建一个微型的“产线图灵测试”？即在一个封闭的制造单元（如自动包装线）中，AGI系统是否能够仅凭观察和交互，自行推导出该产线的逻辑控制规则（如：若无传感器A信号，则必不启动电机B），并生成一个逻辑上自洽的控制图谱？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_65",
+    "automated_reasoning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:32:39.126040",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_65_Q8_3_1183",
+  "design_spec": {
+    "name": "auto_针对_认知自洽_原则_如何构建一个微型的_a367eb",
+    "display_name": "针对“认知自洽”原则，如何构建一个微型的“产线图灵测试”？即在一个封闭的制造单元（如自动包装线）中，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对“认知自洽”原则，如何构建一个微型的“产线图灵测试”？即在一个封闭的制造单元（如自动包装线）中，AGI系统是否能够仅凭观察和交互，自行推导出该产线的逻辑控制",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 350
+  }
+}

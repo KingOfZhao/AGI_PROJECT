@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态_真实节点_的标准化封装问题_当前_f89353",
+  "file": "skills/auto_多模态_真实节点_的标准化封装问题_当前_f89353.py",
+  "description": "多模态‘真实节点’的标准化封装问题。当前的节点可能是文本、代码或图片。为了实现跨域迁移，必须有一套统一的API或数据结构来封装这些异构数据，使其具备‘可执行性’。如何设计一种‘认知容器’格式，使得一个摆摊技能节点能被软件工程节点直接调用（例如将叫卖话术转化为文案生成API）？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "软件工程/标准化",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.709380",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q10_1_2583",
+  "design_spec": {
+    "name": "auto_多模态_真实节点_的标准化封装问题_当前_f89353",
+    "display_name": "多模态‘真实节点’的标准化封装问题。当前的节点可能是文本、代码或图片。为了实现跨域迁移，必须有一套统",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态‘真实节点’的标准化封装问题。当前的节点可能是文本、代码或图片。为了实现跨域迁移，必须有一套统一的API或数据结构来封装这些异构数据，使其具备‘可执行性’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

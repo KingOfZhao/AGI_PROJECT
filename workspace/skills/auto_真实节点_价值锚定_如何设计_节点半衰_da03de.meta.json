@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点_价值锚定_如何设计_节点半衰_da03de",
+  "file": "skills/auto_真实节点_价值锚定_如何设计_节点半衰_da03de.py",
+  "description": "【真实节点-价值锚定】如何设计'节点半衰期'算法以解决知识老化问题？由于人类寿命限制，早期的'真实节点'可能随时代变迁而失效（如旧的技术栈）。系统需要一个动态评估函数，基于节点的'最后一次验证时间'、'引用频次'和'周边节点存活率'，自动降低老旧节点的置信度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_112",
+    "data_mining_knowledge_mgmt",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:03:11.515577",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_112_Q7_0_9928",
+  "design_spec": {
+    "name": "auto_真实节点_价值锚定_如何设计_节点半衰_da03de",
+    "display_name": "【真实节点-价值锚定】如何设计'节点半衰期'算法以解决知识老化问题？由于人类寿命限制，早期的'真实节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点-价值锚定】如何设计'节点半衰期'算法以解决知识老化问题？由于人类寿命限制，早期的'真实节点'可能随时代变迁而失效（如旧的技术栈）。系统需要一个动态评",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

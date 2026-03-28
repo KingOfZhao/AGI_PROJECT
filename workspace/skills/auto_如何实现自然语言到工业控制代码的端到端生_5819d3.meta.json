@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现自然语言到工业控制代码的端到端生_5819d3",
+  "file": "skills/auto_如何实现自然语言到工业控制代码的端到端生_5819d3.py",
+  "description": "如何实现自然语言到工业控制代码的端到端生成，将专家口述的'稍微调大一点阀门'转化为精确的'阀门开度增加5%'的可执行代码？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_23",
+    "nlp_to_code",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:28:03.401837",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_23_Q8_1_3133",
+  "design_spec": {
+    "name": "auto_如何实现自然语言到工业控制代码的端到端生_5819d3",
+    "display_name": "如何实现自然语言到工业控制代码的端到端生成，将专家口述的'稍微调大一点阀门'转化为精确的'阀门开度增",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现自然语言到工业控制代码的端到端生成，将专家口述的'稍微调大一点阀门'转化为精确的'阀门开度增加5%'的可执行代码？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

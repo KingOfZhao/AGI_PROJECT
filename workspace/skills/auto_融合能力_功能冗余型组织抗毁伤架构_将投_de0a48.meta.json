@@ -1,0 +1,30 @@
+{
+  "name": "auto_融合能力_功能冗余型组织抗毁伤架构_将投_de0a48",
+  "file": "skills/auto_融合能力_功能冗余型组织抗毁伤架构_将投_de0a48.py",
+  "description": "融合能力：功能冗余型组织抗毁伤架构。将投资组合的夏普比率概念引入组织架构和AI模型设计。不仅关注‘效率’（收益），更关注‘功能冗余’（鲁棒性）。该能力能评估一个团队或系统在面对突发扰动（如核心人员流失、服务器宕机）时的‘保险价值’。它主动建议在关键节点引入‘看似低效’但具备异构功能的备份单元（类似生态系统的功能群），以最小成本构建具备自我修复能力的反脆弱系统。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_35",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:50:39.462838",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_35_O4_1606",
+  "design_spec": {
+    "name": "auto_融合能力_功能冗余型组织抗毁伤架构_将投_de0a48",
+    "display_name": "融合能力：功能冗余型组织抗毁伤架构。将投资组合的夏普比率概念引入组织架构和AI模型设计。不仅关注‘效",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "融合能力：功能冗余型组织抗毁伤架构。将投资组合的夏普比率概念引入组织架构和AI模型设计。不仅关注‘效率’（收益），更关注‘功能冗余’（鲁棒性）。该能力能评估一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 307
+  }
+}

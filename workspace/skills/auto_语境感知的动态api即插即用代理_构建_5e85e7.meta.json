@@ -1,0 +1,30 @@
+{
+  "name": "auto_语境感知的动态api即插即用代理_构建_5e85e7",
+  "file": "skills/auto_语境感知的动态api即插即用代理_构建_5e85e7.py",
+  "description": "【语境感知的动态API即插即用代理】构建一个能够动态构建'临时认知图谱'的Agent。当面对全新的API文档时，它不仅仅是阅读，而是根据当前任务语境（'我想冲一杯咖啡'），快速在图谱中建立'咖啡机对象'与'API端点'的锚定关系。这种能力使AI能像人类一样，边看说明书边操作从未见过的复杂系统，将模糊意图直接降维到具体的指令调用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.640315",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_60_O5_6527",
+  "design_spec": {
+    "name": "auto_语境感知的动态api即插即用代理_构建_5e85e7",
+    "display_name": "【语境感知的动态API即插即用代理】构建一个能够动态构建'临时认知图谱'的Agent。当面对全新的A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语境感知的动态API即插即用代理】构建一个能够动态构建'临时认知图谱'的Agent。当面对全新的API文档时，它不仅仅是阅读，而是根据当前任务语境（'我想冲一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

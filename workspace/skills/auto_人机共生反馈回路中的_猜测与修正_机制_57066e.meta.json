@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生反馈回路中的_猜测与修正_机制_57066e",
+  "file": "skills/auto_人机共生反馈回路中的_猜测与修正_机制_57066e.py",
+  "description": "人机共生反馈回路中的‘猜测与修正’机制：构建一个交互式界面，AI根据观察到的动作预测下一步并预加载建议，人类通过简单手势/语音进行‘确认’或‘修正’。问题在于：这种即时的二元反馈能否加速AI对‘个性化手感’（不同工匠的独特习惯）的适配，形成新的真实节点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_37",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:36:51.506967",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_37_Q5_2_8762",
+  "design_spec": {
+    "name": "auto_人机共生反馈回路中的_猜测与修正_机制_57066e",
+    "display_name": "人机共生反馈回路中的‘猜测与修正’机制：构建一个交互式界面，AI根据观察到的动作预测下一步并预加载建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生反馈回路中的‘猜测与修正’机制：构建一个交互式界面，AI根据观察到的动作预测下一步并预加载建议，人类通过简单手势/语音进行‘确认’或‘修正’。问题在于：",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 341
+  }
+}

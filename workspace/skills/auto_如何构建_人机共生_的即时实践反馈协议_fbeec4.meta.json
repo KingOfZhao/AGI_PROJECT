@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建_人机共生_的即时实践反馈协议_fbeec4",
+  "file": "skills/auto_如何构建_人机共生_的即时实践反馈协议_fbeec4.py",
+  "description": "如何构建'人机共生'的即时实践反馈协议（PPFP），将人类的每一次实践结果转化为结构化的网络权重更新？当人类在实践中证伪了AI的建议（如'在该地段摆摊不赚钱'），系统不应只记录'失败'，而需追溯回推导路径，定位导致该建议的'选址假设节点'，并对其因果概率进行具体的数值惩罚。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_45",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:21:02.311350",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_45_Q4_1_8634",
+  "design_spec": {
+    "name": "auto_如何构建_人机共生_的即时实践反馈协议_fbeec4",
+    "display_name": "如何构建'人机共生'的即时实践反馈协议（PPFP），将人类的每一次实践结果转化为结构化的网络权重更新",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建'人机共生'的即时实践反馈协议（PPFP），将人类的每一次实践结果转化为结构化的网络权重更新？当人类在实践中证伪了AI的建议（如'在该地段摆摊不赚钱'）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 230
+  }
+}

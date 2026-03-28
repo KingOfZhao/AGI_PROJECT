@@ -1,0 +1,30 @@
+{
+  "name": "auto_创造_认知配器框架_不再单一地执行命令_7d7b0f",
+  "file": "skills/auto_创造_认知配器框架_不再单一地执行命令_7d7b0f.py",
+  "description": "创造'认知配器框架'。不再单一地执行命令，而是根据环境上下文（数据模态）为操作'配器'。例如，在涉及金融核心数据时（需要严肃、厚重的'大提琴'音色），系统自动叠加多重校验和慢速处理；在处理日志清洗时（轻快的'长笛'），系统使用轻量级线程快速通过。这通过模仿管弦乐法的密度控制，实现了资源利用率与风险控制的自适应平衡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.819465",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O4_408",
+  "design_spec": {
+    "name": "auto_创造_认知配器框架_不再单一地执行命令_7d7b0f",
+    "display_name": "创造'认知配器框架'。不再单一地执行命令，而是根据环境上下文（数据模态）为操作'配器'。例如，在涉及",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "创造'认知配器框架'。不再单一地执行命令，而是根据环境上下文（数据模态）为操作'配器'。例如，在涉及金融核心数据时（需要严肃、厚重的'大提琴'音色），系统自动叠",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

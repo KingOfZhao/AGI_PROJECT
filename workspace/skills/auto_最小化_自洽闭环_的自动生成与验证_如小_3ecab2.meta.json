@@ -1,0 +1,30 @@
+{
+  "name": "auto_最小化_自洽闭环_的自动生成与验证_如小_3ecab2",
+  "file": "skills/auto_最小化_自洽闭环_的自动生成与验证_如小_3ecab2.py",
+  "description": "最小化'自洽闭环'的自动生成与验证（如小摊贩模型）：系统需要具备从复杂现实中剥离出最小可行认知闭环的能力。能否开发一种算法，自动识别并提取特定场景（如'夜市摆摊'）所需的最小节点集合，并验证其是否构成'真实节点'（即可证伪的闭环）？这是构建高密度认知网络的基础。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "systems_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.426123",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_142_Q9_0_7340",
+  "design_spec": {
+    "name": "auto_最小化_自洽闭环_的自动生成与验证_如小_3ecab2",
+    "display_name": "最小化'自洽闭环'的自动生成与验证（如小摊贩模型）：系统需要具备从复杂现实中剥离出最小可行认知闭环的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "最小化'自洽闭环'的自动生成与验证（如小摊贩模型）：系统需要具备从复杂现实中剥离出最小可行认知闭环的能力。能否开发一种算法，自动识别并提取特定场景（如'夜市摆摊",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

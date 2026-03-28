@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生接口层_如何定义和检测_意图歧_a27498",
+  "file": "skills/auto_人机共生接口层_如何定义和检测_意图歧_a27498.py",
+  "description": "【人机共生接口层】如何定义和检测'意图歧义点'并自动生成'澄清性提问'？系统不应盲目猜测，而应在不确定性超过阈值时，生成精确的A/B选项供人类确认。这是'人机共生'的关键，旨在用最小的人类交互成本消除最大的语义鸿沟。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_98",
+    "hci/dialog_systems",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:07:18.786484",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_98_Q6_3_203",
+  "design_spec": {
+    "name": "auto_人机共生接口层_如何定义和检测_意图歧_a27498",
+    "display_name": "【人机共生接口层】如何定义和检测'意图歧义点'并自动生成'澄清性提问'？系统不应盲目猜测，而应在不确",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生接口层】如何定义和检测'意图歧义点'并自动生成'澄清性提问'？系统不应盲目猜测，而应在不确定性超过阈值时，生成精确的A/B选项供人类确认。这是'人机共",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 215
+  }
+}

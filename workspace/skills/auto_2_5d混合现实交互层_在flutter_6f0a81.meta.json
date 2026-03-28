@@ -1,0 +1,30 @@
+{
+  "name": "auto_2_5d混合现实交互层_在flutter_6f0a81",
+  "file": "skills/auto_2_5d混合现实交互层_在flutter_6f0a81.py",
+  "description": "2.5D混合现实交互层。在Flutter中嵌入轻量级3D视图，利用CAD的射线拾取算法优化复杂堆叠UI（如地图POI、复杂图表）的点击判定。不再是简单的Z-Index判定，而是基于'视觉遮挡'和'深度权重'的智能选中，例如手指在3D地图上点击被半透明建筑遮挡的按钮时，系统能根据视线角度智能分发事件。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_96",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:29:05.402797",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_96_O5_3957",
+  "design_spec": {
+    "name": "auto_2_5d混合现实交互层_在flutter_6f0a81",
+    "display_name": "2.5D混合现实交互层。在Flutter中嵌入轻量级3D视图，利用CAD的射线拾取算法优化复杂堆叠U",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "2.5D混合现实交互层。在Flutter中嵌入轻量级3D视图，利用CAD的射线拾取算法优化复杂堆叠UI（如地图POI、复杂图表）的点击判定。不再是简单的Z-In",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 369
+  }
+}

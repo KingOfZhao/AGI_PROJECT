@@ -1,0 +1,30 @@
+{
+  "name": "auto_同构映射技能加速器_利用ai极强的算_aa82f9",
+  "file": "skills/auto_同构映射技能加速器_利用ai极强的算_aa82f9.py",
+  "description": "【同构映射技能加速器】：利用AI极强的算力，暴力扫描跨领域知识库，寻找'异质同构'对。当人类需要学习一个全新的practical_skill（如学习复杂的流体力学）时，系统自动检索用户已掌握的技能树（如电路设计），找到结构同构点（欧姆定律 vs 流体阻力），生成'类比迁移学习路径'。通过'你已经懂的A'来解释'你不懂的B'，极大地降低认知负荷。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.514133",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_107_O4_3478",
+  "design_spec": {
+    "name": "auto_同构映射技能加速器_利用ai极强的算_aa82f9",
+    "display_name": "【同构映射技能加速器】：利用AI极强的算力，暴力扫描跨领域知识库，寻找'异质同构'对。当人类需要学习",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【同构映射技能加速器】：利用AI极强的算力，暴力扫描跨领域知识库，寻找'异质同构'对。当人类需要学习一个全新的practical_skill（如学习复杂的流体力",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

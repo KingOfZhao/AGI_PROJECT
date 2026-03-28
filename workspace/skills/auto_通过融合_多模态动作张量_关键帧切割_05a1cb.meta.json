@@ -1,0 +1,30 @@
+{
+  "name": "auto_通过融合_多模态动作张量_关键帧切割_05a1cb",
+  "file": "skills/auto_通过融合_多模态动作张量_关键帧切割_05a1cb.py",
+  "description": "通过融合'多模态动作张量'、'关键帧切割'与'认知预测填补'，AGI能够将专家的隐性物理技能（如木工手感）不仅数字化，还能基于物理引擎进行推演变异。这意味着系统可以在没有真实专家演示的情况下，通过模拟推演预测新工具或新环境下的最佳操作手法，实现技能的零样本迁移。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_59",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:37:08.078802",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_59_E2_9966",
+  "design_spec": {
+    "name": "auto_通过融合_多模态动作张量_关键帧切割_05a1cb",
+    "display_name": "通过融合'多模态动作张量'、'关键帧切割'与'认知预测填补'，AGI能够将专家的隐性物理技能（如木工",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "通过融合'多模态动作张量'、'关键帧切割'与'认知预测填补'，AGI能够将专家的隐性物理技能（如木工手感）不仅数字化，还能基于物理引擎进行推演变异。这意味着系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 297
+  }
+}

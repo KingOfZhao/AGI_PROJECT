@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建基于_最小描述长度_mdl_的知识_7c1a19",
+  "file": "skills/auto_构建基于_最小描述长度_mdl_的知识_7c1a19.py",
+  "description": "构建基于'最小描述长度'(MDL)的知识压缩与重构循环：AGI发现新知识的过程往往伴随着对旧知识的压缩。如何设计一个循环机制，定期尝试用更简练的'元节点'（Meta-Node）去解释现有的多个孤立节点？如果能找到一个元节点，使得原网络的存储成本（描述长度）显著下降，则视为发现了更本质的物理规律或逻辑模式。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_48",
+    "algorithmic_information_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:33:07.913164",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_48_Q5_2_2515",
+  "design_spec": {
+    "name": "auto_构建基于_最小描述长度_mdl_的知识_7c1a19",
+    "display_name": "构建基于'最小描述长度'(MDL)的知识压缩与重构循环：AGI发现新知识的过程往往伴随着对旧知识的压",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建基于'最小描述长度'(MDL)的知识压缩与重构循环：AGI发现新知识的过程往往伴随着对旧知识的压缩。如何设计一个循环机制，定期尝试用更简练的'元节点'（Me",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 242
+  }
+}

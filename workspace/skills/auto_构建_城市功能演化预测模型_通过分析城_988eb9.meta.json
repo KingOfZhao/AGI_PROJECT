@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_城市功能演化预测模型_通过分析城_988eb9",
+  "file": "skills/auto_构建_城市功能演化预测模型_通过分析城_988eb9.py",
+  "description": "构建'城市功能演化预测模型'。通过分析城市历史的卫星图与人口流动数据，利用聚类算法自动发现非显性的'建筑-社会'原型（例如：'高密度低收入高活力区'）。AI不再依赖人工标签，而是通过自监督学习识别城市空间的隐含分类，预测某区域在受到外部冲击（如新地铁线）时，会演化为哪种历史原型，从而指导城市规划决策。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.974652",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_77_O2_6848",
+  "design_spec": {
+    "name": "auto_构建_城市功能演化预测模型_通过分析城_988eb9",
+    "display_name": "构建'城市功能演化预测模型'。通过分析城市历史的卫星图与人口流动数据，利用聚类算法自动发现非显性的'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'城市功能演化预测模型'。通过分析城市历史的卫星图与人口流动数据，利用聚类算法自动发现非显性的'建筑-社会'原型（例如：'高密度低收入高活力区'）。AI不再",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

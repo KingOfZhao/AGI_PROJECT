@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳_的_概念结晶_算法_如何_180ea7",
+  "file": "skills/auto_自下而上归纳_的_概念结晶_算法_如何_180ea7.py",
+  "description": "【自下而上归纳】的‘概念结晶’算法：如何从海量的碎片化对话与实践日志中，提取出高频出现的‘模式’，并将其形式化为一个新的‘真实节点’？要求生成的节点必须包含明确的输入输出定义，以便人类验证。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "nlp",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.126888",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q6_0_4921",
+  "design_spec": {
+    "name": "auto_自下而上归纳_的_概念结晶_算法_如何_180ea7",
+    "display_name": "【自下而上归纳】的‘概念结晶’算法：如何从海量的碎片化对话与实践日志中，提取出高频出现的‘模式’，并",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳】的‘概念结晶’算法：如何从海量的碎片化对话与实践日志中，提取出高频出现的‘模式’，并将其形式化为一个新的‘真实节点’？要求生成的节点必须包含明确",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 299
+  }
+}

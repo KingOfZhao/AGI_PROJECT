@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生_长期记忆的压缩与无损召回_现_893957",
+  "file": "skills/auto_人机共生_长期记忆的压缩与无损召回_现_893957.py",
+  "description": "【人机共生】长期记忆的压缩与无损召回：现有3827个节点构成了长期记忆。验证AI能否在交互上下文窗口受限的情况下，通过检索这些节点重构完整语境，而不是依赖最近的对话历史。这测试的是信息的‘固化’与‘索引’效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "memory_management",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.344765",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_146_Q5_2_7550",
+  "design_spec": {
+    "name": "auto_人机共生_长期记忆的压缩与无损召回_现_893957",
+    "display_name": "【人机共生】长期记忆的压缩与无损召回：现有3827个节点构成了长期记忆。验证AI能否在交互上下文窗口",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生】长期记忆的压缩与无损召回：现有3827个节点构成了长期记忆。验证AI能否在交互上下文窗口受限的情况下，通过检索这些节点重构完整语境，而不是依赖最近的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

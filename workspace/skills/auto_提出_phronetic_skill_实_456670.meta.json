@@ -1,0 +1,30 @@
+{
+  "name": "auto_提出_phronetic_skill_实_456670",
+  "file": "skills/auto_提出_phronetic_skill_实_456670.py",
+  "description": "提出'Phronetic-Skill（实践智技）'架构。这是一种超越单纯物理参数调整的元认知能力。AI不仅根据物理参数（重量、摩擦）调整动作，还引入'情境价值评估'模块。例如，在抓取易碎品时，系统能像哲学家权衡伦理一样，在'效率'（速度）与'安全'（力控）之间进行动态加权。该能力允许机器人面对未知环境时，不依赖预设的硬编码逻辑，而是通过'情境感知-价值计算-动作流形变形'的闭环，生成最符合当前语境的动作变体，实现真正的类人化灵巧操作。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_28",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:20:59.471077",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_28_O1_5610",
+  "design_spec": {
+    "name": "auto_提出_phronetic_skill_实_456670",
+    "display_name": "提出'Phronetic-Skill（实践智技）'架构。这是一种超越单纯物理参数调整的元认知能力。A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "提出'Phronetic-Skill（实践智技）'架构。这是一种超越单纯物理参数调整的元认知能力。AI不仅根据物理参数（重量、摩擦）调整动作，还引入'情境价值评",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 243
+  }
+}

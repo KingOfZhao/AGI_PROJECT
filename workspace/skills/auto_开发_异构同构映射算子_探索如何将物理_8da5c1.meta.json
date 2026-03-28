@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_异构同构映射算子_探索如何将物理_8da5c1",
+  "file": "skills/auto_开发_异构同构映射算子_探索如何将物理_8da5c1.py",
+  "description": "开发'异构同构映射算子'，探索如何将物理状态空间的流形映射到代码状态空间的离散点阵，以解决td_4_Q3_0_7680中的盲测反馈量化问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_5",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:47:53.532368",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_5_G1_6851",
+  "design_spec": {
+    "name": "auto_开发_异构同构映射算子_探索如何将物理_8da5c1",
+    "display_name": "开发'异构同构映射算子'，探索如何将物理状态空间的流形映射到代码状态空间的离散点阵，以解决td_4_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'异构同构映射算子'，探索如何将物理状态空间的流形映射到代码状态空间的离散点阵，以解决td_4_Q3_0_7680中的盲测反馈量化问题。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

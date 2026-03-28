@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何检测并解决认知网络中的_逻辑自洽但事_b42827",
+  "file": "skills/auto_如何检测并解决认知网络中的_逻辑自洽但事_b42827.py",
+  "description": "如何检测并解决认知网络中的'逻辑自洽但事实错误'的孤立集群问题？这指的是一组节点内部逻辑严密、互相引用，形成了完美的闭环，但与外部物理世界的'真实节点'完全断连。需要开发算法识别这种'回声室'子图，并强制引入外部信源进行碰撞。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.830403",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q8_0_658",
+  "design_spec": {
+    "name": "auto_如何检测并解决认知网络中的_逻辑自洽但事_b42827",
+    "display_name": "如何检测并解决认知网络中的'逻辑自洽但事实错误'的孤立集群问题？这指的是一组节点内部逻辑严密、互相引",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何检测并解决认知网络中的'逻辑自洽但事实错误'的孤立集群问题？这指的是一组节点内部逻辑严密、互相引用，形成了完美的闭环，但与外部物理世界的'真实节点'完全断连",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

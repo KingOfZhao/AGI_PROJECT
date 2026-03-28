@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念旨在打破领域孤岛_通过计算不同技能_5e5d0b",
+  "file": "skills/auto_该概念旨在打破领域孤岛_通过计算不同技能_5e5d0b.py",
+  "description": "该概念旨在打破领域孤岛，通过计算不同技能树之间的拓扑相似性来激发创新。它不关注节点的表面语义（如'揉面团' vs '按摩'），而是深挖其底层的物理参数结构和逻辑流程（如力学分布、递归子目标）。通过'异构数据融合'和'效用函数评估'，AI能够发现看似无关领域间的'同构性'，从而实现技能的迁移和复用，解决'寿命狭隘性'带来的经验局限。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_134",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:33:15.351220",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_134_P5_4762",
+  "design_spec": {
+    "name": "auto_该概念旨在打破领域孤岛_通过计算不同技能_5e5d0b",
+    "display_name": "该概念旨在打破领域孤岛，通过计算不同技能树之间的拓扑相似性来激发创新。它不关注节点的表面语义（如'揉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念旨在打破领域孤岛，通过计算不同技能树之间的拓扑相似性来激发创新。它不关注节点的表面语义（如'揉面团' vs '按摩'），而是深挖其底层的物理参数结构和逻辑",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 321
+  }
+}

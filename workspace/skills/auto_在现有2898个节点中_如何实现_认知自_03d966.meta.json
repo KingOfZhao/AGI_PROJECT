@@ -1,0 +1,30 @@
+{
+  "name": "auto_在现有2898个节点中_如何实现_认知自_03d966",
+  "file": "skills/auto_在现有2898个节点中_如何实现_认知自_03d966.py",
+  "description": "在现有2898个节点中，如何实现‘认知自洽性’的自动巡检？设计一个基于图神经网络（GNN）的冲突检测模型，扫描网络中存在逻辑矛盾的三角关系（如A蕴含B，B蕴含C，但A排斥C），并生成‘认知失调报告’供人类仲裁。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.825393",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_115_Q7_1_363",
+  "design_spec": {
+    "name": "auto_在现有2898个节点中_如何实现_认知自_03d966",
+    "display_name": "在现有2898个节点中，如何实现‘认知自洽性’的自动巡检？设计一个基于图神经网络（GNN）的冲突检测",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在现有2898个节点中，如何实现‘认知自洽性’的自动巡检？设计一个基于图神经网络（GNN）的冲突检测模型，扫描网络中存在逻辑矛盾的三角关系（如A蕴含B，B蕴含C",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

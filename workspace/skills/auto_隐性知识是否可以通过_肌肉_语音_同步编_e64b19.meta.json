@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐性知识是否可以通过_肌肉_语音_同步编_e64b19",
+  "file": "skills/auto_隐性知识是否可以通过_肌肉_语音_同步编_e64b19.py",
+  "description": "隐性知识是否可以通过'肌肉-语音'同步编码进行复刻？即要求人类专家在执行动作的同时进行实时语音解说（有声思维法），构建时间序列上对齐的多模态数据集，利用Transformer学习动作与描述的互注意力机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.413395",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_142_Q6_2_8407",
+  "design_spec": {
+    "name": "auto_隐性知识是否可以通过_肌肉_语音_同步编_e64b19",
+    "display_name": "隐性知识是否可以通过'肌肉-语音'同步编码进行复刻？即要求人类专家在执行动作的同时进行实时语音解说（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "隐性知识是否可以通过'肌肉-语音'同步编码进行复刻？即要求人类专家在执行动作的同时进行实时语音解说（有声思维法），构建时间序列上对齐的多模态数据集，利用Tran",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 311
+  }
+}

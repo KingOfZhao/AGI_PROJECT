@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上的归纳冲突_当两个分别从不同数_700c2e",
+  "file": "skills/auto_自下而上的归纳冲突_当两个分别从不同数_700c2e.py",
+  "description": "【自下而上的归纳冲突】当两个分别从不同数据源归纳出的‘真实节点’在逻辑上发生冲突时（例如节点A说‘甲导致乙’，节点B说‘甲导致非乙’），系统能否自动发起‘证伪’程序？例如，设计实验或搜索第三方数据来解决冲突，而不是简单覆盖。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.525836",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_149_Q7_0_3237",
+  "design_spec": {
+    "name": "auto_自下而上的归纳冲突_当两个分别从不同数_700c2e",
+    "display_name": "【自下而上的归纳冲突】当两个分别从不同数据源归纳出的‘真实节点’在逻辑上发生冲突时（例如节点A说‘甲",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上的归纳冲突】当两个分别从不同数据源归纳出的‘真实节点’在逻辑上发生冲突时（例如节点A说‘甲导致乙’，节点B说‘甲导致非乙’），系统能否自动发起‘证伪’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_对抗性物理环境生成器_用于解决ai在模拟_7dec74",
+  "file": "skills/auto_对抗性物理环境生成器_用于解决ai在模拟_7dec74.py",
+  "description": "对抗性物理环境生成器。用于解决AI在模拟环境中训练过于理想化的问题。系统不再仅是随机生成障碍，而是利用‘对抗网络’主动生成针对当前AI弱点的极端物理场景（如极端光照、地面打滑、传感器噪声），模拟工艺中的‘残次品’诱因。这能训练出具有极高鲁棒性的AGI Agent，使其在现实世界的混沌中依然能维持‘真实节点’的有效性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_97",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T00:46:13.374418",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_97_O2_3011",
+  "design_spec": {
+    "name": "auto_对抗性物理环境生成器_用于解决ai在模拟_7dec74",
+    "display_name": "对抗性物理环境生成器。用于解决AI在模拟环境中训练过于理想化的问题。系统不再仅是随机生成障碍，而是利",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "对抗性物理环境生成器。用于解决AI在模拟环境中训练过于理想化的问题。系统不再仅是随机生成障碍，而是利用‘对抗网络’主动生成针对当前AI弱点的极端物理场景（如极端",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 312
+  }
+}

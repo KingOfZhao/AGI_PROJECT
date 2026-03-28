@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_最小认知颗粒度_minimum_ad467d",
+  "file": "skills/auto_设计_最小认知颗粒度_minimum_ad467d.py",
+  "description": "设计'最小认知颗粒度'（Minimum Cognitive Granularity）标准。是否存在过度拆分导致的'原子化噪音'？开发算法合并语义极度相似且在同上下文中无区分价值的碎片节点，以优化网络拓扑。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "knowledge_representation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.466417",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_55_Q6_2_8947",
+  "design_spec": {
+    "name": "auto_设计_最小认知颗粒度_minimum_ad467d",
+    "display_name": "设计'最小认知颗粒度'（Minimum Cognitive Granularity）标准。是否存在过",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计'最小认知颗粒度'（Minimum Cognitive Granularity）标准。是否存在过度拆分导致的'原子化噪音'？开发算法合并语义极度相似且在同上",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

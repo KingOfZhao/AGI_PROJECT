@@ -1,0 +1,30 @@
+{
+  "name": "auto_物理_数字对抗性加固系统_在工业设计_bd9c31",
+  "file": "skills/auto_物理_数字对抗性加固系统_在工业设计_bd9c31.py",
+  "description": "【物理-数字对抗性加固系统】：在工业设计或复杂软件系统中，引入‘数字魔鬼代言人’。系统不仅验证功能是否实现，还利用迁移自传统工艺破坏性检验的逻辑，自动生成极端的边缘用例（Adversarial Examples），如模拟‘材料疲劳’、‘电压波动’等物理衰减，主动攻击新构建的节点，只有通过这种‘数字淬火’的节点才能被标记为高鲁棒性的‘真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_92",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:09:38.952005",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_92_O2_5694",
+  "design_spec": {
+    "name": "auto_物理_数字对抗性加固系统_在工业设计_bd9c31",
+    "display_name": "【物理-数字对抗性加固系统】：在工业设计或复杂软件系统中，引入‘数字魔鬼代言人’。系统不仅验证功能是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【物理-数字对抗性加固系统】：在工业设计或复杂软件系统中，引入‘数字魔鬼代言人’。系统不仅验证功能是否实现，还利用迁移自传统工艺破坏性检验的逻辑，自动生成极端的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 436
+  }
+}

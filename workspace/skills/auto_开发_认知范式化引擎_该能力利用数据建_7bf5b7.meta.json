@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知范式化引擎_该能力利用数据建_7bf5b7",
+  "file": "skills/auto_开发_认知范式化引擎_该能力利用数据建_7bf5b7.py",
+  "description": "开发'认知范式化引擎'。该能力利用数据建模中消除冗余的逻辑，自动分析人类专家的知识结构，识别出重复或低效的思维步骤（冗余数据），将其重组为高密度的'思维组块'（视图）。这能帮助人类在学习新技能时，绕过低效的碎片化记忆，直接构建结构化的长期记忆，极大缩短精通时间。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.155276",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O1_9016",
+  "design_spec": {
+    "name": "auto_开发_认知范式化引擎_该能力利用数据建_7bf5b7",
+    "display_name": "开发'认知范式化引擎'。该能力利用数据建模中消除冗余的逻辑，自动分析人类专家的知识结构，识别出重复或",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'认知范式化引擎'。该能力利用数据建模中消除冗余的逻辑，自动分析人类专家的知识结构，识别出重复或低效的思维步骤（冗余数据），将其重组为高密度的'思维组块'（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 260
+  }
+}

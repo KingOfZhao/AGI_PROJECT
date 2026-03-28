@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究基于资源约束的分层强化学习_hrl_15510b",
+  "file": "skills/auto_研究基于资源约束的分层强化学习_hrl_15510b.py",
+  "description": "研究基于资源约束的分层强化学习（HRL），实现从毫秒级反应到小时级规划的平滑切换。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_85",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T20:42:24.250074",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_85_G_Dynamic_Granularity_8748",
+  "design_spec": {
+    "name": "auto_研究基于资源约束的分层强化学习_hrl_15510b",
+    "display_name": "研究基于资源约束的分层强化学习（HRL），实现从毫秒级反应到小时级规划的平滑切换。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究基于资源约束的分层强化学习（HRL），实现从毫秒级反应到小时级规划的平滑切换。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 273
+  }
+}

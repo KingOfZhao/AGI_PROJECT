@@ -1,0 +1,30 @@
+{
+  "name": "auto_同构映射驱动的零样本工具学习_融合能力_722a2e",
+  "file": "skills/auto_同构映射驱动的零样本工具学习_融合能力_722a2e.py",
+  "description": "【同构映射驱动的零样本工具学习】融合能力：赋予AI'举一反三'的工具使用能力。面对'量子咖啡机'等虚构API文档，AI首先构建该工具的'本体骨架'（识别出它是一个'状态机'还是'流水线'结构），然后调用已知领域（如状态机设计模式、工厂模式）的'真实节点'进行结构对齐。AI不是在逐字阅读文档，而是在'寻找老朋友'（已知模式），从而快速推断出未知API的用法，生成代码。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_24",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:52:17.766819",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_24_O5_5782",
+  "design_spec": {
+    "name": "auto_同构映射驱动的零样本工具学习_融合能力_722a2e",
+    "display_name": "【同构映射驱动的零样本工具学习】融合能力：赋予AI'举一反三'的工具使用能力。面对'量子咖啡机'等虚",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【同构映射驱动的零样本工具学习】融合能力：赋予AI'举一反三'的工具使用能力。面对'量子咖啡机'等虚构API文档，AI首先构建该工具的'本体骨架'（识别出它是一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_设计_真理迷雾_交互界面_传统的教材是全_1293ed",
+  "file": "skills/auto_设计_真理迷雾_交互界面_传统的教材是全_1293ed.py",
+  "description": "设计'真理迷雾'交互界面。传统的教材是全亮的地图，所有知识一览无余。该能力将知识点包裹在'迷雾'中，用户必须提出正确的问题、执行特定的操作（实验）才能驱散迷雾揭示知识。这种机制将'被动阅读'转化为'主动狩猎'，利用好奇心作为核心驱动力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.750999",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O4_6409",
+  "design_spec": {
+    "name": "auto_设计_真理迷雾_交互界面_传统的教材是全_1293ed",
+    "display_name": "设计'真理迷雾'交互界面。传统的教材是全亮的地图，所有知识一览无余。该能力将知识点包裹在'迷雾'中，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "设计'真理迷雾'交互界面。传统的教材是全亮的地图，所有知识一览无余。该能力将知识点包裹在'迷雾'中，用户必须提出正确的问题、执行特定的操作（实验）才能驱散迷雾揭",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 283
+  }
+}

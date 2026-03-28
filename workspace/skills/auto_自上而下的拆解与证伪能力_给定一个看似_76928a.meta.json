@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下的拆解与证伪能力_给定一个看似_76928a",
+  "file": "skills/auto_自上而下的拆解与证伪能力_给定一个看似_76928a.py",
+  "description": "【自上而下的拆解与证伪能力】给定一个看似合理但隐含致命缺陷的宏观命题（例如‘通过无限增加神经网络层数就能直接实现AGI’）。要求AI不能只做通用的批判，而是必须应用‘自上而下拆解’框架，将该命题拆解为3个以上具体的子假设，并针对每个子假设引用物理或算力限制进行具体的证伪。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.304649",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q3_2_2222",
+  "design_spec": {
+    "name": "auto_自上而下的拆解与证伪能力_给定一个看似_76928a",
+    "display_name": "【自上而下的拆解与证伪能力】给定一个看似合理但隐含致命缺陷的宏观命题（例如‘通过无限增加神经网络层数",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下的拆解与证伪能力】给定一个看似合理但隐含致命缺陷的宏观命题（例如‘通过无限增加神经网络层数就能直接实现AGI’）。要求AI不能只做通用的批判，而是必须",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对工业过程中的_微小退化_如刀具磨损_160bbb",
+  "file": "skills/auto_针对工业过程中的_微小退化_如刀具磨损_160bbb.py",
+  "description": "针对工业过程中的‘微小退化’（如刀具磨损、管道微漏），如何构建‘弱信号放大器’算法？利用现有的SKILL节点进行多维度数据融合，在信噪比极低（< -10dB）的环境下，提前识别出物理世界的微小变化，将其固化为‘预警真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "signal_processing",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.077554",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_120_Q3_3_8567",
+  "design_spec": {
+    "name": "auto_针对工业过程中的_微小退化_如刀具磨损_160bbb",
+    "display_name": "针对工业过程中的‘微小退化’（如刀具磨损、管道微漏），如何构建‘弱信号放大器’算法？利用现有的SKI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对工业过程中的‘微小退化’（如刀具磨损、管道微漏），如何构建‘弱信号放大器’算法？利用现有的SKILL节点进行多维度数据融合，在信噪比极低（< -10dB）的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

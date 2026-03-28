@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实用主义自适应引擎_不同于传统的_bef899",
+  "file": "skills/auto_构建_实用主义自适应引擎_不同于传统的_bef899.py",
+  "description": "构建'实用主义自适应引擎'。不同于传统的误差反向传播，该引擎引入哲学的'证伪'机制。机器人不再单纯模仿轨迹，而是携带'预期模型'（Hypothesis）进入物理环境。当力矩反馈与预期冲突（如抓取打滑），系统不视为'误差'，而视为'事实证伪'，触发技能结构的局部重构而非参数微调。这使机器人具备类似人类的'顿悟'能力，例如在发现物体过重时，自动从'单手抓取'切换为'推拖'策略，实现真正的环境共生。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_75",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:29:43.801689",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_75_O1_1629",
+  "design_spec": {
+    "name": "auto_构建_实用主义自适应引擎_不同于传统的_bef899",
+    "display_name": "构建'实用主义自适应引擎'。不同于传统的误差反向传播，该引擎引入哲学的'证伪'机制。机器人不再单纯模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'实用主义自适应引擎'。不同于传统的误差反向传播，该引擎引入哲学的'证伪'机制。机器人不再单纯模仿轨迹，而是携带'预期模型'（Hypothesis）进入物理",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

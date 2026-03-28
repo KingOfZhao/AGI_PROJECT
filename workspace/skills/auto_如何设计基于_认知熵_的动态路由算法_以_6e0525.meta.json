@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何设计基于_认知熵_的动态路由算法_以_6e0525",
+  "file": "skills/auto_如何设计基于_认知熵_的动态路由算法_以_6e0525.py",
+  "description": "如何设计基于‘认知熵’的动态路由算法，以解决人机协作中‘高价值节点’被低价值同质化信息淹没的问题？当前系统拥有3856个节点，需建立一套量化标准，计算新输入信息与现有节点网络的‘结构距离’。若新信息仅是对现有3856个节点中叶子节点的高相似度重复（熵减效应低），则降低其路由优先级；若新信息能连接原本孤立的两个子网（结构洞），则赋予高优先级。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_147",
+    "agi_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:06:29.509858",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_147_Q1_0_2541",
+  "design_spec": {
+    "name": "auto_如何设计基于_认知熵_的动态路由算法_以_6e0525",
+    "display_name": "如何设计基于‘认知熵’的动态路由算法，以解决人机协作中‘高价值节点’被低价值同质化信息淹没的问题？当",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何设计基于‘认知熵’的动态路由算法，以解决人机协作中‘高价值节点’被低价值同质化信息淹没的问题？当前系统拥有3856个节点，需建立一套量化标准，计算新输入信息",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 318
+  }
+}

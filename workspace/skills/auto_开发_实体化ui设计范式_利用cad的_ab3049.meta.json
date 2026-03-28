@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_实体化ui设计范式_利用cad的_ab3049",
+  "file": "skills/auto_开发_实体化ui设计范式_利用cad的_ab3049.py",
+  "description": "开发'实体化UI设计范式'。利用CAD的CSG内核驱动Flutter界面生成，使UI组件不仅具有视觉属性，更具备物理属性（体积、质量）。例如，一个按钮组件通过'差集'运算挖空内部以节省'材料成本'，或通过'并集'合并相邻组件防止视觉碰撞。这种能力允许在AR/VR场景中，根据真实物理光线和遮挡关系自动调整UI的3D形态，实现真正的沉浸式实体交互。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.710950",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_110_O1_8587",
+  "design_spec": {
+    "name": "auto_开发_实体化ui设计范式_利用cad的_ab3049",
+    "display_name": "开发'实体化UI设计范式'。利用CAD的CSG内核驱动Flutter界面生成，使UI组件不仅具有视觉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'实体化UI设计范式'。利用CAD的CSG内核驱动Flutter界面生成，使UI组件不仅具有视觉属性，更具备物理属性（体积、质量）。例如，一个按钮组件通过'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 278
+  }
+}

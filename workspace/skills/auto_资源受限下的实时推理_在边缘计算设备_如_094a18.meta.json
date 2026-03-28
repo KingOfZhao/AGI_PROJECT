@@ -1,0 +1,30 @@
+{
+  "name": "auto_资源受限下的实时推理_在边缘计算设备_如_094a18",
+  "file": "skills/auto_资源受限下的实时推理_在边缘计算设备_如_094a18.py",
+  "description": "资源受限下的实时推理：在边缘计算设备（如工业网关）上，如何根据当前任务优先级，动态剪枝认知网络（3989节点），剔除无关节点以实现毫秒级响应？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "system_optimization",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.383315",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q10_3_8148",
+  "design_spec": {
+    "name": "auto_资源受限下的实时推理_在边缘计算设备_如_094a18",
+    "display_name": "资源受限下的实时推理：在边缘计算设备（如工业网关）上，如何根据当前任务优先级，动态剪枝认知网络（39",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "资源受限下的实时推理：在边缘计算设备（如工业网关）上，如何根据当前任务优先级，动态剪枝认知网络（3989节点），剔除无关节点以实现毫秒级响应？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式结构效能优化引擎_将建筑结构视为一_e0658e",
+  "file": "skills/auto_生成式结构效能优化引擎_将建筑结构视为一_e0658e.py",
+  "description": "生成式结构效能优化引擎。将建筑结构视为一个巨大的神经网络，其中构件截面尺寸为权重，荷载为输入。利用深度学习中的'反向传播'算法，直接对建筑几何形态进行微分求解，自动生成'最优传力路径'形态（如仿生结构）。不仅能算出最省材料的形状，还能像诊断梯度消失一样，预警结构中的'应力集中'点（薄弱环节）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_136",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:13:09.842475",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_136_O2_8265",
+  "design_spec": {
+    "name": "auto_生成式结构效能优化引擎_将建筑结构视为一_e0658e",
+    "display_name": "生成式结构效能优化引擎。将建筑结构视为一个巨大的神经网络，其中构件截面尺寸为权重，荷载为输入。利用深",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "生成式结构效能优化引擎。将建筑结构视为一个巨大的神经网络，其中构件截面尺寸为权重，荷载为输入。利用深度学习中的'反向传播'算法，直接对建筑几何形态进行微分求解，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 328
+  }
+}

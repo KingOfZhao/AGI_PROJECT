@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知操作系统内核_设计一种既支持_c3a2f0",
+  "file": "skills/auto_构建_认知操作系统内核_设计一种既支持_c3a2f0.py",
+  "description": "构建'认知操作系统内核'。设计一种既支持精确逻辑运算又支持模糊语义描述的'混合中间表示'。上层允许人类用自然语言、代码或草图输入，下层由AI统一编译为这种IR，再分发给不同的执行代理（机器人、软件API、数据库）。这能实现真正的'人机共生编程'：人类只关注意图，IR层负责资源分配与冲突解决。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_111",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:48:30.700707",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_111_O3_2888",
+  "design_spec": {
+    "name": "auto_构建_认知操作系统内核_设计一种既支持_c3a2f0",
+    "display_name": "构建'认知操作系统内核'。设计一种既支持精确逻辑运算又支持模糊语义描述的'混合中间表示'。上层允许人",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知操作系统内核'。设计一种既支持精确逻辑运算又支持模糊语义描述的'混合中间表示'。上层允许人类用自然语言、代码或草图输入，下层由AI统一编译为这种IR，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 305
+  }
+}

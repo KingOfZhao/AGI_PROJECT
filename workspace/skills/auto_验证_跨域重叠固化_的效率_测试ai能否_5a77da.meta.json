@@ -1,0 +1,30 @@
+{
+  "name": "auto_验证_跨域重叠固化_的效率_测试ai能否_5a77da",
+  "file": "skills/auto_验证_跨域重叠固化_的效率_测试ai能否_5a77da.py",
+  "description": "验证'跨域重叠固化'的效率。测试AI能否识别两个看似无关领域的深层同构性。例如，给定'生物病毒传播模型'和'计算机病毒传播模型'，AI是否能自动识别出'SIR模型'这一共同的数学内核，并将其抽象为一个独立的'通用传播动力学节点'，从而减少冗余参数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_51",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:49:54.111030",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_51_Q6_2_4438",
+  "design_spec": {
+    "name": "auto_验证_跨域重叠固化_的效率_测试ai能否_5a77da",
+    "display_name": "验证'跨域重叠固化'的效率。测试AI能否识别两个看似无关领域的深层同构性。例如，给定'生物病毒传播模",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "验证'跨域重叠固化'的效率。测试AI能否识别两个看似无关领域的深层同构性。例如，给定'生物病毒传播模型'和'计算机病毒传播模型'，AI是否能自动识别出'SIR模",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 405
+  }
+}

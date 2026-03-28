@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_拓扑响应式框架_在cad场景中引_345d9b",
+  "file": "skills/auto_实现_拓扑响应式框架_在cad场景中引_345d9b.py",
+  "description": "实现'拓扑响应式框架'。在CAD场景中引入类似Provider/Riverpod的状态管理机制。当某个特征参数（状态）改变时，通过依赖注入自动触发下游特征的更新，而无需手动遍历特征树。系统自动分析拓扑依赖图，仅重绘受影响的视口区域或重新生成受影响的网格面，极大提升大型装配体的交互流畅度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.052683",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_127_O3_653",
+  "design_spec": {
+    "name": "auto_实现_拓扑响应式框架_在cad场景中引_345d9b",
+    "display_name": "实现'拓扑响应式框架'。在CAD场景中引入类似Provider/Riverpod的状态管理机制。当某",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'拓扑响应式框架'。在CAD场景中引入类似Provider/Riverpod的状态管理机制。当某个特征参数（状态）改变时，通过依赖注入自动触发下游特征的更新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

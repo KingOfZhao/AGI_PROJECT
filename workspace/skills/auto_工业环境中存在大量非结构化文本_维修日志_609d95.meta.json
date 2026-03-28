@@ -1,0 +1,30 @@
+{
+  "name": "auto_工业环境中存在大量非结构化文本_维修日志_609d95",
+  "file": "skills/auto_工业环境中存在大量非结构化文本_维修日志_609d95.py",
+  "description": "工业环境中存在大量非结构化文本（维修日志、交接班记录）。如何利用NLP技术从这些‘脏数据’中提取结构化的‘故障-解决方案’对，并将其转化为Skill节点？重点在于过滤掉情绪化表达和无关描述，精准提取核心动作与实体。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "language_modeling",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.399983",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_63_Q9_1_6470",
+  "design_spec": {
+    "name": "auto_工业环境中存在大量非结构化文本_维修日志_609d95",
+    "display_name": "工业环境中存在大量非结构化文本（维修日志、交接班记录）。如何利用NLP技术从这些‘脏数据’中提取结构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "工业环境中存在大量非结构化文本（维修日志、交接班记录）。如何利用NLP技术从这些‘脏数据’中提取结构化的‘故障-解决方案’对，并将其转化为Skill节点？重点在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

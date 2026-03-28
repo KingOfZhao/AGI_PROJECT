@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态约束驱动的自适应ui引擎_将_9b531c",
+  "file": "skills/auto_构建_动态约束驱动的自适应ui引擎_将_9b531c.py",
+  "description": "构建'动态约束驱动的自适应UI引擎'。将CAD的几何约束求解器(Constraint Solver)引入Flutter布局系统。传统Flex布局是硬编码的规则，新能力允许开发者定义UI元素间的几何关系（如'按钮A必须始终相切于卡片B的左侧'），而非固定坐标或比例。当屏幕尺寸变化（类似CAD中修改驱动参数）时，UI不仅进行重排，而是进行'几何求解'，找到满足所有约束的最优解，实现从'流式布局'到'关系型布局'的进化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.731720",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_139_O1_3989",
+  "design_spec": {
+    "name": "auto_构建_动态约束驱动的自适应ui引擎_将_9b531c",
+    "display_name": "构建'动态约束驱动的自适应UI引擎'。将CAD的几何约束求解器(Constraint Solver)",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'动态约束驱动的自适应UI引擎'。将CAD的几何约束求解器(Constraint Solver)引入Flutter布局系统。传统Flex布局是硬编码的规则，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 307
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_认知自洽性破坏检测器_在进行跨域迁移时_8cb22a",
+  "file": "skills/auto_认知自洽性破坏检测器_在进行跨域迁移时_8cb22a.py",
+  "description": "认知自洽性破坏检测器：在进行跨域迁移时，极易破坏目标领域的‘自洽性’。例如，将生物界的‘优胜劣汰’强行迁移到‘社会福利设计’可能导致伦理冲突。如何构建一个‘冲突检测器’，在迁移发生前预警逻辑或伦理层面的自洽性崩塌？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "ethics_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.470705",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_104_Q9_1_5734",
+  "design_spec": {
+    "name": "auto_认知自洽性破坏检测器_在进行跨域迁移时_8cb22a",
+    "display_name": "认知自洽性破坏检测器：在进行跨域迁移时，极易破坏目标领域的‘自洽性’。例如，将生物界的‘优胜劣汰’强",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "认知自洽性破坏检测器：在进行跨域迁移时，极易破坏目标领域的‘自洽性’。例如，将生物界的‘优胜劣汰’强行迁移到‘社会福利设计’可能导致伦理冲突。如何构建一个‘冲突",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

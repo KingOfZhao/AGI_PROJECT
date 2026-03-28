@@ -1,0 +1,30 @@
+{
+  "name": "auto_感知边界探测_如何基于现有的1047个_909750",
+  "file": "skills/auto_感知边界探测_如何基于现有的1047个_909750.py",
+  "description": "【感知边界探测】如何基于现有的1047个SKILL节点，自动生成能够有效区分节点细微差异的‘对抗性输入’？这不仅仅是数据增强，而是要求AI构建特定的输入场景，使得现有SKILL的处理结果产生高熵值（不确定性），从而识别出当前认知网络的‘感知盲区’。此问题是自下而上归纳构建的起点，若AI无法主动发现未知，则无法启动知识发现闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "active_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.693517",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q1_0_5246",
+  "design_spec": {
+    "name": "auto_感知边界探测_如何基于现有的1047个_909750",
+    "display_name": "【感知边界探测】如何基于现有的1047个SKILL节点，自动生成能够有效区分节点细微差异的‘对抗性输",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【感知边界探测】如何基于现有的1047个SKILL节点，自动生成能够有效区分节点细微差异的‘对抗性输入’？这不仅仅是数据增强，而是要求AI构建特定的输入场景，使",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

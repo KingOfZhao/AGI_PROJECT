@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_动态调性引力场算法_针对_基于时_e7fa4b",
+  "file": "skills/auto_实现_动态调性引力场算法_针对_基于时_e7fa4b.py",
+  "description": "实现‘动态调性引力场算法’。针对‘基于时序衰减’的问题，引入‘调性’概念。节点的‘半衰期’不是固定的，而是取决于它与当前‘主音’（核心任务）的相关性。如果系统检测到用户意图‘转调’（例如从‘开发模式’切换到‘维护模式’），系统将瞬间重置所有节点的‘活跃度’，原本在‘开发调性’下快速衰减的旧代码节点，在‘维护调性’下将获得新的‘解决’引力，从而被重新激活。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_149",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:22:55.555824",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_149_O4_2502",
+  "design_spec": {
+    "name": "auto_实现_动态调性引力场算法_针对_基于时_e7fa4b",
+    "display_name": "实现‘动态调性引力场算法’。针对‘基于时序衰减’的问题，引入‘调性’概念。节点的‘半衰期’不是固定的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现‘动态调性引力场算法’。针对‘基于时序衰减’的问题，引入‘调性’概念。节点的‘半衰期’不是固定的，而是取决于它与当前‘主音’（核心任务）的相关性。如果系统检",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

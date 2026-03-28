@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_实时协同参数化ui设计器_利用c_5adf5f",
+  "file": "skills/auto_构建_实时协同参数化ui设计器_利用c_5adf5f.py",
+  "description": "构建'实时协同参数化UI设计器'。利用CAD的参数化约束求解器（如几何约束）来驱动Flutter的UI布局。不再使用传统的Flex/Row/Column布局，而是定义视图间的几何关系（如'按钮A始终距离边框B 20mm且与之相切'）。当屏幕尺寸变化或用户拖拽时，通过求解器实时计算绝对坐标。这使得UI布局能像CAD草图一样具有严格的工程美感，并能轻松生成适配任意屏幕尺寸的'全息布局'方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.480357",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_79_O1_4066",
+  "design_spec": {
+    "name": "auto_构建_实时协同参数化ui设计器_利用c_5adf5f",
+    "display_name": "构建'实时协同参数化UI设计器'。利用CAD的参数化约束求解器（如几何约束）来驱动Flutter的U",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'实时协同参数化UI设计器'。利用CAD的参数化约束求解器（如几何约束）来驱动Flutter的UI布局。不再使用传统的Flex/Row/Column布局，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

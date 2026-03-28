@@ -1,0 +1,30 @@
+{
+  "name": "auto_该概念旨在消除_自然语言_代码_与_物理_c949dc",
+  "file": "skills/auto_该概念旨在消除_自然语言_代码_与_物理_c949dc.py",
+  "description": "该概念旨在消除'自然语言/代码'与'物理世界/运行时'之间的隔阂，建立一个可计算的中间层。它通过高维向量空间构建动态语义拓扑，将抽象的高级目标（如'打造爆款'）递归拆解，直至映射到现有的原子SKILL集合。它包含一个粒度控制器，当发现映射缺失时，自动触发'新节点'申请或'跨域'检索，确保意图总能找到执行路径。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.436561",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_63_P5_1081",
+  "design_spec": {
+    "name": "auto_该概念旨在消除_自然语言_代码_与_物理_c949dc",
+    "display_name": "该概念旨在消除'自然语言/代码'与'物理世界/运行时'之间的隔阂，建立一个可计算的中间层。它通过高维",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "该概念旨在消除'自然语言/代码'与'物理世界/运行时'之间的隔阂，建立一个可计算的中间层。它通过高维向量空间构建动态语义拓扑，将抽象的高级目标（如'打造爆款'）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

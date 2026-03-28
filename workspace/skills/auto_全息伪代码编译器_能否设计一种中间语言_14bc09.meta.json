@@ -1,0 +1,30 @@
+{
+  "name": "auto_全息伪代码编译器_能否设计一种中间语言_14bc09",
+  "file": "skills/auto_全息伪代码编译器_能否设计一种中间语言_14bc09.py",
+  "description": "【全息伪代码编译器】能否设计一种中间语言，将模糊的自然语言教学（‘力道要柔和一点’）编译为机器人可执行的参数代码（‘末端执行器压力减少15%，加减速曲线平滑度S=0.8’）？这需要建立‘模糊语义-精确参数’的对齐库，解决人类隐性概念到机器显性指令的‘最后一公里’转换。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_22",
+    "executable_semantics",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T16:07:07.500637",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_22_Q8_2_9071",
+  "design_spec": {
+    "name": "auto_全息伪代码编译器_能否设计一种中间语言_14bc09",
+    "display_name": "【全息伪代码编译器】能否设计一种中间语言，将模糊的自然语言教学（‘力道要柔和一点’）编译为机器人可执",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【全息伪代码编译器】能否设计一种中间语言，将模糊的自然语言教学（‘力道要柔和一点’）编译为机器人可执行的参数代码（‘末端执行器压力减少15%，加减速曲线平滑度S",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 335
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实世界_最小可行性实践_mvp_的代_c30ab7",
+  "file": "skills/auto_真实世界_最小可行性实践_mvp_的代_c30ab7.py",
+  "description": "真实世界'最小可行性实践'(MVP)的代码化生成与沙箱验证：针对'如何修好漏水水管'这类技能节点，AI能否自动将其拆解为一段可执行的Python控制代码（控制机器人或模拟器），并在物理引擎（如PyBullet或Mujoco）中运行？目的是验证知识节点不仅仅是文本，而是具有物理因果律的'真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_139",
+    "embodied_ai",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:14:26.701930",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_139_Q2_3_1447",
+  "design_spec": {
+    "name": "auto_真实世界_最小可行性实践_mvp_的代_c30ab7",
+    "display_name": "真实世界'最小可行性实践'(MVP)的代码化生成与沙箱验证：针对'如何修好漏水水管'这类技能节点，A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "真实世界'最小可行性实践'(MVP)的代码化生成与沙箱验证：针对'如何修好漏水水管'这类技能节点，AI能否自动将其拆解为一段可执行的Python控制代码（控制机",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 295
+  }
+}

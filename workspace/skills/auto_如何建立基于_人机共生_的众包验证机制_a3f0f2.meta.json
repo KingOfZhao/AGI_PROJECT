@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何建立基于_人机共生_的众包验证机制_a3f0f2",
+  "file": "skills/auto_如何建立基于_人机共生_的众包验证机制_a3f0f2.py",
+  "description": "如何建立基于‘人机共生’的众包验证机制，将节点验证转化为微任务？当自动化系统对某节点质量存疑（置信度在0.4-0.6之间）时，自动生成‘图灵测试’风格的问题，推送给人类用户。重点在于设计防作弊和反偏见机制，确保人类反馈的真实性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_73",
+    "social_computing",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:17:49.553372",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_73_Q7_0_5437",
+  "design_spec": {
+    "name": "auto_如何建立基于_人机共生_的众包验证机制_a3f0f2",
+    "display_name": "如何建立基于‘人机共生’的众包验证机制，将节点验证转化为微任务？当自动化系统对某节点质量存疑（置信度",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何建立基于‘人机共生’的众包验证机制，将节点验证转化为微任务？当自动化系统对某节点质量存疑（置信度在0.4-0.6之间）时，自动生成‘图灵测试’风格的问题，推",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

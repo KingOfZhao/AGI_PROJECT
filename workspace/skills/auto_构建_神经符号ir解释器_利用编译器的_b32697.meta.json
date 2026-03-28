@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_神经符号ir解释器_利用编译器的_b32697",
+  "file": "skills/auto_构建_神经符号ir解释器_利用编译器的_b32697.py",
+  "description": "构建‘神经符号IR解释器’。利用编译器的优化思想（如死代码消除、常量传播）来处理NLP任务中的逻辑推理。具体来说，将自然语言文本先转化为图结构的语义中间表示，而非单纯的向量序列。这种混合表示既保留了符号逻辑的严谨性（易于证伪和拆解），又拥有神经网络的泛化能力，能大幅提升复杂逻辑推理任务的准确率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_141",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:30:25.747195",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_141_O1_5407",
+  "design_spec": {
+    "name": "auto_构建_神经符号ir解释器_利用编译器的_b32697",
+    "display_name": "构建‘神经符号IR解释器’。利用编译器的优化思想（如死代码消除、常量传播）来处理NLP任务中的逻辑推",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘神经符号IR解释器’。利用编译器的优化思想（如死代码消除、常量传播）来处理NLP任务中的逻辑推理。具体来说，将自然语言文本先转化为图结构的语义中间表示，而",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机信任动态校准_在人机共生中_人类对_d3a955",
+  "file": "skills/auto_人机信任动态校准_在人机共生中_人类对_d3a955.py",
+  "description": "【人机信任动态校准】在人机共生中，人类对AI的信任度是动态变化的。如果AI连续出错，人类会忽略其建议；如果AI连续正确，人类可能产生思维惰性。如何基于用户反馈历史，构建一个'信任仪表盘'，动态调整AI建议的'激进程度'？例如，在置信度低时，AI应仅提供辅助数据而非确定性结论。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_94",
+    "behavioral_economics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:50:15.557432",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_94_Q9_2_6130",
+  "design_spec": {
+    "name": "auto_人机信任动态校准_在人机共生中_人类对_d3a955",
+    "display_name": "【人机信任动态校准】在人机共生中，人类对AI的信任度是动态变化的。如果AI连续出错，人类会忽略其建议",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机信任动态校准】在人机共生中，人类对AI的信任度是动态变化的。如果AI连续出错，人类会忽略其建议；如果AI连续正确，人类可能产生思维惰性。如何基于用户反馈历",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 293
+  }
+}

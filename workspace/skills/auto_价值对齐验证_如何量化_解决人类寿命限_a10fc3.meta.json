@@ -1,0 +1,30 @@
+{
+  "name": "auto_价值对齐验证_如何量化_解决人类寿命限_a10fc3",
+  "file": "skills/auto_价值对齐验证_如何量化_解决人类寿命限_a10fc3.py",
+  "description": "【价值对齐验证】如何量化'解决人类寿命限制导致的狭隘性'这一价值主张？需建立一套评估指标，衡量AGI生成的认知路径是否具有'超长期'或'跨代际'的价值。具体而言，需验证系统是否倾向于推荐那些'短期收益低但长期认知收益高'的实践清单（如基础科学研究），而非仅仅优化短期多巴胺反馈。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_60",
+    "axiology",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T14:54:06.561732",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_60_Q4_1_1103",
+  "design_spec": {
+    "name": "auto_价值对齐验证_如何量化_解决人类寿命限_a10fc3",
+    "display_name": "【价值对齐验证】如何量化'解决人类寿命限制导致的狭隘性'这一价值主张？需建立一套评估指标，衡量AGI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【价值对齐验证】如何量化'解决人类寿命限制导致的狭隘性'这一价值主张？需建立一套评估指标，衡量AGI生成的认知路径是否具有'超长期'或'跨代际'的价值。具体而言",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 275
+  }
+}

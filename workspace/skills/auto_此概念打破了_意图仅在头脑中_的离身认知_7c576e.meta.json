@@ -1,0 +1,30 @@
+{
+  "name": "auto_此概念打破了_意图仅在头脑中_的离身认知_7c576e",
+  "file": "skills/auto_此概念打破了_意图仅在头脑中_的离身认知_7c576e.py",
+  "description": "此概念打破了'意图仅在头脑中'的离身认知局限，构建了一个'感知-行动-物理验证'的螺旋上升闭环。它认为真实意图是隐性的、动态的，必须通过'多模态行为轨迹'(鼠标、UI、眼动)进行补全，并在'沙箱物理环境'中通过运行时反馈进行修正。结合'自适应实战知识融合器'，AI能根据物理世界的反馈(如代码报错、操作日志)动态调整对人类模糊指令的理解，实现从'我想做'到'做成了'的精确映射。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.503834",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_55_P2_9083",
+  "design_spec": {
+    "name": "auto_此概念打破了_意图仅在头脑中_的离身认知_7c576e",
+    "display_name": "此概念打破了'意图仅在头脑中'的离身认知局限，构建了一个'感知-行动-物理验证'的螺旋上升闭环。它认",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "此概念打破了'意图仅在头脑中'的离身认知局限，构建了一个'感知-行动-物理验证'的螺旋上升闭环。它认为真实意图是隐性的、动态的，必须通过'多模态行为轨迹'(鼠标",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 264
+  }
+}

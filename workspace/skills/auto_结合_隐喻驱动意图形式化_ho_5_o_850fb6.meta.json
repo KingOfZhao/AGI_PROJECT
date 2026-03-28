@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_隐喻驱动意图形式化_ho_5_o_850fb6",
+  "file": "skills/auto_结合_隐喻驱动意图形式化_ho_5_o_850fb6.py",
+  "description": "结合'隐喻驱动意图形式化'（ho_5_O1_6634）与'语境-代码双向实例化'（ho_5_O3）。当用户提出模糊甚至隐喻性的需求时，系统不仅将其转化为代码，还在沙箱中运行并将生成的对象（如数据库、API）瞬间转化为可交互的'真实节点'。这意味着用户可以通过自然语言直接'捏造'软件功能，并立即看到反馈。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_6",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T10:11:34.143435",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_6_E5_1857",
+  "design_spec": {
+    "name": "auto_结合_隐喻驱动意图形式化_ho_5_o_850fb6",
+    "display_name": "结合'隐喻驱动意图形式化'（ho_5_O1_6634）与'语境-代码双向实例化'（ho_5_O3）。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'隐喻驱动意图形式化'（ho_5_O1_6634）与'语境-代码双向实例化'（ho_5_O3）。当用户提出模糊甚至隐喻性的需求时，系统不仅将其转化为代码，还",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 283
+  }
+}

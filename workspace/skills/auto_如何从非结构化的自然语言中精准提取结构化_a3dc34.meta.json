@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何从非结构化的自然语言中精准提取结构化_a3dc34",
+  "file": "skills/auto_如何从非结构化的自然语言中精准提取结构化_a3dc34.py",
+  "description": "如何从非结构化的自然语言中精准提取结构化的'意图原子'，并剥离情绪噪声与冗余修饰？人类意图往往包含隐含的上下文和情感色彩，而在转化为代码时，需要将其剥离，只保留可执行的逻辑核心。本子问题旨在建立一种映射机制，将模糊的语言输入转化为严格定义的中间表示（IR），作为后续代码生成的基石。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "nlp/cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.556252",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_126_Q1_1_2725",
+  "design_spec": {
+    "name": "auto_如何从非结构化的自然语言中精准提取结构化_a3dc34",
+    "display_name": "如何从非结构化的自然语言中精准提取结构化的'意图原子'，并剥离情绪噪声与冗余修饰？人类意图往往包含隐",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何从非结构化的自然语言中精准提取结构化的'意图原子'，并剥离情绪噪声与冗余修饰？人类意图往往包含隐含的上下文和情感色彩，而在转化为代码时，需要将其剥离，只保留",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 290
+  }
+}

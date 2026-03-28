@@ -1,0 +1,30 @@
+{
+  "name": "auto_语义边界界定_如何利用大语言模型将模糊_a53822",
+  "file": "skills/auto_语义边界界定_如何利用大语言模型将模糊_a53822.py",
+  "description": "【语义边界界定】如何利用大语言模型将模糊的自然语言意图转化为带有严格JSON Schema约束的结构化对象？重点在于解决'差不多就行'的人类模糊表达与计算机'非0即1'的执行逻辑之间的冲突，要求系统能够自动识别缺失的必要参数并生成澄清问题，而非臆测填充。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_136",
+    "agi",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:13:09.827305",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_136_Q1_1_1710",
+  "design_spec": {
+    "name": "auto_语义边界界定_如何利用大语言模型将模糊_a53822",
+    "display_name": "【语义边界界定】如何利用大语言模型将模糊的自然语言意图转化为带有严格JSON Schema约束的结构",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【语义边界界定】如何利用大语言模型将模糊的自然语言意图转化为带有严格JSON Schema约束的结构化对象？重点在于解决'差不多就行'的人类模糊表达与计算机'非",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

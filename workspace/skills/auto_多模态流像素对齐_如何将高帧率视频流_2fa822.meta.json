@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态流像素对齐_如何将高帧率视频流_2fa822",
+  "file": "skills/auto_多模态流像素对齐_如何将高帧率视频流_2fa822.py",
+  "description": "【多模态流像素对齐】如何将高帧率视频流（视觉）与动作捕捉数据（运动）及音频（听觉）映射到同一时间骨架上，构建'动作-感官'对齐的时空张量？手工艺中'节奏'往往隐含在声音与动作的微秒级同步中，AI需先解决数据对齐问题，才能进行后续的模式识别。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_150",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:28:25.397482",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_150_Q1_0_869",
+  "design_spec": {
+    "name": "auto_多模态流像素对齐_如何将高帧率视频流_2fa822",
+    "display_name": "【多模态流像素对齐】如何将高帧率视频流（视觉）与动作捕捉数据（运动）及音频（听觉）映射到同一时间骨架",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【多模态流像素对齐】如何将高帧率视频流（视觉）与动作捕捉数据（运动）及音频（听觉）映射到同一时间骨架上，构建'动作-感官'对齐的时空张量？手工艺中'节奏'往往隐",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

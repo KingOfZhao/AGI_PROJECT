@@ -1,0 +1,30 @@
+{
+  "name": "auto_这是一个专门处理_人机共生_界面熵增的核_03c0ef",
+  "file": "skills/auto_这是一个专门处理_人机共生_界面熵增的核_03c0ef.py",
+  "description": "这是一个专门处理“人机共生”界面熵增的核心认知组件。它不追求完美的指令输入，而是假设人类反馈本质上是高噪、非结构化且带有情绪色彩的（如‘根本没法用’或失败时的生理信号）。该机制通过‘反馈压缩算法’剥离情绪噪音，提取逻辑内核，并通过‘自动化重构’将其固化为新的‘真实节点’或修正已有节点的置信度，实现从混沌实践中提炼有序知识的闭环。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_36",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T22:14:34.101334",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_36_P1_5395",
+  "design_spec": {
+    "name": "auto_这是一个专门处理_人机共生_界面熵增的核_03c0ef",
+    "display_name": "这是一个专门处理“人机共生”界面熵增的核心认知组件。它不追求完美的指令输入，而是假设人类反馈本质上是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "这是一个专门处理“人机共生”界面熵增的核心认知组件。它不追求完美的指令输入，而是假设人类反馈本质上是高噪、非结构化且带有情绪色彩的（如‘根本没法用’或失败时的生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 369
+  }
+}

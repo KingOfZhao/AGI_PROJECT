@@ -1,0 +1,30 @@
+{
+  "name": "auto_利用_认知碰撞_q5_0_1342_将_d920ac",
+  "file": "skills/auto_利用_认知碰撞_q5_0_1342_将_d920ac.py",
+  "description": "利用‘认知碰撞’（Q5_0_1342）将软性领域的节点（如‘小摊贩博弈’）强行映射到硬性工程领域（如‘供应链管理’或‘公差链’），并结合‘反脆弱性测试’（Q9_0_1342）进行验证。这能发现人类工程师因思维定势忽略的‘荒谬但有效’的解决方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_79",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T18:14:51.539945",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_79_E3_7937",
+  "design_spec": {
+    "name": "auto_利用_认知碰撞_q5_0_1342_将_d920ac",
+    "display_name": "利用‘认知碰撞’（Q5_0_1342）将软性领域的节点（如‘小摊贩博弈’）强行映射到硬性工程领域（如",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "利用‘认知碰撞’（Q5_0_1342）将软性领域的节点（如‘小摊贩博弈’）强行映射到硬性工程领域（如‘供应链管理’或‘公差链’），并结合‘反脆弱性测试’（Q9_",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

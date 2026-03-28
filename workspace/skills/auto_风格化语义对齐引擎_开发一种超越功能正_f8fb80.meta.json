@@ -1,0 +1,30 @@
+{
+  "name": "auto_风格化语义对齐引擎_开发一种超越功能正_f8fb80",
+  "file": "skills/auto_风格化语义对齐引擎_开发一种超越功能正_f8fb80.py",
+  "description": "【风格化语义对齐引擎】开发一种超越功能正确性的‘美学损失函数’。利用对比学习，让AI理解代码/产品的‘风格’与‘气质’。例如，在生成UI代码时，不仅要求按钮可用（功能），还要通过向量空间度量其是否符合‘极简主义’或‘赛博朋克’的意图。这将使AI从‘工匠’进化为‘艺术家’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.208156",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O4_6106",
+  "design_spec": {
+    "name": "auto_风格化语义对齐引擎_开发一种超越功能正_f8fb80",
+    "display_name": "【风格化语义对齐引擎】开发一种超越功能正确性的‘美学损失函数’。利用对比学习，让AI理解代码/产品的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【风格化语义对齐引擎】开发一种超越功能正确性的‘美学损失函数’。利用对比学习，让AI理解代码/产品的‘风格’与‘气质’。例如，在生成UI代码时，不仅要求按钮可用",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_思维链回溯与断点续传_当ai在执_c1f2bb",
+  "file": "skills/auto_实现_思维链回溯与断点续传_当ai在执_c1f2bb.py",
+  "description": "实现‘思维链回溯与断点续传’。当AI在执行复杂任务（如编写一个完整软件）失败时，不能仅报错，而需精确回溯到导致失败的特定逻辑节点（如‘某库的API调用错误’），将该节点标记为‘伪’，并尝试寻找替代节点路径进行重试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_57",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:52:08.192314",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_57_Q7_1_5464",
+  "design_spec": {
+    "name": "auto_实现_思维链回溯与断点续传_当ai在执_c1f2bb",
+    "display_name": "实现‘思维链回溯与断点续传’。当AI在执行复杂任务（如编写一个完整软件）失败时，不能仅报错，而需精确",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现‘思维链回溯与断点续传’。当AI在执行复杂任务（如编写一个完整软件）失败时，不能仅报错，而需精确回溯到导致失败的特定逻辑节点（如‘某库的API调用错误’），",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

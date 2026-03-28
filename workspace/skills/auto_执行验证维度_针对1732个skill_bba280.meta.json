@@ -1,0 +1,30 @@
+{
+  "name": "auto_执行验证维度_针对1732个skill_bba280",
+  "file": "skills/auto_执行验证维度_针对1732个skill_bba280.py",
+  "description": "【执行验证维度】针对1732个SKILL节点，如何设计'副作用发生率'的自动化监测机制？SKILL节点作为可执行单元，其质量不仅取决于成功执行，更取决于是否引发非预期的系统状态变化（副作用）。需构建沙箱环境，监控SKILL执行前后的系统状态向量差异。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.840802",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_103_Q3_0_6542",
+  "design_spec": {
+    "name": "auto_执行验证维度_针对1732个skill_bba280",
+    "display_name": "【执行验证维度】针对1732个SKILL节点，如何设计'副作用发生率'的自动化监测机制？SKILL节",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【执行验证维度】针对1732个SKILL节点，如何设计'副作用发生率'的自动化监测机制？SKILL节点作为可执行单元，其质量不仅取决于成功执行，更取决于是否引发",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 357
+  }
+}

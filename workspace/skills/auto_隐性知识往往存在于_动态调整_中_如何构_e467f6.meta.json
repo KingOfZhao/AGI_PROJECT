@@ -1,0 +1,30 @@
+{
+  "name": "auto_隐性知识往往存在于_动态调整_中_如何构_e467f6",
+  "file": "skills/auto_隐性知识往往存在于_动态调整_中_如何构_e467f6.py",
+  "description": "隐性知识往往存在于‘动态调整’中。如何构建一个闭环控制系统，通过对比‘当前物理状态’与‘目标理想状态’的偏差，利用PID或强化学习算法实时生成修正指令？这验证了AI是否掌握了‘纠偏’这一核心技能，而非仅仅是死记硬背流程。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "cybernetics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.308098",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q3_0_6710",
+  "design_spec": {
+    "name": "auto_隐性知识往往存在于_动态调整_中_如何构_e467f6",
+    "display_name": "隐性知识往往存在于‘动态调整’中。如何构建一个闭环控制系统，通过对比‘当前物理状态’与‘目标理想状态",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "隐性知识往往存在于‘动态调整’中。如何构建一个闭环控制系统，通过对比‘当前物理状态’与‘目标理想状态’的偏差，利用PID或强化学习算法实时生成修正指令？这验证了",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

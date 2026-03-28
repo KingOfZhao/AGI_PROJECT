@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码即验证的沙盒执行环境_针对_exec_d42a27",
+  "file": "skills/auto_代码即验证的沙盒执行环境_针对_exec_d42a27.py",
+  "description": "代码即验证的沙盒执行环境：针对'executable'类型的技能节点，构建隔离的Docker容器。AI生成代码后，必须在沙盒中运行并捕获运行时错误（stderr）、逻辑错误（断言失败）及资源泄漏。若执行失败，错误日志直接作为'证伪'信号回传给认知网络进行参数修正。这是确保软件工程领域'真实节点'可靠性的硬性标准。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.744191",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_74_Q5_3_3694",
+  "design_spec": {
+    "name": "auto_代码即验证的沙盒执行环境_针对_exec_d42a27",
+    "display_name": "代码即验证的沙盒执行环境：针对'executable'类型的技能节点，构建隔离的Docker容器。A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "代码即验证的沙盒执行环境：针对'executable'类型的技能节点，构建隔离的Docker容器。AI生成代码后，必须在沙盒中运行并捕获运行时错误（stderr",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

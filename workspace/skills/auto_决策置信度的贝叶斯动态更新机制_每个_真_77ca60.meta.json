@@ -1,0 +1,30 @@
+{
+  "name": "auto_决策置信度的贝叶斯动态更新机制_每个_真_77ca60",
+  "file": "skills/auto_决策置信度的贝叶斯动态更新机制_每个_真_77ca60.py",
+  "description": "决策置信度的贝叶斯动态更新机制：每个'真实节点'应附带一个可信度分数。当子问题被证伪或被验证时，如何设计高效的贝叶斯更新算法，将置信度变化向上传播至父节点，并向下修正子节点的权重？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "probability_stats",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:39.984295",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q5_1_764",
+  "design_spec": {
+    "name": "auto_决策置信度的贝叶斯动态更新机制_每个_真_77ca60",
+    "display_name": "决策置信度的贝叶斯动态更新机制：每个'真实节点'应附带一个可信度分数。当子问题被证伪或被验证时，如何",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "决策置信度的贝叶斯动态更新机制：每个'真实节点'应附带一个可信度分数。当子问题被证伪或被验证时，如何设计高效的贝叶斯更新算法，将置信度变化向上传播至父节点，并向",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 281
+  }
+}

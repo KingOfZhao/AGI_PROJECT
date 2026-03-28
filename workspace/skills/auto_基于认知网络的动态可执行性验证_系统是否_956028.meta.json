@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于认知网络的动态可执行性验证_系统是否_956028",
+  "file": "skills/auto_基于认知网络的动态可执行性验证_系统是否_956028.py",
+  "description": "基于认知网络的动态可执行性验证：系统是否具备将抽象的'自然语言指令节点'动态编译为'可执行代码'的能力？这不仅仅是代码生成，而是验证AI能否理解节点间的逻辑依赖，构建出无语法错误且逻辑闭环的脚本（如Python自动化任务）。若AI只能生成片段而无法构建完整执行流，则证明其尚处于浅层模仿阶段。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.770373",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_124_Q1_0_5713",
+  "design_spec": {
+    "name": "auto_基于认知网络的动态可执行性验证_系统是否_956028",
+    "display_name": "基于认知网络的动态可执行性验证：系统是否具备将抽象的'自然语言指令节点'动态编译为'可执行代码'的能",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于认知网络的动态可执行性验证：系统是否具备将抽象的'自然语言指令节点'动态编译为'可执行代码'的能力？这不仅仅是代码生成，而是验证AI能否理解节点间的逻辑依赖",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 256
+  }
+}

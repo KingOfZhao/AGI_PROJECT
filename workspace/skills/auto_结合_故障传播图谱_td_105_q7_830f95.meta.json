@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_故障传播图谱_td_105_q7_830f95",
+  "file": "skills/auto_结合_故障传播图谱_td_105_q7_830f95.py",
+  "description": "结合'故障传播图谱'（td_105_Q7_3_4162）、'感知符号化'（td_105_Q1_3_4162）与'生物毒性熔断器'（ho_106_O1_4121）。系统不仅能实时感知物理世界的微弱震动信号，还能预测故障在设备网络中的传播路径，并在故障爆发前通过熔断器机制自动隔离'病变'逻辑，实现类似生物免疫系统的自我愈合。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.519925",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_107_E1_6927",
+  "design_spec": {
+    "name": "auto_结合_故障传播图谱_td_105_q7_830f95",
+    "display_name": "结合'故障传播图谱'（td_105_Q7_3_4162）、'感知符号化'（td_105_Q1_3_4",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'故障传播图谱'（td_105_Q7_3_4162）、'感知符号化'（td_105_Q1_3_4162）与'生物毒性熔断器'（ho_106_O1_4121）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 304
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域重叠_的意外发现机制_如何设计_8ee471",
+  "file": "skills/auto_左右跨域重叠_的意外发现机制_如何设计_8ee471.py",
+  "description": "【左右跨域重叠】的意外发现机制：如何设计算法检测两个看似无关领域（如‘生物细胞渗透’与‘城市交通流’）之间的结构同构性？目标是识别出非显性的‘重叠区’，从而提出可证伪的创新假设（如‘交通红绿灯调控机制’是否可借鉴‘细胞离子通道’原理）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "innovation_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.123016",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_62_Q3_0_4921",
+  "design_spec": {
+    "name": "auto_左右跨域重叠_的意外发现机制_如何设计_8ee471",
+    "display_name": "【左右跨域重叠】的意外发现机制：如何设计算法检测两个看似无关领域（如‘生物细胞渗透’与‘城市交通流’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域重叠】的意外发现机制：如何设计算法检测两个看似无关领域（如‘生物细胞渗透’与‘城市交通流’）之间的结构同构性？目标是识别出非显性的‘重叠区’，从而提出",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 276
+  }
+}

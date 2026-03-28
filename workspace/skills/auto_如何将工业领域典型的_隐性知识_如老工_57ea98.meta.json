@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将工业领域典型的_隐性知识_如老工_57ea98",
+  "file": "skills/auto_如何将工业领域典型的_隐性知识_如老工_57ea98.py",
+  "description": "如何将工业领域典型的“隐性知识”（如老工匠听音辨位判断轴承磨损的经验）编码为AGI可执行的参数？这涉及将模糊的语言描述（‘声音发闷’）映射到具体的物理特征空间（频率范围200-400Hz，振幅下降3dB），完成从人类感官到机器传感器的跨域重叠与固化。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_13",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T12:51:57.938009",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_13_Q2_1_8202",
+  "design_spec": {
+    "name": "auto_如何将工业领域典型的_隐性知识_如老工_57ea98",
+    "display_name": "如何将工业领域典型的“隐性知识”（如老工匠听音辨位判断轴承磨损的经验）编码为AGI可执行的参数？这涉",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将工业领域典型的“隐性知识”（如老工匠听音辨位判断轴承磨损的经验）编码为AGI可执行的参数？这涉及将模糊的语言描述（‘声音发闷’）映射到具体的物理特征空间（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 294
+  }
+}

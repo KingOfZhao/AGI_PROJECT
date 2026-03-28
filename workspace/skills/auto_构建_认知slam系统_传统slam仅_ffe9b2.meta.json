@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_认知slam系统_传统slam仅_ffe9b2",
+  "file": "skills/auto_构建_认知slam系统_传统slam仅_ffe9b2.py",
+  "description": "构建'认知SLAM系统'。传统SLAM仅构建物理地图，融合能力引入'语义-存在层'。机器人在探索物理空间的同时，运行轻量级现象学算法，对环境中的物体进行'本质还原'（例如，不仅是识别出'椅子'的几何形状，而是理解'可坐性'这一本质属性）。这将赋予AGI在未知环境中的'存在主义导航'能力，使其能处理物理上未曾见过但功能上可理解的场景，解决传统机器人面对非结构化环境时的脆弱性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.370014",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_3_O1_3772",
+  "design_spec": {
+    "name": "auto_构建_认知slam系统_传统slam仅_ffe9b2",
+    "display_name": "构建'认知SLAM系统'。传统SLAM仅构建物理地图，融合能力引入'语义-存在层'。机器人在探索物理",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'认知SLAM系统'。传统SLAM仅构建物理地图，融合能力引入'语义-存在层'。机器人在探索物理空间的同时，运行轻量级现象学算法，对环境中的物体进行'本质还",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 332
+  }
+}

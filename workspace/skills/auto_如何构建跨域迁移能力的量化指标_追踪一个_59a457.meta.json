@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建跨域迁移能力的量化指标_追踪一个_59a457",
+  "file": "skills/auto_如何构建跨域迁移能力的量化指标_追踪一个_59a457.py",
+  "description": "如何构建跨域迁移能力的量化指标？追踪一个节点被应用到其'原生域'之外的成功率。如果某节点（如'生物学进化论'）频繁被成功迁移到'产品开发'领域，该节点应被标记为'高通用性原型'，并在淘汰机制中获得豁免权或加权保护。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "complex_system",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.831522",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_68_Q9_0_658",
+  "design_spec": {
+    "name": "auto_如何构建跨域迁移能力的量化指标_追踪一个_59a457",
+    "display_name": "如何构建跨域迁移能力的量化指标？追踪一个节点被应用到其'原生域'之外的成功率。如果某节点（如'生物学",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建跨域迁移能力的量化指标？追踪一个节点被应用到其'原生域'之外的成功率。如果某节点（如'生物学进化论'）频繁被成功迁移到'产品开发'领域，该节点应被标记为",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

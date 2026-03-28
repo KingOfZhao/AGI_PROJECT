@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_具身计算成本模型_让ai能根据当_4388a4",
+  "file": "skills/auto_开发_具身计算成本模型_让ai能根据当_4388a4.py",
+  "description": "开发‘具身计算成本模型’，让AI能根据当前硬件状态（温度、电量、负载）动态裁剪推理深度。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_49",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:59:54.203819",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_49_G2_267",
+  "design_spec": {
+    "name": "auto_开发_具身计算成本模型_让ai能根据当_4388a4",
+    "display_name": "开发‘具身计算成本模型’，让AI能根据当前硬件状态（温度、电量、负载）动态裁剪推理深度。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘具身计算成本模型’，让AI能根据当前硬件状态（温度、电量、负载）动态裁剪推理深度。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 210
+  }
+}

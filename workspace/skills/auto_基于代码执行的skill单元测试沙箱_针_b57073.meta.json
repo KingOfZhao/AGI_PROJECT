@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于代码执行的skill单元测试沙箱_针_b57073",
+  "file": "skills/auto_基于代码执行的skill单元测试沙箱_针_b57073.py",
+  "description": "基于代码执行的SKILL单元测试沙箱：针对1829个SKILL节点，特别是涉及工具调用的节点，如何建立自动化的回归测试沙箱？如果一个SKILL节点（如‘Python绘图’）依赖的底层API变更导致输出格式错误，系统需立即将其标记为‘损坏’并降权。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.702891",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_110_Q9_2_2216",
+  "design_spec": {
+    "name": "auto_基于代码执行的skill单元测试沙箱_针_b57073",
+    "display_name": "基于代码执行的SKILL单元测试沙箱：针对1829个SKILL节点，特别是涉及工具调用的节点，如何建",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于代码执行的SKILL单元测试沙箱：针对1829个SKILL节点，特别是涉及工具调用的节点，如何建立自动化的回归测试沙箱？如果一个SKILL节点（如‘Pyth",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 307
+  }
+}

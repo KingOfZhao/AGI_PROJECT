@@ -1,0 +1,30 @@
+{
+  "name": "auto_参数双向约束_如何实现_意图_代码参数_4faa17",
+  "file": "skills/auto_参数双向约束_如何实现_意图_代码参数_4faa17.py",
+  "description": "【参数双向约束】如何实现‘意图-代码参数的闭环校验’？用户意图往往包含隐含约束（如‘只处理前10行’、‘不要覆盖原文件’）。问题在于如何将这些自然语言约束转化为代码中的‘断言’或‘边界检查’，并在执行过程中实时监控。如果生成的代码试图违反这些约束（如写了全量数据），系统必须能截停并回滚。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T07:08:34.742677",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q5_3_5832",
+  "design_spec": {
+    "name": "auto_参数双向约束_如何实现_意图_代码参数_4faa17",
+    "display_name": "【参数双向约束】如何实现‘意图-代码参数的闭环校验’？用户意图往往包含隐含约束（如‘只处理前10行’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【参数双向约束】如何实现‘意图-代码参数的闭环校验’？用户意图往往包含隐含约束（如‘只处理前10行’、‘不要覆盖原文件’）。问题在于如何将这些自然语言约束转化为",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 279
+  }
+}

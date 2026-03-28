@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身纠错增量学习引擎_该能力将rlh_4df205",
+  "file": "skills/auto_具身纠错增量学习引擎_该能力将rlh_4df205.py",
+  "description": "【具身纠错增量学习引擎】。该能力将RLHF的数学严谨性引入传统技艺传承。系统不再仅依赖数据训练，而是构建一个物理仿真环境（如虚拟陶艺轮），AI作为“数字徒弟”进行操作，一旦物理引擎反馈结构不稳（报错），即刻触发反向传播。融合能力在于将模糊的“手感”转化为可量化的“力矩-形变”反馈函数，使AI能通过不断的虚拟试错（碰撞），自动掌握由于人类寿命限制而难以大量积累的高精度物理操作技巧。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.751772",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_74_O1_297",
+  "design_spec": {
+    "name": "auto_具身纠错增量学习引擎_该能力将rlh_4df205",
+    "display_name": "【具身纠错增量学习引擎】。该能力将RLHF的数学严谨性引入传统技艺传承。系统不再仅依赖数据训练，而是",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身纠错增量学习引擎】。该能力将RLHF的数学严谨性引入传统技艺传承。系统不再仅依赖数据训练，而是构建一个物理仿真环境（如虚拟陶艺轮），AI作为“数字徒弟”进",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

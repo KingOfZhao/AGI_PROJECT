@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于_人机反馈熵_的信噪比动态阈值_在人_ade159",
+  "file": "skills/auto_基于_人机反馈熵_的信噪比动态阈值_在人_ade159.py",
+  "description": "基于‘人机反馈熵’的信噪比动态阈值：在人机共生循环中，人类对AI输出的反馈（修正、采纳、忽略）是核心信号。如何计算每个节点的‘反馈熵’？如果一个节点生成的实践清单长期得到人类‘无差别’或‘随机’的反馈（高熵状态），是否应视为‘平庸节点’进行降权？这需要建立高熵值与低节点质量的因果模型。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_113",
+    "human_computer_interaction",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:20:01.853467",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_113_Q4_0_4517",
+  "design_spec": {
+    "name": "auto_基于_人机反馈熵_的信噪比动态阈值_在人_ade159",
+    "display_name": "基于‘人机反馈熵’的信噪比动态阈值：在人机共生循环中，人类对AI输出的反馈（修正、采纳、忽略）是核心",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于‘人机反馈熵’的信噪比动态阈值：在人机共生循环中，人类对AI输出的反馈（修正、采纳、忽略）是核心信号。如何计算每个节点的‘反馈熵’？如果一个节点生成的实践清",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 291
+  }
+}

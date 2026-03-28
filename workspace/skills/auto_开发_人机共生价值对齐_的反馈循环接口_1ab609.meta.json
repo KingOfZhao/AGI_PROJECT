@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_人机共生价值对齐_的反馈循环接口_1ab609",
+  "file": "skills/auto_开发_人机共生价值对齐_的反馈循环接口_1ab609.py",
+  "description": "开发'人机共生价值对齐'的反馈循环接口。当AI不确定是否淘汰某节点时，生成'最小化验证问题'（Minimal Viable Questions）推送给人类专家。验证该接口是否能以最小的人类交互成本获取最大的熵减收益。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_55",
+    "hci",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T13:11:37.474435",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_55_Q9_2_8947",
+  "design_spec": {
+    "name": "auto_开发_人机共生价值对齐_的反馈循环接口_1ab609",
+    "display_name": "开发'人机共生价值对齐'的反馈循环接口。当AI不确定是否淘汰某节点时，生成'最小化验证问题'（Min",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'人机共生价值对齐'的反馈循环接口。当AI不确定是否淘汰某节点时，生成'最小化验证问题'（Minimal Viable Questions）推送给人类专家。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 301
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_分层压缩的认知谱系提取算法_利用和声分析_aa58ac",
+  "file": "skills/auto_分层压缩的认知谱系提取算法_利用和声分析_aa58ac.py",
+  "description": "分层压缩的认知谱系提取算法。利用和声分析的功能归纳逻辑改进奥卡姆剃刀。不单纯看描述长度，而是看'调性中心'（解释力中心）。系统自动将2467个节点进行'功能和声归类'：识别出核心节点（T，解释力最强，不可变）、支撑节点（D，用于推导核心）和经过节点（Passing，临时性）。在清理冗余节点时，优先保留处于'调性中心'的节点，即使它的描述长度不是最短的，从而保留系统的结构性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_130",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:36:13.598689",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_130_O3_6385",
+  "design_spec": {
+    "name": "auto_分层压缩的认知谱系提取算法_利用和声分析_aa58ac",
+    "display_name": "分层压缩的认知谱系提取算法。利用和声分析的功能归纳逻辑改进奥卡姆剃刀。不单纯看描述长度，而是看'调性",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "分层压缩的认知谱系提取算法。利用和声分析的功能归纳逻辑改进奥卡姆剃刀。不单纯看描述长度，而是看'调性中心'（解释力中心）。系统自动将2467个节点进行'功能和声",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

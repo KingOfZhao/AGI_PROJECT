@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何利用llm将高维_模糊的自然语言意图_156273",
+  "file": "skills/auto_如何利用llm将高维_模糊的自然语言意图_156273.py",
+  "description": "如何利用LLM将高维、模糊的自然语言意图（如'做一个好用的后台'）映射为标准化的低维意图向量（Embedding），并检索出最匹配的结构化代码骨架？这需要建立一个从'语义空间'到'结构空间'的非线性映射层。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "nlp_mapping",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.392421",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q1_1_3870",
+  "design_spec": {
+    "name": "auto_如何利用llm将高维_模糊的自然语言意图_156273",
+    "display_name": "如何利用LLM将高维、模糊的自然语言意图（如'做一个好用的后台'）映射为标准化的低维意图向量（Emb",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何利用LLM将高维、模糊的自然语言意图（如'做一个好用的后台'）映射为标准化的低维意图向量（Embedding），并检索出最匹配的结构化代码骨架？这需要建立一",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 285
+  }
+}

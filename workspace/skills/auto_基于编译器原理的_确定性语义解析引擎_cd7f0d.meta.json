@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于编译器原理的_确定性语义解析引擎_cd7f0d",
+  "file": "skills/auto_基于编译器原理的_确定性语义解析引擎_cd7f0d.py",
+  "description": "基于编译器原理的‘确定性语义解析引擎’。不同于当前LLM的概率性生成，该能力利用编译器的多阶段Pass机制，将自然语言首先映射为一种强类型的‘自然语言中间表示’，通过类型检查和作用域分析来排除不合逻辑的语义幻觉，再生成最终意图。这能赋予AI处理金融、法律等高风险文本时的‘可解释性’和‘逻辑自洽性’，实现从‘大概读懂’到‘精确编译’的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_93",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T23:32:16.065419",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_93_O1_314",
+  "design_spec": {
+    "name": "auto_基于编译器原理的_确定性语义解析引擎_cd7f0d",
+    "display_name": "基于编译器原理的‘确定性语义解析引擎’。不同于当前LLM的概率性生成，该能力利用编译器的多阶段Pas",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于编译器原理的‘确定性语义解析引擎’。不同于当前LLM的概率性生成，该能力利用编译器的多阶段Pass机制，将自然语言首先映射为一种强类型的‘自然语言中间表示’",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 286
+  }
+}

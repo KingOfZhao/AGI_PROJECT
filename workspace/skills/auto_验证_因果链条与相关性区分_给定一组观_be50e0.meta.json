@@ -1,0 +1,30 @@
+{
+  "name": "auto_验证_因果链条与相关性区分_给定一组观_be50e0",
+  "file": "skills/auto_验证_因果链条与相关性区分_给定一组观_be50e0.py",
+  "description": "验证'因果链条与相关性区分'。给定一组观察到的现象数据（如'冰淇淋销量上升'与'溺水事故上升'），AI是否能构建正确的因果图，排除伪相关（气温是共同原因），并提出可证伪的干预措施（如'限制冰淇淋能否降低溺水？不能'）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_106",
+    "statistics",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:26:15.630453",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_106_Q9_2_6925",
+  "design_spec": {
+    "name": "auto_验证_因果链条与相关性区分_给定一组观_be50e0",
+    "display_name": "验证'因果链条与相关性区分'。给定一组观察到的现象数据（如'冰淇淋销量上升'与'溺水事故上升'），A",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "验证'因果链条与相关性区分'。给定一组观察到的现象数据（如'冰淇淋销量上升'与'溺水事故上升'），AI是否能构建正确的因果图，排除伪相关（气温是共同原因），并提",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 347
+  }
+}

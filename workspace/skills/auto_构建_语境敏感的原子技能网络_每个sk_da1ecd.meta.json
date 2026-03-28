@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_语境敏感的原子技能网络_每个sk_da1ecd",
+  "file": "skills/auto_构建_语境敏感的原子技能网络_每个sk_da1ecd.py",
+  "description": "构建'语境敏感的原子技能网络'。每个Skill节点不仅是代码片段，还是一个'语用学单元'。拆解时，不仅分析物理动作，还保留'前件'和'后件'的逻辑约束。例如，'旋紧'节点自带'对齐'的前置约束和'防松'的后置语境。这能解决Skill复用中的'语境丢失'问题，实现真正的'积木式'重组。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.714401",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_110_O4_415",
+  "design_spec": {
+    "name": "auto_构建_语境敏感的原子技能网络_每个sk_da1ecd",
+    "display_name": "构建'语境敏感的原子技能网络'。每个Skill节点不仅是代码片段，还是一个'语用学单元'。拆解时，不",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'语境敏感的原子技能网络'。每个Skill节点不仅是代码片段，还是一个'语用学单元'。拆解时，不仅分析物理动作，还保留'前件'和'后件'的逻辑约束。例如，'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 303
+  }
+}

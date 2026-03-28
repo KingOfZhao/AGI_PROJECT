@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_反事实实践清单_td_45_q6_3c0c23",
+  "file": "skills/auto_结合_反事实实践清单_td_45_q6_3c0c23.py",
+  "description": "结合‘反事实实践清单’（td_45_Q6_0_4766）、‘反向贝叶斯网络’（td_45_Q3_3_9123）与‘认知沙箱’（em_45_E1_9068）。系统不仅能从失败中学习，还能主动生成‘反直觉’的测试用例（如故意制造局部故障来验证系统鲁棒性），打破人类工程师的思维定势，探索未知的优化空间。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_46",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T09:44:17.926949",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_46_E5_9083",
+  "design_spec": {
+    "name": "auto_结合_反事实实践清单_td_45_q6_3c0c23",
+    "display_name": "结合‘反事实实践清单’（td_45_Q6_0_4766）、‘反向贝叶斯网络’（td_45_Q3_3_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合‘反事实实践清单’（td_45_Q6_0_4766）、‘反向贝叶斯网络’（td_45_Q3_3_9123）与‘认知沙箱’（em_45_E1_9068）。系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 447
+  }
+}

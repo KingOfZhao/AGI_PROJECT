@@ -1,0 +1,30 @@
+{
+  "name": "auto_异构数据熔断与对齐_工业现场存在多源异_75ee8e",
+  "file": "skills/auto_异构数据熔断与对齐_工业现场存在多源异_75ee8e.py",
+  "description": "【异构数据熔断与对齐】工业现场存在多源异构数据（如PLC的时序信号、质检员的文本日志、监控视频流）。问题在于如何构建一个多模态映射器，将非结构化的日志文本中的时间戳与高频传感器数据的波形片段进行精准对齐，并清洗掉传感器漂移产生的噪声数据，形成可供认知网络消化的标准化‘感知原子’。这直接决定了底层数据能否转化为可被归纳的节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_50",
+    "data_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T11:25:54.763924",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_50_Q1_3_2036",
+  "design_spec": {
+    "name": "auto_异构数据熔断与对齐_工业现场存在多源异_75ee8e",
+    "display_name": "【异构数据熔断与对齐】工业现场存在多源异构数据（如PLC的时序信号、质检员的文本日志、监控视频流）。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【异构数据熔断与对齐】工业现场存在多源异构数据（如PLC的时序信号、质检员的文本日志、监控视频流）。问题在于如何构建一个多模态映射器，将非结构化的日志文本中的时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 253
+  }
+}

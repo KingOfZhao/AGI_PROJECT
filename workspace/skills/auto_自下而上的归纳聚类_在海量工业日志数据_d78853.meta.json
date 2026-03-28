@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上的归纳聚类_在海量工业日志数据_d78853",
+  "file": "skills/auto_自下而上的归纳聚类_在海量工业日志数据_d78853.py",
+  "description": "【自下而上的归纳聚类】在海量工业日志数据中，如何设计算法自动发现‘频繁共现的节点组合’并将其固化为新的‘复合技能节点’？例如，发现‘预热’、‘检查油压’、‘低速启动’总是连续发生，从而归纳出‘冷启动标准流程’这一高阶概念。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_33",
+    "pattern_recognition",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T21:05:14.270507",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_33_Q6_1_9997",
+  "design_spec": {
+    "name": "auto_自下而上的归纳聚类_在海量工业日志数据_d78853",
+    "display_name": "【自下而上的归纳聚类】在海量工业日志数据中，如何设计算法自动发现‘频繁共现的节点组合’并将其固化为新",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上的归纳聚类】在海量工业日志数据中，如何设计算法自动发现‘频繁共现的节点组合’并将其固化为新的‘复合技能节点’？例如，发现‘预热’、‘检查油压’、‘低速",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 254
+  }
+}

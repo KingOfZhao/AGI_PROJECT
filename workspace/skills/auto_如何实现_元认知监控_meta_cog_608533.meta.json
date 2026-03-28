@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_元认知监控_meta_cog_608533",
+  "file": "skills/auto_如何实现_元认知监控_meta_cog_608533.py",
+  "description": "如何实现'元认知监控'（Meta-cognitive Monitoring）？AI需要实时监控自身的推理过程。当推理路径经过的节点平均置信度低于某个阈值，或者经过了过多刚生成的、未被证实的'弱节点'时，系统应触发'怀疑机制'，拒绝输出结论并请求人类介入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_142",
+    "agi_meta_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:36:00.430149",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_142_Q5_1_8155",
+  "design_spec": {
+    "name": "auto_如何实现_元认知监控_meta_cog_608533",
+    "display_name": "如何实现'元认知监控'（Meta-cognitive Monitoring）？AI需要实时监控自身的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'元认知监控'（Meta-cognitive Monitoring）？AI需要实时监控自身的推理过程。当推理路径经过的节点平均置信度低于某个阈值，或者经",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码力与语义的对齐验证_要求ai将一段_61f52f",
+  "file": "skills/auto_代码力与语义的对齐验证_要求ai将一段_61f52f.py",
+  "description": "【代码力与语义的对齐验证】要求AI将一段复杂的自然语言业务逻辑（如包含嵌套条件的订票规则）转化为可执行的Python代码。验证重点不在于代码语法是否正确，而在于运行代码后，输出的逻辑真值表是否与自然语言描述在边界条件（Corner Cases）下完全一致。这验证了AI是否真正理解了语义中的逻辑结构，而非仅仅是文本补全。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_1",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T05:42:49.291250",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_1_Q1_2_2222",
+  "design_spec": {
+    "name": "auto_代码力与语义的对齐验证_要求ai将一段_61f52f",
+    "display_name": "【代码力与语义的对齐验证】要求AI将一段复杂的自然语言业务逻辑（如包含嵌套条件的订票规则）转化为可执",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【代码力与语义的对齐验证】要求AI将一段复杂的自然语言业务逻辑（如包含嵌套条件的订票规则）转化为可执行的Python代码。验证重点不在于代码语法是否正确，而在于",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

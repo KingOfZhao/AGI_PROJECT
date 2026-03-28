@@ -1,0 +1,30 @@
+{
+  "name": "auto_元认知监控_ai能否监控自身的_学习效率_28775a",
+  "file": "skills/auto_元认知监控_ai能否监控自身的_学习效率_28775a.py",
+  "description": "元认知监控：AI能否监控自身的'学习效率'？当系统发现构建新节点的成本（计算资源/时间）远高于该节点带来的预测误差减少收益时，能否自动停止对该分支的探索？这是为了解决资源分配问题，避免陷入'死胡同'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_28",
+    "元学习/优化理论",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T19:20:59.443711",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_28_Q9_2_1501",
+  "design_spec": {
+    "name": "auto_元认知监控_ai能否监控自身的_学习效率_28775a",
+    "display_name": "元认知监控：AI能否监控自身的'学习效率'？当系统发现构建新节点的成本（计算资源/时间）远高于该节点",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "元认知监控：AI能否监控自身的'学习效率'？当系统发现构建新节点的成本（计算资源/时间）远高于该节点带来的预测误差减少收益时，能否自动停止对该分支的探索？这是为",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 228
+  }
+}

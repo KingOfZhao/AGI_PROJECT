@@ -1,0 +1,30 @@
+{
+  "name": "auto_抽象技能通感映射器_利用agi的跨域_4cdb11",
+  "file": "skills/auto_抽象技能通感映射器_利用agi的跨域_4cdb11.py",
+  "description": "【抽象技能通感映射器】：利用AGI的跨域计算能力，辅助人类加速技能习得。系统通过分析目标技能（如滑板平衡）的深层物理结构（向量空间），在其他领域（如调节水流）寻找结构同构的参考模型。通过VR/AR将目标技能的物理反馈‘翻译’为用户已熟练技能的感官信号，利用人脑已有的神经回路来‘欺骗’大脑快速掌握新技能，实现‘左右脑’式的跨域技能复用。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_145",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:55:28.370457",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_145_O5_8758",
+  "design_spec": {
+    "name": "auto_抽象技能通感映射器_利用agi的跨域_4cdb11",
+    "display_name": "【抽象技能通感映射器】：利用AGI的跨域计算能力，辅助人类加速技能习得。系统通过分析目标技能（如滑板",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【抽象技能通感映射器】：利用AGI的跨域计算能力，辅助人类加速技能习得。系统通过分析目标技能（如滑板平衡）的深层物理结构（向量空间），在其他领域（如调节水流）寻",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

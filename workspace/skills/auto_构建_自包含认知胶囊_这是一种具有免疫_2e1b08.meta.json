@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_自包含认知胶囊_这是一种具有免疫_2e1b08",
+  "file": "skills/auto_构建_自包含认知胶囊_这是一种具有免疫_2e1b08.py",
+  "description": "构建'自包含认知胶囊'。这是一种具有免疫特性的知识单元。借鉴生物学中细胞膜的'选择性渗透'机制，认知胶囊不仅封装业务逻辑，还封装了'异常消化酶'（异常处理逻辑）。当外部输入（如产线故障数据）冲击系统时，胶囊能像溶酶体一样在内部消化并隔离错误，防止'认知毒素'扩散至整个知识图谱。同时，引入'代谢周转'机制，自动标记并清理长期未被实践调用的'坏死知识节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_70",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:01:12.823655",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_70_O1_6220",
+  "design_spec": {
+    "name": "auto_构建_自包含认知胶囊_这是一种具有免疫_2e1b08",
+    "display_name": "构建'自包含认知胶囊'。这是一种具有免疫特性的知识单元。借鉴生物学中细胞膜的'选择性渗透'机制，认知",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'自包含认知胶囊'。这是一种具有免疫特性的知识单元。借鉴生物学中细胞膜的'选择性渗透'机制，认知胶囊不仅封装业务逻辑，还封装了'异常消化酶'（异常处理逻辑）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

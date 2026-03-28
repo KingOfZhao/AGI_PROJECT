@@ -1,0 +1,30 @@
+{
+  "name": "auto_现象学触觉感知滤波器_该能力通过算法_悬_ea8623",
+  "file": "skills/auto_现象学触觉感知滤波器_该能力通过算法_悬_ea8623.py",
+  "description": "现象学触觉感知滤波器。该能力通过算法'悬置'高层语义标签，迫使AI在底层感知层直接处理原始流。在精细操作（如穿针、修补裂痕）中，系统暂时屏蔽'这是一块金属'的语义标签，纯粹基于力觉流的时间序列特征进行实时跟踪，消除语义偏见带来的动作僵硬，实现'指尖'级别的直觉反应。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_32",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:43:22.790005",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_32_O4_4364",
+  "design_spec": {
+    "name": "auto_现象学触觉感知滤波器_该能力通过算法_悬_ea8623",
+    "display_name": "现象学触觉感知滤波器。该能力通过算法'悬置'高层语义标签，迫使AI在底层感知层直接处理原始流。在精细",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "现象学触觉感知滤波器。该能力通过算法'悬置'高层语义标签，迫使AI在底层感知层直接处理原始流。在精细操作（如穿针、修补裂痕）中，系统暂时屏蔽'这是一块金属'的语",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 367
+  }
+}

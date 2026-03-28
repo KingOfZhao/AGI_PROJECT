@@ -1,0 +1,30 @@
+{
+  "name": "auto_鲁棒性对抗生成网络_融合能力_将工艺学_e5367d",
+  "file": "skills/auto_鲁棒性对抗生成网络_融合能力_将工艺学_e5367d.py",
+  "description": "【鲁棒性对抗生成网络】融合能力：将工艺学的'破坏性测试'逻辑转化为AI的'对抗样本生成'策略。不仅仅生成普通的反例，而是生成针对特定业务逻辑的'边缘攻击'。例如，在自动驾驶代码检测中，引入类似'木工审视木结'的视角，生成针对'传感器由于材质反光（类似材质瑕疵）而误判'的对抗样本，主动寻找系统在极端物理条件下的崩溃点，从而构建更坚不可摧的'真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_135",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T12:53:32.329024",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_135_O3_2360",
+  "design_spec": {
+    "name": "auto_鲁棒性对抗生成网络_融合能力_将工艺学_e5367d",
+    "display_name": "【鲁棒性对抗生成网络】融合能力：将工艺学的'破坏性测试'逻辑转化为AI的'对抗样本生成'策略。不仅仅",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【鲁棒性对抗生成网络】融合能力：将工艺学的'破坏性测试'逻辑转化为AI的'对抗样本生成'策略。不仅仅生成普通的反例，而是生成针对特定业务逻辑的'边缘攻击'。例如",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 282
+  }
+}

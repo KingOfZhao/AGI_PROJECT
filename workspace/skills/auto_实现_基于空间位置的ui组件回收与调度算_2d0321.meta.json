@@ -1,0 +1,30 @@
+{
+  "name": "auto_实现_基于空间位置的ui组件回收与调度算_2d0321",
+  "file": "skills/auto_实现_基于空间位置的ui组件回收与调度算_2d0321.py",
+  "description": "实现'基于空间位置的UI组件回收与调度算法'。在地图应用或超长列表中，将UI组件视为具有'空间坐标'的实体。利用CAD的空间索引算法，只渲染视口内的组件。不同于ListView的线性回收，这能处理2D平面甚至3D空间中的海量UI交互，极大提升性能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_120",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:40:18.188950",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_120_O3_3854",
+  "design_spec": {
+    "name": "auto_实现_基于空间位置的ui组件回收与调度算_2d0321",
+    "display_name": "实现'基于空间位置的UI组件回收与调度算法'。在地图应用或超长列表中，将UI组件视为具有'空间坐标'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实现'基于空间位置的UI组件回收与调度算法'。在地图应用或超长列表中，将UI组件视为具有'空间坐标'的实体。利用CAD的空间索引算法，只渲染视口内的组件。不同于",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 261
+  }
+}

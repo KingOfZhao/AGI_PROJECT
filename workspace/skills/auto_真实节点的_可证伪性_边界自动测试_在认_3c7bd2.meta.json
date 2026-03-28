@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点的_可证伪性_边界自动测试_在认_3c7bd2",
+  "file": "skills/auto_真实节点的_可证伪性_边界自动测试_在认_3c7bd2.py",
+  "description": "真实节点的‘可证伪性’边界自动测试。在认知框架中，只有被实践验证的才是真实节点。对于AI生成的隐性技能节点（如‘通过听声音判断西瓜成熟度’），如何自动生成‘证伪测试用例’？例如，AI应能反推出：‘如果敲击频率为X且回声衰减为Y，但糖度测试Z<10，则该节点无效’，从而触发系统的自我修正机制。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_77",
+    "auto_ml",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:41:02.968685",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_77_Q8_2_7760",
+  "design_spec": {
+    "name": "auto_真实节点的_可证伪性_边界自动测试_在认_3c7bd2",
+    "display_name": "真实节点的‘可证伪性’边界自动测试。在认知框架中，只有被实践验证的才是真实节点。对于AI生成的隐性技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "真实节点的‘可证伪性’边界自动测试。在认知框架中，只有被实践验证的才是真实节点。对于AI生成的隐性技能节点（如‘通过听声音判断西瓜成熟度’），如何自动生成‘证伪",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

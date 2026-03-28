@@ -1,0 +1,30 @@
+{
+  "name": "auto_研究基于_计算复杂性预估_的任务调度算法_7e4ba0",
+  "file": "skills/auto_研究基于_计算复杂性预估_的任务调度算法_7e4ba0.py",
+  "description": "研究基于'计算复杂性预估'的任务调度算法，根据当前上下文和剩余算力，动态选择轻量级Skill链还是深度推理树。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.820055",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_122_G3_9921",
+  "design_spec": {
+    "name": "auto_研究基于_计算复杂性预估_的任务调度算法_7e4ba0",
+    "display_name": "研究基于'计算复杂性预估'的任务调度算法，根据当前上下文和剩余算力，动态选择轻量级Skill链还是深",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "研究基于'计算复杂性预估'的任务调度算法，根据当前上下文和剩余算力，动态选择轻量级Skill链还是深度推理树。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 396
+  }
+}

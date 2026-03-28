@@ -1,0 +1,30 @@
+{
+  "name": "auto_模糊意图的一致性磨具_开发一种新的评_da049b",
+  "file": "skills/auto_模糊意图的一致性磨具_开发一种新的评_da049b.py",
+  "description": "‘模糊意图的一致性磨具’。开发一种新的评估函数，它不追求代码与意图的逐字匹配，而是像工匠使用‘样板’检查曲面一样，检查代码的‘运行轨迹’是否符合意图的‘功能轮廓’。该能力允许代码实现方式多样化，但严格约束其行为边界，极大提升AI生成代码的可用性和鲁棒性。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_146",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T15:01:15.353442",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_146_O5_9638",
+  "design_spec": {
+    "name": "auto_模糊意图的一致性磨具_开发一种新的评_da049b",
+    "display_name": "‘模糊意图的一致性磨具’。开发一种新的评估函数，它不追求代码与意图的逐字匹配，而是像工匠使用‘样板’",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "‘模糊意图的一致性磨具’。开发一种新的评估函数，它不追求代码与意图的逐字匹配，而是像工匠使用‘样板’检查曲面一样，检查代码的‘运行轨迹’是否符合意图的‘功能轮廓",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_可解释性因果回溯链_不仅记录数据的变换历_468d62",
+  "file": "skills/auto_可解释性因果回溯链_不仅记录数据的变换历_468d62.py",
+  "description": "可解释性因果回溯链。不仅记录数据的变换历史，还同步记录每一步变换背后的'业务意图'（类似于人类的情景记忆）。当AI做出异常决策时，系统能像人类回忆往事一样，通过'数据血缘+业务语境'重现决策现场，指出是哪一步的'假设'或'数据源'导致了偏差，实现真正的可解释AI (XAI)。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.050258",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_127_O3_5818",
+  "design_spec": {
+    "name": "auto_可解释性因果回溯链_不仅记录数据的变换历_468d62",
+    "display_name": "可解释性因果回溯链。不仅记录数据的变换历史，还同步记录每一步变换背后的'业务意图'（类似于人类的情景",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "可解释性因果回溯链。不仅记录数据的变换历史，还同步记录每一步变换背后的'业务意图'（类似于人类的情景记忆）。当AI做出异常决策时，系统能像人类回忆往事一样，通过",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 249
+  }
+}

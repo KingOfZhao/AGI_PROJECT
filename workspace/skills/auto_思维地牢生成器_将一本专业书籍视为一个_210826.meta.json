@@ -1,0 +1,30 @@
+{
+  "name": "auto_思维地牢生成器_将一本专业书籍视为一个_210826",
+  "file": "skills/auto_思维地牢生成器_将一本专业书籍视为一个_210826.py",
+  "description": "【思维地牢生成器】将一本专业书籍视为一个待探索的'程序生成地牢'。AI不只生成摘要，而是提取书中的'公理'作为生成规则，自动生成无数个具体的商业案例或思维实验（地牢房间）。学习者通过解决这些生成的案例来验证公理。如果学习者的直觉解决了案例但违背了公理，系统就标记此处为'认知陷阱'。这实现了从'传授知识'到'生成验证环境'的转变。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.685047",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_63_O4_7664",
+  "design_spec": {
+    "name": "auto_思维地牢生成器_将一本专业书籍视为一个_210826",
+    "display_name": "【思维地牢生成器】将一本专业书籍视为一个待探索的'程序生成地牢'。AI不只生成摘要，而是提取书中的'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【思维地牢生成器】将一本专业书籍视为一个待探索的'程序生成地牢'。AI不只生成摘要，而是提取书中的'公理'作为生成规则，自动生成无数个具体的商业案例或思维实验（",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

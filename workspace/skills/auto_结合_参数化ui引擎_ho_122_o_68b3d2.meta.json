@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_参数化ui引擎_ho_122_o_68b3d2",
+  "file": "skills/auto_结合_参数化ui引擎_ho_122_o_68b3d2.py",
+  "description": "结合'参数化UI引擎'（ho_122_O1）、'模糊语言映射'（td_122_Q6）与'意图结构化解码'（ho_121_O1）。用户只需说'把这个按钮放得稍微好看点'，系统即可根据UI美学公理（几何约束）和上下文（语义约束）自动解算出最佳的像素坐标、颜色和大小，实现从模糊意图直接到CAD级精确界面的跨越。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.043554",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_123_E3_6221",
+  "design_spec": {
+    "name": "auto_结合_参数化ui引擎_ho_122_o_68b3d2",
+    "display_name": "结合'参数化UI引擎'（ho_122_O1）、'模糊语言映射'（td_122_Q6）与'意图结构化解",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'参数化UI引擎'（ho_122_O1）、'模糊语言映射'（td_122_Q6）与'意图结构化解码'（ho_121_O1）。用户只需说'把这个按钮放得稍微好",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

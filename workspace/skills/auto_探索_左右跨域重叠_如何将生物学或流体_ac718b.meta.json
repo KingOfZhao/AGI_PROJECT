@@ -1,0 +1,30 @@
+{
+  "name": "auto_探索_左右跨域重叠_如何将生物学或流体_ac718b",
+  "file": "skills/auto_探索_左右跨域重叠_如何将生物学或流体_ac718b.py",
+  "description": "探索'左右跨域重叠'：如何将生物学或流体力学领域的成熟原理（如血管支架结构、鲨鱼皮表面纹理）映射到工业散热器或管道设计中？AGI需构建跨域语义索引，自动检索并生成设计变体。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_53",
+    "cross_domain_innovation",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:33:18.099027",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_53_Q5_1_7461",
+  "design_spec": {
+    "name": "auto_探索_左右跨域重叠_如何将生物学或流体_ac718b",
+    "display_name": "探索'左右跨域重叠'：如何将生物学或流体力学领域的成熟原理（如血管支架结构、鲨鱼皮表面纹理）映射到工",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "探索'左右跨域重叠'：如何将生物学或流体力学领域的成熟原理（如血管支架结构、鲨鱼皮表面纹理）映射到工业散热器或管道设计中？AGI需构建跨域语义索引，自动检索并生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 298
+  }
+}

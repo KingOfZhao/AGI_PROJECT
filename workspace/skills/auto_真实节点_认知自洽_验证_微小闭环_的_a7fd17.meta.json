@@ -1,0 +1,30 @@
+{
+  "name": "auto_真实节点_认知自洽_验证_微小闭环_的_a7fd17",
+  "file": "skills/auto_真实节点_认知自洽_验证_微小闭环_的_a7fd17.py",
+  "description": "【真实节点-认知自洽】验证'微小闭环'的构建能力。给定一个极其狭窄的场景（例如：'帮用户决定午饭吃什么以最大化多巴胺分泌'），AI需要构建一个临时的微型认知网络，包含营养学、用户口味历史、当前时间地理位置等节点，并输出一个可执行的决策。测试AI在缺乏显性Skill节点时的动态组网能力。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_41",
+    "personal_assistant",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:25:13.401387",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_41_Q7_2_9284",
+  "design_spec": {
+    "name": "auto_真实节点_认知自洽_验证_微小闭环_的_a7fd17",
+    "display_name": "【真实节点-认知自洽】验证'微小闭环'的构建能力。给定一个极其狭窄的场景（例如：'帮用户决定午饭吃什",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【真实节点-认知自洽】验证'微小闭环'的构建能力。给定一个极其狭窄的场景（例如：'帮用户决定午饭吃什么以最大化多巴胺分泌'），AI需要构建一个临时的微型认知网络",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

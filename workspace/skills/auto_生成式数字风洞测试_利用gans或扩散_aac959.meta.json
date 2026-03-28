@@ -1,0 +1,30 @@
+{
+  "name": "auto_生成式数字风洞测试_利用gans或扩散_aac959",
+  "file": "skills/auto_生成式数字风洞测试_利用gans或扩散_aac959.py",
+  "description": "【生成式数字风洞测试】利用GANs或扩散模型生成‘极端异常工况’作为‘数字锤炼’，主动攻击正在训练中的ML模型或生成的设计图纸。系统不再等待现实中的Corner Case，而是基于物理法则主动合成‘不可能’的破坏性场景，迫使AI模型在设计阶段就通过‘虚拟破坏’，构建出具备工业级鲁棒性的‘真实节点’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_62",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:43:11.195838",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_62_O2_6106",
+  "design_spec": {
+    "name": "auto_生成式数字风洞测试_利用gans或扩散_aac959",
+    "display_name": "【生成式数字风洞测试】利用GANs或扩散模型生成‘极端异常工况’作为‘数字锤炼’，主动攻击正在训练中",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【生成式数字风洞测试】利用GANs或扩散模型生成‘极端异常工况’作为‘数字锤炼’，主动攻击正在训练中的ML模型或生成的设计图纸。系统不再等待现实中的Corner",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 266
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态认知规范化引擎_该能力不追求_58e268",
+  "file": "skills/auto_构建_动态认知规范化引擎_该能力不追求_58e268.py",
+  "description": "构建'动态认知规范化引擎'。该能力不追求静态的数据库范式，而是模仿人类认知的动态平衡。当新信息（数据）进入系统时，AI自动检测其与现有知识图谱的冲突（认知失调），通过重构知识结构（顺应）而非简单报错或覆盖，实现知识库的自我进化。这能解决传统数据仓库无法处理模糊、冲突信息的痛点，实现真正有弹性的AGI记忆系统。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_68",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:49:32.836616",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_68_O1_2542",
+  "design_spec": {
+    "name": "auto_构建_动态认知规范化引擎_该能力不追求_58e268",
+    "display_name": "构建'动态认知规范化引擎'。该能力不追求静态的数据库范式，而是模仿人类认知的动态平衡。当新信息（数据",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'动态认知规范化引擎'。该能力不追求静态的数据库范式，而是模仿人类认知的动态平衡。当新信息（数据）进入系统时，AI自动检测其与现有知识图谱的冲突（认知失调）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

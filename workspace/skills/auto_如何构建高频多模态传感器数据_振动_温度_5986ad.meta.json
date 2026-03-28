@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建高频多模态传感器数据_振动_温度_5986ad",
+  "file": "skills/auto_如何构建高频多模态传感器数据_振动_温度_5986ad.py",
+  "description": "如何构建高频多模态传感器数据（振动、温度、电流）与低频人工质检记录（OK/NG）之间的时间对齐映射机制？机器感知的数据是连续流，人类判断是离散事件。需要设计一个算法，能够自动识别出传感器波形中的‘特征片段’，并将其与人类打标的时间点进行模糊对齐，从而为AI赋予物理世界的‘体感’。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "time_series_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.683616",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q2_3_6928",
+  "design_spec": {
+    "name": "auto_如何构建高频多模态传感器数据_振动_温度_5986ad",
+    "display_name": "如何构建高频多模态传感器数据（振动、温度、电流）与低频人工质检记录（OK/NG）之间的时间对齐映射机",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建高频多模态传感器数据（振动、温度、电流）与低频人工质检记录（OK/NG）之间的时间对齐映射机制？机器感知的数据是连续流，人类判断是离散事件。需要设计一个",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_自下而上归纳_如何构建动态的_概念向量_3b8024",
+  "file": "skills/auto_自下而上归纳_如何构建动态的_概念向量_3b8024.py",
+  "description": "【自下而上归纳】如何构建动态的'概念向量空间'，使新产生的'真实节点'能够基于语义和逻辑相似性自动聚类，而非依赖静态的预训练嵌入？现有3176个节点中存在大量非结构化文本，需验证是否能通过无监督聚类算法（如HDBSCAN）自动识别出新的'重叠固化'节点，并解决语义漂移问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_125",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:56:53.302157",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_125_Q1_1_5992",
+  "design_spec": {
+    "name": "auto_自下而上归纳_如何构建动态的_概念向量_3b8024",
+    "display_name": "【自下而上归纳】如何构建动态的'概念向量空间'，使新产生的'真实节点'能够基于语义和逻辑相似性自动聚",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自下而上归纳】如何构建动态的'概念向量空间'，使新产生的'真实节点'能够基于语义和逻辑相似性自动聚类，而非依赖静态的预训练嵌入？现有3176个节点中存在大量非",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 335
+  }
+}

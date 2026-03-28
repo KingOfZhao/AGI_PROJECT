@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_多模态技艺幽灵_craft_gho_4e6dd3",
+  "file": "skills/auto_构建_多模态技艺幽灵_craft_gho_4e6dd3.py",
+  "description": "构建'多模态技艺幽灵（Craft-Ghost）'系统。利用RLHF框架，不仅处理代码报错，还能处理物理传感数据（如力度、温度、声音）。系统通过监听人类工匠操作时的声音（敲击声）或手感震动，建立'物理直觉'的损失函数。当操作偏离'真实节点'（最佳实践）时，通过骨传导耳机提供实时触觉/听觉反馈，实现手工艺技能的数字化'师徒'传承。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_110",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T04:30:49.712504",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_110_O1_526",
+  "design_spec": {
+    "name": "auto_构建_多模态技艺幽灵_craft_gho_4e6dd3",
+    "display_name": "构建'多模态技艺幽灵（Craft-Ghost）'系统。利用RLHF框架，不仅处理代码报错，还能处理物",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'多模态技艺幽灵（Craft-Ghost）'系统。利用RLHF框架，不仅处理代码报错，还能处理物理传感数据（如力度、温度、声音）。系统通过监听人类工匠操作时",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 257
+  }
+}

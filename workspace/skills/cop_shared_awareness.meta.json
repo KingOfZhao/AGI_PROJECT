@@ -1,0 +1,18 @@
+{
+  "name": "COP共享态势层",
+  "description": "双环态势网络体系的核心基础设施。包含任务态势板、三层知识存储(含重要度遗忘)、路径缓存、冲突检测、事件总线。所有节点通过COP感知全局态势。",
+  "tags": [
+    "共享态势", "COP", "任务管理", "知识图谱", "事件总线",
+    "路径缓存", "冲突检测", "遗忘机制", "态势感知", "基础设施"
+  ],
+  "category": "infrastructure",
+  "file": "workspace/cop_shared_awareness.py",
+  "version": "2.0",
+  "author": "local",
+  "safety_level": "safe",
+  "chain_position": "foundation",
+  "design": {
+    "components": ["EventBus", "TaskBoard", "KnowledgeStore", "ConflictDetector", "PathCache", "COPDB"],
+    "dependencies": ["sqlite3"]
+  }
+}

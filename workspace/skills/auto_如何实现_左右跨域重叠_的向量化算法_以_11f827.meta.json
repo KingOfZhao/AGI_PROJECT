@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_左右跨域重叠_的向量化算法_以_11f827",
+  "file": "skills/auto_如何实现_左右跨域重叠_的向量化算法_以_11f827.py",
+  "description": "如何实现‘左右跨域重叠’的向量化算法，以识别非显而易见的跨学科知识迁移路径？在2644个节点中，如何发现‘生物学细胞凋亡’与‘软件系统自毁机制’之间的潜在关联？本问题要求构建一个高维语义映射空间，计算不同领域节点的拓扑结构相似性，而非单纯的语义相似度，从而在看似无关的节点间生成‘弱连接’，促进创新性顿悟。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "Machine Learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.241185",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_102_Q2_3_4367",
+  "design_spec": {
+    "name": "auto_如何实现_左右跨域重叠_的向量化算法_以_11f827",
+    "display_name": "如何实现‘左右跨域重叠’的向量化算法，以识别非显而易见的跨学科知识迁移路径？在2644个节点中，如何",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现‘左右跨域重叠’的向量化算法，以识别非显而易见的跨学科知识迁移路径？在2644个节点中，如何发现‘生物学细胞凋亡’与‘软件系统自毁机制’之间的潜在关联？",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 262
+  }
+}

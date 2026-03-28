@@ -1,0 +1,36 @@
+{
+  "name": "自性代码验证器 v4",
+  "description": "对前序技能生成的代码进行自动测试、验证与修复。链式调用：生成pytest测试用例→模拟执行验证→修复所有问题→输出验证报告。与v1/v2/v3无缝衔接。",
+  "tags": [
+    "代码验证",
+    "测试生成",
+    "本地模型",
+    "自动修复",
+    "质量保证"
+  ],
+  "category": "testing",
+  "file": "workspace/skills/local_code_validator_v4.py",
+  "source": "local",
+  "safety_level": "safe",
+  "created_at": "2026-03-25T16:31:00.000000",
+  "forged_by": "user_skill_chain",
+  "version": "v4",
+  "design_spec": {
+    "name": "local_code_validator_v4",
+    "display_name": "自性代码验证器 v4",
+    "description": "自动生成测试用例、模拟执行、修复问题并输出验证报告",
+    "functions": [
+      {
+        "name": "run_full_chain",
+        "purpose": "启动完整验证链（生成测试→验证→修复→报告）",
+        "params": "code_to_validate (str): 待验证的代码",
+        "returns": "str: 修复后的代码 + 验证报告"
+      }
+    ],
+    "dependencies": ["requests"],
+    "tags": ["代码验证", "测试生成", "自动修复"],
+    "estimated_lines": 60,
+    "chain_position": 4,
+    "chain_family": "自性技能链"
+  }
+}

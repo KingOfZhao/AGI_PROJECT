@@ -1,0 +1,30 @@
+{
+  "name": "auto_自底而上的组件归纳与复用_在现有1543_df2967",
+  "file": "skills/auto_自底而上的组件归纳与复用_在现有1543_df2967.py",
+  "description": "自底而上的组件归纳与复用：在现有1543个SKILL节点的基础上，如何通过分析历史代码库，自动识别重复出现的代码模式并将其抽象为新的'真实节点'（即新的技能包）？这涉及到无监督的代码聚类与语义泛化能力，旨在解决代码冗余问题。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_88",
+    "machine_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T21:43:31.817312",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_88_Q7_3_8354",
+  "design_spec": {
+    "name": "auto_自底而上的组件归纳与复用_在现有1543_df2967",
+    "display_name": "自底而上的组件归纳与复用：在现有1543个SKILL节点的基础上，如何通过分析历史代码库，自动识别重",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自底而上的组件归纳与复用：在现有1543个SKILL节点的基础上，如何通过分析历史代码库，自动识别重复出现的代码模式并将其抽象为新的'真实节点'（即新的技能包）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 335
+  }
+}

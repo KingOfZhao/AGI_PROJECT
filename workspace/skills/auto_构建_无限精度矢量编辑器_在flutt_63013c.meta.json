@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_无限精度矢量编辑器_在flutt_63013c",
+  "file": "skills/auto_构建_无限精度矢量编辑器_在flutt_63013c.py",
+  "description": "构建'无限精度矢量编辑器'。在Flutter中实现NURBS曲线的原生渲染和交互。不同于普通SVG的Path，这种能力允许用户在移动端进行CAD级别的曲线控制点推拉、曲率梳分析，并能无损导出为工业制造格式(如DXF/STEP)。这填补了Flutter在高端矢量编辑工具领域的空白，可开发类似Vectorworks或Illustrator的移动端专业工具。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_102",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:17:34.251841",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_102_O4_4839",
+  "design_spec": {
+    "name": "auto_构建_无限精度矢量编辑器_在flutt_63013c",
+    "display_name": "构建'无限精度矢量编辑器'。在Flutter中实现NURBS曲线的原生渲染和交互。不同于普通SVG的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'无限精度矢量编辑器'。在Flutter中实现NURBS曲线的原生渲染和交互。不同于普通SVG的Path，这种能力允许用户在移动端进行CAD级别的曲线控制点",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 359
+  }
+}

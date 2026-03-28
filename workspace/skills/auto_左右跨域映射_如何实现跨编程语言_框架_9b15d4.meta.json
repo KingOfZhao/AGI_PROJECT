@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域映射_如何实现跨编程语言_框架_9b15d4",
+  "file": "skills/auto_左右跨域映射_如何实现跨编程语言_框架_9b15d4.py",
+  "description": "【左右跨域映射】如何实现跨编程语言/框架的“真实节点”迁移？即，将Python的列表推导式逻辑，准确地映射为Rust的迭代器逻辑，而非简单的语法翻译。这需要构建一种语言无关的“中间表达（IR）”，作为不同域之间的重叠固化节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "Compiler/Transfer Learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:30.759955",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q5_3_4775",
+  "design_spec": {
+    "name": "auto_左右跨域映射_如何实现跨编程语言_框架_9b15d4",
+    "display_name": "【左右跨域映射】如何实现跨编程语言/框架的“真实节点”迁移？即，将Python的列表推导式逻辑，准确",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域映射】如何实现跨编程语言/框架的“真实节点”迁移？即，将Python的列表推导式逻辑，准确地映射为Rust的迭代器逻辑，而非简单的语法翻译。这需要构建",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

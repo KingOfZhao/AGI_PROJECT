@@ -1,0 +1,30 @@
+{
+  "name": "auto_左右跨域_跨产线的知识泛化与迁移_如何_bcf0d5",
+  "file": "skills/auto_左右跨域_跨产线的知识泛化与迁移_如何_bcf0d5.py",
+  "description": "【左右跨域】跨产线的知识泛化与迁移：如何构建迁移学习框架，使得在A产线（如汽车焊接）上习得的‘精度控制节点’或‘异常检测节点’，能够快速适配到B产线（如电子组装），通过最小量的微调（Few-shot）实现跨域复用，解决工业数据孤岛问题？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_90",
+    "transfer_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T22:25:00.460090",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_90_Q8_3_1964",
+  "design_spec": {
+    "name": "auto_左右跨域_跨产线的知识泛化与迁移_如何_bcf0d5",
+    "display_name": "【左右跨域】跨产线的知识泛化与迁移：如何构建迁移学习框架，使得在A产线（如汽车焊接）上习得的‘精度控",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【左右跨域】跨产线的知识泛化与迁移：如何构建迁移学习框架，使得在A产线（如汽车焊接）上习得的‘精度控制节点’或‘异常检测节点’，能够快速适配到B产线（如电子组装",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

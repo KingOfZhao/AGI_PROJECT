@@ -1,0 +1,30 @@
+{
+  "name": "auto_面向人机共生的_不确定性反馈_接口_当a_7a6c15",
+  "file": "skills/auto_面向人机共生的_不确定性反馈_接口_当a_7a6c15.py",
+  "description": "面向人机共生的'不确定性反馈'接口：当AI遇到多个权重相近的候选解释时（即认知僵局），如何生成对人类最友好的'最小分辨问题'？这要求系统能够计算不同解释的'信息熵减潜力'，并向人类提出二选一或多选一的验证请求。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_82",
+    "HCI",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T19:40:26.348610",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_82_Q5_1_3701",
+  "design_spec": {
+    "name": "auto_面向人机共生的_不确定性反馈_接口_当a_7a6c15",
+    "display_name": "面向人机共生的'不确定性反馈'接口：当AI遇到多个权重相近的候选解释时（即认知僵局），如何生成对人类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "面向人机共生的'不确定性反馈'接口：当AI遇到多个权重相近的候选解释时（即认知僵局），如何生成对人类最友好的'最小分辨问题'？这要求系统能够计算不同解释的'信息",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 267
+  }
+}

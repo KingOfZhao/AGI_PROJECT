@@ -1,0 +1,30 @@
+{
+  "name": "auto_具身引用解析与约束注入_将代码生成中的_e11cd9",
+  "file": "skills/auto_具身引用解析与约束注入_将代码生成中的_e11cd9.py",
+  "description": "【具身引用解析与约束注入】将代码生成中的变量/参数处理视为认知科学中的'符号接地'问题。在生成代码时，AI不仅关注语法，还构建一个'运行时语境图'。当用户说'处理它'时，系统利用认知中的注意力机制锁定目标对象，并自动继承该对象的'属性约束'（如只读、大文件），将这些隐含属性转化为代码中的显式参数（如mode='a', chunk_size=1024），实现从模糊指代到严格参数的自动注入。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_121",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:01:04.677442",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_121_O2_4985",
+  "design_spec": {
+    "name": "auto_具身引用解析与约束注入_将代码生成中的_e11cd9",
+    "display_name": "【具身引用解析与约束注入】将代码生成中的变量/参数处理视为认知科学中的'符号接地'问题。在生成代码时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【具身引用解析与约束注入】将代码生成中的变量/参数处理视为认知科学中的'符号接地'问题。在生成代码时，AI不仅关注语法，还构建一个'运行时语境图'。当用户说'处",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 246
+  }
+}

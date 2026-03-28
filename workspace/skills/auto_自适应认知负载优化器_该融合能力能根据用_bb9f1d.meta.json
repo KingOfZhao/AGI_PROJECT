@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应认知负载优化器_该融合能力能根据用_bb9f1d",
+  "file": "skills/auto_自适应认知负载优化器_该融合能力能根据用_bb9f1d.py",
+  "description": "自适应认知负载优化器。该融合能力能根据用户的认知状态（新手vs专家），动态调整数据呈现的'规范化'程度。对于新手，系统提供高度规范化、逻辑清晰的原数据；对于专家，系统自动进行'认知反规范化'（聚合、预计算），以'组块'形式直接交付结论，最大限度降低专家的认知负荷，提升决策效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_127",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:16:02.049391",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_127_O2_5818",
+  "design_spec": {
+    "name": "auto_自适应认知负载优化器_该融合能力能根据用_bb9f1d",
+    "display_name": "自适应认知负载优化器。该融合能力能根据用户的认知状态（新手vs专家），动态调整数据呈现的'规范化'程",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "自适应认知负载优化器。该融合能力能根据用户的认知状态（新手vs专家），动态调整数据呈现的'规范化'程度。对于新手，系统提供高度规范化、逻辑清晰的原数据；对于专家",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

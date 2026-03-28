@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_认知状态追踪器_利用编译器的活跃_72de04",
+  "file": "skills/auto_开发_认知状态追踪器_利用编译器的活跃_72de04.py",
+  "description": "开发‘认知状态追踪器’。利用编译器的活跃变量分析和到达定值算法，来追踪长文本对话中实体的属性变化。例如在小说或复杂案情分析中，自动检测‘嫌疑人A在10:00被确认为死亡’，但在‘11:00出现在监控’的逻辑矛盾。这超越了简单的语义向量检索，进入了结构化逻辑校验的范畴。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.843736",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_129_O2_5696",
+  "design_spec": {
+    "name": "auto_开发_认知状态追踪器_利用编译器的活跃_72de04",
+    "display_name": "开发‘认知状态追踪器’。利用编译器的活跃变量分析和到达定值算法，来追踪长文本对话中实体的属性变化。例",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发‘认知状态追踪器’。利用编译器的活跃变量分析和到达定值算法，来追踪长文本对话中实体的属性变化。例如在小说或复杂案情分析中，自动检测‘嫌疑人A在10:00被确",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 341
+  }
+}

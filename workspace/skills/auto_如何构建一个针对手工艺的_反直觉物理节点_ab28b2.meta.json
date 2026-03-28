@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一个针对手工艺的_反直觉物理节点_ab28b2",
+  "file": "skills/auto_如何构建一个针对手工艺的_反直觉物理节点_ab28b2.py",
+  "description": "如何构建一个针对手工艺的“反直觉物理节点”？许多手工艺技巧（如抡大锤的最后一瞬放松）是反直觉的。AI需要通过强化学习（RL）探索出这些违反常规力学直觉但有效的操作。问题在于：如何设定奖励函数，使得AI在数亿次试错中能“碰撞”出这种反直觉的极值点？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "Reinforcement_Learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.507299",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_107_Q9_2_5156",
+  "design_spec": {
+    "name": "auto_如何构建一个针对手工艺的_反直觉物理节点_ab28b2",
+    "display_name": "如何构建一个针对手工艺的“反直觉物理节点”？许多手工艺技巧（如抡大锤的最后一瞬放松）是反直觉的。AI",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一个针对手工艺的“反直觉物理节点”？许多手工艺技巧（如抡大锤的最后一瞬放松）是反直觉的。AI需要通过强化学习（RL）探索出这些违反常规力学直觉但有效的操",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 289
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_全息证伪沙盒_针对高风险或高成本的专_02dd33",
+  "file": "skills/auto_全息证伪沙盒_针对高风险或高成本的专_02dd33.py",
+  "description": "【全息证伪沙盒】：针对高风险或高成本的专业领域（如外科手术、危机公关），构建具有游戏化'魔圈'属性的VR/AR实训环境。系统利用AI生成无限多的'边缘案例'（Edge Cases），让人类在'游戏'中进行高频证伪。系统通过监控人类在沙盒中的'心流状态'（Game侧指标）来判断技能内化的程度，而非仅仅看考试分数。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_100",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:43:01.617429",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_100_O2_2595",
+  "design_spec": {
+    "name": "auto_全息证伪沙盒_针对高风险或高成本的专_02dd33",
+    "display_name": "【全息证伪沙盒】：针对高风险或高成本的专业领域（如外科手术、危机公关），构建具有游戏化'魔圈'属性的",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【全息证伪沙盒】：针对高风险或高成本的专业领域（如外科手术、危机公关），构建具有游戏化'魔圈'属性的VR/AR实训环境。系统利用AI生成无限多的'边缘案例'（E",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 580
+  }
+}

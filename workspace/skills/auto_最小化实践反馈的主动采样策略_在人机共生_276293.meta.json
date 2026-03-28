@@ -1,0 +1,30 @@
+{
+  "name": "auto_最小化实践反馈的主动采样策略_在人机共生_276293",
+  "file": "skills/auto_最小化实践反馈的主动采样策略_在人机共生_276293.py",
+  "description": "最小化实践反馈的主动采样策略。在人机共生环节，AI生成的待验证清单是无限的，而人类精力有限。AI如何基于'信息熵'或'不确定性最大化'原则，从海量待证伪假设中筛选出'只需极少人类实践即可大幅降低系统熵'的关键问题？即构建一个'好奇心算法'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_3",
+    "active_learning",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T09:08:14.276222",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_3_Q5_2_39",
+  "design_spec": {
+    "name": "auto_最小化实践反馈的主动采样策略_在人机共生_276293",
+    "display_name": "最小化实践反馈的主动采样策略。在人机共生环节，AI生成的待验证清单是无限的，而人类精力有限。AI如何",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "最小化实践反馈的主动采样策略。在人机共生环节，AI生成的待验证清单是无限的，而人类精力有限。AI如何基于'信息熵'或'不确定性最大化'原则，从海量待证伪假设中筛",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 233
+  }
+}

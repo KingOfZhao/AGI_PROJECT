@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一个基于_语义项聚类_的动态意图_0e7c74",
+  "file": "skills/auto_如何构建一个基于_语义项聚类_的动态意图_0e7c74.py",
+  "description": "如何构建一个基于'语义项聚类'的动态意图骨架生成器？人类的模糊意图通常是离散的、跳跃的词汇（如'像苹果那样的用户体验'）。本问题旨在验证：是否可以通过对输入词汇进行高维向量聚类，自动生成一个有层级结构的'意图树'骨架，而非线性的Prompt。核心在于测试系统是否能将模糊的自然语言映射为结构化的JSON或Graph结构，作为后续代码生成的约束框架。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_16",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:56:02.247915",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_16_Q1_1_8514",
+  "design_spec": {
+    "name": "auto_如何构建一个基于_语义项聚类_的动态意图_0e7c74",
+    "display_name": "如何构建一个基于'语义项聚类'的动态意图骨架生成器？人类的模糊意图通常是离散的、跳跃的词汇（如'像苹",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一个基于'语义项聚类'的动态意图骨架生成器？人类的模糊意图通常是离散的、跳跃的词汇（如'像苹果那样的用户体验'）。本问题旨在验证：是否可以通过对输入词汇",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 310
+  }
+}

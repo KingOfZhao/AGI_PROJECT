@@ -1,0 +1,30 @@
+{
+  "name": "auto_抗干扰原子任务沙箱_融合能力_借鉴cs_702aaf",
+  "file": "skills/auto_抗干扰原子任务沙箱_融合能力_借鉴cs_702aaf.py",
+  "description": "【抗干扰原子任务沙箱】融合能力：借鉴CS中的'注意力漂移'测试机制，来优化SE中的'任务拆解'算法。当AI将一个大需求拆解为多个子任务（最小可执行单元）时，系统自动向每个子任务的上下文中注入'语义干扰项'（如无关的历史代码片段或误导性注释），以此测试该子任务逻辑的'鲁棒性'。如果子任务在干扰下生成了错误代码，说明该粒度过大或逻辑不独立，需要进一步拆解或强化边界。这是一种'压力测试下的任务分解'策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.466898",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_78_O4_1115",
+  "design_spec": {
+    "name": "auto_抗干扰原子任务沙箱_融合能力_借鉴cs_702aaf",
+    "display_name": "【抗干扰原子任务沙箱】融合能力：借鉴CS中的'注意力漂移'测试机制，来优化SE中的'任务拆解'算法。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【抗干扰原子任务沙箱】融合能力：借鉴CS中的'注意力漂移'测试机制，来优化SE中的'任务拆解'算法。当AI将一个大需求拆解为多个子任务（最小可执行单元）时，系统",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 344
+  }
+}

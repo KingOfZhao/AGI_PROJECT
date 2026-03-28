@@ -1,0 +1,30 @@
+{
+  "name": "auto_发明_张力增强特征提取法_在处理超长文_425b57",
+  "file": "skills/auto_发明_张力增强特征提取法_在处理超长文_425b57.py",
+  "description": "发明'张力增强特征提取法'。在处理超长文本或复杂图像时，不再单纯依赖概率Attention，而是引入建筑'空间序列'理论，人为设计'压抑-释放'的压缩通道，迫使AI在信息瓶颈处进行高密度的语义重组。这能显著提升AI对长距离依赖关系的处理能力和创造性输出。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_126",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:05:27.564643",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_126_O4_6284",
+  "design_spec": {
+    "name": "auto_发明_张力增强特征提取法_在处理超长文_425b57",
+    "display_name": "发明'张力增强特征提取法'。在处理超长文本或复杂图像时，不再单纯依赖概率Attention，而是引入",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "发明'张力增强特征提取法'。在处理超长文本或复杂图像时，不再单纯依赖概率Attention，而是引入建筑'空间序列'理论，人为设计'压抑-释放'的压缩通道，迫使",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

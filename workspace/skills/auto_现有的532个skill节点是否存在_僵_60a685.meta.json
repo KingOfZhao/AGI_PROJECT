@@ -1,0 +1,30 @@
+{
+  "name": "auto_现有的532个skill节点是否存在_僵_60a685",
+  "file": "skills/auto_现有的532个skill节点是否存在_僵_60a685.py",
+  "description": "现有的532个SKILL节点是否存在'僵尸依赖'？随着架构进化，部分底层技能可能已被上层组合技能覆盖，或因环境变化失效。本问题要求编写依赖图分析脚本，扫描所有SKILL节点的被调用路径，识别出那些从未被'真实节点'构建过程所引用的孤立技能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_25",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T17:20:04.820483",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_25_Q9_1_5175",
+  "design_spec": {
+    "name": "auto_现有的532个skill节点是否存在_僵_60a685",
+    "display_name": "现有的532个SKILL节点是否存在'僵尸依赖'？随着架构进化，部分底层技能可能已被上层组合技能覆盖",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "现有的532个SKILL节点是否存在'僵尸依赖'？随着架构进化，部分底层技能可能已被上层组合技能覆盖，或因环境变化失效。本问题要求编写依赖图分析脚本，扫描所有S",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

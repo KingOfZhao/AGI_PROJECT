@@ -1,0 +1,30 @@
+{
+  "name": "auto_在人机共生环节_如何实现_增量式固化_41ceff",
+  "file": "skills/auto_在人机共生环节_如何实现_增量式固化_41ceff.py",
+  "description": "在人机共生环节，如何实现“增量式固化”？工匠的技艺是随时间精进的。AI系统需要能够检测到工匠操作模式的显著漂移（例如从“平刀法”进化到“滚刀法”），并自动创建新版本的节点，而不是覆盖旧节点。这涉及到时间序列中的概念漂移检测。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_107",
+    "Data_Engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:42:29.508270",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_107_Q10_2_5156",
+  "design_spec": {
+    "name": "auto_在人机共生环节_如何实现_增量式固化_41ceff",
+    "display_name": "在人机共生环节，如何实现“增量式固化”？工匠的技艺是随时间精进的。AI系统需要能够检测到工匠操作模式",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在人机共生环节，如何实现“增量式固化”？工匠的技艺是随时间精进的。AI系统需要能够检测到工匠操作模式的显著漂移（例如从“平刀法”进化到“滚刀法”），并自动创建新",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 352
+  }
+}

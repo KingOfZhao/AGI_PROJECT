@@ -1,0 +1,30 @@
+{
+  "name": "auto_打造_自优化认知内核_将每一次人机交互_ac7647",
+  "file": "skills/auto_打造_自优化认知内核_将每一次人机交互_ac7647.py",
+  "description": "打造'自优化认知内核'。将每一次人机交互视为一次'Profiling'，AI不仅生成答案，还在后台编译一个针对该用户习惯的'专用Prompt版本'。随着对话进行，AI自动将通用知识'内联'进专用语境，减少冗余推理，实现越用越快、越用越懂你的个性化AGI。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_15",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T13:32:25.928942",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_15_O4_599",
+  "design_spec": {
+    "name": "auto_打造_自优化认知内核_将每一次人机交互_ac7647",
+    "display_name": "打造'自优化认知内核'。将每一次人机交互视为一次'Profiling'，AI不仅生成答案，还在后台编",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "打造'自优化认知内核'。将每一次人机交互视为一次'Profiling'，AI不仅生成答案，还在后台编译一个针对该用户习惯的'专用Prompt版本'。随着对话进行",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 258
+  }
+}

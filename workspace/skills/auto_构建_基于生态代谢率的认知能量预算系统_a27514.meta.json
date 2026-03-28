@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_基于生态代谢率的认知能量预算系统_a27514",
+  "file": "skills/auto_构建_基于生态代谢率的认知能量预算系统_a27514.py",
+  "description": "构建‘基于生态代谢率的认知能量预算系统’。不再单纯计算ROI，而是引入‘认知代谢标度律’。AI将根据环境资源的丰度（算力/数据量）动态调整‘认知体温’（活跃度）。在资源匮乏时，自动进入‘冬眠模式’或‘低代谢模式’，仅保留核心节点（如冬眠动物仅维持心跳），主动通过熵增机制‘遗忘’低ROI节点以降低系统维护成本，实现算力生存策略。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_100",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T01:43:01.618327",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_100_O1_1030",
+  "design_spec": {
+    "name": "auto_构建_基于生态代谢率的认知能量预算系统_a27514",
+    "display_name": "构建‘基于生态代谢率的认知能量预算系统’。不再单纯计算ROI，而是引入‘认知代谢标度律’。AI将根据",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建‘基于生态代谢率的认知能量预算系统’。不再单纯计算ROI，而是引入‘认知代谢标度律’。AI将根据环境资源的丰度（算力/数据量）动态调整‘认知体温’（活跃度）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 236
+  }
+}

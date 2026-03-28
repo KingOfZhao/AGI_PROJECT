@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于3532个现有节点_如何构建动态语义_938d99",
+  "file": "skills/auto_基于3532个现有节点_如何构建动态语义_938d99.py",
+  "description": "基于3532个现有节点，如何构建动态语义邻接图，使AI能识别认知网络中的'结构洞'（Structural Holes）？即发现那些理论上应存在但在当前知识图谱中缺失的连接。这要求算法不仅能计算节点间的距离，还能基于现有SKILL的输入输出向量，预测缺失的中间转换节点，从而主动提出'填补空白'的新知识假设，而非仅仅处理已有数据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "graph_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.540203",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_138_Q1_2_9508",
+  "design_spec": {
+    "name": "auto_基于3532个现有节点_如何构建动态语义_938d99",
+    "display_name": "基于3532个现有节点，如何构建动态语义邻接图，使AI能识别认知网络中的'结构洞'（Structur",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于3532个现有节点，如何构建动态语义邻接图，使AI能识别认知网络中的'结构洞'（Structural Holes）？即发现那些理论上应存在但在当前知识图谱中",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 263
+  }
+}

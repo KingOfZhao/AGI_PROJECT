@@ -1,0 +1,30 @@
+{
+  "name": "auto_一种人机交互的动态控制论系统_它不再追求_49aaaf",
+  "file": "skills/auto_一种人机交互的动态控制论系统_它不再追求_49aaaf.py",
+  "description": "一种人机交互的动态控制论系统。它不再追求单纯的信息传输效率，而是以维持人类‘最佳认知体验（心流）’为目标。系统实时监测‘认知摩擦力’（如交互延迟、报错率、瞳孔/肌电数据），构建双向自适应协议。当检测到人类过载时，自动降低输出粒度或切换模态（如从文本转为空间视觉），利用物理空间约束辅助注意力聚焦。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_101",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:00:48.119350",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "bu_101_P4_7240",
+  "design_spec": {
+    "name": "auto_一种人机交互的动态控制论系统_它不再追求_49aaaf",
+    "display_name": "一种人机交互的动态控制论系统。它不再追求单纯的信息传输效率，而是以维持人类‘最佳认知体验（心流）’为",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "一种人机交互的动态控制论系统。它不再追求单纯的信息传输效率，而是以维持人类‘最佳认知体验（心流）’为目标。系统实时监测‘认知摩擦力’（如交互延迟、报错率、瞳孔/",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 247
+  }
+}

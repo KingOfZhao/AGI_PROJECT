@@ -1,0 +1,30 @@
+{
+  "name": "auto_代码意图一致性_ai能否将一段复杂的遗_151dab",
+  "file": "skills/auto_代码意图一致性_ai能否将一段复杂的遗_151dab.py",
+  "description": "【代码意图一致性】AI能否将一段复杂的遗留代码（Legacy Code）准确重构为自然语言功能描述，并由另一个独立的AI实例根据该描述重新生成代码，使得新代码的测试通过率与原代码一致？这验证了AI是否掌握了代码的'语义真实节点'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_61",
+    "software_engineering",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T15:20:13.663275",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_61_Q3_2_3033",
+  "design_spec": {
+    "name": "auto_代码意图一致性_ai能否将一段复杂的遗_151dab",
+    "display_name": "【代码意图一致性】AI能否将一段复杂的遗留代码（Legacy Code）准确重构为自然语言功能描述，",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【代码意图一致性】AI能否将一段复杂的遗留代码（Legacy Code）准确重构为自然语言功能描述，并由另一个独立的AI实例根据该描述重新生成代码，使得新代码的",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

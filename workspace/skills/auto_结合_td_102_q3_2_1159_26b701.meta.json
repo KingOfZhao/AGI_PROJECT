@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_td_102_q3_2_1159_26b701",
+  "file": "skills/auto_结合_td_102_q3_2_1159_26b701.py",
+  "description": "结合[td_102_Q3_2_1159]的物理直觉预测、[td_102_Q2_2_1159]的触觉映射与[td_101_Q1_1_8386]的结构化映射能力。AI不仅能理解文本指令，还能在内部物理仿真引擎中模拟触觉反馈和材料形变，从而在执行前“预感”到动作的物理后果（如“捏得太紧会碎”），实现真正的具身智能。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_103",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:33:37.863291",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_103_E1_5877",
+  "design_spec": {
+    "name": "auto_结合_td_102_q3_2_1159_26b701",
+    "display_name": "结合[td_102_Q3_2_1159]的物理直觉预测、[td_102_Q2_2_1159]的触觉映",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合[td_102_Q3_2_1159]的物理直觉预测、[td_102_Q2_2_1159]的触觉映射与[td_101_Q1_1_8386]的结构化映射能力。A",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 314
+  }
+}

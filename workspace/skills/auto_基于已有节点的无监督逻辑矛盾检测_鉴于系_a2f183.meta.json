@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于已有节点的无监督逻辑矛盾检测_鉴于系_a2f183",
+  "file": "skills/auto_基于已有节点的无监督逻辑矛盾检测_鉴于系_a2f183.py",
+  "description": "基于已有节点的无监督逻辑矛盾检测：鉴于系统已包含1871个节点，如何构建一个图遍历算法（如基于神经符号的逻辑推理），自动识别节点间隐含的语义冲突？例如，节点A“增加盐度可防腐”与节点B“某些嗜盐菌在浓盐环境中繁殖”之间的潜在冲突。目标是无需人工干预，发现知识库内部的逻辑不自洽。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_69",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:55:07.392355",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_69_Q1_3_5254",
+  "design_spec": {
+    "name": "auto_基于已有节点的无监督逻辑矛盾检测_鉴于系_a2f183",
+    "display_name": "基于已有节点的无监督逻辑矛盾检测：鉴于系统已包含1871个节点，如何构建一个图遍历算法（如基于神经符",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于已有节点的无监督逻辑矛盾检测：鉴于系统已包含1871个节点，如何构建一个图遍历算法（如基于神经符号的逻辑推理），自动识别节点间隐含的语义冲突？例如，节点A“",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

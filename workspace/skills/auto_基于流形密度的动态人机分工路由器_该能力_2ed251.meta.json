@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于流形密度的动态人机分工路由器_该能力_2ed251",
+  "file": "skills/auto_基于流形密度的动态人机分工路由器_该能力_2ed251.py",
+  "description": "基于流形密度的动态人机分工路由器。该能力通过计算输入数据在潜空间中的'邻居密度'来判定AI的置信度。如果数据位于稠密区（AI有经验），则全自动处理；如果位于稀疏区（边缘案例），则触发'认知困惑'信号，请求人类介入。这模拟了人类'知之为知之，不知为不知'的元认知能力，实现了算力的最优分配。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_115",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T07:07:03.851780",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_115_O4_9245",
+  "design_spec": {
+    "name": "auto_基于流形密度的动态人机分工路由器_该能力_2ed251",
+    "display_name": "基于流形密度的动态人机分工路由器。该能力通过计算输入数据在潜空间中的'邻居密度'来判定AI的置信度。",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于流形密度的动态人机分工路由器。该能力通过计算输入数据在潜空间中的'邻居密度'来判定AI的置信度。如果数据位于稠密区（AI有经验），则全自动处理；如果位于稀疏",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 244
+  }
+}

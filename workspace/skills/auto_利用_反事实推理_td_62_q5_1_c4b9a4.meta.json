@@ -1,0 +1,30 @@
+{
+  "name": "auto_利用_反事实推理_td_62_q5_1_c4b9a4",
+  "file": "skills/auto_利用_反事实推理_td_62_q5_1_c4b9a4.py",
+  "description": "利用'反事实推理(td_62_Q5_1_8212)'和'生成式模型扩充(td_62_Q8_1_8212)'，在系统空闲时（休眠状态），将'白天'采集的碎片化信息进行高强度的组合演练。这不是简单的重放，而是生成'从未发生过但逻辑合理'的场景进行预训练，优化现有SKILL的权重。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_63",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T16:02:00.833833",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_63_E2_2276",
+  "design_spec": {
+    "name": "auto_利用_反事实推理_td_62_q5_1_c4b9a4",
+    "display_name": "利用'反事实推理(td_62_Q5_1_8212)'和'生成式模型扩充(td_62_Q8_1_821",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "利用'反事实推理(td_62_Q5_1_8212)'和'生成式模型扩充(td_62_Q8_1_8212)'，在系统空闲时（休眠状态），将'白天'采集的碎片化信息",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

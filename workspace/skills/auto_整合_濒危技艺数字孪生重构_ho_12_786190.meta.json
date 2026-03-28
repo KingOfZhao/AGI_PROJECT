@@ -1,0 +1,30 @@
+{
+  "name": "auto_整合_濒危技艺数字孪生重构_ho_12_786190",
+  "file": "skills/auto_整合_濒危技艺数字孪生重构_ho_12_786190.py",
+  "description": "整合'濒危技艺数字孪生重构'（ho_123_O5_7667）与'生成式对抗应力测试'（ho_123_O2_7667）。针对失传或濒危的工艺，AI利用现有稀疏点生成'推测性填补'，随后'魔鬼代言人'模块立即对该填补进行极端物理攻击。通过这种'生成-攻击'的对抗博弈，系统快速收敛出最接近真实物理逻辑的失传技艺复原方案。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.802951",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_124_E3_4099",
+  "design_spec": {
+    "name": "auto_整合_濒危技艺数字孪生重构_ho_12_786190",
+    "display_name": "整合'濒危技艺数字孪生重构'（ho_123_O5_7667）与'生成式对抗应力测试'（ho_123_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "整合'濒危技艺数字孪生重构'（ho_123_O5_7667）与'生成式对抗应力测试'（ho_123_O2_7667）。针对失传或濒危的工艺，AI利用现有稀疏点生",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

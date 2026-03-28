@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何构建一个_意图参数化中间件_将模糊_87dfd6",
+  "file": "skills/auto_如何构建一个_意图参数化中间件_将模糊_87dfd6.py",
+  "description": "如何构建一个'意图参数化中间件'，将模糊的自然语言（如'做一个好玩的贪吃蛇'）转化为带有约束条件的结构化JSON对象？该中间件需利用已存在的2978个认知节点作为语义锚点，识别出缺失的参数，并生成针对性的澄清问题，而不是直接产生幻觉。这是将非结构化意图转化为结构化逻辑的第一道关卡。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_118",
+    "nlp_interface",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T09:00:13.779414",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_118_Q1_3_6830",
+  "design_spec": {
+    "name": "auto_如何构建一个_意图参数化中间件_将模糊_87dfd6",
+    "display_name": "如何构建一个'意图参数化中间件'，将模糊的自然语言（如'做一个好玩的贪吃蛇'）转化为带有约束条件的结",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何构建一个'意图参数化中间件'，将模糊的自然语言（如'做一个好玩的贪吃蛇'）转化为带有约束条件的结构化JSON对象？该中间件需利用已存在的2978个认知节点作",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 257
+  }
+}

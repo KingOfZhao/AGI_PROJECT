@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建一套_和声动力学知识图谱维护系统_f0b5bf",
+  "file": "skills/auto_构建一套_和声动力学知识图谱维护系统_f0b5bf.py",
+  "description": "构建一套'和声动力学知识图谱维护系统'。不使用简单的线性衰减算法，而是模拟音乐中的'解决'与'离调'机制。当某个知识节点（如过时的IT方案）长期未被调用，系统会自动增加其'不协和张力'（降低权重，移至图谱边缘），直到通过一次成功的'人机交互实践'（类似解决到主音）来重置其状态。这使得知识库的遗忘机制具有结构性，而非单纯的删除，保留了知识复兴的可能性（如布鲁斯的回归）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.047056",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_123_O1_2331",
+  "design_spec": {
+    "name": "auto_构建一套_和声动力学知识图谱维护系统_f0b5bf",
+    "display_name": "构建一套'和声动力学知识图谱维护系统'。不使用简单的线性衰减算法，而是模拟音乐中的'解决'与'离调'",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建一套'和声动力学知识图谱维护系统'。不使用简单的线性衰减算法，而是模拟音乐中的'解决'与'离调'机制。当某个知识节点（如过时的IT方案）长期未被调用，系统会",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

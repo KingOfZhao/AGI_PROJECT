@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_基于孤立森林的认知边界探测_td_c00646",
+  "file": "skills/auto_结合_基于孤立森林的认知边界探测_td_c00646.py",
+  "description": "结合'基于孤立森林的认知边界探测'（td_123_Q1_2_2525）与'认知碰撞价值淘汰机制'（td_123_Q8_0_9686）。利用孤立森林识别高概率存在的空白区域（暗物质），同时利用网络介数中心性分析保留那些连接这些空白区域的关键'桥梁节点'。系统将具备主动探索'未知领域'的能力，而非仅处理已知数据。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.807397",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_124_E4_4099",
+  "design_spec": {
+    "name": "auto_结合_基于孤立森林的认知边界探测_td_c00646",
+    "display_name": "结合'基于孤立森林的认知边界探测'（td_123_Q1_2_2525）与'认知碰撞价值淘汰机制'（t",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'基于孤立森林的认知边界探测'（td_123_Q1_2_2525）与'认知碰撞价值淘汰机制'（td_123_Q8_0_9686）。利用孤立森林识别高概率存在",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

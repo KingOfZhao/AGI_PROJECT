@@ -1,0 +1,30 @@
+{
+  "name": "auto_多模态感官交叉验证机制_当ai通过文本学_bf64e5",
+  "file": "skills/auto_多模态感官交叉验证机制_当ai通过文本学_bf64e5.py",
+  "description": "多模态感官交叉验证机制：当AI通过文本学习到一个概念（如'猫有四条腿'），尝试调用图像生成模型生成对应图像，再调用图像识别模型反向解析该图像。如果反向解析的结果与原概念不符（如生成了三腿猫且未被识别为异常），则证明该概念节点内部表征不稳定。这是'重叠固化为真实节点'的多模态版本。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_74",
+    "computer_vision",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:23:35.747174",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_74_Q9_3_3694",
+  "design_spec": {
+    "name": "auto_多模态感官交叉验证机制_当ai通过文本学_bf64e5",
+    "display_name": "多模态感官交叉验证机制：当AI通过文本学习到一个概念（如'猫有四条腿'），尝试调用图像生成模型生成对",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "多模态感官交叉验证机制：当AI通过文本学习到一个概念（如'猫有四条腿'），尝试调用图像生成模型生成对应图像，再调用图像识别模型反向解析该图像。如果反向解析的结果",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

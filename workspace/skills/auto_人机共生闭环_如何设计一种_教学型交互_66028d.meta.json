@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生闭环_如何设计一种_教学型交互_66028d",
+  "file": "skills/auto_人机共生闭环_如何设计一种_教学型交互_66028d.py",
+  "description": "【人机共生闭环】如何设计一种‘教学型交互界面’，当AI遇到模糊指令（如‘把这个表面处理得光一点’）时，能引导工人进行二元选择（如‘是镜面光还是哑光光？’），并将这一交互过程转化为新的语义节点，避免下次重复询问？这是实现‘人类赋予新概念’的关键。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_105",
+    "UX_design",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:08:47.242132",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_105_Q6_3_4162",
+  "design_spec": {
+    "name": "auto_人机共生闭环_如何设计一种_教学型交互_66028d",
+    "display_name": "【人机共生闭环】如何设计一种‘教学型交互界面’，当AI遇到模糊指令（如‘把这个表面处理得光一点’）时",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【人机共生闭环】如何设计一种‘教学型交互界面’，当AI遇到模糊指令（如‘把这个表面处理得光一点’）时，能引导工人进行二元选择（如‘是镜面光还是哑光光？’），并将",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 543
+  }
+}

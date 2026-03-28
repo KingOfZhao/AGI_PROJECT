@@ -1,0 +1,35 @@
+{
+  "name": "gstack/gstack-browse-engine",
+  "slug": "gstack_gstack_browse_engine",
+  "description": "Fast headless browser for QA testing and site dogfooding. Navigate any URL, interact with elements, verify page state, diff before/after actions, take annotated screenshots, check responsive layouts, test forms and uploads, handle dialogs, and assert element states. ~100ms per command. Use when you need to test a feature, verify a deployment, dogfood a user flow, or file a bug with evidence. Use when asked to \"open in browser\", \"test the site\", \"take a screenshot\", or \"dogfood this\".",
+  "description_zh": "",
+  "tags": [
+    "gstack",
+    "workflow",
+    "qa-testing",
+    "open_source",
+    "mit_license",
+    "claude_code",
+    "ai_engineering"
+  ],
+  "url": "https://github.com/garrytan/gstack/tree/main/browse",
+  "source": "gstack",
+  "author": "Garry Tan (YC CEO)",
+  "license": "MIT",
+  "version": "1.1.0",
+  "category": "qa-testing",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "AskUserQuestion"
+  ],
+  "has_hooks": false,
+  "safety_level": "warning",
+  "safety_reasons": [
+    "WARNING: telemetry — 包含遥测/数据收集功能 (opt-in, 但需注意)",
+    "WARNING: cookie_access — 访问浏览器 cookie / 系统钥匙串",
+    "WARNING: external_network — 存在外部网络请求"
+  ],
+  "created_at": "2026-03-25T15:32:03.542561",
+  "imported_by": "gstack_skill_importer"
+}

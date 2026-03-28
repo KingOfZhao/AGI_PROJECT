@@ -1,0 +1,30 @@
+{
+  "name": "auto_实时代码驱动建模环境_开发一种ide插件_d069cb",
+  "file": "skills/auto_实时代码驱动建模环境_开发一种ide插件_d069cb.py",
+  "description": "实时代码驱动建模环境。开发一种IDE插件或运行时环境，允许工程师在Flutter应用中编写代码（如类似OpenSCAD的脚本），代码的修改能像Hot Reload一样瞬间反映在3D预览窗口中。这消除了'编写脚本 -> 编译 -> 打开软件 -> 导入 -> 查看'的冗长链条，将编程与建模合二为一，极大提升参数化设计效率。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_104",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T02:51:37.490528",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_104_O5_9410",
+  "design_spec": {
+    "name": "auto_实时代码驱动建模环境_开发一种ide插件_d069cb",
+    "display_name": "实时代码驱动建模环境。开发一种IDE插件或运行时环境，允许工程师在Flutter应用中编写代码（如类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "实时代码驱动建模环境。开发一种IDE插件或运行时环境，允许工程师在Flutter应用中编写代码（如类似OpenSCAD的脚本），代码的修改能像Hot Reloa",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

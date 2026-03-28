@@ -1,0 +1,30 @@
+{
+  "name": "auto_自适应纠错认知固化系统_融合能力描述_9453be",
+  "file": "skills/auto_自适应纠错认知固化系统_融合能力描述_9453be.py",
+  "description": "【自适应纠错认知固化系统】融合能力描述：将自动化测试的“错误堆栈”转化为认知层面的“知识修正”。当沙箱内的代码运行失败时，系统不仅回滚代码，更利用认知模型分析错误根源（是逻辑缺陷、环境缺失还是意图误解？），并将这次失败转化为一个“负向真实节点”存入知识库。下次遇到类似任务时，AI能直接调用该“失败记忆”避开错误路径，实现真正的‘吃一堑长一智’，而非单纯的ReAct重试。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_138",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T13:53:15.572056",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_138_O2_3828",
+  "design_spec": {
+    "name": "auto_自适应纠错认知固化系统_融合能力描述_9453be",
+    "display_name": "【自适应纠错认知固化系统】融合能力描述：将自动化测试的“错误堆栈”转化为认知层面的“知识修正”。当沙",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自适应纠错认知固化系统】融合能力描述：将自动化测试的“错误堆栈”转化为认知层面的“知识修正”。当沙箱内的代码运行失败时，系统不仅回滚代码，更利用认知模型分析错",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 345
+  }
+}

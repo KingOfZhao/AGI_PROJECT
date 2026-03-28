@@ -1,0 +1,35 @@
+{
+  "name": "governance_dynasty_cycle_reasoning",
+  "display_name": "治理层级推演·王朝循环制",
+  "description": "基于人类5000年全球治理经验, 通过王朝循环制(推演→构建→反贼→分裂→一统)推演最优AI Agent层级架构。包含完整推演引擎、结果数据、收敛分析、敏感词系统、Bug修复记录、用户命令日志。零回避: 所有未完成项均标记。",
+  "tags": ["治理推演", "王朝循环", "层级体系", "反贼检测", "六向碰撞", "OODA", "COP", "Agent架构", "GLM-5", "敏感词过滤"],
+  "version": "2.0",
+  "status": "production",
+  "truth_level": "L3_Capability",
+  "source_files": [
+    "docs/管理制度/governance_reasoning_engine.py",
+    "docs/管理制度/gov_db.py",
+    "docs/管理制度/start.sh"
+  ],
+  "output_files": [
+    "docs/管理制度/推演报告_20260325_150456.md",
+    "docs/管理制度/推演报告_20260325_R21-30_收敛分析.md",
+    "docs/管理制度/最优层级体系_20260325_R30_定型.json",
+    "docs/管理制度/王朝记录/"
+  ],
+  "statistics": {
+    "total_runs": 3,
+    "total_nodes": 2573,
+    "total_rebels": 51,
+    "suppression_rate": "100%",
+    "dynasty_changes": 4,
+    "final_score": 91,
+    "convergence_round": 30,
+    "sensitive_word_rules": 42,
+    "bug_fixes": 5,
+    "incomplete_items": 7,
+    "user_commands": 8
+  },
+  "created_at": "2026-03-26T09:03:00+08:00",
+  "author": "Zhao Dylan"
+}

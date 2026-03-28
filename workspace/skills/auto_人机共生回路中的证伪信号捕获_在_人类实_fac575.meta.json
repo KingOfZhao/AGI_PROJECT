@@ -1,0 +1,30 @@
+{
+  "name": "auto_人机共生回路中的证伪信号捕获_在_人类实_fac575",
+  "file": "skills/auto_人机共生回路中的证伪信号捕获_在_人类实_fac575.py",
+  "description": "人机共生回路中的证伪信号捕获：在'人类实践证伪'环节，如何从非结构化的对话或代码修改中自动提取'负反馈'信号？需要构建一个分类器，专门识别'修正'、'回滚'、'推翻'等意图，并将其转化为针对特定节点的'惩罚分值'。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_43",
+    "sentiment_analysis",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T08:27:24.774962",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_43_Q3_0_7480",
+  "design_spec": {
+    "name": "auto_人机共生回路中的证伪信号捕获_在_人类实_fac575",
+    "display_name": "人机共生回路中的证伪信号捕获：在'人类实践证伪'环节，如何从非结构化的对话或代码修改中自动提取'负反",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "人机共生回路中的证伪信号捕获：在'人类实践证伪'环节，如何从非结构化的对话或代码修改中自动提取'负反馈'信号？需要构建一个分类器，专门识别'修正'、'回滚'、'",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

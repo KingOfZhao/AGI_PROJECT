@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_变奏式代码重构引擎_该能力不只是_5fe4d2",
+  "file": "skills/auto_开发_变奏式代码重构引擎_该能力不只是_5fe4d2.py",
+  "description": "开发'变奏式代码重构引擎'。该能力不只是简单的代码压缩，而是像音乐变奏一样，保留核心逻辑（真实节点），根据上下文需求动态调整代码的'密度'。对于高性能需求场景，执行'减值'操作（展开循环、内联函数以增加速度）；对于存储或传输场景，执行'增值'操作（抽象、压缩）。这使得代码在不同约束下能自动'演奏'出不同形态，但内核（功能）保持一致。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_124",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:45:41.789722",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_124_O2_3832",
+  "design_spec": {
+    "name": "auto_开发_变奏式代码重构引擎_该能力不只是_5fe4d2",
+    "display_name": "开发'变奏式代码重构引擎'。该能力不只是简单的代码压缩，而是像音乐变奏一样，保留核心逻辑（真实节点）",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'变奏式代码重构引擎'。该能力不只是简单的代码压缩，而是像音乐变奏一样，保留核心逻辑（真实节点），根据上下文需求动态调整代码的'密度'。对于高性能需求场景，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

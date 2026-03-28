@@ -1,0 +1,30 @@
+{
+  "name": "auto_自上而下证伪_反事实推演与仿真验证_当_909213",
+  "file": "skills/auto_自上而下证伪_反事实推演与仿真验证_当_909213.py",
+  "description": "【自上而下证伪】反事实推演与仿真验证：当AI生成一个新的工艺优化方案（真实节点雏形）时，如何在虚拟仿真环境中进行“压力测试”以证伪其有效性？即寻找导致该方案失败的边界条件。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_108",
+    "digital_twin",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T03:58:13.943623",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_108_Q4_1_4814",
+  "design_spec": {
+    "name": "auto_自上而下证伪_反事实推演与仿真验证_当_909213",
+    "display_name": "【自上而下证伪】反事实推演与仿真验证：当AI生成一个新的工艺优化方案（真实节点雏形）时，如何在虚拟仿",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "【自上而下证伪】反事实推演与仿真验证：当AI生成一个新的工艺优化方案（真实节点雏形）时，如何在虚拟仿真环境中进行“压力测试”以证伪其有效性？即寻找导致该方案失败",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 335
+  }
+}

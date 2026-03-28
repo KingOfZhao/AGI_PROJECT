@@ -1,0 +1,30 @@
+{
+  "name": "auto_在_左右跨域重叠_中_如何评估_重叠部分_57431f",
+  "file": "skills/auto_在_左右跨域重叠_中_如何评估_重叠部分_57431f.py",
+  "description": "在'左右跨域重叠'中，如何评估'重叠部分'的真实性？当节点A（领域1）和节点B（领域2）发生重叠生成新节点C时，C的质量是否取决于A和B在向量空间中的夹角？如果夹角过小（过于相似），C可能无用；如果夹角过大（风马牛不相及），C可能荒谬。是否存在一个'创新甜点区'的夹角范围，能作为自动筛选有效碰撞的过滤器？",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_78",
+    "computational_creativity",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:50:16.436732",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_78_Q8_0_1342",
+  "design_spec": {
+    "name": "auto_在_左右跨域重叠_中_如何评估_重叠部分_57431f",
+    "display_name": "在'左右跨域重叠'中，如何评估'重叠部分'的真实性？当节点A（领域1）和节点B（领域2）发生重叠生成",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "在'左右跨域重叠'中，如何评估'重叠部分'的真实性？当节点A（领域1）和节点B（领域2）发生重叠生成新节点C时，C的质量是否取决于A和B在向量空间中的夹角？如果",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

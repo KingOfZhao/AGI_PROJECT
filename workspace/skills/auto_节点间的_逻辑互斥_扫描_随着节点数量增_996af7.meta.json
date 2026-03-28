@@ -1,0 +1,30 @@
+{
+  "name": "auto_节点间的_逻辑互斥_扫描_随着节点数量增_996af7",
+  "file": "skills/auto_节点间的_逻辑互斥_扫描_随着节点数量增_996af7.py",
+  "description": "节点间的'逻辑互斥'扫描：随着节点数量增长，局部自洽可能导致全局矛盾。需要开发一个后台进程，定期对全量节点进行两两或三三组合的逻辑一致性检查。例如，节点A说'所有鸟会飞'，节点B说'企鹅是鸟'，节点C说'企鹅不会飞'。系统需识别出A、B、C构成的集合存在逻辑张力，并提示需要修正节点A（增加限制条件）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_122",
+    "formal_logic",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:16:14.812075",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_122_Q9_1_3841",
+  "design_spec": {
+    "name": "auto_节点间的_逻辑互斥_扫描_随着节点数量增_996af7",
+    "display_name": "节点间的'逻辑互斥'扫描：随着节点数量增长，局部自洽可能导致全局矛盾。需要开发一个后台进程，定期对全",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "节点间的'逻辑互斥'扫描：随着节点数量增长，局部自洽可能导致全局矛盾。需要开发一个后台进程，定期对全量节点进行两两或三三组合的逻辑一致性检查。例如，节点A说'所",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 324
+  }
+}

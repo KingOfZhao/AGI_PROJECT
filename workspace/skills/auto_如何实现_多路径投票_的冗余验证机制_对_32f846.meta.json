@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何实现_多路径投票_的冗余验证机制_对_32f846",
+  "file": "skills/auto_如何实现_多路径投票_的冗余验证机制_对_32f846.py",
+  "description": "如何实现'多路径投票'的冗余验证机制？对于关键决策，强制系统分别使用'逻辑推演'、'案例归纳'、'类比迁移'三种路径独立生成结论。若三者在结果空间上不收敛（重叠度低），则判定该问题超出现有能力范围。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_52",
+    "decision_theory",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T12:11:54.559968",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_52_Q7_1_7462",
+  "design_spec": {
+    "name": "auto_如何实现_多路径投票_的冗余验证机制_对_32f846",
+    "display_name": "如何实现'多路径投票'的冗余验证机制？对于关键决策，强制系统分别使用'逻辑推演'、'案例归纳'、'类",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何实现'多路径投票'的冗余验证机制？对于关键决策，强制系统分别使用'逻辑推演'、'案例归纳'、'类比迁移'三种路径独立生成结论。若三者在结果空间上不收敛（重叠",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 309
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_如何将老师傅的隐性_手感_如抛光的力度_8c92ad",
+  "file": "skills/auto_如何将老师傅的隐性_手感_如抛光的力度_8c92ad.py",
+  "description": "如何将老师傅的隐性‘手感’（如抛光的力度、下刀的角度）转化为可量化的参数范围？这涉及到‘自下而上归纳构建’。需要通过穿戴设备或力控传感器记录专家操作的微观高频数据，与新手数据进行对比，提取出差异特征向量，将模糊的‘手感’固化为具体的‘力矩曲线’真实节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_140",
+    "human_machine_interface",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T14:23:05.684544",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_140_Q3_3_6928",
+  "design_spec": {
+    "name": "auto_如何将老师傅的隐性_手感_如抛光的力度_8c92ad",
+    "display_name": "如何将老师傅的隐性‘手感’（如抛光的力度、下刀的角度）转化为可量化的参数范围？这涉及到‘自下而上归纳",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "如何将老师傅的隐性‘手感’（如抛光的力度、下刀的角度）转化为可量化的参数范围？这涉及到‘自下而上归纳构建’。需要通过穿戴设备或力控传感器记录专家操作的微观高频数",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

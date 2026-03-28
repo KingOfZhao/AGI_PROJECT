@@ -1,0 +1,30 @@
+{
+  "name": "auto_结合_人机共生编码器_td_113_q_6401db",
+  "file": "skills/auto_结合_人机共生编码器_td_113_q_6401db.py",
+  "description": "结合'人机共生编码器'（td_113_Q1_1_6945）、'微动作分解'（td_112_Q3_2_4709）与'具身知识数字化'（bu_113_P1_563），系统将能够实时捕捉人类专家的隐性微动作（如手感、力度），将其转化为标准化的数字参数，并自动生成SOP或直接驱动工业机器人。这不仅是复制动作，更是将人类的'直觉'量化为可编程的逻辑，实现真正的工业知识数字化传承。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_114",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T05:34:56.207685",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "deep_reasoning",
+  "source_node_id": "em_114_E1_7299",
+  "design_spec": {
+    "name": "auto_结合_人机共生编码器_td_113_q_6401db",
+    "display_name": "结合'人机共生编码器'（td_113_Q1_1_6945）、'微动作分解'（td_112_Q3_2_",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "结合'人机共生编码器'（td_113_Q1_1_6945）、'微动作分解'（td_112_Q3_2_4709）与'具身知识数字化'（bu_113_P1_563）",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 284
+  }
+}

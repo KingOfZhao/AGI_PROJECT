@@ -1,0 +1,30 @@
+{
+  "name": "auto_模糊需求的可执行化拆解树构建_对于复杂的_e66a9a",
+  "file": "skills/auto_模糊需求的可执行化拆解树构建_对于复杂的_e66a9a.py",
+  "description": "模糊需求的可执行化拆解树构建：对于复杂的宏观意图（如'构建一个推荐系统'），如何利用蒙特卡洛树搜索（MCTS）或思维链，将其拆解为1944个已有节点构成的依赖树？验证重点在于拆解出的叶子节点是否全部为系统中已存在的'真实节点'（可执行单元）。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_71",
+    "cognitive_architecture",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T17:06:14.833906",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_71_Q5_1_4454",
+  "design_spec": {
+    "name": "auto_模糊需求的可执行化拆解树构建_对于复杂的_e66a9a",
+    "display_name": "模糊需求的可执行化拆解树构建：对于复杂的宏观意图（如'构建一个推荐系统'），如何利用蒙特卡洛树搜索（",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "模糊需求的可执行化拆解树构建：对于复杂的宏观意图（如'构建一个推荐系统'），如何利用蒙特卡洛树搜索（MCTS）或思维链，将其拆解为1944个已有节点构成的依赖树",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "auto_针对_肌肉记忆_的隐性特征_研究如何利用_423879",
+  "file": "skills/auto_针对_肌肉记忆_的隐性特征_研究如何利用_423879.py",
+  "description": "针对'肌肉记忆'的隐性特征，研究如何利用EMG（肌电图）信号或计算机视觉估算的肌肉张力，构建'生理状态-动作质量'关联模型。验证'松弛感'或'爆发力'等主观词汇在生理信号上的具体数值分布，将其固化为AI可理解的真实节点。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_42",
+    "biomechanics",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T07:43:40.034829",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_42_Q5_2_7850",
+  "design_spec": {
+    "name": "auto_针对_肌肉记忆_的隐性特征_研究如何利用_423879",
+    "display_name": "针对'肌肉记忆'的隐性特征，研究如何利用EMG（肌电图）信号或计算机视觉估算的肌肉张力，构建'生理状",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "针对'肌肉记忆'的隐性特征，研究如何利用EMG（肌电图）信号或计算机视觉估算的肌肉张力，构建'生理状态-动作质量'关联模型。验证'松弛感'或'爆发力'等主观词汇",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 325
+  }
+}

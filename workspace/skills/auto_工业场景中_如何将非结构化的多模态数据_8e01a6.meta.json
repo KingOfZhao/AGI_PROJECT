@@ -1,0 +1,30 @@
+{
+  "name": "auto_工业场景中_如何将非结构化的多模态数据_8e01a6",
+  "file": "skills/auto_工业场景中_如何将非结构化的多模态数据_8e01a6.py",
+  "description": "工业场景中，如何将非结构化的多模态数据（如维修工人的口述录音、现场混乱的维修视频）转化为结构化的【故障现象-操作动作-结果状态】三元组？需要建立一个解析流水线，能够从噪声音频和抖动视频中提取关键动作节点，并将其与已有故障现象节点进行语义对齐，剔除无效的闲聊和无关背景帧，生成具备逻辑连贯性的维修叙事链。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_30",
+    "industrial_automation",
+    "parallel"
+  ],
+  "created_at": "2026-03-24T20:02:19.338879",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_30_Q1_3_3105",
+  "design_spec": {
+    "name": "auto_工业场景中_如何将非结构化的多模态数据_8e01a6",
+    "display_name": "工业场景中，如何将非结构化的多模态数据（如维修工人的口述录音、现场混乱的维修视频）转化为结构化的【故",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "工业场景中，如何将非结构化的多模态数据（如维修工人的口述录音、现场混乱的维修视频）转化为结构化的【故障现象-操作动作-结果状态】三元组？需要建立一个解析流水线，",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 445
+  }
+}

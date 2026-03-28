@@ -1,0 +1,30 @@
+{
+  "name": "auto_基于向量空间的本体论冲突检测_当ai利用_c0c18b",
+  "file": "skills/auto_基于向量空间的本体论冲突检测_当ai利用_c0c18b.py",
+  "description": "基于向量空间的本体论冲突检测：当AI利用跨域重叠（左右碰撞）生成新的'真实节点'建议时，如何算法化地识别'认知伪相关'？具体而言，需开发一种图神经网络算法，检测两个看似相似但实践上下文截然不同的节点（如'生物进化'与'软件迭代'），避免错误合并导致的认知坍塌。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_47",
+    "cognitive_science",
+    "parallel"
+  ],
+  "created_at": "2026-03-25T10:08:12.251617",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "glm5_generated",
+  "source_node_id": "td_47_Q1_0_483",
+  "design_spec": {
+    "name": "auto_基于向量空间的本体论冲突检测_当ai利用_c0c18b",
+    "display_name": "基于向量空间的本体论冲突检测：当AI利用跨域重叠（左右碰撞）生成新的'真实节点'建议时，如何算法化地",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "基于向量空间的本体论冲突检测：当AI利用跨域重叠（左右碰撞）生成新的'真实节点'建议时，如何算法化地识别'认知伪相关'？具体而言，需开发一种图神经网络算法，检测",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

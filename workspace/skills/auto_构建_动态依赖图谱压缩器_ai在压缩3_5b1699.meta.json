@@ -1,0 +1,30 @@
+{
+  "name": "auto_构建_动态依赖图谱压缩器_ai在压缩3_5b1699",
+  "file": "skills/auto_构建_动态依赖图谱压缩器_ai在压缩3_5b1699.py",
+  "description": "构建'动态依赖图谱压缩器'。AI在压缩300页书籍时，不生成线性的A4摘要，而是生成一个'可折叠的技能树'。只有当用户点击（激活）并验证了前置节点（如基础概率论）后，后置的高密度节点（如贝叶斯博弈）才会解锁并展示。这种能力解决了高密度信息摄入时的'认知过载'，实现了基于人脑带宽的自适应知识压缩。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_129",
+    "cross_domain",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T11:29:37.847868",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "collision",
+  "source_node_id": "ho_129_O3_6746",
+  "design_spec": {
+    "name": "auto_构建_动态依赖图谱压缩器_ai在压缩3_5b1699",
+    "display_name": "构建'动态依赖图谱压缩器'。AI在压缩300页书籍时，不生成线性的A4摘要，而是生成一个'可折叠的技",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "构建'动态依赖图谱压缩器'。AI在压缩300页书籍时，不生成线性的A4摘要，而是生成一个'可折叠的技能树'。只有当用户点击（激活）并验证了前置节点（如基础概率论",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

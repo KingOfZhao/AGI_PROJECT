@@ -1,0 +1,30 @@
+{
+  "name": "auto_开发_跨模态物理一致性校验节点_将视觉_2f56cd",
+  "file": "skills/auto_开发_跨模态物理一致性校验节点_将视觉_2f56cd.py",
+  "description": "开发'跨模态物理一致性校验节点'，将视觉感知的物体运动与触觉感知的力反馈进行物理方程拟合，修正纯数据驱动的偏差。",
+  "tags": [
+    "auto_growth",
+    "glm5_generated",
+    "round_123",
+    "general",
+    "parallel"
+  ],
+  "created_at": "2026-03-26T10:33:48.081372",
+  "forged_by": "growth_engine_v5_parallel",
+  "source": "knowledge_gap",
+  "source_node_id": "gap_123_G_Physical_Grounding_7466",
+  "design_spec": {
+    "name": "auto_开发_跨模态物理一致性校验节点_将视觉_2f56cd",
+    "display_name": "开发'跨模态物理一致性校验节点'，将视觉感知的物体运动与触觉感知的力反馈进行物理方程拟合，修正纯数据",
+    "functions": [
+      {
+        "name": "execute",
+        "purpose": "开发'跨模态物理一致性校验节点'，将视觉感知的物体运动与触觉感知的力反馈进行物理方程拟合，修正纯数据驱动的偏差。",
+        "params": [],
+        "returns": "Dict"
+      }
+    ],
+    "dependencies": [],
+    "estimated_lines": 8
+  }
+}

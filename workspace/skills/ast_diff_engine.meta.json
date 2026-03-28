@@ -1,0 +1,30 @@
+{
+  "skill_name": "ast_diff_engine",
+  "version": "1.0.0",
+  "deduction_round": "Round 2/5",
+  "deducer": "Claude Opus 4",
+  "framework": "ULDS v2.1",
+  "truth_level": "L3_capability",
+  "truth_evidence": "6/6 unit tests passed, rename detection verified, syntax error safe",
+  "domain": "code/ast_analysis",
+  "tags": ["ast", "diff", "multi_file", "rename_detection", "swe_bench", "patch"],
+  "ulds_laws": ["L1_math", "L5_information", "L4_logic", "L8_symmetry"],
+  "surpass_strategies": ["S4_four_direction_collision", "S7_zero_avoidance", "S5_truth_level"],
+  "breakthrough_target": "B1_SWE_Bench_35_to_55",
+  "chain_convergence": "F(syntax)→V(source)→F(AST)→V(edits)→F(min_edit_seq)→V(patch)",
+  "zero_avoidance": {
+    "CD01_boundary": "Empty file safe, syntax error degrades to text diff",
+    "CD04_type_mismatch": "AST node type validation before comparison"
+  },
+  "test_results": {
+    "test_basic_diff": "PASS (3 ops: update, rename, insert)",
+    "test_multi_file_diff": "PASS (2 ops across 2 files)",
+    "test_syntax_error_safety": "PASS",
+    "test_empty_file": "PASS",
+    "test_rename_detection": "PASS",
+    "test_patch_format": "PASS"
+  },
+  "file": "workspace/skills/ast_diff_engine.py",
+  "lines_of_code": 320,
+  "created": "2026-03-26T17:35:00+08:00"
+}
