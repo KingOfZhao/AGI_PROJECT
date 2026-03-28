@@ -515,3 +515,158 @@ def calc_score_line_params(thickness_mm: float,
     }
 
 
+
+
+# 从 confirmed_knowledge_base 节点0179-0183提取的材料数据库
+MATERIAL_CATALOG = {
+    "white_card_300": {
+        "name": "白卡300gsm",
+        "gsm": 300, "thickness_mm": 0.38,
+        "mc_std_pct": 5.0, "mc_range": 1.0,
+        "alpha_md": 3.0e-5, "alpha_cd": 8.0e-5,  # 1%RH
+        "fiber": "紧密", "note": "精品盒常用面料"
+    },
+    "white_card_450": {
+        "name": "白卡450gsm",
+        "gsm": 450, "thickness_mm": 0.60,
+        "mc_std_pct": 5.5, "mc_range": 1.0,
+        "alpha_md": 3.5e-5, "alpha_cd": 9.0e-5,
+        "fiber": "紧密", "note": "精装盒面料"
+    },
+    "corrugated_B": {
+        "name": "B瓦楞",
+        "gsm": 0, "thickness_mm": 3.0,
+        "mc_std_pct": 7.0, "mc_range": 2.0,
+        "alpha_md": 1.2e-4, "alpha_cd": 3.5e-4,
+        "fiber": "多层", "note": "需考虑压实效应"
+    },
+    "corrugated_E": {
+        "name": "E瓦楞",
+        "gsm": 0, "thickness_mm": 1.25,
+        "mc_std_pct": 7.0, "mc_range": 2.0,
+        "alpha_md": 1.0e-4, "alpha_cd": 3.0e-4,
+        "fiber": "多层", "note": "易压溃,K因子敏感"
+    },
+    "corrugated_F": {
+        "name": "F瓦楞(微)",
+        "gsm": 0, "thickness_mm": 0.75,
+        "mc_std_pct": 6.5, "mc_range": 1.0,
+        "alpha_md": 9.0e-5, "alpha_cd": 2.8e-4,
+        "fiber": "多层", "note": "极薄,模切精度要求极高"
+    },
+    "greyboard_1.5": {
+        "name": "灰板1.5mm",
+        "gsm": 0, "thickness_mm": 1.5,
+        "mc_std_pct": 8.0, "mc_range": 2.0,
+        "alpha_md": 4.0e-5, "alpha_cd": 1.0e-4,
+        "fiber": "回收废纸", "note": "书脊/礼盒盖板"
+    },
+}
+
+
+def calc_humidity_expansion(material_key: str, length_mm: float,
+                            delta_rh_pct: float, direction: str = "cd") -> dict:
+    """
+    计算湿度引起的尺寸变化
+    
+    公式: ΔL = L × alpha × ΔRH
+    
+    Args:
+        material_key: 材料键名
+        length_mm: 尺寸(mm)
+        delta_rh_pct: 含水率变化百分比(如6%→12%则为6)
+        direction: "md"(机器方向) 或 "cd"(横向)
+    
+    Returns:
+        dict with expansion details
+    """
+    mat = MATERIAL_CATALOG.get(material_key)
+    if not mat:
+        return {"error": f"未知材料: {material_key}"}
+    
+    alpha = mat["alpha_md"] if direction == "md" else mat["alpha_cd"]
+    delta_l = length_mm * alpha * delta_rh_pct
+    
+    return {
+        "material": mat["name"],
+        "length_mm": length_mm,
+        "direction": direction,
+        "delta_rh_pct": delta_rh_pct,
+        "alpha_per_rh": alpha,
+        "delta_l_mm": round(delta_l, 3),
+        "delta_l_pct": round(delta_l / length_mm * 100, 4),
+    }
+
+
+def calc_jiangzhehu_delta_jiangsu(
+    length_mm: float, mc_from: float = 7.0, mc_to: float = 12.0,
+    material_key: str = "white_card_300"
+) -> dict:
+    """
+    计算江浙沪全年MC波动对具体尺寸的影响
+    
+    场景: 江浙沪MC范围约7%-17%, 以年均12%为基准
+    """
+    md = calc_humidity_expansion(material_key, length_mm, mc_to - mc_from, "md")
+    cd = calc_humidity_expansion(material_key, length_mm, mc_to - mc_from, "cd")
+    
+    return {
+        "length_mm": length_mm,
+        "mc_range_pct": f"{mc_from}-{mc_to}%",
+        "md_expansion_mm": md["delta_l_mm"],
+        "cd_expansion_mm": cd["delta_l_mm"],
+        "cd_larger_by": round(cd["delta_l_mm"] / md["delta_l_mm"], 2),
+        "warning": "CD方向膨胀约为MD的2-3倍" if cd["delta_l_mm"] > md["delta_l_mm"] * 2 else None,
+    }
+
+
+
+
+# 膨胀系数修正因子
+# 纯材料alpha vs 实际生产alpha 的差距来源:
+# 1. 裱合胶水吸湿 → 二次膨胀
+# 2. 纸板压实后松弛 → 回弹
+# 3. 多层结构应力释放
+# 节点0133实测: 白卡500mm盒身, MC 6→12%, CD膨胀≈1.8mm
+# 反推alpha_effective ≈ 6e-4/1%MC (vs 纯材料8e-5)
+# 修正系数 K_lam ≈ 7.5
+
+ALPHA_CORRECTION_FACTORS = {
+    "single_sheet": 1.0,        # 单张纸, 纯材料系数
+    "laminated_2ply": 3.0,      # 两层裱纸
+    "laminated_3ply": 5.0,      # 三层(面+瓦楞+里)
+    "production_typical": 7.5,  # 实际生产(含裱合+压实+松弛)
+}
+
+
+def calc_production_expansion(material_key: str, length_mm: float,
+                               delta_mc_pct: float, direction: str = "cd",
+                               correction: str = "production_typical") -> dict:
+    """
+    计算实际生产环境下的膨胀（含裱合/压实修正）
+    
+    纯材料系数 × 修正因子 = 生产环境有效系数
+    """
+    mat = MATERIAL_CATALOG.get(material_key)
+    if not mat:
+        return {"error": f"未知材料: {material_key}"}
+    
+    alpha_base = mat["alpha_md"] if direction == "md" else mat["alpha_cd"]
+    k = ALPHA_CORRECTION_FACTORS.get(correction, 1.0)
+    alpha_eff = alpha_base * k
+    
+    delta_l = length_mm * alpha_eff * delta_mc_pct
+    
+    return {
+        "material": mat["name"],
+        "length_mm": length_mm,
+        "direction": direction,
+        "delta_mc_pct": delta_mc_pct,
+        "alpha_base": alpha_base,
+        "correction_factor": k,
+        "alpha_effective": alpha_eff,
+        "delta_l_mm": round(delta_l, 3),
+        "correction_type": correction,
+    }
+
+
