@@ -670,3 +670,90 @@ def calc_production_expansion(material_key: str, length_mm: float,
     }
 
 
+
+
+# 标准测试/交付环境条件（节点0364确认）
+STANDARD_ENVIRONMENTS = {
+    "ISO_287": {
+        "name": "ISO 287 标准测试条件",
+        "temp_c": 23, "rh_pct": 50,
+        "mc_target_pct": None,  # 不规定MC，只规定环境
+        "use": "实验室测试",
+    },
+    "DIN_54302": {
+        "name": "DIN 54302 标准条件",
+        "temp_c": 23, "rh_pct": 50,
+        "mc_target_pct": None,
+        "use": "欧洲标准测试",
+    },
+    "JIS_P8127": {
+        "name": "JIS P 8127 交付平衡",
+        "temp_c": 20, "rh_pct": 65,
+        "mc_target_pct": None,
+        "use": "日本交付后平衡环境",
+    },
+    "GB_T462": {
+        "name": "GB/T 462 出厂条件",
+        "temp_c": None, "rh_pct": None,
+        "mc_target_pct": 10.0,  # MC 10% ± 2%
+        "mc_range_pct": 2.0,
+        "use": "中国出厂含水率",
+    },
+    "FEFCO_Code": {
+        "name": "FEFCO Code MC基准",
+        "temp_c": None, "rh_pct": None,
+        "mc_target_pct": 7.0,  # MC 7% ± 1%
+        "mc_range_pct": 1.0,
+        "use": "FEFCO含水率基准",
+    },
+}
+
+
+def calc_env_pre_expansion(material_key: str, length_mm: float,
+                            from_standard: str, to_standard: str,
+                            direction: str = "cd") -> dict:
+    """
+    计算跨标准环境的预膨胀量
+    
+    出口订单需引入环境预膨胀系数 K_env
+    例如: GB出厂(10%MC) → JIS交付(20℃/65%RH ≈ 12%MC)
+    """
+    env_from = STANDARD_ENVIRONMENTS.get(from_standard)
+    env_to = STANDARD_ENVIRONMENTS.get(to_standard)
+    mat = MATERIAL_CATALOG.get(material_key)
+    
+    if not env_from or not env_to or not mat:
+        return {"error": "未知标准或材料"}
+    
+    # 从MC出发
+    mc_from = env_from.get("mc_target_pct", 8.0)
+    mc_to = env_to.get("mc_target_pct", 12.0)
+    
+    # 如果目标只有环境条件，估算MC
+    if mc_to is None and env_to["rh_pct"]:
+        # 粗略估算: MC ≈ RH * 0.18 (经验公式)
+        mc_to = env_to["rh_pct"] * 0.18
+    
+    if mc_from is None and env_from["rh_pct"]:
+        mc_from = env_from["rh_pct"] * 0.18
+    
+    delta_mc = mc_to - mc_from
+    
+    # 使用生产环境膨胀系数
+    alpha = mat["alpha_md"] if direction == "md" else mat["alpha_cd"]
+    alpha_eff = alpha * ALPHA_CORRECTION_FACTORS["production_typical"]
+    delta_l = length_mm * alpha_eff * delta_mc
+    
+    return {
+        "from": env_from["name"],
+        "to": env_to["name"],
+        "mc_from_pct": round(mc_from, 1),
+        "mc_to_pct": round(mc_to, 1),
+        "delta_mc_pct": round(delta_mc, 1),
+        "length_mm": length_mm,
+        "direction": direction,
+        "delta_l_mm": round(delta_l, 3),
+        "recommendation": "需要在2D展开图上预留此膨胀量" if delta_l > 0.1 else "膨胀量可忽略",
+    }
+
+
