@@ -243,3 +243,4 @@
 {"ts":"2026-03-29T02:25:00","task":"T5","action":"all_tests_passing","total_tests":31,"passed":31,"failed":0,"previous":27_29,"fix":"cognitive_core_returns_list_not_string"}
 {"ts":"2026-03-29T02:30:00","task":"T5","action":"all_33_tests_passing","modules_tested":6,"tests_per_module":{"cognitive_core":4,"error_budget":14,"machine_database":5,"node_cleaner":2,"diepre_api":3,"standards_database":5}}
 {"ts":"2026-03-29T02:35:00","task":"T3","action":"extracted_tolerance_parameters","parameters":77,"range":"0.05-3.9mm","output":"data/tolerance_parameters.json","key_finding":"Bobst_best_0.05mm_vs_domestic_0.30mm"}
+{"ts":"2026-03-29T02:50:00","task":"T2","action":"super_node_0324_full_analysis","new_known":4,"total_known":29,"key_findings":["RSS_distribution_assumption_invalid","glue_layer_0.05-0.1mm","glue_drying_shrinkage_0.3-0.8mm","corrugated_scoring_formula"]}

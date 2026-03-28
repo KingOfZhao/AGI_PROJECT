@@ -34,9 +34,9 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 
 # 配置
-IDLE_THRESHOLD_SECONDS = 300  # 5分钟无请求视为闲置
-GROWTH_INTERVAL_SECONDS = 600  # 每10分钟执行一轮推演
-MAX_GROWTH_PER_SESSION = 20   # 每轮最多推演20个任务
+IDLE_THRESHOLD_SECONDS = 600  # 10分钟无请求视为闲置
+GROWTH_INTERVAL_SECONDS = 1800  # 每30分钟执行一轮推演
+MAX_GROWTH_PER_SESSION = 5   # 每轮最多推演5个任务（降低频率）
 
 PID_FILE = PROJECT_ROOT / ".idle_growth.pid"
 STATE_FILE = PROJECT_ROOT / ".idle_growth_state.json"

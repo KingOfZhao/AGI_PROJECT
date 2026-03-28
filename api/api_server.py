@@ -203,6 +203,8 @@ def api_console():
 
 @app.route('/api/stats')
 def api_stats():
+    if lattice is None:
+        return jsonify({"error": "系统未初始化，请重启服务", "initialized": False}), 503
     # API-3: 30秒TTL缓存
     stats = cached_response('stats', 30, lambda: lattice.stats())
     return jsonify(stats)
@@ -210,6 +212,8 @@ def api_stats():
 
 @app.route('/api/domains')
 def api_domains():
+    if lattice is None:
+        return jsonify({"error": "系统未初始化"}), 503
     # DB-3: 单条GROUP BY聚合查询替代N+1查询
     c = lattice.conn.cursor()
     c.execute("""
@@ -224,6 +228,8 @@ def api_domains():
 
 @app.route('/api/nodes')
 def api_nodes():
+    if lattice is None:
+        return jsonify({"error": "系统未初始化", "nodes": [], "total": 0}), 503
     domain = request.args.get('domain', '')
     status = request.args.get('status', '')
     search = request.args.get('search', '')
@@ -277,6 +283,8 @@ def api_nodes():
 
 @app.route('/api/relations')
 def api_relations():
+    if lattice is None:
+        return jsonify([]), 503
     limit = int(request.args.get('limit', 100))
     c = lattice.conn.cursor()
     c.execute("""
@@ -296,6 +304,8 @@ def api_relations():
 def api_graph():
     """返回图谱数据：节点+边，用于力导向图可视化
     API-2: 按连接度降序排列，优先返回核心节点"""
+    if lattice is None:
+        return jsonify({"nodes": [], "edges": []}), 503
     limit = int(request.args.get('limit', 300))
     domain = request.args.get('domain', '')
     node_id = request.args.get('node_id', '')
@@ -355,6 +365,8 @@ def api_graph():
 
 @app.route('/api/growth_log')
 def api_growth_log():
+    if lattice is None:
+        return jsonify([]), 503
     limit = int(request.args.get('limit', 20))
     history = lattice.get_growth_history(limit)
     return jsonify(history)
@@ -1679,7 +1691,7 @@ def api_batch_auto_problems():
 def api_orchestrator_stats():
     """Orchestrator 统计数据"""
     if not task_orchestrator:
-        return jsonify({"error": "Orchestrator未初始化"}), 500
+        return jsonify({"error": "Orchestrator未初始化"}), 503
     try:
         stats = task_orchestrator.get_orchestrator_stats()
         return jsonify({"success": True, **stats})
@@ -1691,7 +1703,7 @@ def api_orchestrator_stats():
 def api_unsolvable_problems():
     """获取无法处理的问题列表"""
     if not task_orchestrator:
-        return jsonify({"error": "Orchestrator未初始化"}), 500
+        return jsonify({"error": "Orchestrator未初始化"}), 503
     try:
         limit = int(request.args.get('limit', 50))
         problems = task_orchestrator.get_unsolvable_problems(limit)
@@ -3604,8 +3616,15 @@ def init_app():
     print(f"  [API] 工作区: {action_engine.WORKSPACE_DIR}")
 
 
-if __name__ == '__main__':
+# 模块加载时自动初始化（支持 gunicorn / 直接导入）
+try:
     init_app()
+except Exception as _init_err:
+    import sys
+    print(f"[WARN] api_server init_app failed: {_init_err}", file=sys.stderr)
+
+if __name__ == '__main__':
+    pass  # init_app() already called above
     # ★ 预热：在Flask启动前初始化所有懒加载模型，避免并发请求导致segfault ★
     print("  [预热] 初始化 Embedding 模型...")
     try:
