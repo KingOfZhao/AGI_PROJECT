@@ -1,12 +1,11 @@
 """
-test_core.py — 核心模块统一测试套件 v2
+test_core.py — 核心模块统一测试套件 v3
 运行: python3 tests/test_core.py
 """
 
 import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'core'))
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'core'))
 
 passed = 0
 failed = 0
@@ -27,12 +26,12 @@ def test_cognitive_core():
     from cognitive_core import make_top_down_prompt, make_bottom_up_prompt
 
     p1 = make_top_down_prompt("测试问题")
-    test("top_down返回消息列表", isinstance(p1, list), f"got {type(p1)}")
-    test("top_down非空", len(p1) >= 2, f"got {len(p1)}")
+    test("top_down返回消息列表", isinstance(p1, list))
+    test("top_down非空", len(p1) >= 2)
 
     p2 = make_bottom_up_prompt("测试观察", "diecut")
-    test("bottom_up返回消息列表", isinstance(p2, list), f"got {type(p2)}")
-    test("bottom_up非空", len(p2) >= 2, f"got {len(p2)}")
+    test("bottom_up返回消息列表", isinstance(p2, list))
+    test("bottom_up非空", len(p2) >= 2)
 
 
 def test_error_budget():
@@ -40,9 +39,9 @@ def test_error_budget():
     from error_budget import (
         calc_s_type_shrinkage, calc_fan_error, calc_total_budget,
         calc_crease_bridge_width, calc_critical_angle, calc_mc_compat_range,
-        scenario_jiangzhehu_no_control, scenario_controlled_warehouse,
-        scenario_seasonal_calibrated, ErrorSource, ErrorCategory,
-        MATERIALS, calc_bct_box_crush_test, calc_score_line_params,
+        scenario_jiangzhehu_no_control, scenario_seasonal_calibrated,
+        ErrorSource, ErrorCategory, MATERIALS,
+        calc_bct_box_crush_test, calc_score_line_params,
     )
 
     s = calc_s_type_shrinkage(0.12, MATERIALS["white_card_300"])
@@ -63,7 +62,8 @@ def test_error_budget():
     ]
     budget = calc_total_budget(errors)
     test("总误差>0", budget["total_budget_mm"] > 0)
-    test("安全系数影响", calc_total_budget(errors, safety_k=1.5)["total_budget_mm"] > budget["total_budget_mm"])
+    test("安全系数影响",
+         calc_total_budget(errors, safety_k=1.5)["total_budget_mm"] > budget["total_budget_mm"])
 
     bw = calc_crease_bridge_width(1.0, 30)
     test("清废桥宽>0", bw > 0)
@@ -79,11 +79,9 @@ def test_error_budget():
     r2 = scenario_seasonal_calibrated()
     test("受控误差更小", r2["total_budget_mm"] < r1["total_budget_mm"])
 
-    # BCT
     bct = calc_bct_box_crush_test(6.5, 1200, 1.5)
     test("BCT>0", bct["bct_n"] > 0)
 
-    # 压痕线
     score = calc_score_line_params(1.5, "fefco")
     test("压痕宽>0", score["width_mm"] > 0)
 
@@ -96,7 +94,8 @@ def test_machine_database():
     )
 
     test("设备非空", len(MACHINES) >= 6)
-    test("Bobst优于国产", MACHINES["bobst_sp104e"].precision_mm < MACHINES["changrong_mk1060"].precision_mm)
+    test("Bobst优于国产",
+         MACHINES["bobst_sp104e"].precision_mm < MACHINES["changrong_mk1060"].precision_mm)
 
     contrib = calc_machine_error_contribution(0.3, 0.5)
     test("国产贡献率~60%", 55 < contrib["contribution_pct"] < 65)
@@ -112,7 +111,10 @@ def test_machine_database():
 def test_node_cleaner():
     print("\n[node_cleaner.py]")
     from node_cleaner import parse_node_file
-    r = parse_node_file("/Users/administruter/Desktop/DiePre AI/待存入节点/20260324_104245_0003_REAL_SUCCESS_standard_international.md")
+    r = parse_node_file(
+        "/Users/administruter/Desktop/DiePre AI/待存入节点/"
+        "20260324_104245_0003_REAL_SUCCESS_standard_international.md"
+    )
     test("解析返回dict", isinstance(r, dict))
     test("node_id=0003", r["node_id"] == "0003")
 
@@ -146,9 +148,55 @@ def test_standards_database():
     test("规则非空", len(checks) > 0)
 
 
+def test_production_expansion():
+    print("\n[error_budget.py - production_expansion]")
+    from error_budget import (
+        calc_production_expansion, calc_env_pre_expansion,
+        calc_humidity_expansion, MATERIAL_CATALOG,
+        ALPHA_CORRECTION_FACTORS, STANDARD_ENVIRONMENTS,
+    )
+
+    # 节点0133验证
+    r = calc_production_expansion("white_card_300", 500, 6, "cd", "production_typical")
+    val = r["delta_l_mm"]
+    test("节点0133验证1.8mm", abs(val - 1.8) < 0.01, "got " + str(val))
+
+    r_single = calc_production_expansion("white_card_300", 300, 5, "cd", "single_sheet")
+    r_prod = calc_production_expansion("white_card_300", 300, 5, "cd", "production_typical")
+    test("生产膨胀>单张", r_prod["delta_l_mm"] > r_single["delta_l_mm"])
+
+    r_env = calc_env_pre_expansion("white_card_300", 500, "GB_T462", "JIS_P8127")
+    test("GB->JIS膨胀>0", r_env["delta_l_mm"] > 0)
+
+    r_fefco = calc_env_pre_expansion("white_card_300", 500, "FEFCO_Code", "JIS_P8127")
+    test("FEFCO->JIS>GB->JIS", r_fefco["delta_l_mm"] > r_env["delta_l_mm"])
+
+    test("材料目录>=5种", len(MATERIAL_CATALOG) >= 5)
+    test("含B瓦楞", "corrugated_B" in MATERIAL_CATALOG)
+    test("修正因子4级", len(ALPHA_CORRECTION_FACTORS) >= 4)
+    test("生产修正=7.5", ALPHA_CORRECTION_FACTORS["production_typical"] == 7.5)
+    test("标准环境5种", len(STANDARD_ENVIRONMENTS) >= 5)
+
+
+def test_fefco_rules():
+    print("\n[standards_database.py - FEFCO rules]")
+    from standards_database import FEFCO_DESIGN_RULES, check_fefco_design_rules, DIMENSION_BASIS_DIFF
+
+    test("FEFCO规则>=9条", len(FEFCO_DESIGN_RULES) >= 9)
+    test("含FEFCO-001", "FEFCO-001" in FEFCO_DESIGN_RULES)
+    test("FEFCO=内尺寸", "内尺寸" in DIMENSION_BASIS_DIFF.get("FEFCO", ""))
+    test("JIS=外尺寸", "外尺寸" in DIMENSION_BASIS_DIFF.get("JIS", ""))
+
+    checks = check_fefco_design_rules(tongue_depth_mm=10, box_width_mm=60,
+                                        board_thickness_mm=1.5, grip_type="premium")
+    tongue_check = [c for c in checks if c.get("rule") == "FEFCO-001"]
+    if tongue_check:
+        test("插舌过浅检测", not tongue_check[0]["passes"])
+
+
 if __name__ == "__main__":
     print("=" * 50)
-    print("核心模块测试套件 v2")
+    print("核心模块测试套件 v3")
     print("=" * 50)
 
     test_cognitive_core()
@@ -157,6 +205,8 @@ if __name__ == "__main__":
     test_node_cleaner()
     test_diepre_api()
     test_standards_database()
+    test_production_expansion()
+    test_fefco_rules()
 
     print("\n" + "=" * 50)
     print(f"结果: {passed} 通过, {failed} 失败")
