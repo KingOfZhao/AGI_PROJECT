@@ -66,7 +66,7 @@ killall Windsurf && sleep 2 && open -a Windsurf
 
 4. **检查项目代码**
    ```bash
-   grep -r "8b9c47697cba446baeae08f712faddc7" ~/Desktop/AGI_PROJECT/ --include="*.py"
+   grep -r "$ZHIPU_API_KEY" ~/Desktop/AGI_PROJECT/ --include="*.py" --include="*.json"
    ```
 
 5. **完全重置（最后手段）**
@@ -113,7 +113,7 @@ killall Windsurf && sleep 2 && open -a Windsurf
 
 ```bash
 # 检查是否还有硬编码
-grep -r "8b9c47697cba446baeae08f712faddc7" ~/Desktop/AGI_PROJECT/ --include="*.py" --include="*.json"
+grep -r "$ZHIPU_API_KEY" ~/Desktop/AGI_PROJECT/ --include="*.py" --include="*.json"
 
 # 如果没有输出，说明已清理干净
 ```
