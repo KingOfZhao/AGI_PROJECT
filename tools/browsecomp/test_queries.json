@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "query": "What is the name of the mountain that is the highest point in the U.S. state that has the longest coastline?",
+    "answer": "Mount Whitney"
+  },
+  {
+    "id": 2,
+    "query": "Who was the oldest person to win an Academy Award for Best Actor?",
+    "answer": "Anthony Hopkins"
+  },
+  {
+    "id": 3,
+    "query": "What company developed the first commercially successful personal computer?",
+    "answer": "Apple"
+  },
+  {
+    "id": 4,
+    "query": "In which year was the company that makes the iPhone founded?",
+    "answer": "1976"
+  },
+  {
+    "id": 5,
+    "query": "What is the capital of the country that invented paper?",
+    "answer": "Beijing"
+  },
+  {
+    "id": 6,
+    "query": "What is the chemical symbol for the element with the highest melting point?",
+    "answer": "W"
+  },
+  {
+    "id": 7,
+    "query": "Who painted the ceiling of the Sistine Chapel?",
+    "answer": "Michelangelo"
+  },
+  {
+    "id": 8,
+    "query": "What is the smallest country in the world by area?",
+    "answer": "Vatican City"
+  },
+  {
+    "id": 9,
+    "query": "What programming language was created by Guido van Rossum?",
+    "answer": "Python"
+  },
+  {
+    "id": 10,
+    "query": "What is the name of the largest ocean on Earth?",
+    "answer": "Pacific Ocean"
+  },
+  {
+    "id": 11,
+    "query": "Which country hosted the 2022 FIFA World Cup?",
+    "answer": "Qatar"
+  },
+  {
+    "id": 12,
+    "query": "What is the speed of light in vacuum approximately in km/s?",
+    "answer": "299792"
+  },
+  {
+    "id": 13,
+    "query": "Who wrote the novel '1984'?",
+    "answer": "George Orwell"
+  },
+  {
+    "id": 14,
+    "query": "What is the hardest natural substance on Earth?",
+    "answer": "Diamond"
+  },
+  {
+    "id": 15,
+    "query": "What is the most spoken language in the world by native speakers?",
+    "answer": "Mandarin Chinese"
+  },
+  {
+    "id": 16,
+    "query": "Which planet in our solar system has the most moons?",
+    "answer": "Saturn"
+  },
+  {
+    "id": 17,
+    "query": "What is the name of the algorithm used by Google for ranking web pages?",
+    "answer": "PageRank"
+  },
+  {
+    "id": 18,
+    "query": "In what year did the Berlin Wall fall?",
+    "answer": "1989"
+  },
+  {
+    "id": 19,
+    "query": "What element does 'Au' represent on the periodic table?",
+    "answer": "Gold"
+  },
+  {
+    "id": 20,
+    "query": "Who is the CEO of Tesla?",
+    "answer": "Elon Musk"
+  }
+]

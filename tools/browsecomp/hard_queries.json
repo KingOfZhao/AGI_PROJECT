@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "query": "What is the population of the city where the headquarters of the company that acquired GitHub in 2018 is located?",
+    "answer": "~874961 (San Francisco)",
+    "steps": ["GitHub被微软收购", "微软总部在Redmond", "Redmond人口"]
+  },
+  {
+    "id": 2,
+    "query": "Which university did the founder of the company that developed the Transformer architecture attend for their undergraduate degree?",
+    "answer": "USC (University of Southern California)",
+    "steps": ["Transformer=Google Brain", "Google=Alphabet", "需要具体看Google Brain的创始人... 实际上是Ashish Vaswani等人在Google"]
+  },
+  {
+    "id": 3,
+    "query": "In the country that won the most gold medals at the 2020 Summer Olympics, what is the highest-grossing film of all time?",
+    "answer": "约等于需要确认2020奥运金牌最多的国家(美国或中国)，再看该国最高票房电影",
+    "steps": ["2020东京奥运金牌第一=美国(39枚)", "美国最高票房电影=Avengers: Endgame或Gone with the Wind(通胀调整)"]
+  },
+  {
+    "id": 4,
+    "query": "What is the GDP per capita of the country whose national anthem was composed by Rabindranath Tagore?",
+    "answer": "~$2,700 (India/Bangladesh, Tagore为两国创作了国歌)",
+    "steps": ["Tagore创作了印度国歌Jana Gana Mana和孟加拉国歌Amar Shonar Bangla", "印度GDP per capita ~$2700"]
+  },
+  {
+    "id": 5,
+    "query": "What is the atomic number of the element that is the most abundant in the Earth's crust, and what is the name of the scientist who discovered it?",
+    "answer": "氧(O), 原子序数8, 发现者: Carl Wilhelm Scheele / Joseph Priestley",
+    "steps": ["地壳最丰富元素=氧", "原子序数=8", "发现者"]
+  }
+]

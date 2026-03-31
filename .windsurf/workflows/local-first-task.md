@@ -1,45 +1,22 @@
 ---
-description: Execute a task using Local-First strategy - search skills, delegate to local models, verify results
+description: Execute a task using GLM-First strategy - implement directly with GLM-5.1, no local model invocation
 ---
 
-# Local-First Task Execution
+# GLM-First Task Execution
 
-## Step 1: Search existing skills
-Search the local skill library (6000+ skills) for relevant existing solutions:
-```python
-python3 -c "
-import sys; sys.path.insert(0, '/Users/administruter/Desktop/AGI_PROJECT/scripts')
-from pcm_skill_router import route_skills
-for r in route_skills('TASK_DESCRIPTION', top_k=5):
-    print(f\"{r['name']} ({r['score']}): {r['description'][:100]}\")
-"
-```
-If score > 5.0, read and reuse that skill. If not, proceed to Step 2.
+> 本地模型已停用。所有任务直接由 GLM-5.1 完成。
 
-## Step 2: Delegate to local 7-step chain
-Run the task through the local AI chain processor:
-```python
-python3 /Users/administruter/Desktop/AGI_PROJECT/.windsurf/skills/local-chain/invoke_chain.py "TASK_DESCRIPTION"
-```
-Review the chain output for quality.
+## Step 1: 参考 Skill 概念文档
+查看 `skills/` 目录下相关 SKILL.md ，了解概念和设计模式。
+Skill 文件为纯文档参考，不调用任何本地进程。
 
-## Step 3: Verify results
-Check if the local chain output is satisfactory:
-- Is the answer accurate and complete?
-- Is the code syntactically correct and runnable?
-- Are there any hallucination warnings?
-- Are risk scan results acceptable?
+## Step 2: GLM-5.1 直接实现
+通过 OpenClaw (primary: glm51/glm-5.1) 完成编码和推理任务。
 
-If YES → Use the result, skip to Step 5.
-If NO → Proceed to Step 4 (Claude verification).
+## Step 3: 验证结果
+- 代码是否语法正确可运行？
+- 是否准确完整地回答了原始问题？
 
-## Step 4: Claude verification (only if Step 3 failed)
-Explain WHY local models failed and what specific improvement is needed.
-After Claude produces the fix, create a skill to capture the improvement:
-- Save to `skills/skill_{topic}_{timestamp}.py`
-- Include docstring, type hints, error handling
-
-## Step 5: Post-processing
-- Extract knowledge nodes (Step A)
-- Generate reusable skill file (Step B)
-- Record to CRM system (Step C)
+## Step 4: 后处理
+- 提取知识节点写入 SKILL.md 概念文档
+- 记录到 CRM 系统

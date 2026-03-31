@@ -757,3 +757,162 @@ def calc_env_pre_expansion(material_key: str, length_mm: float,
     }
 
 
+# ═══════════════════════════════════════════════════════════════
+# 公差-成本优化模型 (整合自 skill 节点 fd1034)
+# ═══════════════════════════════════════════════════════════════
+
+import math
+from dataclasses import dataclass, field
+from typing import Optional, List as TList
+from enum import Enum
+
+
+class MachineProcess(Enum):
+    """DiePre 常用加工工艺"""
+    BOBST_DIE_CUT = "Bobst模切"
+    DOMESTIC_DIE_CUT = "国产模切"
+    HEIDELBERG_DIE = "海德堡模切"
+    LASER_CUT = "激光切割"
+    FLAT_DIE = "平压平模切"
+    ROTARY_DIE = "圆压圆模切"
+
+
+@dataclass
+class MachineResource:
+    """制造资源定义"""
+    name: str
+    process: MachineProcess
+    base_cost: float = 1.0          # 基础成本系数
+    tolerance_sensitivity: float = 0.5  # 公差敏感度 k
+    cpk: float = 1.33               # 过程能力指数
+    measurement_error: float = 0.02  # 测量不确定度 (mm)
+    typical_tolerance: float = 0.15  # 典型精度 (mm)
+
+
+@dataclass
+class ToleranceOptResult:
+    """公差优化结果"""
+    recommended_tolerance: float = 0.0
+    estimated_yield: float = 0.0
+    estimated_cost: float = 0.0
+    selected_process: str = ""
+    risk_score: float = 100.0
+    details: dict = field(default_factory=dict)
+
+
+# DiePre 默认制造资源库
+DIEPRE_RESOURCES = [
+    MachineResource("Bobst MASTER", MachineProcess.BOBST_DIE_CUT, 2.5, 0.8, 1.67, 0.01, 0.15),
+    MachineResource("Bobst SPRINT", MachineProcess.BOBST_DIE_CUT, 2.0, 0.7, 1.50, 0.015, 0.18),
+    MachineResource("国产自动模切机", MachineProcess.DOMESTIC_DIE_CUT, 1.0, 0.5, 1.00, 0.03, 0.30),
+    MachineResource("海德堡Dymatrix", MachineProcess.HEIDELBERG_DIE, 2.8, 0.9, 1.67, 0.01, 0.12),
+    MachineResource("激光切割机", MachineProcess.LASER_CUT, 3.5, 1.2, 1.33, 0.005, 0.05),
+    MachineResource("平压平模切", MachineProcess.FLAT_DIE, 0.8, 0.4, 0.83, 0.04, 0.40),
+    MachineResource("圆压圆模切", MachineProcess.ROTARY_DIE, 1.5, 0.6, 1.17, 0.02, 0.25),
+]
+
+
+def tolerance_cost_model(
+    tolerance_mm: float,
+    resource: MachineResource,
+) -> float:
+    """
+    公差-成本非线性映射
+    Cost = base + k × (1/T^1.5)
+    
+    精度越高，成本指数级上升
+    """
+    safe_t = max(tolerance_mm, 1e-4)
+    precision_cost = resource.tolerance_sensitivity * (1.0 / safe_t ** 1.5)
+    return resource.base_cost + precision_cost
+
+
+def tolerance_yield_probability(
+    tolerance_mm: float,
+    resource: MachineResource,
+) -> float:
+    """
+    良率概率计算 (考虑测量误差)
+    
+    有效公差 = 规格公差 - 6×测量误差
+    基于 Cpk 和正态分布积分
+    """
+    if tolerance_mm <= 0:
+        return 0.0
+    effective_tol = tolerance_mm - (6 * resource.measurement_error)
+    if effective_tol <= 0:
+        return 0.01  # 测量误差超过公差带
+    sigma_level = (effective_tol / 2) / ((tolerance_mm / 6) / resource.cpk)
+    yield_rate = 0.5 * (1 + math.erf(sigma_level / math.sqrt(2)))
+    return min(1.0, yield_rate)
+
+
+def optimize_die_tolerance(
+    nominal_mm: float,
+    max_cost: float = 5.0,
+    min_yield: float = 0.95,
+    resources: Optional[TList[MachineResource]] = None,
+) -> ToleranceOptResult:
+    """
+    刀模公差优化 — 给定成本约束，自动推荐最优公差+工艺
+    
+    Args:
+        nominal_mm: 标称尺寸 (mm)
+        max_cost: 最大允许成本系数
+        min_yield: 最低良率要求 (0-1)
+        resources: 可用制造资源列表
+    
+    Returns:
+        ToleranceOptResult: 最优方案
+    
+    用法:
+        result = optimize_die_tolerance(300)  # 300mm尺寸
+        # result.recommended_tolerance, result.selected_process, result.estimated_yield
+    """
+    if resources is None:
+        resources = DIEPRE_RESOURCES
+    
+    best = ToleranceOptResult()
+    # 公差搜索范围: 0.01mm ~ 标称尺寸的2% (最大5mm)
+    max_tol = min(nominal_mm * 0.02, 5.0)
+    search_range = [max_tol * p / 100 for p in range(1, 100)]
+    
+    for res in resources:
+        for trial_tol in search_range:
+            cost = tolerance_cost_model(trial_tol, res)
+            if cost > max_cost:
+                continue
+            yield_rate = tolerance_yield_probability(trial_tol, res)
+            if yield_rate < min_yield:
+                continue
+            risk = (1.0 - yield_rate) * 100 + (cost / max_cost * 10)
+            # 刀模设计: 寻找最紧公差（最高精度）且满足成本和良率约束
+            if best.recommended_tolerance == 0 or trial_tol < best.recommended_tolerance:
+                best = ToleranceOptResult(
+                    recommended_tolerance=round(trial_tol, 3),
+                    estimated_yield=round(yield_rate, 4),
+                    estimated_cost=round(cost, 3),
+                    selected_process=res.name,
+                    risk_score=round(risk, 2),
+                    details={
+                        "process": res.process.value,
+                        "cpk": res.cpk,
+                        "measurement_error": res.measurement_error,
+                    }
+                )
+    
+    if best.recommended_tolerance == 0:
+        # 兜底: 返回最宽松可行方案
+        cheapest = min(resources, key=lambda r: r.base_cost)
+        best = ToleranceOptResult(
+            recommended_tolerance=cheapest.typical_tolerance,
+            estimated_yield=tolerance_yield_probability(cheapest.typical_tolerance, cheapest),
+            estimated_cost=tolerance_cost_model(cheapest.typical_tolerance, cheapest),
+            selected_process=cheapest.name,
+            risk_score=50.0,
+            details={"warning": "未找到满足约束的方案, 返回兜底"},
+        )
+    
+    return best
+
+

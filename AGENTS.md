@@ -12,8 +12,11 @@ Before doing anything else:
 
 1. Read `SOUL.md` — assistant principles
 2. Read `USER.md` — context about the user
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+3. Read `ARENA.md` — 伟人竞技场验证体系
+4. Read `ERRORS.md` — past mistakes (don't repeat)
+5. Read `LEARNINGS.md` — best practices
+6. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+7. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
 Do this efficiently without needing explicit prompting each session.
 

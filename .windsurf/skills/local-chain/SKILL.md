@@ -1,11 +1,15 @@
 ---
 name: local-chain
-description: Delegate tasks to the local 7-step AI chain processor (Ollama+GLM models) instead of using Claude directly. Use this for code generation, analysis, reasoning, and any task that local models can handle.
+description: "[概念存档 · 已停用] 本地7步AI调用链概念文档。本地模型已停用，所有任务直接由 GLM-5.1 处理。"
+status: disabled
 ---
 
-# Local 7-Step AI Chain Processor
+# Local 7-Step AI Chain Processor（概念存档）
 
-Use this skill to delegate work to the local AI chain, reducing Claude Opus consumption.
+> ⚠️ **已停用**：本地模型（Ollama/qwen2.5-coder:14b）已关闭。
+> 所有编码和推理任务直接由 **GLM-5.1**（glm51）处理，无需本地链。
+
+以下内容保留为架构概念参考，不再实际执行。
 
 ## When to Use
 - Code generation or refactoring tasks
@@ -13,30 +17,13 @@ Use this skill to delegate work to the local AI chain, reducing Claude Opus cons
 - Documentation generation
 - Any task where local models (Ollama/GLM) can produce acceptable results
 
-## How to Invoke
+## 当前替代方案
 
-```bash
-python3 /Users/administruter/Desktop/AGI_PROJECT/scripts/wechat_chain_processor.py "你的问题"
-```
-
-## Python API
+直接使用 GLM-5.1 处理所有任务，无需调用本地链：
 
 ```python
-import sys
-sys.path.insert(0, '/Users/administruter/Desktop/AGI_PROJECT/scripts')
-sys.path.insert(0, '/Users/administruter/Desktop/AGI_PROJECT/core')
-
-from wechat_chain_processor import ChainProcessor, ChainResult
-
-chain = ChainProcessor()
-result = chain.process("问题内容", context="可选上下文")
-
-# result.final_answer   — 最终答案
-# result.steps          — 每步详情 [{step, model, content, duration, success}]
-# result.route_decision — 路由类型: simple/analysis/deep/code/full
-# result.risks          — 零回避扫描发现的风险
-# result.total_duration — 总耗时(秒)
-# result.summary()      — 可读摘要
+# 通过 OpenClaw 使用 GLM-5.1
+# primary model: glm51/glm-5.1 (已在 openclaw.json 配置)
 ```
 
 ## Route Types

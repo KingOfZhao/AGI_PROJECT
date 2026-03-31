@@ -1,38 +1,26 @@
 ---
 name: skill-search
-description: Search the local skill library (6000+ skills) to find relevant existing skills before writing new code. Use this whenever a task might already be solved by an existing skill.
+description: "[概念存档 · 已停用] 本地 Skill 库检索概念文档。本地模型已停用，不再通过本地模型搜索或调用 SKILL 库。"
+status: disabled
 ---
 
-# Local Skill Library Search
+# Local Skill Library Search（概念存档）
 
-Search 6000+ skills in `/Users/administruter/Desktop/AGI_PROJECT/skills/` using the PCM skill router.
+> ⚠️ **已停用**：本地模型已关闭，不再通过 `pcm_skill_router` 搜索和调用本地 SKILL 库。
+> Skill 文件保留为概念文档参考。
+
+以下内容保留为架构概念参考，不再实际执行。
+
+(概念) Search 6000+ skills in `/Users/administruter/Desktop/AGI_PROJECT/skills/` using the PCM skill router.
 
 ## When to Use
 - Before implementing any new functionality
 - When looking for reusable code patterns
 - When the user asks about capabilities
 
-## How to Search
+## 当前替代方案
 
-```python
-import sys
-sys.path.insert(0, '/Users/administruter/Desktop/AGI_PROJECT/scripts')
-from pcm_skill_router import route_skills
-
-results = route_skills("your search query", top_k=5)
-for r in results:
-    print(f"{r['name']} (score={r['score']}): {r['description'][:100]}")
-```
-
-## CLI Search
-```bash
-python3 -c "
-import sys; sys.path.insert(0, '/Users/administruter/Desktop/AGI_PROJECT/scripts')
-from pcm_skill_router import route_skills
-for r in route_skills('搜索词', top_k=5):
-    print(f\"{r['name']} ({r['score']}): {r['description'][:80]}\")
-"
-```
+Skill 文件作为概念文档手动参考。所有实际编码和实现直接由 **GLM-5.1** 处理。
 
 ## Skill Categories
 - **openclaw**: 5982 community skills (code/deploy/search/security/data)

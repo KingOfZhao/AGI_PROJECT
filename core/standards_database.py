@@ -383,3 +383,132 @@ def check_fefco_design_rules(length_mm: float = 0, box_width_mm: float = 0,
     return checks
 
 
+
+
+# ═══════════════════════════════════════════════════════════════
+# DiePre 已知事实参数化规则集 (从p_diepre推演涌现)
+# ═══════════════════════════════════════════════════════════════
+
+import math
+
+DIEPRE_KNOWN_FACTS = {
+    "F1_error_classification": {
+        "name": "误差三分类",
+        "description": "确定性(代数叠加) + 半确定性(RSS) + 随机(RSS)",
+        "formula": "total = Σ(deterministic) + √(Σ(semi²)) + √(Σ(random²))",
+    },
+    "F2_rss_correction": {
+        "name": "RSS修正系数",
+        "description": "安全系数k=1.15-1.25, 方向因子K_dir, 环境因子K_env",
+        "formula": "rss_corrected = k × K_dir × K_env × √(Σ(σᵢ²))",
+        "params": {"k": (1.15, 1.25), "K_dir": 1.0, "K_env": 1.0},
+    },
+    "F3_bobst_vs_domestic": {
+        "name": "Bobst vs 国产精度",
+        "description": "Bobst ±0.15mm, 国产 ±0.30mm, 国产贡献率45%",
+        "formula": "bobst_tol = 0.15mm, domestic_tol = 0.30mm",
+    },
+    "F4_moisture_hysteresis": {
+        "name": "吸湿滞后效应",
+        "description": "吸湿/脱湿路径收缩率不同 k_absorb ≠ k_desorb",
+        "formula": "Δ_absorb = k_abs × ΔMC, Δ_desorb = k_desorb × ΔMC, k_absorb > k_desorb",
+    },
+    "F5_s_curve": {
+        "name": "S型收缩曲线",
+        "description": "Logistic模型, 收缩率在MC 8-16%区间渐变",
+        "formula": "shrinkage(MC) = l_max / (1 + exp(-k × (MC - MC_mid)))",
+        "params": {"k": 0.8, "MC_mid": 12.0, "l_max_pct": 1.2},
+    },
+    "F6_asia_collapse": {
+        "name": "亚洲纸板塌陷补偿",
+        "description": "亚洲纸板需额外+0.1-0.2mm, 欧洲0",
+        "formula": "collapse_comp = 0.15mm (Asia) or 0mm (Europe)",
+    },
+    "F7_strip_angle": {
+        "name": "清废临界角",
+        "description": "θ ≈ 15° + 5° × ln(t), t=材料厚度mm",
+        "formula": "θ = 15 + 5 × ln(t)",
+    },
+    "F8_mc_compatible": {
+        "name": "MC兼容范围",
+        "description": "±2% MC保守值",
+        "formula": "ΔMC_max = 2%",
+    },
+    "F9_fan_error": {
+        "name": "扇形误差",
+        "description": "Δfan ≈ L²/(8R) + 热膨胀, 离心力可忽略",
+        "formula": "Δfan = L²/(8R) + α×ΔT×L",
+    },
+    "F10_bobst_thermal": {
+        "name": "Bobst圆压圆热膨胀",
+        "description": "0.05-0.08mm/30min",
+        "formula": "Δ_thermal = 0.065mm/30min (avg)",
+    },
+    "F11_heidelberg_tooth": {
+        "name": "Heidelberg高刚性",
+        "description": "允许0.8mm齿刀",
+        "formula": "max_tooth = 0.8mm",
+    },
+    "F12_fefco_tuck": {
+        "name": "FEFCO插舌公式",
+        "description": "插舌 = 插口 - 1.5×t - 0.5mm",
+        "formula": "tuck = slot - 1.5×t - 0.5",
+    },
+    "F13_export_md_risk": {
+        "name": "出口纸箱MD方向风险",
+        "description": "MD方向不一致→相对位移",
+        "formula": "Δ_displacement ∝ |MD1 - MD2| × humidity_change",
+    },
+    "F14_roll_direction": {
+        "name": "卷曲方向规则",
+        "description": "卷筒→MD方向, 裱合板→刚性大侧",
+        "formula": "MD = roll_direction, rigid_side = max(stiffness_A, stiffness_B)",
+    },
+    "F15_mc_is_enemy": {
+        "name": "含水量=精度最大敌人",
+        "description": "MC波动1%→尺寸变化0.1-0.3%",
+        "formula": "Δ_size ≈ 0.2% × ΔMC% × L_mm",
+    },
+    "F16_s_shrinkage": {
+        "name": "纸张收缩S型",
+        "description": "同F5, 独立强调",
+        "formula": "Logistic: k=40-60, MC_mid≈12%",
+    },
+    "F17_market_specific": {
+        "name": "目标市场区分",
+        "description": "亚洲/欧洲设计参数不同",
+        "formula": "if Asia: collapse_comp=+0.15mm, else: 0",
+    },
+    "F18_mc_precision": {
+        "name": "MC影响精度(重复)",
+        "description": "精度最大敌人是MC",
+        "formula": "Δ_precision ∝ MC_variance",
+    },
+}
+
+
+def calc_strip_angle(thickness_mm: float) -> float:
+    """F7: 清废临界角 θ = 15° + 5° × ln(t)"""
+    return 15.0 + 5.0 * math.log(max(thickness_mm, 0.1))
+
+
+def calc_fan_error(length_mm: float, radius_mm: float, delta_t: float = 0) -> float:
+    """F9: 扇形误差 Δfan = L²/(8R) + α×ΔT×L"""
+    geometric = (length_mm ** 2) / (8 * max(radius_mm, 1))
+    thermal = 0.000012 * delta_t * length_mm  # α=12×10⁻⁶/°C (钢辊)
+    return geometric + thermal
+
+
+def calc_fefco_tuck(slot_mm: float, thickness_mm: float) -> float:
+    """F12: FEFCO插舌 = 插口 - 1.5×t - 0.5mm"""
+    return slot_mm - 1.5 * thickness_mm - 0.5
+
+
+def calc_mc_expansion(length_mm: float, mc_delta_pct: float) -> float:
+    """F15: MC引起的尺寸变化 Δ ≈ 0.2% × ΔMC% × L"""
+    return 0.002 * mc_delta_pct * length_mm
+
+
+def calc_s_shrinkage(mc_pct: float, k: float = 0.8, mc_mid: float = 12.0, l_max: float = 0.012) -> float:
+    """F5: S型收缩 Logistic模型, 返回收缩率(0-1), 乘以长度得mm"""
+    return l_max / (1.0 + math.exp(-k * (mc_pct - mc_mid)))

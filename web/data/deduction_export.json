@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-03-27 17:05:50",
+  "exported_at": "2026-03-29 09:25:04",
   "projects": [
     {
       "id": "p_diepre",
@@ -21,11 +21,11 @@
     },
     {
       "id": "p_rose",
-      "name": "予人玫瑰",
-      "description": "予人玫瑰项目 — 上线运转+快速商业化",
+      "name": "余香",
+      "description": "赠人玫瑰手有余香 — 温柔传递平台，小程序+APP+公众号+自媒体",
       "color": "#ec4899",
       "status": "active",
-      "progress": 30,
+      "progress": 5,
       "tags": [
         "创意",
         "商业",
@@ -1638,7 +1638,7 @@
       "title": "人物案例库构建",
       "description": "[自动拓展] 历史人物圆桌决策系统 → 从历史文献提取各人物典型决策案例50+",
       "priority": "high",
-      "status": "queued",
+      "status": "running",
       "ulds_laws": "L4逻辑+L6系统+L10演化+L11认识论",
       "surpass_strategies": "S4碰撞+S3王朝",
       "target_metrics": {},
@@ -2547,7 +2547,7 @@
       "title": "扩展人物库",
       "description": "[自动拓展] 历史人物圆桌决策系统 → 加入曹操/李世民/亚里士多德/达芬奇等",
       "priority": "medium",
-      "status": "queued",
+      "status": "running",
       "ulds_laws": "L4逻辑+L6系统+L10演化+L11认识论",
       "surpass_strategies": "S4碰撞+S3王朝",
       "target_metrics": {},
@@ -3141,6 +3141,187 @@
       "created_at": "2026-03-27 09:05:50",
       "started_at": null,
       "completed_at": null
+    },
+    {
+      "id": "ded_1774738500_1",
+      "title": "裱合耦合效应量化 — 胶水收缩×纸张膨胀的耦合系数标定",
+      "description": "裱合工序中胶水固化收缩(拉力)与面纸吸湿膨胀(推力)同时发生。RSS模型假设独立，实际耦合。需实测裱合后24h/48h/72h尺寸变化曲线，确定耦合系数。预估影响0.05-0.15mm。",
+      "priority": "critical",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F22+V8",
+      "model": "glm5",
+      "rounds": 3,
+      "completed_at": "2026-03-29 07:05:00",
+      "result": "✅ 推演完成, 结论写入p_diepre_已知未知推演_02.md\nF22: 三耦合误差源(胶水收缩+面纸膨胀+张力差异)\nV8: 耦合系数需实验数据, 预估影响0.05-0.15mm\n代码集成: 需等V8解决后写入error_budget"
+    },
+    {
+      "id": "ded_1774738500_2",
+      "title": "K因子相变边界 — 从正常折叠(0.35)到爆线临界(0.25)的突变模型",
+      "description": "K因子随厚度增加而增大(0.35→0.40)，但到达爆线临界时骤降到0.25。这不是连续函数，存在相变。需要建立压痕深度-材料刚度-K因子的关系曲线，找到相变临界点公式。",
+      "priority": "high",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F25+F26",
+      "model": "glm5",
+      "rounds": 5,
+      "completed_at": "2026-03-29 07:02:00",
+      "result": "✅ K因子相变模型已编码完成 (core/k_factor_model.py, 340行)\n覆盖15种材料+楞型组合, 含相变检测和MC修正\n关键发现: d/T≥0.65触发爆线相变(K→0.25), MC≥16%触发湿态相变\n展开公式R7: L=Σ(A_i+B_i)+Σ(t_j×K_j), 对比传统公式差195mm/3折弯箱"
+    },
+    {
+      "id": "ded_1774738500_3",
+      "title": "微瓦楞E/F槽宽修正公式验证 — W=(t+C_res)×K_stru 精度校准",
+      "description": "微瓦楞不可套用FEFCO标准公式W=1.5t。已提出修正公式W=(t+C_res)×K_stru。需与JIS Z 1506对比，并通过实际微瓦楞模切数据验证。E楞: W≈1.2t+0.6, F楞: W≈1.3t+0.4。",
+      "priority": "high",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F27+F28",
+      "model": "glm5_turbo",
+      "rounds": 3,
+      "started_at": "2026-03-29 07:02:00",
+      "completed_at": "2026-03-29 07:05:00",
+      "result": "✅ core/micro_flute_engine.py (280行)\n覆盖E/F/N/EF四种微瓦楞 × 5种标准体系\n核心公式: W=(t+C_res)×K_stru\nFEFCO vs JIS槽宽差异: E楞0.50mm, F楞0.50mm (均≥0.2mm,显著)\nGB在微瓦楞领域定义缺失, 参数为推演估算\nDiePre修正版: 偏保守, d/T=0.40防止塌陷"
+    },
+    {
+      "id": "ded_1774738500_4",
+      "title": "复合结构展开通用公式 — R7含裱合补偿的精确展开长度",
+      "description": "L = ΣA_i + ΣB_i + Σ(t_j × K_j) + Δ_lamination。需将K因子分层表(F25)和微瓦楞参数表(R9)编码为可查表函数，集成到error_budget引擎。",
+      "priority": "medium",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "R7+R9",
+      "model": "glm5_turbo",
+      "rounds": 2,
+      "completed_at": "2026-03-29 07:02:00",
+      "result": "✅ R7公式已集成到k_factor_model.py的unfold_length()\n3折弯测试通过: K修正展开502.62mm vs 传统307.50mm"
+    },
+    {
+      "id": "ded_1774738963_5",
+      "title": "裱合胶水收缩量化模型 — δ_lamination公式推导与编码",
+      "description": "基于F22(三耦合误差源), 建立裱合收缩误差δ_lamination的计算模型。胶水收缩率0.02-0.05%/周期, 面纸膨胀CD方向0.015-0.028%/1%RH。需建立耦合方向判断逻辑和数值模型, 写入error_budget.py。",
+      "priority": "high",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F22+V8",
+      "model": "glm5",
+      "rounds": 3,
+      "completed_at": "2026-03-29 07:10:00",
+      "result": "✅ core/lamination_error_model.py (230行)\n三阶段时间模型: T0涂胶→T1固化(0-4h)→T2稳定(4-24h)\n核心发现: 胶水收缩与MC膨胀不是简单相消, 是时序耦合\n淀粉胶300mm CD: 总误差0.043mm (部分抵消)\n纹理垂直时耦合系数0.5 (喇叭口变形吸收部分误差)\nRSS集成: 耦合修正后差异0.002mm (当前量级下影响小, 长尺寸时放大)"
+    },
+    {
+      "id": "ded_1774738963_6",
+      "title": "标准体系差异矩阵 — FEFCO/JIS/GB/DIN四国标准参数完整对比",
+      "description": "从节点数据中提取FEFCO/JIS/GB/DIN四国标准在压痕槽宽/压痕深度/公差带/折叠精度等维度的完整差异矩阵。微瓦楞已部分完成, 需扩展到A/B/C粗瓦楞和灰板。",
+      "priority": "high",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F27+F28",
+      "model": "glm5_turbo",
+      "rounds": 2,
+      "completed_at": "2026-03-29 07:20:00",
+      "result": "✅ core/standard_matrix.py (220行)\n10个核心参数 × 4国标准对比\nGB盲区4个: 微瓦楞槽宽/压痕深度/K因子/插舌公式均缺失\n宽严阶梯: JIS>DIN≈FEFCO>GB (JIS公差是GB的3倍严)\n出口切换规则: 内销→日本需设备升级(公差收紧3倍)"
+    },
+    {
+      "id": "ded_1774738963_7",
+      "title": "扇形误差公式精化 — L²/(8R) + 热膨胀的实测校准",
+      "description": "F9(扇形误差)公式Δfan≈L²/(8R)计算值偏大。需从节点中提取圆压圆模切实测数据, 建立修正系数表。Bobst圆压圆热膨胀0.05-0.08mm/30min需集成。",
+      "priority": "medium",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F9+F10",
+      "model": "glm5_turbo",
+      "rounds": 3,
+      "result": "✅ core/fan_error_model.py (250行) + 竞技场增强\n钱学森: 轴向温度不均匀导致扇形不对称, 需温度场实时监测\n海森堡: 零点漂移补偿方案, 在CD中心设零点\n阿基米德: 中性轴热漂移, 材料弯曲刚度随温度变化\nBobst CD=600mm: 0.100mm, 国产CD=600mm: 0.214mm\n分布: 抛物线形, 中心=0, 两端=最大",
+      "completed_at": "2026-03-29 07:35:00"
+    },
+    {
+      "id": "ded_1774738963_8",
+      "title": "RSS非正态分布修正 — 偏态/瑞利/均匀分布下的安全系数",
+      "description": "节点数据确认: 裱合滑移(偏态分布)、圆压圆模切(瑞利分布)、机器精度(均匀分布)违反正态假设。标准RSS会低估风险。需建立分布类型→修正系数k_dist的映射表。",
+      "priority": "high",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F1",
+      "model": "glm5",
+      "rounds": 4,
+      "completed_at": "2026-03-29 07:15:00",
+      "result": "✅ core/rss_corrected_model.py (250行)\n6种分布类型修正系数: 正态1.0/均匀1.15/偏态1.2/瑞利1.1/线性1.3/指数1.15\n关键发现: Bobst±0.5mm在修正RSS下不可达(实际0.687mm)\n国产机±0.5mm严重不可达(实际1.155mm)\n结论: ±0.5mm精密级在常规条件下数学不可达, 必须RSS前置校验"
+    },
+    {
+      "id": "ded_1774739027_9",
+      "title": "±0.5mm不可达的工程解法 — RSS前置校验引擎",
+      "description": "基于RSS修正模型的发现, 建立自动校验引擎: 用户输入公差目标→RSS计算→若不可达则推荐调整方案(缩小尺寸/放宽公差/设备升级/受控仓储)。集成到diepre_api.py的quick_tolerance_check。",
+      "priority": "critical",
+      "status": "queued",
+      "project": "p_diepre",
+      "laws": "F1+RSS",
+      "model": "glm5_turbo",
+      "rounds": 2
+    },
+    {
+      "id": "ded_1774739027_10",
+      "title": "清废临界角公式精化 — θ≈15°+5°×ln(t) 的适用边界",
+      "description": "F7(清废临界角)公式需验证边界条件。从节点中提取不同厚度/材料的清废数据, 确定公式的有效范围和失效边界。",
+      "priority": "medium",
+      "status": "done",
+      "project": "p_diepre",
+      "laws": "F7",
+      "model": "glm5_turbo",
+      "rounds": 2,
+      "result": "✅ core/strip_angle_model.py (280行) + 竞技场增强\n精化公式: θ = 15°+5°×ln(t) + Δv(v²) + ΔE(Gc) + ΔMC + Δblade\n10种材料速查表, 速度/MC/刀具三维度修正\n海森堡: 速度越高安全区间越宽(±1.8°~2.4°)\n钱学森: MC每升1%, E降8%, θ增大0.5°",
+      "completed_at": "2026-03-29 07:40:00"
+    },
+    {
+      "id": "ded_1774739207_11",
+      "title": "伟人竞技场引擎实现 — sage_arena.py",
+      "description": "实现伟人竞技场引擎(350行), 基于sage_arena.json 100人数据。功能: 主题→选人→生成视角→交叉碰撞→产出增强结论。验证通过但发现数据质量问题。",
+      "priority": "high",
+      "status": "done",
+      "project": "p_mgmt",
+      "result": "✅ core/sage_arena.py (350行) 实现完成\n功能: 主题→选人(领域匹配+多样性)→生成视角→交叉碰撞→共识/冲突/盲区\n3个DiePre场景验证通过, 8个主题选人测试通过\n⚠️ 数据质量问题: 419维中绝大多数分数=99, 区分度不足",
+      "completed_at": "2026-03-29 07:25:00"
+    },
+    {
+      "id": "ded_1774739553_12",
+      "title": "伟人竞技场v2 — 多人独立推理引擎 + 重构数据",
+      "description": "1) 重构伟人数据: 20人×10维, 梯度50-99, 高区分度(旧版419维99分泛滥) 2) 多人独立推理: 每位伟人独立调用GLM-5 Turbo API, 产出独立分析后汇总碰撞",
+      "priority": "high",
+      "status": "done",
+      "project": "p_mgmt",
+      "result": "✅ core/sage_data.py (20人×10维重构数据) + core/sage_arena_v2.py (多人独立推理)\n区分度验证: 6个不同主题选出完全不同的伟人组合\nAPI验证: 阿基米德(力矩平衡/拓扑相变) + 牛顿(解析解dc=T*(1-√(Et/Ec))) + 费曼(干意面模型/临界塑性耗散能)\n三个伟人产出真正不同的分析角度, 交叉碰撞有价值",
+      "completed_at": "2026-03-29 07:30:00"
+    },
+    {
+      "id": "ded_1774739553_13",
+      "title": "伟人竞技场集成到DiePre推演循环 — 每轮推演自动调用",
+      "description": "将sage_arena_v2集成到心跳推演循环中: 每轮推演前自动调用竞技场获取多视角分析, 作为推演输入。需要控制API调用成本(每轮3人而非5人)。",
+      "priority": "high",
+      "status": "queued",
+      "project": "p_diepre",
+      "model": "glm5_turbo",
+      "rounds": 2
+    },
+    {
+      "id": "ded_1774740234_20",
+      "title": "清废临界角公式精化 — θ≈15°+5°×ln(t) 的材料修正",
+      "description": "清废临界角受材料厚度t影响, 需要按材料类型(瓦楞/卡纸/灰板)分别建立修正系数。竞技场增强推演。",
+      "priority": "high",
+      "status": "done",
+      "project": "p_diepre",
+      "model": "glm5_turbo",
+      "rounds": 2,
+      "result": "✅ core/strip_angle_model.py (280行) + 竞技场增强\n精化公式: θ = 15°+5°×ln(t) + Δv(v²) + ΔE(Gc) + ΔMC + Δblade\n10种材料速查表, 速度/MC/刀具三维度修正\n海森堡: 速度越高安全区间越宽(±1.8°~2.4°)\n钱学森: MC每升1%, E降8%, θ增大0.5°",
+      "completed_at": "2026-03-29 07:40:00"
+    },
+    {
+      "id": "ded_1774740234_21",
+      "title": "MC含水量综合影响模型 — 对所有参数的统一影响框架",
+      "description": "MC影响K因子、扇形误差、热膨胀、裱合收缩等多个参数。需要建立统一的MC→Δ模型, 避免各模块独立处理导致的重复/遗漏。",
+      "priority": "high",
+      "status": "queued",
+      "project": "p_diepre",
+      "model": "glm5_turbo",
+      "rounds": 2
     }
   ],
   "problems": [
@@ -3783,6 +3964,229 @@
       "created_at": "2026-03-27 01:25:18",
       "updated_at": "2026-03-27 01:25:18",
       "resolved_at": null
+    },
+    {
+      "id": "prob_1774738500_1",
+      "title": "JIS Z 1506原文缺失 — 微瓦楞参数盲区的关键路径",
+      "description": "多节点交叉引用JIS Z 1506中的微瓦楞折叠展开k值，与FEFCO差异预估≥0.2mm。这是填补微瓦楞盲区的唯一权威来源。需要获取JIS标准原文（付费购买或图书馆）。当前微瓦楞参数依赖推演估算，置信度不足。",
+      "severity": "critical",
+      "status": "open",
+      "project_id": "p_diepre",
+      "suggested_solution": "获取JIS Z 1506原文，提取E/F楞的k值、压痕深度比、槽宽系数。可联系日本包装技术协会或通过JSA WebDesk购买。",
+      "spawned_plan_id": "ded_1774738500_3"
+    },
+    {
+      "id": "prob_1774738500_2",
+      "title": "裱合胶水耦合效应无法用RSS独立假设建模",
+      "description": "胶水固化收缩与纸张吸湿膨胀在裱合工序中同时发生，方向可能相同(叠加)或相反(部分抵消)。RSS模型将其视为独立变量会低估耦合效应。需要实验数据确定耦合方向和系数。",
+      "severity": "high",
+      "status": "pending_deduction",
+      "project_id": "p_diepre",
+      "suggested_solution": "设计对照实验：相同纸张+不同胶水类型，测量裱合后24/48/72h的MD/CD方向尺寸变化。区分干燥收缩(RH主导)和胶水固化收缩。",
+      "spawned_plan_id": "ded_1774738500_1"
+    },
+    {
+      "id": "prob_1774738500_3",
+      "title": "双瓦楞BC/AB坑中性轴位置缺乏实验数据",
+      "description": "单瓦楞K≈0.35已确认，但双瓦楞(BC/AB坑>6mm)的中性轴因芯纸层数增加而偏移更大。当前保守估计K=0.40，K差0.05意味着300mm展开差0.075mm。对精密包装箱不可忽略。",
+      "severity": "medium",
+      "status": "pending_verify",
+      "project_id": "p_diepre",
+      "suggested_solution": "对不同楞型(AB/BC/EB)进行折叠实验，测量实际展开长度，反推K值。或使用有限元分析(ANSYS/Abaqus)模拟双瓦楞弯曲中性轴。"
+    },
+    {
+      "id": "prob_1774738500_4",
+      "title": "裱合机张力差异无法量化 — 缺乏进出纸速度差测量数据",
+      "description": "裱合机面纸与瓦楞纸板的进纸速度差会导致相对位移(鬼影)，多层裱合时非线性放大。定性描述存在但无数值。预估影响0.02-0.05mm/层。",
+      "severity": "medium",
+      "status": "open",
+      "project_id": "p_diepre",
+      "suggested_solution": "测量不同型号裱合机(BOBST/国产)的进出纸速度差，建立设备数据库。作为error_budget的δ_tension项。"
+    },
+    {
+      "id": "prob_1774739027_5",
+      "title": "±0.5mm精密级数学不可达 — Bobst修正RSS=0.687mm, 国产=1.155mm",
+      "description": "修正RSS模型(含非正态分布修正+安全系数)计算结果: Bobst SP106在300mm CD方向总误差0.687mm, 国产机1.155mm。±0.5mm目标在标准工况下数学不可达。需要: 1)缩短尺寸 2)降低安全系数 3)受控仓储(MC稳定) 4)后道工序补偿。",
+      "severity": "critical",
+      "status": "open",
+      "project_id": "p_diepre",
+      "suggested_solution": "系统应在用户选择±0.5mm时自动触发RSS前置校验, 若不可达则建议: 缩小尺寸/放宽公差/标注'需受控仓储'/推荐Bobst设备"
+    },
+    {
+      "id": "prob_1774739207_6",
+      "title": "sage_arena.json 数据质量缺陷 — 419维中99分泛滥, 区分度不足",
+      "description": "100位伟人×419维能力矩阵中, 绝大多数维度的分数都是99。导致不同伟人在同一主题下几乎无法区分(于敏/特斯拉/达芬奇等在所有DiePre主题中得分相同)。数据需要重新校准: 1)区分核心能力(应该有梯度)和扩展能力 2)引入领域特异性权重 3)或从100人精简到30-50人,每人的核心维度控制在10-15个。",
+      "severity": "high",
+      "status": "resolved",
+      "project_id": "p_mgmt",
+      "suggested_solution": "方案A: 重新评分(人工校准, 每人10-15核心维, 梯度60-99); 方案B: 引入领域特异性权重矩阵; 方案C: 从sages_100.json(7维精简版)出发重建, 7维区分度更高",
+      "user_solution": "已用sage_data.py重建: 20人×10维, 梯度50-99, 每人有明确strength和blindspot",
+      "resolved_at": "2026-03-29 07:30:00"
+    },
+    {
+      "id": "prob_1774739207_7",
+      "title": "伟人竞技场无法实现多人格独立推理 — 当前仅能生成视角提示, 无法独立思考",
+      "description": "当前实现只能: 1)选择伟人 2)生成基于其哲学的推理框架提示 3)交叉碰撞产出共识。无法做到: 真正让不同人格的模型独立推理同一问题然后汇总。原因: GLM-5 Turbo是单次调用, 无法并行多实例。要实现真正的圆桌推演, 需要: A)多次API调用(每人一次prompt)或 B)长上下文中模拟多人格(但会被模型同化)。",
+      "severity": "medium",
+      "status": "resolved",
+      "project_id": "p_mgmt",
+      "suggested_solution": "方案A: 每个伟人视角独立调用API, 收集结果后汇总(成本高但真实); 方案B: 在单次调用中用system prompt强制区分角色(效果差); 方案C: 利用OpenClaw的君臣佐使多模型路由, 不同模型模拟不同人格(需配置)",
+      "user_solution": "已实现: sage_arena_v2.py, 每位伟人独立调用GLM-5 Turbo API, 收集结果后汇总碰撞",
+      "resolved_at": "2026-03-29 07:30:00"
+    },
+    {
+      "id": "prob_1774745504",
+      "title": "3D预览重构: 从2D entities折叠生成3D，替代硬编码6面板RSC",
+      "description": "当前CadPreview3D.vue只用L/W/H生成固定RSC盒子，与2D刀版entities无关联。需要: 1)解析entities中的cut/crease线 2)识别面板区域 3)按折痕线折叠3D 4)支持圆形盒/异形盒",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 08:51:44"
+    },
+    {
+      "id": "prob_1774745504",
+      "title": "图片识别→刀版: 圆形盒/天地盖/异形盒型生成器完善",
+      "description": "后端POST /image/generate-dieline目前圆形盒只有基础展开图，需要: 1)圆形盒完整展开(底+侧壁+盖+糊口) 2)天地盖(盖+底分开) 3)异形盒多边形支持 4)折痕线/糊口线标记",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 08:51:44"
+    },
+    {
+      "id": "prob_1774745504",
+      "title": "伟人竞技场/圆桌决策系统: CRM标记done但core/中无代码实现",
+      "description": "sage_arena_v2.py和sage_data.py已存在，但从未被实际调用。需要: 1)集成到推演管线 2)多人独立推理→投票/加权 3)前端展示推理过程",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 08:51:44"
+    },
+    {
+      "id": "prob_1774745504",
+      "title": "ClawHub高价值skill安装: ai-web-automation等(需避开rate limit)",
+      "description": "已安装: web-browsing, web-scraping, in-depth-research, code-documenter, parallel-ai-research。待装: ai-web-automation(上次rate limit失败)。需要分批安装，每批间隔>30min",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 08:51:44"
+    },
+    {
+      "id": "prob_1774745504",
+      "title": "知识采集: Agent架构/自进化方法论/多模型协作方向持续采集",
+      "description": "当前47条知识(GitHub top项目+DiePre行业)。需持续采集: 1)Agent架构模式 2)Self-evolving AI方法论 3)Multi-model collaboration 4)公差分析/误差预算最佳实践",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 08:51:44"
+    },
+    {
+      "id": "prob_1774745504",
+      "title": "2556个skill节点: 提取高价值代码整合到core/",
+      "description": "data/skill_index.json有2556个节点(认知340/系统175/代码142/知识95/物理89)。需要评估哪些可直接用于DiePre推演引擎，提取有价值代码片段整合",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 08:51:44"
+    },
+    {
+      "id": "prob_1774745504",
+      "title": "test_core.py: 2个cognitive_core测试失败需修复",
+      "description": "29 tests中27 pass, 2个cognitive_core相关失败。需定位失败原因并修复，确保核心推理引擎的测试覆盖率",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 08:51:44"
+    },
+    {
+      "id": "prob_1774747504",
+      "title": "活字印刷3D项目: RAM Lock连接器集成到cad_to_3d.py",
+      "description": "ram_lock_connector.py已生成测试STL。需要: 1)替换燕尾榫为RAM Lock 2)实现generate_base_plate底座 3)实测打印验证卡扣弹性 4)优化公差参数",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-29 09:25:04"
+    },
+    {
+      "id": "rose_1774826291_0",
+      "title": "H1: 注册主体（公司/团队）",
+      "description": "今日启动注册，小程序必须用公司/团队主体",
+      "severity": "critical",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_1",
+      "title": "H2: 商标余香查询+注册",
+      "description": "本周完成商标查询，确认可注册后提交",
+      "severity": "high",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_2",
+      "title": "H3: 微信小程序账号申请",
+      "description": "需主体注册完成后立即申请",
+      "severity": "high",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_3",
+      "title": "H4: 公众号注册",
+      "description": "余香公众号，本周完成",
+      "severity": "high",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_4",
+      "title": "H5: 确认5人团队角色分工",
+      "description": "开发/设计/运营/推广各1+赵先生，本周确认",
+      "severity": "high",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_5",
+      "title": "H6: 签署合伙协议",
+      "description": "广告专款专用+垫资优先收回+平分规则+退出购买权",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_6",
+      "title": "H7: 自媒体账号开通",
+      "description": "小红书/抖音/快手，运营负责，本周完成",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_7",
+      "title": "H8: 上海嘉定区发放点勘察",
+      "description": "阶段3前完成，找合适的人流地点",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_8",
+      "title": "H9: 玫瑰供应商洽谈",
+      "description": "嘉定/上海批发市场，阶段3前锁定供应商和单价",
+      "severity": "medium",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
+    },
+    {
+      "id": "rose_1774826291_9",
+      "title": "H10: CTID接入申请",
+      "description": "公安部互联网+可信身份认证，阶段4后启动",
+      "severity": "low",
+      "status": "open",
+      "created_at": "2026-03-30 07:18:11",
+      "project": "p_rose"
     }
   ]
 }

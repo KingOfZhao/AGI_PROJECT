@@ -23,6 +23,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SKILL_DIRS = [
     PROJECT_ROOT / "workspace" / "skills",                    # 原有本地 skill
     PROJECT_ROOT / "workspace" / "skills" / "openclaw",       # 新导入的 openclaw skill
+    PROJECT_ROOT / "skills",                                   # GitHub 导入的 skills (flutter/skills 等)
 ]
 OPENCLAW_JSON = PROJECT_ROOT / "web" / "data" / "openclaw_skills.json"
 
@@ -68,6 +69,31 @@ INTENT_CATEGORY_MAP = {
     "html": ["web-and-frontend-development"],
     "网页": ["web-and-frontend-development"],
     "website": ["web-and-frontend-development"],
+
+    # Flutter & Dart & 移动端
+    "flutter": ["flutter", "mobile-development", "coding-agents-and-ides"],
+    "dart": ["flutter", "mobile-development", "coding-agents-and-ides"],
+    "widget": ["flutter", "mobile-development"],
+    "statefulwidget": ["flutter"],
+    "statelesswidget": ["flutter"],
+    "provider": ["flutter"],
+    "riverpod": ["flutter"],
+    "bloc": ["flutter"],
+    "getx": ["flutter"],
+    "pubspec": ["flutter"],
+    "pub.dev": ["flutter"],
+    "flutter build": ["flutter"],
+    "flutter run": ["flutter"],
+    "hot reload": ["flutter"],
+    "mobile": ["mobile-development", "flutter"],
+    "ios": ["mobile-development", "flutter"],
+    "android": ["mobile-development", "flutter"],
+    "app": ["mobile-development", "flutter"],
+    "移动端": ["mobile-development", "flutter"],
+    "移动应用": ["mobile-development", "flutter"],
+    "跨平台": ["mobile-development", "flutter"],
+    "刀模app": ["flutter"],
+    "diepre app": ["flutter"],
 
     # AI & LLM
     "ai": ["ai-and-llms"],

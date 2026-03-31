@@ -1,0 +1,24 @@
+FROM docker.1panel.live/library/python:3.12-slim
+
+LABEL maintainer="diepre-agi"
+LABEL description="安全沙箱: 网页抓取/开源代码执行/外部依赖隔离"
+LABEL security="sandboxed-no-network-except-proxy"
+
+# 最小运行时
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Python工具
+RUN pip install --no-cache-dir requests beautifulsoup4 lxml
+
+# 非root用户 + 数据目录
+RUN mkdir -p /data/input /data/output
+RUN useradd -m -s /bin/bash sandbox
+RUN chown -R sandbox:sandbox /data
+USER sandbox
+WORKDIR /home/sandbox
+# Volume mount points
+VOLUME ["/data/input", "/data/output"] && chown -R sandbox:sandbox /data
+
+CMD ["sleep", "infinity"]

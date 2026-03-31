@@ -1,0 +1,165 @@
+{
+  "1": {
+    "GitHub": {
+      "search": [
+        {
+          "title": "GitHub",
+          "snippet": "<span class=\"searchmatch\">GitHub</span>是一个在线软件源代码托管服务平台，用于公开程序或软件的代码。使用<span class=\"searchmatch\">Git</span>作为版本控制软件，由开发者克里斯·汪斯崔斯（英语：Chris Wanstrath）、P·J·海特（英语：P. J. Hyett）和汤姆·普雷斯顿·沃纳使用Ruby on Rails编写而成。在2018年，<span class=\"searchmatch\">GitHub</span>被微软公司收购。"
+        },
+        {
+          "title": "GitHub Copilot",
+          "snippet": "开发环境中进行技术预览。 2021年10月26日，<span class=\"searchmatch\">GitHub</span> Copilot 作为插件在 JetBrains 市场上发布。 2021年10月27日，<span class=\"searchmatch\">GitHub</span> 发布了 <span class=\"searchmatch\">GitHub</span> Copilot Neovim 插件作为公共存储库。 2022年3月9日，<span class=\"searchmatch\">Github</span>官方宣布Copilot适用于Visual"
+        },
+        {
+          "title": "Git",
+          "snippet": "<span class=\"searchmatch\">Git</span>可資利用。Tortoise<span class=\"searchmatch\">Git</span>還提供有GUI。 <span class=\"searchmatch\">git</span>也提供Windows版本下载。 Visual Studio 自 2013 版本开始内置 <span class=\"searchmatch\">git</span> 功能。 <span class=\"searchmatch\">GitHub</span> Desktop：可用于第三方<span class=\"searchmatch\">git</span>仓库网站 <span class=\"searchmatch\">Git</span> for Windows Tortoise<span class=\"searchmatch\">Git</span> SourceTree"
+        }
+      ],
+      "extract": "GitHub是一个在线软件源代码托管服务平台，用于公开程序或软件的代码。使用Git作为版本控制软件，由开发者克里斯·汪斯崔斯、P·J·海特和汤姆·普雷斯顿·沃纳使用Ruby on Rails编写而成。在2018年，GitHub被微软公司收购。\nGitHub同时提供付费账户和免费账户。这两种账户都可以建立公开或私有的代码仓库，但付费用户拥有更多功能。根据在2009年的Git用户调查，GitHub是最流行的Git托管站点。除了允许个人和组织建立和存取保管中的代码以外，它也提供了一些方便社会化共同软件开发的功能，即一般人口中的社群功能，包括允许用户追踪其他用户、组织、软件库的动态，对软件代码的改动和bug提出评论等。GitHub也提供了分析功能，用于概觀显示开发者们怎样在代码库上工作以及软件的开发活跃程度。\n截至2022年6月，GitHub已经有超过5700万注册用户和1.9亿代码库（包括至少2800万开源代码库），事实上已经成为了世界上最大的代码托管网站和开源社区。截至2023年1月26日，已经有超过1亿开发人员使用GitHub。\n\n"
+    },
+    "San Francisco": {
+      "search": [
+        {
+          "title": "旧金山",
+          "snippet": "圣弗朗西斯科（英語：<span class=\"searchmatch\">San</span> <span class=\"searchmatch\">Francisco</span>，港澳译三藩市，台湾译聖法蘭西斯科），在汉语圈又称旧金山，官方正式名稱為旧金山市县（City and County of <span class=\"searchmatch\">San</span> <span class=\"searchmatch\">Francisco</span>），是位於美國西南太平洋沿岸中部的大型城市，為加利福尼亚州唯一市郡合一的行政區，亦別名「金門城市」、「灣"
+        },
+        {
+          "title": "舊金山灣區",
+          "snippet": "舊金山灣區（英語：<span class=\"searchmatch\">San</span> <span class=\"searchmatch\">Francisco</span> Bay Area），简称灣區（The Bay Area），是位於美國加利福尼亞州北部的區域及都會區，位於沙加緬度河下游出海口的舊金山灣和聖帕布羅灣四周。湾区的范围尚有争议，但普遍认可的范围包含西側的舊金山，南側的聖馬刁郡、圣克拉拉谷地區，東側的阿拉米达"
+        },
+        {
+          "title": "舊金山國際機場",
+          "snippet": "舊金山國際機場（英語：<span class=\"searchmatch\">San</span> <span class=\"searchmatch\">Francisco</span> International Airport，IATA代码：SFO；ICAO代码：KSFO；FAA代码：SFO）位於舊金山市中心南方大約13英里（21公里），毗鄰聖馬刁縣的密爾布瑞和聖布魯諾，是美國加州的一座大型商用機場，擁有可直飛美洲、歐洲、亞洲和"
+        }
+      ],
+      "extract": "San Francisco, officially the City and County of San Francisco, is the fourth-most populous city in California and the 17th-most populous in the United States, with a population of 826,079 in 2025. Among U.S. cities with a population of 300,000 or more, San Francisco is ranked first by per capita income, second by population density, and sixth by aggregate income as of 2023. Some 4.6 million residents live in the city's metropolitan statistical area, which is the 13th-largest in the United State"
+    }
+  },
+  "2": {
+    "Ashish Vaswani": {
+      "search": [
+        {
+          "title": "阿西什·瓦斯瓦尼",
+          "snippet": "阿西什·瓦斯瓦尼（英語：<span class=\"searchmatch\">Ashish</span> <span class=\"searchmatch\">Vaswani</span>，1986年—）是一名從事深度學習的計算機科學家，因其在人工智慧和自然語言處理（NLP）領域的重大貢獻而知名。他是開創性論文《Attention Is All You Need》的合著者之一，該論文介紹了Transformer模型，這是一種使用自注"
+        },
+        {
+          "title": "注意力机制",
+          "snippet": "S2CID 205251479. doi:10.1038/nature20101. （原始内容存档于2022-10-02） （英语）.  <span class=\"searchmatch\">Vaswani</span>, <span class=\"searchmatch\">Ashish</span>; Shazeer, Noam; Parmar, Niki; Uszkoreit, Jakob; Jones, Llion; Gomez"
+        },
+        {
+          "title": "諾姆·沙澤爾",
+          "snippet": "George; Jones, Llion; Schuster, Mike; Shazeer, Noam; Parmar, Niki; <span class=\"searchmatch\">Vaswani</span>, <span class=\"searchmatch\">Ashish</span>; Uszkoreit, Jakob; Kaiser, Lukasz; Chen, Zhifeng; Wu, Yonghui. The"
+        }
+      ],
+      "extract": "Ashish Vaswani (born 1986) is an Indian computer scientist. Vaswani conducted research at Google Brain and, earlier in his career, was affiliated with the Information Sciences Institute at the University of Southern California.\nVaswani is a co-author of the 2017 paper \"Attention Is All You Need\", which introduced the Transformer neural network architecture. The Transformer model has been used in the development of subsequent NLP models BERT, ChatGPT, and their successors.\n\n"
+    }
+  },
+  "3": {
+    "2020年夏季奥林匹克运动会奖牌榜": {
+      "search": [
+        {
+          "title": "2020年夏季奥林匹克运动会奖牌榜",
+          "snippet": "受2019冠状病毒病疫情影响，所有得獎<span class=\"searchmatch\">运动</span>員在颁奖仪式上需自行佩戴<span class=\"searchmatch\">奖牌</span>或由队友为自己佩戴<span class=\"searchmatch\">奖牌</span>。 最終，美国代表團以39枚金牌、113枚<span class=\"searchmatch\">獎牌</span>，坐擁金牌<span class=\"searchmatch\">榜</span>和<span class=\"searchmatch\">獎牌榜</span>首位；中国代表团以38枚金牌、89枚<span class=\"searchmatch\">獎牌</span>排名第二，金牌总数排名平了2012<span class=\"searchmatch\">年</span>伦敦奥运<span class=\"searchmatch\">会</span>上该国境外参赛的最佳纪录，这是1912<span class=\"searchmatch\">年</span>以来首次出现<span class=\"searchmatch\">夏季</span>奥运<span class=\"searchmatch\">奖牌榜</span>"
+        },
+        {
+          "title": "2008年夏季奥林匹克运动会奖牌榜",
+          "snippet": "2008<span class=\"searchmatch\">年</span><span class=\"searchmatch\">夏季</span><span class=\"searchmatch\">奥林匹克</span><span class=\"searchmatch\">运动会</span><span class=\"searchmatch\">奖牌榜</span>根据國家<span class=\"searchmatch\">奧林匹克</span>委員會的排名排列。2008<span class=\"searchmatch\">年</span><span class=\"searchmatch\">夏季</span><span class=\"searchmatch\">奥林匹克</span><span class=\"searchmatch\">运动会</span>于2008<span class=\"searchmatch\">年</span>8月8日至8月24日在中华人民共和国首都北京市举行，共有来自204个国家和地区的11028名<span class=\"searchmatch\">运动</span>员参加了28个大项，共302项赛事的比赛。 一共有来自86个代表团的<span class=\"searchmatch\">运动</span>员赢得了<span class=\"searchmatch\">奖牌</span>"
+        },
+        {
+          "title": "2020年夏季奥林匹克运动会",
+          "snippet": "<span class=\"searchmatch\">2020</span><span class=\"searchmatch\">年</span><span class=\"searchmatch\">夏季</span><span class=\"searchmatch\">奥林匹克</span><span class=\"searchmatch\">運動會</span>（日語：<span class=\"searchmatch\">2020</span><span class=\"searchmatch\">年</span><span class=\"searchmatch\">夏季</span>オリンピック／<span class=\"searchmatch\">2020</span>ねんかきオリンピック，羅馬化：Nisen Nijū-nen Kaki Orinpikku；英語：<span class=\"searchmatch\">2020</span> Summer Olympics），一般稱為<span class=\"searchmatch\">2020</span><span class=\"searchmatch\">年</span>東京奥运<span class=\"searchmatch\">会</span>、東京<span class=\"searchmatch\">2020</span>（Tokyo <span class=\"searchmatch\">2020</span>，日語：東京<span class=\"searchmatch\">2020</span>"
+        }
+      ],
+      "extract": "2020年夏季奥林匹克运动会是2021年7月23日至8月8日在日本首都东京都举办的夏季綜合運動會。本届奥林匹克运动会中，百慕大、菲律宾和卡塔爾奪得歷史上首面奥林匹克运动会金牌，而土庫曼斯坦、聖馬力諾和布基納法索則奪得首面奧林匹克運動會獎牌。該屆奧運約5000枚的金、銀、銅獎牌都使用100%的回收電子產品製造而成。\n受2019冠状病毒病疫情影响，所有得獎运动員在颁奖仪式上需自行佩戴奖牌或由队友为自己佩戴奖牌。\n最終，美国代表團以39枚金牌、113枚獎牌，坐擁金牌榜和獎牌榜首位；中国代表团以38枚金牌、89枚獎牌排名第二，金牌总数排名平了2012年伦敦奥运会上该国境外参赛的最佳纪录，这是1912年以来首次出现夏季奥运奖牌榜前两名仅相差1枚金牌的情况；東道主日本代表團則拿下27枚金牌、58枚獎牌位列第三，创该国参加奥运会以来的最好成绩。"
+    },
+    "List of highest-grossing films in the United States": {
+      "search": [
+        {
+          "title": "全球最高電影票房收入列表",
+          "snippet": "&quot;By <span class=\"searchmatch\">the</span> end <span class=\"searchmatch\">of</span> 1938, it had grossed more than $8 million <span class=\"searchmatch\">in</span> worldwide rentals and was ranked at <span class=\"searchmatch\">the</span> time as <span class=\"searchmatch\">the</span> second-<span class=\"searchmatch\">highest</span>-<span class=\"searchmatch\">grossing</span> film after <span class=\"searchmatch\">the</span> 1925"
+        },
+        {
+          "title": "麥當娜",
+          "snippet": "<span class=\"searchmatch\">List</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">highest</span>-<span class=\"searchmatch\">grossing</span> live music artists）。《福布斯》在過去40年（1980年代至2010年代）中11次將瑪丹娜評為年度收入最高的女性音樂人（英语：Forbes <span class=\"searchmatch\">list</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">highest</span>-earning"
+        },
+        {
+          "title": "全球最高印度電影票房收入列表",
+          "snippet": "數字，而發布數據的印度網站時常被促使去增加國內票房預估的更新頻率。印度電影已自20世紀初開始在全球市場（英语：<span class=\"searchmatch\">List</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">highest</span>-<span class=\"searchmatch\">grossing</span> Indian <span class=\"searchmatch\">films</span> <span class=\"searchmatch\">in</span> overseas markets）放映 。截至2003年，共有超過90個國家已放映過印度電影。在2000-2"
+        }
+      ],
+      "extract": ""
+    }
+  },
+  "4": {
+    "罗宾德拉纳特·泰戈尔": {
+      "search": [
+        {
+          "title": "罗宾德拉纳特·泰戈尔",
+          "snippet": "<span class=\"searchmatch\">罗</span><span class=\"searchmatch\">宾</span><span class=\"searchmatch\">德</span><span class=\"searchmatch\">拉</span><span class=\"searchmatch\">纳</span><span class=\"searchmatch\">特</span>·<span class=\"searchmatch\">泰</span><span class=\"searchmatch\">戈尔</span>（孟加拉語：রবীন্দ্রনাথ ঠাকুর；1861年5月7日—1941年8月7日），孟加拉族文学家、音樂家、哲学家和反现代民族主义者，1913年，他以《吉檀迦利》成为第一位获得诺贝尔文学奖的亚洲人。 在西方国家，<span class=\"searchmatch\">泰</span><span class=\"searchmatch\">戈尔</span>一般被看作是一位诗人，而很少被看做一位哲学家，但在印度則"
+        },
+        {
+          "title": "戴宾德拉那特·泰戈尔",
+          "snippet": "戴<span class=\"searchmatch\">宾</span><span class=\"searchmatch\">德</span><span class=\"searchmatch\">拉</span>那<span class=\"searchmatch\">特</span>·<span class=\"searchmatch\">泰</span><span class=\"searchmatch\">戈尔</span>（英語：Debendranath Tagore，印地語：देवेन्द्रनाथ ठाकुर，1817年5月15日—1905年1月19日），是近代印度教改革家，梵社第二代领袖。是<span class=\"searchmatch\">德</span>瓦<span class=\"searchmatch\">尔</span>卡那<span class=\"searchmatch\">特</span>·<span class=\"searchmatch\">泰</span><span class=\"searchmatch\">戈尔</span>的长子，<span class=\"searchmatch\">罗</span><span class=\"searchmatch\">宾</span><span class=\"searchmatch\">德</span><span class=\"searchmatch\">拉</span><span class=\"searchmatch\">纳</span><span class=\"searchmatch\">特</span>·<span class=\"searchmatch\">泰</span><span class=\"searchmatch\">戈尔</span>的父亲。 《梵法教典》 《论梵教演说集》 Facts About"
+        },
+        {
+          "title": "庫爾納專區",
+          "snippet": "庫<span class=\"searchmatch\">爾</span><span class=\"searchmatch\">納</span>專區（孟加拉語：খুলনা বিভাগ）是孟加拉國8個專區之一，位於該國西南部。北界恆河，西隔賴蒙<span class=\"searchmatch\">戈</span><span class=\"searchmatch\">爾</span>河與印度相望，南臨孟加拉灣，東界哈林卡達河。面積22285.41平方公里，2001年人口14,705,229人。首府庫<span class=\"searchmatch\">爾</span><span class=\"searchmatch\">納</span>市。 下分10縣、28自治市、6,941村。 Shat清真寺 <span class=\"searchmatch\">罗</span><span class=\"searchmatch\">宾</span><span class=\"searchmatch\">德</span><span class=\"searchmatch\">拉</span>纳特·泰戈尔故居"
+        }
+      ],
+      "extract": "罗宾德拉纳特·泰戈尔（孟加拉語：রবীন্দ্রনাথ ঠাকুর；1861年5月7日—1941年8月7日），孟加拉族文学家、音樂家、哲学家和反现代民族主义者，1913年，他以《吉檀迦利》成为第一位获得诺贝尔文学奖的亚洲人。\n在西方国家，泰戈尔一般被看作是一位诗人，而很少被看做一位哲学家，但在印度則兩者皆是，因他的诗中含有深刻的宗教和哲学的见解。对泰戈尔来说，他的诗是他奉献给神的礼物，而他本人是神的求婚者。他的诗在印度享有史诗的地位。他本人被许多印度教徒看作是一个圣人。"
+    },
+    "India GDP per capita": {
+      "search": [
+        {
+          "title": "各国人均名义国内生产总值列表",
+          "snippet": "本條目為各國家或地區的人均名义国内生产总值（<span class=\"searchmatch\">GDP</span>）列表，列出各國家或地區的人均名义<span class=\"searchmatch\">GDP</span>（台湾稱作人均名目<span class=\"searchmatch\">GDP</span>，英語：<span class=\"searchmatch\">GDP</span> nominal <span class=\"searchmatch\">per</span> <span class=\"searchmatch\">capita</span>），並且按官方美元匯率所估算。 此處提供的數字未考慮不同國家/地區生活成本的差異，並且根據國家/地區貨幣匯率的波動，結果每年都有很大差異。"
+        },
+        {
+          "title": "印度经济",
+          "snippet": "印度經濟（英語：economy of <span class=\"searchmatch\">India</span>）屬混合體系，既有市場經濟的自由競爭，也有政府在一些重要領域的參與和控制。，其名目國內生產毛額（<span class=\"searchmatch\">GDP</span>）排名世界第5大，而根據購買力平價（PPP）則上升到世界第3大。在人均<span class=\"searchmatch\">GDP</span>和PPP方面，印度的世界排名分別為第141名和第125名。。 印度約有70%的<span class=\"searchmatch\">GDP</span>"
+        },
+        {
+          "title": "印度經濟史",
+          "snippet": "<span class=\"searchmatch\">India</span> embraced economic reform. Reason. 2006 [2011-01-17]. （原始内容存档于2009-01-14）.  Data Source: Tables of Prof. Angus Maddison (2010). The <span class=\"searchmatch\">per</span> <span class=\"searchmatch\">capita</span> GDP"
+        }
+      ],
+      "extract": "No extract found"
+    }
+  },
+  "5": {
+    "地壳元素丰度": {
+      "search": [
+        {
+          "title": "地球的地殼元素豐度列表",
+          "snippet": "以下是地球<span class=\"searchmatch\">地殼</span>的化學<span class=\"searchmatch\">元素</span><span class=\"searchmatch\">豐</span><span class=\"searchmatch\">度</span>列表，其中包括5份不同資料來源得到的結果，<span class=\"searchmatch\">豐</span><span class=\"searchmatch\">度</span>以質量百分比為準。 此等數字是估計值，因資料來源及估計方式而異，各<span class=\"searchmatch\">元素</span><span class=\"searchmatch\">豐</span><span class=\"searchmatch\">度</span>的大小關係只能作參考。 钋：2×10-10 ppm 氡：4×10-13 ppm 镭：9×10-7 ppm 锕：5.5×10-10 ppm 镤：1.4×10-6"
+        },
+        {
+          "title": "化學元素豐度",
+          "snippet": "這張圖表顯示地球的上層大陸<span class=\"searchmatch\">地殼</span>中<span class=\"searchmatch\">元素</span>的相對<span class=\"searchmatch\">豐</span><span class=\"searchmatch\">度</span>。 許多顯示在圖表中的<span class=\"searchmatch\">元素</span>都被分類在目錄當中（有部分重疊）： 形成岩石的<span class=\"searchmatch\">元素</span>（主要<span class=\"searchmatch\">元素</span>在綠色的區域少數的<span class=\"searchmatch\">元素</span>在淡綠色的區域）； 稀土元素（鑭族<span class=\"searchmatch\">元素</span>，鑭-鑥和釔，標示藍色的區域）； 主要的工業<span class=\"searchmatch\">元素</span>（全球年產值&gt;~3×107公斤；標示為粗黑字體）；"
+        },
+        {
+          "title": "铝",
+          "snippet": "<span class=\"searchmatch\">元素</span>，化學符號为Al，原子序數为13，原子量為7001269815384000000♠26.9815384 u，属于硼族<span class=\"searchmatch\">元素</span>，相对密度是2.70。铝是较软的易延展的银白色金属，也是<span class=\"searchmatch\">地壳</span>中第三大丰<span class=\"searchmatch\">度</span>的<span class=\"searchmatch\">元素</span>（仅次于氧和硅），也是<span class=\"searchmatch\">丰</span><span class=\"searchmatch\">度</span>"
+        }
+      ],
+      "extract": "No extract found"
+    },
+    "Oxygen": {
+      "search": [
+        {
+          "title": "氧",
+          "snippet": "氧（英語：<span class=\"searchmatch\">oxygen</span>）是一種化學元素，化學符號为O，原子序數为8，在元素週期表中屬於氧族元素（16族或VI族）。作为一种非金屬，氧是具有高反應性的氧化劑，能夠與大部分元素结合形成化合物（氧化物）。氧在宇宙中的總質量在所有元素中位列第三，质量分数僅居氫和氦之下；氧也是地球地殼中最丰富的元素，地壳中近一半（46"
+        },
+        {
+          "title": "氧療",
+          "snippet": "氧療（英語：<span class=\"searchmatch\">oxygen</span> therapy），也稱為補充氧氣（英語：supplemental <span class=\"searchmatch\">oxygen</span>），是一種使用氧氣作醫療用途的方式。也指在高海拔地區使用富氧空氣。此療法的急性適應症包括有低血氧症（英语：hypoxemia）（即血氧濃度過低）、一氧化碳中毒和叢集性頭痛。此外，麻醉誘導期間也可預"
+        },
+        {
+          "title": "氢OS",
+          "snippet": "OS）是中国智能手机制造商一加为旗下智能手机开发的Android操作系统的定制版本（替代使用者介面）。另一个专为海外市场开发的版本是“<span class=\"searchmatch\">Oxygen</span> OS”，一般中文名直譯為「氧OS」，不過實際上無論氫OS還是<span class=\"searchmatch\">Oxygen</span> OS，使用的Linux內核和驅動程式模組是相同的，而兩者目前已合并至同一套Android框架中。 最初一加科技與Cyanogen"
+        }
+      ],
+      "extract": "Oxygen is a chemical element; it has the symbol O and its atomic number is 8. It is a member of the chalcogen group in the periodic table. It is highly reactive, a nonmetal, and a potent oxidizing agent that readily forms oxides with most elements as well as with other compounds. Oxygen is the most abundant element in Earth's crust, making up almost half of the Earth's crust in the form of various oxides such as water, carbon dioxide, iron oxides, and silicates. It is also the third-most abundan"
+    }
+  }
+}
