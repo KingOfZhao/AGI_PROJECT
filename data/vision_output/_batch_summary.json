@@ -1,0 +1,134 @@
+{
+  "1852915213047bdfaa689d458a69bb0a_preprocessed": {
+    "total": 1063,
+    "by_type": {
+      "fold": 117,
+      "crease": 568,
+      "cut": 123,
+      "slot": 236,
+      "bridge": 19
+    },
+    "avg_confidence": {
+      "fold": 0.964,
+      "crease": 0.924,
+      "cut": 0.891,
+      "slot": 0.995,
+      "bridge": 0.875
+    },
+    "total_cut": 123,
+    "total_fold": 117,
+    "total_crease": 568,
+    "total_bridge": 19,
+    "total_unknown": 0
+  },
+  "2ac029a2eefc8a31313269317fe870a8_preprocessed": {
+    "total": 305,
+    "by_type": {
+      "crease": 170,
+      "cut": 40,
+      "fold": 64,
+      "slot": 22,
+      "bridge": 9
+    },
+    "avg_confidence": {
+      "crease": 0.965,
+      "cut": 0.883,
+      "fold": 0.955,
+      "slot": 1.0,
+      "bridge": 0.875
+    },
+    "total_cut": 40,
+    "total_fold": 64,
+    "total_crease": 170,
+    "total_bridge": 9,
+    "total_unknown": 0
+  },
+  "4fb23b3119f924e5385a2ca8ba60799a_preprocessed": {
+    "total": 560,
+    "by_type": {
+      "crease": 324,
+      "slot": 66,
+      "cut": 58,
+      "fold": 99,
+      "bridge": 13
+    },
+    "avg_confidence": {
+      "crease": 0.965,
+      "slot": 1.0,
+      "cut": 0.929,
+      "fold": 0.961,
+      "bridge": 0.875
+    },
+    "total_cut": 58,
+    "total_fold": 99,
+    "total_crease": 324,
+    "total_bridge": 13,
+    "total_unknown": 0
+  },
+  "6b119ad2dc8b0f107979dc11a0fa3515_preprocessed": {
+    "total": 2393,
+    "by_type": {
+      "crease": 1161,
+      "cut": 322,
+      "fold": 187,
+      "slot": 652,
+      "bridge": 71
+    },
+    "avg_confidence": {
+      "crease": 0.923,
+      "cut": 0.906,
+      "fold": 0.922,
+      "slot": 0.994,
+      "bridge": 0.875
+    },
+    "total_cut": 322,
+    "total_fold": 187,
+    "total_crease": 1161,
+    "total_bridge": 71,
+    "total_unknown": 0
+  },
+  "803fab503407aa9fd58885c30ec832ff_preprocessed": {
+    "total": 864,
+    "by_type": {
+      "fold": 117,
+      "crease": 442,
+      "cut": 110,
+      "slot": 187,
+      "bridge": 8
+    },
+    "avg_confidence": {
+      "fold": 0.952,
+      "crease": 0.924,
+      "cut": 0.892,
+      "slot": 0.991,
+      "bridge": 0.875
+    },
+    "total_cut": 110,
+    "total_fold": 117,
+    "total_crease": 442,
+    "total_bridge": 8,
+    "total_unknown": 0
+  },
+  "92a52f66546d6b97e887320e2dc06443_preprocessed": {
+    "total": 2413,
+    "by_type": {
+      "crease": 1147,
+      "bridge": 77,
+      "cut": 312,
+      "fold": 217,
+      "slot": 660
+    },
+    "avg_confidence": {
+      "crease": 0.927,
+      "bridge": 0.875,
+      "cut": 0.906,
+      "fold": 0.941,
+      "slot": 0.992
+    },
+    "total_cut": 312,
+    "total_fold": 217,
+    "total_crease": 1147,
+    "total_bridge": 77,
+    "total_unknown": 0
+  }
+}

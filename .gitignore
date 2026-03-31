@@ -62,3 +62,4 @@ gstack/
 
 # OpenClaw imported skills (large, auto-generated)
 workspace/skills/openclaw/
+data/vlm_annotations.md
