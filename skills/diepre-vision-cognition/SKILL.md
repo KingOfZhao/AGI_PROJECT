@@ -15,7 +15,7 @@ homepage: https://github.com/KingOfZhao/AGI_PROJECT
 | 字段       | 值                              |
 |------------|-------------------------------|
 | 名称       | diepre-vision-cognition        |
-| 版本       | 1.0.0                          |
+| 版本       | 2.0.0 (Pipeline v3.0)          |
 | 作者       | KingOfZhao                     |
 | 发布日期   | 2026-03-31                     |
 | 置信度     | 96%                            |
@@ -40,6 +40,38 @@ homepage: https://github.com/KingOfZhao/AGI_PROJECT
 4. **人机闭环质检**：AI 初判 → 人类复核 → 标注反馈 → 模型持续进化
 5. **置信度质检输出**：低于 90% 置信度的缺陷自动升级为人工复核
 
+## Pipeline v3.0 架构 (已验证)
+
+```
+手机拍照(任意角度/光照)
+  → [S1] 预处理 (去噪 + 顶帽黑帽光照校正 + CLAHE + Otsu前景提取)
+  → [S2] 透视矫正 (凸包角点检测 → 四象限排序 → 透视变换)
+  → [S3] 印刷过滤 (MSER文字检测 + 局部方差纹理 + inpainting填充)
+  → [S4] 线条提取 (自适应二值化 + 方向性闭运算 + 细长连通域过滤 + 十字核细化)
+  → [S5] 线宽分类 (距离变换 → 线宽直方图 → 峰谷分割 → 刀线/压痕)
+  → [S6] 输出 (白底黑边PNG + 分类PNG + DXF + SVG)
+```
+
+### 验证结果 (2026-03-31)
+- **10/10样本全部成功** (6张包装展开图 + 4张截图)
+- **速度**: 11.6s/张 (平均)
+- **印刷过滤**: 检测并移除 0-27% 面积的印刷文字/图案
+- **刀线/压痕分类**: 基于线宽自动区分(中位宽2.0-5.6px)
+
+### 已知问题
+- [ ] 6b119a样本线条提取为0(透视矫正后对比度不足)
+- [ ] 92a52f样本噪点较多(高印刷密度区域过滤不彻底)
+- [ ] 速度瓶颈在透视矫正(O(n²)角点排序)
+- [ ] DXF中线段断裂(需闭合路径检测)
+- [ ] 无像素→mm标定(需参考物)
+
+### 下一步优化方向
+1. **VLM辅助**: 用GLM视觉模型辅助识别轮廓区域
+2. **自适应参数**: 根据图像统计自动调整二值化阈值
+3. **闭合路径**: 轮廓跟踪替代Hough线段
+4. **标定**: QR码/参考尺自动标定
+5. **模板匹配**: FEFCO标准模板对齐
+
 ## 安装命令
 
 ```bash
@@ -51,15 +83,18 @@ cp -r skills/diepre-vision-cognition ~/.openclaw/skills/
 ## 调用方式
 
 ```python
-from skills.diepre_vision_cognition import DiePrevisionCognition
+# Pipeline v3.0 (当前版本)
+from pipeline_v3 import DiePrePipelineV3
 
-vision = DiePrevisionCognition(workspace=".")
-result = vision.analyze(
-    image_path="path/to/dieline.png",
-    context={"material": "corrugated", "thickness_mm": 3.0}
-)
+pipeline = DiePrePipelineV3()
+result = pipeline.process("path/to/box_photo.jpg", "output_dir/")
+print(result.summary)
+# 输出: white_black.png, classified.png, .dxf, .svg
 
-print(result.confidence)     # 置信度
-print(result.defects)        # 检测到的缺陷列表
-print(result.collision_log)  # 四向分析详情
+# 批量处理
+from pipeline_v3 import batch
+results = batch("/path/to/photos/", "/path/to/output/")
+
+# 旧版 v1.0 (Hough-based, 500ms/img)
+from pipeline import batch_process as v1_batch
 ```
