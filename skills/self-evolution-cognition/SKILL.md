@@ -1,9 +1,9 @@
 ---
 name: self-evolution-cognition
-version: 1.0.0
+version: 1.1.0
 author: KingOfZhao
 description: 核心自进化认知框架 —— 基于 SOUL 五律的 Agent 自我进化操作系统
-tags: [cognition, self-evolution, soul, metacognition, agi]
+tags: [cognition, self-evolution, soul, metacognition, agi, embodied-ai]
 license: MIT
 homepage: https://github.com/KingOfZhao/AGI_PROJECT
 ---
@@ -19,6 +19,17 @@ homepage: https://github.com/KingOfZhao/AGI_PROJECT
 | 作者       | KingOfZhao                     |
 | 发布日期   | 2026-03-31                     |
 | 置信度     | 97%                            |
+
+## 学术参考文献
+
+本框架的理论基础受以下前沿研究启发：
+
+1. **[A Survey of Self-Evolving Agents](https://arxiv.org/abs/2507.21046)** — 自进化Agent综述，涵盖What/When/How三维度
+2. **[SAGE: Multi-Agent Self-Evolution for LLM Reasoning](https://arxiv.org/abs/2603.15255)** — Challenger+Planner+Solver+Critic四Agent闭环（←四向碰撞的理论对应）
+3. **[Group-Evolving Agents](https://arxiv.org/abs/2602.04837)** — 群体进化+经验共享（←人机闭环的扩展方向）
+4. **[Self-evolving Embodied AI](https://arxiv.org/abs/2602.04411)** — 具身智能自进化（←向长期方向的演进路径）
+5. **[Memory in the Age of AI Agents](https://arxiv.org/abs/2512.13564)** — Agent记忆体系（←"文件即记忆"的学术支撑）
+6. **[Beyond RAG for Agent Memory](https://arxiv.org/abs/2602.02007)** — 超越RAG的长时序记忆（←记忆模块升级方向）
 
 ## 核心能力
 

@@ -3,7 +3,7 @@
 > ArXiv 论文碰撞认知 Skill —— 用四向碰撞从学术论文中炼出可操作的项目洞见
 
 **作者**: KingOfZhao  
-**版本**: 1.0.0  
+**版本**: 1.1.0  
 **发布日期**: 2026-03-31  
 **许可证**: MIT
 
@@ -96,7 +96,41 @@ clawhub install self-evolution-cognition
 clawhub install diepre-vision-cognition
 ```
 
+## 核心论文库（精选 11 篇）
+
+### 🧬 自进化 Agent（4篇）
+- [Group-Evolving Agents](https://arxiv.org/abs/2602.04837) — 群体进化+经验共享，匹配人机闭环
+- [A Survey of Self-Evolving Agents](https://arxiv.org/abs/2507.21046) — 理论骨架
+- [SAGE: Multi-Agent Self-Evolution](https://arxiv.org/abs/2603.15255) — 四Agent闭环=四向碰撞
+- [Self-evolving Embodied AI](https://arxiv.org/abs/2602.04411) — 匹配偶身智能路径
+
+### 👁️ DiePre 视觉 / CAD（3篇）
+- [VLM for 3D CAD Code](https://arxiv.org/abs/2410.05340) — VLM→CAD+验证
+- [2D→3D Parametric via VLM](https://arxiv.org/abs/2412.11892) — 透视矫正+参数化
+- [Tool-Augmented VLLMs for CAD](https://arxiv.org/) (ICCV 2025) — 通用CAD任务
+
+### 🤖 具身智能 VLA（2篇）
+- [Efficient VLA Models](https://arxiv.org/abs/2510.17111) — 低延迟本地部署
+- [Vlaser: Synergistic Embodied Reasoning](https://arxiv.org/abs/2510.11027) — 具身推理
+
+### 🧠 Agent 记忆（2篇）
+- [Memory in the Age of AI Agents](https://arxiv.org/abs/2512.13564) — 记忆体系综述
+- [Beyond RAG for Agent Memory](https://arxiv.org/abs/2602.02007) — 超越RAG的长时序记忆
+
+## 每日筛选工作流
+
+```
+心跳周期 → ArXiv API 拉取（上限5篇）→ 四向碰撞 → 
+置信度≥85%的洞见加入队列 → 人类证伪 → 知识库更新
+```
+
 ## 变更日志
+
+### v1.1.0 (2026-03-31)
+- 新增核心论文库（11篇精选，按4主题分组）
+- 新增每日筛选工作流（daily_screening API）
+- 新增批量碰撞接口
+- 关键词覆盖: self-evolving agent, VLM, CAD, VLA, agent memory
 
 ### v1.0.0 (2026-03-31)
 - 初始发布

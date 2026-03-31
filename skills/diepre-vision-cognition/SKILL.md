@@ -1,9 +1,9 @@
 ---
 name: diepre-vision-cognition
-version: 1.0.0
+version: 1.1.0
 author: KingOfZhao
 description: DiePre 视觉认知 Skill —— 将包装/模切机器视觉感知与 SOUL 推理融合的认知框架
-tags: [cognition, vision, diepre, packaging, manufacturing, quality-control]
+tags: [cognition, vision, diepre, packaging, manufacturing, quality-control, cad, vlm]
 license: MIT
 homepage: https://github.com/KingOfZhao/AGI_PROJECT
 ---
@@ -19,6 +19,16 @@ homepage: https://github.com/KingOfZhao/AGI_PROJECT
 | 作者       | KingOfZhao                     |
 | 发布日期   | 2026-03-31                     |
 | 置信度     | 96%                            |
+
+## 学术参考文献
+
+本视觉框架的技术路线受以下前沿研究启发：
+
+1. **[Generating CAD Code with Vision-Language Models](https://arxiv.org/abs/2410.05340)** — VLM生成CAD代码+迭代验证（CADCodeVerify），直接升级照片→DXF管道
+2. **[From 2D CAD to 3D Parametric via VLM](https://arxiv.org/abs/2412.11892)** — 2D图纸→参数化3D，解决透视矫正和参数化问题
+3. **[Tool-Augmented VLLMs as Generic CAD Task Solvers](https://arxiv.org/) (ICCV 2025)** — VLLM+工具调用做通用CAD，封装OpenCV管道为可调用Skill
+4. **[Efficient Vision-Language-Action Models](https://arxiv.org/abs/2510.17111)** — VLA高效优化（低延迟+内存优化），适合本地部署
+5. **[Vlaser: Synergistic Embodied Reasoning](https://arxiv.org/abs/2510.11027)** — 具身推理VLA，未来"照片→动作决策"的理论基础
 
 ## 核心能力
 
