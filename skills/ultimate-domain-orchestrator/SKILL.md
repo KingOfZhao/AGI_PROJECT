@@ -79,13 +79,19 @@ ultimate-domain-orchestrator
   D8: 确认偏误/p-hacking/不可复现/理论过拟合
   D10: →代码(计算方法)/→医疗(临床)/→金融(量化)/→工业(材料R&D)
 
-代码 (D3/D5/D6/D7/D8/D9 = 6维度)
-  D3: 单元+集成+E2E/CI/CD/混沌工程/安全扫描
-  D5: 不硬编码密钥/不裸except/不跳过测试/trash>rm
-  D6: Git/GitHub/Docker/K8s/Terraform/OpenTelemetry
-  D7: 四向代码碰撞+ADR+技术雷达+TCO分析
-  D8: 生产事故/安全漏洞/技术债务失控/架构腐化
-  D9: AI生成→人类架构决策→结果反馈→AI学习
+代码 (D1/D2/D3/D4/D5/D6/D7/D8/D9/D10/D11/D12 = 12维度)
+  D1 核心知识: 系统设计(分布式/微服务/事件驱动)、算法复杂度(O(n)/O(n²)/O(n log n))、设计模式(GoF23/SOLID/函数式)、架构演进(单体→SOA→微服务→Serverless)
+  D2 前沿未知: AI代码生成可靠性边界(哪些场景可靠)、WebAssembly生态成熟度、量子计算编程范式、Rust系统编程普及拐点、AI原生IDE形态、形式化验证普及路径
+  D3 验证方法: 单元测试+集成测试+E2E(金字塔模型)、CI/CD流水线(自动部署)、Code Review(4眼原则)、混沌工程(故障注入)、性能基准测试、安全扫描(SAST/DAST/SCA)
+  D4 记忆体系: docstrings(API文档)+CHANGELOG(变更日志)+architecture_docs(架构文档)+runbooks(运维手册)+ADR(架构决策记录)+postmortems(事故报告)+onboarding(入职文档)
+  D5 红线: 不硬编码密钥(用Secret Manager)、不裸except(必须指定异常)、不跳过测试(100% CI通过)、周五不部署(除非紧急+回滚)、trash>rm(可恢复)、不直连生产DB
+  D6 工具: Git/GitHub/GitLab(版本控制)、VS Code/Cursor(IDE)、Docker/K8s(容器)、Terraform/Pulumi(IaC)、OpenTelemetry(可观测)、SonarQube(质量)、Snyk/Dependabot(安全)
+  D7 决策框架: 四向代码碰撞(正确性/失败场景/复用性/架构一致性)+ADR(上下文→决策→后果)+技术雷达(采用/试验/评估/暂缓)+TCO分析+做不做矩阵(影响×概率×成本)
+  D8 失败模式: 生产事故(可用性/数据丢失)、安全漏洞(SQL注入/XSS/供应链攻击)、技术债务失控(重构>新功能)、架构腐化(循环依赖/上帝类)、配置错误(权限/网络/环境)
+  D9 人机闭环: AI代码生成→人类架构决策→Code Review→结果反馈→AI学习编码规范→更精准生成
+  D10 跨领域融合: →所有领域(代码是通用工具层)→商业(SaaS/数据产品)→科研(计算方法/AI4Science)→工业(MES/工业软件)→医疗(MedTech/生物信息)→金融(量化交易/FinTech)→艺术(创意工具/Web3D)
+  D11 趋势: AI结对编程普及(2026)→AI自主开发简单项目(2027)→AI架构师(2028)→全自动软件工厂(需求→代码→测试→部署)(2029)
+  D12 成长指标: 代码质量(SonarQube评分)、交付频率(DORA:部署频率/MTTR)、安全评分(漏洞数/修复时间)、技术债务比率、系统可靠性(SLO/SLA)
 
 环境 (D1/D3/D5/D10 = 4维度)
   D1: 气候模型/IPCC/碳核算(GHG Protocol)/LCA

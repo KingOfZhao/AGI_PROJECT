@@ -89,15 +89,19 @@ cognitive-fusion-universe
   D11: AI质检(2026)→数字孪生(2027)→黑灯工厂(2028)→自进化产线(2030)
   D12: OEE提升/不良PPM/交期/MTBF
 
-代码 (D1/D3/D5/D6/D7/D8/D9/D10/D11 = 9维度)
-  D3: 单元+集成+E2E/CI/CD/混沌工程/SAST/DAST/SCA
-  D5: 不硬编码密钥/不裸except/不跳过测试/trash>rm
-  D6: Git/GitHub/VS Code/Docker/K8s/Terraform/OpenTelemetry
-  D7: 四向代码碰撞+ADR+技术雷达+TCO+做不做矩阵
-  D8: 生产事故/安全漏洞/技术债务/架构腐化/供应链攻击
-  D9: AI代码生成→人类架构决策→反馈→AI学习
-  D10: →所有领域(代码是通用层)
-  D11: AI结对编程(2026)→AI自主开发(2027)→全自动软件工厂(2029)
+代码 (D1/D2/D3/D4/D5/D6/D7/D8/D9/D10/D11/D12 = 12维度)
+  D1 核心知识: 系统设计(分布式/微服务/事件驱动)、算法复杂度(O(n)/O(n²)/O(n log n))、设计模式(GoF23/SOLID/函数式)、架构演进(单体→SOA→微服务→Serverless)
+  D2 前沿未知: AI代码生成可靠性边界、WebAssembly生态成熟度、量子计算编程范式(Qiskit/Cirq)、Rust系统编程普及拐点、AI原生IDE形态、形式化验证普及路径
+  D3 验证方法: 单元+集成+E2E(金字塔模型)、CI/CD流水线、Code Review(4眼原则)、混沌工程(故障注入)、性能基准测试、安全扫描(SAST/DAST/SCA)
+  D4 记忆体系: docstrings+CHANGELOG+architecture_docs+runbooks+ADR+postmortems+onboarding
+  D5 红线: 不硬编码密钥(用Secret Manager)、不裸except(必须指定异常)、不跳过测试(100% CI通过)、周五不部署(除非紧急+回滚)、trash>rm(可恢复)、不直连生产DB(只读副本)
+  D6 工具: Git/GitHub/GitLab、VS Code/Cursor、Docker/K8s、Terraform/Pulumi(IaC)、OpenTelemetry(可观测)、SonarQube(质量)、Snyk/Dependabot(安全)
+  D7 决策框架: 四向代码碰撞(正确性/失败/复用/架构)+ADR(上下文→决策→后果)+技术雷达(采用/试验/评估/暂缓)+TCO+做不做矩阵
+  D8 失败模式: 生产事故(可用性/数据丢失)、安全漏洞(SQL注入/XSS/供应链)、技术债务失控、架构腐化(循环依赖/上帝类)、配置错误
+  D9 人机闭环: AI代码生成→人类架构决策→Code Review→反馈→AI学习编码规范
+  D10 跨领域融合: →商业(SaaS/数据产品)/→科研(计算/AI4Science)/→工业(MES)/→医疗(MedTech)/→金融(量化)/→艺术(创意工具/Web3D)
+  D11 趋势: AI结对编程(2026)→AI自主开发(2027)→AI架构师(2028)→全自动软件工厂(2029)
+  D12 成长指标: SonarQube评分、DORA指标(部署频率/MTTR)、安全评分(漏洞数/修复时间)、技术债务比率、SLO/SLA
 
 金融 (D1/D3/D5/D7/D8/D10/D12 = 7维度)
   D1: DCF/相对估值/VaR/CVaR/衍生品/另类投资/行为金融
